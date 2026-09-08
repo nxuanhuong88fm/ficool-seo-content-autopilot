@@ -1,9 +1,9 @@
 [project]
 name = "ficool-seo-content-autopilot"
-version = "1.0.0"
-description = "Draft-first SEO content automation for Ficool"
+version = "1.1.1"
+description = "Production draft-first SEO content automation for Ficool"
 requires-python = ">=3.10"
-dependencies = ["PyYAML>=6.0", "requests>=2.31"]
+dependencies = ["PyYAML>=6.0", "requests>=2.31", "google-auth>=2.30", "openai>=1.40"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
