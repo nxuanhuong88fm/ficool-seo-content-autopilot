@@ -1,0 +1,30 @@
+brand:
+  name: Ficool
+  tagline: Sửa nhanh - Lạnh Ngay
+voice:
+  professional: true
+  trustworthy: true
+  practical: true
+  clear: true
+  technical_but_accessible: true
+  local: true
+style:
+  paragraph_length: short
+  sentence_length: varied
+  avoid_excessive_headings: true
+prefer:
+  - practical examples
+  - troubleshooting logic
+  - clear explanations
+  - transparent advice
+  - safety notes
+  - actionable steps
+avoid:
+  - exaggerated claims
+  - fake urgency
+  - fake testimonials
+  - fabricated experience
+  - fabricated statistics
+  - keyword stuffing
+  - generic AI phrases
+  - fear marketing

@@ -1,0 +1,14 @@
+site:
+  name: Ficool
+  url: https://ficool.vn
+  language: vi-VN
+  country: VN
+  city: Ho Chi Minh City
+business:
+  type: local_service
+  industry: HVAC / refrigeration service
+cms:
+  type: wordpress
+defaults:
+  publish_status: draft
+  language: vi-VN

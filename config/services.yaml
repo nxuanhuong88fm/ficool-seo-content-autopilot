@@ -1,0 +1,19 @@
+services:
+  may-lanh:
+    name: Máy lạnh
+    operations: [vệ sinh, sửa chữa, bảo trì, lắp đặt]
+  may-giat:
+    name: Máy giặt
+    operations: [vệ sinh, sửa chữa, bảo trì, lắp đặt]
+  tu-lanh:
+    name: Tủ lạnh
+    operations: [vệ sinh, sửa chữa, bảo trì]
+  tu-mat-tu-dong:
+    name: Tủ mát / Tủ đông
+    operations: [vệ sinh, sửa chữa, bảo trì, lắp đặt]
+  may-nuoc-nong:
+    name: Máy nước nóng
+    operations: [vệ sinh, sửa chữa, bảo trì, lắp đặt]
+  thiet-bi-khac:
+    name: Thiết bị khác
+    operations: []

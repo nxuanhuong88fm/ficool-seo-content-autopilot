@@ -1,0 +1,13 @@
+funnel:
+  stages:
+    - problem_aware
+    - solution_aware
+    - service_aware
+    - provider_aware
+    - ready_to_buy
+  cta_levels:
+    problem_aware: soft
+    solution_aware: soft
+    service_aware: medium
+    provider_aware: strong
+    ready_to_buy: strong

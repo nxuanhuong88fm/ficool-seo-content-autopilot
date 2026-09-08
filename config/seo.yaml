@@ -1,0 +1,12 @@
+seo:
+  primary_language: vi-VN
+  title_max_chars: 60
+  meta_description_max_chars: 160
+  require_primary_keyword: true
+  require_unique_slug: true
+  require_internal_links: true
+  require_external_sources_when_needed: true
+  geo:
+    enabled: true
+  local:
+    enabled: true

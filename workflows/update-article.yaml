@@ -1,0 +1,14 @@
+name: update-article
+triggers:
+  - high_impressions_low_ctr
+  - position_4_to_20
+  - declining_clicks
+  - content_decay
+steps:
+  - gsc-analysis
+  - update-brief
+  - content-refresh
+  - image-refresh
+  - internal-link-refresh
+  - qa
+  - wordpress-update

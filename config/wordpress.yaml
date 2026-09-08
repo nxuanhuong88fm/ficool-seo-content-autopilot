@@ -1,0 +1,7 @@
+wordpress:
+  base_url_env: WP_URL
+  username_env: WP_USERNAME
+  application_password_env: WP_APPLICATION_PASSWORD
+  default_status: draft
+  verify_after_write: true
+  api_prefix: /wp-json/wp/v2

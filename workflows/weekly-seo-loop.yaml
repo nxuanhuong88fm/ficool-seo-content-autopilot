@@ -1,0 +1,7 @@
+name: weekly-seo-loop
+steps:
+  - gsc-refresh
+  - quick-win-detection
+  - content-gap-analysis
+  - update-priority
+  - new-content-priority

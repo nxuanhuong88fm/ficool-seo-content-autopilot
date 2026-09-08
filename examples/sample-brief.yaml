@@ -1,0 +1,21 @@
+article:
+  title: Máy lạnh bị chảy nước: nguyên nhân và cách xử lý
+  primary_keyword: máy lạnh bị chảy nước
+  search_intent: informational
+  funnel_stage: problem_aware
+strategy:
+  business_goal: educate_and_assist
+  unique_angle: explain likely causes and when professional diagnosis is needed
+structure:
+  h1: Máy lạnh bị chảy nước: nguyên nhân và cách xử lý
+links:
+  required_internal: []
+images:
+  target_count: 4
+seo:
+  slug: may-lanh-bi-chay-nuoc
+  meta_title: Máy lạnh bị chảy nước: 7 nguyên nhân thường gặp
+  meta_description: Tìm hiểu nguyên nhân máy lạnh bị chảy nước, cách kiểm tra an toàn và khi nào nên gọi kỹ thuật viên.
+cta:
+  type: soft
+  destination: /dich-vu/

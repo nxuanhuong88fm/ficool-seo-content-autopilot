@@ -1,0 +1,2 @@
+type: object
+required: [slug, meta_title, meta_description, primary_keyword]

@@ -1,0 +1,22 @@
+name: create-article
+steps:
+  - keyword-research
+  - content-gap-analysis
+  - topic-cluster
+  - content-funnel
+  - serp-research
+  - content-brief
+  - blog-writer
+  - internal-linker
+  - image-planner
+  - image-generator
+  - image-seo
+  - content-assembler
+  - local-seo
+  - geo-content-optimizer
+  - conversion-optimizer
+  - seo-audit
+  - content-qa
+  - wordpress-publisher
+policy:
+  wordpress_status: draft

@@ -1,0 +1,11 @@
+content:
+  language: vi-VN
+  default_status: draft
+  require_brief: true
+  require_qa: true
+  article_length:
+    min_words: 1200
+    max_words: 2800
+  internal_links:
+    min: 3
+    max: 8

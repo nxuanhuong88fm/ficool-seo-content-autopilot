@@ -1,0 +1,12 @@
+[project]
+name = "ficool-seo-content-autopilot"
+version = "1.0.0"
+description = "Draft-first SEO content automation for Ficool"
+requires-python = ">=3.10"
+dependencies = ["PyYAML>=6.0", "requests>=2.31"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

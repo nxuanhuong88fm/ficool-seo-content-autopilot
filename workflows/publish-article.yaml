@@ -1,0 +1,11 @@
+name: publish-article
+steps:
+  - validate-content
+  - validate-images
+  - upload-images
+  - assemble-content
+  - validate-html
+  - create-wordpress-draft
+  - verify-wordpress-draft
+policy:
+  production_publish: human_approval_required

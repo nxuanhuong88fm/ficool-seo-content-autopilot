@@ -1,0 +1,15 @@
+images:
+  provider: mock
+  format: webp
+  max_width: 1600
+  lazy_load: true
+  counts:
+    800-1500: 2-4
+    1500-2500: 3-5
+    2500-3500: 4-7
+  global_exclusions:
+    - watermark
+    - fake logo
+    - random text
+    - distorted hands
+    - impossible equipment

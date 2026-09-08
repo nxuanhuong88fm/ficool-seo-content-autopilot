@@ -1,0 +1,2 @@
+type: object
+required: [keyword, intent, funnel_stage, opportunity_score]

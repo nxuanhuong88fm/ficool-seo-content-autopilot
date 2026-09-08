@@ -1,0 +1,8 @@
+locations:
+  primary:
+    name: Ho Chi Minh City
+    country: Vietnam
+    language: vi-VN
+  usage:
+    natural_only: true
+    avoid_keyword_stuffing: true
