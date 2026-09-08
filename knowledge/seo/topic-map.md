@@ -1,5 +1,8 @@
-# Ficool Topic Map
+# Ficool 108-topic map
 
-Import the master 108-topic content map here. Each topic should include ID, category, tag, primary/secondary keywords, intent, funnel stage, content type, related topics, service and priority.
+Canonical source: `knowledge/seo/topic-seed.json`.
 
-Example: ML-001 — Máy lạnh bị chảy nước — Problem Aware — Troubleshooting.
+- 6 categories
+- 18 topics per category
+- 108 topics total
+- `pipeline/topic_selector.py` converts the seed into the structured topic contract used by GSC prioritization, research, writing, image planning and WordPress publishing.
