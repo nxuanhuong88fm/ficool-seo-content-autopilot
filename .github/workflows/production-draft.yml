@@ -1,0 +1,58 @@
+name: Ficool Production Draft
+
+on:
+  schedule:
+    - cron: '17 1 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ficool-production-draft
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -e .
+
+      - name: Run production draft pipeline
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_TEXT_MODEL: ${{ vars.OPENAI_TEXT_MODEL }}
+          OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
+          GSC_SITE_URL: ${{ vars.GSC_SITE_URL }}
+          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          WP_URL: ${{ vars.WP_URL }}
+          WP_USERNAME: ${{ vars.WP_USERNAME }}
+          WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
+          FICOOL_MAX_ARTICLES_PER_RUN: '1'
+        run: python scripts/production_draft.py
+
+      - name: Commit run manifest
+        run: |
+          git config user.name 'ficool-seo-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add output/manifests
+          if git diff --cached --quiet; then
+            echo 'No new manifest to commit.'
+          else
+            git commit -m 'chore: save production draft run manifest'
+            git push
+          fi
