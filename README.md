@@ -69,8 +69,36 @@ python scripts/ficool.py show ML-01                   # xem một chủ đề
 python scripts/ficool.py run ML-01 --mock-images      # chạy thử, không gọi API ảnh
 python scripts/ficool.py run ML-01                    # chạy thật -> gói bàn giao
 python scripts/ficool.py run ML-01 --dang-bai=rest    # máy tự đăng, cần khoá WP_*
-python scripts/ficool.py run --auto                   # tự chọn chủ đề (cron dùng lệnh này)
+python scripts/ficool.py run --auto                   # tự chọn theo GSC (cron dùng lệnh này)
+
+python scripts/ficool.py lo 10 --xem-truoc            # xem 10 chủ đề kế tiếp + ước lượng gọi API
+python scripts/ficool.py lo 10                        # chạy lô 10 bài
+python scripts/ficool.py cho-dang                     # gói đã dựng, chưa lên WordPress
+python scripts/ficool.py da-dang ML-01-ab12 4242      # đóng sổ sau khi tác nhân đã đăng
 ```
+
+## Chạy theo lô, thứ tự cố định
+
+Đây là chế độ đang dùng.
+
+**Vì sao KHÔNG dùng `--auto` lúc này:** site đang `blog_public = 0`, chưa từng
+được lập chỉ mục, nên không có một lượt hiển thị nào. Đo được: cho
+`prioritize_topics` chạy với dữ liệu GSC rỗng thì 108 chủ đề **sụp xuống đúng
+hai mức điểm** — 33 bài ở 20.0 và 75 bài ở 10.0. `--auto` chỉ đang bốc ngẫu
+nhiên trong 33 bài đồng hạng, nhưng trông như có căn cứ. Thứ tự cố định trung
+thực hơn và kiểm soát được.
+
+| `--thu-tu` | thứ tự | khi nào dùng |
+|---|---|---|
+| **`cum`** *(mặc định)* | ML-01…ML-18, rồi MG-01… | gom cụm chủ đề — một lô 10 bài nằm trong cùng một dòng thiết bị |
+| `luan-phien` | ML-01, MG-01, TL-01, TD-01, MN-01, TK-01, ML-02… | phủ rộng sớm — mỗi dịch vụ có bài ngay từ lô đầu |
+
+Một bài hỏng **không giết cả lô** — chín bài kia đã tốn tiền API rồi. Lô chạy
+tiếp, cuối cùng báo tổng kết và mã thoát khác 0 nếu có bài hỏng.
+
+`output/manifests/` ghi sổ **ngay lúc dựng gói**, cố ý: sổ nghĩa là *"đã tiêu
+ngân sách API cho chủ đề này"*, chạy lại là tiêu lần nữa. Đổi lại phải có
+`cho-dang` để nhìn ra gói nào còn nợ chưa đăng, và `da-dang` để đóng sổ.
 
 `--auto` xếp hạng 108 chủ đề theo tín hiệu GSC, bỏ chủ đề đã có bản nháp, rồi
 chạy chủ đề đứng đầu. So khớp truy vấn có bỏ dấu, nên truy vấn gõ không dấu vẫn

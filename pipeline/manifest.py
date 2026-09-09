@@ -41,3 +41,36 @@ def ghi(run_id: str, topic: dict, article: dict, qa: dict, wp: dict) -> Path:
         'created_at': datetime.now(timezone.utc).isoformat(),
     }, ensure_ascii=False, indent=2), encoding='utf-8')
     return duong
+
+
+def dang_cho() -> list:
+    """Các lượt đã dựng gói nhưng CHƯA lên WordPress.
+
+    Đường `ho-so` ghi sổ ngay lúc dựng gói — cố ý, vì sổ nghĩa là "đã tiêu ngân
+    sách API cho chủ đề này", và chạy lại là tiêu lần nữa. Nhưng thế thì phải có
+    chỗ nhìn ra gói nào còn nợ chưa đăng, nếu không nó lặng lẽ mất.
+    """
+    ra = []
+    THU_MUC.mkdir(parents=True, exist_ok=True)
+    for p in sorted(THU_MUC.glob('*.json')):
+        try:
+            d = json.loads(p.read_text(encoding='utf-8'))
+        except (json.JSONDecodeError, OSError):
+            continue
+        if d.get('wp_status') == 'cho_tac_nhan' and not d.get('wp_post_id'):
+            ra.append(d)
+    return ra
+
+
+def danh_dau_da_dang(run_id: str, post_id: int, link: str = '') -> Path:
+    """Đóng sổ sau khi tác nhân đã đăng gói lên WordPress."""
+    duong = THU_MUC / (run_id + '.json')
+    if not duong.exists():
+        raise FileNotFoundError('khong thay so cua luot %s' % run_id)
+    d = json.loads(duong.read_text(encoding='utf-8'))
+    d['wp_post_id'] = int(post_id)
+    d['wp_status'] = 'draft'
+    d['wp_link'] = link or d.get('wp_link')
+    d['dang_luc'] = datetime.now(timezone.utc).isoformat()
+    duong.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding='utf-8')
+    return duong

@@ -132,6 +132,88 @@ def cmd_demo(args):
     return 0 if qa['status'] == 'PASS' else 1
 
 
+
+def cmd_lo(args):
+    """Chạy một LÔ nhiều bài theo thứ tự cố định."""
+    from pipeline.chon import HetChuDe, chon_lo
+    from pipeline.run import DaLamRoi, QAChan, run_topic
+
+    try:
+        lo, con_lai = chon_lo(args.so_luong, args.thu_tu)
+    except (HetChuDe, ValueError) as e:
+        _in('KHONG CHAY DUOC: %s' % e)
+        return 2
+
+    _in('Lo %d bai (thu tu: %s) — con %d chu de chua lam:' % (len(lo), args.thu_tu, con_lai))
+    for t in lo:
+        _in('  %s  %s' % (t['id'], t['title']))
+
+    if not args.mock_images:
+        _in('')
+        _in('Uoc luong goi API: %d luot nghien cuu + %d luot viet + %d luot meta + %d anh.'
+            % (len(lo), len(lo), len(lo), len(lo) * 4))
+    if args.xem_truoc:
+        _in('')
+        _in('(--xem-truoc: chi liet ke, chua chay)')
+        return 0
+
+    xong, hong = [], []
+    for i, t in enumerate(lo, 1):
+        _in('')
+        _in('[%d/%d] %s — %s' % (i, len(lo), t['id'], t['title']))
+        try:
+            root, qa, wp = run_topic(t['id'], output_root=args.output_dir,
+                                     use_mock_images=args.mock_images,
+                                     dang_bai=args.dang_bai)
+        except DaLamRoi as e:
+            _in('   BO QUA: %s' % e)
+            continue
+        except QAChan as e:
+            _in('   QA CHAN: %s' % e)
+            hong.append((t['id'], 'QA'))
+            continue
+        except Exception as e:                       # noqa: BLE001
+            # Một bài hỏng KHÔNG được giết cả lô — chín bài kia đã tốn tiền rồi.
+            _in('   HONG: %s: %s' % (type(e).__name__, e))
+            hong.append((t['id'], type(e).__name__))
+            continue
+        xong.append((t['id'], wp))
+        _in('   OK — QA %d/100 · %s' % (qa['overall'], wp.get('goi') or wp.get('link') or wp['status']))
+
+    _in('')
+    _in('═' * 60)
+    _in('Xong %d/%d bai.' % (len(xong), len(lo)))
+    if hong:
+        _in('Hong %d: %s' % (len(hong), ', '.join('%s (%s)' % h for h in hong)))
+    if xong and xong[0][1].get('goi'):
+        _in('')
+        _in('%d goi ban giao dang cho. Bao Claude Code:' % len(xong))
+        _in('   "dang %d goi dang cho len WordPress qua novamira"' % len(xong))
+    return 1 if hong else 0
+
+
+def cmd_cho_dang(args):
+    """Liệt kê gói đã dựng nhưng chưa lên WordPress."""
+    from pipeline import manifest
+    ds = manifest.dang_cho()
+    if not ds:
+        _in('Khong co goi nao dang cho.')
+        return 0
+    _in('%d goi dang cho dang:' % len(ds))
+    for d in ds:
+        _in('  %-24s %s' % (d['run_id'], d['topic']))
+        _in('      slug: %s' % d['slug'])
+    return 0
+
+
+def cmd_da_dang(args):
+    """Đóng sổ sau khi tác nhân đã đăng."""
+    from pipeline import manifest
+    duong = manifest.danh_dau_da_dang(args.run_id, args.post_id, args.link or '')
+    _in('Da dong so: %s -> post %s' % (duong.name, args.post_id))
+    return 0
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(prog='ficool')
     sub = p.add_subparsers(dest='command', required=True)
@@ -160,6 +242,28 @@ def main(argv=None):
     s.add_argument('keyword'); s.set_defaults(fn=cmd_demo)
 
     _ep_utf8()
+    s = sub.add_parser('lo', help='chay mot LO nhieu bai theo thu tu co dinh')
+    s.add_argument('so_luong', type=int, nargs='?', default=10)
+    s.add_argument('--thu-tu', dest='thu_tu', default='cum', choices=['cum', 'luan-phien'],
+                   help='cum: ML-01..ML-18 roi MG (gom cum chu de) · '
+                        'luan-phien: vong qua 6 dong thiet bi (phu rong som)')
+    s.add_argument('--dang-bai', dest='dang_bai', default='ho-so',
+                   choices=['ho-so', 'novamira', 'rest', 'auto'])
+    s.add_argument('--mock-images', action='store_true')
+    s.add_argument('--output-dir', default=None)
+    s.add_argument('--xem-truoc', dest='xem_truoc', action='store_true',
+                   help='chi liet ke chu de va uoc luong goi API, chua chay')
+    s.set_defaults(fn=cmd_lo)
+
+    s = sub.add_parser('cho-dang', help='goi da dung nhung chua len WordPress')
+    s.set_defaults(fn=cmd_cho_dang)
+
+    s = sub.add_parser('da-dang', help='dong so sau khi tac nhan da dang')
+    s.add_argument('run_id')
+    s.add_argument('post_id', type=int)
+    s.add_argument('--link', default=None)
+    s.set_defaults(fn=cmd_da_dang)
+
     args = p.parse_args(argv)
     return args.fn(args) or 0
 
