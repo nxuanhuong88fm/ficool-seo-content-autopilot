@@ -76,9 +76,9 @@ def dich_vu_gia(monkeypatch, tmp_path):
     monkeypatch.setattr(pipeline.images, "GeminiImageProvider", lambda *a, **k: _AnhGia())
 
 
-def test_chay_het_pipeline_ra_ban_nhap(wp_gia, dich_vu_gia, tmp_path):
+def test_duong_rest_chay_het_ra_ban_nhap(wp_gia, dich_vu_gia, tmp_path):
     from pipeline.run import run_topic
-    root, qa, wp = run_topic("ML-01", output_root=tmp_path)
+    root, qa, wp = run_topic("ML-01", output_root=tmp_path, dang_bai="rest")
 
     assert qa["status"] == "PASS", f"QA chặn: {qa}"
     assert wp["status"] == "draft", f"khong phai ban nhap: {wp}"

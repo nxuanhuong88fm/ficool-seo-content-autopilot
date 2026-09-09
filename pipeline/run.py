@@ -9,7 +9,7 @@ from pipeline.images import ImagePipeline
 from pipeline.assembly import AssemblyPipeline
 from pipeline.geo import dung_schema, do_geo
 from pipeline.qa import QAPipeline
-from pipeline.wordpress_publish import WordPressPipeline
+from connectors.wordpress.publishers import chon_cong_bo
 from pipeline import manifest
 from pipeline.utils import dump_yaml
 
@@ -43,7 +43,9 @@ class QAChan(RuntimeError):
     pass
 
 
-def run_topic(topic_id, output_root=None, use_mock_images=False, bo_qua_chong_trung=False):
+def run_topic(topic_id, output_root=None, use_mock_images=False,
+              bo_qua_chong_trung=False, dang_bai='ho-so'):
+    """dang_bai: ho-so | novamira | rest | auto — xem connectors/wordpress/publishers.py"""
     topic = TopicSelector().by_id(topic_id)
 
     if not bo_qua_chong_trung and topic_id in manifest.da_lam():
@@ -52,6 +54,12 @@ def run_topic(topic_id, output_root=None, use_mock_images=False, bo_qua_chong_tr
     run_id = f'{topic_id}-{uuid.uuid4().hex[:8]}'
     root = Path(output_root or os.getenv('FICOOL_OUTPUT_DIR', 'output/runs')) / run_id
     root.mkdir(parents=True, exist_ok=True)
+
+    cong_bo = chon_cong_bo(dang_bai, root)
+    if cong_bo.can_khoa and not cong_bo.san_sang():
+        raise RuntimeError(
+            f"duong '{cong_bo.ten}' can WP_URL/WP_USERNAME/WP_APPLICATION_PASSWORD. "
+            "Dung --dang-bai=ho-so de chay khong can khoa.")
 
     research = ResearchPipeline().run(topic, root)
     article = ArticlePipeline().run(topic, research, root)
@@ -70,23 +78,15 @@ def run_topic(topic_id, output_root=None, use_mock_images=False, bo_qua_chong_tr
         for i in images:
             i['local_path'] = str(root / 'images' / i['filename'])
 
-    co_wp = all(os.getenv(k) for k in KHOA_WP)
-    if not co_wp:
-        # Không có khoá: vẫn dựng và vẫn chấm QA, chỉ không đăng.
-        html_body, qa = _ghep_va_cham(topic, article, images, images, research, root)
-        dump_yaml(root / 'qa.yaml', qa)
-        return root, qa, {'status': 'not_run', 'reason': 'WordPress credentials missing'}
-
-    wp_pipeline = WordPressPipeline()
-
-    # ① tải ảnh TRƯỚC  ② dựng HTML bằng URL thật  ③ QA đúng bài sẽ đăng  ④ mới đăng
-    uploaded = wp_pipeline.tai_anh(images)
+    # (1) tai/dat cho anh TRUOC  (2) ghep HTML bang URL that  (3) QA dung bai se dang  (4) moi dang
+    uploaded = cong_bo.tai_anh(images)
     html_body, qa = _ghep_va_cham(topic, article, images, uploaded, research, root)
+
     if qa['status'] != 'PASS':
-        wp_pipeline.don_anh(uploaded)  # bị chặn thì không để lại ảnh mồ côi
+        cong_bo.don_anh(uploaded)
         raise QAChan(f'QA BLOCK {qa["blockers"]} — chi tiet: {qa["chi_tiet"]}')
 
-    wp = wp_pipeline.dang_ban_nhap(topic, article, html_body, uploaded)
+    wp = cong_bo.dang_ban_nhap(topic, article, html_body, uploaded)
     dump_yaml(root / 'wordpress.yaml', wp)
     manifest.ghi(run_id, topic, article, qa, wp)
     return root, qa, wp

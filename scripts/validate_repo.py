@@ -16,6 +16,7 @@ MODULE = [
     'pipeline.run', 'pipeline.cli', 'pipeline.chon', 'pipeline.qa', 'pipeline.assembly',
     'pipeline.article', 'pipeline.images', 'pipeline.research', 'pipeline.manifest',
     'pipeline.prioritize', 'pipeline.topic_selector', 'pipeline.utils', 'pipeline.geo', 'pipeline.bai_mau',
+    'connectors.wordpress.publishers', 'connectors.wordpress.ability',
     'connectors.gsc', 'connectors.gemini', 'connectors.wordpress',
     'connectors.web_search', 'connectors.image_provider',
 ]

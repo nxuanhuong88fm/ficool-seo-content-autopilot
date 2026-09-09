@@ -60,14 +60,18 @@ def cmd_run(args):
     try:
         root, qa, wp = run_topic(args.topic_id, output_root=args.output_dir,
                                  use_mock_images=args.mock_images,
-                                 bo_qua_chong_trung=args.force)
+                                 bo_qua_chong_trung=args.force,
+                                 dang_bai=args.dang_bai)
     except DaLamRoi as e:
         _in(f'BỎ QUA: {e}'); return 0
     except QAChan as e:
         _in(f'QA CHẶN: {e}'); return 2
     _in(f'Thư mục : {root}')
     _in(f'QA      : {qa["status"]} ({qa["overall"]}/100)')
-    _in(f'WordPress: {wp.get("status")} {wp.get("link") or ""}')
+    _in(f'WordPress: [{wp.get("duong")}] {wp.get("status")} {wp.get("link") or ""}')
+    if wp.get('goi'):
+        _in(f'Gói bàn giao: {wp["goi"]}')
+        _in('  → bảo Claude Code: "đăng gói này lên WordPress qua novamira"')
     return 0
 
 
@@ -93,10 +97,7 @@ def cmd_demo(args):
         images.append({'id': f'IMG-{i:03d}', 'width': a.width, 'height': a.height,
                        'filename': a.path.name, 'local_path': str(a.path),
                        'alt': f'{tu_khoa} — {muc_dich}', 'title': muc_dich,
-                       'caption': f'Hình minh họa: {muc_dich}.',
-                       # URL giả dạng WordPress: để cổng QA chạy nguyên vẹn ở
-                       # chế độ demo, thay vì phải miễn trừ một phép đo.
-                       'source_url': f'https://ficool.top/wp-content/uploads/demo/{a.path.name}'})
+                       'caption': f'Hình minh họa: {muc_dich}.'})
 
     article = {'body': than, 'slug': slug,
                'seo': {'title': f'{tu_khoa.capitalize()}: cách xử lý',
@@ -106,8 +107,13 @@ def cmd_demo(args):
              'content_type': 'how_to',
              'primary_keyword': tu_khoa}
 
-    # Dùng ĐÚNG hàm ghép-và-chấm của production, không dựng đường song song.
-    _html, qa = _ghep_va_cham(topic, article, images, images,
+    # Dùng ĐÚNG hàm ghép-và-chấm VÀ đúng thứ tự của đường ho-so thật:
+    # tai_anh() trước (sinh mốc @@ANH:), rồi mới ghép — nếu không thì gói bàn
+    # giao có HTML một đằng, kế hoạch một nẻo.
+    from connectors.wordpress.publishers import CongBoHoSo
+    cb = CongBoHoSo(out)
+    da_tai = cb.tai_anh(images)
+    _html, qa = _ghep_va_cham(topic, article, images, da_tai,
                               {'serp': [{'link': 'https://vd.vn'}]}, out)
 
     (out / 'article.md').write_text(than, encoding='utf-8')
@@ -117,6 +123,12 @@ def cmd_demo(args):
     _in(f'QA  : {qa["status"]} ({qa["overall"]}/100)' + (f' — chặn: {qa["blockers"]}' if qa['blockers'] else ''))
     _in(f'Schema: {qa["schema"]["types"] or "(khong co)"} — {qa["schema"]["faq"]} cap FAQ, '
         f'{qa["schema"]["buoc"]} buoc')
+
+    # Sinh luon goi ban giao. Day la cach DUY NHAT chay thu duong ho-so tu
+    # dau toi cuoi ma khong ton mot dong khoa API nao — nen CI cung chay duoc.
+    if qa['status'] == 'PASS':
+        kq = cb.dang_ban_nhap(topic, article, _html, da_tai)
+        _in('Goi ban giao: ' + str(Path(kq['goi']).relative_to(ROOT)))
     return 0 if qa['status'] == 'PASS' else 1
 
 
@@ -138,6 +150,10 @@ def main(argv=None):
     s.add_argument('--mock-images', action='store_true', help='không gọi API ảnh')
     s.add_argument('--output-dir', default=None)
     s.add_argument('--force', action='store_true', help='bỏ qua chống trùng')
+    s.add_argument('--dang-bai', dest='dang_bai', default='ho-so',
+                   choices=['ho-so', 'novamira', 'rest', 'auto'],
+                   help="ho-so (mặc định): ghi gói bàn giao, KHÔNG cần khoá WordPress · "
+                        "novamira/rest: máy tự đăng, cần khoá · auto: giàu→nghèo→bàn giao")
     s.set_defaults(fn=cmd_run)
 
     s = sub.add_parser('demo', help='chạy khô, không mạng, không khoá')

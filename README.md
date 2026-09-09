@@ -67,13 +67,64 @@ python scripts/ficool.py demo "máy lạnh chảy nước"    # chạy khô, kh�
 python scripts/ficool.py topics --category ML         # liệt kê chủ đề
 python scripts/ficool.py show ML-01                   # xem một chủ đề
 python scripts/ficool.py run ML-01 --mock-images      # chạy thử, không gọi API ảnh
-python scripts/ficool.py run ML-01                    # chạy thật
+python scripts/ficool.py run ML-01                    # chạy thật -> gói bàn giao
+python scripts/ficool.py run ML-01 --dang-bai=rest    # máy tự đăng, cần khoá WP_*
 python scripts/ficool.py run --auto                   # tự chọn chủ đề (cron dùng lệnh này)
 ```
 
 `--auto` xếp hạng 108 chủ đề theo tín hiệu GSC, bỏ chủ đề đã có bản nháp, rồi
 chạy chủ đề đứng đầu. So khớp truy vấn có bỏ dấu, nên truy vấn gõ không dấu vẫn
 tính điểm.
+
+## Ba đường đưa bài lên WordPress
+
+Trục thật **không phải** "MCP hay REST". Đo được trên ficool.top: ability của
+novamira cũng đi qua HTTP với **cùng** application password —
+`POST /wp-json/novamira/v1/abilities/{ten}/run` trả 401 y như `/wp/v2/posts`,
+`permission_callback` chỉ kiểm `current_user_can_manage` (`rest-shim.php:45`).
+
+Trục thật là hai câu hỏi khác nhau: **ai thực thi** và **API nào giàu hơn**.
+
+| `--dang-bai` | ai chạy | cần khoá `WP_*` | được gì thêm |
+|---|---|---|---|
+| **`ho-so`** *(mặc định)* | tác nhân (Claude Code) | **không** | Rank Math + schema qua MCP |
+| `novamira` | máy | có | meta Rank Math hạng nhất |
+| `rest` | máy | có | chạy ở đâu cũng được |
+| `auto` | | | thử giàu → nghèo → bàn giao |
+
+### `ho-so` — mặc định, không cần khoá nào
+
+MCP chỉ tồn tại trong phiên Claude Code; tiến trình Python không gọi được. Nên
+Python làm phần **xác định được** (nghiên cứu, viết, ghép, đo), rồi ghi một gói
+đầy đủ vào `output/runs/<id>/goi-dang/`:
+
+```
+goi-dang/
+  ke-hoach.json    6 bước ability + bảng ảnh + danh sách kiểm sau khi đăng
+  noi-dung.html    HTML đã ghép, ảnh còn là mốc @@ANH:IMG-001@@
+  images/          các tệp ảnh
+```
+
+Rồi bảo Claude Code: *"đăng gói này lên WordPress qua novamira"*. Tác nhân có
+sẵn quyền, không cần một biến `WP_*` nào.
+
+⚠️ **Điểm yếu cố hữu của đường này, nói thẳng:** cổng QA buộc phải chấm HTML khi
+ảnh còn là mốc — tác nhân chỉ biết `media_id` sau khi tải lên. Bước thay chuỗi
+nằm **ngoài** cổng. Nên `ke-hoach.json` mang theo `kiem_sau_dang`: 7 khẳng định
+cụ thể tác nhân phải kiểm lại sau khi đăng (còn `@@ANH:` không, `<img>` có trỏ
+`wp-content/uploads` không, đủ số `<figure>` không, JSON-LD FAQPage còn nguyên
+không…). Không có nó thì bước cuối không ai canh.
+
+`ficool demo` cũng sinh gói này — đó là cách **duy nhất** chạy thử đường `ho-so`
+đầu-tới-cuối mà không tốn một dòng khoá API, nên CI chạy được.
+
+### Vì sao KHÔNG dùng `rank-math-edit-post-schema`
+
+Đặt schema qua Rank Math thì khối FAQPage nằm **ngoài** `post_content`, nên cổng
+QA sẽ chấm một tài liệu khác với tài liệu được đăng — đúng lỗi đã sửa ở `run.py`.
+Một hành vi cho cả ba đường, hoặc không gì cả. JSON-LD vẫn chèn vào
+`post_content`. Riêng `rank-math-edit-post-seo` thì dùng, vì chỗ đó không trùng:
+REST lõi phải **đoán** tên trường qua `WP_META_TITLE_FIELD`.
 
 ## Cổng QA
 
