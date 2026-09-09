@@ -26,6 +26,7 @@ dang_dung: navy-nep-xanh
 phuong_an:
   navy-nep-xanh:
     ten: 'Navy, nẹp vai xanh thương hiệu'
+    kieu: lien-quan
     than_ao: accent-900          # #0c314b
     nep_vai: accent-500          # #0077cc
     chu: text-on-accent          # #ffffff
@@ -35,6 +36,7 @@ phuong_an:
 
   navy-nep-nhat:
     ten: 'Navy, nẹp xanh nhạt'
+    kieu: lien-quan
     than_ao: accent-900
     nep_vai: accent-300          # #93cbee
     chu: text-on-accent
@@ -44,6 +46,7 @@ phuong_an:
 
   xanh-dam-tron:
     ten: 'Xanh đậm trơn, không nẹp'
+    kieu: lien-quan
     than_ao: accent-700          # #0b5188
     nep_vai: null
     chu: text-on-accent
@@ -53,12 +56,29 @@ phuong_an:
 
   xanh-vai-tuong-phan:
     ten: 'Xanh trung, vai tương phản'
+    kieu: lien-quan
     than_ao: accent-600          # #0062a8
     nep_vai: accent-900
     chu: text-on-accent
     mo_ta: >-
       Thân áo xanh trung, khối vai và tay trên màu navy đậm. Nhìn giống đồng phục
       công nghiệp hơn, nổi rõ trong ảnh nền sáng.
+
+  ao-quan-roi-xanh-dam:
+    ten: 'Áo tách quần, xanh đậm (kiểu #1, màu #3)'
+    kieu: ao-quan-roi
+    than_ao: accent-700          # #0b5188 — mau cua phuong an xanh-dam-tron
+    nep_vai: accent-300          # #93cbee — tuong phan du tren nen accent-700
+    chu: text-on-accent
+    mo_ta: >-
+      Áo sơ mi lao động tay ngắn cài cúc, cổ bẻ, hai túi ngực có nắp, hai nẹp
+      mảnh chạy dọc vai. Quần dài rời cùng tông, ống đứng, có túi hông. Áo bỏ
+      trong quần, thắt lưng đen bản nhỏ.
+
+# Kiểu trang phục
+kieu_trang_phuc:
+  lien-quan: 'áo liền quần (coverall) tay dài, khoá kéo giữa trước'
+  ao-quan-roi: 'áo sơ mi lao động tay ngắn rời + quần dài rời cùng tông'
 
 # Chữ trên ngực áo. Khách đã chốt CÓ chữ, chấp nhận rủi ro model vẽ méo.
 chu_nguc:
@@ -68,3 +88,62 @@ chu_nguc:
   # vô nghĩa trên áo. Không có phép kiểm tự động nào bắt được chữ méo, nên bước 0
   # "người xem từng ảnh" trong ke-hoach.json phải kiểm mục này bằng mắt.
   rui_ro: 'chu co the bi meo hoac sai chinh ta — PHAI kiem bang mat'
+
+# ── LOGO ────────────────────────────────────────────────────────────────────
+# Mô tả dưới đây lấy từ chính tệp SVG đang dùng trên web, sau khi RENDER RA VÀ
+# NHÌN — không mô tả theo trí nhớ. Nguồn:
+#   ficool-child/assets/img/ficool-logo-light-solid.svg   (bản nền tối, chữ trắng)
+#   ficool-child/assets/img/ficool-logo-mark.svg          (bản nền sáng, chữ xanh)
+#
+# Chỉ ĐỔI MÀU cho hợp nền áo; cấu trúc và kiểu chữ giữ nguyên.
+logo:
+  cau_truc: >-
+    Gồm ba phần xếp ngang: (1) huy hiệu hình vuông bo góc tròn lớn, nền TRẮNG,
+    bên trong là hai chữ "Fi" kiểu chữ có chân (serif) màu xanh đậm, dấu chấm
+    của chữ "i" được thay bằng một BÔNG TUYẾT sáu cánh nhỏ; (2) bên phải huy
+    hiệu là chữ "FICOOL" viết HOA toàn bộ, kiểu chữ có chân, giãn cách chữ rộng,
+    màu trắng; (3) ngay dưới chữ FICOOL là dòng tagline nhỏ hơn.
+  tagline: 'Sửa nhanh – Lạnh ngay'
+  # ⚠️ aria-label trong SVG ghi "Sửa nhanh, lạnh ngay" nhưng bản VẼ RA là
+  # "Sửa nhanh – Lạnh ngay" (gạch ngang, chữ L hoa). Bản vẽ ra mới là bản đúng.
+  mau_tren_ao_toi:
+    huy_hieu_nen: text-on-accent   # trắng
+    huy_hieu_chu: than_ao          # theo màu áo, để chữ "khoét" ra từ huy hiệu
+    chu_ficool: text-on-accent
+    tagline: text-on-accent
+  # ⚠️ Bốn lỗi ĐO ĐƯỢC ở lượt sinh đầu (09/09), phải nêu thẳng trong prompt:
+  #   1. Model đặt HAI logo trên áo — một ở ngực trái, một ở ngực phải.
+  #   2. Tagline sai chính tả: "Sôa nhanh" thay vì "Sửa nhanh" (mất dấu hỏi + ư).
+  #   3. Bông tuyết trong huy hiệu thành một khối mờ, không ra sáu cánh.
+  #   4. Thừa dấu chấm cuối: "FICOOL." thay vì "FICOOL".
+  rang_buoc: >-
+    CHỈ CÓ ĐÚNG MỘT logo trên toàn bộ trang phục, không lặp lại ở ngực bên kia,
+    không có chữ trên tay áo, vai áo, cổ áo hay quần. Chữ "FICOOL" viết hoa toàn
+    bộ, KHÔNG có dấu chấm hay dấu câu nào ở cuối. Bông tuyết thay dấu chấm chữ
+    "i" phải thấy rõ SÁU CÁNH toả đều từ tâm, không phải một chấm tròn hay khối
+    mờ. Tiếng Việt phải đúng dấu tuyệt đối.
+  anh_tham_chieu:
+    nguc: knowledge/brand/logo/logo-nguc.png            # huy hiệu + FICOOL, không tagline
+    lung: knowledge/brand/logo/logo-lung-tagline.png    # đầy đủ, có tagline
+
+# ── GÓC CHỤP khi sinh ảnh mẫu đồng phục ─────────────────────────────────────
+goc_chup:
+  - ma: truoc
+    ten: 'Chính diện'
+    canh: >-
+      đứng thẳng chính diện, hai tay buông tự nhiên, toàn thân từ đầu tới giày,
+      nhìn thẳng vào ống kính
+    logo: nguc
+    vi_tri_logo: >-
+      ĐÚNG MỘT logo nhỏ trên ngực TRÁI áo (phía bên phải khung hình khi nhìn
+      chính diện). Ngực PHẢI của áo để TRỐNG HOÀN TOÀN — không chữ, không huy
+      hiệu, không thêu gì cả. Đây là chỗ model hay vẽ thừa một logo thứ hai
+  - ma: sau
+    ten: 'Từ phía sau'
+    canh: >-
+      đứng thẳng QUAY LƯNG hoàn toàn về phía ống kính, không thấy mặt, hai tay
+      buông tự nhiên, toàn thân từ đầu tới giày
+    logo: lung
+    vi_tri_logo: >-
+      logo đầy đủ kèm dòng tagline in LỚN giữa lưng áo, canh giữa, chiếm khoảng
+      một nửa bề ngang lưng

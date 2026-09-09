@@ -116,12 +116,35 @@ def cau_hinh_dong_phuc() -> dict:
     return yaml.safe_load(TEP_DONG_PHUC.read_text(encoding='utf-8'))
 
 
+def mo_ta_logo(vi_tri: str = 'nguc') -> str:
+    """Mô tả logo lấy từ chính SVG đang dùng trên web, sau khi render ra và NHÌN."""
+    lg = cau_hinh_dong_phuc()['logo']
+    goc = next(g for g in cau_hinh_dong_phuc()['goc_chup'] if g['logo'] == vi_tri)
+    phan = ['LOGO: %s' % lg['cau_truc'].strip()]
+    if vi_tri == 'lung':
+        phan.append('Dòng tagline ghi đúng: "%s".' % lg['tagline'])
+    else:
+        phan.append('Bản này KHÔNG có dòng tagline.')
+    phan.append('Vị trí: %s.' % goc['vi_tri_logo'].strip())
+    if lg.get('rang_buoc'):
+        phan.append(lg['rang_buoc'].strip())
+    return ' '.join(phan)
+
+
+def anh_logo(vi_tri: str = 'nguc'):
+    """Đường dẫn ảnh logo đã tô theo màu áo, dùng làm ảnh tham chiếu."""
+    duong = Path(__file__).resolve().parents[1] /         cau_hinh_dong_phuc()['logo']['anh_tham_chieu'][vi_tri]
+    return (duong,) if duong.exists() else ()
+
+
 def mo_ta_dong_phuc(ten_phuong_an: str | None = None) -> str:
     """Dựng câu mô tả đồng phục từ cấu hình, không hardcode màu trong mã."""
     c = cau_hinh_dong_phuc()
     pa = c['phuong_an'][ten_phuong_an or c['dang_dung']]
     tok = c['token_duoc_phep']
-    phan = ['ĐỒNG PHỤC: %s' % pa['mo_ta'].strip()]
+    kieu = c.get('kieu_trang_phuc', {}).get(pa.get('kieu', ''), '')
+    phan = ['ĐỒNG PHỤC: %s' % (('%s. %s' % (kieu.capitalize(), pa['mo_ta'].strip()))
+                               if kieu else pa['mo_ta'].strip())]
     phan.append('Màu thân áo %s.' % tok[pa['than_ao']])
     if pa.get('nep_vai'):
         phan.append('Nẹp vai màu %s.' % tok[pa['nep_vai']])

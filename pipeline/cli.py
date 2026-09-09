@@ -283,23 +283,34 @@ def cmd_yeu_cau(args):
 
 
 def cmd_dong_phuc(args):
-    """Sinh các phương án đồng phục để khách chọn.
+    """Sinh ảnh mẫu đồng phục để khách chọn.
 
-    Chạy MỘT LẦN. Ảnh khách chọn chép vào knowledge/brand/nhan-vat/ và từ đó
-    làm ảnh tham chiếu nhân vật cho mọi lượt sinh sau.
+    Mỗi phương án sinh theo từng góc chụp trong `config/dong-phuc.yaml`
+    (chính diện + từ phía sau). Ảnh logo ĐÃ TÔ THEO MÀU ÁO được truyền làm ảnh
+    tham chiếu — đó là cách duy nhất để model vẽ đúng cấu trúc logo thật thay vì
+    bịa ra một cái na ná.
     """
     from datetime import datetime
 
-    from pipeline.images import (CAM_NHAN_HIEU, CHU_DUOC_PHEP, NHAN_VAT,
-                                 cau_hinh_dong_phuc, mo_ta_dong_phuc)
+    from pipeline.images import (CAM_NHAN_HIEU, CHU_DUOC_PHEP, NHAN_VAT, anh_logo,
+                                 cau_hinh_dong_phuc, mo_ta_dong_phuc, mo_ta_logo)
 
     c = cau_hinh_dong_phuc()
-    ten = list(c['phuong_an'])[:args.so_luong]
+    ten = args.phuong_an or list(c['phuong_an'])[:args.so_luong]
+    la = [t for t in ten if t not in c['phuong_an']]
+    if la:
+        _in('Khong co phuong an: %s' % ', '.join(la))
+        _in('Co san: %s' % ', '.join(c['phuong_an']))
+        return 2
+
+    goc = [g for g in c['goc_chup'] if not args.goc or g['ma'] in args.goc]
     out = ROOT / 'output/dong-phuc' / datetime.now().strftime('%Y%m%d-%H%M')
 
-    _in('Sinh %d phuong an dong phuc -> %s' % (len(ten), out.relative_to(ROOT)))
+    _in('Sinh %d phuong an x %d goc = %d anh -> %s'
+        % (len(ten), len(goc), len(ten) * len(goc), out.relative_to(ROOT)))
     for t in ten:
         _in('  %-24s %s' % (t, c['phuong_an'][t]['ten']))
+    _in('  goc chup: %s' % ', '.join('%s (%s)' % (g['ma'], g['ten']) for g in goc))
     if args.xem_truoc:
         _in('')
         _in('(--xem-truoc: chi liet ke, chua goi API)')
@@ -308,36 +319,53 @@ def cmd_dong_phuc(args):
     from connectors.image_provider import GeminiImageProvider
     provider = GeminiImageProvider()
     out.mkdir(parents=True, exist_ok=True)
-    xong = []
+    xong, hong = [], []
+
     for t in ten:
-        prompt = (
-            'Ảnh mẫu đồng phục, phong cách character sheet: một kỹ thuật viên đứng '
-            'chính diện trên nền xám trơn, toàn thân, không cầm thiết bị, không đạo cụ. '
-            + NHAN_VAT + ' ' + mo_ta_dong_phuc(t) + ' ' + CHU_DUOC_PHEP + ' ' + CAM_NHAN_HIEU
-        )
-        try:
-            a = provider.generate(prompt=prompt, output_path=out / t, width=1024, height=1024)
-            xong.append((t, a.path))
-            _in('  OK  %s -> %s' % (t, a.path.name))
-        except Exception as e:                      # noqa: BLE001
-            _in('  HONG %s: %s: %s' % (t, type(e).__name__, e))
+        for g in goc:
+            prompt = ' '.join([
+                'Ảnh mẫu đồng phục, phong cách character sheet: một kỹ thuật viên',
+                g['canh'].strip() + ',',
+                'trên nền xám trơn, không cầm thiết bị, không đạo cụ, ánh sáng studio đều.',
+                NHAN_VAT,
+                mo_ta_dong_phuc(t),
+                mo_ta_logo(g['logo']),
+                CHU_DUOC_PHEP,
+                CAM_NHAN_HIEU,
+            ])
+            ma = '%s--%s' % (t, g['ma'])
+            try:
+                a = provider.generate(prompt=prompt, output_path=out / ma,
+                                      width=1024, height=1024,
+                                      anh_tham_chieu=anh_logo(g['logo']))
+                xong.append(ma)
+                _in('  OK  %-34s %s' % (ma, a.path.name))
+            except Exception as e:                      # noqa: BLE001
+                hong.append(ma)
+                _in('  HONG %-33s %s: %s' % (ma, type(e).__name__, str(e)[:90]))
 
     doc = [
         '# Phuong an dong phuc Ficool',
         '',
-        'Xem tung anh, chon MOT phuong an, roi chep tep do vao:',
+        'Xem tung anh, chon MOT phuong an, roi:',
         '',
-        '    knowledge/brand/nhan-vat/',
+        '1. Chep anh CHINH DIEN cua phuong an do vao `knowledge/brand/nhan-vat/`',
+        '2. Doi `dang_dung:` trong `config/dong-phuc.yaml` sang ten phuong an',
         '',
-        'Va doi `dang_dung:` trong config/dong-phuc.yaml sang ten phuong an tuong ung.',
-        'Tu do no thanh anh tham chieu nhan vat cho MOI luot sinh sau.',
+        'Tu do no thanh anh tham chieu nhan vat cho MOI luot sinh anh bai viet.',
+        '',
+        'PHAI KIEM BANG MAT: chu "Ficool" co dung chinh ta khong, tagline co dung',
+        '"%s" khong, logo co dung cau truc (huy hieu bo goc + chu Fi + bong tuyet)' % c['logo']['tagline'],
+        'khong, va co lot nhan hieu ben thu ba nao vao khong.',
         '',
     ] + ['- `%s` — %s' % (t, c['phuong_an'][t]['ten']) for t in ten]
     (out / 'DOC.md').write_text(chr(10).join(doc), encoding='utf-8')
 
     _in('')
-    _in('Xong %d/%d. Xem anh roi chon mot, chep vao knowledge/brand/nhan-vat/' % (len(xong), len(ten)))
-    return 0 if len(xong) == len(ten) else 1
+    _in('Xong %d/%d.' % (len(xong), len(xong) + len(hong)))
+    if hong:
+        _in('Hong: %s' % ', '.join(hong))
+    return 0 if not hong else 1
 
 
 def main(argv=None):
@@ -402,6 +430,10 @@ def main(argv=None):
 
     s = sub.add_parser('dong-phuc', help='sinh cac phuong an dong phuc de khach chon')
     s.add_argument('--so-luong', dest='so_luong', type=int, default=4)
+    s.add_argument('--phuong-an', dest='phuong_an', nargs='*', default=None,
+                   help='ten phuong an cu the; bo trong thi lay --so-luong phuong an dau')
+    s.add_argument('--goc', nargs='*', default=None,
+                   help='chi sinh goc chup nay (truoc / sau); bo trong thi sinh het')
     s.add_argument('--xem-truoc', dest='xem_truoc', action='store_true')
     s.set_defaults(fn=cmd_dong_phuc)
 
