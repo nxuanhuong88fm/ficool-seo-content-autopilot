@@ -409,8 +409,9 @@ def main(argv=None):
     _nap_env()
     s = sub.add_parser('lo', help='chay mot LO nhieu bai theo thu tu co dinh')
     s.add_argument('so_luong', type=int, nargs='?', default=10)
-    s.add_argument('--thu-tu', dest='thu_tu', default='cum', choices=['cum', 'luan-phien'],
-                   help='cum: ML-01..ML-18 roi MG (gom cum chu de) · '
+    s.add_argument('--thu-tu', dest='thu_tu', default='uu-tien', choices=['uu-tien', 'cum', 'luan-phien'],
+                   help='uu-tien: P1 truoc (nguyen tac 1 cua khach, MAC DINH) · '
+                        'cum: ML-01..ML-18 roi MG (gom cum chu de) · '
                         'luan-phien: vong qua 6 dong thiet bi (phu rong som)')
     s.add_argument('--dang-bai', dest='dang_bai', default='ho-so',
                    choices=['ho-so', 'novamira', 'rest', 'auto'])
@@ -427,7 +428,7 @@ def main(argv=None):
 
     s = sub.add_parser('yeu-cau', help='sinh tep mau de tac nhan dien nghien cuu / bai viet')
     s.add_argument('so_luong', type=int, nargs='?', default=10)
-    s.add_argument('--thu-tu', dest='thu_tu', default='cum', choices=['cum', 'luan-phien'])
+    s.add_argument('--thu-tu', dest='thu_tu', default='uu-tien', choices=['uu-tien', 'cum', 'luan-phien'])
     s.add_argument('--viet', default='toi', choices=['gemini', 'toi'],
                    help='toi (mac dinh): mau co ca phan bai viet')
     s.add_argument('--thu-muc-dau-vao', dest='thu_muc_dau_vao', default=None)
