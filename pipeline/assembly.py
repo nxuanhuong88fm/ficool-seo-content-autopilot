@@ -16,6 +16,14 @@ MOC_LIEN_KET = re.compile(r'<!-- INTERNAL:\s*(?P<neo>.+?)\s*\|\s*(?P<url>\S+?)\s
 # `max-width:720px` Bricks đặt trên thẻ ARTICLE). Mặc định `sizes` của WordPress
 # là `100vw` — sai cho một cột 720px, trình duyệt sẽ chọn bản to hơn mức cần.
 SIZES_BAI_VIET = '(max-width: 767px) 100vw, 720px'
+# ⚠️ ĐO ĐƯỢC TRÊN BÀI 383 (09/09) — WordPress 6.7+ CHÈN THÊM `auto, ` vào đầu
+# `sizes` của MỌI ảnh có `loading="lazy"`. HTML thật ra là:
+#     anh eager (IMG-001): sizes="(max-width: 767px) 100vw, 720px"
+#     ba ảnh lazy        : sizes="auto, (max-width: 767px) 100vw, 720px"
+# Đây KHÔNG phải lỗi và không phải WordPress đè lên ta: `auto` bảo trình duyệt
+# lấy đúng bề rộng dựng thật của thẻ, còn phần ta khai giữ nguyên phía sau làm
+# đường lui cho trình duyệt chưa hiểu `auto`. Đừng "sửa" chỗ này.
+# Hệ quả cho hậu kiểm: so `sizes` phải dùng CHỨA, không được dùng BẰNG.
 
 
 def _the_figure(anh, nguon_url, ma_media=None):

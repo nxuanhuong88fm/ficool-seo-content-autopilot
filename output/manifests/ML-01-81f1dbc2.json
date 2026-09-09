@@ -52,11 +52,24 @@
     }
   },
   "media_ids": [
-    null,
-    null,
-    null,
-    null
+    384,
+    385,
+    386,
+    387
   ],
   "created_at": "2026-09-09T07:38:58.436713+00:00",
-  "dang_luc": "2026-09-09T07:50:05.110826+00:00"
+  "dang_luc": "2026-09-09T07:50:05.110826+00:00",
+  "media_ids_jpg_cu": [
+    379,
+    380,
+    381,
+    382
+  ],
+  "og_media_id": 388,
+  "anh": {
+    "dinh_dang": "image/webp",
+    "chat_luong": 85,
+    "sua_tai_cho": "2026-09-09",
+    "ghi_chu": "4 anh JPEG doi sang WebP ngay tren server (GD), them ban og 1200x630. The <img> co class wp-image + sizes; anh dau eager. 4 attachment JPEG cu (379-382) GIU LAI, chua xoa."
+  }
 }
