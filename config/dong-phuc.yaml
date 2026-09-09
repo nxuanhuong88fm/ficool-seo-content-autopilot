@@ -71,14 +71,14 @@ phuong_an:
     nep_vai: accent-300          # #93cbee — tuong phan du tren nen accent-700
     chu: text-on-accent
     mo_ta: >-
-      Áo sơ mi lao động tay ngắn cài cúc, cổ bẻ, hai túi ngực có nắp, hai nẹp
-      mảnh chạy dọc vai. Quần dài rời cùng tông, ống đứng, có túi hông. Áo bỏ
-      trong quần, thắt lưng đen bản nhỏ.
+      Áo sơ mi lao động TAY DÀI cài cúc, măng sét cài cúc ở cổ tay, cổ bẻ, hai
+      túi ngực có nắp, hai nẹp mảnh chạy dọc vai. Quần dài rời cùng tông, ống
+      đứng, có túi hông. Áo bỏ trong quần, thắt lưng đen bản nhỏ.
 
 # Kiểu trang phục
 kieu_trang_phuc:
   lien-quan: 'áo liền quần (coverall) tay dài, khoá kéo giữa trước'
-  ao-quan-roi: 'áo sơ mi lao động tay ngắn rời + quần dài rời cùng tông'
+  ao-quan-roi: 'áo sơ mi lao động TAY DÀI rời + quần dài rời cùng tông'
 
 # Chữ trên ngực áo. Khách đã chốt CÓ chữ, chấp nhận rủi ro model vẽ méo.
 chu_nguc:
@@ -110,8 +110,11 @@ logo:
   # Bản ngực nổi hơn trên áo tối vì huy hiệu xanh sáng tương phản với thân áo.
   ban_mau:
     nguc: >-
-      Huy hiệu nền XANH SÁNG #0077cc, hai chữ "Fi" và bông tuyết màu TRẮNG bên
-      trong. Chữ "FICOOL" bên phải màu TRẮNG. KHÔNG có tagline.
+      Logo nằm trên một MIẾNG NHÃN NỀN TRẮNG hình chữ nhật bo góc, thêu/in lên
+      ngực áo. Bên trong nhãn: huy hiệu vuông bo góc nền XANH #0077cc với hai
+      chữ "Fi" và bông tuyết màu TRẮNG; bên phải huy hiệu là chữ "FICOOL" màu
+      XANH #0077cc trên nền trắng của nhãn. KHÔNG có tagline. Miếng nhãn trắng
+      này nổi bật rõ trên nền áo xanh đậm.
     lung: >-
       Huy hiệu nền TRẮNG, hai chữ "Fi" và bông tuyết màu xanh đậm cùng tông áo.
       Chữ "FICOOL" và dòng tagline bên phải màu TRẮNG.
@@ -135,7 +138,7 @@ logo:
     "i" phải thấy rõ SÁU CÁNH toả đều từ tâm, không phải một chấm tròn hay khối
     mờ. Tiếng Việt phải đúng dấu tuyệt đối.
   anh_tham_chieu:
-    nguc: knowledge/brand/logo/logo-nguc-badge-xanh.png  # huy hiệu NỀN XANH + FICOOL trắng
+    nguc: knowledge/brand/logo/logo-nguc-nhan-trang.png  # nhãn nền trắng, badge xanh, FICOOL xanh
     lung: knowledge/brand/logo/logo-lung-tagline.png    # đầy đủ, có tagline
 
 # ── GÓC CHỤP khi sinh ảnh mẫu đồng phục ─────────────────────────────────────
