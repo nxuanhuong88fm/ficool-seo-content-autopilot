@@ -1,0 +1,164 @@
+chu_de:
+  id: ML-01
+  tieu_de: Máy lạnh chảy nước trong nhà
+  tu_khoa_chinh: máy lạnh chảy nước trong nhà
+  chuyen_muc: Máy lạnh
+  the:
+  - lỗi thường gặp
+  giai_doan_phieu: problem_aware
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: |
+    Cơ chế: dàn lạnh làm hơi ẩm trong không khí ngưng tụ thành nước. Nước rơi xuống máng hứng
+    rồi theo ống thoát ra ngoài. Bất cứ thứ gì chặn dòng đó đều làm nước tràn vào nhà.
+
+    Bốn nhóm nguyên nhân được cả Trane và Carrier nêu trùng nhau:
+    (1) ống thoát nước bị nghẹt do bụi, nấm mốc, mạng nhện tích tụ khi không vệ sinh định kỳ;
+    (2) máng hứng nước bị nứt hoặc ăn mòn theo thời gian, nước rỉ thẳng xuống sàn;
+    (3) dàn lạnh đóng băng rồi tan ra, lượng nước vượt quá sức chứa của máng — thường do lọc
+    gió bẩn làm nghẽn luồng khí, hoặc do thiếu gas;
+    (4) dàn nóng hỏng, kéo theo mất cân bằng cả hệ.
+
+    Việc người dùng tự làm được: kiểm tra và thay lọc gió, giữ khu vực quanh máng sạch, quan
+    sát ống thoát. Việc phải để kỹ thuật viên: xử lý dàn đóng băng, máng nứt, và mọi thứ liên
+    quan tới gas hoặc mạch điện. Cả hai nguồn đều khuyên NGẮT MÁY trước khi kiểm tra, vì để
+    máy chạy tiếp làm nước tràn thêm.
+
+    Lưu ý riêng cho TP.HCM: khí hậu nóng ẩm quanh năm nên lượng nước ngưng tụ lớn và bụi tích
+    nhanh hơn vùng khô. Nhà ống và chung cư thường đặt dàn lạnh ở vị trí khó với tới.
+  nguon:
+  - url: https://www.trane.com/residential/en/resources/troubleshooting/air-conditioners/ac-leaking-water/
+    title: 'Trane — AC Leaking Water? Find Out Why and What to Do'
+  - url: https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/why-is-my-ac-leaking-water/
+    title: 'Carrier — Why Is My AC Leaking Water?'
+  - url: https://www.hvac.com/expert-advice/ac-leaking-water/
+    title: 'HVAC.com — Why Is Your AC Leaking Water? Common Causes and Solutions'
+  serp: []
+
+bai_viet:
+  seo:
+    tieu_de: 'Máy lạnh chảy nước trong nhà: nguyên nhân và xử lý'
+    mo_ta: Máy lạnh chảy nước trong nhà thường do ống thoát nghẹt hoặc máng hứng hỏng. Cách nhận
+      biết, các bước kiểm tra an toàn và khi nào nên gọi kỹ thuật viên.
+    slug: may-lanh-chay-nuoc-trong-nha
+    tu_khoa_phu:
+    - máy lạnh nhỏ giọt
+    - dàn lạnh chảy nước
+    - ống thoát nước máy lạnh bị nghẹt
+  than: |
+    # Máy lạnh chảy nước trong nhà: nguyên nhân và cách xử lý
+
+    Máy lạnh chảy nước trong nhà gần như luôn là lỗi đường thoát nước ngưng tụ, không phải lỗi gas. Ngắt điện máy trước, rồi kiểm tra máng hứng và ống thoát — hai chỗ này chiếm phần lớn các ca.
+
+    <!-- IMAGE: IMG-001 -->
+
+    ## Nước đó từ đâu ra?
+
+    Máy lạnh không tạo ra nước. Nó lấy hơi ẩm sẵn có trong không khí phòng bạn.
+
+    Khi luồng khí ấm đi qua dàn lạnh, hơi ẩm gặp bề mặt lạnh và ngưng tụ thành giọt. Giọt nước rơi xuống máng hứng đặt ngay dưới dàn. Từ máng, nước chảy theo một ống nhựa ra ngoài trời.
+
+    Đó là hoạt động bình thường. Một máy lạnh chạy vài giờ ở TP.HCM có thể sinh ra khá nhiều nước ngưng, vì độ ẩm ngoài trời cao quanh năm.
+
+    Sự cố xuất hiện khi dòng nước đó bị chặn ở đâu đó. Nước không thoát kịp thì dâng lên rồi tràn ra mép máng, nhỏ xuống tường hoặc sàn.
+
+    Nói cách khác: nước không phải vấn đề. Đường đi của nước mới là vấn đề.
+
+    <!-- IMAGE: IMG-002 -->
+
+    ## Những nguyên nhân nào thường gặp nhất?
+
+    Tài liệu kỹ thuật của các hãng lớn nêu bốn nhóm nguyên nhân trùng nhau.
+
+    | Nguyên nhân | Dấu hiệu đi kèm | Tự xử lý được? |
+    |---|---|---|
+    | Ống thoát nước bị nghẹt | Nước nhỏ đều, tăng dần theo ngày | Một phần |
+    | Máng hứng nứt hoặc ăn mòn | Nước rỉ ngay dưới thân máy | Không |
+    | Dàn lạnh đóng băng rồi tan | Nước chảy thành đợt, máy kém lạnh | Không |
+    | Lắp đặt sai độ dốc | Chảy ngay từ những ngày đầu dùng | Không |
+
+    Nhóm hay gặp nhất là ống thoát bị nghẹt. Bụi, nấm mốc và mạng nhện tích tụ dần trong lòng ống khi máy không được vệ sinh định kỳ. Ở TP.HCM, bụi bám nhanh hơn nhiều vùng khác.
+
+    Nhóm thứ hai là máng hứng. Máng bằng nhựa hoặc kim loại đều xuống cấp theo thời gian. Máng nứt thì nước rỉ thẳng xuống, không đi qua ống thoát nữa.
+
+    Nhóm thứ ba đáng chú ý hơn cả. Dàn lạnh đóng băng rồi tan ra sẽ đổ một lượng nước vượt sức chứa của máng. Nguyên nhân phía sau thường là lọc gió quá bẩn làm nghẽn luồng khí, hoặc lượng gas trong hệ thống xuống thấp.
+
+    Đây là điểm dễ nhầm. Nhiều người thấy máy chảy nước liền nghĩ ngay tới nạp gas. Thực tế thiếu gas chỉ là một trong nhiều khả năng, và nó thường đi kèm dấu hiệu máy kém lạnh rõ rệt.
+
+    Nhóm thứ tư liên quan tới lắp đặt. Dàn lạnh phải hơi nghiêng về phía ống thoát để nước tự chảy. Lắp cân bằng hoặc nghiêng ngược thì nước đọng lại trong máng.
+
+    ## Kiểm tra tại nhà thế nào cho an toàn?
+
+    Bạn tự làm được vài bước đầu. Những bước sau cần dụng cụ và kinh nghiệm.
+
+    1. Ngắt nguồn điện của máy tại aptomat, không chỉ tắt bằng điều khiển. Chờ vài phút cho máy dừng hẳn rồi mới chạm vào bất cứ bộ phận nào.
+    2. Hứng một chậu dưới chỗ đang nhỏ giọt để nước không thấm vào tường hay sàn gỗ.
+    3. Mở mặt nạ dàn lạnh, rút tấm lọc gió ra xem. Lọc gió đóng bụi dày là dấu hiệu rất phổ biến và bạn rửa sạch được bằng nước.
+    4. Quan sát máng hứng bên dưới dàn. Máng đọng bụi, rêu hoặc có vết nứt đều thấy được bằng mắt thường.
+    5. Lần theo ống thoát nước ra tới điểm xả ngoài trời. Ống bị gấp khúc, bị vật nặng đè, hoặc đầu ra bị bít đều làm nước dội ngược.
+    6. Lắp lại mặt nạ, bật máy và theo dõi khoảng một giờ.
+
+    <!-- IMAGE: IMG-003 -->
+
+    Nếu sau khi làm sạch lọc gió mà nước vẫn chảy, nguyên nhân nằm sâu hơn trong hệ thống.
+
+    Tham khảo <!-- INTERNAL: bảng giá dịch vụ | /bang-gia/ --> để hình dung phạm vi công việc trước khi quyết định.
+
+    ## Khi nào nên gọi kỹ thuật viên?
+
+    Có ranh giới khá rõ giữa việc tự làm và việc nên giao cho thợ.
+
+    Hãy dừng lại và gọi kỹ thuật viên nếu bạn gặp một trong các tình huống sau:
+
+    - Dàn lạnh có lớp băng hoặc tuyết bám trên bề mặt
+    - Máng hứng nứt, thủng hoặc rỉ sét
+    - Nước chảy kèm mùi khét, tiếng kêu lạ, hoặc máy tự ngắt
+    - Máy vừa chảy nước vừa kém lạnh rõ rệt
+    - Dàn lạnh treo cao, phải dùng thang mới với tới
+    - Máy mới lắp đã chảy nước ngay
+
+    Ba tình huống đầu liên quan tới gas hoặc điện. Đó là phần việc cần dụng cụ đo và hiểu biết chuyên môn, không nên thử tại nhà.
+
+    Ficool nhận kiểm tra và xử lý máy lạnh chảy nước tại TP.HCM. Kỹ thuật viên kiểm tra trước, nói rõ tình trạng, rồi mới báo phạm vi công việc.
+
+    <!-- IMAGE: IMG-004 -->
+
+    ## Làm gì để không lặp lại?
+
+    Phần lớn ca chảy nước bắt nguồn từ việc bỏ bê vệ sinh, nên phòng dễ hơn chữa.
+
+    - Rửa lọc gió theo chu kỳ nhà sản xuất ghi trong sách hướng dẫn
+    - Vệ sinh máy định kỳ, đừng đợi tới lúc có sự cố
+    - Giữ đầu ra ống thoát thông thoáng, không để vật cản che
+    - Chú ý khi máy bắt đầu kém lạnh — đó thường là dấu hiệu sớm
+
+    Nhà ở TP.HCM dùng máy lạnh gần như quanh năm, nên chu kỳ vệ sinh thường ngắn hơn khuyến nghị chung. Môi trường nhiều bụi thì rút ngắn thêm.
+
+    Xem thêm <!-- INTERNAL: dịch vụ vệ sinh máy lạnh | /dich-vu/ve-sinh-may-lanh/ --> nếu bạn muốn xử lý gốc thay vì chỉ chặn triệu chứng.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy lạnh chảy nước trong nhà có tự hết không?
+
+    Hiện tượng này hiếm khi tự hết, vì nguyên nhân thường là tắc nghẽn cơ học hoặc hư hỏng vật lý. Để nguyên thì nước tiếp tục thấm vào tường, trần thạch cao hoặc sàn gỗ. Chi phí xử lý phần hư hỏng do nước thường lớn hơn chi phí sửa chính cái máy.
+
+    ### Máy lạnh chảy nước có phải do thiếu gas không?
+
+    Thiếu gas là một khả năng, nhưng không phải khả năng phổ biến nhất. Thiếu gas làm dàn lạnh đóng băng, băng tan ra rồi tràn khỏi máng. Dấu hiệu đi kèm thường rất rõ: máy chạy liên tục mà phòng vẫn không mát. Nếu máy vẫn lạnh bình thường thì nên nghi ống thoát trước.
+
+    ### Tự thông ống thoát nước tại nhà có được không?
+
+    Bạn có thể kiểm tra đầu ra ống và gỡ vật cản nhìn thấy được sau khi đã ngắt điện. Việc thổi thông toàn bộ đường ống hoặc tháo dàn lạnh thì nên để kỹ thuật viên làm. Thao tác sai dễ làm nứt ống hoặc lệch máng, biến một sự cố nhỏ thành sự cố lớn.
+
+    ### Có nên tiếp tục dùng máy khi đang chảy nước không?
+
+    Nên ngắt máy cho tới khi tìm ra nguyên nhân. Máy chạy tiếp nghĩa là nước tiếp tục sinh ra và tiếp tục tràn. Nếu nước nhỏ gần ổ điện hoặc thiết bị điện tử, hãy ngắt aptomat ngay thay vì chỉ tắt điều khiển.
+
+    ### Bao lâu nên vệ sinh máy lạnh một lần?
+
+    Chu kỳ phụ thuộc tần suất sử dụng và mức độ bụi nơi lắp đặt. Hãy lấy khuyến nghị trong sách hướng dẫn của máy làm mốc, rồi rút ngắn lại nếu nhà bạn nhiều bụi hoặc máy chạy gần như cả ngày. Ở TP.HCM, máy hoạt động quanh năm nên chu kỳ thường ngắn hơn mốc chung.
+
+    ## Cần kiểm tra tận nơi?
+
+    Nếu đã làm hết các bước trên mà nước vẫn chảy, nguyên nhân nằm ở phần cần tháo lắp hoặc đo đạc. Bạn <!-- INTERNAL: đặt lịch với Ficool | /lien-he/ --> để kỹ thuật viên xem trực tiếp tình trạng máy tại nhà.

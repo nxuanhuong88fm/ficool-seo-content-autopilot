@@ -18,6 +18,25 @@ def _in(*a):
     print(*a, flush=True)
 
 
+def _nap_env():
+    """Nạp `.env` ở gốc repo.
+
+    ⚠️ Lỗi có sẵn từ bản gốc: `.env.example` tồn tại từ commit đầu và README bảo
+    `cp .env.example .env`, nhưng KHÔNG dòng nào nạp tệp đó. Người dùng điền khoá
+    xong, chạy vẫn báo "GEMINI_API_KEY is required" — triệu chứng trỏ sai hoàn
+    toàn vào nguyên nhân.
+
+    `override=False`: biến môi trường THẬT luôn thắng. Trên GitHub Actions không
+    có `.env` nên đây là lệnh rỗng, và một tệp `.env` sót lại cũng không đè được
+    secret của workflow.
+    """
+    try:
+        from dotenv import load_dotenv
+    except ImportError:
+        return
+    load_dotenv(ROOT / '.env', override=False)
+
+
 def _ep_utf8():
     """Console Windows mặc định cp1252; in tiếng Việt là UnicodeEncodeError.
     Trên CI (ubuntu) không lộ, nên lỗi này chỉ đau ở máy người dùng."""
@@ -291,6 +310,7 @@ def main(argv=None):
     s.add_argument('keyword'); s.set_defaults(fn=cmd_demo)
 
     _ep_utf8()
+    _nap_env()
     s = sub.add_parser('lo', help='chay mot LO nhieu bai theo thu tu co dinh')
     s.add_argument('so_luong', type=int, nargs='?', default=10)
     s.add_argument('--thu-tu', dest='thu_tu', default='cum', choices=['cum', 'luan-phien'],

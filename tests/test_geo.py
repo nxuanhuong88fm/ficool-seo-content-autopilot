@@ -98,3 +98,29 @@ def test_khong_co_schema_thi_do():
     trong = {'json_ld': '', 'types': [], 'faq': 0, 'buoc': 0}
     kq = do_geo(TOPIC, ART, BAI, _html(), trong)
     assert kq['co_schema'] is False
+
+
+# ── lỗi thật gặp lúc chạy bài ML-01 đầu tiên (09/09) ────────────────────────
+def test_moc_nam_trong_dap_an_FAQ_khong_duoc_lot_vao_schema():
+    """Mốc `<!-- INTERNAL: ... -->` đặt trong mục FAQ bị tach_faq() nuốt vào đáp
+    án, rồi dung_schema() nhet nguyen van vao acceptedAnswer.text. Hai hau qua:
+    may tra loi trich ra mot dap an co rac cu phap, va cong
+    `khong_con_chu_thich_tho` do vi JSON-LD nam trong html_body."""
+    bai = BAI.replace(
+        'Chi phí thay đổi theo công suất máy',
+        'Xem <!-- INTERNAL: bảng giá | /bang-gia/ --> để rõ. Chi phí thay đổi theo công suất máy')
+    s = dung_schema(TOPIC, ART, bai, URL)
+
+    assert '<!-- INTERNAL' not in s['json_ld']
+    assert '<!--' not in s['json_ld']
+
+    d = json.loads(re.search(r'>(.*)</script>', s['json_ld'], re.S).group(1))
+    faq = next(n for n in d['@graph'] if n['@type'] == 'FAQPage')
+    dap = [q['acceptedAnswer']['text'] for q in faq['mainEntity']]
+    assert any('bảng giá để rõ' in a for a in dap), 'phai giu chu neo, chi bo cu phap'
+
+
+def test_moc_anh_trong_buoc_huong_dan_cung_duoc_go():
+    bai = BAI.replace('2. Mở mặt nạ dàn lạnh',
+                      '2. <!-- IMAGE: IMG-009 --> Mở mặt nạ dàn lạnh')
+    assert all('<!--' not in b for b in tach_buoc(bai))

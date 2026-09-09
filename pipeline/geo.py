@@ -22,6 +22,21 @@ import statistics
 TYPE_RANK_MATH_GIU = {'Article', 'BlogPosting', 'NewsArticle', 'WebPage', 'WebSite',
                       'Organization', 'LocalBusiness', 'Person', 'ImageObject', 'BreadcrumbList'}
 
+# Mốc chèn phải được GỠ khỏi văn bản đưa vào schema. `acceptedAnswer.text` là
+# văn xuôi cho máy trả lời đọc, không phải HTML — để nguyên `<!-- INTERNAL: ... -->`
+# trong đó thì máy trích ra một đáp án có rác cú pháp, và cổng
+# `khong_con_chu_thich_tho` cũng đỏ vì JSON-LD nằm trong html_body.
+MOC_LIEN_KET_THO = re.compile(r'<!--\s*INTERNAL:\s*(?P<neo>.+?)\s*\|\s*\S+?\s*-->')
+MOC_THO_KHAC = re.compile(r'<!--.*?-->', re.S)
+
+
+def lam_sach(van: str) -> str:
+    """Đổi mốc liên kết thành chữ neo, bỏ mọi chú thích thô còn lại."""
+    van = MOC_LIEN_KET_THO.sub(lambda m: m.group('neo'), van)
+    van = MOC_THO_KHAC.sub('', van)
+    return re.sub(r'\s+', ' ', van).strip()
+
+
 MO_DAU_THAM_CHIEU = re.compile(
     r'^\s*(như (?:trên|đã|vừa)|điều (?:này|đó)|việc (?:này|đó)|nó\b|chúng\b|vấn đề (?:này|đó)|ngoài ra|bên cạnh đó)',
     re.I)
@@ -49,12 +64,12 @@ def tach_faq(than_bai: str):
             dap.append(d.strip())
     if hoi:
         cap.append((hoi, ' '.join(dap).strip()))
-    return [(h, a) for h, a in cap if h and a]
+    return [(lam_sach(h), lam_sach(a)) for h, a in cap if lam_sach(h) and lam_sach(a)]
 
 
 def tach_buoc(than_bai: str):
     """Lấy các bước của bài hướng dẫn: danh sách đánh số dưới một H2."""
-    buoc = [re.sub(r'^\d+\.\s*', '', d).strip()
+    buoc = [lam_sach(re.sub(r'^\d+\.\s*', '', d))
             for d in than_bai.splitlines() if re.match(r'^\d+\.\s+\S', d)]
     return [b for b in buoc if len(b) >= 15]
 
