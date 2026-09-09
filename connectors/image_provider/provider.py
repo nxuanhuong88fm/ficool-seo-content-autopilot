@@ -1,18 +1,61 @@
 from __future__ import annotations
-import base64, mimetypes, os
+import mimetypes
+import struct
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Protocol
 
-# gpt-image-1 chỉ nhận đúng ba khổ này. Xin khổ khác thì API trả lỗi, nên phải
-# quy về khổ gần nhất và BÁO LẠI khổ thật — pipeline ghi width/height vào thẻ
-# <img>, khai sai là tự sinh layout shift.
-KHO_HOP_LE = [(1024, 1024), (1536, 1024), (1024, 1536)]
+from connectors.gemini import model_anh, tao_client
+
+# Gemini nhận TỈ LỆ, không nhận số pixel. Danh sách đối chiếu tài liệu
+# ai.google.dev ngày 09/09/2026.
+TI_LE_HOP_LE = {
+    '1:1': 1.0, '2:3': 2 / 3, '3:2': 1.5, '3:4': 0.75, '4:3': 4 / 3,
+    '9:16': 9 / 16, '16:9': 16 / 9, '21:9': 21 / 9,
+}
+KHO_HOP_LE = ('1K', '2K', '4K')
 
 
-def _kho_gan_nhat(width: int, height: int):
-    ty = width / height if height else 1.0
-    return min(KHO_HOP_LE, key=lambda k: abs(k[0] / k[1] - ty))
+def ti_le_gan_nhat(width: int, height: int) -> str:
+    muc = width / height if height else 1.0
+    return min(TI_LE_HOP_LE, key=lambda k: abs(TI_LE_HOP_LE[k] - muc))
+
+
+def kich_thuoc_that(du_lieu: bytes, mime: str):
+    """Đọc chiều rộng/cao THẬT từ header ảnh.
+
+    Vì sao không khai theo tỉ lệ × khổ: `image_size='2K'` không nói chính xác bao
+    nhiêu pixel, và con số đó đi thẳng vào `<img width height>`. Khai sai là tự
+    sinh layout shift — đúng thứ cổng A85/CLS đang canh.
+    """
+    if du_lieu[:8] == b'\x89PNG\r\n\x1a\n' and du_lieu[12:16] == b'IHDR':
+        return struct.unpack('>II', du_lieu[16:24])
+
+    if du_lieu[:2] == b'\xff\xd8':                                  # JPEG
+        i, n = 2, len(du_lieu)
+        while i + 9 < n:
+            if du_lieu[i] != 0xFF:
+                i += 1
+                continue
+            dau = du_lieu[i + 1]
+            if 0xC0 <= dau <= 0xCF and dau not in (0xC4, 0xC8, 0xCC):
+                cao, rong = struct.unpack('>HH', du_lieu[i + 5:i + 9])
+                return rong, cao
+            i += 2 + struct.unpack('>H', du_lieu[i + 2:i + 4])[0]
+
+    if du_lieu[:4] == b'RIFF' and du_lieu[8:12] == b'WEBP':
+        dang = du_lieu[12:16]
+        if dang == b'VP8X':
+            r = int.from_bytes(du_lieu[24:27], 'little') + 1
+            c = int.from_bytes(du_lieu[27:30], 'little') + 1
+            return r, c
+        if dang == b'VP8 ':
+            return (struct.unpack('<H', du_lieu[26:28])[0] & 0x3FFF,
+                    struct.unpack('<H', du_lieu[28:30])[0] & 0x3FFF)
+
+    raise RuntimeError(
+        f'khong doc duoc kich thuoc anh (mime={mime}, {len(du_lieu)} B). '
+        'Dung lai thay vi khai bua width/height vao the <img>.')
 
 
 @dataclass(frozen=True)
@@ -28,29 +71,47 @@ class ImageProvider(Protocol):
     def generate(self, prompt: str, output_path: Path, width: int = 1536, height: int = 1024) -> GeneratedImage: ...
 
 
-class OpenAIImageProvider:
-    def __init__(self, api_key=None, model=None):
-        self.api_key = api_key or os.getenv('OPENAI_API_KEY', '')
-        self.model = model or os.getenv('OPENAI_IMAGE_MODEL', 'gpt-image-1')
-        if not self.api_key:
-            raise RuntimeError('OPENAI_API_KEY is required')
+class GeminiImageProvider:
+    """Sinh ảnh bằng Gemini (Nano Banana) qua Google AI Studio."""
+
+    def __init__(self, model=None, kho=None):
+        self.client = tao_client()
+        self.model = model or model_anh()
+        import os
+        self.kho = (kho or os.getenv('GEMINI_IMAGE_SIZE') or '2K').upper()
+        if self.kho not in KHO_HOP_LE:
+            raise RuntimeError(f'GEMINI_IMAGE_SIZE={self.kho} khong hop le, chon {KHO_HOP_LE}')
 
     def generate(self, prompt, output_path, width=1536, height=1024) -> GeneratedImage:
-        from openai import OpenAI
-        w, h = _kho_gan_nhat(width, height)
-        result = OpenAI(api_key=self.api_key).images.generate(model=self.model, prompt=prompt, size=f'{w}x{h}')
-        item = result.data[0]
-        output_path = Path(output_path).with_suffix('.png')
+        from google.genai import types
+
+        r = self.client.models.generate_content(
+            model=self.model,
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                response_modalities=['IMAGE'],
+                image_config=types.ImageConfig(
+                    aspect_ratio=ti_le_gan_nhat(width, height),
+                    image_size=self.kho,
+                ),
+            ),
+        )
+
+        phan = next((p for p in (getattr(r, 'parts', None) or []) if getattr(p, 'inline_data', None)), None)
+        if phan is None:
+            # Model có thể từ chối (bộ lọc an toàn) và chỉ trả chữ. Nói rõ lý do
+            # thay vì để nổ IndexError ở chỗ khác.
+            raise RuntimeError(f'Gemini khong tra ve anh nao. Phan hoi chu: {(getattr(r, "text", "") or "")[:300]}')
+
+        du_lieu = phan.inline_data.data
+        mime = phan.inline_data.mime_type or 'image/png'
+        duoi = mimetypes.guess_extension(mime) or '.png'
+        output_path = Path(output_path).with_suffix('.jpg' if duoi == '.jpe' else duoi)
         output_path.parent.mkdir(parents=True, exist_ok=True)
-        if getattr(item, 'b64_json', None):
-            output_path.write_bytes(base64.b64decode(item.b64_json))
-        elif getattr(item, 'url', None):
-            import requests
-            r = requests.get(item.url, timeout=60); r.raise_for_status()
-            output_path.write_bytes(r.content)
-        else:
-            raise RuntimeError('Image API returned neither b64_json nor url')
-        return GeneratedImage(output_path, w, h, mimetypes.guess_type(output_path.name)[0] or 'image/png', 'openai')
+        output_path.write_bytes(du_lieu)
+
+        rong, cao = kich_thuoc_that(du_lieu, mime)
+        return GeneratedImage(output_path, rong, cao, mime, 'gemini')
 
 
 class MockImageProvider:

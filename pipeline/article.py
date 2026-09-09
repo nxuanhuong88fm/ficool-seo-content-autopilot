@@ -1,7 +1,7 @@
 from __future__ import annotations
 import json
-import os
-from openai import OpenAI
+
+from connectors.gemini import model_van_ban, tao_client
 from pipeline.utils import dump_yaml, slugify
 
 # Yêu cầu cấu trúc phải KHỚP với các phép đo trong pipeline/geo.py và pipeline/qa.py.
@@ -42,24 +42,31 @@ Chỉ trả về nội dung bài, không thêm lời dẫn."""
 
 class ArticlePipeline:
     def __init__(self):
-        key = os.getenv('OPENAI_API_KEY', '')
-        if not key:
-            raise RuntimeError('OPENAI_API_KEY is required')
-        self.client = OpenAI(api_key=key)
-        self.model = os.getenv('OPENAI_TEXT_MODEL', 'gpt-5.6-luna')
+        self.client = tao_client()
+        self.model = model_van_ban()
+
+    def _sinh(self, prompt, json_thuan=False):
+        from google.genai import types
+        cau_hinh = types.GenerateContentConfig(response_mime_type='application/json') if json_thuan else None
+        r = self.client.models.generate_content(model=self.model, contents=prompt, config=cau_hinh)
+        return (r.text or '').strip()
 
     def run(self, topic, research, output_dir):
-        prompt = (f'{LUAT_VIET}\n\n'
-                  f'TOPIC={json.dumps(topic, ensure_ascii=False)}\n'
-                  f'RESEARCH={json.dumps(research, ensure_ascii=False)[:30000]}')
-        body = self.client.responses.create(model=self.model, input=prompt, store=False).output_text.strip()
+        prompt = (LUAT_VIET + chr(10) * 2
+                  + 'TOPIC=' + json.dumps(topic, ensure_ascii=False) + chr(10)
+                  + 'RESEARCH=' + json.dumps(research, ensure_ascii=False)[:30000])
+        body = self._sinh(prompt)
 
-        mr = self.client.responses.create(
-            model=self.model, store=False,
-            input='Return JSON only: title<=60 chars, meta_description<=160 chars, slug, '
-                  'secondary_keywords, faq.\n' + body[:18000])
+        # `response_mime_type='application/json'` ÉP Gemini trả JSON thuần. Bản
+        # OpenAI cũ chỉ NHỜ model trả JSON rồi bọc try/except, nên mỗi lần model
+        # kèm ```json là rơi vào nhánh dự phòng mà không ai biết — meta title và
+        # meta description im lặng tụt về tiêu đề chủ đề.
+        thoi = self._sinh(
+            'Trả về JSON thuần với đúng các khoá: title (<=60 ký tự), '
+            'meta_description (<=160 ký tự), slug, secondary_keywords (mảng), faq (mảng).'
+            + chr(10) * 2 + body[:18000], json_thuan=True)
         try:
-            meta = json.loads(mr.output_text)
+            meta = json.loads(thoi)
         except (json.JSONDecodeError, TypeError):
             meta = {'title': topic['title'], 'meta_description': topic['title'],
                     'slug': slugify(topic['title']),

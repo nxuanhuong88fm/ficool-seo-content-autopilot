@@ -26,9 +26,38 @@ pip install -e .
 cp .env.example .env
 ```
 
-Cần `OPENAI_API_KEY`, `GSC_SITE_URL` + `GOOGLE_APPLICATION_CREDENTIALS(_JSON)`,
-`SERPER_API_KEY`, và nhóm biến `WP_*`. Cấp quyền cho email service account trên
-Search Console. WordPress dùng Application Password qua HTTPS.
+Cần `GEMINI_API_KEY` (Google AI Studio), `GSC_SITE_URL` +
+`GOOGLE_APPLICATION_CREDENTIALS(_JSON)`, `SERPER_API_KEY`, và nhóm biến `WP_*`.
+Cấp quyền cho email service account trên Search Console. WordPress dùng
+Application Password qua HTTPS.
+
+### Mô hình
+
+Viết bài, nghiên cứu và sinh ảnh đều chạy trên **Gemini qua Google AI Studio**.
+
+| việc | model mặc định | biến ghi đè |
+|---|---|---|
+| viết bài + rút meta | `gemini-3.8-flash` | `GEMINI_TEXT_MODEL` |
+| nghiên cứu (Google Search grounding) | `gemini-3.8-flash` | `GEMINI_TEXT_MODEL` |
+| sinh ảnh (Nano Banana 2) | `gemini-3.1-flash-image` | `GEMINI_IMAGE_MODEL` |
+| khổ ảnh | `2K` | `GEMINI_IMAGE_SIZE` (`1K`/`2K`/`4K`) |
+
+Khoá cố ý đặt tên `GEMINI_API_KEY` chứ không phải `GOOGLE_API_KEY`: kho này đã
+có `GOOGLE_APPLICATION_CREDENTIALS_JSON` cho Search Console, và hai biến
+`GOOGLE_*` cạnh nhau với ý nghĩa khác hẳn là mời gọi nhầm lẫn.
+
+Ba khác biệt so với bản OpenAI cũ, đều đo được:
+
+- **Nguồn nghiên cứu là dữ liệu thật.** Bản cũ luôn trả `sources: []` — trường
+  có tên nhưng không bao giờ có nội dung. Google Search grounding trả URL thật.
+- **JSON meta được ÉP.** Bản cũ chỉ *nhờ* model trả JSON rồi bọc `try/except`,
+  nên mỗi lần model kèm ```json là im lặng rơi vào nhánh dự phòng — meta title
+  và description tụt về tiêu đề chủ đề mà không ai biết. Nay dùng
+  `response_mime_type='application/json'`.
+- **`width`/`height` đọc từ byte ảnh.** Gemini nhận TỈ LỆ chứ không nhận pixel,
+  và `image_size='2K'` không nói chính xác bao nhiêu pixel. Con số đó đi thẳng
+  vào `<img width height>`, nên đọc header ảnh thật thay vì khai theo số đã xin.
+  Định dạng lạ thì **dừng lại**, không khai bừa.
 
 ## Lệnh
 

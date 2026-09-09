@@ -1,8 +1,8 @@
 from __future__ import annotations
-from connectors.image_provider import OpenAIImageProvider
+from connectors.image_provider import GeminiImageProvider
 from pipeline.utils import dump_yaml
 class ImagePipeline:
-    def __init__(self): self.provider=OpenAIImageProvider()
+    def __init__(self): self.provider=GeminiImageProvider()
     def plan(self,topic):
         return [
           {'id':'IMG-001','type':'featured','placement':'after_h1','purpose':'establish_topic','subject':topic['title']},

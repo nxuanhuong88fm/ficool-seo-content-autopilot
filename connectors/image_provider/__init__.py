@@ -1,3 +1,5 @@
-from .provider import GeneratedImage, ImageProvider, MockImageProvider, OpenAIImageProvider
+from .provider import (GeneratedImage, GeminiImageProvider, ImageProvider,
+                       MockImageProvider, kich_thuoc_that, ti_le_gan_nhat)
 
-__all__ = ["GeneratedImage", "ImageProvider", "MockImageProvider", "OpenAIImageProvider"]
+__all__ = ["GeneratedImage", "GeminiImageProvider", "ImageProvider",
+           "MockImageProvider", "kich_thuoc_that", "ti_le_gan_nhat"]

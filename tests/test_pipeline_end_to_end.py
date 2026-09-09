@@ -41,18 +41,22 @@ def wp_gia(monkeypatch):
 
 @pytest.fixture
 def dich_vu_gia(monkeypatch, tmp_path):
-    """Chặn ở ranh giới: OpenAI, GSC, Serper. Code của repo chạy thật."""
+    """Chặn ở ranh giới: Gemini, GSC, Serper. Code của repo chạy thật."""
     import pipeline.article, pipeline.research, pipeline.images
 
-    monkeypatch.setenv("OPENAI_API_KEY", "khoa-gia-cho-phep-thu")
+    monkeypatch.setenv("GEMINI_API_KEY", "khoa-gia-cho-phep-thu")
 
-    class _OpenAIGia:
-        def __init__(self, *a, **k): self.responses = self
-        def create(self, model=None, input="", store=False, **k):
-            la_meta = input.lstrip().startswith("Return JSON only")
-            return type("R", (), {"output_text": json.dumps(META, ensure_ascii=False) if la_meta else BAI})()
+    class _ModelsGia:
+        def generate_content(self, model=None, contents="", config=None, **k):
+            # lượt thứ hai xin JSON thuần -> nhận diện bằng chính config, đúng
+            # cách production phân biệt hai lượt gọi
+            xin_json = getattr(config, "response_mime_type", None) == "application/json"
+            return type("R", (), {"text": json.dumps(META, ensure_ascii=False) if xin_json else BAI})()
 
-    monkeypatch.setattr(pipeline.article, "OpenAI", _OpenAIGia)
+    class _ClientGia:
+        models = _ModelsGia()
+
+    monkeypatch.setattr(pipeline.article, "tao_client", lambda *a, **k: _ClientGia())
 
     class _NghienCuuGia:
         def run(self, topic, output_dir):
@@ -69,7 +73,7 @@ def dich_vu_gia(monkeypatch, tmp_path):
             output_path.parent.mkdir(parents=True, exist_ok=True)
             output_path.write_bytes(b"\x89PNG\r\n\x1a\n" + b"0" * 64)
             return GeneratedImage(output_path, 1536, 1024, "image/png", "gia")
-    monkeypatch.setattr(pipeline.images, "OpenAIImageProvider", lambda *a, **k: _AnhGia())
+    monkeypatch.setattr(pipeline.images, "GeminiImageProvider", lambda *a, **k: _AnhGia())
 
 
 def test_chay_het_pipeline_ra_ban_nhap(wp_gia, dich_vu_gia, tmp_path):
