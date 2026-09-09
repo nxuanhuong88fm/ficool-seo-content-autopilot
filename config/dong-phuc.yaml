@@ -140,6 +140,13 @@ logo:
     bộ, KHÔNG có dấu chấm hay dấu câu nào ở cuối. Bông tuyết thay dấu chấm chữ
     "i" phải thấy rõ SÁU CÁNH toả đều từ tâm, không phải một chấm tròn hay khối
     mờ. Tiếng Việt phải đúng dấu tuyệt đối.
+  # ⚠️ ĐO ĐƯỢC QUA 4 LƯỢT SINH (09/09) — model KHÔNG theo hai thông số này:
+  #   ti le nhan   : ban tham chieu 3,00 hay 3,78 -> model luon ve ~2,0-2,1:1
+  #   ban kinh goc : ban tham chieu goc gan vuong -> model luon ve goc bo tron
+  #   chu FICOOL   : 4/4 luot deu thua dau cau cuoi ("FICOOL." / "FICOOL,")
+  # Ti le, goc va chu KHONG dieu khien duoc qua prompt. Khach da chot huong xu
+  # ly: SINH ANH VOI NGUC AO TRONG roi GHEP nhan bang Pillow sau khi sinh (bien
+  # doi phoi canh nhe theo mat vai). Chua lam — viec dang cho.
   anh_tham_chieu:
     nguc: knowledge/brand/logo/logo-nguc-nhan-trang.png  # nhãn nền trắng, badge xanh, FICOOL xanh
     lung: knowledge/brand/logo/logo-lung-tagline.png    # đầy đủ, có tagline
