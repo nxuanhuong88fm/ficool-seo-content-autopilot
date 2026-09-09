@@ -1,3 +1,3 @@
-from .provider import ImageProvider, MockImageProvider
+from .provider import GeneratedImage, ImageProvider, MockImageProvider, OpenAIImageProvider
 
-__all__ = ["ImageProvider", "MockImageProvider"]
+__all__ = ["GeneratedImage", "ImageProvider", "MockImageProvider", "OpenAIImageProvider"]

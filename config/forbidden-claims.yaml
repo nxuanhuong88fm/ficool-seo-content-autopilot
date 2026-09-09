@@ -1,0 +1,61 @@
+# Nguồn DUY NHẤT của luật cấm khẳng định. knowledge/business/forbidden-claims.md
+# là bản văn xuôi cho người đọc; file này là bản máy đọc. Đừng chép luật sang chỗ khác.
+#
+# Mỗi luật BẮT BUỘC có `chan` và `khong_chan`. tests/test_qa.py chạy cả hai chiều:
+# luật phải bắt được `chan` VÀ phải tha `khong_chan`. Không có phép thử phủ định
+# thì luật lặng lẽ chặn nhầm — như regex `\bcam kết\b` của bản cũ, nó chặn cả câu
+# "Những gì Ficool cam kết làm" trên chính trang chủ ficool.top.
+
+luat:
+  - ten: tuyet_doi
+    ly_do: Khẳng định tuyệt đối không kiểm chứng được.
+    mau: '100\s*%|\btuyệt đối\b'
+    chan: 'Sạch 100% mọi loại nấm mốc.'
+    khong_chan: 'Vệ sinh định kỳ giúp máy chạy êm hơn.'
+
+  - ten: so_sanh_nhat
+    ly_do: So sánh nhất là khẳng định thị trường, không có dữ liệu chống lưng.
+    mau: '\brẻ nhất\b|\btốt nhất\b|\bsố 1\b|\buy tín nhất\b|\bhàng đầu\b|\bnhanh nhất\b'
+    chan: 'Dịch vụ tốt nhất thành phố.'
+    khong_chan: 'Chọn đơn vị phù hợp với tình trạng máy của bạn.'
+
+  - ten: gia_cu_the
+    ly_do: >
+      Giá phải lấy từ Bảng giá trong wp-admin (ficool_pg_banggia_html), không được
+      để model tự nghĩ ra. Sai giá là sai cam kết với khách.
+    mau: '\d[\d.,]*\s*(?:đ\b|vnđ|vnd|nghìn|triệu)|\bchỉ từ\s+\d'
+    chan: 'Vệ sinh máy lạnh chỉ từ 150.000đ.'
+    khong_chan: 'Chi phí phụ thuộc công suất máy và tình trạng thực tế.'
+
+  - ten: bao_hanh_thoi_han
+    ly_do: Thời hạn bảo hành là dữ liệu kinh doanh, phải do người cấu hình.
+    mau: 'bảo hành\s+\D{0,12}\d+\s*(?:ngày|tuần|tháng|năm)'
+    chan: 'Bảo hành lên tới 12 tháng.'
+    khong_chan: 'Hỏi rõ chính sách bảo hành trước khi đồng ý sửa.'
+
+  - ten: cam_ket_dinh_luong
+    ly_do: >
+      "cam kết" là từ tiếng Việt bình thường và trang chủ Ficool đang dùng
+      ("Những gì Ficool cam kết làm"). Chỉ chặn khi nó đi kèm CON SỐ — lúc đó
+      nó thành lời hứa định lượng mà không ai cấu hình.
+    mau: 'cam kết[^.\n]{0,40}\d'
+    chan: 'Ficool cam kết có mặt trong 30 phút.'
+    khong_chan: 'Những gì Ficool cam kết làm: kiểm tra trước, báo giá rõ ràng.'
+
+  - ten: thoi_gian_phan_hoi
+    ly_do: Thời gian có mặt là cam kết vận hành, không phải nội dung bài viết.
+    mau: 'có mặt\s+\D{0,10}\d+\s*(?:phút|giờ|h\b)|\d+\s*(?:phút|giờ)\s+có mặt'
+    chan: 'Kỹ thuật viên có mặt sau 15 phút.'
+    khong_chan: 'Thời gian xử lý tuỳ lịch kỹ thuật viên trong khu vực.'
+
+  - ten: kinh_nghiem_nam
+    ly_do: Số năm kinh nghiệm, số ca đã làm — dữ liệu doanh nghiệp, dễ bịa.
+    mau: 'hơn\s+\d+\s*năm|\d+\s*năm\s+kinh nghiệm|\d[\d.,]*\+?\s*(?:khách hàng|ca|công trình)'
+    chan: 'Đội ngũ hơn 10 năm kinh nghiệm.'
+    khong_chan: 'Kỹ thuật viên được đào tạo cho từng dòng máy.'
+
+  - ten: thong_ke_khong_nguon
+    ly_do: Thống kê không nguồn là bịa có vẻ khoa học.
+    mau: '\d+\s*%\s*(?:khách hàng|người dùng|trường hợp|hộ gia đình)'
+    chan: '80% khách hàng gặp lỗi này.'
+    khong_chan: 'Đây là một trong những lỗi thường gặp.'
