@@ -10,7 +10,7 @@ from pipeline.assembly import AssemblyPipeline
 from pipeline.geo import dung_schema, do_geo
 from pipeline.qa import QAPipeline
 from connectors.wordpress.publishers import chon_cong_bo
-from pipeline import manifest
+from pipeline import dau_vao, manifest
 from pipeline.utils import dump_yaml
 
 KHOA_WP = ('WP_URL', 'WP_USERNAME', 'WP_APPLICATION_PASSWORD')
@@ -44,8 +44,12 @@ class QAChan(RuntimeError):
 
 
 def run_topic(topic_id, output_root=None, use_mock_images=False,
-              bo_qua_chong_trung=False, dang_bai='ho-so'):
-    """dang_bai: ho-so | novamira | rest | auto — xem connectors/wordpress/publishers.py"""
+              bo_qua_chong_trung=False, dang_bai='ho-so',
+              nghien_cuu='gemini', viet='gemini', thu_muc_dau_vao=None):
+    """dang_bai   : ho-so | novamira | rest | auto  (connectors/wordpress/publishers.py)
+    nghien_cuu : gemini | toi  — `toi` bo Gemini research + Serper + GSC
+    viet       : gemini | toi  — `toi` bo Gemini text; Gemini chi con dung cho anh
+    """
     topic = TopicSelector().by_id(topic_id)
 
     if not bo_qua_chong_trung and topic_id in manifest.da_lam():
@@ -61,8 +65,22 @@ def run_topic(topic_id, output_root=None, use_mock_images=False,
             f"duong '{cong_bo.ten}' can WP_URL/WP_USERNAME/WP_APPLICATION_PASSWORD. "
             "Dung --dang-bai=ho-so de chay khong can khoa.")
 
-    research = ResearchPipeline().run(topic, root)
-    article = ArticlePipeline().run(topic, research, root)
+    # Chỉ DỰNG thứ thực sự dùng: ResearchPipeline.__init__ tạo GSCClient +
+    # SerperClient + Gemini ngay lúc khởi tạo, nên `nghien_cuu='toi'` mà vẫn
+    # dựng nó là vẫn đòi đủ ba khoá.
+    if nghien_cuu == 'toi':
+        research = dau_vao.doc_nghien_cuu(topic, thu_muc_dau_vao)
+    else:
+        research = ResearchPipeline().run(topic, root)
+    dump_yaml(root / 'research.yaml', research)
+
+    if viet == 'toi':
+        article = dau_vao.doc_bai_viet(topic, thu_muc_dau_vao)
+        dump_yaml(root / 'article-draft.yaml',
+                  {'topic': topic, 'article': article['body'], 'seo': article['seo']})
+        (root / 'article.md').write_text(article['body'], encoding='utf-8')
+    else:
+        article = ArticlePipeline().run(topic, research, root)
 
     if use_mock_images:
         from connectors.image_provider import MockImageProvider

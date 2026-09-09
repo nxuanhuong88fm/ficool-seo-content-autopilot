@@ -77,6 +77,39 @@ python scripts/ficool.py cho-dang                     # gói đã dựng, chưa 
 python scripts/ficool.py da-dang ML-01-ab12 4242      # đóng sổ sau khi tác nhân đã đăng
 ```
 
+## Phương án (a): tác nhân nghiên cứu và viết
+
+Chế độ đang dùng. Hai cần gạt tách riêng:
+
+| cờ | bỏ được gì | còn cần gì |
+|---|---|---|
+| `--nghien-cuu=toi` | Gemini research **+ Serper + GSC** | — |
+| `--viet=toi` | Gemini text | — |
+| cả hai | | **chỉ `GEMINI_API_KEY` cho ảnh** |
+
+```bash
+python scripts/ficool.py yeu-cau 10                              # sinh dau-vao/*.yaml
+# ... tác nhân điền nghiên cứu + bài viết vào từng tệp ...
+python scripts/ficool.py lo 10 --nghien-cuu=toi --viet=toi       # chạy lô
+```
+
+Tệp mẫu mang theo **nguyên văn `LUAT_VIET`** của `pipeline/article.py`. Nên dù
+tác nhân viết hay Gemini viết, luật vẫn từ một nguồn — sửa luật một chỗ là cả
+hai đường đổi theo.
+
+### Đầu vào bị kiểm chặt, cố ý
+
+Tác nhân nộp bài cũng là một nguồn có thể sai. `pipeline/dau_vao.py` chặn ngay
+nếu: nghiên cứu dưới 200 ký tự, dưới 2 URL thật (`http`/`https`), bài dưới 900
+từ, thiếu dòng `# `, tiêu đề quá 60 ký tự, mô tả quá 160, slug không hợp lệ.
+
+Dễ dãi ở đây thì cổng QA phía sau mất căn cứ: phép `co_nguon` chỉ còn kiểm rằng
+trường `sources` **tồn tại**, không kiểm nó có nội dung — đúng lỗi của
+`openai_research.py` cũ, luôn trả `sources: []` mà không ai biết.
+
+Có một test chạy **toàn tuyến tới gói bàn giao khi không một khoá API nào được
+đặt**. Còn dùng thừa một connector là test đó đỏ.
+
 ## Chạy theo lô, thứ tự cố định
 
 Đây là chế độ đang dùng.

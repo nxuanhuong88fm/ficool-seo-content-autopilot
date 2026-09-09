@@ -9,6 +9,8 @@ import json
 import sys
 from pathlib import Path
 
+from pipeline import dau_vao
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -61,7 +63,9 @@ def cmd_run(args):
         root, qa, wp = run_topic(args.topic_id, output_root=args.output_dir,
                                  use_mock_images=args.mock_images,
                                  bo_qua_chong_trung=args.force,
-                                 dang_bai=args.dang_bai)
+                                 dang_bai=args.dang_bai,
+                                 nghien_cuu=args.nghien_cuu, viet=args.viet,
+                                 thu_muc_dau_vao=args.thu_muc_dau_vao)
     except DaLamRoi as e:
         _in(f'BỎ QUA: {e}'); return 0
     except QAChan as e:
@@ -148,10 +152,18 @@ def cmd_lo(args):
     for t in lo:
         _in('  %s  %s' % (t['id'], t['title']))
 
+    phan = []
+    if args.nghien_cuu == 'gemini':
+        phan.append('%d luot nghien cuu (Gemini+Serper+GSC)' % len(lo))
+    if args.viet == 'gemini':
+        phan.append('%d luot viet + %d luot meta' % (len(lo), len(lo)))
     if not args.mock_images:
-        _in('')
-        _in('Uoc luong goi API: %d luot nghien cuu + %d luot viet + %d luot meta + %d anh.'
-            % (len(lo), len(lo), len(lo), len(lo) * 4))
+        phan.append('%d anh' % (len(lo) * 4))
+    _in('')
+    _in('Uoc luong goi API: ' + (' + '.join(phan) if phan else 'KHONG GOI GI (tat ca do tac nhan)'))
+    if args.nghien_cuu == 'toi' or args.viet == 'toi':
+        _in('Dau vao tac nhan doc tu: %s/<TOPIC_ID>.yaml'
+            % (args.thu_muc_dau_vao or dau_vao.THU_MUC_MAC_DINH))
     if args.xem_truoc:
         _in('')
         _in('(--xem-truoc: chi liet ke, chua chay)')
@@ -164,7 +176,9 @@ def cmd_lo(args):
         try:
             root, qa, wp = run_topic(t['id'], output_root=args.output_dir,
                                      use_mock_images=args.mock_images,
-                                     dang_bai=args.dang_bai)
+                                     dang_bai=args.dang_bai,
+                                     nghien_cuu=args.nghien_cuu, viet=args.viet,
+                                     thu_muc_dau_vao=args.thu_muc_dau_vao)
         except DaLamRoi as e:
             _in('   BO QUA: %s' % e)
             continue
@@ -214,6 +228,36 @@ def cmd_da_dang(args):
     return 0
 
 
+
+def cmd_yeu_cau(args):
+    """Sinh tệp mẫu để tác nhân điền nghiên cứu và/hoặc bài viết."""
+    from pipeline.chon import HetChuDe, chon_lo
+
+    try:
+        lo, con_lai = chon_lo(args.so_luong, args.thu_tu)
+    except (HetChuDe, ValueError) as e:
+        _in('KHONG CHAY DUOC: %s' % e)
+        return 2
+
+    thu_muc = args.thu_muc_dau_vao or dau_vao.THU_MUC_MAC_DINH
+    moi, da_co = [], []
+    for t in lo:
+        p = dau_vao.duong_dan(t['id'], thu_muc)
+        (da_co if p.exists() else moi).append(t['id'])
+        dau_vao.ghi_mau(t, thu_muc, can_bai_viet=(args.viet == 'toi'))
+
+    _in('Thu muc: %s/  (con %d chu de chua lam)' % (thu_muc, con_lai))
+    if moi:
+        _in('Da sinh %d mau moi: %s' % (len(moi), ', '.join(moi)))
+    if da_co:
+        _in('Giu nguyen %d tep da co: %s' % (len(da_co), ', '.join(da_co)))
+    _in('')
+    _in('Dien xong thi chay:')
+    co = ' --viet=toi' if args.viet == 'toi' else ''
+    _in('   python scripts/ficool.py lo %d --nghien-cuu=toi%s' % (args.so_luong, co))
+    return 0
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(prog='ficool')
     sub = p.add_subparsers(dest='command', required=True)
@@ -236,6 +280,11 @@ def main(argv=None):
                    choices=['ho-so', 'novamira', 'rest', 'auto'],
                    help="ho-so (mặc định): ghi gói bàn giao, KHÔNG cần khoá WordPress · "
                         "novamira/rest: máy tự đăng, cần khoá · auto: giàu→nghèo→bàn giao")
+    s.add_argument('--nghien-cuu', dest='nghien_cuu', default='gemini', choices=['gemini', 'toi'],
+                   help='toi: bo Gemini research + Serper + GSC, doc tu dau-vao/<ID>.yaml')
+    s.add_argument('--viet', default='gemini', choices=['gemini', 'toi'],
+                   help='toi: bo Gemini text; Gemini chi con dung cho anh')
+    s.add_argument('--thu-muc-dau-vao', dest='thu_muc_dau_vao', default=None)
     s.set_defaults(fn=cmd_run)
 
     s = sub.add_parser('demo', help='chạy khô, không mạng, không khoá')
@@ -253,7 +302,20 @@ def main(argv=None):
     s.add_argument('--output-dir', default=None)
     s.add_argument('--xem-truoc', dest='xem_truoc', action='store_true',
                    help='chi liet ke chu de va uoc luong goi API, chua chay')
+    s.add_argument('--nghien-cuu', dest='nghien_cuu', default='gemini', choices=['gemini', 'toi'],
+                   help='toi: bo Gemini research + Serper + GSC, doc tu dau-vao/<ID>.yaml')
+    s.add_argument('--viet', default='gemini', choices=['gemini', 'toi'],
+                   help='toi: bo Gemini text; Gemini chi con dung cho anh')
+    s.add_argument('--thu-muc-dau-vao', dest='thu_muc_dau_vao', default=None)
     s.set_defaults(fn=cmd_lo)
+
+    s = sub.add_parser('yeu-cau', help='sinh tep mau de tac nhan dien nghien cuu / bai viet')
+    s.add_argument('so_luong', type=int, nargs='?', default=10)
+    s.add_argument('--thu-tu', dest='thu_tu', default='cum', choices=['cum', 'luan-phien'])
+    s.add_argument('--viet', default='toi', choices=['gemini', 'toi'],
+                   help='toi (mac dinh): mau co ca phan bai viet')
+    s.add_argument('--thu-muc-dau-vao', dest='thu_muc_dau_vao', default=None)
+    s.set_defaults(fn=cmd_yeu_cau)
 
     s = sub.add_parser('cho-dang', help='goi da dung nhung chua len WordPress')
     s.set_defaults(fn=cmd_cho_dang)
