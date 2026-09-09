@@ -117,3 +117,54 @@ def test_kho_anh_khong_hop_le_thi_chan_ngay_luc_khoi_tao(monkeypatch):
     monkeypatch.setenv('GEMINI_IMAGE_SIZE', '8K')
     with pytest.raises(RuntimeError, match='khong hop le'):
         _provider(monkeypatch, _ClientGia([]))
+
+
+# ── ke hoach anh: loi do duoc tren bai ML-01 that (09/09) ───────────────────
+def test_bon_anh_phai_co_alt_KHAC_NHAU():
+    """Ban cu lay subject cua IMG-001/002/003 tu title, primary_keyword va
+    secondary_keywords[0] — ca ba gan nhu trung nhau, nen ba anh cung prompt,
+    cung alt. Vua phi tien sinh, vua la alt trung lap."""
+    from pipeline.images import ImagePipeline
+    from pipeline.topic_selector import TopicSelector
+
+    ke = ImagePipeline(provider=object()).plan(TopicSelector().by_id('ML-01'))
+    alt = [x['alt'] for x in ke]
+    assert len(set(alt)) == 4, alt
+    assert len({x['canh'] for x in ke}) == 4
+
+
+def test_khong_dan_chong_dia_phuong():
+    """alt cu cua IMG-004: 'ky thuat vien dien lanh tai TP.HCM tai TP.HCM'."""
+    from pipeline.images import ImagePipeline, _gon
+    from pipeline.topic_selector import TopicSelector
+
+    assert _gon('kỹ thuật viên điện lạnh tại TP.HCM') == 'kỹ thuật viên điện lạnh'
+    assert _gon('Máy lạnh chảy nước trong nhà') == 'Máy lạnh chảy nước trong nhà'
+
+    for t in TopicSelector().all():
+        for a in ImagePipeline(provider=object()).plan(t):
+            assert a['alt'].count('TP.HCM') <= 1, a['alt']
+            assert a['alt'].count('Ficool') == 1
+
+
+def test_moi_anh_deu_co_alt_title_caption():
+    from pipeline.images import ImagePipeline
+    from pipeline.topic_selector import TopicSelector
+
+    for a in ImagePipeline(provider=object()).plan(TopicSelector().by_id('MG-05')):
+        assert a['alt'] and a['title'] and a['caption']
+        assert a['caption'].startswith('Hình minh họa:')
+
+
+def test_alt_khong_lap_cum_hai_tu_lien_ke():
+    """'... chay nuoc trong nha trong nha o TP.HCM' — mau alt dinh ngu chi noi
+    chon dat SAU {chu_de} thi dung phai tieu de von da ket thuc bang 'trong nha'."""
+    from pipeline.images import ImagePipeline
+    from pipeline.topic_selector import TopicSelector
+
+    for t in TopicSelector().all():
+        for a in ImagePipeline(provider=object()).plan(t):
+            tu = a['alt'].lower().split()
+            cap = [' '.join(tu[i:i + 2]) for i in range(len(tu) - 1)]
+            for i in range(len(cap) - 2):
+                assert cap[i] != cap[i + 2], '%s: lap %r' % (a['alt'], cap[i])

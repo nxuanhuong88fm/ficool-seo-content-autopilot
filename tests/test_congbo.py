@@ -77,9 +77,9 @@ def test_ho_so_ghi_du_goi_ban_giao(tmp_path):
 
     kh = json.loads((goi / 'ke-hoach.json').read_text(encoding='utf-8'))
     assert kh['slug'] == ART['slug']
-    assert [b['thu_tu'] for b in kh['buoc']] == [1, 2, 3, 4, 5, 6]
-    assert kh['buoc'][2]['tham_so']['post_status'] == 'draft'
-    assert kh['buoc'][3]['tham_so']['focus_keywords'] == [TOPIC['primary_keyword']]
+    assert [b['thu_tu'] for b in kh['buoc']] == [0, 1, 2, 3, 4, 5, 6]
+    assert kh['buoc'][3]['tham_so']['post_status'] == 'draft'
+    assert kh['buoc'][4]['tham_so']['focus_keywords'] == [TOPIC['primary_keyword']]
     assert len(kh['anh']) == 2
     assert kh['anh'][0]['alt'] == 'alt 1'
 
@@ -250,4 +250,4 @@ def test_demo_sinh_goi_tu_nhat_quan(tmp_path, monkeypatch):
     for a in kh['anh']:
         assert a['moc_thay_the'] in html, 'moc %s khong co trong HTML' % a['id']
         assert (goi / a['tep']).exists()
-    assert kh['buoc'][2]['tham_so']['post_status'] == 'draft'
+    assert kh['buoc'][3]['tham_so']['post_status'] == 'draft'

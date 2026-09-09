@@ -78,7 +78,12 @@ class GeminiImageProvider:
         self.client = tao_client()
         self.model = model or model_anh()
         import os
-        self.kho = (kho or os.getenv('GEMINI_IMAGE_SIZE') or '2K').upper()
+        # Mac dinh 1K, do duoc ngay 09/09/2026 tren gemini-3.1-flash-image, 16:9:
+        #   1K ->   355.447 B, 1376x768
+        #   2K -> 1.648.460 B, 2752x1536   (4,6 lan so byte)
+        # Anh trong bai hien thi rong khoang 800px, nen 1376px da du cho man
+        # hinh 2x. Chon 2K la tra 4,6 lan dung luong cho phan khong ai nhin thay.
+        self.kho = (kho or os.getenv('GEMINI_IMAGE_SIZE') or '1K').upper()
         if self.kho not in KHO_HOP_LE:
             raise RuntimeError(f'GEMINI_IMAGE_SIZE={self.kho} khong hop le, chon {KHO_HOP_LE}')
 

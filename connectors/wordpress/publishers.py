@@ -191,6 +191,12 @@ class CongBoHoSo:
             'slug': article['slug'],
             'chong_trung': 'Truoc buoc 3 phai kiem slug chua ton tai tren WordPress.',
             'buoc': [
+                {'thu_tu': 0, 'ability': '(NGUOI XEM — bat buoc)',
+                 'viec': 'MO TUNG TEP trong images/ ra NHIN. Loai bo anh co: ten hang hoac '
+                         'logo bat ky tren thiet bi/dong phuc, chu doc duoc trong khung hinh, '
+                         'thao tac khong an toan, hoac chi tiet sai voi bai. Da do tren luot '
+                         'sinh dau tien: 3/4 anh mang nhan hieu ben thu ba du prompt cam. '
+                         'Khong co cach kiem tu dong nao thay duoc buoc nay. Xem RULES A117.'},
                 {'thu_tu': 1, 'ability': 'novamira/create-upload-link + execute-php',
                  'viec': 'Tai tung tep trong images/ vao Media Library bang '
                          'wp_insert_attachment + wp_generate_attachment_metadata. '
