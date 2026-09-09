@@ -1,6 +1,6 @@
 {
   "run_id": "ML-01-81f1dbc2",
-  "topic_id": "ML-01",
+  "topic_id": "ML-02",
   "topic": "Máy lạnh chảy nước trong nhà",
   "category": "Máy lạnh",
   "slug": "may-lanh-chay-nuoc-trong-nha",
@@ -71,5 +71,8 @@
     "chat_luong": 85,
     "sua_tai_cho": "2026-09-09",
     "ghi_chu": "4 anh JPEG doi sang WebP ngay tren server (GD), them ban og 1200x630. The <img> co class wp-image + sizes; anh dau eager. 4 attachment JPEG cu (379-382) GIU LAI, chua xoa."
-  }
+  },
+  "topic_id_ban_do_cu": "ML-01",
+  "phien_ban_ban_do": "funnel-map-v2+c7e2ae283573",
+  "ghi_chu_ban_do": "Bai nay viet theo hat giong cu, luc do mang ma ML-01. Duoi ban do funnel v2 no la ML-02 (\"May lanh chay nuoc\"), con ML-02 cua ban do moi la mot chu de KHAC (\"May lanh khong lanh\"). Doi topic_id o day de chong trung khong bo sot ML-01 moi va khong viet lai ML-02. Tieu de, slug, tu khoa va CTA cua bai VAN CHUA khop dac ta ML-02 — viec doi chieu rieng."
 }
