@@ -12,42 +12,9 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from tests.fake_wp import FakeWordPress  # noqa: E402
 
-DOAN = (
-    "Máng hứng nước nằm ngay dưới dàn lạnh, hứng phần nước ngưng tụ rồi dẫn ra "
-    "ngoài theo ống thoát. Bụi bám lâu ngày làm máng đọng nước và tràn ra sàn. "
-    "Kiểm tra bằng mắt trước khi tháo bất cứ thứ gì, và ngắt điện trước khi thao tác. "
-)
+from pipeline.bai_mau import bai_mau  # noqa: E402
 
-BAI = """# Máy lạnh chảy nước trong nhà: nguyên nhân và cách xử lý
-
-Máy lạnh chảy nước trong nhà thường bắt nguồn từ máng hứng nước bị nghẹt.
-
-<!-- IMAGE: IMG-001 -->
-
-## Nguyên nhân thường gặp
-
-- Máng hứng nước đọng bụi
-- Ống thoát bị gấp khúc
-- Thiếu **gas** làm dàn lạnh đóng băng
-
-""" + DOAN * 12 + """
-
-Xem thêm <!-- INTERNAL: bảng giá vệ sinh máy lạnh | /bang-gia/ --> để tham khảo.
-
-## Khi nào nên gọi thợ
-
-Những gì Ficool cam kết làm: kiểm tra trước, báo giá rõ ràng.
-
-""" + DOAN * 12 + """
-
-| Hiện tượng | Xử lý |
-|---|---|
-| Nhỏ giọt | Vệ sinh máng |
-
-## Câu hỏi thường gặp (FAQ)
-
-Ficool phục vụ TP.HCM. Đặt lịch để được hỗ trợ.
-"""
+BAI = bai_mau("máy lạnh chảy nước trong nhà")
 
 META = {"title": "Máy lạnh chảy nước trong nhà: cách xử lý",
         "meta_description": "Nguyên nhân máy lạnh chảy nước, cách kiểm tra an toàn và khi nào nên gọi kỹ thuật viên tại TP.HCM.",
@@ -119,7 +86,7 @@ def test_chay_het_pipeline_ra_ban_nhap(wp_gia, dich_vu_gia, tmp_path):
     # ① luôn là draft, không bao giờ publish
     assert payload["status"] == "draft"
     # ② liên kết nội bộ phải thành thẻ <a> thật
-    assert '<a href="/bang-gia/">bảng giá vệ sinh máy lạnh</a>' in html
+    assert '<a href="/bang-gia/">bảng giá dịch vụ</a>' in html
     # ③ danh sách phải có <ul> bọc — HTML hợp lệ
     assert "<ul>" in html and "<li>" in html
     # ④ bảng Markdown phải thành <table>
@@ -135,3 +102,13 @@ def test_chay_het_pipeline_ra_ban_nhap(wp_gia, dich_vu_gia, tmp_path):
     assert payload["categories"] and payload["tags"]
     # ⑨ excerpt = meta description
     assert payload["excerpt"] == META["meta_description"]
+
+    # ⑩ schema GEO phải nằm TRONG bài được đăng, và chỉ gồm type Rank Math bỏ trống
+    import json as _j
+    from pipeline.geo import TYPE_RANK_MATH_GIU
+    khoi = re.search(r'application/ld\+json">(.*?)</script>', html, re.S)
+    assert khoi, 'khong co JSON-LD trong bai duoc dang'
+    do_thi = _j.loads(khoi.group(1))
+    types = {n['@type'] for n in do_thi['@graph']}
+    assert 'FAQPage' in types
+    assert not (types & TYPE_RANK_MATH_GIU), f'lan sang type cua Rank Math: {types}'

@@ -44,7 +44,7 @@ def khang_dinh_bi_cam(van_ban: str):
 
 
 class QAPipeline:
-    def run(self, topic, article, html_body, images, research):
+    def run(self, topic, article, html_body, images, research, geo=None):
         than = article['body']
         vi_pham = khang_dinh_bi_cam(than)
         phu = do_phu_tu_khoa(topic['primary_keyword'], than)
@@ -71,6 +71,9 @@ class QAPipeline:
             'do_dai_meta': 0 < len(str(article.get('seo', {}).get('meta_description', ''))) <= 160,
             'du_dai_bai': so_tu >= 800,
         }
+        # Phép đo GEO gộp thẳng vào cùng một cổng — không dựng cổng thứ hai.
+        # Hai cổng song song là cách chúng lệch nhau (xem scripts/production_draft.py cũ).
+        checks.update(geo or {})
         # MỌI phép đều chặn. Bản cũ tính điểm 11 phép nhưng chỉ chặn 7 — bốn phép
         # còn lại (kể cả độ dài title/meta) chỉ để nhìn cho đẹp.
         return {

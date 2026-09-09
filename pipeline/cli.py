@@ -75,8 +75,7 @@ def cmd_demo(args):
     """Chạy khô: không mạng, không khoá. Dùng ĐÚNG bộ dựng và ĐÚNG cổng QA của
     production, nên demo hỏng nghĩa là production hỏng."""
     from connectors.image_provider import MockImageProvider
-    from pipeline.assembly import AssemblyPipeline
-    from pipeline.qa import QAPipeline
+    from pipeline.run import _ghep_va_cham
     from pipeline.utils import dump_yaml, slugify
 
     tu_khoa = args.keyword
@@ -84,16 +83,8 @@ def cmd_demo(args):
     out = ROOT / 'output/demo' / slug
     out.mkdir(parents=True, exist_ok=True)
 
-    doan = (f'{tu_khoa.capitalize()} là tình huống thường gặp với thiết bị điện lạnh '
-            'trong điều kiện khí hậu TP.HCM. Trước khi tháo lắp bất cứ bộ phận nào, '
-            'hãy ngắt nguồn điện và quan sát dấu hiệu bằng mắt. ')
-    than = (f'# {tu_khoa.capitalize()}: nguyên nhân và cách xử lý\n\n'
-            f'{tu_khoa.capitalize()} có thể đến từ nhiều nguyên nhân khác nhau.\n\n'
-            '<!-- IMAGE: IMG-001 -->\n\n## Dấu hiệu thường gặp\n\n'
-            + doan * 14 +
-            '\n\nTham khảo <!-- INTERNAL: bảng giá dịch vụ | /bang-gia/ --> trước khi quyết định.\n\n'
-            '## Khi nào nên gọi kỹ thuật viên\n\n' + doan * 14 +
-            '\n\n## Câu hỏi thường gặp (FAQ)\n\nFicool phục vụ khu vực TP.HCM. Đặt lịch để được hỗ trợ.\n')
+    from pipeline.bai_mau import bai_mau
+    than = bai_mau(tu_khoa)
 
     provider, images = MockImageProvider(), []
     for i, muc_dich in enumerate(['bối cảnh chủ đề', 'nguyên nhân thường gặp',
@@ -112,16 +103,20 @@ def cmd_demo(args):
                        'meta_description': f'Nguyên nhân {tu_khoa}, cách kiểm tra an toàn '
                                            'và khi nào nên gọi kỹ thuật viên tại TP.HCM.'}}
     topic = {'id': 'DEMO', 'title': tu_khoa, 'category': 'Máy lạnh', 'tags': ['lỗi thường gặp'],
+             'content_type': 'how_to',
              'primary_keyword': tu_khoa}
 
-    html_body = AssemblyPipeline().run(article, images, images, out)
-    qa = QAPipeline().run(topic, article, html_body, images, {'serp': [{'link': 'https://vd.vn'}]})
+    # Dùng ĐÚNG hàm ghép-và-chấm của production, không dựng đường song song.
+    _html, qa = _ghep_va_cham(topic, article, images, images,
+                              {'serp': [{'link': 'https://vd.vn'}]}, out)
 
     (out / 'article.md').write_text(than, encoding='utf-8')
     dump_yaml(out / 'demo.yaml', {'topic': topic, 'seo': article['seo'], 'qa': qa,
                                   'images': [i['id'] for i in images]})
     _in(f'Demo: {out.relative_to(ROOT)}')
     _in(f'QA  : {qa["status"]} ({qa["overall"]}/100)' + (f' — chặn: {qa["blockers"]}' if qa['blockers'] else ''))
+    _in(f'Schema: {qa["schema"]["types"] or "(khong co)"} — {qa["schema"]["faq"]} cap FAQ, '
+        f'{qa["schema"]["buoc"]} buoc')
     return 0 if qa['status'] == 'PASS' else 1
 
 
