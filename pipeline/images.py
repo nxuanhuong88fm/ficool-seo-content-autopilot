@@ -79,6 +79,15 @@ def _gon(cum: str) -> str:
     return cum
 
 
+def _caption(alt: str) -> str:
+    """Alt co the da bat dau bang mot nhan co dau hai cham ('Tong quan: ...').
+    Ghep them 'Hinh minh hoa:' nua ra hai dau hai cham trong mot cau."""
+    than = alt.replace(' – Ficool', '').strip()
+    if ':' in than:
+        return than.rstrip('.') + '.'
+    return 'Hình minh họa: %s.' % than
+
+
 class ImagePipeline:
     def __init__(self, provider=None):
         self.provider = provider or GeminiImageProvider()
@@ -90,7 +99,7 @@ class ImagePipeline:
             alt = v['mau_alt'].format(chu_de=chu_de[0].lower() + chu_de[1:] if chu_de else '',
                                       dia_phuong=DIA_PHUONG) + ' – Ficool'
             ra.append({**v, 'subject': chu_de, 'alt': alt, 'title': alt,
-                       'caption': 'Hình minh họa: %s.' % alt.replace(' – Ficool', '')})
+                       'caption': _caption(alt)})
         return ra
 
     def generate(self, topic, article, output_dir):

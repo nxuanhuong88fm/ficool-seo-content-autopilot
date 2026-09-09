@@ -153,7 +153,11 @@ def test_moi_anh_deu_co_alt_title_caption():
 
     for a in ImagePipeline(provider=object()).plan(TopicSelector().by_id('MG-05')):
         assert a['alt'] and a['title'] and a['caption']
-        assert a['caption'].startswith('Hình minh họa:')
+        # Khong duoc co hai dau hai cham trong mot cau: alt da co the bat dau
+        # bang mot nhan ('Tong quan: ...'), ghep them 'Hinh minh hoa:' la thanh
+        # 'Hinh minh hoa: Tong quan: ...'.
+        assert a['caption'].count(':') <= 1, a['caption']
+        assert a['caption'].endswith('.')
 
 
 def test_alt_khong_lap_cum_hai_tu_lien_ke():
