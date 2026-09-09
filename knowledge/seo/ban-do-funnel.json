@@ -1,0 +1,3979 @@
+{
+  "phien_ban": "funnel-map-v2+c7e2ae283573",
+  "nguon": "108-chu-de-dien-lanh-content-funnel-map-v2.xlsx",
+  "sha256_12": "c7e2ae283573",
+  "nhap_ngay": "2026-09-09",
+  "so_bai": 108,
+  "chua_giai_duoc": [],
+  "thieu_trang_dich_vu": [
+    [
+      "MG-13",
+      "Tư vấn & lắp đặt Máy giặt"
+    ],
+    [
+      "MG-14",
+      "Tư vấn & lắp đặt Máy giặt"
+    ],
+    [
+      "TL-13",
+      "Tư vấn & lắp đặt Tủ lạnh"
+    ],
+    [
+      "TL-16",
+      "Tư vấn & lắp đặt Tủ lạnh"
+    ],
+    [
+      "TD-03",
+      "Vệ sinh Tủ mát, tủ đông"
+    ],
+    [
+      "TD-10",
+      "Vệ sinh Tủ mát, tủ đông"
+    ],
+    [
+      "TD-11",
+      "Bảo trì / kiểm tra định kỳ Tủ mát, tủ đông"
+    ],
+    [
+      "TD-12",
+      "Tư vấn & lắp đặt Tủ mát, tủ đông"
+    ],
+    [
+      "TD-13",
+      "Tư vấn & lắp đặt Tủ mát, tủ đông"
+    ],
+    [
+      "TD-14",
+      "Bảo trì / vệ sinh Tủ mát, tủ đông"
+    ],
+    [
+      "TD-16",
+      "Vệ sinh Tủ mát, tủ đông"
+    ],
+    [
+      "TD-17",
+      "Tư vấn & lắp đặt Tủ mát, tủ đông"
+    ],
+    [
+      "MN-07",
+      "Vệ sinh Máy nước nóng"
+    ],
+    [
+      "MN-08",
+      "Vệ sinh Máy nước nóng"
+    ],
+    [
+      "MN-09",
+      "Vệ sinh Máy nước nóng"
+    ],
+    [
+      "MN-10",
+      "Bảo trì / kiểm tra định kỳ Máy nước nóng"
+    ],
+    [
+      "MN-11",
+      "Bảo trì / kiểm tra định kỳ Máy nước nóng"
+    ],
+    [
+      "MN-12",
+      "Tư vấn & lắp đặt Máy nước nóng"
+    ],
+    [
+      "MN-13",
+      "Tư vấn & lắp đặt Máy nước nóng"
+    ],
+    [
+      "MN-14",
+      "Tư vấn & lắp đặt Máy nước nóng"
+    ],
+    [
+      "MN-16",
+      "Tư vấn & lắp đặt Máy nước nóng"
+    ],
+    [
+      "MN-17",
+      "Vệ sinh Máy nước nóng"
+    ],
+    [
+      "MN-18",
+      "Bảo trì / kiểm tra định kỳ Máy nước nóng"
+    ],
+    [
+      "TK-01",
+      "Kiểm tra / sửa chữa Thiết bị khác"
+    ],
+    [
+      "TK-02",
+      "Kiểm tra / sửa chữa Thiết bị khác"
+    ],
+    [
+      "TK-03",
+      "Kiểm tra / sửa chữa Thiết bị khác"
+    ],
+    [
+      "TK-04",
+      "Vệ sinh Thiết bị khác"
+    ],
+    [
+      "TK-05",
+      "Vệ sinh Thiết bị khác"
+    ],
+    [
+      "TK-06",
+      "Bảo trì / kiểm tra định kỳ Thiết bị khác"
+    ],
+    [
+      "TK-07",
+      "Tư vấn & lắp đặt Thiết bị khác"
+    ],
+    [
+      "TK-08",
+      "Tư vấn & lắp đặt Thiết bị khác"
+    ],
+    [
+      "TK-09",
+      "Tư vấn & lắp đặt Thiết bị khác"
+    ],
+    [
+      "TK-10",
+      "Kiểm tra / sửa chữa Thiết bị khác"
+    ],
+    [
+      "TK-11",
+      "Kiểm tra / sửa chữa Thiết bị khác"
+    ],
+    [
+      "TK-12",
+      "Kiểm tra / sửa chữa Thiết bị khác"
+    ],
+    [
+      "TK-13",
+      "Vệ sinh Thiết bị khác"
+    ],
+    [
+      "TK-14",
+      "Kiểm tra / sửa chữa Thiết bị khác"
+    ],
+    [
+      "TK-15",
+      "Bảo trì / kiểm tra định kỳ Thiết bị khác"
+    ],
+    [
+      "TK-16",
+      "Sửa chữa Thiết bị khác"
+    ],
+    [
+      "TK-17",
+      "Vệ sinh Thiết bị khác"
+    ],
+    [
+      "TK-18",
+      "Dịch vụ Thiết bị khác"
+    ]
+  ],
+  "tu_lien_ket_da_bo": [
+    "MG-08",
+    "MG-15",
+    "TL-11",
+    "TL-16",
+    "TD-07",
+    "TD-11",
+    "TD-17",
+    "TD-18",
+    "MN-17",
+    "TK-04",
+    "TK-16"
+  ],
+  "bai": [
+    {
+      "id": "ML-01",
+      "stt": 1,
+      "category": "Máy lạnh",
+      "title": "Máy lạnh không lạnh: Nguyên nhân, cách kiểm tra ban đầu và khi nào cần gọi thợ",
+      "slug": "may-lanh-khong-lanh",
+      "primary_keyword": "máy lạnh không lạnh",
+      "secondary_keywords": [
+        "điều hòa không mát",
+        "máy lạnh chạy nhưng không lạnh"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Cần khoanh vùng nguyên nhân trước khi sửa",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi mô tả/ảnh tình trạng để được hướng dẫn bước kiểm tra tiếp theo.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên máy lạnh và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "ML-12",
+        "ML-09"
+      ],
+      "bai_tiep_theo": "ML-07",
+      "trang_dich_vu": "/dich-vu/sua-chua-may-lanh/"
+    },
+    {
+      "id": "ML-02",
+      "stt": 2,
+      "category": "Máy lạnh",
+      "title": "Máy lạnh chảy nước: Nguyên nhân, cách kiểm tra và khi nào cần xử lý kỹ thuật",
+      "slug": "may-lanh-chay-nuoc",
+      "primary_keyword": "máy lạnh chảy nước",
+      "secondary_keywords": [
+        "điều hòa bị chảy nước",
+        "dàn lạnh chảy nước trong nhà"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Biết nguyên nhân có thể kiểm tra và lúc nào cần thợ",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Nếu vẫn chảy nước sau bước kiểm tra cơ bản, gửi tình trạng để nhận hướng xử lý hoặc đặt lịch kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên máy lạnh và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "ML-09",
+        "ML-16"
+      ],
+      "bai_tiep_theo": "ML-07",
+      "trang_dich_vu": "/dich-vu/sua-chua-may-lanh/"
+    },
+    {
+      "id": "ML-03",
+      "stt": 3,
+      "category": "Máy lạnh",
+      "title": "Máy lạnh có mùi hôi: Phân biệt mùi ẩm mốc và dấu hiệu bất thường",
+      "slug": "may-lanh-co-mui-hoi",
+      "primary_keyword": "máy lạnh có mùi hôi",
+      "secondary_keywords": [
+        "điều hòa có mùi ẩm mốc",
+        "khử mùi máy lạnh"
+      ],
+      "tags": [
+        "Lỗi thường gặp",
+        "Vệ sinh"
+      ],
+      "intent": "Vấn đề — Xác định nguồn mùi và cách xử lý phù hợp",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Thử vệ sinh phần người dùng có thể làm; nếu mùi còn, xem phạm vi vệ sinh chuyên sâu hoặc đặt lịch.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên máy lạnh và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "ML-08",
+        "ML-09"
+      ],
+      "bai_tiep_theo": "ML-07",
+      "trang_dich_vu": "/dich-vu/sua-chua-may-lanh/"
+    },
+    {
+      "id": "ML-04",
+      "stt": 4,
+      "category": "Máy lạnh",
+      "title": "Máy lạnh kêu to, rung mạnh: Do dàn nóng, dàn lạnh hay cách lắp đặt?",
+      "slug": "may-lanh-keu-to",
+      "primary_keyword": "máy lạnh kêu to",
+      "secondary_keywords": [
+        "cục nóng máy lạnh kêu to",
+        "dàn lạnh bị rung"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Phân biệt tiếng động bình thường và dấu hiệu cần kiểm tra",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi video/âm thanh bất thường để được định hướng; đặt lịch nếu tiếng ồn tăng hoặc rung mạnh.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên máy lạnh và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Máy lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "ML-15",
+        "ML-16"
+      ],
+      "bai_tiep_theo": "ML-13",
+      "trang_dich_vu": "/dich-vu/lap-moi-may-lanh/"
+    },
+    {
+      "id": "ML-05",
+      "stt": 5,
+      "category": "Máy lạnh",
+      "title": "Máy lạnh tự tắt liên tục: Cài đặt, quá nhiệt hay lỗi kỹ thuật?",
+      "slug": "may-lanh-tu-tat",
+      "primary_keyword": "máy lạnh tự tắt",
+      "secondary_keywords": [
+        "điều hòa tự ngắt liên tục",
+        "máy lạnh chạy một lúc rồi tắt"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Biết các nguyên nhân có thể loại trừ trước khi sửa",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra cài đặt theo hướng dẫn; nếu vẫn tự ngắt, gửi mã lỗi/tình trạng để được tư vấn kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên máy lạnh và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "ML-09",
+        "ML-10"
+      ],
+      "bai_tiep_theo": "ML-16",
+      "trang_dich_vu": "/dich-vu/sua-chua-may-lanh/"
+    },
+    {
+      "id": "ML-06",
+      "stt": 6,
+      "category": "Máy lạnh",
+      "title": "Remote máy lạnh không điều khiển được: Cách kiểm tra từng trường hợp",
+      "slug": "remote-may-lanh-khong-dieu-khien-duoc",
+      "primary_keyword": "remote máy lạnh không điều khiển được",
+      "secondary_keywords": [
+        "máy lạnh không nhận remote",
+        "điều khiển điều hòa không hoạt động"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Xác định lỗi nằm ở remote hay máy",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Thử các bước kiểm tra an toàn; nếu remote hoạt động nhưng máy không nhận, đặt lịch kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên máy lạnh và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "ML-05",
+        "ML-09"
+      ],
+      "bai_tiep_theo": "ML-16",
+      "trang_dich_vu": "/dich-vu/sua-chua-may-lanh/"
+    },
+    {
+      "id": "ML-07",
+      "stt": 7,
+      "category": "Máy lạnh",
+      "title": "Vệ sinh máy lạnh tại nhà: Phần có thể tự làm và phần nên thuê thợ",
+      "slug": "ve-sinh-may-lanh-tai-nha",
+      "primary_keyword": "vệ sinh máy lạnh tại nhà",
+      "secondary_keywords": [
+        "cách vệ sinh điều hòa",
+        "làm sạch lưới lọc máy lạnh"
+      ],
+      "tags": [
+        "Vệ sinh"
+      ],
+      "intent": "Giải pháp — Biết việc nào có thể tự làm và giới hạn an toàn",
+      "giai_doan_khach": "Tìm giải pháp",
+      "uu_tien": "P2",
+      "cta_chinh": "Lưu checklist tự vệ sinh; xem dịch vụ nếu cần vệ sinh các phần không nên tự tháo.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Giáo dục & khoanh vùng",
+      "vai_tro": "Bridge / Solution education",
+      "trang_thai_khach": "Tìm giải pháp",
+      "trigger": "Khách đã xác định có vấn đề và đang cân nhắc tự làm hay thuê dịch vụ, muốn biết cách xử lý đúng.",
+      "loi_hua": "Hiểu phương án xử lý, phần nào có thể tự làm và phần nào nên giao kỹ thuật viên để tránh xử lý sai.",
+      "muc_dich_chuyen_tang": "Từ hiểu cách xử lý → biết phạm vi dịch vụ và chi phí → sẵn sàng yêu cầu hỗ trợ nếu tự xử lý không phù hợp.",
+      "cta_chuyen_tang": "Lưu checklist; nếu muốn vệ sinh chuyên sâu, xem phạm vi dịch vụ và chi phí trước khi đặt lịch.",
+      "diem_chuyen_doi": "Vệ sinh Máy lạnh",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "ML-08",
+        "ML-10"
+      ],
+      "bai_tiep_theo": "ML-09",
+      "trang_dich_vu": "/dich-vu/ve-sinh-may-lanh/"
+    },
+    {
+      "id": "ML-08",
+      "stt": 8,
+      "category": "Máy lạnh",
+      "title": "Bao lâu nên vệ sinh máy lạnh? Cách xác định theo mức sử dụng",
+      "slug": "bao-lau-ve-sinh-may-lanh",
+      "primary_keyword": "bao lâu vệ sinh máy lạnh",
+      "secondary_keywords": [
+        "chu kỳ vệ sinh máy lạnh",
+        "dấu hiệu máy lạnh cần vệ sinh"
+      ],
+      "tags": [
+        "Vệ sinh"
+      ],
+      "intent": "Phòng ngừa — Xác định thời điểm vệ sinh theo điều kiện thực tế",
+      "giai_doan_khach": "Phòng ngừa",
+      "uu_tien": "P2",
+      "cta_chinh": "Dùng checklist dấu hiệu; nếu đã đến kỳ, xem phạm vi và lịch vệ sinh phù hợp.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Nuôi dưỡng nhu cầu",
+      "vai_tro": "Nurture / Prevention",
+      "trang_thai_khach": "Phòng ngừa",
+      "trigger": "Khách muốn giảm nguy cơ hỏng đột ngột, chi phí bất ngờ hoặc hiệu suất giảm trong quá trình sử dụng.",
+      "loi_hua": "Biết lịch/hạng mục kiểm tra hợp lý và cách giảm nguy cơ hỏng hóc, giảm chi phí phát sinh.",
+      "muc_dich_chuyen_tang": "Từ phòng ngừa → xác định thời điểm/hạng mục cần làm → chuyển sang bảo trì hoặc vệ sinh có kế hoạch.",
+      "cta_chuyen_tang": "Lưu mốc kiểm tra phù hợp với tần suất sử dụng; đăng ký nhắc lịch nếu cần.",
+      "diem_chuyen_doi": "Vệ sinh Máy lạnh",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "ML-09",
+        "ML-11"
+      ],
+      "bai_tiep_theo": "ML-10",
+      "trang_dich_vu": "/dich-vu/ve-sinh-may-lanh/"
+    },
+    {
+      "id": "ML-09",
+      "stt": 9,
+      "category": "Máy lạnh",
+      "title": "Giá vệ sinh máy lạnh gồm những gì? Cách hỏi báo giá để tránh phát sinh",
+      "slug": "gia-ve-sinh-may-lanh",
+      "primary_keyword": "giá vệ sinh máy lạnh",
+      "secondary_keywords": [
+        "chi phí vệ sinh điều hòa",
+        "vệ sinh máy lạnh gồm những gì"
+      ],
+      "tags": [
+        "Vệ sinh",
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Đánh giá nhà cung cấp — Biết mình đang trả tiền cho hạng mục nào",
+      "giai_doan_khach": "Đánh giá nhà cung cấp",
+      "uu_tien": "P1",
+      "cta_chinh": "Xem bảng giá và phạm vi từng hạng mục; gửi loại máy/số lượng để nhận báo giá phù hợp.",
+      "funnel_stage": "F3",
+      "funnel_stage_day_du": "F3 — Xây tin & giảm rủi ro",
+      "vai_tro": "Proof / Trust & risk control",
+      "trang_thai_khach": "Đánh giá nhà cung cấp",
+      "trigger": "Khách đã cân nhắc thuê thợ nhưng lo báo giá mập mờ, phát sinh, sửa sai hoặc không có trách nhiệm sau dịch vụ.",
+      "loi_hua": "Biết cách kiểm tra báo giá, phạm vi công việc, nghiệm thu và trách nhiệm sau dịch vụ để giảm rủi ro.",
+      "muc_dich_chuyen_tang": "Từ nghi ngại → xem bằng chứng/quy trình → giảm rủi ro → đặt lịch khi đủ tin tưởng.",
+      "cta_chuyen_tang": "Xem bảng giá/mẫu báo giá; gửi model + tình trạng để nhận phạm vi và chi phí trước khi làm.",
+      "diem_chuyen_doi": "Vệ sinh Máy lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "ML-07",
+        "ML-08"
+      ],
+      "bai_tiep_theo": "ML-16",
+      "trang_dich_vu": "/dich-vu/ve-sinh-may-lanh/"
+    },
+    {
+      "id": "ML-10",
+      "stt": 10,
+      "category": "Máy lạnh",
+      "title": "Bảo trì máy lạnh cho gia đình và văn phòng: Checklist kiểm tra định kỳ",
+      "slug": "bao-tri-may-lanh",
+      "primary_keyword": "bảo trì máy lạnh",
+      "secondary_keywords": [
+        "bảo dưỡng điều hòa định kỳ",
+        "checklist bảo trì máy lạnh văn phòng"
+      ],
+      "tags": [
+        "Bảo trì"
+      ],
+      "intent": "Phòng ngừa — Biết hạng mục kiểm tra và cách lập lịch để giảm sự cố đột xuất",
+      "giai_doan_khach": "Phòng ngừa",
+      "uu_tien": "P2",
+      "cta_chinh": "Lưu checklist; đơn vị có nhiều máy có thể yêu cầu lập danh mục thiết bị và lịch bảo trì.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Nuôi dưỡng nhu cầu",
+      "vai_tro": "Nurture / Prevention",
+      "trang_thai_khach": "Phòng ngừa",
+      "trigger": "Khách muốn giảm nguy cơ hỏng đột ngột, chi phí bất ngờ hoặc hiệu suất giảm trong quá trình sử dụng.",
+      "loi_hua": "Biết lịch/hạng mục kiểm tra hợp lý và cách giảm nguy cơ hỏng hóc, giảm chi phí phát sinh.",
+      "muc_dich_chuyen_tang": "Từ phòng ngừa → xác định thời điểm/hạng mục cần làm → chuyển sang bảo trì hoặc vệ sinh có kế hoạch.",
+      "cta_chuyen_tang": "Tải/lưu checklist bảo trì; với nhiều thiết bị, gửi danh mục để nhận đề xuất lịch kiểm tra.",
+      "diem_chuyen_doi": "Bảo trì / kiểm tra định kỳ Máy lạnh",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "ML-08",
+        "ML-16"
+      ],
+      "bai_tiep_theo": "ML-09",
+      "trang_dich_vu": "/dich-vu/bao-tri-may-lanh/"
+    },
+    {
+      "id": "ML-11",
+      "stt": 11,
+      "category": "Máy lạnh",
+      "title": "Máy lạnh lâu ngày không sử dụng: Cần kiểm tra gì trước khi bật lại?",
+      "slug": "may-lanh-lau-ngay-khong-su-dung",
+      "primary_keyword": "máy lạnh lâu ngày không sử dụng",
+      "secondary_keywords": [
+        "bật máy lạnh sau thời gian dài",
+        "bảo quản máy lạnh khi không dùng"
+      ],
+      "tags": [
+        "Bảo trì",
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Phòng ngừa — Tránh bật lại khi thiết bị có vấn đề",
+      "giai_doan_khach": "Phòng ngừa",
+      "uu_tien": "P2",
+      "cta_chinh": "Tự kiểm tra theo checklist; nếu có mùi, rò nước, tiếng ồn hoặc hoạt động bất thường, đặt lịch kiểm tra.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Nuôi dưỡng nhu cầu",
+      "vai_tro": "Nurture / Prevention",
+      "trang_thai_khach": "Phòng ngừa",
+      "trigger": "Khách muốn giảm nguy cơ hỏng đột ngột, chi phí bất ngờ hoặc hiệu suất giảm trong quá trình sử dụng.",
+      "loi_hua": "Biết lịch/hạng mục kiểm tra hợp lý và cách giảm nguy cơ hỏng hóc, giảm chi phí phát sinh.",
+      "muc_dich_chuyen_tang": "Từ phòng ngừa → xác định thời điểm/hạng mục cần làm → chuyển sang bảo trì hoặc vệ sinh có kế hoạch.",
+      "cta_chuyen_tang": "Lưu checklist và kiểm tra định kỳ; liên hệ khi phát hiện dấu hiệu bất thường.",
+      "diem_chuyen_doi": "Bảo trì / kiểm tra định kỳ Máy lạnh",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "ML-10",
+        "ML-08"
+      ],
+      "bai_tiep_theo": "ML-07",
+      "trang_dich_vu": "/dich-vu/bao-tri-may-lanh/"
+    },
+    {
+      "id": "ML-12",
+      "stt": 12,
+      "category": "Máy lạnh",
+      "title": "Máy lạnh có cần nạp gas định kỳ? Dấu hiệu cần kiểm tra rò rỉ",
+      "slug": "may-lanh-co-can-nap-gas-dinh-ky",
+      "primary_keyword": "máy lạnh có cần nạp gas định kỳ",
+      "secondary_keywords": [
+        "dấu hiệu máy lạnh thiếu gas",
+        "khi nào cần bơm gas máy lạnh"
+      ],
+      "tags": [
+        "Bảo trì",
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Hiểu khi nào cần kiểm tra hệ thống thay vì nạp gas theo lịch",
+      "giai_doan_khach": "Tìm giải pháp",
+      "uu_tien": "P2",
+      "cta_chinh": "Gửi tình trạng để được tư vấn; nếu nghi thiếu môi chất, yêu cầu kiểm tra nguyên nhân trước khi nạp.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Giáo dục & khoanh vùng",
+      "vai_tro": "Bridge / Solution education",
+      "trang_thai_khach": "Tìm giải pháp",
+      "trigger": "Khách đã xác định có vấn đề và đang cân nhắc tự làm hay thuê dịch vụ, muốn biết cách xử lý đúng.",
+      "loi_hua": "Hiểu phương án xử lý, phần nào có thể tự làm và phần nào nên giao kỹ thuật viên để tránh xử lý sai.",
+      "muc_dich_chuyen_tang": "Từ hiểu cách xử lý → biết phạm vi dịch vụ và chi phí → sẵn sàng yêu cầu hỗ trợ nếu tự xử lý không phù hợp.",
+      "cta_chuyen_tang": "Lưu hướng dẫn; nếu tình trạng không cải thiện, gửi model + triệu chứng để được tư vấn bước tiếp theo.",
+      "diem_chuyen_doi": "Vệ sinh / kiểm tra Máy lạnh",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "ML-09",
+        "ML-18"
+      ],
+      "bai_tiep_theo": "ML-16",
+      "trang_dich_vu": "/dich-vu/ve-sinh-may-lanh/"
+    },
+    {
+      "id": "ML-13",
+      "stt": 13,
+      "category": "Máy lạnh",
+      "title": "Lắp đặt máy lạnh đúng vị trí: Lưu ý cho dàn nóng và dàn lạnh",
+      "slug": "vi-tri-lap-may-lanh",
+      "primary_keyword": "vị trí lắp máy lạnh",
+      "secondary_keywords": [
+        "lắp máy lạnh ở đâu",
+        "vị trí lắp dàn nóng"
+      ],
+      "tags": [
+        "Lắp đặt"
+      ],
+      "intent": "Mua/triển khai — Biết điều kiện vị trí để tránh lỗi sau lắp đặt",
+      "giai_doan_khach": "Sẵn sàng triển khai",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi diện tích/phác thảo vị trí để được tư vấn; yêu cầu kiểm tra vị trí trước khi chốt lắp.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Ready to act",
+      "trang_thai_khach": "Sẵn sàng triển khai",
+      "trigger": "Khách đã có kế hoạch lắp đặt/di dời/vận chuyển hoặc cần triển khai một hạng mục cụ thể.",
+      "loi_hua": "Có checklist thông tin cần chuẩn bị và tiêu chí cần xác nhận trước khi đặt lịch/triển khai.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi thông tin thiết bị + địa điểm + thời gian mong muốn để xác nhận phạm vi và đặt lịch.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Máy lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "ML-17",
+        "ML-16"
+      ],
+      "bai_tiep_theo": "ML-15",
+      "trang_dich_vu": "/dich-vu/lap-moi-may-lanh/"
+    },
+    {
+      "id": "ML-14",
+      "stt": 14,
+      "category": "Máy lạnh",
+      "title": "Tháo lắp, di dời máy lạnh khi chuyển nhà: Quy trình và lưu ý",
+      "slug": "di-doi-may-lanh",
+      "primary_keyword": "di dời máy lạnh",
+      "secondary_keywords": [
+        "tháo lắp máy lạnh",
+        "chuyển máy lạnh sang nhà mới"
+      ],
+      "tags": [
+        "Lắp đặt"
+      ],
+      "intent": "Mua/triển khai — Biết chi phí, rủi ro và các bước cần kiểm soát",
+      "giai_doan_khach": "Sẵn sàng triển khai",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi model, số máy và khoảng cách di dời để nhận phạm vi công việc; đặt lịch khi đã sẵn sàng.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Ready to act",
+      "trang_thai_khach": "Sẵn sàng triển khai",
+      "trigger": "Khách đã có kế hoạch lắp đặt/di dời/vận chuyển hoặc cần triển khai một hạng mục cụ thể.",
+      "loi_hua": "Có checklist thông tin cần chuẩn bị và tiêu chí cần xác nhận trước khi đặt lịch/triển khai.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi thông tin thiết bị + địa điểm + thời gian mong muốn để xác nhận phạm vi và đặt lịch.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Máy lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "ML-13",
+        "ML-16"
+      ],
+      "bai_tiep_theo": "ML-15",
+      "trang_dich_vu": "/dich-vu/lap-moi-may-lanh/"
+    },
+    {
+      "id": "ML-15",
+      "stt": 15,
+      "category": "Máy lạnh",
+      "title": "Lắp máy lạnh có cần hút chân không? Những điểm cần kiểm tra khi nghiệm thu",
+      "slug": "lap-may-lanh-co-can-hut-chan-khong",
+      "primary_keyword": "lắp máy lạnh có cần hút chân không",
+      "secondary_keywords": [
+        "hút chân không máy lạnh",
+        "nghiệm thu lắp đặt điều hòa"
+      ],
+      "tags": [
+        "Lắp đặt"
+      ],
+      "intent": "Đánh giá nhà cung cấp — Biết cách kiểm tra chất lượng sau lắp",
+      "giai_doan_khach": "Đánh giá nhà cung cấp",
+      "uu_tien": "P1",
+      "cta_chinh": "Lưu checklist nghiệm thu; khi đặt lắp, yêu cầu thống nhất rõ các hạng mục bàn giao.",
+      "funnel_stage": "F3",
+      "funnel_stage_day_du": "F3 — Xây tin & giảm rủi ro",
+      "vai_tro": "Proof / Trust & risk control",
+      "trang_thai_khach": "Đánh giá nhà cung cấp",
+      "trigger": "Khách đã cân nhắc thuê thợ nhưng lo báo giá mập mờ, phát sinh, sửa sai hoặc không có trách nhiệm sau dịch vụ.",
+      "loi_hua": "Biết cách kiểm tra báo giá, phạm vi công việc, nghiệm thu và trách nhiệm sau dịch vụ để giảm rủi ro.",
+      "muc_dich_chuyen_tang": "Từ nghi ngại → xem bằng chứng/quy trình → giảm rủi ro → đặt lịch khi đủ tin tưởng.",
+      "cta_chuyen_tang": "Xem quy trình kiểm tra, báo giá và bảo hành; đặt lịch kiểm tra khi đã sẵn sàng.",
+      "diem_chuyen_doi": "Dịch vụ Máy lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "ML-13",
+        "ML-09"
+      ],
+      "bai_tiep_theo": "ML-16",
+      "trang_dich_vu": "/dich-vu/sua-chua-may-lanh/"
+    },
+    {
+      "id": "ML-16",
+      "stt": 16,
+      "category": "Máy lạnh",
+      "title": "Checklist nghiệm thu máy lạnh sau vệ sinh, sửa chữa hoặc lắp đặt: Kiểm tra gì trước khi thanh toán?",
+      "slug": "checklist-nghiem-thu-may-lanh",
+      "primary_keyword": "checklist nghiệm thu máy lạnh",
+      "secondary_keywords": [
+        "kiểm tra máy lạnh sau sửa",
+        "nghiệm thu vệ sinh máy lạnh"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Đánh giá nhà cung cấp — Biết cách tự kiểm tra kết quả và phạm vi đã thực hiện",
+      "giai_doan_khach": "Đánh giá nhà cung cấp",
+      "uu_tien": "P1",
+      "cta_chinh": "Lưu checklist và đối chiếu ngay khi bàn giao; nếu có hạng mục chưa đạt, yêu cầu kỹ thuật viên xử lý trước khi kết thúc.",
+      "funnel_stage": "F3",
+      "funnel_stage_day_du": "F3 — Xây tin & giảm rủi ro",
+      "vai_tro": "Proof / Trust & risk control",
+      "trang_thai_khach": "Đánh giá nhà cung cấp",
+      "trigger": "Khách đã cân nhắc thuê thợ nhưng lo báo giá mập mờ, phát sinh, sửa sai hoặc không có trách nhiệm sau dịch vụ.",
+      "loi_hua": "Biết cách kiểm tra báo giá, phạm vi công việc, nghiệm thu và trách nhiệm sau dịch vụ để giảm rủi ro.",
+      "muc_dich_chuyen_tang": "Từ nghi ngại → xem bằng chứng/quy trình → giảm rủi ro → đặt lịch khi đủ tin tưởng.",
+      "cta_chuyen_tang": "Lưu checklist nghiệm thu; dùng nó để đối chiếu hạng mục trước khi thanh toán.",
+      "diem_chuyen_doi": "Vệ sinh Máy lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "ML-09",
+        "ML-15"
+      ],
+      "bai_tiep_theo": "",
+      "trang_dich_vu": "/dich-vu/ve-sinh-may-lanh/"
+    },
+    {
+      "id": "ML-17",
+      "stt": 17,
+      "category": "Máy lạnh",
+      "title": "Cách chọn công suất máy lạnh theo diện tích và điều kiện phòng",
+      "slug": "chon-cong-suat-may-lanh",
+      "primary_keyword": "chọn công suất máy lạnh",
+      "secondary_keywords": [
+        "máy lạnh bao nhiêu HP cho phòng",
+        "chọn điều hòa theo diện tích"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Mua/triển khai — Chọn công suất phù hợp nhu cầu thực tế",
+      "giai_doan_khach": "Sẵn sàng triển khai",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi diện tích, hướng phòng và số người sử dụng để được tư vấn công suất.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Ready to act",
+      "trang_thai_khach": "Sẵn sàng triển khai",
+      "trigger": "Khách đã có kế hoạch lắp đặt/di dời/vận chuyển hoặc cần triển khai một hạng mục cụ thể.",
+      "loi_hua": "Có checklist thông tin cần chuẩn bị và tiêu chí cần xác nhận trước khi đặt lịch/triển khai.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi diện tích + nhu cầu + điều kiện lắp đặt để được tư vấn cấu hình và phương án thi công.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Máy lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "ML-15",
+        "ML-16"
+      ],
+      "bai_tiep_theo": "ML-13",
+      "trang_dich_vu": "/dich-vu/lap-moi-may-lanh/"
+    },
+    {
+      "id": "ML-18",
+      "stt": 18,
+      "category": "Máy lạnh",
+      "title": "Máy lạnh cũ sửa nhiều lần: Khi nào nên sửa tiếp, khi nào nên thay?",
+      "slug": "may-lanh-nen-sua-hay-thay-moi",
+      "primary_keyword": "máy lạnh nên sửa hay thay mới",
+      "secondary_keywords": [
+        "máy lạnh cũ có nên sửa",
+        "sửa máy lạnh hay mua mới"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Quyết định mua — So sánh chi phí, độ ổn định và rủi ro trước khi quyết định",
+      "giai_doan_khach": "Quyết định sửa/thay",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi model, tuổi máy và lịch sử lỗi để được tư vấn sửa hay thay theo tình trạng.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / High-value decision",
+      "trang_thai_khach": "Quyết định sửa/thay",
+      "trigger": "Khách có thiết bị cũ hoặc chi phí sửa chữa đáng kể và cần một căn cứ để quyết định.",
+      "loi_hua": "Có khung quyết định dựa trên tuổi thiết bị, tình trạng, lịch sử sửa và chi phí thay thế.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi model + tuổi thiết bị + lịch sử sửa chữa để được tư vấn sửa tiếp hay thay mới theo tình trạng thực tế.",
+      "diem_chuyen_doi": "Dịch vụ Máy lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "ML-17",
+        "ML-15"
+      ],
+      "bai_tiep_theo": "ML-16",
+      "trang_dich_vu": "/dich-vu/sua-chua-may-lanh/"
+    },
+    {
+      "id": "MG-01",
+      "stt": 19,
+      "category": "Máy giặt",
+      "title": "Máy giặt không vắt: Nguyên nhân và cách kiểm tra trước khi gọi thợ",
+      "slug": "may-giat-khong-vat",
+      "primary_keyword": "máy giặt không vắt",
+      "secondary_keywords": [
+        "máy giặt không vắt được",
+        "máy giặt không quay khi vắt"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Khoanh vùng nguyên nhân và biết khi nào cần kỹ thuật",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Thử checklist an toàn; nếu máy vẫn không vắt, gửi model/mã lỗi để được hướng dẫn bước tiếp theo.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên máy giặt và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy giặt",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MG-08",
+        "MG-15"
+      ],
+      "bai_tiep_theo": "MG-16",
+      "trang_dich_vu": "/dich-vu/sua-chua-may-giat/"
+    },
+    {
+      "id": "MG-02",
+      "stt": 20,
+      "category": "Máy giặt",
+      "title": "Máy giặt không xả nước: Kiểm tra ống xả, bộ lọc và bơm xả",
+      "slug": "may-giat-khong-xa-nuoc",
+      "primary_keyword": "máy giặt không xả nước",
+      "secondary_keywords": [
+        "máy giặt không thoát nước",
+        "máy giặt bị đọng nước"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Biết điểm có thể kiểm tra trước khi sửa",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra ống xả/bộ lọc theo hướng dẫn; nếu không cải thiện, đặt lịch kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên máy giặt và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy giặt",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MG-08",
+        "MG-15"
+      ],
+      "bai_tiep_theo": "MG-16",
+      "trang_dich_vu": "/dich-vu/sua-chua-may-giat/"
+    },
+    {
+      "id": "MG-03",
+      "stt": 21,
+      "category": "Máy giặt",
+      "title": "Máy giặt không cấp nước hoặc cấp nước yếu: Nguyên nhân thường gặp",
+      "slug": "may-giat-khong-cap-nuoc",
+      "primary_keyword": "máy giặt không cấp nước",
+      "secondary_keywords": [
+        "máy giặt cấp nước yếu",
+        "máy giặt không vào nước"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Phân biệt nguồn cấp, ống và lỗi máy",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra nguồn nước và ống cấp; nếu vẫn lỗi, gửi model để được định hướng.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên máy giặt và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy giặt",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MG-08",
+        "MG-15"
+      ],
+      "bai_tiep_theo": "MG-16",
+      "trang_dich_vu": "/dich-vu/sua-chua-may-giat/"
+    },
+    {
+      "id": "MG-04",
+      "stt": 22,
+      "category": "Máy giặt",
+      "title": "Máy giặt rung lắc, kêu to khi vắt: Do kê máy hay lỗi linh kiện?",
+      "slug": "may-giat-rung-lac-manh",
+      "primary_keyword": "máy giặt rung lắc mạnh",
+      "secondary_keywords": [
+        "máy giặt kêu to khi vắt",
+        "máy giặt rung mạnh"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Xác định rung do lắp đặt, tải hay lỗi kỹ thuật",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra cân bằng và tải giặt; nếu rung bất thường vẫn còn, đặt lịch kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên máy giặt và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy giặt",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MG-15",
+        "MG-16"
+      ],
+      "bai_tiep_theo": "MG-13",
+      "trang_dich_vu": "/dich-vu/sua-chua-may-giat/"
+    },
+    {
+      "id": "MG-05",
+      "stt": 23,
+      "category": "Máy giặt",
+      "title": "Máy giặt bị rò nước: Những vị trí cần kiểm tra trước khi sửa",
+      "slug": "may-giat-bi-ro-nuoc",
+      "primary_keyword": "máy giặt bị rò nước",
+      "secondary_keywords": [
+        "máy giặt chảy nước",
+        "máy giặt rò nước ở cửa"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Xác định vị trí rò để tránh sửa sai",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Ngừng sử dụng nếu rò nghiêm trọng; gửi ảnh vị trí rò hoặc đặt lịch kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên máy giặt và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy giặt",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MG-08",
+        "MG-15"
+      ],
+      "bai_tiep_theo": "MG-16",
+      "trang_dich_vu": "/dich-vu/sua-chua-may-giat/"
+    },
+    {
+      "id": "MG-06",
+      "stt": 24,
+      "category": "Máy giặt",
+      "title": "Máy giặt không mở được cửa: Nguyên nhân và cách xử lý an toàn",
+      "slug": "may-giat-khong-mo-duoc-cua",
+      "primary_keyword": "máy giặt không mở được cửa",
+      "secondary_keywords": [
+        "máy giặt bị khóa cửa",
+        "máy giặt cửa trước không mở"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Mở cửa an toàn mà không làm hỏng khóa",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Thực hiện các bước an toàn theo model; nếu không mở được, đặt lịch thay vì cố cạy cửa.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên máy giặt và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy giặt",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MG-16",
+        "MG-08"
+      ],
+      "bai_tiep_theo": "MG-15",
+      "trang_dich_vu": "/dich-vu/sua-chua-may-giat/"
+    },
+    {
+      "id": "MG-07",
+      "stt": 25,
+      "category": "Máy giặt",
+      "title": "Quần áo giặt xong có mùi hôi: Do máy giặt hay thói quen sử dụng?",
+      "slug": "quan-ao-giat-xong-co-mui-hoi",
+      "primary_keyword": "quần áo giặt xong có mùi hôi",
+      "secondary_keywords": [
+        "máy giặt có mùi hôi",
+        "quần áo giặt xong vẫn hôi"
+      ],
+      "tags": [
+        "Lỗi thường gặp",
+        "Vệ sinh"
+      ],
+      "intent": "Vấn đề — Xác định nguồn mùi và cách xử lý",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Thử vệ sinh các điểm cơ bản; nếu mùi tái diễn, xem dịch vụ vệ sinh chuyên sâu.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên máy giặt và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy giặt",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MG-08",
+        "MG-15"
+      ],
+      "bai_tiep_theo": "MG-11",
+      "trang_dich_vu": "/dich-vu/sua-chua-may-giat/"
+    },
+    {
+      "id": "MG-08",
+      "stt": 26,
+      "category": "Máy giặt",
+      "title": "Vệ sinh máy giặt tại nhà: Chế độ tự vệ sinh có thay thế vệ sinh chuyên sâu?",
+      "slug": "ve-sinh-may-giat-tai-nha",
+      "primary_keyword": "vệ sinh máy giặt tại nhà",
+      "secondary_keywords": [
+        "cách vệ sinh máy giặt",
+        "vệ sinh máy giặt cửa trước"
+      ],
+      "tags": [
+        "Vệ sinh"
+      ],
+      "intent": "Giải pháp — Hiểu giới hạn của chế độ tự vệ sinh",
+      "giai_doan_khach": "Tìm giải pháp",
+      "uu_tien": "P2",
+      "cta_chinh": "Lưu quy trình vệ sinh cơ bản; nếu cặn bẩn/mùi vẫn còn, xem phạm vi vệ sinh chuyên sâu.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Giáo dục & khoanh vùng",
+      "vai_tro": "Bridge / Solution education",
+      "trang_thai_khach": "Tìm giải pháp",
+      "trigger": "Khách đã xác định có vấn đề và đang cân nhắc tự làm hay thuê dịch vụ, muốn biết cách xử lý đúng.",
+      "loi_hua": "Hiểu phương án xử lý, phần nào có thể tự làm và phần nào nên giao kỹ thuật viên để tránh xử lý sai.",
+      "muc_dich_chuyen_tang": "Từ hiểu cách xử lý → biết phạm vi dịch vụ và chi phí → sẵn sàng yêu cầu hỗ trợ nếu tự xử lý không phù hợp.",
+      "cta_chuyen_tang": "Lưu checklist; nếu muốn vệ sinh chuyên sâu, xem phạm vi dịch vụ và chi phí trước khi đặt lịch.",
+      "diem_chuyen_doi": "Vệ sinh Máy giặt",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "MG-15"
+      ],
+      "bai_tiep_theo": "MG-16",
+      "trang_dich_vu": "/dich-vu/ve-sinh-may-giat/"
+    },
+    {
+      "id": "MG-09",
+      "stt": 27,
+      "category": "Máy giặt",
+      "title": "Cách vệ sinh gioăng cao su máy giặt cửa trước và hạn chế nấm mốc",
+      "slug": "ve-sinh-gioang-cao-su-may-giat",
+      "primary_keyword": "vệ sinh gioăng cao su máy giặt",
+      "secondary_keywords": [
+        "gioăng máy giặt bị mốc",
+        "cách làm sạch gioăng máy giặt"
+      ],
+      "tags": [
+        "Vệ sinh"
+      ],
+      "intent": "Phòng ngừa — Làm sạch đúng cách và giảm tái phát",
+      "giai_doan_khach": "Phòng ngừa",
+      "uu_tien": "P2",
+      "cta_chinh": "Tự vệ sinh theo hướng dẫn; nếu gioăng hư, rách hoặc biến dạng, yêu cầu kiểm tra.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Nuôi dưỡng nhu cầu",
+      "vai_tro": "Nurture / Prevention",
+      "trang_thai_khach": "Phòng ngừa",
+      "trigger": "Khách muốn giảm nguy cơ hỏng đột ngột, chi phí bất ngờ hoặc hiệu suất giảm trong quá trình sử dụng.",
+      "loi_hua": "Biết lịch/hạng mục kiểm tra hợp lý và cách giảm nguy cơ hỏng hóc, giảm chi phí phát sinh.",
+      "muc_dich_chuyen_tang": "Từ phòng ngừa → xác định thời điểm/hạng mục cần làm → chuyển sang bảo trì hoặc vệ sinh có kế hoạch.",
+      "cta_chuyen_tang": "Lưu checklist và kiểm tra định kỳ; liên hệ khi phát hiện dấu hiệu bất thường.",
+      "diem_chuyen_doi": "Vệ sinh Máy giặt",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "MG-08",
+        "MG-11"
+      ],
+      "bai_tiep_theo": "MG-15",
+      "trang_dich_vu": "/dich-vu/ve-sinh-may-giat/"
+    },
+    {
+      "id": "MG-10",
+      "stt": 28,
+      "category": "Máy giặt",
+      "title": "Cách vệ sinh bộ lọc và ngăn nước giặt đúng cách",
+      "slug": "ve-sinh-bo-loc-may-giat",
+      "primary_keyword": "vệ sinh bộ lọc máy giặt",
+      "secondary_keywords": [
+        "vệ sinh lưới lọc máy giặt",
+        "vệ sinh ngăn nước giặt"
+      ],
+      "tags": [
+        "Vệ sinh"
+      ],
+      "intent": "Phòng ngừa — Giảm cặn, mùi và lỗi do tắc nghẽn",
+      "giai_doan_khach": "Phòng ngừa",
+      "uu_tien": "P2",
+      "cta_chinh": "Lưu checklist vệ sinh định kỳ; đặt lịch nếu bộ lọc không thể làm sạch hoặc máy vẫn báo lỗi.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Nuôi dưỡng nhu cầu",
+      "vai_tro": "Nurture / Prevention",
+      "trang_thai_khach": "Phòng ngừa",
+      "trigger": "Khách muốn giảm nguy cơ hỏng đột ngột, chi phí bất ngờ hoặc hiệu suất giảm trong quá trình sử dụng.",
+      "loi_hua": "Biết lịch/hạng mục kiểm tra hợp lý và cách giảm nguy cơ hỏng hóc, giảm chi phí phát sinh.",
+      "muc_dich_chuyen_tang": "Từ phòng ngừa → xác định thời điểm/hạng mục cần làm → chuyển sang bảo trì hoặc vệ sinh có kế hoạch.",
+      "cta_chuyen_tang": "Lưu checklist và kiểm tra định kỳ; liên hệ khi phát hiện dấu hiệu bất thường.",
+      "diem_chuyen_doi": "Vệ sinh Máy giặt",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "MG-11",
+        "MG-15"
+      ],
+      "bai_tiep_theo": "MG-12",
+      "trang_dich_vu": "/dich-vu/ve-sinh-may-giat/"
+    },
+    {
+      "id": "MG-11",
+      "stt": 29,
+      "category": "Máy giặt",
+      "title": "Bao lâu nên vệ sinh máy giặt? Chi phí và hạng mục cần biết",
+      "slug": "bao-lau-ve-sinh-may-giat",
+      "primary_keyword": "bao lâu vệ sinh máy giặt",
+      "secondary_keywords": [
+        "chu kỳ vệ sinh máy giặt",
+        "chi phí vệ sinh máy giặt"
+      ],
+      "tags": [
+        "Vệ sinh",
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Đánh giá giải pháp — Biết khi nào cần vệ sinh và giá gồm gì",
+      "giai_doan_khach": "Đánh giá nhà cung cấp",
+      "uu_tien": "P1",
+      "cta_chinh": "Xem hạng mục và bảng giá; gửi loại máy/số lượng để nhận báo giá phù hợp.",
+      "funnel_stage": "F3",
+      "funnel_stage_day_du": "F3 — Xây tin & giảm rủi ro",
+      "vai_tro": "Proof / Trust & risk control",
+      "trang_thai_khach": "Đánh giá nhà cung cấp",
+      "trigger": "Khách đã cân nhắc thuê thợ nhưng lo báo giá mập mờ, phát sinh, sửa sai hoặc không có trách nhiệm sau dịch vụ.",
+      "loi_hua": "Biết cách kiểm tra báo giá, phạm vi công việc, nghiệm thu và trách nhiệm sau dịch vụ để giảm rủi ro.",
+      "muc_dich_chuyen_tang": "Từ nghi ngại → xem bằng chứng/quy trình → giảm rủi ro → đặt lịch khi đủ tin tưởng.",
+      "cta_chuyen_tang": "Xem quy trình kiểm tra, báo giá và bảo hành; đặt lịch kiểm tra khi đã sẵn sàng.",
+      "diem_chuyen_doi": "Vệ sinh Máy giặt",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MG-12",
+        "MG-16"
+      ],
+      "bai_tiep_theo": "MG-11",
+      "trang_dich_vu": "/dich-vu/ve-sinh-may-giat/"
+    },
+    {
+      "id": "MG-12",
+      "stt": 30,
+      "category": "Máy giặt",
+      "title": "Bảo trì máy giặt cho gia đình, homestay và cơ sở lưu trú: Những gì cần kiểm tra",
+      "slug": "bao-tri-may-giat",
+      "primary_keyword": "bảo trì máy giặt",
+      "secondary_keywords": [
+        "bảo dưỡng máy giặt",
+        "bảo trì máy giặt định kỳ"
+      ],
+      "tags": [
+        "Bảo trì"
+      ],
+      "intent": "Phòng ngừa — Giảm gián đoạn và phát hiện lỗi sớm ở thiết bị dùng thường xuyên",
+      "giai_doan_khach": "Phòng ngừa",
+      "uu_tien": "P2",
+      "cta_chinh": "Lưu checklist; cơ sở có nhiều máy có thể yêu cầu lập lịch kiểm tra theo thiết bị.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Nuôi dưỡng nhu cầu",
+      "vai_tro": "Nurture / Prevention",
+      "trang_thai_khach": "Phòng ngừa",
+      "trigger": "Khách muốn giảm nguy cơ hỏng đột ngột, chi phí bất ngờ hoặc hiệu suất giảm trong quá trình sử dụng.",
+      "loi_hua": "Biết lịch/hạng mục kiểm tra hợp lý và cách giảm nguy cơ hỏng hóc, giảm chi phí phát sinh.",
+      "muc_dich_chuyen_tang": "Từ phòng ngừa → xác định thời điểm/hạng mục cần làm → chuyển sang bảo trì hoặc vệ sinh có kế hoạch.",
+      "cta_chuyen_tang": "Tải/lưu checklist bảo trì; với nhiều thiết bị, gửi danh mục để nhận đề xuất lịch kiểm tra.",
+      "diem_chuyen_doi": "Bảo trì / kiểm tra định kỳ Máy giặt",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "MG-13",
+        "MG-16"
+      ],
+      "bai_tiep_theo": "MG-15",
+      "trang_dich_vu": "/dich-vu/bao-tri-may-giat/"
+    },
+    {
+      "id": "MG-13",
+      "stt": 31,
+      "category": "Máy giặt",
+      "title": "Lắp đặt máy giặt: Vị trí, đường cấp xả nước và cân chỉnh chân máy",
+      "slug": "lap-dat-may-giat",
+      "primary_keyword": "lắp đặt máy giặt",
+      "secondary_keywords": [
+        "vị trí đặt máy giặt",
+        "lắp đường nước máy giặt"
+      ],
+      "tags": [
+        "Lắp đặt"
+      ],
+      "intent": "Mua/triển khai — Đảm bảo máy ổn định và thoát nước đúng",
+      "giai_doan_khach": "Sẵn sàng triển khai",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi vị trí dự kiến để được kiểm tra điều kiện lắp; đặt lịch khi vị trí đã sẵn sàng.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Ready to act",
+      "trang_thai_khach": "Sẵn sàng triển khai",
+      "trigger": "Khách đã có kế hoạch lắp đặt/di dời/vận chuyển hoặc cần triển khai một hạng mục cụ thể.",
+      "loi_hua": "Có checklist thông tin cần chuẩn bị và tiêu chí cần xác nhận trước khi đặt lịch/triển khai.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi thông tin thiết bị + địa điểm + thời gian mong muốn để xác nhận phạm vi và đặt lịch.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Máy giặt",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MG-16",
+        "MG-11"
+      ],
+      "bai_tiep_theo": "MG-15",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "MG-14",
+      "stt": 32,
+      "category": "Máy giặt",
+      "title": "Vận chuyển máy giặt khi chuyển nhà: Cần chuẩn bị và cố định những gì?",
+      "slug": "van-chuyen-may-giat",
+      "primary_keyword": "vận chuyển máy giặt",
+      "secondary_keywords": [
+        "cách vận chuyển máy giặt",
+        "khóa lồng máy giặt khi vận chuyển"
+      ],
+      "tags": [
+        "Lắp đặt"
+      ],
+      "intent": "Mua/triển khai — Tránh hư hỏng trong quá trình di chuyển",
+      "giai_doan_khach": "Sẵn sàng triển khai",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra model và phụ kiện vận chuyển; đặt lịch tháo/lắp nếu cần kỹ thuật viên.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Ready to act",
+      "trang_thai_khach": "Sẵn sàng triển khai",
+      "trigger": "Khách đã có kế hoạch lắp đặt/di dời/vận chuyển hoặc cần triển khai một hạng mục cụ thể.",
+      "loi_hua": "Có checklist thông tin cần chuẩn bị và tiêu chí cần xác nhận trước khi đặt lịch/triển khai.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi thông tin thiết bị + địa điểm + thời gian mong muốn để xác nhận phạm vi và đặt lịch.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Máy giặt",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MG-08",
+        "MG-11"
+      ],
+      "bai_tiep_theo": "MG-15",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "MG-15",
+      "stt": 33,
+      "category": "Máy giặt",
+      "title": "Checklist nghiệm thu máy giặt sau vệ sinh, sửa chữa hoặc lắp đặt",
+      "slug": "checklist-nghiem-thu-may-giat",
+      "primary_keyword": "checklist nghiệm thu máy giặt",
+      "secondary_keywords": [
+        "kiểm tra máy giặt sau sửa",
+        "nghiệm thu lắp đặt máy giặt"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Đánh giá nhà cung cấp — Biết cách kiểm tra máy trước khi hoàn tất dịch vụ",
+      "giai_doan_khach": "Đánh giá nhà cung cấp",
+      "uu_tien": "P1",
+      "cta_chinh": "Lưu checklist; đối chiếu từng hạng mục khi bàn giao và phản hồi ngay nếu kết quả chưa đạt.",
+      "funnel_stage": "F3",
+      "funnel_stage_day_du": "F3 — Xây tin & giảm rủi ro",
+      "vai_tro": "Proof / Trust & risk control",
+      "trang_thai_khach": "Đánh giá nhà cung cấp",
+      "trigger": "Khách đã cân nhắc thuê thợ nhưng lo báo giá mập mờ, phát sinh, sửa sai hoặc không có trách nhiệm sau dịch vụ.",
+      "loi_hua": "Biết cách kiểm tra báo giá, phạm vi công việc, nghiệm thu và trách nhiệm sau dịch vụ để giảm rủi ro.",
+      "muc_dich_chuyen_tang": "Từ nghi ngại → xem bằng chứng/quy trình → giảm rủi ro → đặt lịch khi đủ tin tưởng.",
+      "cta_chuyen_tang": "Lưu checklist nghiệm thu; dùng nó để đối chiếu hạng mục trước khi thanh toán.",
+      "diem_chuyen_doi": "Vệ sinh Máy giặt",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MG-08"
+      ],
+      "bai_tiep_theo": "MG-16",
+      "trang_dich_vu": "/dich-vu/ve-sinh-may-giat/"
+    },
+    {
+      "id": "MG-16",
+      "stt": 34,
+      "category": "Máy giặt",
+      "title": "Giá sửa máy giặt gồm những gì? Cách hỏi báo giá để tránh phát sinh",
+      "slug": "gia-sua-may-giat",
+      "primary_keyword": "giá sửa máy giặt",
+      "secondary_keywords": [
+        "chi phí sửa máy giặt",
+        "báo giá sửa máy giặt"
+      ],
+      "tags": [
+        "Kinh nghiệm hay",
+        "Lỗi thường gặp"
+      ],
+      "intent": "Đánh giá nhà cung cấp — Biết căn cứ báo giá và kiểm soát hạng mục phát sinh",
+      "giai_doan_khach": "Đánh giá nhà cung cấp",
+      "uu_tien": "P1",
+      "cta_chinh": "Xem mẫu báo giá và phạm vi sửa; gửi model + triệu chứng để nhận hướng dẫn bước tiếp theo.",
+      "funnel_stage": "F3",
+      "funnel_stage_day_du": "F3 — Xây tin & giảm rủi ro",
+      "vai_tro": "Proof / Trust & risk control",
+      "trang_thai_khach": "Đánh giá nhà cung cấp",
+      "trigger": "Khách đã cân nhắc thuê thợ nhưng lo báo giá mập mờ, phát sinh, sửa sai hoặc không có trách nhiệm sau dịch vụ.",
+      "loi_hua": "Biết cách kiểm tra báo giá, phạm vi công việc, nghiệm thu và trách nhiệm sau dịch vụ để giảm rủi ro.",
+      "muc_dich_chuyen_tang": "Từ nghi ngại → xem bằng chứng/quy trình → giảm rủi ro → đặt lịch khi đủ tin tưởng.",
+      "cta_chuyen_tang": "Xem bảng giá/mẫu báo giá; gửi model + tình trạng để nhận phạm vi và chi phí trước khi làm.",
+      "diem_chuyen_doi": "Sửa chữa Máy giặt",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MG-15",
+        "MG-13"
+      ],
+      "bai_tiep_theo": "MG-16",
+      "trang_dich_vu": "/dich-vu/sua-chua-may-giat/"
+    },
+    {
+      "id": "MG-17",
+      "stt": 35,
+      "category": "Máy giặt",
+      "title": "Mã lỗi máy giặt Samsung thường gặp: Cách tra đúng model và hướng xử lý",
+      "slug": "ma-loi-may-giat-samsung",
+      "primary_keyword": "mã lỗi máy giặt Samsung",
+      "secondary_keywords": [
+        "máy giặt Samsung báo lỗi",
+        "mã lỗi máy giặt Samsung"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Hiểu mã lỗi và biết giới hạn tự xử lý",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi đúng mã lỗi + model để được định hướng; không tự thay linh kiện khi chưa xác định nguyên nhân.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách đang thấy mã lỗi/triệu chứng và muốn biết có thể tự kiểm tra gì trước khi gọi thợ.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mã lỗi + triệu chứng để được hướng dẫn bước kiểm tra tiếp theo.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy giặt",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MG-16",
+        "MG-08"
+      ],
+      "bai_tiep_theo": "MG-15",
+      "trang_dich_vu": "/dich-vu/sua-chua-may-giat/"
+    },
+    {
+      "id": "MG-18",
+      "stt": 36,
+      "category": "Máy giặt",
+      "title": "Máy giặt cũ hỏng nhiều lần: Nên sửa hay thay mới?",
+      "slug": "may-giat-nen-sua-hay-thay-moi",
+      "primary_keyword": "máy giặt nên sửa hay thay mới",
+      "secondary_keywords": [
+        "máy giặt cũ có nên sửa",
+        "sửa máy giặt hay mua mới"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Quyết định mua — So sánh chi phí sửa, tuổi máy và độ ổn định",
+      "giai_doan_khach": "Quyết định sửa/thay",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi model, tuổi máy và lỗi đã từng sửa để được tư vấn phương án.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / High-value decision",
+      "trang_thai_khach": "Quyết định sửa/thay",
+      "trigger": "Khách có thiết bị cũ hoặc chi phí sửa chữa đáng kể và cần một căn cứ để quyết định.",
+      "loi_hua": "Có khung quyết định dựa trên tuổi thiết bị, tình trạng, lịch sử sửa và chi phí thay thế.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi model + tuổi thiết bị + lịch sử sửa chữa để được tư vấn sửa tiếp hay thay mới theo tình trạng thực tế.",
+      "diem_chuyen_doi": "Sửa chữa Máy giặt",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MG-15",
+        "MG-13"
+      ],
+      "bai_tiep_theo": "MG-16",
+      "trang_dich_vu": "/dich-vu/sua-chua-may-giat/"
+    },
+    {
+      "id": "TL-01",
+      "stt": 37,
+      "category": "Tủ lạnh",
+      "title": "Tủ lạnh không lạnh hoặc lạnh yếu: Những nguyên nhân cần kiểm tra",
+      "slug": "tu-lanh-khong-lanh",
+      "primary_keyword": "tủ lạnh không lạnh",
+      "secondary_keywords": [
+        "tủ lạnh làm lạnh yếu",
+        "tủ lạnh không mát"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Khoanh vùng nguyên nhân trước khi sửa",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi model, biểu hiện và thời điểm bắt đầu để được hướng dẫn kiểm tra; đặt lịch nếu cần.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ lạnh và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Tủ lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TL-08",
+        "TL-15"
+      ],
+      "bai_tiep_theo": "TL-18",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-lanh/"
+    },
+    {
+      "id": "TL-02",
+      "stt": 38,
+      "category": "Tủ lạnh",
+      "title": "Ngăn đá vẫn lạnh nhưng ngăn mát không lạnh: Vì sao?",
+      "slug": "ngan-mat-tu-lanh-khong-lanh",
+      "primary_keyword": "ngăn mát tủ lạnh không lạnh",
+      "secondary_keywords": [
+        "ngăn mát không lạnh ngăn đá vẫn lạnh",
+        "tủ lạnh ngăn dưới không lạnh"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Hiểu nguyên nhân có thể liên quan luồng gió/nhiệt độ",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra theo checklist; nếu không cải thiện, đặt lịch kiểm tra thay vì tự tháo hệ thống.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ lạnh và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Tủ lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TL-08",
+        "TL-15"
+      ],
+      "bai_tiep_theo": "TL-18",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-lanh/"
+    },
+    {
+      "id": "TL-03",
+      "stt": 39,
+      "category": "Tủ lạnh",
+      "title": "Tủ lạnh đóng tuyết bất thường: Phân biệt với hiện tượng theo thiết kế",
+      "slug": "tu-lanh-dong-tuyet",
+      "primary_keyword": "tủ lạnh đóng tuyết",
+      "secondary_keywords": [
+        "tủ lạnh bị đóng tuyết ngăn đá",
+        "tủ lạnh đóng tuyết nhiều"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Biết khi nào đóng tuyết là bất thường",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Xem cách phân biệt; nếu tuyết tái diễn nhanh, gửi tình trạng để được tư vấn kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ lạnh và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Tủ lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TL-18",
+        "TL-08"
+      ],
+      "bai_tiep_theo": "TL-15",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-lanh/"
+    },
+    {
+      "id": "TL-04",
+      "stt": 40,
+      "category": "Tủ lạnh",
+      "title": "Tủ lạnh chảy nước: Nước từ trong tủ hay dưới gầm?",
+      "slug": "tu-lanh-chay-nuoc",
+      "primary_keyword": "tủ lạnh chảy nước",
+      "secondary_keywords": [
+        "tủ lạnh bị chảy nước",
+        "tủ lạnh chảy nước dưới đáy"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Xác định vị trí rò và nguyên nhân có thể",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Xác định vị trí nước và kiểm tra điểm dễ tiếp cận; nếu vẫn rò, đặt lịch.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ lạnh và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Tủ lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TL-08",
+        "TL-15"
+      ],
+      "bai_tiep_theo": "TL-18",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-lanh/"
+    },
+    {
+      "id": "TL-05",
+      "stt": 41,
+      "category": "Tủ lạnh",
+      "title": "Tủ lạnh kêu to: Âm thanh nào bình thường, khi nào cần kiểm tra?",
+      "slug": "tu-lanh-keu-to",
+      "primary_keyword": "tủ lạnh kêu to",
+      "secondary_keywords": [
+        "tủ lạnh phát tiếng kêu",
+        "tủ lạnh rung kêu"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Phân biệt âm thanh vận hành và dấu hiệu bất thường",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Ghi âm/video tiếng kêu để được định hướng; đặt lịch nếu tiếng kêu mới xuất hiện hoặc tăng dần.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ lạnh và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Tủ lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TL-18",
+        "TL-11"
+      ],
+      "bai_tiep_theo": "TL-15",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-lanh/"
+    },
+    {
+      "id": "TL-06",
+      "stt": 42,
+      "category": "Tủ lạnh",
+      "title": "Tủ lạnh chạy liên tục không ngắt: Nguyên nhân và khi nào cần gọi thợ",
+      "slug": "tu-lanh-chay-lien-tuc",
+      "primary_keyword": "tủ lạnh chạy liên tục",
+      "secondary_keywords": [
+        "tủ lạnh chạy không ngắt",
+        "tủ lạnh chạy liên tục có tốn điện không"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Xác định liệu đây là vận hành bình thường hay lỗi",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra nhiệt độ và điều kiện sử dụng; nếu máy chạy liên tục kèm lạnh yếu, đặt lịch kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ lạnh và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Tủ lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TL-15",
+        "TL-11"
+      ],
+      "bai_tiep_theo": "TL-18",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-lanh/"
+    },
+    {
+      "id": "TL-07",
+      "stt": 43,
+      "category": "Tủ lạnh",
+      "title": "Hai bên tủ lạnh nóng: Khi nào bình thường, khi nào bất thường?",
+      "slug": "tu-lanh-nong-hai-ben",
+      "primary_keyword": "tủ lạnh nóng hai bên",
+      "secondary_keywords": [
+        "tủ lạnh nóng bên hông",
+        "tủ lạnh nóng hai bên có sao không"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Biết giới hạn nhiệt độ vận hành bình thường",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra khoảng thoáng và nhiệt độ; nếu nóng bất thường kèm lỗi làm lạnh, yêu cầu kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ lạnh và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Tủ lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TL-08",
+        "TL-15"
+      ],
+      "bai_tiep_theo": "TL-11",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-lanh/"
+    },
+    {
+      "id": "TL-08",
+      "stt": 44,
+      "category": "Tủ lạnh",
+      "title": "Cách vệ sinh tủ lạnh tại nhà: Sắp xếp thực phẩm và làm sạch từng phần",
+      "slug": "cach-ve-sinh-tu-lanh",
+      "primary_keyword": "cách vệ sinh tủ lạnh",
+      "secondary_keywords": [
+        "vệ sinh tủ lạnh tại nhà",
+        "làm sạch tủ lạnh"
+      ],
+      "tags": [
+        "Vệ sinh"
+      ],
+      "intent": "Phòng ngừa — Làm sạch đúng cách mà không ảnh hưởng thiết bị",
+      "giai_doan_khach": "Tìm giải pháp",
+      "uu_tien": "P2",
+      "cta_chinh": "Lưu checklist vệ sinh; nếu mùi/cặn bẩn tái diễn hoặc cần vệ sinh sâu, xem dịch vụ.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Giáo dục & khoanh vùng",
+      "vai_tro": "Bridge / Solution education",
+      "trang_thai_khach": "Tìm giải pháp",
+      "trigger": "Khách đã xác định có vấn đề và đang cân nhắc tự làm hay thuê dịch vụ, muốn biết cách xử lý đúng.",
+      "loi_hua": "Hiểu phương án xử lý, phần nào có thể tự làm và phần nào nên giao kỹ thuật viên để tránh xử lý sai.",
+      "muc_dich_chuyen_tang": "Từ hiểu cách xử lý → biết phạm vi dịch vụ và chi phí → sẵn sàng yêu cầu hỗ trợ nếu tự xử lý không phù hợp.",
+      "cta_chuyen_tang": "Lưu checklist; nếu muốn vệ sinh chuyên sâu, xem phạm vi dịch vụ và chi phí trước khi đặt lịch.",
+      "diem_chuyen_doi": "Vệ sinh Tủ lạnh",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "TL-11",
+        "TL-15"
+      ],
+      "bai_tiep_theo": "TL-18",
+      "trang_dich_vu": "/dich-vu/ve-sinh-tu-lanh/"
+    },
+    {
+      "id": "TL-09",
+      "stt": 45,
+      "category": "Tủ lạnh",
+      "title": "Tủ lạnh có mùi hôi: Cách tìm nguồn mùi và khử mùi hiệu quả",
+      "slug": "tu-lanh-co-mui-hoi",
+      "primary_keyword": "tủ lạnh có mùi hôi",
+      "secondary_keywords": [
+        "khử mùi tủ lạnh",
+        "tủ lạnh có mùi thức ăn"
+      ],
+      "tags": [
+        "Vệ sinh",
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Tìm đúng nguồn mùi thay vì chỉ che mùi",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Thử xử lý nguồn mùi; nếu mùi còn dù đã vệ sinh, đặt lịch kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ lạnh và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Tủ lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TL-18",
+        "TL-15"
+      ],
+      "bai_tiep_theo": "TL-08",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-lanh/"
+    },
+    {
+      "id": "TL-10",
+      "stt": 46,
+      "category": "Tủ lạnh",
+      "title": "Gioăng tủ lạnh bị hở: Cách nhận biết, vệ sinh và khi nào cần thay",
+      "slug": "gioang-tu-lanh-bi-ho",
+      "primary_keyword": "gioăng tủ lạnh bị hở",
+      "secondary_keywords": [
+        "gioăng tủ lạnh không kín",
+        "thay ron tủ lạnh"
+      ],
+      "tags": [
+        "Bảo trì",
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Phân biệt ron bẩn, biến dạng và hư hỏng",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra gioăng và khe hở; nếu gioăng biến dạng/rách, yêu cầu kiểm tra và báo giá trước khi thay.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ lạnh và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Vệ sinh Tủ lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TL-15",
+        "TL-18"
+      ],
+      "bai_tiep_theo": "TL-11",
+      "trang_dich_vu": "/dich-vu/ve-sinh-tu-lanh/"
+    },
+    {
+      "id": "TL-11",
+      "stt": 47,
+      "category": "Tủ lạnh",
+      "title": "Bảo trì tủ lạnh cho gia đình và cơ sở kinh doanh: Những hạng mục nên kiểm tra",
+      "slug": "bao-tri-tu-lanh",
+      "primary_keyword": "bảo trì tủ lạnh",
+      "secondary_keywords": [
+        "bảo dưỡng tủ lạnh",
+        "kiểm tra tủ lạnh định kỳ"
+      ],
+      "tags": [
+        "Bảo trì"
+      ],
+      "intent": "Phòng ngừa — Giảm sự cố và rủi ro ảnh hưởng thực phẩm",
+      "giai_doan_khach": "Phòng ngừa",
+      "uu_tien": "P2",
+      "cta_chinh": "Lưu checklist; cơ sở kinh doanh có nhiều thiết bị có thể yêu cầu lập danh mục kiểm tra.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Nuôi dưỡng nhu cầu",
+      "vai_tro": "Nurture / Prevention",
+      "trang_thai_khach": "Phòng ngừa",
+      "trigger": "Khách muốn giảm nguy cơ hỏng đột ngột, chi phí bất ngờ hoặc hiệu suất giảm trong quá trình sử dụng.",
+      "loi_hua": "Biết lịch/hạng mục kiểm tra hợp lý và cách giảm nguy cơ hỏng hóc, giảm chi phí phát sinh.",
+      "muc_dich_chuyen_tang": "Từ phòng ngừa → xác định thời điểm/hạng mục cần làm → chuyển sang bảo trì hoặc vệ sinh có kế hoạch.",
+      "cta_chuyen_tang": "Tải/lưu checklist bảo trì; với nhiều thiết bị, gửi danh mục để nhận đề xuất lịch kiểm tra.",
+      "diem_chuyen_doi": "Bảo trì / kiểm tra định kỳ Tủ lạnh",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "TL-14"
+      ],
+      "bai_tiep_theo": "TL-08",
+      "trang_dich_vu": "/dich-vu/bao-tri-tu-lanh/"
+    },
+    {
+      "id": "TL-12",
+      "stt": 48,
+      "category": "Tủ lạnh",
+      "title": "Vị trí đặt tủ lạnh: Khoảng thoáng, nguồn điện và những nơi cần tránh",
+      "slug": "vi-tri-dat-tu-lanh",
+      "primary_keyword": "vị trí đặt tủ lạnh",
+      "secondary_keywords": [
+        "đặt tủ lạnh ở đâu",
+        "khoảng cách tủ lạnh với tường"
+      ],
+      "tags": [
+        "Lắp đặt"
+      ],
+      "intent": "Mua/triển khai — Đảm bảo tủ vận hành ổn định và thoát nhiệt",
+      "giai_doan_khach": "Sẵn sàng triển khai",
+      "uu_tien": "P1",
+      "cta_chinh": "Đối chiếu vị trí dự kiến với checklist; nếu cần di dời, yêu cầu khảo sát vị trí.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Ready to act",
+      "trang_thai_khach": "Sẵn sàng triển khai",
+      "trigger": "Khách đã có kế hoạch lắp đặt/di dời/vận chuyển hoặc cần triển khai một hạng mục cụ thể.",
+      "loi_hua": "Có checklist thông tin cần chuẩn bị và tiêu chí cần xác nhận trước khi đặt lịch/triển khai.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi thông tin thiết bị + địa điểm + thời gian mong muốn để xác nhận phạm vi và đặt lịch.",
+      "diem_chuyen_doi": "Dịch vụ Tủ lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TL-15",
+        "TL-08"
+      ],
+      "bai_tiep_theo": "TL-18",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-lanh/"
+    },
+    {
+      "id": "TL-13",
+      "stt": 49,
+      "category": "Tủ lạnh",
+      "title": "Vận chuyển tủ lạnh: Có được đặt nằm và bao lâu mới cắm điện?",
+      "slug": "van-chuyen-tu-lanh",
+      "primary_keyword": "vận chuyển tủ lạnh",
+      "secondary_keywords": [
+        "vận chuyển tủ lạnh nằm hay đứng",
+        "bao lâu cắm điện sau khi vận chuyển"
+      ],
+      "tags": [
+        "Lắp đặt"
+      ],
+      "intent": "Mua/triển khai — Tránh hư hỏng do vận chuyển và cắm điện sai thời điểm",
+      "giai_doan_khach": "Sẵn sàng triển khai",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra hướng dẫn theo model; nếu cần tháo/di dời, đặt lịch vận chuyển và lắp lại.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Ready to act",
+      "trang_thai_khach": "Sẵn sàng triển khai",
+      "trigger": "Khách đã có kế hoạch lắp đặt/di dời/vận chuyển hoặc cần triển khai một hạng mục cụ thể.",
+      "loi_hua": "Có checklist thông tin cần chuẩn bị và tiêu chí cần xác nhận trước khi đặt lịch/triển khai.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi thông tin thiết bị + địa điểm + thời gian mong muốn để xác nhận phạm vi và đặt lịch.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Tủ lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TL-12",
+        "TL-18"
+      ],
+      "bai_tiep_theo": "TL-15",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TL-14",
+      "stt": 50,
+      "category": "Tủ lạnh",
+      "title": "Cách chỉnh nhiệt độ tủ lạnh phù hợp với lượng thực phẩm",
+      "slug": "cach-chinh-nhiet-do-tu-lanh",
+      "primary_keyword": "cách chỉnh nhiệt độ tủ lạnh",
+      "secondary_keywords": [
+        "nhiệt độ ngăn mát",
+        "nhiệt độ ngăn đá"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Phòng ngừa — Bảo quản phù hợp và tránh làm lạnh quá mức",
+      "giai_doan_khach": "Đánh giá nhà cung cấp",
+      "uu_tien": "P1",
+      "cta_chinh": "Điều chỉnh theo hướng dẫn; nếu nhiệt độ thực tế không đạt dù cài đúng, yêu cầu kiểm tra.",
+      "funnel_stage": "F3",
+      "funnel_stage_day_du": "F3 — Xây tin & giảm rủi ro",
+      "vai_tro": "Proof / Trust & risk control",
+      "trang_thai_khach": "Đánh giá nhà cung cấp",
+      "trigger": "Khách đã cân nhắc thuê thợ nhưng lo báo giá mập mờ, phát sinh, sửa sai hoặc không có trách nhiệm sau dịch vụ.",
+      "loi_hua": "Biết cách kiểm tra báo giá, phạm vi công việc, nghiệm thu và trách nhiệm sau dịch vụ để giảm rủi ro.",
+      "muc_dich_chuyen_tang": "Từ nghi ngại → xem bằng chứng/quy trình → giảm rủi ro → đặt lịch khi đủ tin tưởng.",
+      "cta_chuyen_tang": "Xem quy trình kiểm tra, báo giá và bảo hành; đặt lịch kiểm tra khi đã sẵn sàng.",
+      "diem_chuyen_doi": "Dịch vụ Tủ lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TL-12",
+        "TL-18"
+      ],
+      "bai_tiep_theo": "TL-15",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-lanh/"
+    },
+    {
+      "id": "TL-15",
+      "stt": 51,
+      "category": "Tủ lạnh",
+      "title": "Checklist nghiệm thu tủ lạnh sau sửa chữa, vệ sinh hoặc di dời",
+      "slug": "checklist-nghiem-thu-tu-lanh",
+      "primary_keyword": "checklist nghiệm thu tủ lạnh",
+      "secondary_keywords": [
+        "kiểm tra tủ lạnh sau sửa",
+        "nghiệm thu sửa tủ lạnh"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Đánh giá nhà cung cấp — Biết cách kiểm tra kết quả và theo dõi sau dịch vụ",
+      "giai_doan_khach": "Đánh giá nhà cung cấp",
+      "uu_tien": "P1",
+      "cta_chinh": "Lưu checklist; nếu nhiệt độ/vận hành chưa đạt, yêu cầu kiểm tra lại theo hạng mục đã thực hiện.",
+      "funnel_stage": "F3",
+      "funnel_stage_day_du": "F3 — Xây tin & giảm rủi ro",
+      "vai_tro": "Proof / Trust & risk control",
+      "trang_thai_khach": "Đánh giá nhà cung cấp",
+      "trigger": "Khách đã cân nhắc thuê thợ nhưng lo báo giá mập mờ, phát sinh, sửa sai hoặc không có trách nhiệm sau dịch vụ.",
+      "loi_hua": "Biết cách kiểm tra báo giá, phạm vi công việc, nghiệm thu và trách nhiệm sau dịch vụ để giảm rủi ro.",
+      "muc_dich_chuyen_tang": "Từ nghi ngại → xem bằng chứng/quy trình → giảm rủi ro → đặt lịch khi đủ tin tưởng.",
+      "cta_chuyen_tang": "Lưu checklist nghiệm thu; dùng nó để đối chiếu hạng mục trước khi thanh toán.",
+      "diem_chuyen_doi": "Vệ sinh Tủ lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TL-12",
+        "TL-18"
+      ],
+      "bai_tiep_theo": "TL-15",
+      "trang_dich_vu": "/dich-vu/ve-sinh-tu-lanh/"
+    },
+    {
+      "id": "TL-16",
+      "stt": 52,
+      "category": "Tủ lạnh",
+      "title": "Chọn dung tích tủ lạnh cho gia đình: Bao nhiêu lít là phù hợp?",
+      "slug": "chon-dung-tich-tu-lanh",
+      "primary_keyword": "chọn dung tích tủ lạnh",
+      "secondary_keywords": [
+        "tủ lạnh bao nhiêu lít cho gia đình",
+        "chọn dung tích tủ lạnh"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Mua/triển khai — Chọn dung tích theo số người và thói quen",
+      "giai_doan_khach": "Sẵn sàng triển khai",
+      "uu_tien": "P1",
+      "cta_chinh": "Ghi số người + nhu cầu bảo quản để tự chọn; nếu cần lắp/di dời, yêu cầu tư vấn vị trí.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Ready to act",
+      "trang_thai_khach": "Sẵn sàng triển khai",
+      "trigger": "Khách đã có kế hoạch lắp đặt/di dời/vận chuyển hoặc cần triển khai một hạng mục cụ thể.",
+      "loi_hua": "Có checklist thông tin cần chuẩn bị và tiêu chí cần xác nhận trước khi đặt lịch/triển khai.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi diện tích + nhu cầu + điều kiện lắp đặt để được tư vấn cấu hình và phương án thi công.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Tủ lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TL-18"
+      ],
+      "bai_tiep_theo": "TL-15",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TL-17",
+      "stt": 53,
+      "category": "Tủ lạnh",
+      "title": "Tủ lạnh cũ hỏng nhiều lần: Nên sửa hay thay mới?",
+      "slug": "tu-lanh-nen-sua-hay-thay-moi",
+      "primary_keyword": "tủ lạnh nên sửa hay thay mới",
+      "secondary_keywords": [
+        "tủ lạnh cũ có nên sửa",
+        "sửa tủ lạnh hay mua mới"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Quyết định mua — So sánh chi phí, tuổi máy và rủi ro",
+      "giai_doan_khach": "Quyết định sửa/thay",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi model, tuổi máy và lịch sử sửa để được tư vấn phương án trước khi quyết định.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / High-value decision",
+      "trang_thai_khach": "Quyết định sửa/thay",
+      "trigger": "Khách có thiết bị cũ hoặc chi phí sửa chữa đáng kể và cần một căn cứ để quyết định.",
+      "loi_hua": "Có khung quyết định dựa trên tuổi thiết bị, tình trạng, lịch sử sửa và chi phí thay thế.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi model + tuổi thiết bị + lịch sử sửa chữa để được tư vấn sửa tiếp hay thay mới theo tình trạng thực tế.",
+      "diem_chuyen_doi": "Sửa chữa Tủ lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TL-15",
+        "TL-16"
+      ],
+      "bai_tiep_theo": "TL-12",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-lanh/"
+    },
+    {
+      "id": "TL-18",
+      "stt": 54,
+      "category": "Tủ lạnh",
+      "title": "Giá sửa tủ lạnh gồm những gì? Cách hỏi báo giá để tránh sửa sai, phát sinh",
+      "slug": "gia-sua-tu-lanh",
+      "primary_keyword": "giá sửa tủ lạnh",
+      "secondary_keywords": [
+        "chi phí sửa tủ lạnh",
+        "báo giá sửa tủ lạnh"
+      ],
+      "tags": [
+        "Kinh nghiệm hay",
+        "Lỗi thường gặp"
+      ],
+      "intent": "Đánh giá nhà cung cấp — Biết căn cứ báo giá và cách kiểm soát phát sinh",
+      "giai_doan_khach": "Đánh giá nhà cung cấp",
+      "uu_tien": "P1",
+      "cta_chinh": "Xem mẫu báo giá/quy trình; đặt kiểm tra nếu cần, với báo giá được duyệt trước khi sửa.",
+      "funnel_stage": "F3",
+      "funnel_stage_day_du": "F3 — Xây tin & giảm rủi ro",
+      "vai_tro": "Proof / Trust & risk control",
+      "trang_thai_khach": "Đánh giá nhà cung cấp",
+      "trigger": "Khách đã cân nhắc thuê thợ nhưng lo báo giá mập mờ, phát sinh, sửa sai hoặc không có trách nhiệm sau dịch vụ.",
+      "loi_hua": "Biết cách kiểm tra báo giá, phạm vi công việc, nghiệm thu và trách nhiệm sau dịch vụ để giảm rủi ro.",
+      "muc_dich_chuyen_tang": "Từ nghi ngại → xem bằng chứng/quy trình → giảm rủi ro → đặt lịch khi đủ tin tưởng.",
+      "cta_chuyen_tang": "Xem bảng giá/mẫu báo giá; gửi model + tình trạng để nhận phạm vi và chi phí trước khi làm.",
+      "diem_chuyen_doi": "Sửa chữa Tủ lạnh",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TL-15",
+        "TL-11"
+      ],
+      "bai_tiep_theo": "TL-15",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-lanh/"
+    },
+    {
+      "id": "TD-01",
+      "stt": 55,
+      "category": "Tủ mát, tủ đông",
+      "title": "Tủ đông không đông đá hoặc đông chậm: Nguyên nhân cần kiểm tra",
+      "slug": "tu-dong-khong-dong-da",
+      "primary_keyword": "tủ đông không đông đá",
+      "secondary_keywords": [
+        "tủ đông không lạnh",
+        "tủ đông đông chậm"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Khoanh vùng nguyên nhân và mức độ ảnh hưởng bảo quản",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra nhiệt độ/thực phẩm và khoảng thoáng; nếu không cải thiện, đặt lịch kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ mát, tủ đông và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TD-10",
+        "TD-16"
+      ],
+      "bai_tiep_theo": "TD-18",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-mat/"
+    },
+    {
+      "id": "TD-02",
+      "stt": 56,
+      "category": "Tủ mát, tủ đông",
+      "title": "Tủ đông đóng tuyết dày: Nguyên nhân và thời điểm nên xả tuyết",
+      "slug": "tu-dong-dong-tuyet-day",
+      "primary_keyword": "tủ đông đóng tuyết dày",
+      "secondary_keywords": [
+        "tủ đông bị đóng tuyết",
+        "bao lâu xả tuyết tủ đông"
+      ],
+      "tags": [
+        "Lỗi thường gặp",
+        "Vệ sinh"
+      ],
+      "intent": "Vấn đề — Biết khi nào cần xả tuyết và khi nào có thể là lỗi",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Xả tuyết theo hướng dẫn an toàn; nếu tuyết tái diễn bất thường, yêu cầu kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ mát, tủ đông và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TD-18",
+        "TD-16"
+      ],
+      "bai_tiep_theo": "TD-03",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-mat/"
+    },
+    {
+      "id": "TD-03",
+      "stt": 57,
+      "category": "Tủ mát, tủ đông",
+      "title": "Cách xả tuyết và vệ sinh tủ đông đúng cách, tránh làm hỏng lòng tủ",
+      "slug": "cach-xa-tuyet-tu-dong",
+      "primary_keyword": "cách xả tuyết tủ đông",
+      "secondary_keywords": [
+        "vệ sinh tủ đông",
+        "xả tuyết tủ đông đúng cách"
+      ],
+      "tags": [
+        "Vệ sinh"
+      ],
+      "intent": "Giải pháp — Làm sạch an toàn và tránh dùng vật sắc nhọn",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Lưu checklist vệ sinh; nếu cần vệ sinh chuyên sâu, xem phạm vi dịch vụ.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ mát, tủ đông và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Vệ sinh Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TD-11",
+        "TD-18"
+      ],
+      "bai_tiep_theo": "TD-10",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TD-04",
+      "stt": 58,
+      "category": "Tủ mát, tủ đông",
+      "title": "Tủ đông có mùi hôi: Cách xử lý và hạn chế tái phát",
+      "slug": "tu-dong-co-mui-hoi",
+      "primary_keyword": "tủ đông có mùi hôi",
+      "secondary_keywords": [
+        "khử mùi tủ đông",
+        "tủ đông bị hôi"
+      ],
+      "tags": [
+        "Vệ sinh",
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Xử lý nguồn mùi và tránh tái phát",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Vệ sinh nguồn mùi trước; nếu mùi còn, đặt lịch vệ sinh/kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ mát, tủ đông và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TD-18",
+        "TD-11"
+      ],
+      "bai_tiep_theo": "TD-10",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-mat/"
+    },
+    {
+      "id": "TD-05",
+      "stt": 59,
+      "category": "Tủ mát, tủ đông",
+      "title": "Tủ đông chạy liên tục không ngắt: Do sử dụng hay hư hỏng?",
+      "slug": "tu-dong-chay-lien-tuc",
+      "primary_keyword": "tủ đông chạy liên tục",
+      "secondary_keywords": [
+        "tủ đông chạy không ngắt",
+        "tủ đông tốn điện"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Phân biệt tải sử dụng và dấu hiệu lỗi",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra nhiệt độ và khoảng thoáng; nếu vẫn chạy liên tục kèm lạnh yếu, yêu cầu kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ mát, tủ đông và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TD-11",
+        "TD-16"
+      ],
+      "bai_tiep_theo": "TD-18",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-mat/"
+    },
+    {
+      "id": "TD-06",
+      "stt": 60,
+      "category": "Tủ mát, tủ đông",
+      "title": "Tủ đông chảy nước: Kiểm tra nút thoát nước, gioăng và vị trí đặt",
+      "slug": "tu-dong-chay-nuoc",
+      "primary_keyword": "tủ đông chảy nước",
+      "secondary_keywords": [
+        "tủ đông rò nước",
+        "tủ đông chảy nước dưới đáy"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Xác định nguồn nước trước khi sửa",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra điểm thoát nước/gioăng; nếu vẫn rò, gửi ảnh hoặc đặt lịch.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ mát, tủ đông và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TD-10",
+        "TD-16"
+      ],
+      "bai_tiep_theo": "TD-18",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-mat/"
+    },
+    {
+      "id": "TD-07",
+      "stt": 61,
+      "category": "Tủ mát, tủ đông",
+      "title": "Gioăng tủ mát, tủ đông bị hở: Dấu hiệu và khi nào cần thay",
+      "slug": "gioang-tu-dong-bi-ho",
+      "primary_keyword": "gioăng tủ đông bị hở",
+      "secondary_keywords": [
+        "gioăng tủ mát không kín",
+        "thay ron tủ đông"
+      ],
+      "tags": [
+        "Bảo trì",
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Phân biệt bẩn, hở và hư gioăng",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra gioăng; nếu cần thay, yêu cầu báo giá theo model trước khi thực hiện.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ mát, tủ đông và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TD-18"
+      ],
+      "bai_tiep_theo": "TD-10",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-mat/"
+    },
+    {
+      "id": "TD-08",
+      "stt": 62,
+      "category": "Tủ mát, tủ đông",
+      "title": "Tủ mát không lạnh: Các bước kiểm tra ban đầu và khi nào gọi thợ",
+      "slug": "tu-mat-khong-lanh",
+      "primary_keyword": "tủ mát không lạnh",
+      "secondary_keywords": [
+        "tủ mát làm lạnh yếu",
+        "tủ mát không mát"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Giảm thời gian ngừng kinh doanh và khoanh vùng lỗi",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra nhiệt độ/cài đặt theo checklist; nếu hàng hóa có nguy cơ ảnh hưởng, đặt lịch ưu tiên.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ mát, tủ đông và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TD-10",
+        "TD-16"
+      ],
+      "bai_tiep_theo": "TD-18",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-mat/"
+    },
+    {
+      "id": "TD-09",
+      "stt": 63,
+      "category": "Tủ mát, tủ đông",
+      "title": "Tủ mát bị đóng tuyết: Kiểm tra nhiệt độ và dấu hiệu hỏng hóc",
+      "slug": "tu-mat-bi-dong-tuyet",
+      "primary_keyword": "tủ mát bị đóng tuyết",
+      "secondary_keywords": [
+        "tủ mát đóng tuyết nhiều",
+        "tủ mát bị đá"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Phân biệt cài đặt, sử dụng và lỗi kỹ thuật",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra cài đặt; nếu tuyết tái diễn nhanh hoặc ảnh hưởng làm lạnh, yêu cầu kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên tủ mát, tủ đông và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TD-18",
+        "TD-10"
+      ],
+      "bai_tiep_theo": "TD-16",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-mat/"
+    },
+    {
+      "id": "TD-10",
+      "stt": 64,
+      "category": "Tủ mát, tủ đông",
+      "title": "Cách vệ sinh tủ mát: Làm sạch kệ, gioăng cửa và khu vực thoát nước",
+      "slug": "cach-ve-sinh-tu-mat",
+      "primary_keyword": "cách vệ sinh tủ mát",
+      "secondary_keywords": [
+        "vệ sinh tủ mát",
+        "làm sạch tủ mát"
+      ],
+      "tags": [
+        "Vệ sinh"
+      ],
+      "intent": "Phòng ngừa — Giữ vệ sinh và giảm lỗi do cặn bẩn",
+      "giai_doan_khach": "Tìm giải pháp",
+      "uu_tien": "P2",
+      "cta_chinh": "Lưu checklist vệ sinh; với tủ kinh doanh, yêu cầu lịch vệ sinh định kỳ nếu cần.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Giáo dục & khoanh vùng",
+      "vai_tro": "Bridge / Solution education",
+      "trang_thai_khach": "Tìm giải pháp",
+      "trigger": "Khách đã xác định có vấn đề và đang cân nhắc tự làm hay thuê dịch vụ, muốn biết cách xử lý đúng.",
+      "loi_hua": "Hiểu phương án xử lý, phần nào có thể tự làm và phần nào nên giao kỹ thuật viên để tránh xử lý sai.",
+      "muc_dich_chuyen_tang": "Từ hiểu cách xử lý → biết phạm vi dịch vụ và chi phí → sẵn sàng yêu cầu hỗ trợ nếu tự xử lý không phù hợp.",
+      "cta_chuyen_tang": "Lưu checklist; nếu muốn vệ sinh chuyên sâu, xem phạm vi dịch vụ và chi phí trước khi đặt lịch.",
+      "diem_chuyen_doi": "Vệ sinh Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "TD-18",
+        "TD-16"
+      ],
+      "bai_tiep_theo": "TD-11",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TD-11",
+      "stt": 65,
+      "category": "Tủ mát, tủ đông",
+      "title": "Bảo trì tủ mát, tủ đông cho cửa hàng: Checklist giảm nguy cơ mất hàng",
+      "slug": "bao-tri-tu-mat-tu-dong",
+      "primary_keyword": "bảo trì tủ mát tủ đông",
+      "secondary_keywords": [
+        "bảo dưỡng tủ mát tủ đông",
+        "checklist bảo trì tủ đông"
+      ],
+      "tags": [
+        "Bảo trì"
+      ],
+      "intent": "Phòng ngừa — Giảm nguy cơ hỏng đột xuất và gián đoạn bảo quản",
+      "giai_doan_khach": "Phòng ngừa",
+      "uu_tien": "P2",
+      "cta_chinh": "Lưu checklist; cửa hàng/cơ sở có nhiều tủ có thể yêu cầu lập lịch kiểm tra định kỳ.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Nuôi dưỡng nhu cầu",
+      "vai_tro": "Nurture / Prevention",
+      "trang_thai_khach": "Phòng ngừa",
+      "trigger": "Khách muốn giảm nguy cơ hỏng đột ngột, chi phí bất ngờ hoặc hiệu suất giảm trong quá trình sử dụng.",
+      "loi_hua": "Biết lịch/hạng mục kiểm tra hợp lý và cách giảm nguy cơ hỏng hóc, giảm chi phí phát sinh.",
+      "muc_dich_chuyen_tang": "Từ phòng ngừa → xác định thời điểm/hạng mục cần làm → chuyển sang bảo trì hoặc vệ sinh có kế hoạch.",
+      "cta_chuyen_tang": "Tải/lưu checklist bảo trì; với nhiều thiết bị, gửi danh mục để nhận đề xuất lịch kiểm tra.",
+      "diem_chuyen_doi": "Bảo trì / kiểm tra định kỳ Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "TD-16"
+      ],
+      "bai_tiep_theo": "TD-18",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TD-12",
+      "stt": 66,
+      "category": "Tủ mát, tủ đông",
+      "title": "Lắp đặt tủ mát, tủ đông: Chọn vị trí và chuẩn bị nguồn điện",
+      "slug": "lap-dat-tu-dong",
+      "primary_keyword": "lắp đặt tủ đông",
+      "secondary_keywords": [
+        "vị trí đặt tủ mát",
+        "lắp đặt tủ đông"
+      ],
+      "tags": [
+        "Lắp đặt"
+      ],
+      "intent": "Mua/triển khai — Đảm bảo thông thoáng, điện và tải phù hợp",
+      "giai_doan_khach": "Sẵn sàng triển khai",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi vị trí + model để được kiểm tra điều kiện; đặt lịch lắp khi đã sẵn sàng.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Ready to act",
+      "trang_thai_khach": "Sẵn sàng triển khai",
+      "trigger": "Khách đã có kế hoạch lắp đặt/di dời/vận chuyển hoặc cần triển khai một hạng mục cụ thể.",
+      "loi_hua": "Có checklist thông tin cần chuẩn bị và tiêu chí cần xác nhận trước khi đặt lịch/triển khai.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi diện tích + nhu cầu + điều kiện lắp đặt để được tư vấn cấu hình và phương án thi công.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TD-16",
+        "TD-10"
+      ],
+      "bai_tiep_theo": "TD-18",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TD-13",
+      "stt": 67,
+      "category": "Tủ mát, tủ đông",
+      "title": "Di dời tủ mát, tủ đông: Cách chuẩn bị trước và sau vận chuyển",
+      "slug": "van-chuyen-tu-dong",
+      "primary_keyword": "vận chuyển tủ đông",
+      "secondary_keywords": [
+        "di dời tủ mát",
+        "vận chuyển tủ đông"
+      ],
+      "tags": [
+        "Lắp đặt"
+      ],
+      "intent": "Mua/triển khai — Giảm rủi ro trong di chuyển và khởi động lại",
+      "giai_doan_khach": "Sẵn sàng triển khai",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi model, kích thước và tuyến di chuyển để nhận phạm vi công việc; đặt lịch khi chốt.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Ready to act",
+      "trang_thai_khach": "Sẵn sàng triển khai",
+      "trigger": "Khách đã có kế hoạch lắp đặt/di dời/vận chuyển hoặc cần triển khai một hạng mục cụ thể.",
+      "loi_hua": "Có checklist thông tin cần chuẩn bị và tiêu chí cần xác nhận trước khi đặt lịch/triển khai.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi thông tin thiết bị + địa điểm + thời gian mong muốn để xác nhận phạm vi và đặt lịch.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TD-18",
+        "TD-11"
+      ],
+      "bai_tiep_theo": "TD-16",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TD-14",
+      "stt": 68,
+      "category": "Tủ mát, tủ đông",
+      "title": "Cách chỉnh nhiệt độ tủ đông theo nhu cầu bảo quản",
+      "slug": "cach-chinh-nhiet-do-tu-dong",
+      "primary_keyword": "cách chỉnh nhiệt độ tủ đông",
+      "secondary_keywords": [
+        "nhiệt độ tủ đông bao nhiêu",
+        "chỉnh nhiệt độ tủ đông"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Phòng ngừa — Chọn mức nhiệt phù hợp với hàng hóa",
+      "giai_doan_khach": "Phòng ngừa",
+      "uu_tien": "P2",
+      "cta_chinh": "Đối chiếu yêu cầu bảo quản; nếu nhiệt độ thực tế không đạt, đặt lịch kiểm tra.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Nuôi dưỡng nhu cầu",
+      "vai_tro": "Nurture / Prevention",
+      "trang_thai_khach": "Phòng ngừa",
+      "trigger": "Khách muốn giảm nguy cơ hỏng đột ngột, chi phí bất ngờ hoặc hiệu suất giảm trong quá trình sử dụng.",
+      "loi_hua": "Biết lịch/hạng mục kiểm tra hợp lý và cách giảm nguy cơ hỏng hóc, giảm chi phí phát sinh.",
+      "muc_dich_chuyen_tang": "Từ phòng ngừa → xác định thời điểm/hạng mục cần làm → chuyển sang bảo trì hoặc vệ sinh có kế hoạch.",
+      "cta_chuyen_tang": "Lưu checklist và kiểm tra định kỳ; liên hệ khi phát hiện dấu hiệu bất thường.",
+      "diem_chuyen_doi": "Bảo trì / vệ sinh Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "TD-18",
+        "TD-16"
+      ],
+      "bai_tiep_theo": "TD-11",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TD-15",
+      "stt": 69,
+      "category": "Tủ mát, tủ đông",
+      "title": "Cách chỉnh nhiệt độ tủ mát: Tránh quá lạnh và làm lạnh không đủ",
+      "slug": "cach-chinh-nhiet-do-tu-mat",
+      "primary_keyword": "cách chỉnh nhiệt độ tủ mát",
+      "secondary_keywords": [
+        "nhiệt độ tủ mát",
+        "chỉnh nhiệt độ tủ mát"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Phòng ngừa — Ổn định nhiệt độ bảo quản và tránh hao điện",
+      "giai_doan_khach": "Đánh giá nhà cung cấp",
+      "uu_tien": "P1",
+      "cta_chinh": "Điều chỉnh theo loại hàng; nếu nhiệt độ dao động bất thường, yêu cầu kiểm tra.",
+      "funnel_stage": "F3",
+      "funnel_stage_day_du": "F3 — Xây tin & giảm rủi ro",
+      "vai_tro": "Proof / Trust & risk control",
+      "trang_thai_khach": "Đánh giá nhà cung cấp",
+      "trigger": "Khách đã cân nhắc thuê thợ nhưng lo báo giá mập mờ, phát sinh, sửa sai hoặc không có trách nhiệm sau dịch vụ.",
+      "loi_hua": "Biết cách kiểm tra báo giá, phạm vi công việc, nghiệm thu và trách nhiệm sau dịch vụ để giảm rủi ro.",
+      "muc_dich_chuyen_tang": "Từ nghi ngại → xem bằng chứng/quy trình → giảm rủi ro → đặt lịch khi đủ tin tưởng.",
+      "cta_chuyen_tang": "Xem quy trình kiểm tra, báo giá và bảo hành; đặt lịch kiểm tra khi đã sẵn sàng.",
+      "diem_chuyen_doi": "Dịch vụ Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TD-18",
+        "TD-16"
+      ],
+      "bai_tiep_theo": "TD-11",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-mat/"
+    },
+    {
+      "id": "TD-16",
+      "stt": 70,
+      "category": "Tủ mát, tủ đông",
+      "title": "Checklist nghiệm thu tủ mát, tủ đông sau sửa chữa, vệ sinh hoặc lắp đặt",
+      "slug": "checklist-nghiem-thu-tu-mat-tu-dong",
+      "primary_keyword": "checklist nghiệm thu tủ mát tủ đông",
+      "secondary_keywords": [
+        "kiểm tra tủ đông sau sửa",
+        "nghiệm thu tủ mát"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Đánh giá nhà cung cấp — Kiểm tra kết quả trước khi đưa thiết bị vào bảo quản hàng hóa",
+      "giai_doan_khach": "Phòng ngừa",
+      "uu_tien": "P2",
+      "cta_chinh": "Lưu checklist; đối chiếu nhiệt độ, vận hành và hạng mục bàn giao trước khi đưa tủ vào sử dụng.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Nuôi dưỡng nhu cầu",
+      "vai_tro": "Nurture / Prevention",
+      "trang_thai_khach": "Phòng ngừa",
+      "trigger": "Khách muốn giảm nguy cơ hỏng đột ngột, chi phí bất ngờ hoặc hiệu suất giảm trong quá trình sử dụng.",
+      "loi_hua": "Biết lịch/hạng mục kiểm tra hợp lý và cách giảm nguy cơ hỏng hóc, giảm chi phí phát sinh.",
+      "muc_dich_chuyen_tang": "Từ phòng ngừa → xác định thời điểm/hạng mục cần làm → chuyển sang bảo trì hoặc vệ sinh có kế hoạch.",
+      "cta_chuyen_tang": "Lưu checklist và kiểm tra định kỳ; liên hệ khi phát hiện dấu hiệu bất thường.",
+      "diem_chuyen_doi": "Vệ sinh Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "TD-18",
+        "TD-12"
+      ],
+      "bai_tiep_theo": "TD-16",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TD-17",
+      "stt": 71,
+      "category": "Tủ mát, tủ đông",
+      "title": "Nên mua tủ đông đứng hay tủ đông nằm cho gia đình?",
+      "slug": "tu-dong-dung-hay-tu-dong-nam",
+      "primary_keyword": "tủ đông đứng hay tủ đông nằm",
+      "secondary_keywords": [
+        "so sánh tủ đông đứng nằm",
+        "nên mua tủ đông nào"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Mua/triển khai — Chọn kiểu tủ theo không gian và cách dùng",
+      "giai_doan_khach": "Sẵn sàng triển khai",
+      "uu_tien": "P1",
+      "cta_chinh": "So sánh nhu cầu + diện tích trước khi mua; nếu cần lắp/di dời, yêu cầu tư vấn vị trí.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Ready to act",
+      "trang_thai_khach": "Sẵn sàng triển khai",
+      "trigger": "Khách đã có kế hoạch lắp đặt/di dời/vận chuyển hoặc cần triển khai một hạng mục cụ thể.",
+      "loi_hua": "Có checklist thông tin cần chuẩn bị và tiêu chí cần xác nhận trước khi đặt lịch/triển khai.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi diện tích + nhu cầu + điều kiện lắp đặt để được tư vấn cấu hình và phương án thi công.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TD-16"
+      ],
+      "bai_tiep_theo": "TD-12",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TD-18",
+      "stt": 72,
+      "category": "Tủ mát, tủ đông",
+      "title": "Giá sửa tủ mát, tủ đông gồm những gì? Cách kiểm soát phát sinh khi sửa",
+      "slug": "gia-sua-tu-mat-tu-dong",
+      "primary_keyword": "giá sửa tủ mát tủ đông",
+      "secondary_keywords": [
+        "chi phí sửa tủ đông",
+        "báo giá sửa tủ mát"
+      ],
+      "tags": [
+        "Kinh nghiệm hay",
+        "Lỗi thường gặp"
+      ],
+      "intent": "Đánh giá nhà cung cấp — Biết phạm vi, căn cứ báo giá và khoản phát sinh",
+      "giai_doan_khach": "Đánh giá nhà cung cấp",
+      "uu_tien": "P1",
+      "cta_chinh": "Xem mẫu báo giá; đặt kiểm tra để xác định nguyên nhân và chỉ duyệt hạng mục cần thiết.",
+      "funnel_stage": "F3",
+      "funnel_stage_day_du": "F3 — Xây tin & giảm rủi ro",
+      "vai_tro": "Proof / Trust & risk control",
+      "trang_thai_khach": "Đánh giá nhà cung cấp",
+      "trigger": "Khách đã cân nhắc thuê thợ nhưng lo báo giá mập mờ, phát sinh, sửa sai hoặc không có trách nhiệm sau dịch vụ.",
+      "loi_hua": "Biết cách kiểm tra báo giá, phạm vi công việc, nghiệm thu và trách nhiệm sau dịch vụ để giảm rủi ro.",
+      "muc_dich_chuyen_tang": "Từ nghi ngại → xem bằng chứng/quy trình → giảm rủi ro → đặt lịch khi đủ tin tưởng.",
+      "cta_chuyen_tang": "Xem bảng giá/mẫu báo giá; gửi model + tình trạng để nhận phạm vi và chi phí trước khi làm.",
+      "diem_chuyen_doi": "Sửa chữa Tủ mát, tủ đông",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TD-11"
+      ],
+      "bai_tiep_theo": "TD-16",
+      "trang_dich_vu": "/dich-vu/sua-chua-tu-mat/"
+    },
+    {
+      "id": "MN-01",
+      "stt": 73,
+      "category": "Máy nước nóng",
+      "title": "Máy nước nóng không nóng: Nguyên nhân và khi nào cần gọi thợ",
+      "slug": "may-nuoc-nong-khong-nong",
+      "primary_keyword": "máy nước nóng không nóng",
+      "secondary_keywords": [
+        "bình nóng lạnh không nóng",
+        "máy nước nóng không ra nước nóng"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Khoanh vùng nguyên nhân và biết khi nào cần kỹ thuật",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra nguồn/cài đặt theo hướng dẫn; nếu vẫn không nóng, đặt lịch kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên máy nước nóng và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy nước nóng",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MN-08",
+        "MN-17"
+      ],
+      "bai_tiep_theo": "MN-15",
+      "trang_dich_vu": "/dich-vu/sua-binh-nong-lanh/"
+    },
+    {
+      "id": "MN-02",
+      "stt": 74,
+      "category": "Máy nước nóng",
+      "title": "Máy nước nóng làm nóng chậm hoặc không đủ nóng: Cần kiểm tra gì?",
+      "slug": "may-nuoc-nong-nong-cham",
+      "primary_keyword": "máy nước nóng nóng chậm",
+      "secondary_keywords": [
+        "bình nóng lạnh nóng chậm",
+        "máy nước nóng không đủ nóng"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Phân biệt công suất, cài đặt và lỗi thiết bị",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra theo checklist; nếu thời gian làm nóng thay đổi bất thường, yêu cầu kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên máy nước nóng và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy nước nóng",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MN-08",
+        "MN-17"
+      ],
+      "bai_tiep_theo": "MN-15",
+      "trang_dich_vu": "/dich-vu/sua-binh-nong-lanh/"
+    },
+    {
+      "id": "MN-03",
+      "stt": 75,
+      "category": "Máy nước nóng",
+      "title": "Máy nước nóng rò nước: Phân biệt rò ở đường ống, van và thân bình",
+      "slug": "may-nuoc-nong-bi-ro-nuoc",
+      "primary_keyword": "máy nước nóng bị rò nước",
+      "secondary_keywords": [
+        "bình nóng lạnh bị rò nước",
+        "máy nước nóng chảy nước"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Xác định vị trí rò và mức độ cần xử lý",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Nếu rò nhiều, ngừng sử dụng và xử lý nguồn nước; đặt lịch kiểm tra để xác định nguyên nhân.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên máy nước nóng và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy nước nóng",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MN-08",
+        "MN-17"
+      ],
+      "bai_tiep_theo": "MN-15",
+      "trang_dich_vu": "/dich-vu/sua-binh-nong-lanh/"
+    },
+    {
+      "id": "MN-04",
+      "stt": 76,
+      "category": "Máy nước nóng",
+      "title": "Máy nước nóng bị rò điện: Dấu hiệu cần ngừng sử dụng và gọi kỹ thuật",
+      "slug": "may-nuoc-nong-bi-ro-dien",
+      "primary_keyword": "máy nước nóng bị rò điện",
+      "secondary_keywords": [
+        "bình nóng lạnh bị rò điện",
+        "máy nước nóng tê điện"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "An toàn — Biết khi nào phải ngừng sử dụng, không tự sửa",
+      "giai_doan_khach": "An toàn",
+      "uu_tien": "P1",
+      "cta_chinh": "Ngừng sử dụng khi có dấu hiệu rò điện; liên hệ kỹ thuật để kiểm tra an toàn trước khi dùng lại.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Safety trigger",
+      "trang_thai_khach": "An toàn",
+      "trigger": "Khách phát hiện dấu hiệu có thể liên quan điện/nước và cần biết phải dừng sử dụng thế nào cho an toàn.",
+      "loi_hua": "Nhận biết dấu hiệu nguy hiểm, biết việc cần dừng ngay và cách chuyển sang hỗ trợ kỹ thuật an toàn.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Nếu có dấu hiệu nguy hiểm, ngừng sử dụng theo hướng dẫn an toàn và liên hệ kỹ thuật viên để kiểm tra.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy nước nóng",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MN-15",
+        "MN-17"
+      ],
+      "bai_tiep_theo": "MN-12",
+      "trang_dich_vu": "/dich-vu/sua-binh-nong-lanh/"
+    },
+    {
+      "id": "MN-05",
+      "stt": 77,
+      "category": "Máy nước nóng",
+      "title": "ELCB máy nước nóng bị nhảy: Nguyên nhân và cách xử lý an toàn",
+      "slug": "elcb-may-nuoc-nong-bi-nhay",
+      "primary_keyword": "ELCB máy nước nóng bị nhảy",
+      "secondary_keywords": [
+        "bình nóng lạnh nhảy ELCB",
+        "máy nước nóng tự ngắt điện"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "An toàn — Hiểu nguyên nhân có thể và tránh bỏ qua bảo vệ điện",
+      "giai_doan_khach": "An toàn",
+      "uu_tien": "P1",
+      "cta_chinh": "Không cố bật ELCB liên tục nếu tiếp tục nhảy; đặt lịch kiểm tra hệ thống.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Safety trigger",
+      "trang_thai_khach": "An toàn",
+      "trigger": "Khách phát hiện dấu hiệu có thể liên quan điện/nước và cần biết phải dừng sử dụng thế nào cho an toàn.",
+      "loi_hua": "Nhận biết dấu hiệu nguy hiểm, biết việc cần dừng ngay và cách chuyển sang hỗ trợ kỹ thuật an toàn.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Nếu có dấu hiệu nguy hiểm, ngừng sử dụng theo hướng dẫn an toàn và liên hệ kỹ thuật viên để kiểm tra.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy nước nóng",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MN-15",
+        "MN-17"
+      ],
+      "bai_tiep_theo": "MN-12",
+      "trang_dich_vu": "/dich-vu/sua-binh-nong-lanh/"
+    },
+    {
+      "id": "MN-06",
+      "stt": 78,
+      "category": "Máy nước nóng",
+      "title": "Máy nước nóng ra nước yếu: Do nguồn cấp, vòi sen hay thiết bị?",
+      "slug": "may-nuoc-nong-ra-nuoc-yeu",
+      "primary_keyword": "máy nước nóng ra nước yếu",
+      "secondary_keywords": [
+        "bình nóng lạnh nước yếu",
+        "vòi sen nước nóng yếu"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Phân biệt lỗi nguồn nước và thiết bị",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra vòi/lưới lọc; nếu lưu lượng vẫn yếu, đặt lịch kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên máy nước nóng và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Máy nước nóng",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MN-08",
+        "MN-17"
+      ],
+      "bai_tiep_theo": "MN-15",
+      "trang_dich_vu": "/dich-vu/sua-binh-nong-lanh/"
+    },
+    {
+      "id": "MN-07",
+      "stt": 79,
+      "category": "Máy nước nóng",
+      "title": "Cách vệ sinh vòi sen và lưới lọc đầu vào máy nước nóng",
+      "slug": "ve-sinh-voi-sen-may-nuoc-nong",
+      "primary_keyword": "vệ sinh vòi sen máy nước nóng",
+      "secondary_keywords": [
+        "vệ sinh lưới lọc máy nước nóng",
+        "vòi sen bị cặn"
+      ],
+      "tags": [
+        "Vệ sinh"
+      ],
+      "intent": "Phòng ngừa — Khôi phục lưu lượng bằng việc vệ sinh cơ bản",
+      "giai_doan_khach": "Tìm giải pháp",
+      "uu_tien": "P2",
+      "cta_chinh": "Tự vệ sinh phần dễ tiếp cận; nếu cặn sâu hoặc lưu lượng không cải thiện, yêu cầu kiểm tra.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Giáo dục & khoanh vùng",
+      "vai_tro": "Bridge / Solution education",
+      "trang_thai_khach": "Tìm giải pháp",
+      "trigger": "Khách đã xác định có vấn đề và đang cân nhắc tự làm hay thuê dịch vụ, muốn biết cách xử lý đúng.",
+      "loi_hua": "Hiểu phương án xử lý, phần nào có thể tự làm và phần nào nên giao kỹ thuật viên để tránh xử lý sai.",
+      "muc_dich_chuyen_tang": "Từ hiểu cách xử lý → biết phạm vi dịch vụ và chi phí → sẵn sàng yêu cầu hỗ trợ nếu tự xử lý không phù hợp.",
+      "cta_chuyen_tang": "Lưu checklist; nếu muốn vệ sinh chuyên sâu, xem phạm vi dịch vụ và chi phí trước khi đặt lịch.",
+      "diem_chuyen_doi": "Vệ sinh Máy nước nóng",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "MN-09",
+        "MN-10"
+      ],
+      "bai_tiep_theo": "MN-08",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "MN-08",
+      "stt": 80,
+      "category": "Máy nước nóng",
+      "title": "Vệ sinh, súc cặn bình nóng lạnh gián tiếp gồm những công việc gì?",
+      "slug": "suc-can-binh-nong-lanh",
+      "primary_keyword": "súc cặn bình nóng lạnh",
+      "secondary_keywords": [
+        "vệ sinh bình nóng lạnh",
+        "súc cặn bình nước nóng"
+      ],
+      "tags": [
+        "Vệ sinh"
+      ],
+      "intent": "Giải pháp — Biết dịch vụ vệ sinh/súc cặn thực sự gồm gì",
+      "giai_doan_khach": "Tìm giải pháp",
+      "uu_tien": "P2",
+      "cta_chinh": "Xem phạm vi và quy trình; gửi dung tích/model để nhận báo giá phù hợp.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Giáo dục & khoanh vùng",
+      "vai_tro": "Bridge / Solution education",
+      "trang_thai_khach": "Tìm giải pháp",
+      "trigger": "Khách đã xác định có vấn đề và đang cân nhắc tự làm hay thuê dịch vụ, muốn biết cách xử lý đúng.",
+      "loi_hua": "Hiểu phương án xử lý, phần nào có thể tự làm và phần nào nên giao kỹ thuật viên để tránh xử lý sai.",
+      "muc_dich_chuyen_tang": "Từ hiểu cách xử lý → biết phạm vi dịch vụ và chi phí → sẵn sàng yêu cầu hỗ trợ nếu tự xử lý không phù hợp.",
+      "cta_chuyen_tang": "Lưu checklist; nếu muốn vệ sinh chuyên sâu, xem phạm vi dịch vụ và chi phí trước khi đặt lịch.",
+      "diem_chuyen_doi": "Vệ sinh Máy nước nóng",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "MN-15",
+        "MN-17"
+      ],
+      "bai_tiep_theo": "MN-09",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "MN-09",
+      "stt": 81,
+      "category": "Máy nước nóng",
+      "title": "Bao lâu nên vệ sinh máy nước nóng? Các yếu tố ảnh hưởng chi phí",
+      "slug": "bao-lau-ve-sinh-may-nuoc-nong",
+      "primary_keyword": "bao lâu vệ sinh máy nước nóng",
+      "secondary_keywords": [
+        "chu kỳ vệ sinh bình nóng lạnh",
+        "chi phí vệ sinh máy nước nóng"
+      ],
+      "tags": [
+        "Vệ sinh",
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Phòng ngừa — Xác định thời điểm vệ sinh và yếu tố chi phí",
+      "giai_doan_khach": "Phòng ngừa",
+      "uu_tien": "P2",
+      "cta_chinh": "Dùng checklist dấu hiệu; xem bảng giá/phạm vi nếu đã đến thời điểm vệ sinh.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Nuôi dưỡng nhu cầu",
+      "vai_tro": "Nurture / Prevention",
+      "trang_thai_khach": "Phòng ngừa",
+      "trigger": "Khách muốn giảm nguy cơ hỏng đột ngột, chi phí bất ngờ hoặc hiệu suất giảm trong quá trình sử dụng.",
+      "loi_hua": "Biết lịch/hạng mục kiểm tra hợp lý và cách giảm nguy cơ hỏng hóc, giảm chi phí phát sinh.",
+      "muc_dich_chuyen_tang": "Từ phòng ngừa → xác định thời điểm/hạng mục cần làm → chuyển sang bảo trì hoặc vệ sinh có kế hoạch.",
+      "cta_chuyen_tang": "Lưu mốc kiểm tra phù hợp với tần suất sử dụng; đăng ký nhắc lịch nếu cần.",
+      "diem_chuyen_doi": "Vệ sinh Máy nước nóng",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "MN-08",
+        "MN-15"
+      ],
+      "bai_tiep_theo": "MN-09",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "MN-10",
+      "stt": 82,
+      "category": "Máy nước nóng",
+      "title": "Bảo trì máy nước nóng cho gia đình, khách sạn và văn phòng: Những hạng mục cần kiểm tra",
+      "slug": "bao-tri-may-nuoc-nong",
+      "primary_keyword": "bảo trì máy nước nóng",
+      "secondary_keywords": [
+        "bảo dưỡng bình nóng lạnh",
+        "kiểm tra máy nước nóng định kỳ"
+      ],
+      "tags": [
+        "Bảo trì"
+      ],
+      "intent": "Phòng ngừa — Theo dõi thiết bị và hệ thống bảo vệ điện trước khi xảy ra sự cố",
+      "giai_doan_khach": "Phòng ngừa",
+      "uu_tien": "P2",
+      "cta_chinh": "Lưu checklist; cơ sở có nhiều thiết bị có thể yêu cầu lập danh mục và lịch kiểm tra.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Nuôi dưỡng nhu cầu",
+      "vai_tro": "Nurture / Prevention",
+      "trang_thai_khach": "Phòng ngừa",
+      "trigger": "Khách muốn giảm nguy cơ hỏng đột ngột, chi phí bất ngờ hoặc hiệu suất giảm trong quá trình sử dụng.",
+      "loi_hua": "Biết lịch/hạng mục kiểm tra hợp lý và cách giảm nguy cơ hỏng hóc, giảm chi phí phát sinh.",
+      "muc_dich_chuyen_tang": "Từ phòng ngừa → xác định thời điểm/hạng mục cần làm → chuyển sang bảo trì hoặc vệ sinh có kế hoạch.",
+      "cta_chuyen_tang": "Tải/lưu checklist bảo trì; với nhiều thiết bị, gửi danh mục để nhận đề xuất lịch kiểm tra.",
+      "diem_chuyen_doi": "Bảo trì / kiểm tra định kỳ Máy nước nóng",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "MN-09",
+        "MN-17"
+      ],
+      "bai_tiep_theo": "MN-15",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "MN-11",
+      "stt": 83,
+      "category": "Máy nước nóng",
+      "title": "Thanh magie bình nóng lạnh có tác dụng gì? Khi nào cần kiểm tra, thay thế?",
+      "slug": "thanh-magie-binh-nong-lanh",
+      "primary_keyword": "thanh magie bình nóng lạnh",
+      "secondary_keywords": [
+        "thanh magie bình nóng lạnh có tác dụng gì",
+        "khi nào thay thanh magie"
+      ],
+      "tags": [
+        "Bảo trì"
+      ],
+      "intent": "Vấn đề — Hiểu vai trò linh kiện và tránh thay theo cảm tính",
+      "giai_doan_khach": "Phòng ngừa",
+      "uu_tien": "P2",
+      "cta_chinh": "Kiểm tra theo tình trạng/model; yêu cầu báo giá trước nếu cần thay.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Nuôi dưỡng nhu cầu",
+      "vai_tro": "Nurture / Prevention",
+      "trang_thai_khach": "Phòng ngừa",
+      "trigger": "Khách muốn giảm nguy cơ hỏng đột ngột, chi phí bất ngờ hoặc hiệu suất giảm trong quá trình sử dụng.",
+      "loi_hua": "Biết lịch/hạng mục kiểm tra hợp lý và cách giảm nguy cơ hỏng hóc, giảm chi phí phát sinh.",
+      "muc_dich_chuyen_tang": "Từ phòng ngừa → xác định thời điểm/hạng mục cần làm → chuyển sang bảo trì hoặc vệ sinh có kế hoạch.",
+      "cta_chuyen_tang": "Lưu checklist và kiểm tra định kỳ; liên hệ khi phát hiện dấu hiệu bất thường.",
+      "diem_chuyen_doi": "Bảo trì / kiểm tra định kỳ Máy nước nóng",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "MN-15",
+        "MN-17"
+      ],
+      "bai_tiep_theo": "MN-10",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "MN-12",
+      "stt": 84,
+      "category": "Máy nước nóng",
+      "title": "Lắp đặt máy nước nóng: Yêu cầu về vị trí, điện và chống rò điện",
+      "slug": "lap-dat-may-nuoc-nong",
+      "primary_keyword": "lắp đặt máy nước nóng",
+      "secondary_keywords": [
+        "lắp bình nóng lạnh",
+        "yêu cầu điện máy nước nóng"
+      ],
+      "tags": [
+        "Lắp đặt"
+      ],
+      "intent": "Mua/triển khai — Đảm bảo điều kiện lắp và an toàn điện",
+      "giai_doan_khach": "Sẵn sàng triển khai",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi vị trí + loại máy để được kiểm tra điều kiện; đặt lịch lắp khi đã đủ thông tin.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Ready to act",
+      "trang_thai_khach": "Sẵn sàng triển khai",
+      "trigger": "Khách đã có kế hoạch lắp đặt/di dời/vận chuyển hoặc cần triển khai một hạng mục cụ thể.",
+      "loi_hua": "Có checklist thông tin cần chuẩn bị và tiêu chí cần xác nhận trước khi đặt lịch/triển khai.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi thông tin thiết bị + địa điểm + thời gian mong muốn để xác nhận phạm vi và đặt lịch.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Máy nước nóng",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MN-09",
+        "MN-15"
+      ],
+      "bai_tiep_theo": "MN-10",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "MN-13",
+      "stt": 85,
+      "category": "Máy nước nóng",
+      "title": "Nhà nước yếu có nên dùng máy nước nóng có bơm trợ lực?",
+      "slug": "may-nuoc-nong-co-bom-tro-luc",
+      "primary_keyword": "máy nước nóng có bơm trợ lực",
+      "secondary_keywords": [
+        "bình nóng lạnh bơm trợ lực",
+        "nước yếu nên dùng máy nào"
+      ],
+      "tags": [
+        "Lắp đặt",
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Mua/triển khai — Chọn giải pháp theo áp lực nước thực tế",
+      "giai_doan_khach": "Sẵn sàng triển khai",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi tình trạng áp lực nước và loại máy dự kiến để được tư vấn.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Ready to act",
+      "trang_thai_khach": "Sẵn sàng triển khai",
+      "trigger": "Khách đã có kế hoạch lắp đặt/di dời/vận chuyển hoặc cần triển khai một hạng mục cụ thể.",
+      "loi_hua": "Có checklist thông tin cần chuẩn bị và tiêu chí cần xác nhận trước khi đặt lịch/triển khai.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi thông tin thiết bị + địa điểm + thời gian mong muốn để xác nhận phạm vi và đặt lịch.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Máy nước nóng",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MN-10",
+        "MN-15"
+      ],
+      "bai_tiep_theo": "MN-12",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "MN-14",
+      "stt": 86,
+      "category": "Máy nước nóng",
+      "title": "Di dời máy nước nóng: Những điều cần kiểm tra tại vị trí mới",
+      "slug": "di-doi-may-nuoc-nong",
+      "primary_keyword": "di dời máy nước nóng",
+      "secondary_keywords": [
+        "tháo lắp bình nóng lạnh",
+        "chuyển máy nước nóng"
+      ],
+      "tags": [
+        "Lắp đặt"
+      ],
+      "intent": "Mua/triển khai — Biết yêu cầu điện, nước và vị trí mới",
+      "giai_doan_khach": "Sẵn sàng triển khai",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi ảnh vị trí mới để được kiểm tra điều kiện; đặt lịch khi đã chốt.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Ready to act",
+      "trang_thai_khach": "Sẵn sàng triển khai",
+      "trigger": "Khách đã có kế hoạch lắp đặt/di dời/vận chuyển hoặc cần triển khai một hạng mục cụ thể.",
+      "loi_hua": "Có checklist thông tin cần chuẩn bị và tiêu chí cần xác nhận trước khi đặt lịch/triển khai.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi thông tin thiết bị + địa điểm + thời gian mong muốn để xác nhận phạm vi và đặt lịch.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Máy nước nóng",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MN-15",
+        "MN-12"
+      ],
+      "bai_tiep_theo": "MN-17",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "MN-15",
+      "stt": 87,
+      "category": "Máy nước nóng",
+      "title": "Giá sửa máy nước nóng gồm những gì? Cách hỏi báo giá để kiểm soát phát sinh",
+      "slug": "gia-sua-may-nuoc-nong",
+      "primary_keyword": "giá sửa máy nước nóng",
+      "secondary_keywords": [
+        "chi phí sửa bình nóng lạnh",
+        "báo giá sửa máy nước nóng"
+      ],
+      "tags": [
+        "Kinh nghiệm hay",
+        "Lỗi thường gặp"
+      ],
+      "intent": "Đánh giá nhà cung cấp — Biết căn cứ báo giá, hạng mục và khoản có thể phát sinh",
+      "giai_doan_khach": "Đánh giá nhà cung cấp",
+      "uu_tien": "P1",
+      "cta_chinh": "Xem mẫu báo giá và phạm vi công việc; đặt kiểm tra khi cần xác định nguyên nhân trước khi sửa.",
+      "funnel_stage": "F3",
+      "funnel_stage_day_du": "F3 — Xây tin & giảm rủi ro",
+      "vai_tro": "Proof / Trust & risk control",
+      "trang_thai_khach": "Đánh giá nhà cung cấp",
+      "trigger": "Khách đã cân nhắc thuê thợ nhưng lo báo giá mập mờ, phát sinh, sửa sai hoặc không có trách nhiệm sau dịch vụ.",
+      "loi_hua": "Biết cách kiểm tra báo giá, phạm vi công việc, nghiệm thu và trách nhiệm sau dịch vụ để giảm rủi ro.",
+      "muc_dich_chuyen_tang": "Từ nghi ngại → xem bằng chứng/quy trình → giảm rủi ro → đặt lịch khi đủ tin tưởng.",
+      "cta_chuyen_tang": "Xem bảng giá/mẫu báo giá; gửi model + tình trạng để nhận phạm vi và chi phí trước khi làm.",
+      "diem_chuyen_doi": "Sửa chữa Máy nước nóng",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MN-17",
+        "MN-10"
+      ],
+      "bai_tiep_theo": "",
+      "trang_dich_vu": "/dich-vu/sua-binh-nong-lanh/"
+    },
+    {
+      "id": "MN-16",
+      "stt": 88,
+      "category": "Máy nước nóng",
+      "title": "Cách chọn dung tích bình nóng lạnh theo số người và thói quen sử dụng",
+      "slug": "chon-dung-tich-binh-nong-lanh",
+      "primary_keyword": "chọn dung tích bình nóng lạnh",
+      "secondary_keywords": [
+        "bình nóng lạnh bao nhiêu lít",
+        "chọn dung tích theo số người"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Mua/triển khai — Chọn dung tích vừa đủ, tránh mua thừa",
+      "giai_doan_khach": "Sẵn sàng triển khai",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi số người + thói quen sử dụng để được tư vấn dung tích.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Ready to act",
+      "trang_thai_khach": "Sẵn sàng triển khai",
+      "trigger": "Khách đã có kế hoạch lắp đặt/di dời/vận chuyển hoặc cần triển khai một hạng mục cụ thể.",
+      "loi_hua": "Có checklist thông tin cần chuẩn bị và tiêu chí cần xác nhận trước khi đặt lịch/triển khai.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi diện tích + nhu cầu + điều kiện lắp đặt để được tư vấn cấu hình và phương án thi công.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Máy nước nóng",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "MN-15",
+        "MN-12"
+      ],
+      "bai_tiep_theo": "MN-17",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "MN-17",
+      "stt": 89,
+      "category": "Máy nước nóng",
+      "title": "Checklist nghiệm thu máy nước nóng sau vệ sinh, sửa chữa hoặc lắp đặt",
+      "slug": "checklist-nghiem-thu-may-nuoc-nong",
+      "primary_keyword": "checklist nghiệm thu máy nước nóng",
+      "secondary_keywords": [
+        "kiểm tra bình nóng lạnh sau sửa",
+        "nghiệm thu máy nước nóng"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Đánh giá nhà cung cấp — Biết các điểm cần kiểm tra về vận hành và an toàn trước khi sử dụng",
+      "giai_doan_khach": "Phòng ngừa",
+      "uu_tien": "P2",
+      "cta_chinh": "Lưu checklist; kiểm tra các hạng mục bàn giao và yêu cầu xử lý điểm chưa đạt trước khi kết thúc.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Nuôi dưỡng nhu cầu",
+      "vai_tro": "Nurture / Prevention",
+      "trang_thai_khach": "Phòng ngừa",
+      "trigger": "Khách muốn giảm nguy cơ hỏng đột ngột, chi phí bất ngờ hoặc hiệu suất giảm trong quá trình sử dụng.",
+      "loi_hua": "Biết lịch/hạng mục kiểm tra hợp lý và cách giảm nguy cơ hỏng hóc, giảm chi phí phát sinh.",
+      "muc_dich_chuyen_tang": "Từ phòng ngừa → xác định thời điểm/hạng mục cần làm → chuyển sang bảo trì hoặc vệ sinh có kế hoạch.",
+      "cta_chuyen_tang": "Lưu checklist và kiểm tra định kỳ; liên hệ khi phát hiện dấu hiệu bất thường.",
+      "diem_chuyen_doi": "Vệ sinh Máy nước nóng",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "MN-12"
+      ],
+      "bai_tiep_theo": "MN-17",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "MN-18",
+      "stt": 90,
+      "category": "Máy nước nóng",
+      "title": "Máy nước nóng lâu ngày không dùng: Cần làm gì trước khi sử dụng lại?",
+      "slug": "may-nuoc-nong-lau-ngay-khong-dung",
+      "primary_keyword": "máy nước nóng lâu ngày không dùng",
+      "secondary_keywords": [
+        "bình nóng lạnh lâu ngày không dùng",
+        "bật lại máy nước nóng"
+      ],
+      "tags": [
+        "Bảo trì",
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Phòng ngừa — Kiểm tra an toàn trước khi cấp điện lại",
+      "giai_doan_khach": "Phòng ngừa",
+      "uu_tien": "P2",
+      "cta_chinh": "Kiểm tra nguồn nước và bảo vệ điện; nếu có rò điện/rò nước, đặt lịch kiểm tra trước khi sử dụng.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Nuôi dưỡng nhu cầu",
+      "vai_tro": "Nurture / Prevention",
+      "trang_thai_khach": "Phòng ngừa",
+      "trigger": "Khách muốn giảm nguy cơ hỏng đột ngột, chi phí bất ngờ hoặc hiệu suất giảm trong quá trình sử dụng.",
+      "loi_hua": "Biết lịch/hạng mục kiểm tra hợp lý và cách giảm nguy cơ hỏng hóc, giảm chi phí phát sinh.",
+      "muc_dich_chuyen_tang": "Từ phòng ngừa → xác định thời điểm/hạng mục cần làm → chuyển sang bảo trì hoặc vệ sinh có kế hoạch.",
+      "cta_chuyen_tang": "Lưu checklist và kiểm tra định kỳ; liên hệ khi phát hiện dấu hiệu bất thường.",
+      "diem_chuyen_doi": "Bảo trì / kiểm tra định kỳ Máy nước nóng",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "MN-16",
+        "MN-17"
+      ],
+      "bai_tiep_theo": "MN-12",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-01",
+      "stt": 91,
+      "category": "Thiết bị khác",
+      "title": "Máy sấy quần áo sấy không khô: Nguyên nhân và các bước kiểm tra",
+      "slug": "may-say-quan-ao-khong-kho",
+      "primary_keyword": "máy sấy quần áo không khô",
+      "secondary_keywords": [
+        "máy sấy không khô",
+        "máy sấy quần áo sấy lâu"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Khoanh vùng nguyên nhân và giảm thử-sai khi sửa",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra bộ lọc/đường thoát theo model; nếu vẫn không khô, gửi model để được định hướng.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên thiết bị khác và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Thiết bị khác",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TK-04",
+        "TK-17"
+      ],
+      "bai_tiep_theo": "TK-16",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-02",
+      "stt": 92,
+      "category": "Thiết bị khác",
+      "title": "Máy sấy quần áo không nóng: Khi nào cần kiểm tra kỹ thuật?",
+      "slug": "may-say-quan-ao-khong-nong",
+      "primary_keyword": "máy sấy quần áo không nóng",
+      "secondary_keywords": [
+        "máy sấy không nóng",
+        "máy sấy không gia nhiệt"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Phân biệt lỗi sử dụng và lỗi gia nhiệt",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra cài đặt; nếu không có nhiệt bất thường, đặt lịch kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên thiết bị khác và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Thiết bị khác",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TK-04",
+        "TK-17"
+      ],
+      "bai_tiep_theo": "TK-16",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-03",
+      "stt": 93,
+      "category": "Thiết bị khác",
+      "title": "Máy sấy quần áo kêu to, rung mạnh: Nguyên nhân thường gặp",
+      "slug": "may-say-quan-ao-keu-to",
+      "primary_keyword": "máy sấy quần áo kêu to",
+      "secondary_keywords": [
+        "máy sấy rung mạnh",
+        "máy sấy phát tiếng kêu"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Xác định rung do tải, vị trí hay lỗi",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra tải và vị trí; nếu tiếng kêu mới xuất hiện, gửi video hoặc đặt lịch.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên thiết bị khác và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Thiết bị khác",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TK-04",
+        "TK-17"
+      ],
+      "bai_tiep_theo": "TK-16",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-04",
+      "stt": 94,
+      "category": "Thiết bị khác",
+      "title": "Cách vệ sinh máy sấy quần áo: Bộ lọc xơ vải, lồng sấy và bộ phận theo model",
+      "slug": "cach-ve-sinh-may-say-quan-ao",
+      "primary_keyword": "cách vệ sinh máy sấy quần áo",
+      "secondary_keywords": [
+        "vệ sinh máy sấy",
+        "vệ sinh bộ lọc xơ vải"
+      ],
+      "tags": [
+        "Vệ sinh"
+      ],
+      "intent": "Phòng ngừa — Giảm xơ vải và duy trì hiệu quả sấy",
+      "giai_doan_khach": "Tìm giải pháp",
+      "uu_tien": "P2",
+      "cta_chinh": "Lưu checklist vệ sinh; nếu máy giảm hiệu suất dù đã làm sạch, yêu cầu kiểm tra.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Giáo dục & khoanh vùng",
+      "vai_tro": "Bridge / Solution education",
+      "trang_thai_khach": "Tìm giải pháp",
+      "trigger": "Khách đã xác định có vấn đề và đang cân nhắc tự làm hay thuê dịch vụ, muốn biết cách xử lý đúng.",
+      "loi_hua": "Hiểu phương án xử lý, phần nào có thể tự làm và phần nào nên giao kỹ thuật viên để tránh xử lý sai.",
+      "muc_dich_chuyen_tang": "Từ hiểu cách xử lý → biết phạm vi dịch vụ và chi phí → sẵn sàng yêu cầu hỗ trợ nếu tự xử lý không phù hợp.",
+      "cta_chuyen_tang": "Lưu checklist; nếu muốn vệ sinh chuyên sâu, xem phạm vi dịch vụ và chi phí trước khi đặt lịch.",
+      "diem_chuyen_doi": "Vệ sinh Thiết bị khác",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "TK-17"
+      ],
+      "bai_tiep_theo": "TK-06",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-05",
+      "stt": 95,
+      "category": "Thiết bị khác",
+      "title": "Vệ sinh đường thoát khí máy sấy thông hơi: Dấu hiệu cần làm sạch",
+      "slug": "ve-sinh-ong-thoat-khi-may-say",
+      "primary_keyword": "vệ sinh ống thoát khí máy sấy",
+      "secondary_keywords": [
+        "ống thoát khí máy sấy bị tắc",
+        "vệ sinh đường thoát khí"
+      ],
+      "tags": [
+        "Vệ sinh"
+      ],
+      "intent": "Vấn đề — Nhận biết tắc nghẽn và biết khi nào cần vệ sinh",
+      "giai_doan_khach": "Tìm giải pháp",
+      "uu_tien": "P2",
+      "cta_chinh": "Kiểm tra đường thoát theo hướng dẫn; nếu khó tiếp cận hoặc hiệu suất giảm, đặt lịch.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Giáo dục & khoanh vùng",
+      "vai_tro": "Bridge / Solution education",
+      "trang_thai_khach": "Tìm giải pháp",
+      "trigger": "Khách đã xác định có vấn đề và đang cân nhắc tự làm hay thuê dịch vụ, muốn biết cách xử lý đúng.",
+      "loi_hua": "Hiểu phương án xử lý, phần nào có thể tự làm và phần nào nên giao kỹ thuật viên để tránh xử lý sai.",
+      "muc_dich_chuyen_tang": "Từ hiểu cách xử lý → biết phạm vi dịch vụ và chi phí → sẵn sàng yêu cầu hỗ trợ nếu tự xử lý không phù hợp.",
+      "cta_chuyen_tang": "Lưu checklist; nếu muốn vệ sinh chuyên sâu, xem phạm vi dịch vụ và chi phí trước khi đặt lịch.",
+      "diem_chuyen_doi": "Vệ sinh Thiết bị khác",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "TK-06",
+        "TK-17"
+      ],
+      "bai_tiep_theo": "TK-16",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-06",
+      "stt": 96,
+      "category": "Thiết bị khác",
+      "title": "Bảo trì máy sấy quần áo cho gia đình và tiệm giặt: Những hạng mục cần kiểm tra",
+      "slug": "bao-tri-may-say-quan-ao",
+      "primary_keyword": "bảo trì máy sấy quần áo",
+      "secondary_keywords": [
+        "bảo dưỡng máy sấy",
+        "kiểm tra máy sấy định kỳ"
+      ],
+      "tags": [
+        "Bảo trì"
+      ],
+      "intent": "Phòng ngừa — Giảm gián đoạn và duy trì hiệu suất với thiết bị dùng thường xuyên",
+      "giai_doan_khach": "Phòng ngừa",
+      "uu_tien": "P2",
+      "cta_chinh": "Lưu checklist; cơ sở có nhiều máy có thể yêu cầu lập lịch bảo trì theo từng thiết bị.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Nuôi dưỡng nhu cầu",
+      "vai_tro": "Nurture / Prevention",
+      "trang_thai_khach": "Phòng ngừa",
+      "trigger": "Khách muốn giảm nguy cơ hỏng đột ngột, chi phí bất ngờ hoặc hiệu suất giảm trong quá trình sử dụng.",
+      "loi_hua": "Biết lịch/hạng mục kiểm tra hợp lý và cách giảm nguy cơ hỏng hóc, giảm chi phí phát sinh.",
+      "muc_dich_chuyen_tang": "Từ phòng ngừa → xác định thời điểm/hạng mục cần làm → chuyển sang bảo trì hoặc vệ sinh có kế hoạch.",
+      "cta_chuyen_tang": "Tải/lưu checklist bảo trì; với nhiều thiết bị, gửi danh mục để nhận đề xuất lịch kiểm tra.",
+      "diem_chuyen_doi": "Bảo trì / kiểm tra định kỳ Thiết bị khác",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "TK-07",
+        "TK-16"
+      ],
+      "bai_tiep_theo": "TK-17",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-07",
+      "stt": 97,
+      "category": "Thiết bị khác",
+      "title": "Lắp đặt máy sấy quần áo: Vị trí, nguồn điện và đường thoát phù hợp",
+      "slug": "lap-dat-may-say-quan-ao",
+      "primary_keyword": "lắp đặt máy sấy quần áo",
+      "secondary_keywords": [
+        "vị trí đặt máy sấy",
+        "lắp máy sấy thông hơi"
+      ],
+      "tags": [
+        "Lắp đặt"
+      ],
+      "intent": "Mua/triển khai — Đảm bảo điều kiện lắp theo loại máy",
+      "giai_doan_khach": "Sẵn sàng triển khai",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi model và vị trí dự kiến để được kiểm tra điều kiện; đặt lịch lắp.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Ready to act",
+      "trang_thai_khach": "Sẵn sàng triển khai",
+      "trigger": "Khách đã có kế hoạch lắp đặt/di dời/vận chuyển hoặc cần triển khai một hạng mục cụ thể.",
+      "loi_hua": "Có checklist thông tin cần chuẩn bị và tiêu chí cần xác nhận trước khi đặt lịch/triển khai.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi thông tin thiết bị + địa điểm + thời gian mong muốn để xác nhận phạm vi và đặt lịch.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Thiết bị khác",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TK-17",
+        "TK-04"
+      ],
+      "bai_tiep_theo": "TK-08",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-08",
+      "stt": 98,
+      "category": "Thiết bị khác",
+      "title": "Đặt máy sấy chồng lên máy giặt: Điều kiện và phụ kiện cần có",
+      "slug": "dat-may-say-chong-may-giat",
+      "primary_keyword": "đặt máy sấy chồng máy giặt",
+      "secondary_keywords": [
+        "lắp máy sấy trên máy giặt",
+        "bộ kit chồng máy giặt"
+      ],
+      "tags": [
+        "Lắp đặt"
+      ],
+      "intent": "Mua/triển khai — Biết có thể xếp chồng an toàn hay không",
+      "giai_doan_khach": "Sẵn sàng triển khai",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra model/kích thước tương thích; gửi thông tin để được tư vấn trước khi lắp.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Ready to act",
+      "trang_thai_khach": "Sẵn sàng triển khai",
+      "trigger": "Khách đã có kế hoạch lắp đặt/di dời/vận chuyển hoặc cần triển khai một hạng mục cụ thể.",
+      "loi_hua": "Có checklist thông tin cần chuẩn bị và tiêu chí cần xác nhận trước khi đặt lịch/triển khai.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi thông tin thiết bị + địa điểm + thời gian mong muốn để xác nhận phạm vi và đặt lịch.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Thiết bị khác",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TK-16",
+        "TK-04"
+      ],
+      "bai_tiep_theo": "TK-17",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-09",
+      "stt": 99,
+      "category": "Thiết bị khác",
+      "title": "Máy sấy bơm nhiệt, ngưng tụ và thông hơi: Nên chọn loại nào?",
+      "slug": "so-sanh-cac-loai-may-say-quan-ao",
+      "primary_keyword": "so sánh các loại máy sấy quần áo",
+      "secondary_keywords": [
+        "máy sấy bơm nhiệt hay ngưng tụ",
+        "máy sấy thông hơi"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Mua/triển khai — Chọn công nghệ theo không gian và chi phí vận hành",
+      "giai_doan_khach": "Mua/so sánh",
+      "uu_tien": "P2",
+      "cta_chinh": "So sánh nhu cầu và vị trí trước khi mua; nếu cần lắp, gửi model + vị trí.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Purchase decision",
+      "trang_thai_khach": "Mua/so sánh",
+      "trigger": "Khách đang lựa chọn thiết bị/giải pháp và cần tiêu chí phù hợp không gian, nhu cầu và ngân sách.",
+      "loi_hua": "Chọn phương án phù hợp với nhu cầu thực tế thay vì chỉ dựa vào giá hoặc công suất.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi không gian + nhu cầu sử dụng + ngân sách dự kiến để được tư vấn lựa chọn và phương án lắp đặt.",
+      "diem_chuyen_doi": "Tư vấn & lắp đặt Thiết bị khác",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "TK-17",
+        "TK-06"
+      ],
+      "bai_tiep_theo": "TK-07",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-10",
+      "stt": 100,
+      "category": "Thiết bị khác",
+      "title": "Quạt điều hòa không mát: Nguyên nhân và cách kiểm tra ban đầu",
+      "slug": "quat-dieu-hoa-khong-mat",
+      "primary_keyword": "quạt điều hòa không mát",
+      "secondary_keywords": [
+        "quạt hơi nước không mát",
+        "quạt điều hòa chạy nhưng không mát"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Khoanh vùng lỗi bơm nước, tấm làm mát hoặc môi trường",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra nước/bơm/tấm làm mát theo checklist; nếu vẫn không mát, đặt lịch.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên thiết bị khác và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Thiết bị khác",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TK-13",
+        "TK-17"
+      ],
+      "bai_tiep_theo": "TK-16",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-11",
+      "stt": 101,
+      "category": "Thiết bị khác",
+      "title": "Quạt điều hòa không bơm nước: Phân biệt thiếu nước và lỗi bơm",
+      "slug": "quat-dieu-hoa-khong-bom-nuoc",
+      "primary_keyword": "quạt điều hòa không bơm nước",
+      "secondary_keywords": [
+        "quạt hơi nước không bơm nước",
+        "máy làm mát không lên nước"
+      ],
+      "tags": [
+        "Lỗi thường gặp"
+      ],
+      "intent": "Vấn đề — Xác định lỗi đơn giản trước khi thay bơm",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Kiểm tra mực nước và đường cấp; nếu bơm vẫn không hoạt động, yêu cầu kiểm tra.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên thiết bị khác và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Thiết bị khác",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TK-13",
+        "TK-15"
+      ],
+      "bai_tiep_theo": "TK-16",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-12",
+      "stt": 102,
+      "category": "Thiết bị khác",
+      "title": "Quạt điều hòa có mùi hôi: Cách xử lý nguồn mùi trong bình và tấm làm mát",
+      "slug": "quat-dieu-hoa-co-mui-hoi",
+      "primary_keyword": "quạt điều hòa có mùi hôi",
+      "secondary_keywords": [
+        "quạt hơi nước có mùi",
+        "khử mùi quạt điều hòa"
+      ],
+      "tags": [
+        "Lỗi thường gặp",
+        "Vệ sinh"
+      ],
+      "intent": "Vấn đề — Xử lý nguồn mùi thay vì chỉ dùng chất khử mùi",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Vệ sinh bình/tấm làm mát; nếu mùi tái diễn, xem dịch vụ vệ sinh.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên thiết bị khác và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Thiết bị khác",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TK-16",
+        "TK-15"
+      ],
+      "bai_tiep_theo": "TK-13",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-13",
+      "stt": 103,
+      "category": "Thiết bị khác",
+      "title": "Cách vệ sinh quạt điều hòa tại nhà: Bình nước, lưới lọc và tấm làm mát",
+      "slug": "cach-ve-sinh-quat-dieu-hoa",
+      "primary_keyword": "cách vệ sinh quạt điều hòa",
+      "secondary_keywords": [
+        "vệ sinh quạt hơi nước",
+        "vệ sinh tấm làm mát"
+      ],
+      "tags": [
+        "Vệ sinh"
+      ],
+      "intent": "Phòng ngừa — Vệ sinh đúng cách và tránh làm hỏng tấm làm mát",
+      "giai_doan_khach": "Tìm giải pháp",
+      "uu_tien": "P2",
+      "cta_chinh": "Lưu checklist vệ sinh; nếu tấm làm mát xuống cấp, yêu cầu kiểm tra.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Giáo dục & khoanh vùng",
+      "vai_tro": "Bridge / Solution education",
+      "trang_thai_khach": "Tìm giải pháp",
+      "trigger": "Khách đã xác định có vấn đề và đang cân nhắc tự làm hay thuê dịch vụ, muốn biết cách xử lý đúng.",
+      "loi_hua": "Hiểu phương án xử lý, phần nào có thể tự làm và phần nào nên giao kỹ thuật viên để tránh xử lý sai.",
+      "muc_dich_chuyen_tang": "Từ hiểu cách xử lý → biết phạm vi dịch vụ và chi phí → sẵn sàng yêu cầu hỗ trợ nếu tự xử lý không phù hợp.",
+      "cta_chuyen_tang": "Lưu checklist; nếu muốn vệ sinh chuyên sâu, xem phạm vi dịch vụ và chi phí trước khi đặt lịch.",
+      "diem_chuyen_doi": "Vệ sinh Thiết bị khác",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "TK-16",
+        "TK-17"
+      ],
+      "bai_tiep_theo": "TK-15",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-14",
+      "stt": 104,
+      "category": "Thiết bị khác",
+      "title": "Tấm làm mát quạt điều hòa bị bẩn, mục: Khi nào nên thay?",
+      "slug": "khi-nao-thay-tam-lam-mat-quat-dieu-hoa",
+      "primary_keyword": "khi nào thay tấm làm mát quạt điều hòa",
+      "secondary_keywords": [
+        "tấm làm mát quạt điều hòa bị mục",
+        "thay tấm làm mát"
+      ],
+      "tags": [
+        "Bảo trì",
+        "Vệ sinh"
+      ],
+      "intent": "Vấn đề — Phân biệt có thể vệ sinh với cần thay",
+      "giai_doan_khach": "Nhận biết vấn đề",
+      "uu_tien": "P1",
+      "cta_chinh": "Gửi ảnh tấm làm mát để được định hướng; yêu cầu báo giá trước khi thay.",
+      "funnel_stage": "F1",
+      "funnel_stage_day_du": "F1 — Thu hút nhu cầu",
+      "vai_tro": "Entry / Problem capture",
+      "trang_thai_khach": "Nhận biết vấn đề",
+      "trigger": "Khách vừa phát hiện triệu chứng bất thường trên thiết bị khác và muốn biết nguyên nhân, mức độ nghiêm trọng.",
+      "loi_hua": "Khoanh vùng nguyên nhân có thể xảy ra, chỉ ra bước kiểm tra ban đầu an toàn và dấu hiệu nên chuyển sang kỹ thuật viên.",
+      "muc_dich_chuyen_tang": "Từ nhận diện triệu chứng → hiểu phương án kiểm tra → chuyển sang kiểm tra/dịch vụ khi cần.",
+      "cta_chuyen_tang": "Gửi model + mô tả/ảnh triệu chứng để được định hướng bước kiểm tra; chỉ đặt lịch khi xác định cần kỹ thuật.",
+      "diem_chuyen_doi": "Kiểm tra / sửa chữa Thiết bị khác",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TK-17",
+        "TK-13"
+      ],
+      "bai_tiep_theo": "TK-16",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-15",
+      "stt": 105,
+      "category": "Thiết bị khác",
+      "title": "Bảo trì quạt điều hòa: Kiểm tra bơm, quạt và hệ thống nước",
+      "slug": "bao-tri-quat-dieu-hoa",
+      "primary_keyword": "bảo trì quạt điều hòa",
+      "secondary_keywords": [
+        "bảo dưỡng quạt điều hòa",
+        "kiểm tra bơm quạt"
+      ],
+      "tags": [
+        "Bảo trì"
+      ],
+      "intent": "Phòng ngừa — Giảm lỗi trong mùa nóng và kéo dài hiệu suất",
+      "giai_doan_khach": "Phòng ngừa",
+      "uu_tien": "P2",
+      "cta_chinh": "Lưu checklist; nếu thiết bị dùng thường xuyên, yêu cầu lịch kiểm tra.",
+      "funnel_stage": "F2",
+      "funnel_stage_day_du": "F2 — Nuôi dưỡng nhu cầu",
+      "vai_tro": "Nurture / Prevention",
+      "trang_thai_khach": "Phòng ngừa",
+      "trigger": "Khách muốn giảm nguy cơ hỏng đột ngột, chi phí bất ngờ hoặc hiệu suất giảm trong quá trình sử dụng.",
+      "loi_hua": "Biết lịch/hạng mục kiểm tra hợp lý và cách giảm nguy cơ hỏng hóc, giảm chi phí phát sinh.",
+      "muc_dich_chuyen_tang": "Từ phòng ngừa → xác định thời điểm/hạng mục cần làm → chuyển sang bảo trì hoặc vệ sinh có kế hoạch.",
+      "cta_chuyen_tang": "Tải/lưu checklist bảo trì; với nhiều thiết bị, gửi danh mục để nhận đề xuất lịch kiểm tra.",
+      "diem_chuyen_doi": "Bảo trì / kiểm tra định kỳ Thiết bị khác",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "TK-16",
+        "TK-17"
+      ],
+      "bai_tiep_theo": "TK-15",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-16",
+      "stt": 106,
+      "category": "Thiết bị khác",
+      "title": "Giá sửa quạt điều hòa gồm những gì? Cách hỏi báo giá để kiểm soát phát sinh",
+      "slug": "gia-sua-quat-dieu-hoa",
+      "primary_keyword": "giá sửa quạt điều hòa",
+      "secondary_keywords": [
+        "chi phí sửa quạt điều hòa",
+        "báo giá sửa quạt hơi nước"
+      ],
+      "tags": [
+        "Kinh nghiệm hay",
+        "Lỗi thường gặp"
+      ],
+      "intent": "Đánh giá nhà cung cấp — Biết báo giá dựa trên hạng mục nào và cách kiểm soát phát sinh",
+      "giai_doan_khach": "Đánh giá nhà cung cấp",
+      "uu_tien": "P1",
+      "cta_chinh": "Xem mẫu báo giá; gửi model + triệu chứng để được định hướng trước khi đặt kiểm tra.",
+      "funnel_stage": "F3",
+      "funnel_stage_day_du": "F3 — Xây tin & giảm rủi ro",
+      "vai_tro": "Proof / Trust & risk control",
+      "trang_thai_khach": "Đánh giá nhà cung cấp",
+      "trigger": "Khách đã cân nhắc thuê thợ nhưng lo báo giá mập mờ, phát sinh, sửa sai hoặc không có trách nhiệm sau dịch vụ.",
+      "loi_hua": "Biết cách kiểm tra báo giá, phạm vi công việc, nghiệm thu và trách nhiệm sau dịch vụ để giảm rủi ro.",
+      "muc_dich_chuyen_tang": "Từ nghi ngại → xem bằng chứng/quy trình → giảm rủi ro → đặt lịch khi đủ tin tưởng.",
+      "cta_chuyen_tang": "Xem bảng giá/mẫu báo giá; gửi model + tình trạng để nhận phạm vi và chi phí trước khi làm.",
+      "diem_chuyen_doi": "Sửa chữa Thiết bị khác",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TK-15"
+      ],
+      "bai_tiep_theo": "TK-17",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-17",
+      "stt": 107,
+      "category": "Thiết bị khác",
+      "title": "Checklist nghiệm thu máy sấy và quạt điều hòa sau vệ sinh, sửa chữa hoặc lắp đặt",
+      "slug": "checklist-nghiem-thu-may-say-quat-dieu-hoa",
+      "primary_keyword": "checklist nghiệm thu máy sấy quạt điều hòa",
+      "secondary_keywords": [
+        "kiểm tra máy sấy sau sửa",
+        "kiểm tra quạt điều hòa sau vệ sinh"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Đánh giá nhà cung cấp — Biết cách kiểm tra thiết bị trước khi hoàn tất dịch vụ",
+      "giai_doan_khach": "Đánh giá nhà cung cấp",
+      "uu_tien": "P1",
+      "cta_chinh": "Lưu checklist; đối chiếu vận hành và hạng mục bàn giao trước khi kết thúc công việc.",
+      "funnel_stage": "F3",
+      "funnel_stage_day_du": "F3 — Xây tin & giảm rủi ro",
+      "vai_tro": "Proof / Trust & risk control",
+      "trang_thai_khach": "Đánh giá nhà cung cấp",
+      "trigger": "Khách đã cân nhắc thuê thợ nhưng lo báo giá mập mờ, phát sinh, sửa sai hoặc không có trách nhiệm sau dịch vụ.",
+      "loi_hua": "Biết cách kiểm tra báo giá, phạm vi công việc, nghiệm thu và trách nhiệm sau dịch vụ để giảm rủi ro.",
+      "muc_dich_chuyen_tang": "Từ nghi ngại → xem bằng chứng/quy trình → giảm rủi ro → đặt lịch khi đủ tin tưởng.",
+      "cta_chuyen_tang": "Lưu checklist nghiệm thu; dùng nó để đối chiếu hạng mục trước khi thanh toán.",
+      "diem_chuyen_doi": "Vệ sinh Thiết bị khác",
+      "uu_tien_trien_khai": "P1",
+      "internal_links": [
+        "TK-16",
+        "TK-06"
+      ],
+      "bai_tiep_theo": "TK-17",
+      "trang_dich_vu": ""
+    },
+    {
+      "id": "TK-18",
+      "stt": 108,
+      "category": "Thiết bị khác",
+      "title": "Chọn quạt điều hòa cho gia đình: Diện tích, độ ồn và chi phí sử dụng",
+      "slug": "chon-quat-dieu-hoa-cho-gia-dinh",
+      "primary_keyword": "chọn quạt điều hòa cho gia đình",
+      "secondary_keywords": [
+        "quạt điều hòa cho phòng bao nhiêu m2",
+        "chọn quạt hơi nước"
+      ],
+      "tags": [
+        "Kinh nghiệm hay"
+      ],
+      "intent": "Mua/triển khai — Chọn thiết bị phù hợp không gian và ngân sách",
+      "giai_doan_khach": "Mua/so sánh",
+      "uu_tien": "P2",
+      "cta_chinh": "Gửi diện tích + nhu cầu sử dụng để được tư vấn lựa chọn và vị trí đặt.",
+      "funnel_stage": "F4",
+      "funnel_stage_day_du": "F4 — Chuyển đổi",
+      "vai_tro": "Conversion / Purchase decision",
+      "trang_thai_khach": "Mua/so sánh",
+      "trigger": "Khách đang lựa chọn thiết bị/giải pháp và cần tiêu chí phù hợp không gian, nhu cầu và ngân sách.",
+      "loi_hua": "Chọn phương án phù hợp với nhu cầu thực tế thay vì chỉ dựa vào giá hoặc công suất.",
+      "muc_dich_chuyen_tang": "Từ ý định rõ ràng → xác nhận thông tin, phạm vi và chi phí → đặt lịch/triển khai.",
+      "cta_chuyen_tang": "Gửi không gian + nhu cầu sử dụng + ngân sách dự kiến để được tư vấn lựa chọn và phương án lắp đặt.",
+      "diem_chuyen_doi": "Dịch vụ Thiết bị khác",
+      "uu_tien_trien_khai": "P2",
+      "internal_links": [
+        "TK-17",
+        "TK-09"
+      ],
+      "bai_tiep_theo": "TK-07",
+      "trang_dich_vu": ""
+    }
+  ]
+}

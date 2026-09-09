@@ -32,9 +32,14 @@ def da_lam() -> set:
 def ghi(run_id: str, topic: dict, article: dict, qa: dict, wp: dict) -> Path:
     THU_MUC.mkdir(parents=True, exist_ok=True)
     duong = THU_MUC / f'{run_id}.json'
+    # ⚠️ PHIÊN BẢN BẢN ĐỒ phải nằm cạnh mã bài. `ML-01` của hạt giống cũ là "máy
+    # lạnh chảy nước", của bản đồ funnel v2 là "máy lạnh không lạnh". Sổ chỉ ghi
+    # mã bài thì bài chưa viết bị bỏ qua, còn bài đã đăng bị viết lại.
+    from pipeline.topic_selector import TopicSelector
     duong.write_text(json.dumps({
         'run_id': run_id,
         'topic_id': topic['id'], 'topic': topic['title'], 'category': topic['category'],
+        'phien_ban_ban_do': TopicSelector().phien_ban_ban_do,
         'slug': article['slug'], 'wp_slug': wp.get('slug'),
         'wp_post_id': wp.get('post_id'), 'wp_status': wp.get('status'), 'wp_link': wp.get('link'),
         'qa': qa, 'media_ids': [m['media_id'] for m in wp.get('media', [])],

@@ -30,7 +30,10 @@ def chon_tiep_theo(gsc_rows=None):
     return con_lai[0], xep_hang
 
 
-def chon_lo(so_luong: int, thu_tu: str = 'cum'):
+THU_TU_HOP_LE = ('uu-tien', 'cum', 'luan-phien')
+
+
+def chon_lo(so_luong: int, thu_tu: str = 'uu-tien'):
     """Chọn N chủ đề CHƯA LÀM, theo thứ tự cố định — không dùng tín hiệu GSC.
 
     Vì sao không dùng GSC lúc này: site đang `blog_public = 0`, chưa từng được
@@ -39,16 +42,22 @@ def chon_lo(so_luong: int, thu_tu: str = 'cum'):
     chọn theo thứ tự công khai.
 
     thu_tu:
-      cum         — đúng thứ tự hạt giống: ML-01..ML-18, rồi MG-01.. (mặc định).
+      uu-tien     — P1 trước, rồi P2 (MẶC ĐỊNH). Đây là nguyên tắc số 1 trong
+                    sheet "Cách triển khai" của khách: "Không publish theo thứ
+                    tự STT — Ưu tiên P1 trước". 79 bài P1, 29 bài P2.
+      cum         — đúng thứ tự STT của khách: ML-01..ML-18, rồi MG-01..
                     Một lô 10 bài nằm trong cùng một dòng thiết bị, gom cụm chủ
-                    đề mạnh hơn cho SEO.
+                    đề mạnh hơn cho SEO — nhưng đi ngược nguyên tắc 1.
       luan-phien  — vòng qua 6 dòng thiết bị: ML-01, MG-01, TL-01, TD-01, MN-01,
                     TK-01, ML-02... Phủ rộng sớm, mỗi dịch vụ có bài ngay từ lô đầu.
     """
     if so_luong < 1:
         raise ValueError('so_luong phai >= 1')
+    if thu_tu not in THU_TU_HOP_LE:
+        raise ValueError('thu_tu phai la mot trong %s' % (THU_TU_HOP_LE,))
 
-    chu_de = TopicSelector().all()
+    # 'cum' va 'luan-phien' dua tren thu tu STT cua khach; 'uu-tien' xep lai.
+    chu_de = TopicSelector(thu_tu='uu-tien' if thu_tu == 'uu-tien' else 'stt').all()
     da_co = manifest.da_lam()
     con = [t for t in chu_de if t['id'] not in da_co and t['title'] not in da_co]
 
@@ -61,8 +70,6 @@ def chon_lo(so_luong: int, thu_tu: str = 'cum'):
             for k in list(theo_nhom):
                 if theo_nhom[k]:
                     con.append(theo_nhom[k].pop(0))
-    elif thu_tu != 'cum':
-        raise ValueError('thu_tu phai la cum hoac luan-phien')
 
     if not con:
         raise HetChuDe('Ca %d chu de deu da co ban nhap.' % len(chu_de))

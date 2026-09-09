@@ -23,8 +23,21 @@ def so_sach(monkeypatch, tmp_path):
 
 
 # ── chọn lô ─────────────────────────────────────────────────────────────────
-def test_thu_tu_cum_di_het_mot_dong_thiet_bi_truoc():
+def test_mac_dinh_la_P1_truoc_theo_nguyen_tac_1_cua_khach():
+    """Sheet "Cách triển khai", nguyên tắc 1: "Không publish theo thứ tự STT —
+    Ưu tiên P1 trước". Mặc định cũ ('cum') đi thẳng ngược điều đó."""
     lo, con = chon_lo(10)
+    assert all(t['priority'] == 'P1' for t in lo), [t['id'] for t in lo]
+    assert con == 108
+
+    # KHONG chi la thu tu STT doi ten: ML-07 va ML-08 la P2 nen phai bi day lui.
+    ids = [t['id'] for t in lo]
+    assert 'ML-07' not in ids and 'ML-08' not in ids
+    assert 'ML-09' in ids
+
+
+def test_thu_tu_cum_di_het_mot_dong_thiet_bi_truoc():
+    lo, con = chon_lo(10, 'cum')
     assert [t['id'] for t in lo] == ['ML-%02d' % i for i in range(1, 11)]
     assert con == 108
 
@@ -39,7 +52,7 @@ def test_bo_qua_chu_de_da_lam(so_sach):
     for tid in ('ML-01', 'ML-02', 'ML-03'):
         (so_sach / (tid + '.json')).write_text(
             json.dumps({'run_id': tid, 'topic_id': tid}), encoding='utf-8')
-    lo, con = chon_lo(3)
+    lo, con = chon_lo(3, 'cum')
     assert [t['id'] for t in lo] == ['ML-04', 'ML-05', 'ML-06']
     assert con == 105
 

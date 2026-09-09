@@ -202,7 +202,13 @@ class ImagePipeline:
         self.provider = provider or GeminiImageProvider()
 
     def plan(self, topic):
-        chu_de = _gon(topic['title'])
+        # Chủ đề của ẢNH lấy từ TỪ KHOÁ CHÍNH, không phải tiêu đề bài.
+        # 80/108 tiêu đề trong bản đồ funnel có dấu hai chấm ("Máy giặt bị rò
+        # nước: Những vị trí cần kiểm tra"). Nhét cả tiêu đề vào alt cho ra
+        # "Tổng quan: máy giặt bị rò nước: Những vị trí..." — hai dấu hai chấm
+        # trong một câu, và một alt dài gấp đôi mức cần. Từ khoá chính của khách
+        # dài 4–9 từ và không tệp nào chứa dấu hai chấm.
+        chu_de = _gon(topic.get('primary_keyword') or topic['title'])
         ra = []
         for v in VAI_TRO:
             alt = v['mau_alt'].format(chu_de=chu_de[0].lower() + chu_de[1:] if chu_de else '',
