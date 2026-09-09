@@ -324,9 +324,14 @@ def cmd_dong_phuc(args):
     for t in ten:
         for g in goc:
             prompt = ' '.join([
-                'Ảnh mẫu đồng phục, phong cách character sheet: một kỹ thuật viên',
+                # KHONG dung cum 'character sheet': no moi goi model ve mot BANG MAU
+                # co nhan, va lan sinh truoc no da tu them dong chu
+                # "CHI SO DONG PHUC KY THUAT VIEN FICOOL (BAN CHUAN)" duoi day khung.
+                'Ảnh chụp studio toàn thân một kỹ thuật viên,',
                 g['canh'].strip() + ',',
                 'trên nền xám trơn, không cầm thiết bị, không đạo cụ, ánh sáng studio đều.',
+                'KHUNG HÌNH SẠCH: không có dòng chú thích, nhãn, tiêu đề hay thanh chữ ở'
+                ' bất kỳ mép nào của khung; không watermark; không khung viền.',
                 NHAN_VAT,
                 mo_ta_dong_phuc(t),
                 mo_ta_logo(g['logo']),

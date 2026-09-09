@@ -121,6 +121,8 @@ def mo_ta_logo(vi_tri: str = 'nguc') -> str:
     lg = cau_hinh_dong_phuc()['logo']
     goc = next(g for g in cau_hinh_dong_phuc()['goc_chup'] if g['logo'] == vi_tri)
     phan = ['LOGO: %s' % lg['cau_truc'].strip()]
+    if lg.get('ban_mau', {}).get(vi_tri):
+        phan.append('MÀU LOGO: %s' % lg['ban_mau'][vi_tri].strip())
     if vi_tri == 'lung':
         phan.append('Dòng tagline ghi đúng: "%s".' % lg['tagline'])
     else:

@@ -98,11 +98,23 @@ chu_nguc:
 # Chỉ ĐỔI MÀU cho hợp nền áo; cấu trúc và kiểu chữ giữ nguyên.
 logo:
   cau_truc: >-
-    Gồm ba phần xếp ngang: (1) huy hiệu hình vuông bo góc tròn lớn, nền TRẮNG,
-    bên trong là hai chữ "Fi" kiểu chữ có chân (serif) màu xanh đậm, dấu chấm
-    của chữ "i" được thay bằng một BÔNG TUYẾT sáu cánh nhỏ; (2) bên phải huy
-    hiệu là chữ "FICOOL" viết HOA toàn bộ, kiểu chữ có chân, giãn cách chữ rộng,
-    màu trắng; (3) ngay dưới chữ FICOOL là dòng tagline nhỏ hơn.
+    Gồm ba phần xếp ngang: (1) huy hiệu hình vuông bo góc tròn lớn, bên trong là
+    hai chữ "Fi" kiểu chữ có chân (serif), dấu chấm của chữ "i" được thay bằng
+    một BÔNG TUYẾT sáu cánh; (2) bên phải huy hiệu là chữ "FICOOL" viết HOA toàn
+    bộ, kiểu chữ có chân, giãn cách chữ rộng; (3) với bản in lưng, ngay dưới chữ
+    FICOOL là dòng tagline nhỏ hơn.
+
+  # Hai bản màu KHÁC NHAU, lấy từ hai tệp SVG khác nhau trên web:
+  #   nguc: ficool-logo-mark.svg        — huy hiệu NỀN XANH, chữ "Fi" TRẮNG
+  #   lung: ficool-logo-light-solid.svg — huy hiệu NỀN TRẮNG, chữ "Fi" xanh
+  # Bản ngực nổi hơn trên áo tối vì huy hiệu xanh sáng tương phản với thân áo.
+  ban_mau:
+    nguc: >-
+      Huy hiệu nền XANH SÁNG #0077cc, hai chữ "Fi" và bông tuyết màu TRẮNG bên
+      trong. Chữ "FICOOL" bên phải màu TRẮNG. KHÔNG có tagline.
+    lung: >-
+      Huy hiệu nền TRẮNG, hai chữ "Fi" và bông tuyết màu xanh đậm cùng tông áo.
+      Chữ "FICOOL" và dòng tagline bên phải màu TRẮNG.
   tagline: 'Sửa nhanh – Lạnh ngay'
   # ⚠️ aria-label trong SVG ghi "Sửa nhanh, lạnh ngay" nhưng bản VẼ RA là
   # "Sửa nhanh – Lạnh ngay" (gạch ngang, chữ L hoa). Bản vẽ ra mới là bản đúng.
@@ -123,7 +135,7 @@ logo:
     "i" phải thấy rõ SÁU CÁNH toả đều từ tâm, không phải một chấm tròn hay khối
     mờ. Tiếng Việt phải đúng dấu tuyệt đối.
   anh_tham_chieu:
-    nguc: knowledge/brand/logo/logo-nguc.png            # huy hiệu + FICOOL, không tagline
+    nguc: knowledge/brand/logo/logo-nguc-badge-xanh.png  # huy hiệu NỀN XANH + FICOOL trắng
     lung: knowledge/brand/logo/logo-lung-tagline.png    # đầy đủ, có tagline
 
 # ── GÓC CHỤP khi sinh ảnh mẫu đồng phục ─────────────────────────────────────
