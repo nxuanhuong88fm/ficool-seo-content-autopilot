@@ -113,14 +113,18 @@ def cmd_demo(args):
     from pipeline.bai_mau import bai_mau
     than = bai_mau(tu_khoa)
 
+    # Dùng CHUNG bảng vai trò của production (ImagePipeline.plan) thay vì tự
+    # dựng danh sách riêng. Bản cũ thiếu khoá `type` nên không ảnh nào là
+    # `featured`, và demo không hề đo được hành vi eager/lazy cho LCP.
+    from pipeline.images import ImagePipeline
     provider, images = MockImageProvider(), []
-    for i, muc_dich in enumerate(['bối cảnh chủ đề', 'nguyên nhân thường gặp',
-                                  'cách kiểm tra an toàn', 'khi nào cần kỹ thuật viên'], 1):
-        a = provider.generate(f'{tu_khoa}; {muc_dich}', out / 'images' / f'img-{i:03d}')
-        images.append({'id': f'IMG-{i:03d}', 'width': a.width, 'height': a.height,
-                       'filename': a.path.name, 'local_path': str(a.path),
-                       'alt': f'{tu_khoa} — {muc_dich}', 'title': muc_dich,
-                       'caption': f'Hình minh họa: {muc_dich}.'})
+    ke = ImagePipeline(provider=provider).plan(
+        {'title': tu_khoa, 'primary_keyword': tu_khoa, 'secondary_keywords': [tu_khoa]})
+    for i, vt in enumerate(ke, 1):
+        a = provider.generate('%s; %s' % (tu_khoa, vt['canh']),
+                              out / 'images' / ('img-%03d' % i))
+        images.append({**vt, 'width': a.width, 'height': a.height,
+                       'filename': a.path.name, 'local_path': str(a.path)})
 
     article = {'body': than, 'slug': slug,
                'seo': {'title': f'{tu_khoa.capitalize()}: cách xử lý',
@@ -277,6 +281,65 @@ def cmd_yeu_cau(args):
     return 0
 
 
+
+def cmd_dong_phuc(args):
+    """Sinh các phương án đồng phục để khách chọn.
+
+    Chạy MỘT LẦN. Ảnh khách chọn chép vào knowledge/brand/nhan-vat/ và từ đó
+    làm ảnh tham chiếu nhân vật cho mọi lượt sinh sau.
+    """
+    from datetime import datetime
+
+    from pipeline.images import (CAM_NHAN_HIEU, CHU_DUOC_PHEP, NHAN_VAT,
+                                 cau_hinh_dong_phuc, mo_ta_dong_phuc)
+
+    c = cau_hinh_dong_phuc()
+    ten = list(c['phuong_an'])[:args.so_luong]
+    out = ROOT / 'output/dong-phuc' / datetime.now().strftime('%Y%m%d-%H%M')
+
+    _in('Sinh %d phuong an dong phuc -> %s' % (len(ten), out.relative_to(ROOT)))
+    for t in ten:
+        _in('  %-24s %s' % (t, c['phuong_an'][t]['ten']))
+    if args.xem_truoc:
+        _in('')
+        _in('(--xem-truoc: chi liet ke, chua goi API)')
+        return 0
+
+    from connectors.image_provider import GeminiImageProvider
+    provider = GeminiImageProvider()
+    out.mkdir(parents=True, exist_ok=True)
+    xong = []
+    for t in ten:
+        prompt = (
+            'Ảnh mẫu đồng phục, phong cách character sheet: một kỹ thuật viên đứng '
+            'chính diện trên nền xám trơn, toàn thân, không cầm thiết bị, không đạo cụ. '
+            + NHAN_VAT + ' ' + mo_ta_dong_phuc(t) + ' ' + CHU_DUOC_PHEP + ' ' + CAM_NHAN_HIEU
+        )
+        try:
+            a = provider.generate(prompt=prompt, output_path=out / t, width=1024, height=1024)
+            xong.append((t, a.path))
+            _in('  OK  %s -> %s' % (t, a.path.name))
+        except Exception as e:                      # noqa: BLE001
+            _in('  HONG %s: %s: %s' % (t, type(e).__name__, e))
+
+    doc = [
+        '# Phuong an dong phuc Ficool',
+        '',
+        'Xem tung anh, chon MOT phuong an, roi chep tep do vao:',
+        '',
+        '    knowledge/brand/nhan-vat/',
+        '',
+        'Va doi `dang_dung:` trong config/dong-phuc.yaml sang ten phuong an tuong ung.',
+        'Tu do no thanh anh tham chieu nhan vat cho MOI luot sinh sau.',
+        '',
+    ] + ['- `%s` — %s' % (t, c['phuong_an'][t]['ten']) for t in ten]
+    (out / 'DOC.md').write_text(chr(10).join(doc), encoding='utf-8')
+
+    _in('')
+    _in('Xong %d/%d. Xem anh roi chon mot, chep vao knowledge/brand/nhan-vat/' % (len(xong), len(ten)))
+    return 0 if len(xong) == len(ten) else 1
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(prog='ficool')
     sub = p.add_subparsers(dest='command', required=True)
@@ -336,6 +399,11 @@ def main(argv=None):
                    help='toi (mac dinh): mau co ca phan bai viet')
     s.add_argument('--thu-muc-dau-vao', dest='thu_muc_dau_vao', default=None)
     s.set_defaults(fn=cmd_yeu_cau)
+
+    s = sub.add_parser('dong-phuc', help='sinh cac phuong an dong phuc de khach chon')
+    s.add_argument('--so-luong', dest='so_luong', type=int, default=4)
+    s.add_argument('--xem-truoc', dest='xem_truoc', action='store_true')
+    s.set_defaults(fn=cmd_dong_phuc)
 
     s = sub.add_parser('cho-dang', help='goi da dung nhung chua len WordPress')
     s.set_defaults(fn=cmd_cho_dang)

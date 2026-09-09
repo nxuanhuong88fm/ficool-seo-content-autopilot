@@ -41,6 +41,9 @@ from .verify import verify_post
 
 KHOA_WP = ('WP_URL', 'WP_USERNAME', 'WP_APPLICATION_PASSWORD')
 MOC_ANH = '@@ANH:{id}@@'
+# Mốc thứ hai, cho id attachment. Cùng khuôn với MOC_ANH để tác nhân thay cả
+# hai trong một lượt, và để assembly chỉ có MỘT đường mã cho cả ba đường công bố.
+MOC_MEDIA_ID = '@@MEDIA_ID:{id}@@'
 
 
 class CongBo(Protocol):
@@ -163,7 +166,9 @@ class CongBoHoSo:
 
     def tai_anh(self, images):
         # Chưa lên WordPress nên URL còn là mốc; tác nhân thay sau khi tải ảnh.
-        return [{**i, 'media_id': None, 'source_url': MOC_ANH.format(id=i['id'])} for i in images]
+        return [{**i, 'media_id': None,
+                 'source_url': MOC_ANH.format(id=i['id']),
+                 'media_id_moc': MOC_MEDIA_ID.format(id=i['id'])} for i in images]
 
     def don_anh(self, uploaded):
         goi = self.goc / 'goi-dang'
@@ -181,6 +186,8 @@ class CongBoHoSo:
                 shutil.copy2(nguon, goi / 'images' / nguon.name)
             anh.append({'id': it['id'], 'tep': 'images/' + nguon.name,
                         'moc_thay_the': it['source_url'],
+                        'moc_media_id': it.get('media_id_moc'),
+                        'bien_the': it.get('bien_the', []),
                         'alt': it['alt'], 'title': it['title'], 'caption': it['caption'],
                         'width': it['width'], 'height': it['height']})
 
@@ -192,18 +199,26 @@ class CongBoHoSo:
             'chong_trung': 'Truoc buoc 3 phai kiem slug chua ton tai tren WordPress.',
             'buoc': [
                 {'thu_tu': 0, 'ability': '(NGUOI XEM — bat buoc)',
-                 'viec': 'MO TUNG TEP trong images/ ra NHIN. Loai bo anh co: ten hang hoac '
-                         'logo bat ky tren thiet bi/dong phuc, chu doc duoc trong khung hinh, '
-                         'thao tac khong an toan, hoac chi tiet sai voi bai. Da do tren luot '
-                         'sinh dau tien: 3/4 anh mang nhan hieu ben thu ba du prompt cam. '
-                         'Khong co cach kiem tu dong nao thay duoc buoc nay. Xem RULES A117.'},
+                 'viec': 'MO TUNG TEP trong images/ ra NHIN. Bon dieu phai xac nhan bang MAT:',
+                 'phai_xac_nhan': [
+                     'ky thuat vien la NAM',
+                     'dong phuc dung mau da chon (ao lien quan)',
+                     'chu doc duoc DUY NHAT la "Ficool" tren nguc ao, va chu do khong meo',
+                     'KHONG co ten hang hay logo ben thu ba tren thiet bi hay dong phuc',
+                 ],
+                 'vi_sao': 'Do tren luot sinh dau tien: 3/4 anh mang nhan hieu ben thu ba du '
+                           'prompt da cam. Phat hien logo, gioi tinh hay chu meo deu can THI GIAC '
+                           '— khong co phep kiem tu dong nao thay duoc buoc nay. Xem RULES A117.'},
                 {'thu_tu': 1, 'ability': 'novamira/create-upload-link + execute-php',
                  'viec': 'Tai tung tep trong images/ vao Media Library bang '
                          'wp_insert_attachment + wp_generate_attachment_metadata. '
                          'Dat alt/title/caption dung theo bang anh. Ghi lai media_id va source_url.'},
                 {'thu_tu': 2, 'ability': '(thay chuoi)',
-                 'viec': 'Trong noi-dung.html thay moi moc_thay_the bang source_url that. '
-                         'Sau buoc nay khong duoc con chuoi @@ANH: nao.'},
+                 'viec': 'Trong noi-dung.html thay CA HAI loai moc: moc_thay_the -> source_url '
+                         'that, va moc_media_id -> id attachment. Sau buoc nay khong duoc con '
+                         'chuoi @@ANH: hay @@MEDIA_ID: nao. Class wp-image-<id> la thu QUYET DINH '
+                         'WordPress co chen srcset hay khong — thieu no thi dien thoai cot 350px '
+                         'van tai nguyen file 1376px.'},
                 {'thu_tu': 3, 'ability': 'novamira/create-post',
                  'tham_so': {'post_type': 'post', 'post_status': 'draft',
                              'post_title': article['seo'].get('title') or topic['title'],
@@ -233,6 +248,10 @@ class CongBoHoSo:
                 'JSON-LD FAQPage phai con nguyen trong post_content',
                 'slug phai dung la %s' % article['slug'],
                 'featured image phai la %s' % (anh[0]['id'] if anh else '(khong co anh)'),
+                'post_content KHONG con chuoi @@MEDIA_ID:',
+                'moi <img> phai co class="wp-image-<so>" — thieu la WordPress khong chen srcset',
+                'sau apply_filters(the_content) phai THAY srcset tren ca %d anh' % len(anh),
+                'anh og (1200x630) da gan vao truong anh social cua Rank Math',
             ],
         }
         (goi / 'ke-hoach.json').write_text(

@@ -7,7 +7,7 @@ name = "ficool-seo-content-autopilot"
 version = "1.2.0"
 description = "Production draft-first SEO content automation for Ficool"
 requires-python = ">=3.10"
-dependencies = ["PyYAML>=6.0", "requests>=2.31", "google-auth>=2.30", "google-genai>=1.0", "Markdown>=3.5", "python-dotenv>=1.0"]
+dependencies = ["PyYAML>=6.0", "requests>=2.31", "google-auth>=2.30", "google-genai>=1.0", "Markdown>=3.5", "python-dotenv>=1.0", "Pillow>=10.0"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]

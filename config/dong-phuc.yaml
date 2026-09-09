@@ -1,0 +1,70 @@
+# Đồng phục kỹ thuật viên Ficool — mẫu chuẩn cho MỌI ảnh sinh ra.
+#
+# ⚠️ MÃ MÀU CHỈ ĐƯỢC LẤY TỪ TOKEN ĐÃ DUYỆT của dự án site
+# (backups/step4/ficool-tokens.json, dải accent). Quy tắc dự án cấm đẻ giá trị
+# thiết kế mới, và đồng phục là một quyết định thiết kế. `tests/test_dong_phuc.py`
+# kiểm mọi mã hex trong tệp này có nằm trong tập token hay không.
+#
+# Vì sao để trong YAML chứ không hardcode trong .py: khách còn phải xem vài
+# phương án rồi mới chốt. Đổi phương án là đổi một tệp cấu hình, không phải sửa mã.
+
+token_duoc_phep:
+  accent-100: '#e8f4fc'
+  accent-200: '#c6e4f7'
+  accent-300: '#93cbee'
+  accent-400: '#3a8fc9'
+  accent-500: '#0077cc'
+  accent-600: '#0062a8'
+  accent-700: '#0b5188'
+  accent-800: '#073d68'
+  accent-900: '#0c314b'
+  text-on-accent: '#ffffff'
+
+# Mẫu đang dùng. Đổi `dang_dung` để chuyển sang phương án khác sau khi khách chọn.
+dang_dung: navy-nep-xanh
+
+phuong_an:
+  navy-nep-xanh:
+    ten: 'Navy, nẹp vai xanh thương hiệu'
+    than_ao: accent-900          # #0c314b
+    nep_vai: accent-500          # #0077cc
+    chu: text-on-accent          # #ffffff
+    mo_ta: >-
+      Áo liền quần (coverall) tay dài màu xanh navy đậm, hai nẹp mảnh màu xanh
+      thương hiệu chạy dọc vai, cổ bẻ, khoá kéo giữa trước, hai túi ngực có nắp.
+
+  navy-nep-nhat:
+    ten: 'Navy, nẹp xanh nhạt'
+    than_ao: accent-900
+    nep_vai: accent-300          # #93cbee
+    chu: text-on-accent
+    mo_ta: >-
+      Như trên nhưng nẹp vai dùng xanh nhạt, tương phản dịu hơn, hợp ảnh chụp
+      trong nhà thiếu sáng.
+
+  xanh-dam-tron:
+    ten: 'Xanh đậm trơn, không nẹp'
+    than_ao: accent-700          # #0b5188
+    nep_vai: null
+    chu: text-on-accent
+    mo_ta: >-
+      Áo liền quần màu xanh đậm trơn, không nẹp trang trí. Ít chi tiết nhất nên
+      model ít vẽ sai nhất; đổi lại kém nhận diện hơn.
+
+  xanh-vai-tuong-phan:
+    ten: 'Xanh trung, vai tương phản'
+    than_ao: accent-600          # #0062a8
+    nep_vai: accent-900
+    chu: text-on-accent
+    mo_ta: >-
+      Thân áo xanh trung, khối vai và tay trên màu navy đậm. Nhìn giống đồng phục
+      công nghiệp hơn, nổi rõ trong ảnh nền sáng.
+
+# Chữ trên ngực áo. Khách đã chốt CÓ chữ, chấp nhận rủi ro model vẽ méo.
+chu_nguc:
+  noi_dung: Ficool
+  vi_tri: 'ngực trái'
+  # ⚠️ Model sinh ảnh viết chữ rất tệ — lượt sinh ML-01 đầu tiên nó thêu ra chữ
+  # vô nghĩa trên áo. Không có phép kiểm tự động nào bắt được chữ méo, nên bước 0
+  # "người xem từng ảnh" trong ke-hoach.json phải kiểm mục này bằng mắt.
+  rui_ro: 'chu co the bi meo hoac sai chinh ta — PHAI kiem bang mat'

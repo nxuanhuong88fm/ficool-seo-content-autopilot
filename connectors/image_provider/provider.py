@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Protocol
 
 from connectors.gemini import model_anh, tao_client
+from pipeline import anh_xu_ly
 
 # Gemini nhận TỈ LỆ, không nhận số pixel. Danh sách đối chiếu tài liệu
 # ai.google.dev ngày 09/09/2026.
@@ -52,6 +53,15 @@ def kich_thuoc_that(du_lieu: bytes, mime: str):
         if dang == b'VP8 ':
             return (struct.unpack('<H', du_lieu[26:28])[0] & 0x3FFF,
                     struct.unpack('<H', du_lieu[28:30])[0] & 0x3FFF)
+        if dang == b'VP8L':
+            # WebP lossless: sau signature 0x2F la 14 bit rong roi 14 bit cao,
+            # ca hai deu tru 1. Ta ghi lossy nen duong chinh khong cham nhanh
+            # nay, nhung WebP gio la dinh dang chinh cua ca pipeline — bo doc
+            # khong duoc vo khi gap mot tep lossless.
+            if du_lieu[20] != 0x2F:
+                raise RuntimeError('VP8L thieu byte signature 0x2F')
+            n = int.from_bytes(du_lieu[21:25], 'little')
+            return ((n & 0x3FFF) + 1, ((n >> 14) & 0x3FFF) + 1)
 
     raise RuntimeError(
         f'khong doc duoc kich thuoc anh (mime={mime}, {len(du_lieu)} B). '
@@ -65,10 +75,15 @@ class GeneratedImage:
     height: int
     mime_type: str
     provider: str
+    # Byte da chuyen doi, giu lai de dan xuat ban og ma khong phai doc lai dia.
+    du_lieu: bytes = b''
+    mime_tho: str = ''      # dinh dang Gemini tra ve, de doi chieu khi go loi
+    byte_tho: int = 0       # co goc, de do duoc muc giam
 
 
 class ImageProvider(Protocol):
-    def generate(self, prompt: str, output_path: Path, width: int = 1536, height: int = 1024) -> GeneratedImage: ...
+    def generate(self, prompt: str, output_path: Path, width: int = 1536,
+                 height: int = 1024, anh_tham_chieu=()) -> GeneratedImage: ...
 
 
 class GeminiImageProvider:
@@ -87,12 +102,24 @@ class GeminiImageProvider:
         if self.kho not in KHO_HOP_LE:
             raise RuntimeError(f'GEMINI_IMAGE_SIZE={self.kho} khong hop le, chon {KHO_HOP_LE}')
 
-    def generate(self, prompt, output_path, width=1536, height=1024) -> GeneratedImage:
+    def generate(self, prompt, output_path, width=1536, height=1024,
+                 anh_tham_chieu=()) -> GeneratedImage:
+        """`anh_tham_chieu`: đường dẫn tới ảnh mẫu nhân vật, tối đa 4 tệp.
+
+        Đây là cơ chế ép nhất quán mạnh hơn hẳn mô tả bằng chữ —
+        `gemini-3.1-flash-image` nhận tới 4 ảnh tham chiếu nhân vật.
+        """
         from google.genai import types
+
+        noi_dung = [prompt]
+        for duong in anh_tham_chieu:
+            d = Path(duong).read_bytes()
+            noi_dung.append(types.Part.from_bytes(
+                data=d, mime_type=mimetypes.guess_type(str(duong))[0] or 'image/webp'))
 
         r = self.client.models.generate_content(
             model=self.model,
-            contents=prompt,
+            contents=noi_dung,
             config=types.GenerateContentConfig(
                 response_modalities=['IMAGE'],
                 image_config=types.ImageConfig(
@@ -108,19 +135,28 @@ class GeminiImageProvider:
             # thay vì để nổ IndexError ở chỗ khác.
             raise RuntimeError(f'Gemini khong tra ve anh nao. Phan hoi chu: {(getattr(r, "text", "") or "")[:300]}')
 
-        du_lieu = phan.inline_data.data
-        mime = phan.inline_data.mime_type or 'image/png'
-        duoi = mimetypes.guess_extension(mime) or '.png'
-        output_path = Path(output_path).with_suffix('.jpg' if duoi == '.jpe' else duoi)
+        tho = phan.inline_data.data
+        mime_tho = phan.inline_data.mime_type or 'image/png'
+
+        # Gemini luon tra JPEG, va tra JPEG nen rat nhe (~800 KB cho 1376x768).
+        # API KHONG cho xin dinh dang khac: `output_mime_type` va
+        # `output_compression_quality` cua types.ImageConfig deu ghi ro
+        # "not supported in Gemini API" — chung chi chay tren Vertex AI.
+        # Nen doi sang WebP ngay tai day, truoc khi cham dia.
+        du_lieu = anh_xu_ly.sang_webp(tho)
+        mime = 'image/webp'
+        output_path = Path(output_path).with_suffix('.webp')
         output_path.parent.mkdir(parents=True, exist_ok=True)
         output_path.write_bytes(du_lieu)
 
         rong, cao = kich_thuoc_that(du_lieu, mime)
-        return GeneratedImage(output_path, rong, cao, mime, 'gemini')
+        return GeneratedImage(output_path, rong, cao, mime, 'gemini',
+                              du_lieu=du_lieu, mime_tho=mime_tho, byte_tho=len(tho))
 
 
 class MockImageProvider:
-    def generate(self, prompt, output_path, width=1600, height=900) -> GeneratedImage:
+    def generate(self, prompt, output_path, width=1600, height=900,
+                 anh_tham_chieu=()) -> GeneratedImage:
         output_path = Path(output_path).with_suffix('.svg')
         output_path.parent.mkdir(parents=True, exist_ok=True)
         text = prompt.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')[:180]

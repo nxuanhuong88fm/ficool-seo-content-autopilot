@@ -187,6 +187,63 @@ Một hành vi cho cả ba đường, hoặc không gì cả. JSON-LD vẫn chè
 `post_content`. Riêng `rank-math-edit-post-seo` thì dùng, vì chỗ đó không trùng:
 REST lõi phải **đoán** tên trường qua `WP_META_TITLE_FIELD`.
 
+## Ảnh
+
+Sinh một lần ở khổ `1K`, rồi **dẫn xuất tại máy** — không gọi API lần hai.
+
+| bản | kích thước | dùng ở đâu |
+|---|---|---|
+| trong bài | 1376×768 WebP q=85 | thẻ `<img>` trong `post_content` |
+| đại diện | 1200×630 WebP q=85 (cắt giữa) | `featured_media` → `og:image` |
+
+**Vì sao phải chuyển WebP tại máy:** Gemini API không cho xin định dạng đầu ra.
+`output_mime_type` và `output_compression_quality` của `types.ImageConfig` đều
+ghi rõ *"not supported in Gemini API"* — chỉ chạy trên Vertex AI. Nó luôn trả
+JPEG nén rất nhẹ (~800 KB cho 1376×768).
+
+Đo trên 4 ảnh thật: **2.856 KB → 463 KB, giảm 84%.** q=85 cho PSNR 38,9–41,3 dB
+(từ 40 dB là ngưỡng mắt thường không phân biệt được). Đổi bằng `FICOOL_WEBP_QUALITY`.
+
+### `class="wp-image-{ID}"` — thứ quyết định `srcset`
+
+`wp_filter_content_tags()` chỉ chèn `srcset` khi thẻ `<img>` có class đó. Thiếu
+nó thì **điện thoại có cột 350px vẫn tải nguyên file 1376px**. Đã kiểm chứng
+bằng đối chứng trên post 383.
+
+Ở đường `ho-so` chưa biết id nên thẻ mang mốc `@@MEDIA_ID:IMG-001@@`, tác nhân
+thay cùng lúc với `@@ANH:`. Cả ba đường công bố dùng chung một đường mã.
+
+Thẻ cũng tự khai `sizes="(max-width: 767px) 100vw, 720px"` — khung nội dung
+thật là đúng 720 CSS px, mặc định `100vw` của WordPress sẽ chọn bản to hơn cần.
+Ảnh đầu nằm ngay sau H1 nên nó là LCP: `eager` + `fetchpriority="high"`, ba ảnh
+còn lại `lazy`.
+
+## Đồng phục kỹ thuật viên
+
+```bash
+python scripts/ficool.py dong-phuc --xem-truoc    # liệt kê phương án
+python scripts/ficool.py dong-phuc                # sinh ảnh mẫu để chọn
+```
+
+Chọn xong thì chép ảnh vào `knowledge/brand/nhan-vat/` (tối đa 4 tệp) và đổi
+`dang_dung:` trong `config/dong-phuc.yaml`. Từ đó nó thành **ảnh tham chiếu nhân
+vật** cho mọi lượt sinh sau — `gemini-3.1-flash-image` nhận tới 4 ảnh loại này,
+và đó là cơ chế ép nhất quán mạnh hơn hẳn mô tả bằng chữ.
+
+Mã màu **chỉ lấy từ token đã duyệt**; có test chặn mọi hex lạ.
+
+Chỉ vai trò **có người** mới nhận ràng buộc đồng phục và ảnh tham chiếu. Gắn cho
+ảnh cận cảnh thiết bị là mời model nhét thêm một người vào cảnh không cần.
+
+### ⚠️ Đồng phục và giới tính KHÔNG có cổng máy
+
+Không có phép kiểm tự động nào rẻ để biết ảnh có logo Panasonic, kỹ thuật viên
+là nữ, hay chữ "Ficool" bị vẽ méo — phát hiện những thứ đó cần thị giác.
+
+Phép đo chuỗi trong `tests/test_dong_phuc.py` chứng minh prompt **có nói**,
+không chứng minh model **có nghe**. Bảo đảm duy nhất là **bước 0 trong
+`ke-hoach.json`: người xem từng ảnh**, với 4 điều phải xác nhận bằng mắt.
+
 ## Cổng QA
 
 14 phép, **tất cả đều chặn**. Luật cấm khẳng định nằm ở **một nguồn duy nhất**:

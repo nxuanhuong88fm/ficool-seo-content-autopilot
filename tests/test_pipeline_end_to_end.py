@@ -68,11 +68,31 @@ def dich_vu_gia(monkeypatch, tmp_path):
     from connectors.image_provider import GeneratedImage
 
     class _AnhGia:
-        def generate(self, prompt, output_path, width=1600, height=900):
-            output_path = Path(output_path).with_suffix(".png")
+        """Trả ẢNH THẬT (WebP) chứ không phải byte giả — pipeline nay dẫn xuất
+        bản og từ chính byte đó, nên byte giả không đi qua được."""
+
+        def generate(self, prompt, output_path, width=1600, height=900,
+                     anh_tham_chieu=()):
+            self.da_nhan_tham_chieu = anh_tham_chieu
+            import io as _io
+            from PIL import Image as _Image
+            from pipeline import anh_xu_ly
+
+            im = _Image.new("RGB", (1376, 768))
+            px = im.load()
+            for y in range(768):
+                for x in range(1376):
+                    px[x, y] = (int(200 * x / 1376), int(160 * y / 768) + 40, 90)
+            b = _io.BytesIO()
+            im.save(b, "JPEG", quality=92)
+            du_lieu = anh_xu_ly.sang_webp(b.getvalue())
+
+            output_path = Path(output_path).with_suffix(".webp")
             output_path.parent.mkdir(parents=True, exist_ok=True)
-            output_path.write_bytes(b"\x89PNG\r\n\x1a\n" + b"0" * 64)
-            return GeneratedImage(output_path, 1536, 1024, "image/png", "gia")
+            output_path.write_bytes(du_lieu)
+            return GeneratedImage(output_path, 1376, 768, "image/webp", "gia",
+                                  du_lieu=du_lieu, mime_tho="image/jpeg",
+                                  byte_tho=len(b.getvalue()))
     monkeypatch.setattr(pipeline.images, "GeminiImageProvider", lambda *a, **k: _AnhGia())
 
 

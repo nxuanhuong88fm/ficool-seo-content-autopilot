@@ -12,11 +12,36 @@ MOC_ANH = re.compile(r'<!-- IMAGE:\s*(?P<id>[A-Za-z0-9_-]+)\s*-->')
 MOC_LIEN_KET = re.compile(r'<!-- INTERNAL:\s*(?P<neo>.+?)\s*\|\s*(?P<url>\S+?)\s*-->')
 
 
-def _the_figure(anh, nguon_url):
+# Khung nội dung bài viết là ĐÚNG 720 CSS px ở mọi màn hình >= 820px (trần cứng
+# `max-width:720px` Bricks đặt trên thẻ ARTICLE). Mặc định `sizes` của WordPress
+# là `100vw` — sai cho một cột 720px, trình duyệt sẽ chọn bản to hơn mức cần.
+SIZES_BAI_VIET = '(max-width: 767px) 100vw, 720px'
+
+
+def _the_figure(anh, nguon_url, ma_media=None):
+    """Dựng thẻ figure cho một ảnh trong bài.
+
+    `ma_media` là id attachment WordPress (hoặc mốc thay thế ở đường ho-so).
+    KHÔNG BỎ ĐƯỢC: `wp_filter_content_tags()` chỉ map `<img>` sang attachment
+    khi thẻ có `class="wp-image-{ID}"`. Thiếu class thì WordPress không chèn
+    `srcset`, và điện thoại có cột 350px vẫn tải nguyên file 1376px.
+    Đã kiểm chứng bằng đối chứng trên post 383.
+    """
+    lop = 'wp-image-%s' % ma_media if ma_media else ''
+
+    # Ảnh đầu nằm ngay sau H1 nên nó là LCP. Gắn `lazy` cho nó là tự trì hoãn
+    # chính phần tử quyết định điểm LCP.
+    la_lcp = anh.get('type') == 'featured'
+    tai = ('loading="eager" fetchpriority="high"' if la_lcp
+           else 'loading="lazy" fetchpriority="low"')
+
     return (
         '<figure class="ficool-article-image">'
-        f'<img src="{html.escape(nguon_url)}" alt="{html.escape(anh["alt"])}"'
-        f' width="{anh["width"]}" height="{anh["height"]}" loading="lazy">'
+        f'<img src="{html.escape(nguon_url)}"'
+        + (f' class="{lop}"' if lop else '')
+        + f' alt="{html.escape(anh["alt"])}"'
+        f' width="{anh["width"]}" height="{anh["height"]}"'
+        f' sizes="{SIZES_BAI_VIET}" {tai} decoding="async">'
         f'<figcaption>{html.escape(anh["caption"])}</figcaption>'
         '</figure>'
     )
@@ -31,7 +56,7 @@ class AssemblyPipeline:
         for iid, anh in theo_id.items():
             nguon = da_tai.get(iid, anh)
             url = nguon.get('source_url') or nguon.get('local_path', '')
-            fig = _the_figure(anh, url)
+            fig = _the_figure(anh, url, nguon.get('media_id') or nguon.get('media_id_moc'))
             moc = f'<!-- IMAGE: {iid} -->'
             if moc in body:
                 body = body.replace(moc, fig, 1)

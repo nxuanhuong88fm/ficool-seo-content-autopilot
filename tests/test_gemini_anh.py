@@ -26,6 +26,20 @@ def png_that(rong, cao):
             + chunk(b'IDAT', zlib.compress(raw)) + chunk(b'IEND', b''))
 
 
+def jpeg_that(rong, cao):
+    """JPEG THAT (Pillow doc duoc) — khac jpeg_header ben duoi von chi la header
+    de thu bo doc kich thuoc."""
+    import io as _io
+    from PIL import Image as _Image
+    im = _Image.new('RGB', (rong, cao))
+    px = im.load()
+    for y in range(cao):
+        for x in range(rong):
+            px[x, y] = (int(200 * x / rong), int(160 * y / cao) + 40, 90)
+    b = _io.BytesIO(); im.save(b, 'JPEG', quality=92)
+    return b.getvalue()
+
+
 def jpeg_header(rong, cao):
     sof = b'\xff\xc0' + struct.pack('>HBHHB', 17, 8, cao, rong, 3) + b'\x00' * 9
     return b'\xff\xd8' + b'\xff\xe0' + struct.pack('>H', 16) + b'JFIF\x00' + b'\x00' * 9 + sof
@@ -92,17 +106,38 @@ def test_ghi_dung_file_va_doc_dung_kich_thuoc(monkeypatch, tmp_path):
     a = _provider(monkeypatch, c).generate('x', tmp_path / 'anh', width=1600, height=900)
 
     assert isinstance(a, GeneratedImage)
-    assert a.path.suffix == '.png' and a.path.exists()
+    assert a.path.exists()
     assert (a.width, a.height) == (1920, 1080)      # đọc từ byte, không phải 1600x900 đã xin
     assert a.provider == 'gemini'
     assert c.goi['config'].image_config.aspect_ratio == '16:9'
     assert c.goi['config'].response_modalities == ['IMAGE']
 
 
-def test_mime_webp_thi_duoi_file_theo_mime(monkeypatch, tmp_path):
-    c = _ClientGia([_Phan(webp_vp8x(2048, 1152), 'image/webp')])
+@pytest.mark.parametrize('dung,mime', [
+    (png_that, 'image/png'),
+    (jpeg_that, 'image/jpeg'),
+])
+def test_gemini_tra_gi_cung_luu_thanh_WEBP(monkeypatch, tmp_path, dung, mime):
+    """Gemini luon tra JPEG va KHONG cho xin dinh dang khac
+    (`output_mime_type` = "not supported in Gemini API"). Nen viec doi sang
+    WebP la trach nhiem cua provider, va no phai dung cho MOI dinh dang vao."""
+    c = _ClientGia([_Phan(dung(1376, 768), mime)])
     a = _provider(monkeypatch, c).generate('x', tmp_path / 'anh')
-    assert a.path.suffix == '.webp' and (a.width, a.height) == (2048, 1152)
+
+    assert a.path.suffix == '.webp'
+    assert a.mime_type == 'image/webp'
+    assert a.mime_tho == mime                       # giu lai de doi chieu khi go loi
+    assert a.path.read_bytes()[:4] == b'RIFF'
+    assert (a.width, a.height) == (1376, 768)
+    assert a.du_lieu and len(a.du_lieu) == a.path.stat().st_size
+
+
+def test_webp_nhe_hon_han_ban_tho(monkeypatch, tmp_path):
+    """Ly do ton tai cua ca buoc doi dinh dang."""
+    c = _ClientGia([_Phan(jpeg_that(1376, 768), 'image/jpeg')])
+    a = _provider(monkeypatch, c).generate('x', tmp_path / 'anh')
+    assert a.byte_tho > 0
+    assert len(a.du_lieu) < a.byte_tho
 
 
 def test_model_tu_choi_thi_bao_ro_ly_do(monkeypatch, tmp_path):
