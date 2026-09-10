@@ -1,0 +1,158 @@
+chu_de:
+  id: TK-14
+  tieu_de: 'Tấm làm mát quạt điều hòa bị bẩn, mục: Khi nào nên thay?'
+  tu_khoa_chinh: khi nào thay tấm làm mát quạt điều hòa
+  chuyen_muc: Thiết bị khác
+  the:
+  - Bảo trì
+  - Vệ sinh
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Tấm làm mát là bộ phận quyết định hiệu quả của quạt điều hòa: không khí đi
+    qua nó, nước thấm trong nó bay hơi và lấy nhiệt từ dòng khí. Tấm thường làm
+    từ vật liệu dạng tổ ong có cấu trúc rãnh chéo để tăng diện tích tiếp xúc
+    giữa nước và khí, và chính cấu trúc đó khiến nó vừa là nơi trao đổi nhiệt
+    vừa là nơi giữ lại bụi trong không khí. Vì vậy tấm là vật tư tiêu hao chứ
+    không phải linh kiện dùng mãi. Có hai kiểu xuống cấp khác nhau và chúng cần
+    cách xử lý khác nhau. Kiểu thứ nhất là bám bẩn bề mặt: bụi và cặn khoáng
+    đóng trên mặt tấm, làm giảm khả năng thấm nước và giảm diện tích tiếp xúc;
+    trường hợp này thường làm sạch được bằng cách xả nước nhẹ nhàng theo chiều
+    rãnh, và không được chà mạnh hay dùng vòi áp lực cao vì cấu trúc tổ ong dễ
+    bẹp. Kiểu thứ hai là xuống cấp vật liệu: tấm ngậm nước lâu ngày rồi mục,
+    mềm, mất hình dạng nếp gấp, hoặc bị nấm mốc ăn sâu; lúc này diện tích tiếp
+    xúc thực tế đã giảm và nước không còn phân bố đều, nên rửa cũng không phục
+    hồi được và phương án là thay. Tuổi thọ phụ thuộc chất lượng nước, môi
+    trường bụi và số giờ chạy, nên không có mốc thời gian dùng chung; căn cứ
+    đáng tin là quan sát trạng thái tấm và so hiệu quả làm mát với chính thiết
+    bị đó trước đây. Về an toàn vệ sinh, tấm ẩm thường xuyên là nơi vi sinh vật
+    phát triển, nên tấm đã ngậm mùi cũng là lý do thay dù nhìn bề ngoài còn
+    nguyên hình.
+  nguon:
+  - url: https://www.energy.gov/energysaver/evaporative-coolers
+    title: U.S. Department of Energy — Evaporative Coolers
+  - url: https://www.epa.gov/mold/mold-course-chapter-2
+    title: US EPA — Mold Course, Chapter 2
+  serp: []
+
+bai_viet:
+  than: |
+    # Tấm làm mát quạt điều hòa bị bẩn, mục: Khi nào nên thay?
+
+    Tấm làm mát là bộ phận quyết định hiệu quả của cả thiết bị — và nó là **vật tư tiêu hao**, không phải linh kiện dùng mãi. Câu hỏi thực tế không phải "có thay được không" mà là "rửa còn cứu được không".
+
+    <!-- IMAGE: IMG-001 | Người dùng mở nắp lưng quạt điều hòa và rút tấm làm mát tổ ong ra để xem -->
+
+    ## Tấm làm việc thế nào
+
+    Không khí đi qua tấm, nước thấm trong tấm bay hơi và lấy nhiệt từ dòng khí. Tấm có cấu trúc **tổ ong với rãnh chéo** để tăng diện tích tiếp xúc giữa nước và khí.
+
+    Chính cấu trúc đó khiến nó vừa là nơi trao đổi nhiệt, vừa là nơi **giữ lại bụi** trong không khí. Nó làm bộ lọc bất đắc dĩ, và đó là lý do nó bẩn.
+
+    ## Hai kiểu xuống cấp, hai cách xử lý
+
+    | | Bám bẩn bề mặt | Xuống cấp vật liệu |
+    |---|---|---|
+    | Biểu hiện | Bụi, cặn khoáng trắng đóng trên mặt tấm | Tấm mềm, mục, mất hình nếp gấp |
+    | Hậu quả | Giảm thấm nước, giảm diện tích tiếp xúc | Diện tích thực tế đã giảm, nước phân bố không đều |
+    | Xử lý | **Rửa được** | **Phải thay** |
+
+    Phân biệt đúng ở bảng này tiết kiệm được cả tiền lẫn công: rửa một tấm đã mục là mất buổi mà không được gì, còn thay một tấm chỉ bám bụi là bỏ phí.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh hai tấm làm mát đặt cạnh nhau, một tấm còn nguyên nếp tổ ong và một tấm đã sẫm màu, mềm mục -->
+
+    ## Năm dấu hiệu nên THAY
+
+    1. **Đổi màu sẫm trên diện rộng**, không sáng lại sau khi rửa.
+    2. **Mềm, mủn**, các nếp gấp đã mất hình.
+    3. **Mùi quay lại nhanh** dù đã vệ sinh toàn bộ bình và lưới lọc.
+    4. **Nước không thấm đều** dù máng phân phối đã thông và bơm chạy tốt.
+    5. Có mảng **nấm mốc ăn sâu**, không phải chỉ bám trên bề mặt.
+
+    Dấu hiệu 3 đáng nhấn: tấm ẩm thường xuyên là nơi vi sinh vật phát triển, nên **tấm đã ngậm mùi là lý do thay** ngay cả khi nhìn bề ngoài còn nguyên hình.
+
+    ## Rửa đúng cách — và ba điều không được làm
+
+    Nếu tấm chỉ bám bẩn bề mặt:
+
+    1. **Rút phích cắm**, tháo tấm ra theo hướng dẫn của máy.
+    2. **Xả nước nhẹ nhàng theo chiều rãnh**, để nước cuốn bụi đi.
+    3. Ngâm nhẹ nếu có cặn khoáng, theo hướng dẫn của nhà sản xuất.
+    4. **Để khô hoàn toàn** rồi mới lắp lại.
+
+    Ba điều không được làm:
+
+    - **Không chà mạnh.** Cấu trúc tổ ong bẹp là hỏng vĩnh viễn.
+    - **Không dùng vòi áp lực cao.** Cùng lý do trên.
+    - **Không dùng chất tẩy mạnh.** Máy thổi khí thẳng vào chỗ bạn ngồi, nên mùi hoá chất sẽ ra phòng theo dòng khí.
+
+    ## Không có mốc thời gian dùng chung
+
+    Tuổi thọ tấm phụ thuộc ba yếu tố, và chúng khác nhau ở mỗi nhà:
+
+    - **Chất lượng nước.** Nước cứng làm cặn khoáng đóng nhanh hơn hẳn.
+    - **Môi trường bụi.** Nhà mặt đường lớn khác nhà trong hẻm.
+    - **Số giờ chạy** mỗi ngày và mỗi mùa.
+
+    Nên căn cứ đáng tin không phải cuốn lịch mà là **trạng thái tấm** cùng việc so hiệu quả làm mát với **chính thiết bị đó trước đây**, không so với máy nhà khác.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, xả nước nhẹ theo chiều rãnh để rửa tấm làm mát ngoài sân -->
+
+    ## Trước khi kết luận tấm hỏng, loại trừ hai thứ
+
+    Tấm khô hoặc chỉ ướt một phần chưa chắc là lỗi của tấm:
+
+    - **Máng phân phối bị cặn bịt** — nước không tới được vùng đó.
+    - **Bơm yếu hoặc lưới lọc họng hút tắc** — nước lên không đủ.
+
+    Cả hai cho ra đúng triệu chứng "tấm khô" mà tấm vẫn còn tốt. Kiểm hai thứ này trước khi mua tấm mới.
+
+    ## Chọn tấm thay thế
+
+    - Đúng **kích thước và độ dày** cho model đó. Tấm mỏng hơn thì diện tích tiếp xúc ít hơn.
+    - Đúng **chiều lắp**, vì rãnh chéo có hướng.
+    - Lắp lại **khít khung**, không để khe hở cho khí lách qua mà không đi xuyên tấm.
+
+    Điểm cuối hay bị bỏ qua: khí lách qua khe là khí không được làm mát, và nó làm giảm hiệu quả ngay cả với tấm mới.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh lắp tấm làm mát mới vào khung quạt điều hòa tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: tấm dùng được bao lâu rồi, tấm còn nguyên nếp hay đã mềm mục, nước có thấm đều không, và có mùi kèm theo không. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn còn rửa được hay đã tới lúc thay, và kiểm luôn bơm cùng máng phân phối để chắc rằng tấm khô không phải vì lý do khác. Ảnh chụp tấm khi tháo ra giúp phân biệt rất nhanh.
+
+    Nếu máy không còn mát, đọc <!-- INTERNAL: quạt điều hòa không mát | /quat-dieu-hoa-khong-mat/ -->. Nếu có mùi khó chịu, xem <!-- INTERNAL: quạt điều hòa có mùi hôi | /quat-dieu-hoa-co-mui-hoi/ -->. Nếu nước không lên tấm, đọc <!-- INTERNAL: quạt điều hòa không bơm nước | /quat-dieu-hoa-khong-bom-nuoc/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Khi nào cần thay tấm làm mát quạt điều hòa?
+
+    Khi tấm đổi màu sẫm trên diện rộng và không sáng lại sau khi rửa, khi sờ thấy mềm mủn và mất hình nếp gấp, khi mùi quay lại nhanh dù đã vệ sinh bình và lưới lọc, khi nước không thấm đều dù máng đã thông và bơm chạy tốt, hoặc khi có mảng nấm mốc ăn sâu.
+
+    ### Tấm làm mát bẩn có rửa được không?
+
+    Được, nếu chỉ bám bẩn bề mặt. Hãy rút phích cắm, tháo tấm ra và xả nước nhẹ nhàng theo chiều rãnh, rồi để khô hoàn toàn trước khi lắp lại. Không chà mạnh, không dùng vòi áp lực cao vì cấu trúc tổ ong bẹp là hỏng vĩnh viễn, và không dùng chất tẩy mạnh.
+
+    ### Bao lâu thì thay tấm làm mát một lần?
+
+    Không có mốc thời gian dùng chung, vì tuổi thọ phụ thuộc chất lượng nước, môi trường bụi và số giờ chạy. Căn cứ đáng tin là quan sát trạng thái tấm và so hiệu quả làm mát với chính thiết bị đó trước đây, chứ không so với máy nhà khác.
+
+    ### Tấm làm mát khô có phải do tấm hỏng không?
+
+    Chưa chắc. Hai nguyên nhân khác cho ra đúng triệu chứng đó: máng phân phối phía trên bị cặn bịt nên nước không tới được vùng đó, và bơm yếu hoặc lưới lọc ở họng hút tắc nên nước lên không đủ. Hãy loại trừ hai thứ này trước khi mua tấm mới.
+
+    ### Ficool có thay tấm làm mát quạt điều hòa tại TP.HCM không?
+
+    Có. Bạn gửi tuổi tấm, tình trạng tấm còn nguyên nếp hay đã mục, nước có thấm đều không và có mùi kèm theo không. Kỹ thuật viên Ficool sẽ xác định còn rửa được hay cần thay, kiểm luôn bơm và máng phân phối, rồi thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Khi nào nên thay tấm làm mát quạt điều hòa?
+    mo_ta: >-
+      Hai kiểu xuống cấp cần hai cách xử lý, năm dấu hiệu nên thay, và hai thứ
+      phải loại trừ trước khi kết luận tấm hỏng.
+    slug: khi-nao-thay-tam-lam-mat-quat-dieu-hoa
+    tu_khoa_phu:
+    - tấm làm mát quạt điều hòa bị mục
+    - thay tấm làm mát
+    - vệ sinh tấm làm mát

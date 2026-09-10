@@ -1,0 +1,148 @@
+chu_de:
+  id: TK-12
+  tieu_de: 'Quạt điều hòa có mùi hôi: Cách xử lý nguồn mùi trong bình và tấm làm mát'
+  tu_khoa_chinh: quạt điều hòa có mùi hôi
+  chuyen_muc: Thiết bị khác
+  the:
+  - Lỗi thường gặp
+  - Vệ sinh
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Quạt điều hòa giữ một lượng nước đọng trong bình và một tấm vật liệu luôn
+    ẩm, đặt trong dòng khí ấm — đây là tổ hợp điều kiện thuận lợi cho vi sinh
+    vật và nấm mốc phát triển, nên mùi hôi ở thiết bị này là vấn đề vệ sinh chứ
+    hiếm khi là hỏng hóc. Tài liệu về nấm mốc của EPA nêu nguyên tắc chung là
+    mốc phát triển ở nơi có ẩm đọng, và cách xử lý bền vững là loại bỏ nguồn ẩm
+    cùng vật liệu đã nhiễm, chứ không phải che mùi bằng hương liệu. Áp vào thiết
+    bị này, các nguồn mùi thường gặp gồm: nước cũ nằm lại nhiều ngày trong bình,
+    nhất là khi máy nghỉ giữa các đợt nóng; màng nhớt sinh học bám ở đáy bình,
+    thành bình và trong ống dẫn; tấm làm mát đã ngậm bụi và vi sinh vật, do bụi
+    trong không khí bị dòng khí đẩy thẳng vào một bề mặt luôn ẩm; lưới lọc bụi
+    phía sau bám bẩn rồi ẩm theo; và các khe khuất trong khoang chứa nước. Một
+    yếu tố làm mùi nặng hơn là để máy tắt với bình còn nước và tấm còn ướt trong
+    môi trường kín, vì lúc đó không còn dòng khí làm khô bề mặt. Về xử lý, thứ
+    tự có ý nghĩa: xả sạch nước, vệ sinh bình và các bề mặt tiếp xúc nước, vệ
+    sinh hoặc thay tấm làm mát nếu tấm đã ngậm mùi hoặc đã mục, rồi để mọi bộ
+    phận khô hoàn toàn trước khi lắp lại. Dùng chất tẩy mạnh không được khuyến
+    khích vì thiết bị thổi khí trực tiếp vào không gian sống, và mùi hoá chất sẽ
+    theo dòng khí đó ra phòng.
+  nguon:
+  - url: https://www.epa.gov/mold/mold-course-chapter-2
+    title: US EPA — Mold Course, Chapter 2
+  - url: https://www.energy.gov/energysaver/evaporative-coolers
+    title: U.S. Department of Energy — Evaporative Coolers
+  serp: []
+
+bai_viet:
+  than: |
+    # Quạt điều hòa có mùi hôi: Cách xử lý nguồn mùi trong bình và tấm làm mát
+
+    Thiết bị này giữ **nước đọng trong bình** và một **tấm luôn ẩm** đặt trong dòng khí ấm. Đó là tổ hợp điều kiện thuận lợi cho vi sinh vật, nên mùi hôi ở đây gần như luôn là vấn đề vệ sinh chứ không phải hỏng hóc.
+
+    Và vì máy thổi khí thẳng vào chỗ bạn ngồi, mùi không nằm yên trong máy.
+
+    <!-- IMAGE: IMG-001 | Người dùng cúi sát cửa gió của quạt điều hòa đang chạy trong phòng khách, tay khoát nhẹ luồng gió -->
+
+    ## Năm nguồn mùi thường gặp
+
+    | Nguồn | Dấu hiệu nhận ra |
+    |---|---|
+    | Nước cũ nằm lại nhiều ngày trong bình | Mùi rõ nhất ngay khi vừa bật máy sau đợt nghỉ |
+    | Màng nhớt bám đáy bình, thành bình, ống dẫn | Sờ vào thành bình thấy nhớt |
+    | Tấm làm mát đã ngậm bụi và vi sinh vật | Mùi tăng dần theo mùa dùng, tấm đổi màu |
+    | Lưới lọc bụi phía sau bám bẩn rồi ẩm | Nhìn thấy lớp bụi bết trên lưới |
+    | Khe khuất trong khoang chứa nước | Mùi còn sau khi đã rửa bình |
+
+    Dòng thứ ba là dòng khó nhất: tấm làm mát nằm đúng chỗ bụi trong không khí bị dòng khí đẩy thẳng vào một bề mặt luôn ẩm. Nó là bộ lọc bất đắc dĩ, và nó ngậm mùi.
+
+    ## Vì sao mùi nặng lên sau khi máy nghỉ
+
+    Đây là tình huống hay gặp nhất: máy nghỉ vài ngày giữa hai đợt nóng, bật lại thì mùi xộc ra.
+
+    Lý do: khi máy tắt mà **bình còn nước và tấm còn ướt**, không còn dòng khí làm khô bề mặt nữa. Nước đứng yên trong môi trường kín là điều kiện lý tưởng cho vi sinh vật.
+
+    Cách phòng đơn giản và hiệu quả nhất trong cả bài: **xả nước và để tấm khô** trước mỗi lần cất máy.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh đáy bình chứa nước của quạt điều hòa, nước đục và có màng nhớt bám quanh thành bình -->
+
+    ## Quy trình xử lý — sáu bước, đúng thứ tự
+
+    1. **Rút phích cắm.** Đây là thiết bị điện chứa nước.
+    2. **Xả sạch nước** trong bình.
+    3. **Vệ sinh bình** và mọi bề mặt tiếp xúc với nước: đáy, thành, ống dẫn, lưới lọc ở họng hút bơm.
+    4. **Tháo tấm làm mát** ra kiểm. Còn tốt thì làm sạch nhẹ nhàng theo hướng dẫn; đã mục hoặc ngậm mùi thì **thay**.
+    5. **Vệ sinh lưới lọc bụi** phía sau.
+    6. **Để mọi bộ phận khô hoàn toàn** rồi mới lắp lại.
+
+    Bước 6 quyết định mùi có quay lại hay không. Lắp lại khi còn ẩm là bắt đầu lại vòng cũ ngay hôm đó.
+
+    ## Đừng dùng chất tẩy mạnh
+
+    Thiết bị này **thổi khí trực tiếp vào không gian sống**. Mùi hoá chất bám lại sẽ theo dòng khí ra phòng, và bạn hít nó suốt buổi.
+
+    Cùng lý do đó, đừng xử lý mùi bằng cách nhỏ tinh dầu hay chất tạo hương vào bình. Nó che mùi trong vài ngày, không loại nguồn mùi, và thêm một thứ nữa vào dòng khí bạn đang thở.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, tháo tấm làm mát ra khỏi quạt điều hòa và rửa bình chứa nước -->
+
+    ## Khi nào phải thay tấm chứ không rửa
+
+    Rửa giải quyết được bụi bám bề mặt. Nó không giải quyết được tấm đã ngậm sâu:
+
+    - Tấm **đổi màu sẫm** trên diện rộng, không sáng lại sau khi rửa.
+    - Sờ thấy **mềm, mủn**, các nếp gấp đã mất hình.
+    - Mùi **quay lại nhanh** sau khi đã vệ sinh toàn bộ phần còn lại.
+    - Nước không còn thấm đều dù máng phân phối đã thông.
+
+    Tấm làm mát là vật tư tiêu hao, không phải linh kiện dùng mãi.
+
+    ## Bốn thói quen giữ máy không hôi
+
+    - **Thay nước** thay vì để nước cũ nằm lại nhiều ngày.
+    - Khi ngừng dùng, **xả nước và chạy quạt không bơm** một lúc cho tấm khô.
+    - **Vệ sinh lưới lọc bụi** đều đặn.
+    - **Xả và lau khô bình** trước khi cất máy hết mùa.
+
+    Thói quen thứ hai là thứ tốn ít công nhất và có tác dụng rõ nhất.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh vệ sinh khoang chứa nước và lắp tấm làm mát mới cho quạt điều hòa tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: mùi xuất hiện từ bao giờ, mùi rõ nhất lúc mới bật hay suốt buổi, tấm làm mát dùng được bao lâu rồi, và lần vệ sinh bình gần nhất. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn cần vệ sinh toàn bộ, hay đã tới lúc thay tấm làm mát. Ảnh chụp tấm và đáy bình giúp phân biệt nhanh hơn nhiều so với mô tả.
+
+    Nếu máy cũng không còn mát, đọc <!-- INTERNAL: quạt điều hòa không mát | /quat-dieu-hoa-khong-mat/ -->. Nếu đang phân vân rửa hay thay tấm, xem <!-- INTERNAL: khi nào thay tấm làm mát quạt điều hòa | /khi-nao-thay-tam-lam-mat-quat-dieu-hoa/ -->. Nếu nước không lên tấm, đọc <!-- INTERNAL: quạt điều hòa không bơm nước | /quat-dieu-hoa-khong-bom-nuoc/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Vì sao quạt điều hòa có mùi hôi?
+
+    Vì thiết bị giữ nước đọng trong bình và một tấm luôn ẩm đặt trong dòng khí ấm, là điều kiện thuận lợi cho vi sinh vật. Nguồn mùi thường gặp gồm nước cũ nằm lại nhiều ngày, màng nhớt bám đáy và thành bình, tấm làm mát đã ngậm bụi, lưới lọc bụi bám bẩn, và các khe khuất trong khoang nước.
+
+    ### Vì sao mùi nặng lên sau khi máy nghỉ vài ngày?
+
+    Vì khi máy tắt mà bình còn nước và tấm còn ướt thì không còn dòng khí làm khô bề mặt, và nước đứng yên trong môi trường kín là điều kiện lý tưởng cho vi sinh vật. Cách phòng là xả nước và để tấm khô trước mỗi lần cất máy.
+
+    ### Có nên dùng chất tẩy mạnh để khử mùi quạt điều hòa không?
+
+    Không nên. Thiết bị này thổi khí trực tiếp vào không gian sống, nên mùi hoá chất bám lại sẽ theo dòng khí ra phòng. Cùng lý do đó, đừng nhỏ tinh dầu hay chất tạo hương vào bình: nó che mùi vài ngày, không loại nguồn mùi, và thêm một thứ nữa vào dòng khí bạn đang thở.
+
+    ### Khi nào phải thay tấm làm mát thay vì rửa?
+
+    Khi tấm đổi màu sẫm trên diện rộng và không sáng lại sau khi rửa, khi sờ thấy mềm mủn và các nếp gấp đã mất hình, khi mùi quay lại nhanh dù đã vệ sinh toàn bộ phần còn lại, hoặc khi nước không còn thấm đều dù máng phân phối đã thông.
+
+    ### Ficool có vệ sinh quạt điều hòa tại TP.HCM không?
+
+    Có. Bạn gửi thời điểm mùi xuất hiện, mùi rõ nhất lúc nào, tuổi tấm làm mát và lần vệ sinh bình gần nhất. Kỹ thuật viên Ficool sẽ nêu phạm vi công việc trước, cho biết có cần thay tấm không, và thống nhất chi phí trước khi làm.
+  seo:
+    tieu_de: Quạt điều hòa có mùi hôi, xử lý tận nguồn
+    mo_ta: >-
+      Năm nguồn mùi thường gặp, quy trình sáu bước đúng thứ tự, và khi nào phải
+      thay tấm làm mát thay vì rửa.
+    slug: quat-dieu-hoa-co-mui-hoi
+    tu_khoa_phu:
+    - quạt hơi nước có mùi
+    - khử mùi quạt điều hòa
+    - máy làm mát bị hôi

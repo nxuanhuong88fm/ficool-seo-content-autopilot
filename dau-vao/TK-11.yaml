@@ -1,0 +1,158 @@
+chu_de:
+  id: TK-11
+  tieu_de: 'Quạt điều hòa không bơm nước: Phân biệt thiếu nước và lỗi bơm'
+  tu_khoa_chinh: quạt điều hòa không bơm nước
+  chuyen_muc: Thiết bị khác
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Trong quạt điều hòa, một bơm nhỏ đặt trong bình chứa đưa nước lên máng phân
+    phối phía trên tấm làm mát; nước thấm xuống theo tấm rồi chảy về bình thành
+    một vòng tuần hoàn. Khi tấm làm mát khô, cần phân biệt nhiều khả năng trước
+    khi kết luận bơm hỏng, vì phần lớn trường hợp không phải do bơm. Nhóm thứ
+    nhất là mực nước: bình cạn, hoặc mực nước thấp hơn ngưỡng hút của bơm nên
+    bơm chạy mà không hút được. Nhóm thứ hai là công tắc chức năng: nhiều model
+    tách riêng nút bật bơm với nút bật quạt, nên máy vẫn thổi gió trong khi bơm
+    chưa được bật, và một số model có hẹn giờ hoặc chế độ chỉ quạt. Nhóm thứ ba
+    là tắc nghẽn trên đường nước: lưới lọc ở họng hút của bơm bám cặn và xơ,
+    ống dẫn bị gập hoặc tuột, và các lỗ nhỏ trên máng phân phối bị cặn khoáng
+    bịt kín; trường hợp máng bị bịt một phần cho ra hiện tượng đặc trưng là tấm
+    làm mát chỉ ướt ở một vùng còn vùng khác khô. Nhóm thứ tư mới là bơm hỏng
+    thật, thường do chạy khô lâu ngày, do cặn kẹt cánh bơm, hoặc do cuộn dây
+    hỏng. Về an toàn, mọi thao tác chạm vào phần nước bên trong phải thực hiện
+    sau khi rút phích cắm, vì đây là thiết bị điện chứa nước; và cặn khoáng tích
+    tụ nhanh hơn ở khu vực dùng nước cứng, nên chu kỳ vệ sinh bình và lưới lọc
+    của bơm ảnh hưởng trực tiếp tới tuổi thọ bơm.
+  nguon:
+  - url: https://www.energy.gov/energysaver/evaporative-coolers
+    title: U.S. Department of Energy — Evaporative Coolers
+  - url: https://www.epa.gov/mold/mold-course-chapter-2
+    title: US EPA — Mold Course, Chapter 2
+  serp: []
+
+bai_viet:
+  than: |
+    # Quạt điều hòa không bơm nước: Phân biệt thiếu nước và lỗi bơm
+
+    Tấm làm mát khô nghĩa là nước không lên tới nó. Nhưng "bơm hỏng" là kết luận **cuối cùng** trong danh sách, không phải đầu tiên — và bốn nhóm nguyên nhân dưới đây xếp theo đúng thứ tự nên kiểm.
+
+    <!-- IMAGE: IMG-001 | Người dùng mở nắp bình chứa nước của quạt điều hòa và nhìn vào mực nước bên trong -->
+
+    ## Nước đi đường nào
+
+    Một bơm nhỏ nằm trong bình chứa đưa nước **lên máng phân phối** phía trên tấm làm mát. Nước thấm xuống theo tấm rồi chảy về bình. Một vòng tuần hoàn khép kín.
+
+    Nghĩa là nước có thể tắc ở bất kỳ điểm nào trên vòng đó, và chỉ một trong số các điểm ấy là bản thân cái bơm.
+
+    ## Nhóm 1: mực nước
+
+    - **Bình cạn.** Kiểm đầu tiên, mất mười giây.
+    - **Mực nước thấp hơn ngưỡng hút.** Bơm chạy nhưng không hút được — nghe có tiếng bơm mà nước không lên. Đổ thêm nước tới vạch quy định rồi thử lại.
+
+    Trường hợp thứ hai hay bị nhầm là bơm hỏng, vì bơm **có** chạy.
+
+    ## Nhóm 2: công tắc chức năng
+
+    Đây là nhóm không hỏng gì cả, và nó giải thích không ít số ca:
+
+    - Nhiều model **tách riêng** nút bật bơm với nút bật quạt. Máy vẫn thổi gió trong khi bơm chưa được bật.
+    - Một số model có **chế độ chỉ quạt**, không dùng nước.
+    - Hẹn giờ hoặc chế độ tự động có thể đang tắt bơm.
+
+    Kiểm remote và bảng điều khiển trước khi mở máy.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh máng phân phối nước phía trên tấm làm mát, các lỗ nhỏ bị cặn khoáng trắng bịt kín một đoạn -->
+
+    ## Nhóm 3: tắc trên đường nước
+
+    | Điểm tắc | Dấu hiệu |
+    |---|---|
+    | Lưới lọc ở họng hút của bơm | Bơm chạy, nước lên rất yếu hoặc không lên |
+    | Ống dẫn gập hoặc tuột | Nước không lên, hoặc chảy ngược vào bình |
+    | Lỗ trên máng phân phối bị cặn bịt | **Tấm chỉ ướt một vùng, vùng khác khô** |
+
+    Dòng cuối có dấu hiệu nhìn thấy được rõ nhất, và nó cũng là dấu hiệu hay bị hiểu nhầm thành "tấm hỏng". Tấm không hỏng — nước chỉ không tới được phần đó.
+
+    ## Nhóm 4: bơm hỏng thật
+
+    Xét sau cùng, và thường do một trong ba lý do:
+
+    - **Chạy khô lâu ngày.** Bật máy khi bình cạn nhiều lần.
+    - **Cặn kẹt cánh bơm.**
+    - **Cuộn dây hỏng** — bơm không chạy, không có tiếng gì.
+
+    Lý do đầu đáng nhớ vì nó phòng được: đừng bật chức năng bơm khi bình chưa có nước.
+
+    ## Thứ tự kiểm tra
+
+    1. **Rút phích cắm** trước khi chạm vào bất kỳ phần nước nào bên trong.
+    2. Kiểm **mực nước**, đổ tới vạch quy định.
+    3. Cắm lại, kiểm **nút bật bơm** trên máy và trên remote.
+    4. Nghe xem **bơm có tiếng chạy** không.
+    5. Rút điện, mở nắp sau, xem **tấm ướt đều hay chỉ một vùng**.
+    6. Vệ sinh **lưới lọc ở họng hút bơm** và **các lỗ trên máng phân phối**.
+
+    Bước 4 chia đôi bài toán: có tiếng bơm nghĩa là bơm còn sống và vấn đề nằm ở nước hoặc ở đường dẫn.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, nhấc bơm nước nhỏ ra khỏi bình chứa và vệ sinh lưới lọc ở họng hút -->
+
+    ## Cặn khoáng là kẻ thù chính
+
+    Ở khu vực dùng nước cứng, cặn tích tụ nhanh trong bình, trên lưới lọc bơm và trong các lỗ nhỏ của máng phân phối.
+
+    Nghĩa là chu kỳ vệ sinh bình và lưới lọc **ảnh hưởng trực tiếp tới tuổi thọ bơm**, không chỉ tới hiệu quả làm mát. Ba việc nên làm đều đặn:
+
+    - Thay nước trong bình thay vì để nước cũ nằm lại nhiều ngày.
+    - Vệ sinh lưới lọc ở họng hút bơm.
+    - Xả và lau bình khi không dùng máy trong thời gian dài.
+
+    ## Khi nào cần kỹ thuật viên
+
+    - Bơm **không có tiếng chạy** dù đã kiểm nguồn và công tắc.
+    - Đã vệ sinh lưới lọc và máng mà nước vẫn không lên.
+    - Có **rò nước** ra sàn.
+    - **Thiết bị chống rò điện ngắt** khi cắm máy — rút điện trước, rồi mới gọi.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh thay bơm nước cho quạt điều hòa tại nhà khách, các chi tiết xếp trên khăn -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: bơm có tiếng chạy không, tấm làm mát ướt đều hay chỉ một vùng, mực nước trong bình, và lần vệ sinh bình gần nhất. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn là chuyện mực nước, chuyện công tắc, chuyện cặn tắc, hay là bơm cần thay. Ảnh chụp tấm làm mát khi mở nắp sau giúp phân biệt rất nhanh.
+
+    Nếu máy vẫn thổi gió nhưng không mát, đọc <!-- INTERNAL: quạt điều hòa không mát | /quat-dieu-hoa-khong-mat/ -->. Nếu tấm đã bám cặn hoặc mục, xem <!-- INTERNAL: khi nào thay tấm làm mát quạt điều hòa | /khi-nao-thay-tam-lam-mat-quat-dieu-hoa/ -->. Nếu nước trong bình có mùi, đọc <!-- INTERNAL: quạt điều hòa có mùi hôi | /quat-dieu-hoa-co-mui-hoi/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Quạt điều hòa không lên nước là do đâu?
+
+    Bốn nhóm, xếp theo thứ tự nên kiểm: mực nước trong bình quá thấp so với ngưỡng hút; nút bật bơm chưa được bật vì nhiều model tách riêng bơm với quạt; tắc trên đường nước ở lưới lọc họng hút, ống dẫn hoặc các lỗ máng phân phối; và cuối cùng mới là bơm hỏng.
+
+    ### Bơm có tiếng chạy mà nước không lên thì sao?
+
+    Có tiếng nghĩa là bơm còn sống, nên vấn đề nằm ở nước hoặc ở đường dẫn. Hãy kiểm mực nước có thấp hơn ngưỡng hút không, rồi rút điện và vệ sinh lưới lọc ở họng hút bơm cùng các lỗ trên máng phân phối.
+
+    ### Vì sao tấm làm mát chỉ ướt một nửa?
+
+    Dấu hiệu này thường do các lỗ nhỏ trên máng phân phối phía trên tấm bị cặn khoáng bịt một phần, nên nước chỉ chảy xuống được một vùng. Tấm không hỏng — nước chỉ không tới được phần còn lại. Vệ sinh máng thường giải quyết được.
+
+    ### Làm sao để bơm quạt điều hòa bền hơn?
+
+    Đừng bật chức năng bơm khi bình chưa có nước, vì chạy khô lâu ngày là nguyên nhân hỏng bơm thường gặp. Ngoài ra hãy thay nước thay vì để nước cũ nằm lại nhiều ngày, vệ sinh lưới lọc ở họng hút, và xả sạch bình khi không dùng máy trong thời gian dài.
+
+    ### Ficool có thay bơm quạt điều hòa tại TP.HCM không?
+
+    Có. Bạn gửi thông tin bơm có tiếng chạy không, tấm ướt đều hay một vùng, mực nước và lần vệ sinh bình gần nhất. Kỹ thuật viên Ficool sẽ xác định nguyên nhân trước, nêu hạng mục cần làm và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Quạt điều hòa không bơm nước, do đâu?
+    mo_ta: >-
+      Bốn nhóm nguyên nhân xếp theo thứ tự nên kiểm, và vì sao bơm hỏng là kết
+      luận cuối cùng chứ không phải đầu tiên.
+    slug: quat-dieu-hoa-khong-bom-nuoc
+    tu_khoa_phu:
+    - quạt hơi nước không bơm nước
+    - máy làm mát không lên nước
+    - tấm làm mát bị khô
