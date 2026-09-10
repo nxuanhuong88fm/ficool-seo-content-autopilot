@@ -21,7 +21,10 @@ token_duoc_phep:
   text-on-accent: '#ffffff'
 
 # Mẫu đang dùng. Đổi `dang_dung` để chuyển sang phương án khác sau khi khách chọn.
-dang_dung: navy-nep-xanh
+# Khách đã chốt mẫu này sau 4 lượt xem: sơ mi lao động TAY DÀI + quần rời
+# cùng tông, nhãn ngực nền trắng. Ba phương án liền quần bên dưới giữ lại làm
+# lịch sử, KHÔNG dùng nữa.
+dang_dung: ao-quan-roi-xanh-dam
 
 phuong_an:
   navy-nep-xanh:

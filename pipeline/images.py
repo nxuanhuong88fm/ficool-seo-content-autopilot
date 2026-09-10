@@ -139,8 +139,15 @@ def anh_logo(vi_tri: str = 'nguc'):
     return (duong,) if duong.exists() else ()
 
 
-def mo_ta_dong_phuc(ten_phuong_an: str | None = None) -> str:
-    """Dựng câu mô tả đồng phục từ cấu hình, không hardcode màu trong mã."""
+def mo_ta_dong_phuc(ten_phuong_an: str | None = None, kem_chu_nguc: bool = True) -> str:
+    """Dựng câu mô tả đồng phục từ cấu hình, không hardcode màu trong mã.
+
+    `kem_chu_nguc=False` bỏ câu "trên ngực trái thêu chữ Ficool màu trắng".
+    Dùng khi nơi gọi TỰ tả phần ngực áo theo cách khác — mẫu đã chốt mang một
+    MIẾNG NHÃN NỀN TRẮNG chữ xanh, không phải chữ trắng thêu thẳng lên áo. Để cả
+    hai câu trong một prompt là đưa cho model hai chỉ dẫn đá nhau, và đó đúng là
+    chỗ nó trượt (RULES A118/A119).
+    """
     c = cau_hinh_dong_phuc()
     pa = c['phuong_an'][ten_phuong_an or c['dang_dung']]
     tok = c['token_duoc_phep']
@@ -150,8 +157,10 @@ def mo_ta_dong_phuc(ten_phuong_an: str | None = None) -> str:
     phan.append('Màu thân áo %s.' % tok[pa['than_ao']])
     if pa.get('nep_vai'):
         phan.append('Nẹp vai màu %s.' % tok[pa['nep_vai']])
-    ch = c['chu_nguc']
-    phan.append('Trên %s thêu chữ "%s" màu %s.' % (ch['vi_tri'], ch['noi_dung'], tok[pa['chu']]))
+    if kem_chu_nguc:
+        ch = c['chu_nguc']
+        phan.append('Trên %s thêu chữ "%s" màu %s.'
+                    % (ch['vi_tri'], ch['noi_dung'], tok[pa['chu']]))
     return ' '.join(phan)
 
 

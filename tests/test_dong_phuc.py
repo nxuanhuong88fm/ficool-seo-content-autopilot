@@ -59,7 +59,12 @@ def test_moi_vai_tro_co_nguoi_deu_mang_mo_ta_dong_phuc(ma):
     áo khác nhau — việc ③ hỏng ngay trong cùng một bài."""
     p = dung_prompt(_theo_id(ma))
     assert 'ĐỒNG PHỤC:' in p
-    assert 'liền quần' in p            # khach chot kieu ao lien quan
+    # Doc KIEU dang dung tu cau hinh, KHONG khoa cung 'lien quan': khach da doi
+    # tu ao lien quan sang ao-quan roi (09/09). Mot phep do khoa cung lua chon
+    # cu se do khi khach doi y, va no do vi LY DO SAI — ma van chay dung.
+    c = cau_hinh_dong_phuc()
+    kieu = c['kieu_trang_phuc'][c['phuong_an'][c['dang_dung']]['kieu']]
+    assert kieu.split('(')[0].strip().casefold()[:12] in p.casefold(), kieu
     assert 'Ficool' in p               # khach chot CO chu tren ao
 
 

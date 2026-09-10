@@ -282,6 +282,78 @@ def cmd_yeu_cau(args):
 
 
 
+def cmd_anh_trang(args):
+    """Sinh ảnh cho trang chủ và 15 trang dịch vụ (1 ảnh/trang).
+
+    Khác lệnh `dong-phuc` ở chỗ: đây là ảnh ĐI THẲNG LÊN SITE, không phải mẫu để
+    chọn. Mỗi ảnh kèm luôn bản og 1200×630 cắt ra từ chính nó — không tốn thêm
+    lượt sinh nào.
+    """
+    import json
+    from datetime import datetime
+
+    from pipeline.anh_trang import DichSai, danh_sach, dung_prompt, sinh
+
+    try:
+        dich = danh_sach(args.ma or ())
+    except DichSai as e:
+        _in(str(e))
+        return 2
+
+    out = ROOT / 'output/anh-trang' / datetime.now().strftime('%Y%m%d-%H%M')
+    _in('Sinh %d anh trang -> %s' % (len(dich), out.relative_to(ROOT)))
+    for d in dich:
+        _in('  %-26s %-8s %s' % (d['ma'], d['ti_le'], d['url']))
+    _in('')
+    _in('Uoc luong: %d luot sinh anh (~$%.2f o kho 1K), ban og cat lai tai may.'
+        % (len(dich), 0.067 * len(dich)))
+    if args.xem_truoc:
+        _in('')
+        _in('(--xem-truoc: chi liet ke, chua goi API)')
+        if args.in_prompt:
+            _in('')
+            _in(dung_prompt(dich[0]))
+        return 0
+
+    from connectors.image_provider import GeminiImageProvider
+    provider = GeminiImageProvider()
+    out.mkdir(parents=True, exist_ok=True)
+    xong, hong = [], []
+    for d in dich:
+        try:
+            r = sinh(provider, d, out)
+            xong.append(r)
+            _in('  OK  %-26s %4dx%-4d %6.1f KB  og %5.1f KB'
+                % (r['ma'], r['rong'], r['cao'], r['byte'] / 1024, r['byte_og'] / 1024))
+        except Exception as e:                          # noqa: BLE001
+            hong.append(d['ma'])
+            _in('  HONG %-25s %s: %s' % (d['ma'], type(e).__name__, str(e)[:90]))
+
+    (out / 'so.json').write_text(
+        json.dumps({'sinh_luc': datetime.now().isoformat(timespec='seconds'),
+                    'xong': xong, 'hong': hong}, ensure_ascii=False, indent=2),
+        encoding='utf-8')
+    (out / 'DOC.md').write_text(chr(10).join([
+        '# Anh trang — PHAI XEM TUNG ANH TRUOC KHI DUA LEN SITE',
+        '',
+        'Bon dieu kiem bang mat (khong co phep may nao thay duoc):',
+        '',
+        '1. Ky thuat vien la NAM.',
+        '2. Dong phuc dung mau da chot (so mi tay dai + quan roi, xanh dam).',
+        '3. Chi co chu "Ficool" tren nguc ao, khong meo, khong thua dau cau.',
+        '4. KHONG co nhan hieu ben thu ba nao tren thiet bi hay vat dung.',
+        '',
+        'Them mot dieu rieng cho anh trang: anh se bi phu filter `.halftone`',
+        '(grayscale .35, contrast 1.15). Xem thu anh co con doc duoc khi bac mau.',
+        '',
+    ] + ['- `%s` — %s (%s)' % (r['ma'], r['ten'], r['url']) for r in xong]),
+        encoding='utf-8')
+
+    _in('')
+    _in('Xong %d/%d. So: %s' % (len(xong), len(dich), (out / 'so.json').relative_to(ROOT)))
+    return 1 if hong else 0
+
+
 def cmd_dong_phuc(args):
     """Sinh ảnh mẫu đồng phục để khách chọn.
 
@@ -433,6 +505,14 @@ def main(argv=None):
                    help='toi (mac dinh): mau co ca phan bai viet')
     s.add_argument('--thu-muc-dau-vao', dest='thu_muc_dau_vao', default=None)
     s.set_defaults(fn=cmd_yeu_cau)
+
+    s = sub.add_parser('anh-trang', help='sinh anh cho trang chu + 15 trang dich vu')
+    s.add_argument('--ma', nargs='*', default=None,
+                   help='chi sinh cac dich nay; bo trong thi sinh het 16')
+    s.add_argument('--xem-truoc', dest='xem_truoc', action='store_true')
+    s.add_argument('--in-prompt', dest='in_prompt', action='store_true',
+                   help='in prompt cua dich dau tien (dung voi --xem-truoc)')
+    s.set_defaults(fn=cmd_anh_trang)
 
     s = sub.add_parser('dong-phuc', help='sinh cac phuong an dong phuc de khach chon')
     s.add_argument('--so-luong', dest='so_luong', type=int, default=4)

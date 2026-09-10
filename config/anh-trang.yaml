@@ -1,0 +1,158 @@
+# Ảnh cho TRANG (trang chủ + 15 trang dịch vụ) — khác với ảnh bài blog.
+#
+# Vì sao tách khỏi `pipeline/images.py`: ảnh bài blog có 4 vai trò cố định sinh
+# theo chủ đề, còn ảnh trang là MỘT ảnh cho MỘT đích cụ thể, cảnh do người viết,
+# và nó nằm trong bản vẽ chứ không suy ra từ tiêu đề.
+#
+# Nguồn tỉ lệ và gợi ý cảnh: design_handoff_ficool_website/pages/*.dc.html
+#   Trang chủ      <figure class="halftone" style="aspect-ratio:4/5">  #ficool-hero
+#   Chi tiết DV    <figure class="halftone" style="aspect-ratio:4/3">  #{{ svc.slot }}
+#
+# ⚠️ MỌI ảnh trên site đều đi qua filter `.halftone` = grayscale(.35)
+# contrast(1.15) (design/guidelines/brand-imagery.html). Nên cảnh phải đọc được
+# khi đã BẠC MÀU: dựa vào bố cục và tương phản sáng-tối, đừng dựa vào màu.
+#
+# ⚠️ Gemini KHÔNG có tỉ lệ 4:5. Hero sinh ở 3:4 (0,75) rồi CSS `object-fit:
+# cover` cắt về 4/5 (0,8) — cắt một dải mỏng chiều cao, an toàn. Đừng sinh 1:1
+# rồi cắt: mất 25% chiều ngang, người trong ảnh bị xén tay.
+
+ti_le:
+  hero: '3:4'      # -> khung 4/5 cua ban ve
+  dich_vu: '4:3'   # dung bang khung cua ban ve
+
+# Bản og 1200x630 cắt ra từ chính ảnh đã sinh — KHÔNG sinh thêm lượt nào.
+og:
+  rong: 1200
+  cao: 630
+
+dich:
+  - ma: trang-chu-hero
+    loai: hero
+    ten: 'Trang chủ — hero'
+    url: /
+    # Nguyên văn placeholder trong bản vẽ, không diễn giải lại.
+    canh: >-
+      kỹ thuật viên đang vệ sinh dàn lạnh treo tường tại phòng khách một căn nhà
+      Việt Nam, tay cầm vòi xịt áp lực thấp, túi hứng nước hứng dưới dàn lạnh,
+      ánh sáng ban ngày từ cửa sổ
+    alt: 'Kỹ thuật viên Ficool vệ sinh dàn lạnh tại nhà khách ở TP.HCM'
+
+  - ma: sua-chua-may-lanh
+    ten: 'Sửa chữa máy lạnh'
+    url: /dich-vu/sua-chua-may-lanh/
+    canh: >-
+      kỹ thuật viên mở mặt nạ dàn lạnh treo tường, một tay giữ nắp, tay kia cầm
+      đồng hồ đo gas nối vào cụm van dàn nóng
+    alt: 'Kỹ thuật viên Ficool kiểm tra dàn lạnh khi sửa chữa máy lạnh'
+
+  - ma: ve-sinh-may-lanh
+    ten: 'Vệ sinh máy lạnh'
+    url: /dich-vu/ve-sinh-may-lanh/
+    canh: >-
+      kỹ thuật viên xịt rửa dàn lạnh bằng máy bơm áp lực, túi hứng nước trùm kín
+      dưới dàn, nước bẩn chảy xuống xô
+    alt: 'Kỹ thuật viên Ficool xịt rửa dàn lạnh khi vệ sinh máy lạnh'
+
+  - ma: bao-tri-may-lanh
+    ten: 'Bảo trì máy lạnh'
+    url: /dich-vu/bao-tri-may-lanh/
+    canh: >-
+      kỹ thuật viên kiểm tra dàn nóng đặt ngoài ban công, dùng tua vít siết ốc
+      mặt bên, hộp dụng cụ mở sẵn bên cạnh
+    alt: 'Kỹ thuật viên Ficool kiểm tra dàn nóng khi bảo trì máy lạnh'
+
+  - ma: lap-moi-may-lanh
+    ten: 'Lắp mới máy lạnh'
+    url: /dich-vu/lap-moi-may-lanh/
+    canh: >-
+      kỹ thuật viên bắt giá đỡ dàn lạnh lên tường bằng máy khoan, dàn lạnh mới
+      còn bọc nilon dựng cạnh chân tường
+    alt: 'Kỹ thuật viên Ficool lắp giá đỡ dàn lạnh khi lắp mới máy lạnh'
+
+  - ma: thao-do-lap-dat-may-lanh
+    ten: 'Tháo dỡ – lắp đặt máy lạnh'
+    url: /dich-vu/thao-do-lap-dat-may-lanh/
+    canh: >-
+      hai kỹ thuật viên hạ dàn lạnh khỏi giá đỡ trên tường, một người đỡ thân
+      máy, một người tháo ống đồng, thùng carton chờ sẵn dưới sàn
+    alt: 'Kỹ thuật viên Ficool tháo dàn lạnh khỏi tường để di dời'
+
+  - ma: sua-chua-may-giat
+    ten: 'Sửa chữa máy giặt'
+    url: /dich-vu/sua-chua-may-giat/
+    canh: >-
+      kỹ thuật viên quỳ trước máy giặt cửa trước đã mở nắp che bơm xả góc dưới
+      phải, tay cầm đèn pin soi vào khoang bơm
+    alt: 'Kỹ thuật viên Ficool kiểm tra bơm xả khi sửa chữa máy giặt'
+
+  - ma: ve-sinh-may-giat
+    ten: 'Vệ sinh máy giặt'
+    url: /dich-vu/ve-sinh-may-giat/
+    canh: >-
+      kỹ thuật viên tháo rời lồng giặt đặt trên tấm bạt trải sàn, đang chà rửa
+      mặt ngoài lồng, vỏ máy giặt mở nắp lưng phía sau
+    alt: 'Kỹ thuật viên Ficool tháo lồng giặt khi vệ sinh máy giặt'
+
+  - ma: bao-tri-may-giat
+    ten: 'Bảo trì máy giặt'
+    url: /dich-vu/bao-tri-may-giat/
+    canh: >-
+      kỹ thuật viên kiểm tra ống cấp nước và ống xả phía sau máy giặt, tay chỉnh
+      chân đế cân bằng, thước nivo đặt trên nắp máy
+    alt: 'Kỹ thuật viên Ficool cân chỉnh chân đế khi bảo trì máy giặt'
+
+  - ma: sua-chua-tu-lanh
+    ten: 'Sửa chữa tủ lạnh'
+    url: /dich-vu/sua-chua-tu-lanh/
+    canh: >-
+      kỹ thuật viên kéo tủ lạnh rời khỏi tường, đang kiểm tra block máy nén và
+      dàn nóng phía sau lưng tủ, đèn pin rọi vào cụm máy
+    alt: 'Kỹ thuật viên Ficool kiểm tra block máy nén khi sửa chữa tủ lạnh'
+
+  - ma: ve-sinh-tu-lanh
+    ten: 'Vệ sinh tủ lạnh'
+    url: /dich-vu/ve-sinh-tu-lanh/
+    canh: >-
+      kỹ thuật viên lau khoang tủ lạnh đã rút hết thực phẩm, các kệ kính tháo ra
+      xếp trên bàn bếp bên cạnh
+    alt: 'Kỹ thuật viên Ficool lau khoang tủ khi vệ sinh tủ lạnh'
+
+  - ma: bao-tri-tu-lanh
+    ten: 'Bảo trì tủ lạnh'
+    url: /dich-vu/bao-tri-tu-lanh/
+    canh: >-
+      kỹ thuật viên kiểm tra gioăng cao su viền cửa tủ lạnh bằng tay, nhiệt kế
+      điện tử cầm tay đặt trong ngăn mát đang hiển thị số
+    alt: 'Kỹ thuật viên Ficool kiểm tra gioăng cửa khi bảo trì tủ lạnh'
+
+  - ma: sua-chua-tu-mat
+    ten: 'Sửa chữa tủ mát'
+    url: /dich-vu/sua-chua-tu-mat/
+    canh: >-
+      kỹ thuật viên mở nắp khoang máy dưới đáy một tủ mát cửa kính đứng trong
+      cửa hàng tạp hoá nhỏ, đang kiểm tra quạt dàn ngưng
+    alt: 'Kỹ thuật viên Ficool kiểm tra khoang máy khi sửa chữa tủ mát'
+
+  - ma: sua-chua-tu-dong
+    ten: 'Sửa chữa tủ đông'
+    url: /dich-vu/sua-chua-tu-dong/
+    canh: >-
+      kỹ thuật viên mở nắp trên của tủ đông nằm ngang trong kho hàng, đang cạo
+      lớp tuyết bám thành tủ, nhiệt kế cầm tay trong tay kia
+    alt: 'Kỹ thuật viên Ficool xả tuyết khi sửa chữa tủ đông'
+
+  - ma: sua-may-nong-lanh
+    ten: 'Sửa máy nóng lạnh'
+    url: /dich-vu/sua-may-nong-lanh/
+    canh: >-
+      kỹ thuật viên tháo mặt trước máy nước nóng trực tiếp gắn tường trong phòng
+      tắm, đang kiểm tra đầu nối dây điện bằng bút thử điện
+    alt: 'Kỹ thuật viên Ficool kiểm tra đấu nối khi sửa máy nóng lạnh'
+
+  - ma: sua-binh-nong-lanh
+    ten: 'Sửa bình nóng lạnh'
+    url: /dich-vu/sua-binh-nong-lanh/
+    canh: >-
+      kỹ thuật viên đứng trên thang nhỏ tháo nắp bảo dưỡng bình nóng lạnh gián
+      tiếp gắn trần phòng tắm, tay rút thanh magie đã đóng cặn ra khỏi bình
+    alt: 'Kỹ thuật viên Ficool thay thanh magie khi sửa bình nóng lạnh'
