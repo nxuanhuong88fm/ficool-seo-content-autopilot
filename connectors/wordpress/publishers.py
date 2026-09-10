@@ -336,7 +336,7 @@ class CongBoHoSo:
                 # Khong ghi thi bai roi ve duong lui, tuc cau CTA cua BAI MAU
                 # trong ban ve ("May van nhay den?") — sai voi 3 trong 4 dong
                 # thiet bi. Ba gia tri deu la chu CUA KHACH trong ban do funnel.
-                {'thu_tu': 5.5, 'ability': 'novamira/execute-php (update_post_meta)',
+                {'thu_tu': 6, 'ability': 'novamira/execute-php (update_post_meta)',
                  'viec': 'Ghi 3 khoa postmeta cho CTA cot phai. Bo qua la bai mang '
                          'CTA cua bai mau trong ban ve.',
                  'tham_so': {
@@ -344,7 +344,7 @@ class CongBoHoSo:
                      'ficool_cta_mo_ta': topic.get('cta_chinh') or '',
                      'ficool_cta_link': topic.get('trang_dich_vu') or '/lien-he/',
                  }},
-                {'thu_tu': 6, 'ability': '(kiem lai)',
+                {'thu_tu': 7, 'ability': '(kiem lai)',
                  'viec': 'Doc lai bai vua tao: post_status phai la draft, moi <img> phai tro '
                          'wp-content/uploads, khong con @@ANH:, va JSON-LD FAQPage con nguyen.'},
             ],
