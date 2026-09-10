@@ -1,0 +1,159 @@
+chu_de:
+  id: MN-05
+  tieu_de: 'ELCB máy nước nóng bị nhảy: Nguyên nhân và cách xử lý an toàn'
+  tu_khoa_chinh: ELCB máy nước nóng bị nhảy
+  chuyen_muc: Máy nước nóng
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    ELCB là thiết bị chống dòng rò lắp cho máy nước nóng, hoạt động bằng cách so
+    dòng điện đi vào với dòng điện đi ra: khi hai giá trị lệch nhau quá ngưỡng,
+    nghĩa là có một phần dòng đang đi theo đường khác, thiết bị ngắt mạch. Vì
+    vậy ELCB nhảy là dấu hiệu bảo vệ đang làm việc chứ không phải một phiền toái
+    cần loại bỏ, và việc vô hiệu hoá nó để máy chạy tiếp là gỡ đúng lớp bảo vệ
+    đang đứng giữa người dùng và dòng rò. Thời điểm nhảy mang thông tin chẩn
+    đoán: nhảy ngay khi vừa cấp điện thường trỏ về rò trong máy hoặc chạm mạch;
+    nhảy sau khi máy đun được một lúc thường trỏ về lớp cách điện của thanh đốt
+    suy giảm khi nóng lên, do vật liệu giãn nở làm vết nứt mở rộng; nhảy đúng
+    lúc mở nước nóng để dùng thì nghiêng về đường rò qua nước; nhảy vào những
+    ngày mưa ẩm nghiêng về hơi ẩm lọt vào hộp đấu điện. Một khả năng khác là
+    bản thân thiết bị đã lão hoá và ngắt sai, nhưng đây là giả thiết cần loại
+    trừ SAU CÙNG chứ không phải đầu tiên, vì kết luận nhầm theo hướng này dẫn
+    tới việc thay thiết bị bảo vệ trong khi rò thật vẫn còn nguyên. Phép thử
+    phân định đơn giản là tách phụ tải: ngắt riêng máy nước nóng rồi đóng lại
+    ELCB; nếu nó giữ được thì nguồn rò nằm ở máy, nếu vẫn nhảy thì vấn đề nằm ở
+    đường dây hoặc thiết bị khác trên cùng nhánh. Các thiết bị chống rò đều có
+    nút test dùng để kiểm tra khả năng ngắt, và nhà sản xuất khuyến cáo bấm thử
+    định kỳ.
+  nguon:
+  - url: https://www.energy.gov/energysaver/water-heating
+    title: U.S. Department of Energy — Water Heating
+  - url: https://www.energy.gov/energysaver/storage-water-heaters
+    title: U.S. Department of Energy — Storage Water Heaters
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ sản phẩm
+  serp: []
+
+bai_viet:
+  than: |
+    # ELCB máy nước nóng bị nhảy: Nguyên nhân và cách xử lý an toàn
+
+    Trước hết, một câu cần nói rõ: **ELCB nhảy là tin tốt.** Nó so dòng điện đi vào với dòng đi ra, và khi hai giá trị lệch nhau thì nghĩa là một phần dòng đang đi theo đường khác — có thể là qua nước, qua vỏ máy, hoặc qua người. Nó ngắt để chuyện đó dừng lại.
+
+    <!-- IMAGE: IMG-001 | Người dùng đứng trước bảng điện trong nhà, nhìn cần gạt ELCB của máy nước nóng đang ở vị trí đã ngắt -->
+
+    ## Thời điểm nhảy nói lên nguyên nhân
+
+    Đây là mẩu thông tin chẩn đoán quý nhất bạn có sẵn, và nó không tốn gì — chỉ cần để ý.
+
+    | ELCB nhảy khi nào | Nghiêng về |
+    |---|---|
+    | Ngay khi vừa cấp điện | Rò trong máy, hoặc chạm mạch |
+    | Sau khi máy đun được một lúc | Cách điện thanh đốt suy giảm **khi nóng** |
+    | Đúng lúc mở nước nóng để dùng | Đường rò đi qua nước |
+    | Những ngày mưa, ẩm | Hơi ẩm lọt vào hộp đấu điện |
+    | Cả khi máy nước nóng đã tắt hẳn | **Không phải máy này** — xem phần dưới |
+
+    Dòng thứ hai đáng chú ý: vật liệu giãn nở khi nóng làm vết nứt cách điện mở rộng, nên máy chạy êm lúc nguội rồi mới nhảy. Nhiều người kết luận nhầm là "ELCB tự nhiên nhảy".
+
+    ## Phép thử tách phụ tải
+
+    Để biết nguồn rò có nằm ở máy nước nóng không:
+
+    1. **Ngắt riêng máy nước nóng** — bằng aptomat của nó, hoặc rút nguồn nếu máy cắm phích.
+    2. **Đóng lại ELCB.**
+    3. Chờ và quan sát.
+
+    Kết quả:
+
+    - **ELCB giữ được** → nguồn rò nằm ở máy nước nóng.
+    - **ELCB vẫn nhảy** → vấn đề nằm ở đường dây hoặc một thiết bị khác trên cùng nhánh.
+
+    Phép thử này không đòi mở bất cứ thứ gì và cho một câu trả lời rõ ràng để nói với kỹ thuật viên.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh cụm ELCB và aptomat trên bảng điện, nhãn ghi máy nước nóng, một cần gạt đã bật xuống -->
+
+    ## Ba việc không được làm
+
+    - **Không vô hiệu hoá ELCB** để máy chạy tiếp. Đây là việc nguy hiểm nhất trong cả bài, và nó xảy ra thường xuyên vì nó khiến triệu chứng biến mất.
+    - **Không đóng lại liên tục** để "thử xem còn nhảy không". Mỗi lần đóng lại là một lần cấp điện vào một mạch đang có rò.
+    - **Không tự tháo thanh đốt hay mở hộp điện** để tìm nguyên nhân.
+
+    Nếu kèm theo cảm giác tê khi chạm vào vòi hoặc thân máy, hãy dừng hẳn và xử lý theo hướng rò điện.
+
+    ## Khi nào ELCB nhảy mà không phải lỗi máy nước nóng
+
+    - **Nhảy cả khi máy đã tắt hẳn** — phụ tải khác trên cùng nhánh.
+    - Nhảy đúng lúc bật một thiết bị khác trong nhà.
+    - Nhảy sau khi vừa có thợ làm việc trên hệ thống điện.
+
+    Trong những trường hợp này, vấn đề nằm ở nhánh điện chứ không ở máy, và người cần gọi là thợ điện.
+
+    ## Giả thiết "ELCB hỏng" phải xét sau cùng
+
+    Thiết bị chống rò cũng lão hoá và có thể ngắt sai. Nhưng đây là giả thiết cần loại trừ **cuối cùng**, không phải đầu tiên.
+
+    Lý do rất cụ thể: kết luận nhầm theo hướng này dẫn tới việc thay thiết bị bảo vệ trong khi dòng rò thật vẫn còn nguyên. Kết quả là triệu chứng biến mất và nguy hiểm ở lại.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt aptomat, đo điện trở cách điện giữa thanh đốt và vỏ bình nóng lạnh -->
+
+    ## Nút test — việc nên làm định kỳ
+
+    Mọi thiết bị chống dòng rò đều có một nút test dùng để kiểm khả năng ngắt.
+
+    - Bấm nút test: thiết bị **phải ngắt ngay**.
+    - Không ngắt nghĩa là nó không còn bảo vệ, dù nhìn bên ngoài vẫn bình thường.
+    - Đóng lại và dùng tiếp như bình thường.
+
+    Nhà sản xuất khuyến cáo bấm thử định kỳ. Đây là một trong số ít phép kiểm an toàn mà người dùng tự làm được, mất vài giây, và nó đo đúng thứ nó định đo.
+
+    ## Nghiệm thu sau khi sửa
+
+    - Yêu cầu nói rõ **nguyên nhân đã xác định**, không chỉ "đã xử lý xong".
+    - Xem **linh kiện đã thay**, nếu có.
+    - Hỏi **kết quả đo cách điện và tiếp địa** sau khi sửa.
+    - **Bấm nút test** của ELCB trước mặt bạn.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh bấm nút test của ELCB trên bảng điện cho khách hàng xem -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: ELCB nhảy vào thời điểm nào theo bảng phía trên, kết quả phép thử tách phụ tải, có kèm cảm giác tê khi chạm vào vòi không, và máy dùng được bao lâu rồi. Kỹ thuật viên Ficool tại TP.HCM sẽ khoanh vùng trước khi tới. Trong lúc chờ, hãy để ELCB ở vị trí ngắt và không dùng máy.
+
+    Nếu có cảm giác tê khi chạm, đọc ngay <!-- INTERNAL: máy nước nóng bị rò điện | /may-nuoc-nong-bi-ro-dien/ -->. Nếu có nước rò kèm theo, xem <!-- INTERNAL: máy nước nóng bị rò nước | /may-nuoc-nong-bi-ro-nuoc/ -->. Muốn biết chi phí kiểm tra gồm những phần nào, đọc <!-- INTERNAL: giá sửa máy nước nóng | /gia-sua-may-nuoc-nong/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### ELCB máy nước nóng bị nhảy là do đâu?
+
+    Thời điểm nhảy cho biết nguyên nhân. Nhảy ngay khi cấp điện thường là rò trong máy hoặc chạm mạch; nhảy sau khi đun một lúc thường là cách điện thanh đốt suy giảm khi nóng; nhảy đúng lúc mở nước nóng nghiêng về đường rò qua nước; nhảy vào ngày mưa ẩm nghiêng về hơi ẩm trong hộp đấu điện.
+
+    ### Có được đóng lại ELCB khi nó nhảy không?
+
+    Đóng lại một lần để xác nhận thì được, nhưng không đóng lại liên tục để thử xem còn nhảy không — mỗi lần đóng là một lần cấp điện vào mạch đang có rò. Và không bao giờ được vô hiệu hoá ELCB để máy chạy tiếp, vì đó là gỡ đúng lớp bảo vệ đang đứng giữa bạn và dòng rò.
+
+    ### Làm sao biết ELCB nhảy có phải do máy nước nóng không?
+
+    Dùng phép thử tách phụ tải: ngắt riêng máy nước nóng rồi đóng lại ELCB. Nếu ELCB giữ được thì nguồn rò nằm ở máy; nếu vẫn nhảy thì vấn đề nằm ở đường dây hoặc một thiết bị khác trên cùng nhánh, và người cần gọi là thợ điện.
+
+    ### ELCB có tự hỏng không?
+
+    Có, thiết bị chống rò cũng lão hoá và có thể ngắt sai. Nhưng đây là giả thiết phải loại trừ sau cùng, vì kết luận nhầm theo hướng này dẫn tới việc thay thiết bị bảo vệ trong khi dòng rò thật vẫn còn nguyên. Hãy bấm nút test định kỳ: nếu bấm mà nó không ngắt thì nó đã không còn bảo vệ.
+
+    ### Ficool có kiểm tra ELCB và máy nước nóng tại TP.HCM không?
+
+    Có. Bạn gửi thời điểm ELCB nhảy, kết quả phép thử tách phụ tải, có kèm cảm giác tê khi chạm không và tuổi máy. Kỹ thuật viên Ficool sẽ đo cách điện, kiểm tiếp địa và thử nút test, nêu rõ hạng mục cần làm rồi thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: ELCB máy nước nóng bị nhảy, xử lý thế nào?
+    mo_ta: >-
+      Thời điểm nhảy cho biết nguyên nhân, phép thử tách phụ tải, và ba việc
+      không được làm khi thiết bị chống rò ngắt.
+    slug: elcb-may-nuoc-nong-bi-nhay
+    tu_khoa_phu:
+    - bình nóng lạnh nhảy ELCB
+    - máy nước nóng tự ngắt điện
+    - aptomat chống giật hay nhảy

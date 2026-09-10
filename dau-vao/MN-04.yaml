@@ -1,0 +1,155 @@
+chu_de:
+  id: MN-04
+  tieu_de: 'Máy nước nóng bị rò điện: Dấu hiệu cần ngừng sử dụng và gọi kỹ thuật'
+  tu_khoa_chinh: máy nước nóng bị rò điện
+  chuyen_muc: Máy nước nóng
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Máy nước nóng là thiết bị đặt điện và nước cạnh nhau trong một không gian
+    ẩm, nên rò điện ở đây thuộc nhóm sự cố phải xử lý theo thứ tự an toàn trước,
+    chẩn đoán sau. Cơ chế phổ biến là lớp cách điện của thanh đốt bị suy giảm:
+    thanh đốt nhúng trực tiếp trong nước, và khi lớp cách điện nứt hoặc mòn thì
+    dòng điện có đường đi qua nước ra vỏ máy, ra đường ống kim loại và tới vòi
+    sen. Các nguyên nhân khác gồm hơi ẩm lọt vào hộp đấu điện, dây dẫn lão hoá
+    hoặc đấu nối lỏng, và ăn mòn tại các điểm tiếp xúc. Hai lớp bảo vệ tồn tại
+    song song và không thay thế cho nhau: dây tiếp địa dẫn dòng rò xuống đất để
+    dòng đó không đi qua người, còn thiết bị chống dòng rò kiểu ELCB hoặc RCD
+    thì ngắt mạch khi phát hiện chênh lệch dòng vào và dòng ra. Thiếu tiếp địa
+    thì thiết bị chống rò vẫn có thể ngắt, nhưng thời gian trước khi nó ngắt là
+    thời gian dòng điện đã có đường đi qua người dùng. Về dấu hiệu, cảm giác tê
+    khi chạm vào vòi, vòi sen hoặc thân máy là dấu hiệu cần ngừng sử dụng ngay
+    lập tức; thiết bị chống rò ngắt lặp lại sau mỗi lần bật cũng vậy. Bút thử
+    điện thông thường không phải công cụ kết luận an toàn: nó có thể sáng do
+    điện cảm ứng khi không có rò thật, và có thể không sáng trong một số cấu
+    hình dù vẫn có dòng rò. Phép đo có căn cứ là đo điện trở cách điện bằng
+    thiết bị chuyên dụng và kiểm tra tính liên tục của dây tiếp địa, đều thuộc
+    phần việc của kỹ thuật viên.
+  nguon:
+  - url: https://www.energy.gov/energysaver/water-heating
+    title: U.S. Department of Energy — Water Heating
+  - url: https://www.energy.gov/energysaver/storage-water-heaters
+    title: U.S. Department of Energy — Storage Water Heaters
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ sản phẩm
+  serp: []
+
+bai_viet:
+  than: |
+    # Máy nước nóng bị rò điện: Dấu hiệu cần ngừng sử dụng và gọi kỹ thuật
+
+    Bài này khác các bài còn lại ở một điểm: nó không hướng dẫn bạn tự kiểm tra. Với rò điện, thứ tự đúng là **an toàn trước, chẩn đoán sau** — và phần chẩn đoán không thuộc về người dùng.
+
+    <!-- IMAGE: IMG-001 | Người dùng đứng ngoài cửa phòng tắm, tay đưa lên bảng điện gạt aptomat của máy nước nóng xuống -->
+
+    ## Bốn dấu hiệu phải ngừng dùng ngay
+
+    - **Tê tay khi chạm** vào vòi, vòi sen, thân máy hoặc đường ống kim loại.
+    - **Cảm giác giật nhẹ khi đang tắm**, nhất là lúc chạm vào vòi.
+    - **Thiết bị chống rò điện ngắt lặp lại** sau mỗi lần bật.
+    - **Mùi khét**, tiếng nổ nhỏ, hoặc vết cháy xém quanh phần điện của máy.
+
+    Một dấu hiệu là đủ. Không cần chờ tới dấu hiệu thứ hai.
+
+    ## Làm gì trong năm phút đầu
+
+    1. **Không chạm vào máy, vòi hay đường ống.**
+    2. **Ngắt aptomat của máy**, đứng ở chỗ khô ráo, tay khô.
+    3. **Báo cho mọi người trong nhà**, nhất là trẻ nhỏ và người lớn tuổi.
+    4. **Không bật lại** để thử xem còn hiện tượng không.
+    5. Gọi kỹ thuật viên và **nói rõ đây là nghi rò điện**, không phải máy không nóng.
+
+    Bước 4 là bước hay bị bỏ qua nhất. Thiết bị chống rò ngắt là nó đang làm đúng việc; bật lại nhiều lần là lần lượt thử xem lần nào nó không kịp.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh hộp đấu điện của bình nóng lạnh mở ra, các đầu dây có vết ăn mòn và ngấm ẩm -->
+
+    ## Vì sao máy nước nóng rò điện
+
+    | Nguyên nhân | Cơ chế |
+    |---|---|
+    | Lớp cách điện của thanh đốt suy giảm | Thanh đốt nhúng trong nước; cách điện nứt thì dòng có đường qua nước ra vỏ |
+    | Hơi ẩm lọt vào hộp đấu điện | Phòng tắm ẩm, gioăng nắp xuống cấp |
+    | Dây dẫn lão hoá, đấu nối lỏng | Điểm tiếp xúc phát nhiệt, cách điện hỏng dần |
+    | Ăn mòn tại điểm tiếp xúc | Môi trường ẩm mặn, lâu ngày |
+
+    Dòng đầu là cơ chế phổ biến nhất, và nó giải thích vì sao dòng rò lại tới được **vòi sen**: nước dẫn điện, đường ống kim loại dẫn điện, và cả hai đều nối tới chỗ bạn đang đứng.
+
+    ## Hai lớp bảo vệ, không thay thế cho nhau
+
+    - **Dây tiếp địa** dẫn dòng rò xuống đất, để dòng đó không đi qua người.
+    - **Thiết bị chống dòng rò** (ELCB, RCD) ngắt mạch khi phát hiện chênh lệch giữa dòng vào và dòng ra.
+
+    Nhà chỉ có thiết bị chống rò mà **thiếu tiếp địa** vẫn có thể được bảo vệ, nhưng khoảng thời gian trước khi nó ngắt là khoảng thời gian dòng điện đã có đường đi qua người dùng. Đủ cả hai mới là cấu hình đúng.
+
+    Đây cũng là hạng mục nên hỏi lại khi lắp máy mới: máy đã có tiếp địa thật chưa, hay chỉ có một dây nối tới chỗ không dẫn xuống đất.
+
+    ## Ba việc không nên làm
+
+    - **Đừng kết luận bằng bút thử điện.** Nó có thể sáng do điện cảm ứng khi không có rò thật, và có thể không sáng trong một số cấu hình dù vẫn có dòng rò. Nó không phải công cụ kết luận an toàn.
+    - **Đừng vô hiệu hoá thiết bị chống rò** để máy chạy tiếp. Đó là gỡ đúng thứ đang bảo vệ bạn.
+    - **Đừng tự tháo thanh đốt hay mở hộp điện.** Cả hai đều nằm ngoài phạm vi tự làm.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt aptomat, dùng đồng hồ đo điện trở cách điện của thanh đốt bình nóng lạnh -->
+
+    ## Kỹ thuật viên sẽ đo gì
+
+    Để bạn biết một lượt kiểm tra đúng gồm những gì:
+
+    1. **Đo điện trở cách điện** giữa thanh đốt và vỏ máy bằng thiết bị chuyên dụng.
+    2. **Kiểm tính liên tục của dây tiếp địa** từ máy tới điểm tiếp đất.
+    3. Kiểm hộp đấu điện, các đầu nối và tình trạng cách điện của dây.
+    4. **Thử thiết bị chống rò** bằng nút test của chính nó.
+    5. Kiểm xem có rò nước đi kèm không, vì nước rò thường là nguyên nhân của rò điện.
+
+    Nếu kết luận là thanh đốt hỏng, hãy hỏi xem nó được thay bằng linh kiện đúng chủng loại hay loại tương đương.
+
+    ## Nghiệm thu sau khi sửa
+
+    - Xem **linh kiện đã thay**.
+    - Yêu cầu nói rõ **kết quả đo cách điện và tiếp địa** sau khi sửa, không chỉ "đã xong".
+    - Thử **nút test** của thiết bị chống rò trước mặt bạn.
+    - Phiếu ghi rõ hạng mục đã làm và điều kiện bảo hành cho phần việc đó.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh kiểm tra dây tiếp địa và thử nút test của thiết bị chống rò điện tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: dấu hiệu cụ thể là tê tay hay thiết bị chống rò ngắt, hiện tượng xuất hiện từ bao giờ, nhà đã có tiếp địa chưa, và có kèm rò nước không. Kỹ thuật viên Ficool tại TP.HCM sẽ xếp lịch theo thứ tự an toàn cho nhóm này. Trong lúc chờ, hãy giữ aptomat ở vị trí ngắt và không dùng máy — đây là việc quan trọng hơn mọi việc khác trong bài.
+
+    Nếu thiết bị chống rò cứ nhảy, đọc <!-- INTERNAL: ELCB máy nước nóng bị nhảy | /elcb-may-nuoc-nong-bi-nhay/ -->. Nếu có nước rò kèm theo, xem <!-- INTERNAL: máy nước nóng bị rò nước | /may-nuoc-nong-bi-ro-nuoc/ -->. Muốn biết chi phí kiểm tra gồm những phần nào, đọc <!-- INTERNAL: giá sửa máy nước nóng | /gia-sua-may-nuoc-nong/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy nước nóng bị rò điện có dấu hiệu gì?
+
+    Bốn dấu hiệu cần ngừng sử dụng ngay: tê tay khi chạm vào vòi, vòi sen, thân máy hoặc đường ống kim loại; cảm giác giật nhẹ khi đang tắm; thiết bị chống rò điện ngắt lặp lại sau mỗi lần bật; và mùi khét hoặc vết cháy xém quanh phần điện. Một dấu hiệu là đủ để dừng.
+
+    ### Vì sao chạm vào vòi sen lại bị tê?
+
+    Vì cơ chế rò phổ biến nhất là lớp cách điện của thanh đốt suy giảm. Thanh đốt nhúng trực tiếp trong nước, nên khi cách điện nứt thì dòng điện có đường đi qua nước ra vỏ máy, theo đường ống kim loại tới vòi sen. Nước và đường ống đều dẫn điện.
+
+    ### Dùng bút thử điện kiểm tra máy nước nóng được không?
+
+    Không nên dùng nó để kết luận. Bút thử điện có thể sáng do điện cảm ứng khi không có rò thật, và có thể không sáng trong một số cấu hình dù vẫn có dòng rò. Phép đo có căn cứ là đo điện trở cách điện bằng thiết bị chuyên dụng và kiểm tính liên tục của dây tiếp địa.
+
+    ### Có tiếp địa rồi thì cần thiết bị chống rò nữa không?
+
+    Cần cả hai, vì chúng bảo vệ theo hai cách khác nhau. Dây tiếp địa dẫn dòng rò xuống đất để dòng đó không đi qua người; thiết bị chống dòng rò ngắt mạch khi phát hiện chênh lệch giữa dòng vào và dòng ra. Thiếu tiếp địa thì khoảng thời gian trước khi thiết bị ngắt là khoảng thời gian dòng đã có đường qua người.
+
+    ### Ficool có kiểm tra rò điện máy nước nóng tại TP.HCM không?
+
+    Có. Bạn gửi dấu hiệu cụ thể, thời điểm xuất hiện, tình trạng tiếp địa và có kèm rò nước không. Kỹ thuật viên Ficool sẽ đo điện trở cách điện, kiểm tiếp địa và thử thiết bị chống rò, nêu rõ hạng mục cần làm và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Máy nước nóng rò điện, khi nào phải ngừng dùng?
+    mo_ta: >-
+      Bốn dấu hiệu phải dừng ngay, năm việc làm trong năm phút đầu, và vì sao
+      tiếp địa với thiết bị chống rò không thay nhau được.
+    slug: may-nuoc-nong-bi-ro-dien
+    tu_khoa_phu:
+    - bình nóng lạnh bị rò điện
+    - máy nước nóng tê điện
+    - chạm vòi sen bị giật
