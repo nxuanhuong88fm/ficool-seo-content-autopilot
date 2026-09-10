@@ -1,0 +1,429 @@
+[
+ {
+  "post_id": 383,
+  "ma": "ML-02",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Máy lạnh",
+  "ficool_cta_mo_ta": "Nếu vẫn chảy nước sau bước kiểm tra cơ bản, gửi tình trạng để nhận hướng xử lý hoặc đặt lịch kiểm tra.",
+  "ficool_cta_link": "/dich-vu/sua-chua-may-lanh/"
+ },
+ {
+  "post_id": 422,
+  "ma": "ML-01",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Máy lạnh",
+  "ficool_cta_mo_ta": "Gửi mô tả/ảnh tình trạng để được hướng dẫn bước kiểm tra tiếp theo.",
+  "ficool_cta_link": "/dich-vu/sua-chua-may-lanh/"
+ },
+ {
+  "post_id": 423,
+  "ma": "ML-03",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Máy lạnh",
+  "ficool_cta_mo_ta": "Thử vệ sinh phần người dùng có thể làm; nếu mùi còn, xem phạm vi vệ sinh chuyên sâu hoặc đặt lịch.",
+  "ficool_cta_link": "/dich-vu/sua-chua-may-lanh/"
+ },
+ {
+  "post_id": 424,
+  "ma": "ML-04",
+  "ficool_cta_tieu_de": "Tư vấn & lắp đặt Máy lạnh",
+  "ficool_cta_mo_ta": "Gửi video/âm thanh bất thường để được định hướng; đặt lịch nếu tiếng ồn tăng hoặc rung mạnh.",
+  "ficool_cta_link": "/dich-vu/lap-moi-may-lanh/"
+ },
+ {
+  "post_id": 425,
+  "ma": "ML-05",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Máy lạnh",
+  "ficool_cta_mo_ta": "Kiểm tra cài đặt theo hướng dẫn; nếu vẫn tự ngắt, gửi mã lỗi/tình trạng để được tư vấn kiểm tra.",
+  "ficool_cta_link": "/dich-vu/sua-chua-may-lanh/"
+ },
+ {
+  "post_id": 426,
+  "ma": "ML-06",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Máy lạnh",
+  "ficool_cta_mo_ta": "Thử các bước kiểm tra an toàn; nếu remote hoạt động nhưng máy không nhận, đặt lịch kiểm tra.",
+  "ficool_cta_link": "/dich-vu/sua-chua-may-lanh/"
+ },
+ {
+  "post_id": 427,
+  "ma": "ML-09",
+  "ficool_cta_tieu_de": "Vệ sinh Máy lạnh",
+  "ficool_cta_mo_ta": "Xem bảng giá và phạm vi từng hạng mục; gửi loại máy/số lượng để nhận báo giá phù hợp.",
+  "ficool_cta_link": "/dich-vu/ve-sinh-may-lanh/"
+ },
+ {
+  "post_id": 428,
+  "ma": "ML-13",
+  "ficool_cta_tieu_de": "Tư vấn & lắp đặt Máy lạnh",
+  "ficool_cta_mo_ta": "Gửi diện tích/phác thảo vị trí để được tư vấn; yêu cầu kiểm tra vị trí trước khi chốt lắp.",
+  "ficool_cta_link": "/dich-vu/lap-moi-may-lanh/"
+ },
+ {
+  "post_id": 429,
+  "ma": "ML-14",
+  "ficool_cta_tieu_de": "Tư vấn & lắp đặt Máy lạnh",
+  "ficool_cta_mo_ta": "Gửi model, số máy và khoảng cách di dời để nhận phạm vi công việc; đặt lịch khi đã sẵn sàng.",
+  "ficool_cta_link": "/dich-vu/lap-moi-may-lanh/"
+ },
+ {
+  "post_id": 430,
+  "ma": "ML-15",
+  "ficool_cta_tieu_de": "Dịch vụ Máy lạnh",
+  "ficool_cta_mo_ta": "Lưu checklist nghiệm thu; khi đặt lắp, yêu cầu thống nhất rõ các hạng mục bàn giao.",
+  "ficool_cta_link": "/dich-vu/sua-chua-may-lanh/"
+ },
+ {
+  "post_id": 431,
+  "ma": "ML-16",
+  "ficool_cta_tieu_de": "Vệ sinh Máy lạnh",
+  "ficool_cta_mo_ta": "Lưu checklist và đối chiếu ngay khi bàn giao; nếu có hạng mục chưa đạt, yêu cầu kỹ thuật viên xử lý trước khi kết thúc.",
+  "ficool_cta_link": "/dich-vu/ve-sinh-may-lanh/"
+ },
+ {
+  "post_id": 432,
+  "ma": "ML-17",
+  "ficool_cta_tieu_de": "Tư vấn & lắp đặt Máy lạnh",
+  "ficool_cta_mo_ta": "Gửi diện tích, hướng phòng và số người sử dụng để được tư vấn công suất.",
+  "ficool_cta_link": "/dich-vu/lap-moi-may-lanh/"
+ },
+ {
+  "post_id": 433,
+  "ma": "ML-18",
+  "ficool_cta_tieu_de": "Dịch vụ Máy lạnh",
+  "ficool_cta_mo_ta": "Gửi model, tuổi máy và lịch sử lỗi để được tư vấn sửa hay thay theo tình trạng.",
+  "ficool_cta_link": "/dich-vu/sua-chua-may-lanh/"
+ },
+ {
+  "post_id": 434,
+  "ma": "MG-01",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Máy giặt",
+  "ficool_cta_mo_ta": "Thử checklist an toàn; nếu máy vẫn không vắt, gửi model/mã lỗi để được hướng dẫn bước tiếp theo.",
+  "ficool_cta_link": "/dich-vu/sua-chua-may-giat/"
+ },
+ {
+  "post_id": 435,
+  "ma": "MG-02",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Máy giặt",
+  "ficool_cta_mo_ta": "Kiểm tra ống xả/bộ lọc theo hướng dẫn; nếu không cải thiện, đặt lịch kiểm tra.",
+  "ficool_cta_link": "/dich-vu/sua-chua-may-giat/"
+ },
+ {
+  "post_id": 436,
+  "ma": "MG-03",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Máy giặt",
+  "ficool_cta_mo_ta": "Kiểm tra nguồn nước và ống cấp; nếu vẫn lỗi, gửi model để được định hướng.",
+  "ficool_cta_link": "/dich-vu/sua-chua-may-giat/"
+ },
+ {
+  "post_id": 437,
+  "ma": "MG-04",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Máy giặt",
+  "ficool_cta_mo_ta": "Kiểm tra cân bằng và tải giặt; nếu rung bất thường vẫn còn, đặt lịch kiểm tra.",
+  "ficool_cta_link": "/dich-vu/sua-chua-may-giat/"
+ },
+ {
+  "post_id": 438,
+  "ma": "MG-05",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Máy giặt",
+  "ficool_cta_mo_ta": "Ngừng sử dụng nếu rò nghiêm trọng; gửi ảnh vị trí rò hoặc đặt lịch kiểm tra.",
+  "ficool_cta_link": "/dich-vu/sua-chua-may-giat/"
+ },
+ {
+  "post_id": 439,
+  "ma": "MG-06",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Máy giặt",
+  "ficool_cta_mo_ta": "Thực hiện các bước an toàn theo model; nếu không mở được, đặt lịch thay vì cố cạy cửa.",
+  "ficool_cta_link": "/dich-vu/sua-chua-may-giat/"
+ },
+ {
+  "post_id": 440,
+  "ma": "MG-07",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Máy giặt",
+  "ficool_cta_mo_ta": "Thử vệ sinh các điểm cơ bản; nếu mùi tái diễn, xem dịch vụ vệ sinh chuyên sâu.",
+  "ficool_cta_link": "/dich-vu/sua-chua-may-giat/"
+ },
+ {
+  "post_id": 441,
+  "ma": "MG-11",
+  "ficool_cta_tieu_de": "Vệ sinh Máy giặt",
+  "ficool_cta_mo_ta": "Xem hạng mục và bảng giá; gửi loại máy/số lượng để nhận báo giá phù hợp.",
+  "ficool_cta_link": "/dich-vu/ve-sinh-may-giat/"
+ },
+ {
+  "post_id": 462,
+  "ma": "MG-13",
+  "ficool_cta_tieu_de": "Tư vấn & lắp đặt Máy giặt",
+  "ficool_cta_mo_ta": "Gửi vị trí dự kiến để được kiểm tra điều kiện lắp; đặt lịch khi vị trí đã sẵn sàng.",
+  "ficool_cta_link": "/lien-he/"
+ },
+ {
+  "post_id": 463,
+  "ma": "MG-14",
+  "ficool_cta_tieu_de": "Tư vấn & lắp đặt Máy giặt",
+  "ficool_cta_mo_ta": "Kiểm tra model và phụ kiện vận chuyển; đặt lịch tháo/lắp nếu cần kỹ thuật viên.",
+  "ficool_cta_link": "/lien-he/"
+ },
+ {
+  "post_id": 464,
+  "ma": "MG-15",
+  "ficool_cta_tieu_de": "Vệ sinh Máy giặt",
+  "ficool_cta_mo_ta": "Lưu checklist; đối chiếu từng hạng mục khi bàn giao và phản hồi ngay nếu kết quả chưa đạt.",
+  "ficool_cta_link": "/dich-vu/ve-sinh-may-giat/"
+ },
+ {
+  "post_id": 465,
+  "ma": "MG-16",
+  "ficool_cta_tieu_de": "Sửa chữa Máy giặt",
+  "ficool_cta_mo_ta": "Xem mẫu báo giá và phạm vi sửa; gửi model + triệu chứng để nhận hướng dẫn bước tiếp theo.",
+  "ficool_cta_link": "/dich-vu/sua-chua-may-giat/"
+ },
+ {
+  "post_id": 466,
+  "ma": "MG-17",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Máy giặt",
+  "ficool_cta_mo_ta": "Gửi đúng mã lỗi + model để được định hướng; không tự thay linh kiện khi chưa xác định nguyên nhân.",
+  "ficool_cta_link": "/dich-vu/sua-chua-may-giat/"
+ },
+ {
+  "post_id": 467,
+  "ma": "MG-18",
+  "ficool_cta_tieu_de": "Sửa chữa Máy giặt",
+  "ficool_cta_mo_ta": "Gửi model, tuổi máy và lỗi đã từng sửa để được tư vấn phương án.",
+  "ficool_cta_link": "/dich-vu/sua-chua-may-giat/"
+ },
+ {
+  "post_id": 468,
+  "ma": "TL-01",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Tủ lạnh",
+  "ficool_cta_mo_ta": "Gửi model, biểu hiện và thời điểm bắt đầu để được hướng dẫn kiểm tra; đặt lịch nếu cần.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-lanh/"
+ },
+ {
+  "post_id": 469,
+  "ma": "TL-02",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Tủ lạnh",
+  "ficool_cta_mo_ta": "Kiểm tra theo checklist; nếu không cải thiện, đặt lịch kiểm tra thay vì tự tháo hệ thống.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-lanh/"
+ },
+ {
+  "post_id": 470,
+  "ma": "TL-03",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Tủ lạnh",
+  "ficool_cta_mo_ta": "Xem cách phân biệt; nếu tuyết tái diễn nhanh, gửi tình trạng để được tư vấn kiểm tra.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-lanh/"
+ },
+ {
+  "post_id": 471,
+  "ma": "TL-04",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Tủ lạnh",
+  "ficool_cta_mo_ta": "Xác định vị trí nước và kiểm tra điểm dễ tiếp cận; nếu vẫn rò, đặt lịch.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-lanh/"
+ },
+ {
+  "post_id": 472,
+  "ma": "TL-05",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Tủ lạnh",
+  "ficool_cta_mo_ta": "Ghi âm/video tiếng kêu để được định hướng; đặt lịch nếu tiếng kêu mới xuất hiện hoặc tăng dần.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-lanh/"
+ },
+ {
+  "post_id": 473,
+  "ma": "TL-06",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Tủ lạnh",
+  "ficool_cta_mo_ta": "Kiểm tra nhiệt độ và điều kiện sử dụng; nếu máy chạy liên tục kèm lạnh yếu, đặt lịch kiểm tra.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-lanh/"
+ },
+ {
+  "post_id": 474,
+  "ma": "TL-07",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Tủ lạnh",
+  "ficool_cta_mo_ta": "Kiểm tra khoảng thoáng và nhiệt độ; nếu nóng bất thường kèm lỗi làm lạnh, yêu cầu kiểm tra.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-lanh/"
+ },
+ {
+  "post_id": 475,
+  "ma": "TL-09",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Tủ lạnh",
+  "ficool_cta_mo_ta": "Thử xử lý nguồn mùi; nếu mùi còn dù đã vệ sinh, đặt lịch kiểm tra.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-lanh/"
+ },
+ {
+  "post_id": 476,
+  "ma": "TL-10",
+  "ficool_cta_tieu_de": "Vệ sinh Tủ lạnh",
+  "ficool_cta_mo_ta": "Kiểm tra gioăng và khe hở; nếu gioăng biến dạng/rách, yêu cầu kiểm tra và báo giá trước khi thay.",
+  "ficool_cta_link": "/dich-vu/ve-sinh-tu-lanh/"
+ },
+ {
+  "post_id": 477,
+  "ma": "TL-12",
+  "ficool_cta_tieu_de": "Dịch vụ Tủ lạnh",
+  "ficool_cta_mo_ta": "Đối chiếu vị trí dự kiến với checklist; nếu cần di dời, yêu cầu khảo sát vị trí.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-lanh/"
+ },
+ {
+  "post_id": 478,
+  "ma": "TL-13",
+  "ficool_cta_tieu_de": "Tư vấn & lắp đặt Tủ lạnh",
+  "ficool_cta_mo_ta": "Kiểm tra hướng dẫn theo model; nếu cần tháo/di dời, đặt lịch vận chuyển và lắp lại.",
+  "ficool_cta_link": "/lien-he/"
+ },
+ {
+  "post_id": 479,
+  "ma": "TL-14",
+  "ficool_cta_tieu_de": "Dịch vụ Tủ lạnh",
+  "ficool_cta_mo_ta": "Điều chỉnh theo hướng dẫn; nếu nhiệt độ thực tế không đạt dù cài đúng, yêu cầu kiểm tra.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-lanh/"
+ },
+ {
+  "post_id": 480,
+  "ma": "TL-15",
+  "ficool_cta_tieu_de": "Vệ sinh Tủ lạnh",
+  "ficool_cta_mo_ta": "Lưu checklist; nếu nhiệt độ/vận hành chưa đạt, yêu cầu kiểm tra lại theo hạng mục đã thực hiện.",
+  "ficool_cta_link": "/dich-vu/ve-sinh-tu-lanh/"
+ },
+ {
+  "post_id": 481,
+  "ma": "TL-16",
+  "ficool_cta_tieu_de": "Tư vấn & lắp đặt Tủ lạnh",
+  "ficool_cta_mo_ta": "Ghi số người + nhu cầu bảo quản để tự chọn; nếu cần lắp/di dời, yêu cầu tư vấn vị trí.",
+  "ficool_cta_link": "/lien-he/"
+ },
+ {
+  "post_id": 482,
+  "ma": "ML-07",
+  "ficool_cta_tieu_de": "Vệ sinh Máy lạnh",
+  "ficool_cta_mo_ta": "Lưu checklist tự vệ sinh; xem dịch vụ nếu cần vệ sinh các phần không nên tự tháo.",
+  "ficool_cta_link": "/dich-vu/ve-sinh-may-lanh/"
+ },
+ {
+  "post_id": 483,
+  "ma": "ML-08",
+  "ficool_cta_tieu_de": "Vệ sinh Máy lạnh",
+  "ficool_cta_mo_ta": "Dùng checklist dấu hiệu; nếu đã đến kỳ, xem phạm vi và lịch vệ sinh phù hợp.",
+  "ficool_cta_link": "/dich-vu/ve-sinh-may-lanh/"
+ },
+ {
+  "post_id": 484,
+  "ma": "MG-08",
+  "ficool_cta_tieu_de": "Vệ sinh Máy giặt",
+  "ficool_cta_mo_ta": "Lưu quy trình vệ sinh cơ bản; nếu cặn bẩn/mùi vẫn còn, xem phạm vi vệ sinh chuyên sâu.",
+  "ficool_cta_link": "/dich-vu/ve-sinh-may-giat/"
+ },
+ {
+  "post_id": 485,
+  "ma": "TL-08",
+  "ficool_cta_tieu_de": "Vệ sinh Tủ lạnh",
+  "ficool_cta_mo_ta": "Lưu checklist vệ sinh; nếu mùi/cặn bẩn tái diễn hoặc cần vệ sinh sâu, xem dịch vụ.",
+  "ficool_cta_link": "/dich-vu/ve-sinh-tu-lanh/"
+ },
+ {
+  "post_id": 486,
+  "ma": "TL-17",
+  "ficool_cta_tieu_de": "Sửa chữa Tủ lạnh",
+  "ficool_cta_mo_ta": "Gửi model, tuổi máy và lịch sử sửa để được tư vấn phương án trước khi quyết định.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-lanh/"
+ },
+ {
+  "post_id": 487,
+  "ma": "TL-18",
+  "ficool_cta_tieu_de": "Sửa chữa Tủ lạnh",
+  "ficool_cta_mo_ta": "Xem mẫu báo giá/quy trình; đặt kiểm tra nếu cần, với báo giá được duyệt trước khi sửa.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-lanh/"
+ },
+ {
+  "post_id": 488,
+  "ma": "TD-01",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Tủ mát, tủ đông",
+  "ficool_cta_mo_ta": "Kiểm tra nhiệt độ/thực phẩm và khoảng thoáng; nếu không cải thiện, đặt lịch kiểm tra.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-mat/"
+ },
+ {
+  "post_id": 489,
+  "ma": "TD-02",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Tủ mát, tủ đông",
+  "ficool_cta_mo_ta": "Xả tuyết theo hướng dẫn an toàn; nếu tuyết tái diễn bất thường, yêu cầu kiểm tra.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-mat/"
+ },
+ {
+  "post_id": 490,
+  "ma": "TD-03",
+  "ficool_cta_tieu_de": "Vệ sinh Tủ mát, tủ đông",
+  "ficool_cta_mo_ta": "Lưu checklist vệ sinh; nếu cần vệ sinh chuyên sâu, xem phạm vi dịch vụ.",
+  "ficool_cta_link": "/lien-he/"
+ },
+ {
+  "post_id": 491,
+  "ma": "TD-04",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Tủ mát, tủ đông",
+  "ficool_cta_mo_ta": "Vệ sinh nguồn mùi trước; nếu mùi còn, đặt lịch vệ sinh/kiểm tra.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-mat/"
+ },
+ {
+  "post_id": 492,
+  "ma": "TD-05",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Tủ mát, tủ đông",
+  "ficool_cta_mo_ta": "Kiểm tra nhiệt độ và khoảng thoáng; nếu vẫn chạy liên tục kèm lạnh yếu, yêu cầu kiểm tra.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-mat/"
+ },
+ {
+  "post_id": 493,
+  "ma": "TD-06",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Tủ mát, tủ đông",
+  "ficool_cta_mo_ta": "Kiểm tra điểm thoát nước/gioăng; nếu vẫn rò, gửi ảnh hoặc đặt lịch.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-mat/"
+ },
+ {
+  "post_id": 494,
+  "ma": "TD-07",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Tủ mát, tủ đông",
+  "ficool_cta_mo_ta": "Kiểm tra gioăng; nếu cần thay, yêu cầu báo giá theo model trước khi thực hiện.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-mat/"
+ },
+ {
+  "post_id": 495,
+  "ma": "TD-08",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Tủ mát, tủ đông",
+  "ficool_cta_mo_ta": "Kiểm tra nhiệt độ/cài đặt theo checklist; nếu hàng hóa có nguy cơ ảnh hưởng, đặt lịch ưu tiên.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-mat/"
+ },
+ {
+  "post_id": 496,
+  "ma": "TD-09",
+  "ficool_cta_tieu_de": "Kiểm tra / sửa chữa Tủ mát, tủ đông",
+  "ficool_cta_mo_ta": "Kiểm tra cài đặt; nếu tuyết tái diễn nhanh hoặc ảnh hưởng làm lạnh, yêu cầu kiểm tra.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-mat/"
+ },
+ {
+  "post_id": 497,
+  "ma": "TD-12",
+  "ficool_cta_tieu_de": "Tư vấn & lắp đặt Tủ mát, tủ đông",
+  "ficool_cta_mo_ta": "Gửi vị trí + model để được kiểm tra điều kiện; đặt lịch lắp khi đã sẵn sàng.",
+  "ficool_cta_link": "/lien-he/"
+ },
+ {
+  "post_id": 498,
+  "ma": "TD-13",
+  "ficool_cta_tieu_de": "Tư vấn & lắp đặt Tủ mát, tủ đông",
+  "ficool_cta_mo_ta": "Gửi model, kích thước và tuyến di chuyển để nhận phạm vi công việc; đặt lịch khi chốt.",
+  "ficool_cta_link": "/lien-he/"
+ },
+ {
+  "post_id": 499,
+  "ma": "TD-15",
+  "ficool_cta_tieu_de": "Dịch vụ Tủ mát, tủ đông",
+  "ficool_cta_mo_ta": "Điều chỉnh theo loại hàng; nếu nhiệt độ dao động bất thường, yêu cầu kiểm tra.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-mat/"
+ },
+ {
+  "post_id": 500,
+  "ma": "TD-17",
+  "ficool_cta_tieu_de": "Tư vấn & lắp đặt Tủ mát, tủ đông",
+  "ficool_cta_mo_ta": "So sánh nhu cầu + diện tích trước khi mua; nếu cần lắp/di dời, yêu cầu tư vấn vị trí.",
+  "ficool_cta_link": "/lien-he/"
+ },
+ {
+  "post_id": 501,
+  "ma": "TD-18",
+  "ficool_cta_tieu_de": "Sửa chữa Tủ mát, tủ đông",
+  "ficool_cta_mo_ta": "Xem mẫu báo giá; đặt kiểm tra để xác định nguyên nhân và chỉ duyệt hạng mục cần thiết.",
+  "ficool_cta_link": "/dich-vu/sua-chua-tu-mat/"
+ }
+]

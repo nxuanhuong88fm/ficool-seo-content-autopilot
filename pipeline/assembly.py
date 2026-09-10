@@ -2,6 +2,7 @@ from __future__ import annotations
 import html
 import re
 from markdown import markdown
+from pipeline.images import ap_mo_ta
 from pipeline.utils import dump_yaml
 
 # Ghép neo ảnh và neo liên kết vào bài, rồi đổi Markdown -> HTML bằng thư viện
@@ -116,10 +117,32 @@ class AssemblyPipeline:
                          for m in MOC_ANH.finditer(body)}
 
         for iid, anh in theo_id.items():
+            # ⚠️ Ảnh vai trò `featured` KHÔNG vào thân bài.
+            #
+            # Template bài viết (Bricks #268, element `ps2im`) đã render
+            # `{featured_image}` thành ảnh hero ngay dưới phần đầu bài. Đặt nó
+            # thêm một lần trong post_content là CÙNG MỘT Ô hiện hai lần.
+            #
+            # Đo được trên 61/61 bài ngày 10/09/2026:
+            #   · 60 bài giữ chỗ — hero là ảnh mượn thật, rồi ngay dưới đó là
+            #     hộp "CẦN ẢNH · IMG-001". Người đọc thấy một tấm ảnh và một ô
+            #     đòi ảnh cho cùng một vị trí.
+            #   · bài 383 (ảnh thật) — featured là `...-01-og.webp`, figure đầu
+            #     trong thân là `...-01.webp`. Cùng một cảnh, hai lần liên tiếp.
+            #
+            # Không phép đo máy nào bắt được: cả hai trường hợp đều "đủ 4 khối,
+            # đủ alt". Nó chỉ lộ ra khi có người NHÌN bản nháp.
+            #
+            # Mốc `<!-- IMAGE: IMG-001 ... -->` vẫn bị gỡ ở `MOC_ANH.sub` cuối
+            # hàm, và mô tả của nó vẫn đi vào `ke-hoach.json` — ở đó nó là ĐỀ BÀI
+            # cho ảnh đại diện, không phải một ô ảnh trong bài.
+            if anh.get('type') == 'featured':
+                continue
+
             nguon = da_tai.get(iid, anh)
             url = nguon.get('source_url') or nguon.get('local_path', '')
             if mo_ta_theo_id.get(iid):
-                anh = {**anh, 'mo_ta': mo_ta_theo_id[iid]}
+                anh = ap_mo_ta({**anh, 'mo_ta': mo_ta_theo_id[iid]})
 
             # KHÔNG có URL nghĩa là chưa có ảnh -> dựng khối giữ chỗ. Một quyết
             # định ở một chỗ: `tai_anh` quyết định có ảnh hay không, `assembly`
@@ -132,10 +155,10 @@ class AssemblyPipeline:
             moc = re.compile(r'<!-- IMAGE:\s*%s\s*(?:\|[^>]*?)?-->' % re.escape(iid))
             if moc.search(body):
                 body = moc.sub(lambda m: fig, body, count=1)
-            elif iid == 'IMG-001':
-                # dùng hàm thay cho chuỗi: fig chứa dấu \ thì re.sub sẽ hiểu nhầm
-                body = re.sub(r'^# .+$', lambda m: m.group(0) + '\n\n' + fig, body, count=1, flags=re.M)
             else:
+                # Nhánh cũ đặt IMG-001 ngay sau dòng `# ` khi bài thiếu mốc. Nó
+                # chết theo lúc `featured` ra khỏi thân bài — giữ lại là giữ một
+                # nhánh không bao giờ chạy mà vẫn phải đọc.
                 body += '\n\n' + fig + '\n'
 
         body = MOC_LIEN_KET.sub(lambda m: f'<a href="{m.group("url")}">{m.group("neo")}</a>', body)

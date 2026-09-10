@@ -52,6 +52,16 @@ class QAPipeline:
         neo = re.findall(r'<a\s+href="([^"]+)"', html_body, re.I)
         so_tu = len(re.findall(r'\w+', than, flags=re.UNICODE))
 
+        # Ảnh vai trò `featured` đi vào Ô ẢNH ĐẠI DIỆN của WordPress chứ không
+        # vào post_content — template #268 (`ps2im`) render nó thành hero. Nên
+        # phép đếm figure phải so với số ảnh THUỘC VỀ THÂN BÀI.
+        #
+        # ⚠️ Đây là chỗ dễ nới sai. Cách sai là hạ ngưỡng xuống `>= 3` cho xong;
+        # làm vậy thì cổng hết đo được chuyện thiếu ảnh. Cách đúng là giữ nguyên
+        # "đủ từng ảnh đã lên kế hoạch", chỉ sửa lại TẬP ảnh mà thân bài chịu
+        # trách nhiệm.
+        anh_trong_than = [i for i in images if i.get('type') != 'featured']
+
         checks = {
             # KHÔNG h1 nào trong post_content: theme đã render tiêu đề thành
             # H1 rồi (Bricks #268 `ps1h1` = {post_title}). Bản cũ khẳng định
@@ -63,7 +73,7 @@ class QAPipeline:
             'faq': bool(re.search(r'faq|câu hỏi thường gặp', than, re.I)),
             'khong_khang_dinh_cam': not vi_pham,
             'anh_du_va_co_alt': len(images) >= 3 and all(i.get('alt') for i in images),
-            'anh_da_chen': html_body.count('ficool-article-image') >= len(images),
+            'anh_da_chen': html_body.count('ficool-article-image') >= len(anh_trong_than),
             'co_nguon': bool(research.get('serp') or research.get('ai_research', {}).get('sources')),
             'boi_canh_dia_phuong': bool(re.search(r'TP\.?\s?HCM|Hồ Chí Minh|Sài Gòn', than, re.I)),
             # liên kết nội bộ phải PHÂN GIẢI được, không còn chú thích thô

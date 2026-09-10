@@ -221,6 +221,13 @@ class CongBoHoSo:
             if nguon.exists():
                 shutil.copy2(nguon, goi / 'images' / nguon.name)
             anh.append({'id': it['id'], 'tep': 'images/' + nguon.name,
+                        # KE HOACH phai noi ro anh nay di vao O NAO. Anh
+                        # `featured` khong co moc trong post_content, nen hau
+                        # kiem doi `moc_thay_the` cua no nam trong HTML la doi
+                        # mot thu khong bao gio co.
+                        'vai_tro': it.get('type'),
+                        'o': 'anh dai dien (khong o trong bai)'
+                             if it.get('type') == 'featured' else 'than bai',
                         'moc_thay_the': it['source_url'],
                         'moc_media_id': it.get('media_id_moc'),
                         'bien_the': it.get('bien_the', []),
@@ -235,12 +242,19 @@ class CongBoHoSo:
         giu_cho = [u for u in uploaded if u.get('giu_cho')]
         anh_that = [u for u in uploaded if not u.get('giu_cho')]
         muon = [u for u in uploaded if u.get('anh_muon')]
+        # Anh `featured` di vao O ANH DAI DIEN cua WordPress, khong vao
+        # post_content — template #268 da render no thanh hero. Moi phep dem
+        # figure/khoi giu cho trong THAN BAI phai tru no ra, neu khong thi hau
+        # kiem doi 4 trong khi thuc te co 3 va bao hong mot bai dung.
+        trong_than = [u for u in uploaded if u.get('type') != 'featured']
+        gc_than = [u for u in giu_cho if u.get('type') != 'featured']
 
         if giu_cho:
             buoc_0 = {
                 'thu_tu': 0, 'ability': '(NGUOI DOC — bat buoc)',
-                'viec': 'DOC TUNG MO TA giu cho trong noi-dung.html (%d khoi). '
-                        'Xac nhan mo ta ta DUNG thu muc do can:' % len(giu_cho),
+                'viec': 'DOC TUNG MO TA giu cho: %d khoi trong noi-dung.html, cong 1 DE BAI '
+                        'cho anh dai dien (IMG-001, khong nam trong than bai). '
+                        'Xac nhan mo ta ta DUNG thu muc do can:' % len(gc_than),
                 'phai_xac_nhan': [
                     'mo ta bam dung noi dung cua muc no dung canh, khong chung chung',
                     'mo ta ta duoc mot canh CHUP DUOC, khong phai mot y tuong',
@@ -250,6 +264,8 @@ class CongBoHoSo:
                 'vi_sao': 'Anh chua ton tai nen khong co gi de nhin. Thu duy nhat kiem duoc '
                           'luc nay la MO TA — va mo ta sai thi nguoi chup sau se chup sai.',
                 'giu_cho': [{'id': u['id'], 'vai_tro': u.get('type'),
+                             'o': 'anh dai dien (khong o trong bai)'
+                                  if u.get('type') == 'featured' else 'than bai',
                              'mo_ta': u.get('mo_ta') or u.get('canh'),
                              'alt': u.get('alt')} for u in giu_cho],
             }
@@ -315,6 +331,19 @@ class CongBoHoSo:
                              **({'featured_media': muon[0]['media_id'],
                                  'rank_math_facebook_image_id': muon[0].get('og_media_id')}
                                 if muon else {})}},
+                # CTA cot phai LAY THEO BAI. Template #268 doc ba khoa postmeta
+                # nay qua the dong `{ficool_cta_*}` (ficool-child/inc/post-cta.php).
+                # Khong ghi thi bai roi ve duong lui, tuc cau CTA cua BAI MAU
+                # trong ban ve ("May van nhay den?") — sai voi 3 trong 4 dong
+                # thiet bi. Ba gia tri deu la chu CUA KHACH trong ban do funnel.
+                {'thu_tu': 5.5, 'ability': 'novamira/execute-php (update_post_meta)',
+                 'viec': 'Ghi 3 khoa postmeta cho CTA cot phai. Bo qua la bai mang '
+                         'CTA cua bai mau trong ban ve.',
+                 'tham_so': {
+                     'ficool_cta_tieu_de': topic.get('diem_chuyen_doi') or '',
+                     'ficool_cta_mo_ta': topic.get('cta_chinh') or '',
+                     'ficool_cta_link': topic.get('trang_dich_vu') or '/lien-he/',
+                 }},
                 {'thu_tu': 6, 'ability': '(kiem lai)',
                  'viec': 'Doc lai bai vua tao: post_status phai la draft, moi <img> phai tro '
                          'wp-content/uploads, khong con @@ANH:, va JSON-LD FAQPage con nguyen.'},
@@ -328,24 +357,27 @@ class CongBoHoSo:
                 # ⚠️ Bai con giu cho thi KHONG duoc publish: khoi "CAN ANH" se
                 # hien nguyen tren trang cong khai. Day la chot chan.
                 'post_status phai la draft chung nao post_content con data-anh-id',
-                'so khoi giu cho (data-anh-id) phai bang %d' % len(giu_cho),
+                'so khoi giu cho (data-anh-id) phai bang %d' % len(gc_than),
                 'moi khoi giu cho phai co data-alt khong rong',
+                'post_content KHONG duoc chua data-anh-id="IMG-001" — o anh dai '
+                'dien do template #268 render, khong nam trong than bai',
                 'featured image phai la anh muon media_id=%s' % (
                     muon[0]['media_id'] if muon else '(khong co)'),
                 'JSON-LD FAQPage phai con nguyen trong post_content',
                 'slug phai dung la %s' % article['slug'],
-                'so the <figure class="ficool-article-image"> phai bang %d' % len(anh),
+                'so the <figure class="ficool-article-image"> phai bang %d' % len(trong_than),
             ] if giu_cho else [
                 'post_status phai la draft',
                 'post_content KHONG con chuoi @@ANH:',
                 'moi <img src> phai tro wp-content/uploads',
-                'so the <figure class="ficool-article-image"> phai bang %d' % len(anh),
+                'so the <figure class="ficool-article-image"> phai bang %d' % len(trong_than),
                 'JSON-LD FAQPage phai con nguyen trong post_content',
                 'slug phai dung la %s' % article['slug'],
-                'featured image phai la %s' % (anh[0]['id'] if anh else '(khong co anh)'),
+                'featured image phai la IMG-001, va IMG-001 KHONG duoc xuat hien '
+                'trong post_content — template #268 da render o do roi',
                 'post_content KHONG con chuoi @@MEDIA_ID:',
                 'moi <img> phai co class="wp-image-<so>" — thieu la WordPress khong chen srcset',
-                'sau apply_filters(the_content) phai THAY srcset tren ca %d anh' % len(anh),
+                'sau apply_filters(the_content) phai THAY srcset tren ca %d anh' % len(trong_than),
                 'anh og (1200x630) da gan vao truong anh social cua Rank Math',
             ]),
         }

@@ -5,7 +5,7 @@ from pathlib import Path
 from pipeline.topic_selector import TopicSelector
 from pipeline.research import ResearchPipeline
 from pipeline.article import ArticlePipeline
-from pipeline.images import ImagePipeline
+from pipeline.images import ImagePipeline, ap_mo_ta
 from pipeline.assembly import AssemblyPipeline, doc_mo_ta
 from pipeline.geo import dung_schema, do_geo
 from pipeline.qa import QAPipeline
@@ -106,8 +106,10 @@ def run_topic(topic_id, output_root=None, use_mock_images=False,
 
     # Mo ta trong moc phai den ca HAI noi: HTML (nguoi doc bai thay) va
     # ke-hoach.json (nguoi dien anh doc o buoc 0). Gan o day, truoc ca hai.
+    # `ap_mo_ta` doi luon alt/title/caption theo mo ta — khuon vai tro chi con la
+    # duong lui. Goi o day nen ca ke-hoach.json lan HTML deu mang cung mot alt.
     mo_ta = doc_mo_ta(article['body'])
-    images = [{**i, 'mo_ta': mo_ta[i['id']]} if mo_ta.get(i['id']) else i
+    images = [ap_mo_ta({**i, 'mo_ta': mo_ta[i['id']]}) if mo_ta.get(i['id']) else i
               for i in images]
 
     # (1) tai/dat cho anh TRUOC  (2) ghep HTML bang URL that  (3) QA dung bai se dang  (4) moi dang

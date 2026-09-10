@@ -181,6 +181,35 @@ def _caption(alt: str) -> str:
     return 'Hình minh họa: %s.' % than
 
 
+def ap_mo_ta(anh: dict) -> dict:
+    """Alt/title/caption lấy từ MÔ TẢ theo ngữ cảnh, khi mốc trong bài có mô tả.
+
+    ⚠️ ĐO ĐƯỢC TRÊN 60 BÀI ĐÃ ĐĂNG (10/09/2026). `mau_alt` của vai trò là một
+    khuôn chung áp cho MỌI bài, và khuôn của IMG-002 là `Cận cảnh dấu hiệu
+    {chu_de}`. Với 31/60 bài thuộc loại `guide`/`how_to` thì không có "dấu hiệu"
+    nào để cận cảnh, và alt ra thành vô nghĩa:
+
+        Cận cảnh dấu hiệu lắp đặt tủ đông – Ficool
+        Cận cảnh dấu hiệu tủ đông đứng hay tủ đông nằm – Ficool
+        Cận cảnh dấu hiệu giá sửa tủ mát tủ đông – Ficool
+
+    Mô tả trong mốc thì ngược lại: tác nhân viết bài biết mục đó đang nói về cái
+    gì, nên nó tả đúng MỘT CẢNH CHỤP ĐƯỢC. Cùng chỗ đó, mô tả là "Cận cảnh phiếu
+    báo giá sửa tủ mát đặt trên quầy, các dòng hạng mục và cột chi phí bị làm mờ".
+
+    Vì sao phải sửa chứ không để đó: `data-alt` sinh ra ĐỂ người điền ảnh chép
+    lại mà không phải nghĩ lại. Alt sai không nằm yên trong bản nháp — nó đi
+    thẳng vào ảnh thật sau này rồi ở lại vĩnh viễn.
+
+    Không có mô tả thì giữ nguyên khuôn. Khuôn là ĐƯỜNG LUI, không phải mặc định.
+    """
+    mo_ta = str(anh.get('mo_ta') or '').strip()
+    if not mo_ta:
+        return anh
+    alt = mo_ta.rstrip(' .') + ' – Ficool'
+    return {**anh, 'alt': alt, 'title': alt, 'caption': _caption(alt)}
+
+
 KHONG_NGUOI = 'KHÔNG có người nào trong khung hình.'
 
 
@@ -267,9 +296,15 @@ class ImagePipeline:
             # không gọi API lần hai. Hai lượt gọi cho ra HAI TẤM ẢNH KHÁC NHAU,
             # nghĩa là ảnh đại diện và ảnh mở bài không còn là một cảnh.
             #
-            # Vì sao cần bản riêng: ảnh đại diện không hiển thị trong trang bài
-            # viết; nó chỉ dùng cho card chuyên mục và cho og:image. Chuẩn social
-            # là 1200x630 (tỉ lệ 1,905), khác 16:9 (1,778) của ảnh gốc.
+            # Vì sao cần bản riêng: bản gốc 16:9 (1,778) đi vào ô ảnh đại diện
+            # mà template #268 render thành hero; chuẩn social là 1200x630
+            # (1,905), khác tỉ lệ nên phải cắt riêng.
+            #
+            # ⚠️ Dòng ghi chú cũ ở đây khẳng định "ảnh đại diện không hiển thị
+            # trong trang bài viết". SAI, và chính niềm tin đó sinh ra lỗi ô ảnh
+            # đầu bị nhân đôi trên 61/61 bài: template có render `{featured_image}`
+            # (element `ps2im`), nên đặt IMG-001 thêm một lần trong post_content
+            # là cùng một ô hiện hai lần. Xem `assembly.AssemblyPipeline.run`.
             if item.get('type') == 'featured':
                 og = anh_xu_ly.cat_og(a.du_lieu)
                 duong_og = a.path.with_name(a.path.stem + '-og.webp')

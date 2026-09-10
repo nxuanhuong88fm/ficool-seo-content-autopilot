@@ -247,7 +247,11 @@ def test_demo_sinh_goi_tu_nhat_quan(tmp_path, monkeypatch):
     html = (goi / 'noi-dung.html').read_text(encoding='utf-8')
 
     assert len(kh['anh']) == 4
+    # Anh `featured` di vao O ANH DAI DIEN (template #268 render), khong vao
+    # post_content — no co TEP nhung khong co moc trong HTML.
+    assert [a['o'] for a in kh['anh']].count('anh dai dien (khong o trong bai)') == 1
     for a in kh['anh']:
-        assert a['moc_thay_the'] in html, 'moc %s khong co trong HTML' % a['id']
         assert (goi / a['tep']).exists()
+        if a['vai_tro'] != 'featured':
+            assert a['moc_thay_the'] in html, 'moc %s khong co trong HTML' % a['id']
     assert kh['buoc'][3]['tham_so']['post_status'] == 'draft'

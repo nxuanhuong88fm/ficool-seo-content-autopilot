@@ -64,16 +64,42 @@ def test_anh_con_lai_tai_lazy():
     assert 'loading="lazy"' in the and 'fetchpriority="low"' in the
 
 
-def test_khong_duoc_lazy_ca_bon(tmp_path):
-    """Gắn lazy cho ảnh ngay sau H1 là tự trì hoãn chính phần tử quyết định LCP."""
+def _ghep_bon_anh(tmp_path):
     imgs = [_anh('IMG-001', 'featured'), _anh('IMG-002', 'instructional'),
             _anh('IMG-003', 'instructional'), _anh('IMG-004', 'service')]
     than = '# T\n\n' + '\n\n'.join('<!-- IMAGE: %s -->' % a['id'] for a in imgs)
     up = [{**a, 'source_url': 'https://ficool.top/%s.webp' % a['id'], 'media_id': 100 + i}
           for i, a in enumerate(imgs)]
-    h = AssemblyPipeline().run({'body': than}, imgs, up, tmp_path)
+    return imgs, AssemblyPipeline().run({'body': than}, imgs, up, tmp_path)
 
-    assert h.count('loading="eager"') == 1, 'phai co dung MOT anh eager'
+
+def test_anh_featured_khong_vao_than_bai(tmp_path):
+    """Ô ảnh đại diện do template #268 (`ps2im`) render, KHÔNG do post_content.
+
+    Bản cũ đặt IMG-001 vào cả hai ô, và không phép đo nào bắt được vì cả hai
+    trường hợp đều "đủ 4 ảnh, đủ alt". Nó chỉ lộ ra ngày 10/09/2026 khi có người
+    NHÌN bản nháp: bài giữ chỗ hiện ảnh mượn rồi ngay dưới là hộp "CẦN ẢNH ·
+    IMG-001"; bài 383 hiện cùng một tấm hai lần liên tiếp.
+    """
+    _, h = _ghep_bon_anh(tmp_path)
+
+    assert 'IMG-001' not in h, 'anh dai dien khong duoc lot vao than bai'
+    assert h.count('<figure class="ficool-article-image">') == 3
+    for ma in ('IMG-002', 'IMG-003', 'IMG-004'):
+        assert ma in h
+
+
+def test_moi_anh_trong_than_deu_lazy(tmp_path):
+    """Ảnh trong thân bài KHÔNG có cái nào eager — phần tử LCP nằm ở template.
+
+    Trước đây IMG-001 mang `eager` vì nó là ảnh đầu trang. Nay nó không còn nằm
+    trong thân, nên ảnh eager phải là ảnh hero của template (`ps2im`, đặt
+    `loading: eager` để Bricks bỏ luôn lazy bằng JS — xem `frontend.php:1004`).
+    Để một ảnh trong thân eager là tranh băng thông với chính phần tử LCP.
+    """
+    _, h = _ghep_bon_anh(tmp_path)
+
+    assert h.count('loading="eager"') == 0
     assert h.count('loading="lazy"') == 3
 
 
@@ -102,7 +128,12 @@ def test_duong_ho_so_sinh_du_hai_moc_va_ke_hoach_khop(tmp_path):
     kh = json.loads((Path(kq['goi']) / 'ke-hoach.json').read_text(encoding='utf-8'))
     # MOI moc trong HTML phai co muc tuong ung trong ke hoach — thieu mot cai la
     # tac nhan de lai @@MEDIA_ID: nguyen trong bai da dang.
-    for a in kh['anh']:
+    #
+    # Anh `featured` di vao O ANH DAI DIEN chu khong vao post_content, nen no
+    # KHONG co moc. Ke hoach phai noi ro dieu do bang truong `o`; doi moc cua no
+    # nam trong HTML la doi mot thu khong bao gio co.
+    assert [a['o'] for a in kh['anh']] == ['anh dai dien (khong o trong bai)', 'than bai']
+    for a in [x for x in kh['anh'] if x['vai_tro'] != 'featured']:
         assert a['moc_thay_the'] in h, a['id']
         assert a['moc_media_id'] in h, a['id']
     assert any('@@MEDIA_ID:' in x for x in kh['kiem_sau_dang'])
@@ -126,12 +157,13 @@ def test_buoc_0_liet_ke_du_bon_dieu_phai_xac_nhan_bang_mat(tmp_path):
     assert 'logo' in ds or 'ten hang' in ds
 
 
-def test_demo_cung_sinh_dung_mot_anh_eager(tmp_path, monkeypatch):
-    """Demo phải đo được hành vi LCP, không chỉ chạy cho có.
+def test_demo_cung_tach_anh_dai_dien_ra_khoi_than(tmp_path, monkeypatch):
+    """Demo phải đo được đúng cách chia ô ảnh, không chỉ chạy cho có.
 
     Bản cũ tự dựng danh sách ảnh riêng, thiếu khoá `type`, nên KHÔNG ảnh nào là
-    `featured` và demo cho eager/lazy = 0/4 — tức là nó chạy xanh mà không hề
-    chạm tới thứ đang cần bảo vệ.
+    `featured` — demo chạy xanh mà không hề chạm tới thứ đang cần bảo vệ. Nay
+    demo dùng chung `ImagePipeline.plan()` nên nó đo được: 3 ảnh trong thân,
+    ảnh đại diện nằm ngoài, và không ảnh nào trong thân eager.
     """
     import pipeline.cli as cli
     monkeypatch.setattr(cli, 'ROOT', tmp_path)
@@ -139,10 +171,12 @@ def test_demo_cung_sinh_dung_mot_anh_eager(tmp_path, monkeypatch):
 
     h = (tmp_path / 'output/demo/may-lanh-chay-nuoc/goi-dang/noi-dung.html').read_text(
         encoding='utf-8')
-    assert h.count('loading="eager"') == 1
+    assert h.count('<figure class="ficool-article-image">') == 3
+    assert h.count('loading="eager"') == 0
     assert h.count('loading="lazy"') == 3
-    assert len(re.findall(r'class="wp-image-', h)) == 4
-    assert len(set(re.findall(r'alt="([^"]+)"', h))) == 4      # 4 alt KHAC nhau
+    # BA anh trong than — anh dai dien khong nam o day nen khong co thẻ img.
+    assert len(re.findall(r'class="wp-image-', h)) == 3
+    assert len(set(re.findall(r'alt="([^"]+)"', h))) == 3      # 3 alt KHAC nhau
 
 
 # ── H1: theme đã render tiêu đề, post_content không được lặp lại ────────────

@@ -44,14 +44,34 @@ def test_moc_CU_khong_mo_ta_van_doc_duoc():
 
 
 def test_mo_ta_trong_moc_di_duoc_vao_khoi_giu_cho(tmp_path):
-    than = ('# T\n\n<!-- IMAGE: IMG-001 | Kỹ thuật viên đo dòng điện tại dàn nóng -->'
-            '\n\n<!-- IMAGE: IMG-002 -->')
-    imgs = _ke_hoach()[:2]
+    # Dung IMG-002/IMG-003: IMG-001 mang vai tro `featured`, no di vao O ANH DAI
+    # DIEN chu khong vao than bai, nen khong dung de do khoi giu cho duoc.
+    than = ('# T\n\n<!-- IMAGE: IMG-002 | Kỹ thuật viên đo dòng điện tại dàn nóng -->'
+            '\n\n<!-- IMAGE: IMG-003 -->')
+    imgs = _ke_hoach()[1:3]
     h = AssemblyPipeline().run({'body': than}, imgs, imgs, tmp_path)
 
     assert 'Kỹ thuật viên đo dòng điện tại dàn nóng' in h
-    # IMG-002 khong co mo ta rieng -> lui ve khuon `canh` cua vai tro
+    # IMG-003 khong co mo ta rieng -> lui ve khuon `canh` cua vai tro
     assert imgs[1]['canh'] in h
+
+
+def test_mo_ta_doi_luon_alt_chu_khong_chi_doi_chu_hien_ra(tmp_path):
+    """`data-alt` phai theo MO TA, khong theo khuon vai tro.
+
+    Khuon cua IMG-002 la `Cận cảnh dấu hiệu {chu_de}` — hop cho bai
+    troubleshooting, vo nghia cho 31/60 bai loai guide/how_to da dang ngay
+    10/09/2026: "Cận cảnh dấu hiệu lắp đặt tủ đông".
+
+    `data-alt` sinh ra DE nguoi dien anh chep lai ma khong phai nghi lai. Alt sai
+    khong nam yen trong ban nhap — no di thang vao anh that sau nay.
+    """
+    than = '# T\n\n<!-- IMAGE: IMG-002 | Cận cảnh phiếu báo giá đặt trên quầy -->'
+    imgs = _ke_hoach()[1:2]
+    h = AssemblyPipeline().run({'body': than}, imgs, imgs, tmp_path)
+
+    assert 'data-alt="Cận cảnh phiếu báo giá đặt trên quầy – Ficool"' in h
+    assert 'dấu hiệu' not in h, 'van con dinh khuon vai tro'
 
 
 def test_mo_ta_co_ky_tu_HTML_thi_bi_escape():
@@ -106,8 +126,12 @@ def test_QA_anh_da_chen_van_xanh_khi_ca_bon_deu_la_giu_cho(tmp_path):
     imgs = _ke_hoach()
     than = '# T\n\n' + '\n\n'.join('<!-- IMAGE: %s -->' % a['id'] for a in imgs)
     h = AssemblyPipeline().run({'body': than}, imgs, imgs, tmp_path)
-    assert h.count('ficool-article-image') >= len(imgs)
-    assert h.count('data-anh-id') == 4
+
+    # BA khoi, khong phai bon: IMG-001 (`featured`) di vao o anh dai dien.
+    trong_than = [i for i in imgs if i.get('type') != 'featured']
+    assert h.count('ficool-article-image') >= len(trong_than)
+    assert h.count('data-anh-id') == 3
+    assert 'IMG-001' not in h
 
 
 # ── không gọi API ───────────────────────────────────────────────────────────
