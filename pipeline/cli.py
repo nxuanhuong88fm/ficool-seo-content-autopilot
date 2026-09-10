@@ -83,7 +83,7 @@ def cmd_run(args):
                                  use_mock_images=args.mock_images,
                                  bo_qua_chong_trung=args.force,
                                  dang_bai=args.dang_bai,
-                                 nghien_cuu=args.nghien_cuu, viet=args.viet,
+                                 nghien_cuu=args.nghien_cuu, viet=args.viet, anh=args.anh,
                                  thu_muc_dau_vao=args.thu_muc_dau_vao)
     except DaLamRoi as e:
         _in(f'BỎ QUA: {e}'); return 0
@@ -180,10 +180,14 @@ def cmd_lo(args):
         phan.append('%d luot nghien cuu (Gemini+Serper+GSC)' % len(lo))
     if args.viet == 'gemini':
         phan.append('%d luot viet + %d luot meta' % (len(lo), len(lo)))
-    if not args.mock_images:
-        phan.append('%d anh' % (len(lo) * 4))
+    # Bao dung so tien SE tieu. Bao "40 anh" trong khi duong giu-cho khong goi
+    # lan nao la noi sai ve tien — dung thu khach doc de quyet dinh co chay hay khong.
+    if not args.mock_images and args.anh == 'gemini':
+        phan.append('%d anh (~$%.2f)' % (len(lo) * 4, len(lo) * 4 * 0.067))
     _in('')
     _in('Uoc luong goi API: ' + (' + '.join(phan) if phan else 'KHONG GOI GI (tat ca do tac nhan)'))
+    if args.anh == 'giu-cho':
+        _in('Anh: KHONG sinh. Moi bai co 4 khoi giu cho + anh dai dien MUON tu 16 anh trang.')
     if args.nghien_cuu == 'toi' or args.viet == 'toi':
         _in('Dau vao tac nhan doc tu: %s/<TOPIC_ID>.yaml'
             % (args.thu_muc_dau_vao or dau_vao.THU_MUC_MAC_DINH))
@@ -200,7 +204,7 @@ def cmd_lo(args):
             root, qa, wp = run_topic(t['id'], output_root=args.output_dir,
                                      use_mock_images=args.mock_images,
                                      dang_bai=args.dang_bai,
-                                     nghien_cuu=args.nghien_cuu, viet=args.viet,
+                                     nghien_cuu=args.nghien_cuu, viet=args.viet, anh=args.anh,
                                      thu_muc_dau_vao=args.thu_muc_dau_vao)
         except DaLamRoi as e:
             _in('   BO QUA: %s' % e)
@@ -470,7 +474,10 @@ def main(argv=None):
     s.add_argument('--nghien-cuu', dest='nghien_cuu', default='gemini', choices=['gemini', 'toi'],
                    help='toi: bo Gemini research + Serper + GSC, doc tu dau-vao/<ID>.yaml')
     s.add_argument('--viet', default='gemini', choices=['gemini', 'toi'],
-                   help='toi: bo Gemini text; Gemini chi con dung cho anh')
+                   help='toi: bo Gemini text')
+    s.add_argument('--anh', default='giu-cho', choices=['giu-cho', 'gemini'],
+                   help='giu-cho (MAC DINH): khong goi API, dung trinh giu cho tai '
+                        'dung vi tri can anh · gemini: sinh anh that (~$0,27/bai)')
     s.add_argument('--thu-muc-dau-vao', dest='thu_muc_dau_vao', default=None)
     s.set_defaults(fn=cmd_run)
 
@@ -494,7 +501,10 @@ def main(argv=None):
     s.add_argument('--nghien-cuu', dest='nghien_cuu', default='gemini', choices=['gemini', 'toi'],
                    help='toi: bo Gemini research + Serper + GSC, doc tu dau-vao/<ID>.yaml')
     s.add_argument('--viet', default='gemini', choices=['gemini', 'toi'],
-                   help='toi: bo Gemini text; Gemini chi con dung cho anh')
+                   help='toi: bo Gemini text')
+    s.add_argument('--anh', default='giu-cho', choices=['giu-cho', 'gemini'],
+                   help='giu-cho (MAC DINH): khong goi API, dung trinh giu cho tai '
+                        'dung vi tri can anh · gemini: sinh anh that (~$0,27/bai)')
     s.add_argument('--thu-muc-dau-vao', dest='thu_muc_dau_vao', default=None)
     s.set_defaults(fn=cmd_lo)
 

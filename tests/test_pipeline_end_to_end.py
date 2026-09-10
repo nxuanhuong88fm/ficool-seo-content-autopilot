@@ -97,8 +97,16 @@ def dich_vu_gia(monkeypatch, tmp_path):
 
 
 def test_duong_rest_chay_het_ra_ban_nhap(wp_gia, dich_vu_gia, tmp_path):
+    """Đo đường ẢNH THẬT, nên phải khai `anh="gemini"`.
+
+    Mặc định của `run_topic` là `giu-cho` (không gọi API). Bỏ tham số này thì
+    phép đo vẫn chạy nhưng đo một đường khác — đúng loại xanh giả mà kho này
+    đã mất công dựng cổng để tránh. Đường giữ chỗ có phép đo riêng ở
+    `tests/test_giu_cho_anh.py`.
+    """
     from pipeline.run import run_topic
-    root, qa, wp = run_topic("ML-01", output_root=tmp_path, dang_bai="rest")
+    root, qa, wp = run_topic("ML-01", output_root=tmp_path, dang_bai="rest",
+                             anh="gemini")
 
     assert qa["status"] == "PASS", f"QA chặn: {qa}"
     assert wp["status"] == "draft", f"khong phai ban nhap: {wp}"

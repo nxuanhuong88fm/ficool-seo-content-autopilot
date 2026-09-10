@@ -208,7 +208,17 @@ def dung_prompt(item, phuong_an_dong_phuc=None) -> str:
 
 class ImagePipeline:
     def __init__(self, provider=None):
-        self.provider = provider or GeminiImageProvider()
+        # Provider dựng LƯỜI. `GeminiImageProvider.__init__` gọi `tao_client()`
+        # ngay, tức đòi GEMINI_API_KEY — mà đường `giu-cho` không sinh ảnh nào
+        # thì không có lý gì phải có khoá. Dựng sớm là bắt cả đường không dùng
+        # API phải trả tiền vé.
+        self._provider = provider
+
+    @property
+    def provider(self):
+        if self._provider is None:
+            self._provider = GeminiImageProvider()
+        return self._provider
 
     def plan(self, topic):
         # Chủ đề của ẢNH lấy từ TỪ KHOÁ CHÍNH, không phải tiêu đề bài.
@@ -225,6 +235,19 @@ class ImagePipeline:
             ra.append({**v, 'subject': chu_de, 'alt': alt, 'title': alt,
                        'caption': _caption(alt)})
         return ra
+
+    def giu_cho(self, topic):
+        """Kế hoạch ảnh KHÔNG gọi API — bốn khối giữ chỗ cho tác nhân/người điền.
+
+        Dùng lại nguyên `plan()`: vị trí, vai trò, alt và caption của một bài
+        không phụ thuộc vào việc ảnh đã tồn tại hay chưa. Chỉ khác một điều —
+        chưa có tệp nào, nên `giu_cho=True` và không có `filename`.
+
+        `canh` đi kèm làm MÔ TẢ DỰ PHÒNG: mốc trong bài có mô tả riêng thì
+        `assembly` dùng mô tả đó, không có thì rơi về câu này.
+        """
+        return [{**x, 'giu_cho': True, 'ti_le_rong': 16, 'ti_le_cao': 9,
+                 'width': 1376, 'height': 768} for x in self.plan(topic)]
 
     def generate(self, topic, article, output_dir):
         rows = []

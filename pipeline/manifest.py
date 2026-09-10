@@ -42,7 +42,7 @@ def ghi(run_id: str, topic: dict, article: dict, qa: dict, wp: dict) -> Path:
         'phien_ban_ban_do': TopicSelector().phien_ban_ban_do,
         'slug': article['slug'], 'wp_slug': wp.get('slug'),
         'wp_post_id': wp.get('post_id'), 'wp_status': wp.get('status'), 'wp_link': wp.get('link'),
-        'qa': qa, 'media_ids': [m['media_id'] for m in wp.get('media', [])],
+        'qa': qa, 'media_ids': [m.get('media_id') for m in wp.get('media', [])],
         'created_at': datetime.now(timezone.utc).isoformat(),
     }, ensure_ascii=False, indent=2), encoding='utf-8')
     return duong

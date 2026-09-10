@@ -10,7 +10,7 @@ from pipeline.assembly import AssemblyPipeline
 from pipeline.geo import dung_schema, do_geo
 from pipeline.qa import QAPipeline
 from connectors.wordpress.publishers import chon_cong_bo
-from pipeline import dau_vao, manifest
+from pipeline import anh_muon, dau_vao, manifest
 from pipeline.utils import dump_yaml
 
 KHOA_WP = ('WP_URL', 'WP_USERNAME', 'WP_APPLICATION_PASSWORD')
@@ -45,11 +45,16 @@ class QAChan(RuntimeError):
 
 def run_topic(topic_id, output_root=None, use_mock_images=False,
               bo_qua_chong_trung=False, dang_bai='ho-so',
-              nghien_cuu='gemini', viet='gemini', thu_muc_dau_vao=None):
+              nghien_cuu='gemini', viet='gemini', thu_muc_dau_vao=None,
+              anh='giu-cho'):
     """dang_bai   : ho-so | novamira | rest | auto  (connectors/wordpress/publishers.py)
-    nghien_cuu : gemini | toi  — `toi` bo Gemini research + Serper + GSC
-    viet       : gemini | toi  — `toi` bo Gemini text; Gemini chi con dung cho anh
+    nghien_cuu : gemini | toi     — `toi` bo Gemini research + Serper + GSC
+    viet       : gemini | toi     — `toi` bo Gemini text
+    anh        : giu-cho | gemini — MAC DINH `giu-cho`: khong goi API, dung
+                 trinh giu cho tai dung vi tri can anh. `gemini` phai khai ro.
     """
+    if anh not in ('giu-cho', 'gemini'):
+        raise ValueError('anh phai la giu-cho hoac gemini, nhan %r' % anh)
     topic = TopicSelector().by_id(topic_id)
 
     if not bo_qua_chong_trung and topic_id in manifest.da_lam():
@@ -91,6 +96,9 @@ def run_topic(topic_id, output_root=None, use_mock_images=False,
             images.append({'id': f'IMG-{i:03d}', 'width': a.width, 'height': a.height,
                            'alt': topic['title'], 'title': topic['title'], 'caption': topic['title'],
                            'filename': a.path.name, 'local_path': str(a.path)})
+    elif anh == 'giu-cho':
+        # Khong goi API lan nao. Anh dai dien MUON tu 16 anh trang da co san.
+        images = anh_muon.gan_vao(ImagePipeline().giu_cho(topic), topic)
     else:
         images = ImagePipeline().generate(topic, article['body'], root)
         for i in images:

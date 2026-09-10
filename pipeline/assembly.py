@@ -8,7 +8,14 @@ from pipeline.utils import dump_yaml
 # chuẩn. KHÔNG tự viết bộ chuyển: bản tự viết trong scripts/production_draft.py
 # sinh <li> không có <ul> bọc (HTML không hợp lệ), bỏ qua [neo](/url/) và **đậm**,
 # và đổ nguyên bảng Markdown thành các đoạn <p>| ... |</p>.
-MOC_ANH = re.compile(r'<!-- IMAGE:\s*(?P<id>[A-Za-z0-9_-]+)\s*-->')
+# Mốc ảnh mang thêm MÔ TẢ tuỳ chọn sau dấu `|`:
+#     <!-- IMAGE: IMG-002 -->                    mốc cũ, vẫn đọc được
+#     <!-- IMAGE: IMG-002 | mô tả theo ngữ cảnh -->
+# Mô tả là thứ tác nhân viết bài biết mà khuôn không biết: mục này đang nói về
+# máng hứng nước thì ảnh phải là máng hứng nước, không phải "cận cảnh dấu hiệu
+# của sự cố trên thiết bị" chung chung. Mốc không kèm mô tả thì lùi về khuôn.
+MOC_ANH = re.compile(
+    r'<!-- IMAGE:\s*(?P<id>[A-Za-z0-9_-]+)\s*(?:\|\s*(?P<mo_ta>[^>]*?)\s*)?-->')
 MOC_LIEN_KET = re.compile(r'<!-- INTERNAL:\s*(?P<neo>.+?)\s*\|\s*(?P<url>\S+?)\s*-->')
 
 
@@ -24,6 +31,36 @@ SIZES_BAI_VIET = '(max-width: 767px) 100vw, 720px'
 # lấy đúng bề rộng dựng thật của thẻ, còn phần ta khai giữ nguyên phía sau làm
 # đường lui cho trình duyệt chưa hiểu `auto`. Đừng "sửa" chỗ này.
 # Hệ quả cho hậu kiểm: so `sizes` phải dùng CHỨA, không được dùng BẰNG.
+
+
+def _the_giu_cho(anh):
+    """Khối GIỮ CHỖ: chưa có ảnh, nhưng đã biết chỗ nào cần ảnh gì.
+
+    Vì sao nhìn thấy được chứ không phải chú thích HTML ẩn: người điền ảnh làm
+    việc trong wp-admin, và một chú thích `<!-- -->` thì họ không thấy. Bài đang
+    `draft` và site đang `blog_public = 0` nên khối này hiện ra là CÓ ÍCH.
+
+    Vì sao GIỮ class `ficool-article-image`: cổng QA `anh_da_chen` đếm đúng chuỗi
+    đó (`pipeline/qa.py`). Đổi tên class là làm đỏ một cổng vì lý do sai.
+
+    `data-anh-id` là chốt chặn — hậu kiểm dùng nó để không cho bài còn giữ chỗ
+    lên bản công khai.
+    """
+    e = html.escape
+    ti_le = '%s:%s' % (anh.get('ti_le_rong', 16), anh.get('ti_le_cao', 9))
+    mo_ta = anh.get('mo_ta') or anh.get('canh') or ''
+    return (
+        '<figure class="ficool-article-image ficool-anh-giu-cho"'
+        f' data-anh-id="{e(anh["id"])}"'
+        f' data-vai-tro="{e(anh.get("type", ""))}"'
+        f' data-ti-le="{e(ti_le)}"'
+        f' data-alt="{e(anh["alt"])}">'
+        '<div class="ficool-anh-giu-cho__nhan">'
+        f'<b>CẦN ẢNH · {e(anh["id"])} · {e(ti_le)}</b>'
+        f'<span>{e(mo_ta)}</span>'
+        '</div>'
+        '</figure>'
+    )
 
 
 def _the_figure(anh, nguon_url, ma_media=None):
@@ -61,13 +98,28 @@ class AssemblyPipeline:
         theo_id = {x['id']: x for x in images}
         da_tai = {x['id']: x for x in uploaded}
 
+        # Quét mốc TRƯỚC khi thay: mô tả nằm trong mốc, mà mốc thì biến mất
+        # ngay sau lượt thay đầu tiên.
+        mo_ta_theo_id = {m.group('id'): (m.group('mo_ta') or '').strip()
+                         for m in MOC_ANH.finditer(body)}
+
         for iid, anh in theo_id.items():
             nguon = da_tai.get(iid, anh)
             url = nguon.get('source_url') or nguon.get('local_path', '')
-            fig = _the_figure(anh, url, nguon.get('media_id') or nguon.get('media_id_moc'))
-            moc = f'<!-- IMAGE: {iid} -->'
-            if moc in body:
-                body = body.replace(moc, fig, 1)
+            if mo_ta_theo_id.get(iid):
+                anh = {**anh, 'mo_ta': mo_ta_theo_id[iid]}
+
+            # KHÔNG có URL nghĩa là chưa có ảnh -> dựng khối giữ chỗ. Một quyết
+            # định ở một chỗ: `tai_anh` quyết định có ảnh hay không, `assembly`
+            # chỉ đọc kết quả.
+            fig = (_the_giu_cho(anh) if nguon.get('giu_cho') or not url
+                   else _the_figure(anh, url,
+                                    nguon.get('media_id') or nguon.get('media_id_moc')))
+
+            # Khớp bằng regex chứ không bằng chuỗi: mốc có thể mang mô tả.
+            moc = re.compile(r'<!-- IMAGE:\s*%s\s*(?:\|[^>]*?)?-->' % re.escape(iid))
+            if moc.search(body):
+                body = moc.sub(lambda m: fig, body, count=1)
             elif iid == 'IMG-001':
                 # dùng hàm thay cho chuỗi: fig chứa dấu \ thì re.sub sẽ hiểu nhầm
                 body = re.sub(r'^# .+$', lambda m: m.group(0) + '\n\n' + fig, body, count=1, flags=re.M)

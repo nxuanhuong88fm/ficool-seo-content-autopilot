@@ -126,9 +126,23 @@ def test_xem_truoc_khong_chay_gi(monkeypatch, capsys):
 
 
 def test_lo_bao_uoc_luong_goi_api(monkeypatch, capsys):
+    """Uoc luong phai noi dung so tien SE tieu.
+
+    Mac dinh la `--anh=giu-cho`: khong goi lan nao. Van bao "40 anh" o day la
+    noi sai ve tien — dung thu khach doc de quyet dinh co chay hay khong, va
+    day chinh la ly do doi mac dinh (10/09/2026).
+    """
     cli.main(['lo', '10', '--xem-truoc'])
     ra = capsys.readouterr().out
-    assert '10 luot nghien cuu' in ra and '40 anh' in ra
+    assert '10 luot nghien cuu' in ra
+    assert '40 anh' not in ra
+    assert 'KHONG sinh' in ra
+
+
+def test_lo_bao_TIEN_khi_khai_ro_anh_gemini(capsys):
+    cli.main(['lo', '10', '--xem-truoc', '--anh=gemini'])
+    ra = capsys.readouterr().out
+    assert '40 anh' in ra and '$2.68' in ra
 
 
 # ── sổ: gói đang chờ và đóng sổ ─────────────────────────────────────────────

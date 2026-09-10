@@ -1,0 +1,46 @@
+# Ảnh MƯỢN làm ảnh đại diện cho bài blog, trong lúc chưa có ảnh riêng.
+#
+# Vì sao cần: không sinh ảnh thì bài không có featured image, nghĩa là không có
+# `og:image` riêng — 107 bài chia sẻ lên Facebook/Zalo sẽ ra cùng một tấm ảnh
+# mặc định. Mà 16 ảnh trang ĐÃ nằm sẵn trong Media Library rồi.
+#
+# Đây là ảnh TẠM. `ke-hoach.json` ghi rõ để người điền biết mà thay.
+#
+# Nguồn attachment id: đọc thẳng từ ficool.top ngày 10/09/2026 sau khi tải 16 ảnh
+# trang lên (xem handoff §34.3). `anh` là bản trong bài, `og` là bản 1200x630.
+
+# ── Tầng 1: bài có `trang_dich_vu` trong bản đồ funnel thì lấy đúng ảnh đó ────
+# Phủ 67/108 bài.
+theo_trang_dich_vu:
+  /dich-vu/sua-chua-may-lanh/:        {anh: 392, og: 393}
+  /dich-vu/ve-sinh-may-lanh/:         {anh: 394, og: 395}
+  /dich-vu/bao-tri-may-lanh/:         {anh: 396, og: 397}
+  /dich-vu/lap-moi-may-lanh/:         {anh: 398, og: 399}
+  /dich-vu/thao-do-lap-dat-may-lanh/: {anh: 400, og: 401}
+  /dich-vu/sua-chua-may-giat/:        {anh: 402, og: 403}
+  /dich-vu/ve-sinh-may-giat/:         {anh: 404, og: 405}
+  /dich-vu/bao-tri-may-giat/:         {anh: 406, og: 407}
+  /dich-vu/sua-chua-tu-lanh/:         {anh: 408, og: 409}
+  /dich-vu/ve-sinh-tu-lanh/:          {anh: 410, og: 411}
+  /dich-vu/bao-tri-tu-lanh/:          {anh: 412, og: 413}
+  /dich-vu/sua-chua-tu-mat/:          {anh: 414, og: 415}
+  /dich-vu/sua-chua-tu-dong/:         {anh: 416, og: 417}
+  /dich-vu/sua-may-nong-lanh/:        {anh: 418, og: 419}
+  /dich-vu/sua-binh-nong-lanh/:       {anh: 420, og: 421}
+
+# ── Tầng 2: 41 bài không có `trang_dich_vu` thì theo danh mục ────────────────
+# Thiếu bao nhiêu: MG 2 · TL 2 · TD 8 · MN 11 · TK 18.
+#
+# ⚠️ TK ("Thiết bị khác") KHÔNG có trang dịch vụ nào trên site — 18 bài. Nó rơi
+# về hero trang chủ: một kỹ thuật viên Ficool đang làm việc, đúng thương hiệu và
+# đúng nghề, chỉ không đúng thiết bị. Đây là hệ quả của khoảng trống sản phẩm đã
+# ghi ở handoff §33.5, không phải một lựa chọn thiết kế.
+theo_danh_muc:
+  ML: /dich-vu/sua-chua-may-lanh/
+  MG: /dich-vu/sua-chua-may-giat/
+  TL: /dich-vu/sua-chua-tu-lanh/
+  TD: /dich-vu/sua-chua-tu-mat/
+  MN: /dich-vu/sua-binh-nong-lanh/
+  TK: null          # -> hero trang chu
+
+hero_trang_chu: {anh: 390, og: 391}

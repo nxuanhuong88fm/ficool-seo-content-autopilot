@@ -70,6 +70,13 @@ class CongBoRest:
     def tai_anh(self, images):
         ra = []
         for it in images:
+            # Giữ chỗ thì KHÔNG có tệp để tải. Ảnh đại diện mượn đã có `media_id`
+            # sẵn (attachment 390–421 của 16 ảnh trang), cũng không cần tải.
+            if it.get('giu_cho'):
+                # `media_id` luôn có mặt kể cả khi là None: sổ manifest đọc khoá
+                # này của MỌI ảnh, thiếu một cái là KeyError giữa lượt chạy thật.
+                ra.append({**it, 'source_url': '', 'media_id': it.get('media_id')})
+                continue
             wp = self.client.upload_media(it['local_path'], title=it['title'], alt_text=it['alt'],
                                           caption=it['caption'], description=it['caption'])
             ra.append({**it, 'media_id': wp['id'],
@@ -78,6 +85,12 @@ class CongBoRest:
 
     def don_anh(self, uploaded):
         for it in uploaded:
+            # ⚠️ KHÔNG XOÁ ẢNH MƯỢN. `media_id` của nó là attachment của trang
+            # dịch vụ đang chạy trên site — xoá một bài bị QA chặn mà kéo theo
+            # ảnh hero của /dich-vu/sua-chua-tu-lanh/ là hỏng thứ không liên quan.
+            # Cũng không xoá giữ chỗ: nó chưa từng được tải lên.
+            if it.get('giu_cho') or it.get('anh_muon') or not it.get('media_id'):
+                continue
             try:
                 self.client.delete_media(it['media_id'])
             except Exception:
@@ -166,9 +179,18 @@ class CongBoHoSo:
 
     def tai_anh(self, images):
         # Chưa lên WordPress nên URL còn là mốc; tác nhân thay sau khi tải ảnh.
-        return [{**i, 'media_id': None,
-                 'source_url': MOC_ANH.format(id=i['id']),
-                 'media_id_moc': MOC_MEDIA_ID.format(id=i['id'])} for i in images]
+        # Giữ chỗ thì KHÔNG có mốc: không có tệp nào để tải, nên không có gì để
+        # tác nhân thay. Ảnh đại diện mượn đã mang sẵn `media_id`.
+        ra = []
+        for i in images:
+            if i.get('giu_cho'):
+                ra.append({**i, 'source_url': '',
+                           'media_id': i.get('media_id')})
+                continue
+            ra.append({**i, 'media_id': None,
+                       'source_url': MOC_ANH.format(id=i['id']),
+                       'media_id_moc': MOC_MEDIA_ID.format(id=i['id'])})
+        return ra
 
     def don_anh(self, uploaded):
         goi = self.goc / 'goi-dang'
@@ -181,6 +203,20 @@ class CongBoHoSo:
 
         anh = []
         for it in uploaded:
+            # Giu cho thi khong co tep, khong co moc, va khong co kich thuoc that
+            # — kich thuoc chi biet duoc khi anh ton tai.
+            if it.get('giu_cho'):
+                anh.append({'id': it['id'], 'tep': None, 'giu_cho': True,
+                            'vai_tro': it.get('type'),
+                            'mo_ta': it.get('mo_ta') or it.get('canh'),
+                            'alt': it['alt'], 'title': it.get('title'),
+                            'caption': it.get('caption'),
+                            'ti_le': '%s:%s' % (it.get('ti_le_rong', 16),
+                                                it.get('ti_le_cao', 9)),
+                            'media_id': it.get('media_id'),
+                            'anh_muon': it.get('anh_muon', False),
+                            'anh_muon_nguon': it.get('anh_muon_nguon')})
+                continue
             nguon = Path(it['local_path'])
             if nguon.exists():
                 shutil.copy2(nguon, goi / 'images' / nguon.name)
@@ -193,28 +229,67 @@ class CongBoHoSo:
 
         (goi / 'noi-dung.html').write_text(html_body, encoding='utf-8')
 
+        # Bai co the di mot trong hai duong anh, va KE HOACH phai noi dung
+        # duong dang di. Mot ban ke hoach bao "tai tung tep trong images/" khi
+        # thu muc do rong la mot ban ke hoach sai.
+        giu_cho = [u for u in uploaded if u.get('giu_cho')]
+        anh_that = [u for u in uploaded if not u.get('giu_cho')]
+        muon = [u for u in uploaded if u.get('anh_muon')]
+
+        if giu_cho:
+            buoc_0 = {
+                'thu_tu': 0, 'ability': '(NGUOI DOC — bat buoc)',
+                'viec': 'DOC TUNG MO TA giu cho trong noi-dung.html (%d khoi). '
+                        'Xac nhan mo ta ta DUNG thu muc do can:' % len(giu_cho),
+                'phai_xac_nhan': [
+                    'mo ta bam dung noi dung cua muc no dung canh, khong chung chung',
+                    'mo ta ta duoc mot canh CHUP DUOC, khong phai mot y tuong',
+                    'alt trong data-alt doc len nghe tu nhien, khong nhoi tu khoa',
+                    'anh dai dien MUON co dung danh muc thiet bi cua bai',
+                ],
+                'vi_sao': 'Anh chua ton tai nen khong co gi de nhin. Thu duy nhat kiem duoc '
+                          'luc nay la MO TA — va mo ta sai thi nguoi chup sau se chup sai.',
+                'giu_cho': [{'id': u['id'], 'vai_tro': u.get('type'),
+                             'mo_ta': u.get('mo_ta') or u.get('canh'),
+                             'alt': u.get('alt')} for u in giu_cho],
+            }
+        else:
+            buoc_0 = {
+                'thu_tu': 0, 'ability': '(NGUOI XEM — bat buoc)',
+                'viec': 'MO TUNG TEP trong images/ ra NHIN. Bon dieu phai xac nhan bang MAT:',
+                'phai_xac_nhan': [
+                    'ky thuat vien la NAM',
+                    'dong phuc dung mau da chon (ao lien quan)',
+                    'chu doc duoc DUY NHAT la "Ficool" tren nguc ao, va chu do khong meo',
+                    'KHONG co ten hang hay logo ben thu ba tren thiet bi hay dong phuc',
+                ],
+                'vi_sao': 'Do tren luot sinh dau tien: 3/4 anh mang nhan hieu ben thu ba du '
+                          'prompt da cam. Phat hien logo, gioi tinh hay chu meo deu can THI GIAC '
+                          '— khong co phep kiem tu dong nao thay duoc buoc nay. Xem RULES A117.'}
+
         ke_hoach = {
             'huong_dan': 'Chay lan luot. Moi buoc la mot ability novamira.',
             'slug': article['slug'],
+            'duong_anh': 'giu-cho' if giu_cho else 'anh-that',
             'chong_trung': 'Truoc buoc 3 phai kiem slug chua ton tai tren WordPress.',
             'buoc': [
-                {'thu_tu': 0, 'ability': '(NGUOI XEM — bat buoc)',
-                 'viec': 'MO TUNG TEP trong images/ ra NHIN. Bon dieu phai xac nhan bang MAT:',
-                 'phai_xac_nhan': [
-                     'ky thuat vien la NAM',
-                     'dong phuc dung mau da chon (ao lien quan)',
-                     'chu doc duoc DUY NHAT la "Ficool" tren nguc ao, va chu do khong meo',
-                     'KHONG co ten hang hay logo ben thu ba tren thiet bi hay dong phuc',
-                 ],
-                 'vi_sao': 'Do tren luot sinh dau tien: 3/4 anh mang nhan hieu ben thu ba du '
-                           'prompt da cam. Phat hien logo, gioi tinh hay chu meo deu can THI GIAC '
-                           '— khong co phep kiem tu dong nao thay duoc buoc nay. Xem RULES A117.'},
-                {'thu_tu': 1, 'ability': 'novamira/create-upload-link + execute-php',
-                 'viec': 'Tai tung tep trong images/ vao Media Library bang '
+                buoc_0,
+                {'thu_tu': 1,
+                 'ability': '(BO QUA)' if giu_cho else 'novamira/create-upload-link + execute-php',
+                 'viec': ('Khong co tep anh nao de tai — bai nay di duong GIU CHO. '
+                          'Anh dai dien muon tu 16 anh trang da co san trong Media '
+                          'Library, khong can tai gi them.') if giu_cho else
+                         'Tai tung tep trong images/ vao Media Library bang '
                          'wp_insert_attachment + wp_generate_attachment_metadata. '
                          'Dat alt/title/caption dung theo bang anh. Ghi lai media_id va source_url.'},
-                {'thu_tu': 2, 'ability': '(thay chuoi)',
-                 'viec': 'Trong noi-dung.html thay CA HAI loai moc: moc_thay_the -> source_url '
+                {'thu_tu': 2,
+                 'ability': '(BO QUA)' if giu_cho else '(thay chuoi)',
+                 'viec': ('Khong co moc nao de thay: khoi giu cho da la HTML hoan '
+                          'chinh. Khi co anh that, thay ca khoi <figure '
+                          'ficool-anh-giu-cho> bang <figure ficool-article-image> '
+                          'mang <img> that — data-alt giu san alt de khoi nghi lai.'
+                          ) if giu_cho else
+                         'Trong noi-dung.html thay CA HAI loai moc: moc_thay_the -> source_url '
                          'that, va moc_media_id -> id attachment. Sau buoc nay khong duoc con '
                          'chuoi @@ANH: hay @@MEDIA_ID: nao. Class wp-image-<id> la thu QUYET DINH '
                          'WordPress co chen srcset hay khong — thieu no thi dien thoai cot 350px '
@@ -229,8 +304,17 @@ class CongBoHoSo:
                              'meta_description': article['seo'].get('meta_description'),
                              'focus_keywords': [topic['primary_keyword']]}},
                 {'thu_tu': 5, 'ability': 'novamira/update-post',
-                 'viec': 'Gan chuyen muc va the, dat anh dau tien lam featured image.',
-                 'tham_so': {'chuyen_muc': topic['category'], 'the': topic.get('tags', [])}},
+                 'viec': ('Gan chuyen muc va the. Anh dai dien la ANH MUON, media_id=%d '
+                          '(%s) — dat lam featured va dat rank_math_facebook_image = '
+                          'media_id=%d. DAY LA ANH TAM: thay bang anh rieng khi co.'
+                          % (muon[0]['media_id'], muon[0].get('anh_muon_nguon', ''),
+                             muon[0].get('og_media_id') or muon[0]['media_id'])
+                          ) if muon else
+                         'Gan chuyen muc va the, dat anh dau tien lam featured image.',
+                 'tham_so': {'chuyen_muc': topic['category'], 'the': topic.get('tags', []),
+                             **({'featured_media': muon[0]['media_id'],
+                                 'rank_math_facebook_image_id': muon[0].get('og_media_id')}
+                                if muon else {})}},
                 {'thu_tu': 6, 'ability': '(kiem lai)',
                  'viec': 'Doc lai bai vua tao: post_status phai la draft, moi <img> phai tro '
                          'wp-content/uploads, khong con @@ANH:, va JSON-LD FAQPage con nguyen.'},
@@ -240,7 +324,18 @@ class CongBoHoSo:
             # media_id sau khi tai len. Nen phan QA khong phu duoc phai thanh mot
             # danh sach kiem RO RANG sau khi dang. Khong co no thi buoc thay chuoi
             # nam ngoai moi cong.
-            'kiem_sau_dang': [
+            'kiem_sau_dang': ([
+                # ⚠️ Bai con giu cho thi KHONG duoc publish: khoi "CAN ANH" se
+                # hien nguyen tren trang cong khai. Day la chot chan.
+                'post_status phai la draft chung nao post_content con data-anh-id',
+                'so khoi giu cho (data-anh-id) phai bang %d' % len(giu_cho),
+                'moi khoi giu cho phai co data-alt khong rong',
+                'featured image phai la anh muon media_id=%s' % (
+                    muon[0]['media_id'] if muon else '(khong co)'),
+                'JSON-LD FAQPage phai con nguyen trong post_content',
+                'slug phai dung la %s' % article['slug'],
+                'so the <figure class="ficool-article-image"> phai bang %d' % len(anh),
+            ] if giu_cho else [
                 'post_status phai la draft',
                 'post_content KHONG con chuoi @@ANH:',
                 'moi <img src> phai tro wp-content/uploads',
@@ -252,7 +347,7 @@ class CongBoHoSo:
                 'moi <img> phai co class="wp-image-<so>" — thieu la WordPress khong chen srcset',
                 'sau apply_filters(the_content) phai THAY srcset tren ca %d anh' % len(anh),
                 'anh og (1200x630) da gan vao truong anh social cua Rank Math',
-            ],
+            ]),
         }
         (goi / 'ke-hoach.json').write_text(
             json.dumps(ke_hoach, ensure_ascii=False, indent=2), encoding='utf-8')
