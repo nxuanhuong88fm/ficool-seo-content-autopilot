@@ -1,0 +1,144 @@
+chu_de:
+  id: MG-06
+  tieu_de: 'Máy giặt không mở được cửa: Nguyên nhân và cách xử lý an toàn'
+  tu_khoa_chinh: máy giặt không mở được cửa
+  chuyen_muc: Máy giặt
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Máy giặt cửa trước khoá cửa bằng cơ cấu điện tử trong suốt chu trình, và
+    việc không mở được cửa thường là cơ chế an toàn đang hoạt động đúng chứ
+    không phải hỏng. Ba điều kiện phải thoả trước khi khoá nhả: nước trong lồng
+    đã thoát hết, lồng đã dừng quay hoàn toàn, và nhiệt độ nước không còn ở mức
+    gây bỏng với các chương trình giặt nóng. Nhiều model có thêm độ trễ an toàn
+    khoảng một tới ba phút sau khi chu trình kết thúc. Do đó nguyên nhân phổ
+    biến nhất chỉ đơn giản là chưa đủ thời gian hoặc còn nước trong lồng, và
+    trong trường hợp thứ hai thì gốc vấn đề nằm ở khâu xả chứ không ở cửa. Các
+    nguyên nhân thực sự thuộc về cửa gồm: chốt khoá điện tử hỏng, công tắc cửa
+    hỏng, tay nắm hoặc lẫy cơ khí gãy, và bo mạch không gửi lệnh nhả khoá. Mất
+    điện giữa chu trình cũng khiến cửa kẹt vì cơ cấu khoá cần điện để nhả. Phần
+    lớn máy cửa trước có cơ cấu nhả khẩn cấp: một sợi dây nhỏ hoặc lẫy nằm sau
+    nắp che bộ lọc bơm xả ở góc dưới mặt trước; kéo nó sẽ nhả khoá bằng cơ khí,
+    nhưng chỉ được làm sau khi đã rút phích cắm và đã xả hết nước, vì mở cửa khi
+    còn nước sẽ khiến nước tràn ra sàn. Việc cạy cửa bằng vật cứng làm hỏng chốt
+    và khung cửa, khiến chi phí sửa tăng lên đáng kể so với việc xử lý đúng cách.
+  nguon:
+  - url: https://www.energystar.gov/products/clothes_washers
+    title: ENERGY STAR — Clothes Washers
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ kỹ thuật
+  serp: []
+
+bai_viet:
+  than: |
+    # Máy giặt không mở được cửa: Nguyên nhân và cách xử lý an toàn
+
+    Với máy cửa trước, cửa không mở thường là cơ chế an toàn đang làm đúng việc chứ không phải hỏng. Khoá chỉ nhả khi nước đã thoát hết, lồng đã dừng hẳn, và đã qua độ trễ an toàn. Điều đầu tiên nên làm là chờ và kiểm tra nước, không phải cạy cửa.
+
+    <!-- IMAGE: IMG-001 | Người dùng đứng trước máy giặt cửa trước, tay nắm cửa kéo nhưng cửa không mở, màn hình máy còn sáng -->
+
+    ## Ba điều kiện để khoá cửa nhả
+
+    Máy sẽ không mở cửa cho tới khi cả ba điều sau thoả:
+
+    1. **Nước trong lồng đã thoát hết.** Mở cửa khi còn nước là nước tràn ra sàn.
+    2. **Lồng đã dừng quay hoàn toàn.** Không phải chậm lại, mà là dừng hẳn.
+    3. **Nhiệt độ nước không còn ở mức gây bỏng**, với các chương trình giặt nóng.
+
+    Nhiều model còn có độ trễ an toàn khoảng một tới ba phút sau khi chu trình kết thúc. Nghĩa là nghe tiếng báo xong rồi kéo cửa ngay là thao tác quá sớm.
+
+    ## Hai nguyên nhân phổ biến nhất
+
+    Trước khi nghĩ tới hỏng, loại trừ hai điều này:
+
+    - **Chưa đủ thời gian.** Chờ thêm ba tới năm phút sau khi chu trình kết thúc.
+    - **Còn nước trong lồng.** Nhìn qua cửa kính. Nếu còn nước, gốc vấn đề nằm ở khâu xả chứ không ở cửa.
+
+    Trường hợp thứ hai đáng chú ý: bạn đang gặp lỗi xả nước, và cửa kẹt chỉ là hệ quả. Chạy riêng chu trình xả, và nếu nước vẫn không thoát thì xử lý theo hướng lỗi xả.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh nhìn qua cửa kính máy giặt, nước còn đọng lại ngập phần quần áo bên trong lồng -->
+
+    ## Bảng đối chiếu
+
+    | Tình huống | Nghiêng về | Xử lý |
+    |---|---|---|
+    | Vừa kết thúc chu trình | Độ trễ an toàn | Chờ ba tới năm phút |
+    | Còn nước trong lồng | Lỗi khâu xả | Chạy riêng chu trình xả |
+    | Vừa mất điện giữa chừng | Cơ cấu khoá cần điện để nhả | Cấp điện lại, chờ |
+    | Máy báo mã lỗi | Chốt khoá, công tắc cửa hoặc bo mạch | Cần kỹ thuật viên |
+    | Tay nắm lỏng hoặc rơi | Lẫy cơ khí gãy | Cần kỹ thuật viên |
+
+    ## Cơ cấu nhả khẩn cấp
+
+    Phần lớn máy cửa trước có một cơ cấu nhả khoá bằng cơ khí: sợi dây nhỏ hoặc lẫy nằm sau nắp che bộ lọc bơm xả, ở góc dưới mặt trước máy.
+
+    Chỉ dùng nó theo đúng thứ tự sau:
+
+    1. **Rút phích cắm.**
+    2. **Xả hết nước.** Mở nắp bộ lọc với khay hứng bên dưới, để nước chảy hết ra.
+    3. Tìm dây hoặc lẫy nhả khẩn cấp, kéo nhẹ theo hướng tài liệu của máy chỉ dẫn.
+    4. Mở cửa, lấy đồ ra.
+
+    Bước 2 không được bỏ qua. Nhả khoá khi trong lồng còn nước sẽ khiến nước tràn ra sàn cùng lúc cửa bật mở.
+
+    Nếu model của bạn không có cơ cấu này, hoặc bạn không tìm thấy nó, hãy dừng lại.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, mở nắp che bộ lọc và chỉ vào sợi dây nhả khoá khẩn cấp màu cam -->
+
+    ## Điều không nên làm
+
+    **Không cạy cửa bằng vật cứng.** Chốt khoá và khung cửa được thiết kế để chịu lực theo một hướng nhất định; cạy làm gãy chốt, cong khung, hoặc nứt cửa kính. Chi phí sửa sau khi cạy thường cao hơn nhiều so với chi phí xử lý đúng cách ngay từ đầu.
+
+    Cũng không nên bật tắt máy liên tục để mong khoá nhả. Nếu cơ cấu đang chờ điều kiện an toàn, việc đó không rút ngắn được gì.
+
+    ## Khi nào cần kỹ thuật viên?
+
+    - Đã xả hết nước, đã chờ, đã thử nhả khẩn cấp mà cửa vẫn không mở.
+    - Máy báo mã lỗi liên quan tới cửa.
+    - Tay nắm lỏng, rơi ra, hoặc kéo không có lực cản.
+    - Nghe tiếng "tách" của chốt nhưng cửa vẫn kẹt.
+    - Model không có cơ cấu nhả khẩn cấp.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh tháo vòng kẹp gioăng cửa để tiếp cận chốt khoá điện tử của máy giặt, tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: model máy, mã lỗi nếu có, trong lồng còn nước không, và đã thử cơ cấu nhả khẩn cấp chưa. Kỹ thuật viên Ficool tại TP.HCM sẽ định hướng dựa trên đó. Nếu quần áo bên trong cần lấy gấp, hãy nói rõ ngay từ đầu để được hướng dẫn phần an toàn trước.
+
+    Nếu trong lồng còn nước, vấn đề thật ra nằm ở khâu xả, xem <!-- INTERNAL: máy giặt không xả nước | /may-giat-khong-xa-nuoc/ -->. Sau khi sửa xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu máy giặt | /checklist-nghiem-thu-may-giat/ -->. Muốn biết một lần sửa gồm những hạng mục nào, xem <!-- INTERNAL: giá sửa máy giặt | /gia-sua-may-giat/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Vì sao máy giặt cửa trước không mở được ngay sau khi giặt xong?
+
+    Vì cơ cấu khoá chỉ nhả sau khi nước đã thoát hết, lồng đã dừng hẳn, và đã qua độ trễ an toàn khoảng một tới ba phút tuỳ model. Nghe tiếng báo kết thúc rồi kéo cửa ngay là thao tác quá sớm. Hãy chờ thêm vài phút trước khi kết luận máy hỏng.
+
+    ### Có thể cạy cửa máy giặt khi bị kẹt không?
+
+    Không nên. Chốt khoá và khung cửa chỉ chịu lực theo một hướng nhất định, và cạy bằng vật cứng làm gãy chốt, cong khung hoặc nứt kính. Chi phí sửa sau đó thường cao hơn nhiều so với xử lý đúng cách. Hãy dùng cơ cấu nhả khẩn cấp nếu máy có.
+
+    ### Dây nhả khoá khẩn cấp máy giặt nằm ở đâu?
+
+    Thường nằm sau nắp che bộ lọc bơm xả, ở góc dưới mặt trước máy. Trước khi kéo, phải rút phích cắm và xả hết nước qua bộ lọc, vì nhả khoá khi còn nước sẽ khiến nước tràn ra sàn. Không phải model nào cũng có cơ cấu này.
+
+    ### Mất điện giữa chu trình thì lấy đồ ra bằng cách nào?
+
+    Cơ cấu khoá cần điện để nhả, nên cửa sẽ kẹt cho tới khi có điện lại. Nếu chờ được, hãy cấp điện lại và để máy hoàn tất chu trình. Nếu cần lấy đồ ngay, dùng cơ cấu nhả khẩn cấp sau khi đã rút phích và xả hết nước.
+
+    ### Ficool có xử lý máy giặt kẹt cửa tại TP.HCM không?
+
+    Có. Bạn gửi model, mã lỗi, tình trạng nước trong lồng và cho biết đã thử nhả khẩn cấp chưa. Kỹ thuật viên Ficool sẽ hướng dẫn phần an toàn trước, rồi đặt lịch kiểm tra nếu cần. Phạm vi và chi phí phụ thuộc loại máy cùng tình trạng thực tế, được thống nhất trước.
+  seo:
+    tieu_de: 'Máy giặt không mở được cửa: nguyên nhân và cách xử lý'
+    mo_ta: >-
+      Cửa kẹt thường là cơ chế an toàn đang làm đúng việc. Ba điều kiện để khoá
+      nhả, cách dùng dây nhả khẩn cấp và vì sao không nên cạy cửa.
+    slug: may-giat-khong-mo-duoc-cua
+    tu_khoa_phu:
+    - máy giặt kẹt cửa
+    - máy giặt cửa trước không mở
+    - dây nhả khoá khẩn cấp máy giặt

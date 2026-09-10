@@ -1,0 +1,148 @@
+chu_de:
+  id: MG-03
+  tieu_de: 'Máy giặt không cấp nước hoặc cấp nước yếu: Nguyên nhân thường gặp'
+  tu_khoa_chinh: máy giặt không cấp nước
+  chuyen_muc: Máy giặt
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Máy giặt không cấp nước hoặc cấp nước yếu có đường kiểm tra ngược lại với
+    lỗi xả: đi từ nguồn nước bên ngoài vào trong máy. Điểm đầu tiên nằm ngoài
+    máy và hay bị bỏ qua nhất: van khoá nước cấp cho máy có mở hết không, và áp
+    lực nước của nhà có đủ không. Nhiều máy giặt yêu cầu một mức áp lực tối
+    thiểu để van cấp mở được; nhà dùng bồn chứa đặt thấp hoặc đang giờ cao điểm
+    nước yếu đều có thể không đạt. Điểm thứ hai là ống cấp nước: bị gập, bị đè,
+    hoặc lưới lọc ở đầu nối bị nghẹt do cặn vôi và rỉ sét từ đường ống. Lưới lọc
+    này là một chi tiết nhỏ nằm ngay trong đầu nối phía máy, rất dễ bị bỏ quên
+    và là nguyên nhân phổ biến của hiện tượng cấp nước yếu dần theo thời gian.
+    Điểm thứ ba là van cấp nước điện từ bên trong máy: cuộn dây hỏng thì van
+    không mở, biểu hiện là máy chờ mãi ở bước cấp nước rồi báo lỗi. Điểm thứ tư
+    là cảm biến mực nước và bo mạch: máy hiểu sai mức nước hiện có nên không
+    kích hoạt cấp, hoặc dừng sớm. Với máy có hai đầu cấp nóng lạnh mà nhà chỉ
+    đấu một đầu, cần bịt kín đầu còn lại và chọn chương trình phù hợp, nếu không
+    máy có thể chờ nước ở đầu không có nguồn. Về an toàn, khoá van nước trước
+    khi tháo ống cấp, và chuẩn bị khăn vì nước trong ống sẽ chảy ra. Việc mở vỏ
+    máy để kiểm tra van điện từ hoặc bo mạch cần thợ.
+  nguon:
+  - url: https://www.energystar.gov/products/clothes_washers
+    title: ENERGY STAR — Clothes Washers
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ kỹ thuật
+  serp: []
+
+bai_viet:
+  than: |
+    # Máy giặt không cấp nước hoặc cấp nước yếu: Nguyên nhân thường gặp
+
+    Lỗi cấp nước kiểm tra theo chiều nước chảy vào: từ van khoá ngoài tường, qua ống cấp và lưới lọc ở đầu nối, tới van điện từ trong máy. Điểm đầu tiên nằm ngoài máy và cũng là điểm hay bị bỏ qua nhất.
+
+    <!-- IMAGE: IMG-001 | Người dùng cúi kiểm tra van khoá nước gắn trên tường phía sau máy giặt trong khu vực giặt phơi -->
+
+    ## Bắt đầu từ bên ngoài máy
+
+    Trước khi nghĩ tới máy hỏng, kiểm hai thứ ngoài máy:
+
+    - **Van khoá nước đã mở hết chưa.** Van mở hé cho dòng chảy yếu, và máy có thể chờ mãi không đủ nước.
+    - **Áp lực nước của nhà có đủ không.** Mở vòi gần đó xem dòng chảy thế nào. Nhà dùng bồn chứa đặt thấp, hoặc đang giờ cao điểm nước yếu, đều có thể không đạt mức tối thiểu mà máy yêu cầu.
+
+    Nhiều máy giặt cần một mức áp lực tối thiểu để van cấp mở được. Dưới mức đó, máy sẽ chờ rồi báo lỗi dù không có gì hỏng.
+
+    ## Lưới lọc ở đầu nối: chi tiết nhỏ, hay bị quên nhất
+
+    Trong đầu nối ống cấp phía máy có một lưới lọc nhỏ. Nó giữ lại cặn vôi và rỉ sét từ đường ống, và nghẹt dần theo thời gian.
+
+    Đây là nguyên nhân điển hình của hiện tượng **cấp nước yếu dần** chứ không phải mất hẳn. Cách vệ sinh:
+
+    1. **Khoá van nước.**
+    2. Rút phích cắm máy giặt.
+    3. Chuẩn bị khăn, tháo đầu ống cấp phía máy. Nước trong ống sẽ chảy ra.
+    4. Dùng nhíp gắp lưới lọc ra, rửa dưới vòi, chải nhẹ nếu có cặn bám.
+    5. Lắp lại đúng chiều, siết vừa tay, mở van và kiểm tra không rỉ.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh lưới lọc nhỏ vừa gắp ra khỏi đầu nối ống cấp, bám đầy cặn vôi trắng và rỉ sét -->
+
+    ## Bảng đối chiếu triệu chứng
+
+    | Triệu chứng | Nghiêng về | Tự xử lý? |
+    |---|---|---|
+    | Không có nước vào chút nào | Van khoá đóng, mất nước, van điện từ hỏng | Một phần |
+    | Nước vào rất chậm | Lưới lọc nghẹt, áp lực yếu, ống gập | Được |
+    | Yếu dần qua nhiều tháng | Lưới lọc nghẹt dần | Được |
+    | Máy chờ ở bước cấp rồi báo lỗi | Không đủ nước, hoặc van điện từ | Một phần |
+    | Nước vào rồi tự chảy ra | Đầu ống xả đặt quá thấp | Được |
+
+    Dòng cuối là một nhầm lẫn hay gặp: nước có vào nhưng lại tự thoát ra ngay, nên người dùng tưởng máy không cấp đủ.
+
+    ## Máy hai đầu cấp nóng lạnh
+
+    Một số model có hai đầu cấp, nóng và lạnh. Nếu nhà bạn chỉ đấu một đầu:
+
+    - Bịt kín đầu còn lại theo hướng dẫn của máy.
+    - Chọn chương trình phù hợp với cấu hình đang đấu.
+
+    Nếu không, máy có thể chờ nước ở đầu không có nguồn và báo lỗi cấp nước dù đầu kia vẫn thông.
+
+    ## Sáu bước kiểm tra
+
+    1. Mở vòi gần đó, xác nhận nhà có nước và áp lực bình thường.
+    2. Kiểm tra van khoá cấp cho máy đã mở hết.
+    3. Nhìn dọc ống cấp: có gập, có bị đè không.
+    4. Khoá van, rút phích, tháo đầu nối và vệ sinh lưới lọc.
+    5. Lắp lại, mở van, chạy thử một chu trình ngắn.
+    6. Đọc mã lỗi nếu màn hình hiển thị, ghi lại nguyên văn.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã khoá van và rút phích, tháo đầu nối ống cấp nước phía sau máy giặt -->
+
+    ## Khi nào cần kỹ thuật viên?
+
+    - Nhà có nước, van mở hết, lưới lọc sạch mà máy vẫn không cấp.
+    - Nghe tiếng "tách" của van điện từ nhưng nước không vào.
+    - Máy báo mã lỗi cấp nước lặp lại sau khi đã làm đủ sáu bước.
+    - Nước rỉ ở khu vực đầu nối sau khi lắp lại.
+    - Máy cấp nước không ngừng, tràn ra khỏi lồng.
+
+    Trường hợp cuối cần rút phích và khoá van ngay, vì đó có thể là van điện từ kẹt mở hoặc cảm biến mực nước hỏng.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh kiểm tra van cấp nước điện từ bên trong máy giặt đã mở nắp lưng, tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: model máy, mã lỗi nếu có, nhà có nước bình thường không, và sau khi vệ sinh lưới lọc thì tình hình có cải thiện không. Kỹ thuật viên Ficool tại TP.HCM sẽ dựa vào đó để định hướng. Riêng câu thứ tư thường quyết định luôn: cải thiện nghĩa là chuyện đường nước, không cải thiện nghĩa là chuyện bên trong máy.
+
+    Nếu máy cấp được nước nhưng lại không thoát, xem <!-- INTERNAL: máy giặt không xả nước | /may-giat-khong-xa-nuoc/ -->. Nếu có nước rỉ quanh chân máy, đọc <!-- INTERNAL: máy giặt bị rò nước | /may-giat-bi-ro-nuoc/ -->. Vệ sinh định kỳ cũng gồm kiểm tra lưới lọc đầu cấp, xem <!-- INTERNAL: vệ sinh máy giặt tại nhà | /ve-sinh-may-giat-tai-nha/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy giặt cấp nước yếu dần là do đâu?
+
+    Nguyên nhân phổ biến nhất là lưới lọc trong đầu nối ống cấp bị nghẹt dần bởi cặn vôi và rỉ sét từ đường ống. Đây là chi tiết nhỏ nằm ngay trong đầu nối phía máy, và bạn tự vệ sinh được sau khi khoá van cùng rút phích cắm.
+
+    ### Vệ sinh lưới lọc đầu cấp nước máy giặt thế nào?
+
+    Khoá van nước, rút phích cắm, chuẩn bị khăn rồi tháo đầu ống cấp phía máy. Dùng nhíp gắp lưới lọc ra, rửa dưới vòi và chải nhẹ phần cặn bám. Lắp lại đúng chiều, siết vừa tay, sau đó mở van và kiểm tra chỗ nối không bị rỉ.
+
+    ### Vì sao máy giặt báo lỗi cấp nước dù nhà vẫn có nước?
+
+    Vì máy cần một mức áp lực tối thiểu để van cấp mở được, chứ không chỉ cần có nước. Van khoá mở hé, áp lực yếu do bồn chứa đặt thấp, hoặc lưới lọc nghẹt đều làm dòng chảy không đạt mức đó. Kiểm ba thứ này trước khi nghĩ tới hỏng van điện từ.
+
+    ### Máy giặt cấp nước không ngừng thì làm gì?
+
+    Rút phích cắm và khoá van nước ngay. Đây có thể là van điện từ kẹt ở trạng thái mở hoặc cảm biến mực nước hỏng, và cả hai đều cần kỹ thuật viên. Đừng chạy tiếp chu trình để xem có tự hết không.
+
+    ### Ficool có kiểm tra lỗi cấp nước máy giặt tại TP.HCM không?
+
+    Có. Bạn gửi model, mã lỗi, tình trạng nước của nhà và kết quả sau khi vệ sinh lưới lọc. Kỹ thuật viên Ficool sẽ định hướng trước khi tới, và nhiều trường hợp bạn tự xử lý được. Chi phí phụ thuộc loại máy cùng tình trạng thực tế, được thống nhất trước khi làm.
+  seo:
+    tieu_de: 'Máy giặt không cấp nước: nguyên nhân và cách kiểm tra'
+    mo_ta: >-
+      Kiểm theo chiều nước vào: van khoá, áp lực nước, ống cấp và lưới lọc đầu
+      nối. Lưới lọc nghẹt là nguyên nhân phổ biến của cấp nước yếu dần.
+    slug: may-giat-khong-cap-nuoc
+    tu_khoa_phu:
+    - máy giặt vào nước chậm
+    - máy giặt báo lỗi cấp nước
+    - máy giặt không vào nước
