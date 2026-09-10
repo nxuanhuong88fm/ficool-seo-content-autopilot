@@ -1,0 +1,143 @@
+chu_de:
+  id: TL-07
+  tieu_de: 'Hai bên tủ lạnh nóng: Khi nào bình thường, khi nào bất thường?'
+  tu_khoa_chinh: tủ lạnh nóng hai bên
+  chuyen_muc: Tủ lạnh
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Hai bên hông tủ lạnh ấm hoặc nóng lên khi máy chạy là hiện tượng theo thiết
+    kế ở nhiều model hiện nay, và việc không biết điều này khiến người dùng lo
+    lắng không cần thiết. Nguyên nhân: để làm mỏng vỏ tủ và tăng dung tích bên
+    trong, nhiều nhà sản xuất bố trí một phần ống dàn ngưng chạy dọc trong thành
+    hông thay vì đặt toàn bộ dàn ngưng ở lưng tủ. Ống này mang môi chất nóng đi
+    qua để thải nhiệt ra vỏ, nên thành hông ấm lên là dấu hiệu hệ thống đang
+    hoạt động. Một số model còn có ống chống đọng sương chạy quanh viền cửa hoặc
+    quanh vách ngăn giữa hai ngăn, làm khu vực đó ấm hơn để tránh hơi nước ngưng
+    tụ. Mức nhiệt bình thường là ấm tới hơi nóng khi chạm tay, và giảm xuống khi
+    block nghỉ. Dấu hiệu bất thường gồm: nóng tới mức không chạm tay lâu được;
+    nóng nhưng tủ không lạnh hoặc lạnh yếu; nóng kèm block chạy liên tục không
+    nghỉ; nóng kèm tiếng lạ hoặc mùi khét; và nóng tập trung ở một điểm nhỏ thay
+    vì trải đều. Các yếu tố làm tình trạng nặng thêm mà người dùng kiểm được:
+    tủ kê sát tường hoặc sát tủ bếp không đủ khoảng hở tản nhiệt; kê trong hốc
+    kín; nhiệt độ phòng cao; dàn nóng ở lưng bám bụi dày; và đặt vật che chắn
+    hai bên hông. Về an toàn, không nên phủ khăn hay đặt vật liệu cách nhiệt lên
+    hai bên hông với ý định giảm nóng, vì việc đó chặn đúng con đường thoát
+    nhiệt và làm block phải chạy nhiều hơn.
+  nguon:
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Hai bên tủ lạnh nóng: Khi nào bình thường, khi nào bất thường?
+
+    Hai bên hông tủ ấm hoặc hơi nóng khi máy chạy là hiện tượng **theo thiết kế** ở nhiều model hiện nay. Nhiều nhà sản xuất cho một phần ống dàn ngưng chạy dọc trong thành hông để thải nhiệt qua vỏ, nên hông ấm lên chính là dấu hiệu hệ thống đang làm việc.
+
+    <!-- IMAGE: IMG-001 | Người dùng đặt lòng bàn tay lên thành hông tủ lạnh trong bếp để kiểm tra độ nóng -->
+
+    ## Vì sao thành hông lại nóng?
+
+    Tủ lạnh phải thải nhiệt ra ngoài. Cách cũ là đặt toàn bộ dàn ngưng ở lưng tủ, thành một lưới ống đen nhìn thấy được.
+
+    Nhiều model hiện nay bố trí **một phần ống dàn ngưng chạy dọc trong thành hông**. Lý do: vỏ mỏng hơn, dung tích bên trong lớn hơn với cùng kích thước ngoài. Ống mang môi chất nóng đi qua, và thành hông ấm lên là hệ quả trực tiếp.
+
+    Một số model còn có ống chống đọng sương chạy quanh viền cửa hoặc quanh vách ngăn giữa hai ngăn, làm khu vực đó ấm hơn để hơi nước không ngưng tụ.
+
+    ## Thế nào là bình thường?
+
+    | Dấu hiệu | Bình thường |
+    |---|---|
+    | Mức nhiệt | Ấm tới hơi nóng khi chạm tay |
+    | Phân bố | Trải đều dọc thành hông |
+    | Theo chu kỳ | Giảm xuống khi block nghỉ |
+    | Kèm theo | Tủ vẫn lạnh bình thường |
+
+    Nếu cả bốn dòng đều đúng với tủ nhà bạn, đây là hoạt động theo thiết kế.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh khe hẹp giữa thành hông tủ lạnh và tủ bếp liền kề, không đủ khoảng hở tản nhiệt -->
+
+    ## Năm dấu hiệu bất thường
+
+    - **Nóng tới mức không chạm tay lâu được.**
+    - **Nóng nhưng tủ không lạnh hoặc lạnh yếu.**
+    - **Nóng kèm block chạy liên tục không nghỉ.**
+    - **Nóng kèm tiếng lạ hoặc mùi khét.**
+    - **Nóng tập trung ở một điểm nhỏ** thay vì trải đều.
+
+    Dấu hiệu thứ hai là dấu hiệu rõ nhất: vỏ nóng nghĩa là hệ thống đang thải nhiệt, mà bên trong không lạnh nghĩa là nhiệt đó không đến từ việc làm lạnh hiệu quả.
+
+    ## Năm thứ làm tình trạng nặng thêm
+
+    Đây là phần bạn kiểm và xử lý được:
+
+    1. **Tủ kê sát tường hoặc sát tủ bếp.** Nhiệt không có chỗ thoát.
+    2. **Kê trong hốc kín.** Không có đối lưu không khí.
+    3. **Nhiệt độ phòng cao.** Bếp nóng buổi trưa làm mọi thứ nặng hơn.
+    4. **Dàn nóng ở lưng bám bụi dày.**
+    5. **Vật che chắn hai bên hông.** Thùng, giỏ, bao đặt sát tủ.
+
+    Hãy chừa khoảng hở quanh tủ theo hướng dẫn của hãng, và giữ khu vực đó thoáng.
+
+    ## Điều không nên làm
+
+    **Không phủ khăn hoặc đặt vật liệu cách nhiệt lên hai bên hông** với ý định giảm nóng.
+
+    Việc đó chặn đúng con đường thoát nhiệt. Nhiệt không thoát được thì áp suất trong hệ thống tăng, block phải chạy nhiều hơn, tủ kém lạnh hơn và tốn điện hơn. Cảm giác "đỡ nóng khi sờ" đổi lấy một hệ thống làm việc nặng hơn.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, dùng thước đo khoảng hở giữa lưng tủ lạnh và bức tường phía sau -->
+
+    ## Khi nào cần kỹ thuật viên?
+
+    - Nóng bất thường kèm tủ không đủ lạnh.
+    - Nóng kèm block chạy liên tục.
+    - Nóng tập trung một điểm.
+    - Có mùi khét.
+    - Đã chừa khoảng thoáng và vệ sinh dàn nóng mà tình trạng không đổi.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh kiểm tra dàn ngưng và block phía sau tủ lạnh đã kéo ra khỏi tường -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: model tủ, tủ có còn lạnh bình thường không, nóng đều dọc hông hay tập trung một điểm, và khoảng hở quanh tủ hiện là bao nhiêu. Kỹ thuật viên Ficool tại TP.HCM sẽ nói ngay trường hợp của bạn thuộc nhóm bình thường hay cần kiểm tra, và phần lớn câu hỏi loại này trả lời được mà không cần tới nhà.
+
+    Nếu tủ nóng kèm lạnh yếu, đọc <!-- INTERNAL: tủ lạnh không lạnh | /tu-lanh-khong-lanh/ -->. Nếu block chạy không nghỉ, xem <!-- INTERNAL: tủ lạnh chạy liên tục | /tu-lanh-chay-lien-tuc/ -->. Vệ sinh dàn nóng định kỳ là việc đơn giản mà hiệu quả, xem <!-- INTERNAL: cách vệ sinh tủ lạnh | /cach-ve-sinh-tu-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Hai bên hông tủ lạnh nóng có phải hỏng không?
+
+    Thường là không. Nhiều model hiện nay cho một phần ống dàn ngưng chạy dọc trong thành hông để thải nhiệt qua vỏ, nên hông ấm lên là dấu hiệu hệ thống đang hoạt động. Chỉ đáng lo nếu nóng kèm tủ không lạnh, hoặc nóng tập trung ở một điểm.
+
+    ### Nóng tới mức nào thì là bất thường?
+
+    Ấm tới hơi nóng khi chạm tay là bình thường, và mức nhiệt phải giảm xuống khi block nghỉ. Nóng tới mức không chạm tay lâu được, hoặc nóng liên tục không theo chu kỳ, là dấu hiệu nên kiểm tra.
+
+    ### Có nên phủ khăn lên hai bên hông tủ lạnh cho đỡ nóng không?
+
+    Không. Phủ khăn hoặc đặt vật liệu cách nhiệt chặn đúng con đường thoát nhiệt. Hậu quả là áp suất trong hệ thống tăng, block chạy nhiều hơn, tủ kém lạnh hơn và tốn điện hơn. Cách đúng là chừa khoảng hở và giữ khu vực thoáng.
+
+    ### Vì sao viền cửa tủ lạnh cũng ấm?
+
+    Một số model có ống chống đọng sương chạy quanh viền cửa hoặc quanh vách ngăn giữa hai ngăn, giữ khu vực đó ấm hơn để hơi nước không ngưng tụ thành giọt. Đây là thiết kế có chủ đích chứ không phải hỏng hóc.
+
+    ### Ficool có kiểm tra tủ lạnh nóng bất thường tại TP.HCM không?
+
+    Có. Bạn gửi model, cho biết tủ có còn lạnh bình thường không, nóng đều hay tập trung một điểm, và khoảng hở quanh tủ. Kỹ thuật viên Ficool sẽ nói ngay trường hợp của bạn thuộc nhóm nào. Chi phí nếu cần tới nơi được thống nhất trước.
+  seo:
+    tieu_de: Hai bên tủ lạnh nóng, khi nào bình thường khi nào không?
+    mo_ta: >-
+      Ống dàn ngưng chạy trong thành hông làm tủ ấm lên theo thiết kế. Bốn dấu
+      hiệu bình thường, năm dấu hiệu bất thường và điều không nên làm.
+    slug: tu-lanh-nong-hai-ben
+    tu_khoa_phu:
+    - tủ lạnh nóng vỏ
+    - thành tủ lạnh nóng
+    - tủ lạnh nóng bên hông
