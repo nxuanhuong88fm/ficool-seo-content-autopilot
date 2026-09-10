@@ -1,164 +1,139 @@
 chu_de:
   id: ML-01
-  tieu_de: Máy lạnh chảy nước trong nhà
-  tu_khoa_chinh: máy lạnh chảy nước trong nhà
+  tieu_de: 'Máy lạnh không lạnh: Nguyên nhân, cách kiểm tra ban đầu và khi nào cần gọi thợ'
+  tu_khoa_chinh: máy lạnh không lạnh
   chuyen_muc: Máy lạnh
   the:
-  - lỗi thường gặp
-  giai_doan_phieu: problem_aware
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
   loai_noi_dung: troubleshooting
 
 nghien_cuu:
-  van_ban: |
-    Cơ chế: dàn lạnh làm hơi ẩm trong không khí ngưng tụ thành nước. Nước rơi xuống máng hứng
-    rồi theo ống thoát ra ngoài. Bất cứ thứ gì chặn dòng đó đều làm nước tràn vào nhà.
-
-    Bốn nhóm nguyên nhân được cả Trane và Carrier nêu trùng nhau:
-    (1) ống thoát nước bị nghẹt do bụi, nấm mốc, mạng nhện tích tụ khi không vệ sinh định kỳ;
-    (2) máng hứng nước bị nứt hoặc ăn mòn theo thời gian, nước rỉ thẳng xuống sàn;
-    (3) dàn lạnh đóng băng rồi tan ra, lượng nước vượt quá sức chứa của máng — thường do lọc
-    gió bẩn làm nghẽn luồng khí, hoặc do thiếu gas;
-    (4) dàn nóng hỏng, kéo theo mất cân bằng cả hệ.
-
-    Việc người dùng tự làm được: kiểm tra và thay lọc gió, giữ khu vực quanh máng sạch, quan
-    sát ống thoát. Việc phải để kỹ thuật viên: xử lý dàn đóng băng, máng nứt, và mọi thứ liên
-    quan tới gas hoặc mạch điện. Cả hai nguồn đều khuyên NGẮT MÁY trước khi kiểm tra, vì để
-    máy chạy tiếp làm nước tràn thêm.
-
-    Lưu ý riêng cho TP.HCM: khí hậu nóng ẩm quanh năm nên lượng nước ngưng tụ lớn và bụi tích
-    nhanh hơn vùng khô. Nhà ống và chung cư thường đặt dàn lạnh ở vị trí khó với tới.
+  van_ban: >-
+    Máy lạnh chạy nhưng không làm lạnh là nhóm triệu chứng có nhiều nguyên nhân
+    khác nhau, và phần lớn không phải hết gas. Bốn nhóm nguyên nhân thường gặp:
+    (1) cài đặt sai chế độ — remote đang ở Fan hoặc Dry thay vì Cool, hoặc nhiệt
+    độ đặt cao hơn nhiệt độ phòng; (2) dòng khí bị cản — lưới lọc bám bụi dày,
+    dàn lạnh bẩn, dàn nóng bị che chắn hoặc đặt sát tường; (3) nguồn điện và
+    thiết bị bảo vệ — điện áp thấp, CB ngắt, tụ khởi động dàn nóng hỏng khiến
+    block không chạy; (4) hệ thống gas — rò rỉ tại mối nối hoặc ống đồng, dấu
+    hiệu điển hình là dàn lạnh đóng tuyết cục bộ hoặc ống đồng đọng sương bất
+    thường. Các tài liệu kỹ thuật của nhà sản xuất đều khuyến cáo người dùng chỉ
+    tự thực hiện các bước kiểm tra không cần mở vỏ máy: kiểm tra remote, kiểm
+    tra CB, tháo lưới lọc rửa sạch, dọn vật cản quanh dàn nóng. Các thao tác
+    liên quan tới điện bên trong, gas, tụ điện hoặc block đều cần thợ có chuyên
+    môn vì có rủi ro điện giật và làm hỏng nặng thêm. Một chi tiết quan trọng để
+    phân biệt: nếu dàn nóng không chạy (không nghe tiếng block, quạt không quay)
+    thì vấn đề nghiêng về điện hoặc tụ; nếu dàn nóng chạy nhưng gió ra không mát
+    thì nghiêng về gas hoặc tắc nghẽn dòng khí. Gas máy lạnh không tiêu hao
+    trong quá trình sử dụng bình thường — nó chỉ giảm khi có rò rỉ, nên "nạp gas
+    định kỳ" là quan niệm sai.
   nguon:
-  - url: https://www.trane.com/residential/en/resources/troubleshooting/air-conditioners/ac-leaking-water/
-    title: 'Trane — AC Leaking Water? Find Out Why and What to Do'
-  - url: https://www.carrier.com/us/en/residential/hvac-resources/air-conditioners/why-is-my-ac-leaking-water/
-    title: 'Carrier — Why Is My AC Leaking Water?'
-  - url: https://www.hvac.com/expert-advice/ac-leaking-water/
-    title: 'HVAC.com — Why Is Your AC Leaking Water? Common Causes and Solutions'
+  - url: https://www.energy.gov/energysaver/air-conditioning
+    title: U.S. Department of Energy — Air Conditioning
+  - url: https://www.daikin.com.vn/vi/support/faq/
+    title: Daikin Việt Nam — Câu hỏi thường gặp về điều hoà
   serp: []
 
 bai_viet:
-  seo:
-    tieu_de: 'Máy lạnh chảy nước trong nhà: nguyên nhân và xử lý'
-    mo_ta: Máy lạnh chảy nước trong nhà thường do ống thoát nghẹt hoặc máng hứng hỏng. Cách nhận
-      biết, các bước kiểm tra an toàn và khi nào nên gọi kỹ thuật viên.
-    slug: may-lanh-chay-nuoc-trong-nha
-    tu_khoa_phu:
-    - máy lạnh nhỏ giọt
-    - dàn lạnh chảy nước
-    - ống thoát nước máy lạnh bị nghẹt
   than: |
-    # Máy lạnh chảy nước trong nhà: nguyên nhân và cách xử lý
+    # Máy lạnh không lạnh: Nguyên nhân, cách kiểm tra ban đầu và khi nào cần gọi thợ
 
-    Máy lạnh chảy nước trong nhà gần như luôn là lỗi đường thoát nước ngưng tụ, không phải lỗi gas. Ngắt điện máy trước, rồi kiểm tra máng hứng và ống thoát — hai chỗ này chiếm phần lớn các ca.
+    Máy lạnh chạy nhưng không lạnh thường đến từ bốn nhóm nguyên nhân: cài đặt sai chế độ, lưới lọc và dàn bị bẩn làm nghẽn dòng khí, nguồn điện hoặc tụ dàn nóng có vấn đề, và rò rỉ gas. Bạn tự kiểm tra được ba nhóm đầu trong khoảng mười phút mà không cần mở vỏ máy.
 
-    <!-- IMAGE: IMG-001 -->
+    <!-- IMAGE: IMG-001 | Kỹ thuật viên đứng trước dàn lạnh treo tường trong phòng khách, tay cầm remote kiểm tra chế độ và nhiệt độ đặt -->
 
-    ## Nước đó từ đâu ra?
+    ## Vì sao máy vẫn chạy mà gió ra không mát?
 
-    Máy lạnh không tạo ra nước. Nó lấy hơi ẩm sẵn có trong không khí phòng bạn.
+    Điểm dễ nhầm nhất là gộp mọi trường hợp vào một nguyên nhân duy nhất — hết gas. Thực tế gas máy lạnh không hao trong quá trình dùng bình thường. Nó chỉ giảm khi có rò rỉ tại mối nối hoặc ống đồng. Vì vậy "nạp gas định kỳ" là một quan niệm sai, và nạp thêm gas vào một hệ thống đang rò chỉ giải quyết triệu chứng trong vài tuần.
 
-    Khi luồng khí ấm đi qua dàn lạnh, hơi ẩm gặp bề mặt lạnh và ngưng tụ thành giọt. Giọt nước rơi xuống máng hứng đặt ngay dưới dàn. Từ máng, nước chảy theo một ống nhựa ra ngoài trời.
+    Cách khoanh vùng nhanh là nghe dàn nóng. Ra chỗ đặt dàn nóng, để ý hai thứ:
 
-    Đó là hoạt động bình thường. Một máy lạnh chạy vài giờ ở TP.HCM có thể sinh ra khá nhiều nước ngưng, vì độ ẩm ngoài trời cao quanh năm.
+    - **Dàn nóng không chạy** — không nghe tiếng block, cánh quạt đứng yên. Nguyên nhân nghiêng về nguồn điện, CB, hoặc tụ khởi động.
+    - **Dàn nóng chạy nhưng gió trong nhà vẫn không mát** — nghiêng về nghẽn dòng khí hoặc thiếu gas.
 
-    Sự cố xuất hiện khi dòng nước đó bị chặn ở đâu đó. Nước không thoát kịp thì dâng lên rồi tràn ra mép máng, nhỏ xuống tường hoặc sàn.
+    Một quan sát đó đã cắt đôi danh sách nguyên nhân.
 
-    Nói cách khác: nước không phải vấn đề. Đường đi của nước mới là vấn đề.
+    <!-- IMAGE: IMG-002 | Cận cảnh lưới lọc dàn lạnh phủ lớp bụi dày, một nửa đã tháo rời khỏi máy -->
 
-    <!-- IMAGE: IMG-002 -->
+    ## Bốn nhóm nguyên nhân thường gặp
 
-    ## Những nguyên nhân nào thường gặp nhất?
-
-    Tài liệu kỹ thuật của các hãng lớn nêu bốn nhóm nguyên nhân trùng nhau.
-
-    | Nguyên nhân | Dấu hiệu đi kèm | Tự xử lý được? |
+    | Nhóm | Dấu hiệu đi kèm | Tự xử lý được? |
     |---|---|---|
-    | Ống thoát nước bị nghẹt | Nước nhỏ đều, tăng dần theo ngày | Một phần |
-    | Máng hứng nứt hoặc ăn mòn | Nước rỉ ngay dưới thân máy | Không |
-    | Dàn lạnh đóng băng rồi tan | Nước chảy thành đợt, máy kém lạnh | Không |
-    | Lắp đặt sai độ dốc | Chảy ngay từ những ngày đầu dùng | Không |
+    | Cài đặt sai chế độ | Remote ở Fan hoặc Dry, nhiệt độ đặt cao hơn phòng | Được |
+    | Nghẽn dòng khí | Lưới lọc bám bụi, gió yếu, dàn nóng bị che | Được phần vệ sinh cơ bản |
+    | Điện và tụ dàn nóng | Dàn nóng im, CB nhảy, đèn báo nhấp nháy | Không |
+    | Rò rỉ gas | Dàn lạnh đóng tuyết cục bộ, ống đồng đọng sương lạ | Không |
 
-    Nhóm hay gặp nhất là ống thoát bị nghẹt. Bụi, nấm mốc và mạng nhện tích tụ dần trong lòng ống khi máy không được vệ sinh định kỳ. Ở TP.HCM, bụi bám nhanh hơn nhiều vùng khác.
+    Hai nhóm cuối cần thợ, không phải vì phức tạp mà vì chúng liên quan tới điện bên trong máy và tới hệ thống kín chứa môi chất lạnh.
 
-    Nhóm thứ hai là máng hứng. Máng bằng nhựa hoặc kim loại đều xuống cấp theo thời gian. Máng nứt thì nước rỉ thẳng xuống, không đi qua ống thoát nữa.
+    ## Cách kiểm tra ban đầu, làm được tại nhà
 
-    Nhóm thứ ba đáng chú ý hơn cả. Dàn lạnh đóng băng rồi tan ra sẽ đổ một lượng nước vượt sức chứa của máng. Nguyên nhân phía sau thường là lọc gió quá bẩn làm nghẽn luồng khí, hoặc lượng gas trong hệ thống xuống thấp.
+    Làm lần lượt, dừng lại ngay khi máy lạnh trở lại bình thường.
 
-    Đây là điểm dễ nhầm. Nhiều người thấy máy chảy nước liền nghĩ ngay tới nạp gas. Thực tế thiếu gas chỉ là một trong nhiều khả năng, và nó thường đi kèm dấu hiệu máy kém lạnh rõ rệt.
+    1. **Kiểm tra remote.** Đặt về chế độ Cool, hạ nhiệt độ xuống 24 độ, quạt để mức cao. Nếu màn hình remote mờ hoặc không phản hồi, thay pin trước khi kết luận máy hỏng.
+    2. **Kiểm tra CB.** Xem CB riêng của máy lạnh đã bật chưa. Nếu vừa bật lại mà nhảy tiếp, dừng ở đây và gọi thợ. CB nhảy lặp lại là dấu hiệu chập hoặc quá tải.
+    3. **Rửa lưới lọc.** Mở nắp dàn lạnh, rút hai tấm lưới lọc, rửa nước sạch, để khô hoàn toàn rồi lắp lại. Đây là nguyên nhân phổ biến nhất khiến gió yếu và phòng lâu mát.
+    4. **Dọn quanh dàn nóng.** Dàn nóng cần khoảng trống để thải nhiệt. Dời đồ đạc che chắn, cắt cây leo, kiểm tra xem có vật gì chắn trước mặt quạt không.
+    5. **Chờ và đo lại.** Đóng cửa phòng, chạy 20 tới 30 phút, rồi so nhiệt độ trong phòng với nhiệt độ đặt trên remote.
 
-    Nhóm thứ tư liên quan tới lắp đặt. Dàn lạnh phải hơi nghiêng về phía ống thoát để nước tự chảy. Lắp cân bằng hoặc nghiêng ngược thì nước đọng lại trong máng.
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt CB, đang mở nắp dàn lạnh để kiểm tra khoang lọc gió -->
 
-    ## Kiểm tra tại nhà thế nào cho an toàn?
+    ## Khi nào nên dừng và gọi kỹ thuật viên?
 
-    Bạn tự làm được vài bước đầu. Những bước sau cần dụng cụ và kinh nghiệm.
+    Dừng tự xử lý khi gặp bất kỳ dấu hiệu nào sau đây:
 
-    1. Ngắt nguồn điện của máy tại aptomat, không chỉ tắt bằng điều khiển. Chờ vài phút cho máy dừng hẳn rồi mới chạm vào bất cứ bộ phận nào.
-    2. Hứng một chậu dưới chỗ đang nhỏ giọt để nước không thấm vào tường hay sàn gỗ.
-    3. Mở mặt nạ dàn lạnh, rút tấm lọc gió ra xem. Lọc gió đóng bụi dày là dấu hiệu rất phổ biến và bạn rửa sạch được bằng nước.
-    4. Quan sát máng hứng bên dưới dàn. Máng đọng bụi, rêu hoặc có vết nứt đều thấy được bằng mắt thường.
-    5. Lần theo ống thoát nước ra tới điểm xả ngoài trời. Ống bị gấp khúc, bị vật nặng đè, hoặc đầu ra bị bít đều làm nước dội ngược.
-    6. Lắp lại mặt nạ, bật máy và theo dõi khoảng một giờ.
+    - CB nhảy lại sau khi bật.
+    - Dàn lạnh đóng tuyết ở một mảng, hoặc ống đồng đọng sương bất thường.
+    - Dàn nóng không chạy dù đã có điện.
+    - Có mùi khét, tiếng va đập kim loại, hoặc nước rỉ ra thân máy.
+    - Đã làm đủ năm bước trên mà phòng vẫn không mát.
 
-    <!-- IMAGE: IMG-003 -->
+    Ba trường hợp đầu liên quan tới điện và môi chất lạnh. Tự mở máy trong các tình huống đó có rủi ro điện giật, và thao tác sai với hệ thống gas làm hỏng nặng thêm phần vốn còn sửa được.
 
-    Nếu sau khi làm sạch lọc gió mà nước vẫn chảy, nguyên nhân nằm sâu hơn trong hệ thống.
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh đang đo thông số tại dàn nóng đặt ngoài ban công một căn hộ -->
 
-    Tham khảo <!-- INTERNAL: bảng giá dịch vụ | /bang-gia/ --> để hình dung phạm vi công việc trước khi quyết định.
+    ## Chuẩn bị gì trước khi gọi thợ?
 
-    ## Khi nào nên gọi kỹ thuật viên?
+    Mô tả càng cụ thể thì việc khoanh vùng càng nhanh, và bạn càng đỡ mất thời gian chờ. Chuẩn bị sẵn bốn thứ:
 
-    Có ranh giới khá rõ giữa việc tự làm và việc nên giao cho thợ.
+    - Model máy, ghi trên tem dán ở hông dàn lạnh hoặc mặt dàn nóng.
+    - Triệu chứng: dàn nóng có chạy không, gió có ra không, có đóng tuyết không.
+    - Mã lỗi nếu đèn báo nhấp nháy theo nhịp.
+    - Lần vệ sinh gần nhất cách đây bao lâu.
 
-    Hãy dừng lại và gọi kỹ thuật viên nếu bạn gặp một trong các tình huống sau:
+    Ficool nhận mô tả kèm ảnh để định hướng bước kiểm tra trước khi tới nhà, tại TP.HCM. Nếu triệu chứng nghiêng về điện hoặc gas, kỹ thuật viên sẽ nói rõ ngay từ đầu thay vì để bạn tự đoán.
 
-    - Dàn lạnh có lớp băng hoặc tuyết bám trên bề mặt
-    - Máng hứng nứt, thủng hoặc rỉ sét
-    - Nước chảy kèm mùi khét, tiếng kêu lạ, hoặc máy tự ngắt
-    - Máy vừa chảy nước vừa kém lạnh rõ rệt
-    - Dàn lạnh treo cao, phải dùng thang mới với tới
-    - Máy mới lắp đã chảy nước ngay
-
-    Ba tình huống đầu liên quan tới gas hoặc điện. Đó là phần việc cần dụng cụ đo và hiểu biết chuyên môn, không nên thử tại nhà.
-
-    Ficool nhận kiểm tra và xử lý máy lạnh chảy nước tại TP.HCM. Kỹ thuật viên kiểm tra trước, nói rõ tình trạng, rồi mới báo phạm vi công việc.
-
-    <!-- IMAGE: IMG-004 -->
-
-    ## Làm gì để không lặp lại?
-
-    Phần lớn ca chảy nước bắt nguồn từ việc bỏ bê vệ sinh, nên phòng dễ hơn chữa.
-
-    - Rửa lọc gió theo chu kỳ nhà sản xuất ghi trong sách hướng dẫn
-    - Vệ sinh máy định kỳ, đừng đợi tới lúc có sự cố
-    - Giữ đầu ra ống thoát thông thoáng, không để vật cản che
-    - Chú ý khi máy bắt đầu kém lạnh — đó thường là dấu hiệu sớm
-
-    Nhà ở TP.HCM dùng máy lạnh gần như quanh năm, nên chu kỳ vệ sinh thường ngắn hơn khuyến nghị chung. Môi trường nhiều bụi thì rút ngắn thêm.
-
-    Xem thêm <!-- INTERNAL: dịch vụ vệ sinh máy lạnh | /dich-vu/ve-sinh-may-lanh/ --> nếu bạn muốn xử lý gốc thay vì chỉ chặn triệu chứng.
+    Nếu máy vẫn còn mát nhưng yếu dần theo thời gian, phần lớn là chuyện vệ sinh chứ không phải hỏng, xem <!-- INTERNAL: bao lâu nên vệ sinh máy lạnh một lần | /bao-lau-ve-sinh-may-lanh/ -->. Còn nếu bạn đang nghi hết gas, đọc <!-- INTERNAL: máy lạnh có cần nạp gas định kỳ không | /may-lanh-co-can-nap-gas-dinh-ky/ --> trước khi quyết định nạp. Muốn biết một lần vệ sinh gồm những hạng mục nào và hỏi báo giá ra sao, xem <!-- INTERNAL: giá vệ sinh máy lạnh gồm những gì | /gia-ve-sinh-may-lanh/ -->.
 
     ## Câu hỏi thường gặp (FAQ)
 
-    ### Máy lạnh chảy nước trong nhà có tự hết không?
+    ### Máy lạnh không lạnh có phải lúc nào cũng do hết gas?
 
-    Hiện tượng này hiếm khi tự hết, vì nguyên nhân thường là tắc nghẽn cơ học hoặc hư hỏng vật lý. Để nguyên thì nước tiếp tục thấm vào tường, trần thạch cao hoặc sàn gỗ. Chi phí xử lý phần hư hỏng do nước thường lớn hơn chi phí sửa chính cái máy.
+    Không. Gas máy lạnh không tiêu hao khi sử dụng bình thường, nó chỉ giảm khi hệ thống bị rò rỉ. Nguyên nhân phổ biến hơn nhiều là lưới lọc bẩn, dàn nóng bị che chắn, hoặc remote đang đặt sai chế độ. Nên kiểm tra ba nhóm đó trước khi nghĩ tới gas.
 
-    ### Máy lạnh chảy nước có phải do thiếu gas không?
+    ### Tự rửa lưới lọc máy lạnh có an toàn không?
 
-    Thiếu gas là một khả năng, nhưng không phải khả năng phổ biến nhất. Thiếu gas làm dàn lạnh đóng băng, băng tan ra rồi tràn khỏi máng. Dấu hiệu đi kèm thường rất rõ: máy chạy liên tục mà phòng vẫn không mát. Nếu máy vẫn lạnh bình thường thì nên nghi ống thoát trước.
+    Có, nếu bạn ngắt CB trước khi mở nắp và chỉ tháo đúng hai tấm lưới lọc. Rửa bằng nước sạch, để khô hoàn toàn rồi mới lắp lại. Không xịt nước vào bên trong dàn lạnh và không tháo các bộ phận khác, phần đó cần dụng cụ và chuyên môn.
 
-    ### Tự thông ống thoát nước tại nhà có được không?
+    ### Vì sao dàn lạnh bị đóng tuyết?
 
-    Bạn có thể kiểm tra đầu ra ống và gỡ vật cản nhìn thấy được sau khi đã ngắt điện. Việc thổi thông toàn bộ đường ống hoặc tháo dàn lạnh thì nên để kỹ thuật viên làm. Thao tác sai dễ làm nứt ống hoặc lệch máng, biến một sự cố nhỏ thành sự cố lớn.
+    Đóng tuyết ở dàn lạnh thường là dấu hiệu dòng khí qua dàn quá yếu hoặc lượng môi chất lạnh không đủ. Cả hai đều khiến nhiệt độ bề mặt dàn xuống dưới điểm đóng băng. Nếu thấy tuyết bám thành mảng, tắt máy và gọi kỹ thuật viên thay vì tiếp tục chạy.
 
-    ### Có nên tiếp tục dùng máy khi đang chảy nước không?
+    ### Bao lâu sau khi bật thì máy lạnh phải mát?
 
-    Nên ngắt máy cho tới khi tìm ra nguyên nhân. Máy chạy tiếp nghĩa là nước tiếp tục sinh ra và tiếp tục tràn. Nếu nước nhỏ gần ổ điện hoặc thiết bị điện tử, hãy ngắt aptomat ngay thay vì chỉ tắt điều khiển.
+    Với phòng đóng kín và máy đúng công suất, bạn cảm nhận được chênh lệch rõ trong khoảng 15 tới 30 phút. Nếu sau 30 phút phòng vẫn không mát dù remote đặt 24 độ ở chế độ Cool, đó là lúc nên kiểm tra theo năm bước ở trên.
 
-    ### Bao lâu nên vệ sinh máy lạnh một lần?
+    ### Ficool có kiểm tra tại nhà ở TP.HCM không?
 
-    Chu kỳ phụ thuộc tần suất sử dụng và mức độ bụi nơi lắp đặt. Hãy lấy khuyến nghị trong sách hướng dẫn của máy làm mốc, rồi rút ngắn lại nếu nhà bạn nhiều bụi hoặc máy chạy gần như cả ngày. Ở TP.HCM, máy hoạt động quanh năm nên chu kỳ thường ngắn hơn mốc chung.
-
-    ## Cần kiểm tra tận nơi?
-
-    Nếu đã làm hết các bước trên mà nước vẫn chảy, nguyên nhân nằm ở phần cần tháo lắp hoặc đo đạc. Bạn <!-- INTERNAL: đặt lịch với Ficool | /lien-he/ --> để kỹ thuật viên xem trực tiếp tình trạng máy tại nhà.
+    Có. Bạn gửi model máy và mô tả triệu chứng trước, kỹ thuật viên Ficool sẽ định hướng bước kiểm tra và cho biết trường hợp của bạn có cần tới tận nơi hay không. Phạm vi và chi phí phụ thuộc công suất máy cùng tình trạng thực tế, nên sẽ được thống nhất trước khi làm.
+  seo:
+    tieu_de: 'Máy lạnh không lạnh: nguyên nhân và cách kiểm tra'
+    mo_ta: >-
+      Máy lạnh không lạnh thường do cài đặt sai, lưới lọc bẩn, lỗi điện hoặc rò
+      gas. Năm bước kiểm tra tại nhà và dấu hiệu cần gọi kỹ thuật viên.
+    slug: may-lanh-khong-lanh
+    tu_khoa_phu:
+    - máy lạnh chạy nhưng không mát
+    - điều hoà không lạnh
+    - máy lạnh không mát phải làm sao

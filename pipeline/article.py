@@ -34,7 +34,15 @@ TUYỆT ĐỐI KHÔNG
 - Giá luôn nói theo hướng "phụ thuộc công suất và tình trạng máy", không nêu số.
 
 MỐC CHÈN
-- Chèn `<!-- IMAGE: IMG-001 -->` … `<!-- IMAGE: IMG-004 -->` vào chỗ hợp lý.
+- Chèn bốn mốc ảnh vào chỗ hợp lý, MỖI MỐC KÈM MÔ TẢ ảnh cần chụp cho đúng chỗ đó:
+
+      <!-- IMAGE: IMG-001 | Kỹ thuật viên cầm đồng hồ đo gas đứng trước dàn nóng -->
+
+  Mô tả phải tả một CẢNH CHỤP ĐƯỢC, bám đúng nội dung mục nó đứng cạnh — không
+  phải một ý tưởng chung chung. Người chụp ảnh sau này chỉ đọc câu đó.
+  Một câu, 10–25 từ, không dấu `>` và không xuống dòng.
+      IMG-001 mở bài (toàn cảnh) · IMG-002 cận cảnh dấu hiệu, KHÔNG có người
+      IMG-003 thao tác kiểm tra an toàn · IMG-004 kỹ thuật viên làm việc tại nhà khách
 - Liên kết nội bộ viết dạng `<!-- INTERNAL: chữ neo | /duong-dan/ -->`.
 
 Chỉ trả về nội dung bài, không thêm lời dẫn."""

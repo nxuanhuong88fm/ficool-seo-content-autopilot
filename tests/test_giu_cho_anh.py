@@ -18,7 +18,7 @@ import pytest
 
 from connectors.wordpress.publishers import CongBoHoSo
 from pipeline import anh_muon
-from pipeline.assembly import MOC_ANH, AssemblyPipeline, _the_giu_cho
+from pipeline.assembly import MOC_ANH, AssemblyPipeline, _the_giu_cho, doc_mo_ta
 from pipeline.images import ImagePipeline
 from pipeline.topic_selector import TopicSelector
 
@@ -59,6 +59,27 @@ def test_mo_ta_co_ky_tu_HTML_thi_bi_escape():
     h = _the_giu_cho({**_ke_hoach()[0], 'mo_ta': 'ống <thoát> & "máng" hứng'})
     assert '<thoát>' not in h
     assert '&lt;tho' in h and '&amp;' in h and '&quot;' in h
+
+
+def test_mo_ta_di_duoc_ca_vao_ke_hoach_chu_khong_chi_vao_HTML(tmp_path):
+    """Bước 0 bảo người ĐỌC TỪNG MÔ TẢ. Đưa cho họ bản khuôn trong khi bài mang
+    bản theo ngữ cảnh là đưa nhầm bản — và người chụp ảnh sau sẽ chụp theo bản
+    họ đọc, không theo bản nằm trong HTML."""
+    than = ('# T\n\n<!-- IMAGE: IMG-001 | '
+            'Kỹ thuật viên cầm remote trước dàn lạnh -->')
+    assert doc_mo_ta(than) == {'IMG-001': 'Kỹ thuật viên cầm remote trước dàn lạnh'}
+
+    imgs = [{**a, 'mo_ta': doc_mo_ta(than).get(a['id'])} if doc_mo_ta(than).get(a['id'])
+            else a for a in anh_muon.gan_vao(_ke_hoach(), TOPIC)]
+    cb = CongBoHoSo(tmp_path)
+    kq = cb.dang_ban_nhap(
+        {'category': 'c', 'tags': [], 'primary_keyword': 'k', 'title': 't'},
+        {'slug': 's', 'seo': {'title': 't', 'meta_description': 'm'}}, '<h1>x</h1>',
+        cb.tai_anh(imgs))
+    kh = json.loads((Path(kq['goi']) / 'ke-hoach.json').read_text(encoding='utf-8'))
+    b0 = [b for b in kh['buoc'] if b['thu_tu'] == 0][0]
+    m1 = [g for g in b0['giu_cho'] if g['id'] == 'IMG-001'][0]
+    assert m1['mo_ta'] == 'Kỹ thuật viên cầm remote trước dàn lạnh'
 
 
 # ── hình dạng khối giữ chỗ ──────────────────────────────────────────────────

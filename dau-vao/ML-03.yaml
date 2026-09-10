@@ -1,0 +1,136 @@
+chu_de:
+  id: ML-03
+  tieu_de: 'Máy lạnh có mùi hôi: Phân biệt mùi ẩm mốc và dấu hiệu bất thường'
+  tu_khoa_chinh: máy lạnh có mùi hôi
+  chuyen_muc: Máy lạnh
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Mùi từ máy lạnh chia thành hai nhóm rất khác nhau về mức độ nguy hiểm. Nhóm
+    thứ nhất là mùi ẩm mốc: hơi ẩm đọng trên dàn lạnh và trong máng hứng nước
+    tạo môi trường cho nấm mốc và vi khuẩn phát triển, đặc biệt ở khí hậu nóng
+    ẩm. Mùi này thường nồng nhất trong vài phút đầu sau khi bật máy, giảm dần
+    khi máy chạy ổn định, và có thể xử lý bằng vệ sinh. Nhóm thứ hai là mùi báo
+    hiệu sự cố: mùi khét hoặc mùi nhựa cháy chỉ dây điện quá nhiệt hoặc động cơ
+    quạt có vấn đề; mùi tanh kim loại hoặc mùi ngọt nhẹ bất thường có thể liên
+    quan tới rò rỉ môi chất lạnh; mùi hôi như xác động vật thường do chuột hoặc
+    côn trùng chết bên trong vỏ máy hoặc trong ống thoát. Nhóm thứ hai không tự
+    hết và không xử lý được bằng vệ sinh thông thường. Một nguồn mùi hay bị bỏ
+    sót là đường ống thoát nước ngưng: nếu ống nối thẳng vào hệ thống thoát của
+    nhà mà không có bẫy nước, mùi cống có thể đi ngược lên qua ống và thoát ra
+    ở dàn lạnh. Trường hợp này mùi xuất hiện cả khi máy không chạy. Về phòng
+    ngừa, chế độ làm khô dàn sau khi tắt máy giúp giảm ẩm đọng; lưới lọc cần
+    được rửa định kỳ vì bụi ẩm là nơi nấm mốc bám. Vệ sinh phần người dùng làm
+    được chỉ gồm lưới lọc và vỏ máy — dàn lạnh, máng hứng và ống thoát cần dụng
+    cụ chuyên dụng, và làm sai có thể gây rò nước hoặc chập điện.
+  nguon:
+  - url: https://www.epa.gov/mold/mold-course-chapter-2
+    title: US EPA — Mold Course, Chapter 2 Causes and Effects of Mold
+  - url: https://www.daikin.com.vn/vi/support/faq/
+    title: Daikin Việt Nam — Câu hỏi thường gặp về điều hoà
+  serp: []
+
+bai_viet:
+  than: |
+    # Máy lạnh có mùi hôi: Phân biệt mùi ẩm mốc và dấu hiệu bất thường
+
+    Mùi từ máy lạnh chia làm hai nhóm. Mùi ẩm mốc nồng lên lúc mới bật rồi nhạt dần là chuyện vệ sinh, xử lý được. Mùi khét, mùi tanh kim loại hoặc mùi như xác động vật là dấu hiệu sự cố, cần tắt máy và gọi kỹ thuật viên.
+
+    <!-- IMAGE: IMG-001 | Người dùng vừa bật máy lạnh trong phòng ngủ, đưa tay lên hứng luồng gió ra từ dàn lạnh -->
+
+    ## Mùi ẩm mốc đến từ đâu?
+
+    Dàn lạnh làm việc bằng cách hạ nhiệt độ bề mặt xuống dưới điểm sương, nên nước luôn ngưng tụ trên đó. Nước chảy xuống máng hứng rồi ra ngoài theo ống thoát. Khi máy tắt, phần ẩm còn đọng lại trong dàn và trong máng. Khí hậu nóng ẩm ở TP.HCM khiến phần ẩm đó ở lại lâu hơn, và bụi bám trên lưới lọc trở thành chỗ cho nấm mốc phát triển.
+
+    Nhận ra nhóm này qua ba đặc điểm:
+
+    - Mùi nồng nhất trong hai đến năm phút đầu sau khi bật máy.
+    - Mùi nhạt dần khi máy chạy ổn định.
+    - Máy vẫn lạnh bình thường, không có tiếng lạ.
+
+    Nếu cả ba đúng, khả năng cao là vấn đề vệ sinh chứ không phải hỏng hóc.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh bề mặt dàn lạnh phủ bụi ẩm và mảng mốc xám giữa các lá nhôm tản nhiệt -->
+
+    ## Bốn loại mùi và ý nghĩa của chúng
+
+    | Mùi | Nguồn thường gặp | Nên làm gì |
+    |---|---|---|
+    | Ẩm mốc, mùi tủ lâu ngày | Nấm mốc trên dàn lạnh, máng hứng, lưới lọc | Vệ sinh |
+    | Khét, nhựa cháy | Dây điện quá nhiệt, động cơ quạt | Tắt máy, ngắt CB, gọi thợ |
+    | Tanh kim loại hoặc ngọt lạ | Có thể liên quan rò rỉ môi chất lạnh | Tắt máy, gọi thợ |
+    | Hôi thối như xác động vật | Chuột hoặc côn trùng chết trong vỏ máy hoặc ống thoát | Gọi thợ mở vỏ |
+
+    Ba nhóm dưới không tự hết theo thời gian, và không xử lý được bằng cách xịt khử mùi.
+
+    ## Một nguồn mùi hay bị bỏ sót: ống thoát nước
+
+    Nếu ống thoát nước ngưng nối thẳng vào hệ thống thoát nước của nhà mà không có bẫy nước, mùi cống đi ngược lên theo ống rồi thoát ra ở dàn lạnh. Dấu hiệu nhận biết rất rõ: mùi có cả khi máy lạnh **không** chạy, và mùi giống mùi cống chứ không giống mùi mốc.
+
+    Trường hợp này vệ sinh dàn lạnh bao nhiêu lần cũng không hết, vì nguồn mùi không nằm trong máy.
+
+    ## Bạn tự làm được tới đâu?
+
+    Phần tự làm được giới hạn ở hai việc, và đều phải ngắt CB trước.
+
+    1. **Rửa lưới lọc.** Mở nắp dàn lạnh, rút lưới lọc, rửa nước sạch, để khô hoàn toàn rồi lắp lại. Không lắp lại khi còn ẩm.
+    2. **Lau vỏ ngoài và cửa gió.** Dùng khăn ẩm, không xịt nước vào bên trong.
+
+    Sau đó bật máy chế độ quạt khoảng 15 phút để làm khô dàn, rồi đánh giá lại.
+
+    Phần **không** nên tự làm: xịt hoá chất vào dàn lạnh, tháo máng hứng, thông ống thoát. Dàn lạnh có lá nhôm mỏng rất dễ bẹp, và bên trong có bo mạch. Nước hoặc hoá chất đi sai chỗ dẫn tới rò điện hoặc chảy nước xuống tường.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt CB, tháo lưới lọc ra khỏi dàn lạnh và kiểm tra máng hứng nước bên dưới -->
+
+    ## Khi nào cần vệ sinh chuyên sâu?
+
+    Vệ sinh chuyên sâu khác vệ sinh lưới lọc ở chỗ nó xử lý đúng nơi nấm mốc bám: bề mặt dàn lạnh, máng hứng nước và đường ống thoát. Cần khi:
+
+    - Đã rửa lưới lọc mà mùi vẫn còn sau vài ngày.
+    - Nhìn thấy mảng đen hoặc xám giữa các lá nhôm của dàn lạnh.
+    - Nước nhỏ giọt ra khỏi dàn lạnh kèm mùi.
+    - Máy dùng nhiều và lần vệ sinh gần nhất đã lâu.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh trùm túi hứng nước quanh dàn lạnh, chuẩn bị xịt rửa tại nhà khách -->
+
+    ## Gửi gì cho Ficool để được định hướng?
+
+    Mùi là thứ khó tả qua tin nhắn, nên hãy mô tả theo bốn ý: mùi giống mùi gì, xuất hiện lúc nào, có nhạt dần không, và máy có còn lạnh bình thường không. Kèm một ảnh chụp lưới lọc sau khi tháo ra. Kỹ thuật viên Ficool tại TP.HCM sẽ dựa vào đó để nói bạn nên thử vệ sinh phần tự làm được, hay cần kiểm tra tận nơi.
+
+    Nếu bạn muốn biết phần nào tự làm và phần nào nên thuê, xem <!-- INTERNAL: vệ sinh máy lạnh tại nhà | /ve-sinh-may-lanh-tai-nha/ -->. Muốn biết bao lâu nên vệ sinh một lần theo mức sử dụng, xem <!-- INTERNAL: bao lâu nên vệ sinh máy lạnh | /bao-lau-ve-sinh-may-lanh/ -->. Còn nếu đang chuẩn bị hỏi báo giá, đọc <!-- INTERNAL: giá vệ sinh máy lạnh gồm những gì | /gia-ve-sinh-may-lanh/ --> để biết một lần vệ sinh gồm các hạng mục nào.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy lạnh có mùi hôi có hại cho sức khoẻ không?
+
+    Mùi ẩm mốc đi kèm nấm mốc và bụi trong dàn lạnh, và luồng gió thổi các hạt đó vào phòng. Người có cơ địa dị ứng hoặc bệnh hô hấp thường phản ứng rõ hơn. Đây là lý do nên xử lý mùi mốc sớm thay vì che bằng nước xịt phòng.
+
+    ### Xịt dung dịch khử mùi vào máy lạnh có được không?
+
+    Không nên tự xịt vào bên trong. Dàn lạnh có lá nhôm mỏng và bo mạch điều khiển đặt gần đó, hoá chất đi sai chỗ có thể ăn mòn hoặc gây chập. Ngoài ra khử mùi chỉ che triệu chứng, phần nấm mốc bám trên dàn và máng hứng vẫn còn nguyên.
+
+    ### Vì sao mùi chỉ xuất hiện lúc mới bật máy?
+
+    Khi máy tắt, phần ẩm còn đọng trên dàn lạnh và trong máng hứng tạo điều kiện cho nấm mốc hoạt động. Lúc bật lại, luồng gió đầu tiên đẩy toàn bộ phần khí tích tụ đó ra phòng. Vài phút sau, dàn khô dần và mùi nhạt đi. Đó là dấu hiệu điển hình của mùi ẩm mốc.
+
+    ### Mùi khét ở máy lạnh có nguy hiểm không?
+
+    Có. Mùi khét hoặc mùi nhựa cháy thường liên quan tới dây điện quá nhiệt hoặc động cơ quạt gặp sự cố. Hãy tắt máy, ngắt CB, và không bật lại cho tới khi kỹ thuật viên kiểm tra xong. Đây không phải trường hợp chờ xem có tự hết không.
+
+    ### Ficool có xử lý mùi máy lạnh tại nhà ở TP.HCM không?
+
+    Có. Bạn gửi mô tả mùi và ảnh lưới lọc, kỹ thuật viên Ficool sẽ định hướng trước xem trường hợp của bạn cần vệ sinh chuyên sâu hay cần kiểm tra sự cố. Phạm vi công việc và chi phí phụ thuộc loại máy cùng tình trạng thực tế, và được thống nhất trước khi làm.
+  seo:
+    tieu_de: 'Máy lạnh có mùi hôi: phân biệt mùi mốc và mùi sự cố'
+    mo_ta: >-
+      Mùi ẩm mốc lúc mới bật là chuyện vệ sinh. Mùi khét, tanh kim loại hay hôi
+      thối là dấu hiệu sự cố. Cách phân biệt và phần bạn tự xử lý được.
+    slug: may-lanh-co-mui-hoi
+    tu_khoa_phu:
+    - máy lạnh bị hôi
+    - điều hoà có mùi khó chịu
+    - máy lạnh có mùi ẩm mốc

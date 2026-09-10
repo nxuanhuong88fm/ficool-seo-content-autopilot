@@ -19,6 +19,17 @@ MOC_ANH = re.compile(
 MOC_LIEN_KET = re.compile(r'<!-- INTERNAL:\s*(?P<neo>.+?)\s*\|\s*(?P<url>\S+?)\s*-->')
 
 
+def doc_mo_ta(than: str) -> dict:
+    """Quét mô tả ảnh từ mốc trong thân bài: `{'IMG-002': 'mô tả', ...}`.
+
+    Vì sao phải tách ra khỏi `AssemblyPipeline.run`: mô tả không chỉ đi vào HTML,
+    nó còn phải đi vào `ke-hoach.json` — bước 0 bảo người ĐỌC TỪNG MÔ TẢ, mà đưa
+    cho họ bản khuôn trong khi bài mang bản theo ngữ cảnh là đưa nhầm bản.
+    """
+    return {m.group('id'): (m.group('mo_ta') or '').strip()
+            for m in MOC_ANH.finditer(than) if (m.group('mo_ta') or '').strip()}
+
+
 # Khung nội dung bài viết là ĐÚNG 720 CSS px ở mọi màn hình >= 820px (trần cứng
 # `max-width:720px` Bricks đặt trên thẻ ARTICLE). Mặc định `sizes` của WordPress
 # là `100vw` — sai cho một cột 720px, trình duyệt sẽ chọn bản to hơn mức cần.

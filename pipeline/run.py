@@ -6,7 +6,7 @@ from pipeline.topic_selector import TopicSelector
 from pipeline.research import ResearchPipeline
 from pipeline.article import ArticlePipeline
 from pipeline.images import ImagePipeline
-from pipeline.assembly import AssemblyPipeline
+from pipeline.assembly import AssemblyPipeline, doc_mo_ta
 from pipeline.geo import dung_schema, do_geo
 from pipeline.qa import QAPipeline
 from connectors.wordpress.publishers import chon_cong_bo
@@ -103,6 +103,12 @@ def run_topic(topic_id, output_root=None, use_mock_images=False,
         images = ImagePipeline().generate(topic, article['body'], root)
         for i in images:
             i['local_path'] = str(root / 'images' / i['filename'])
+
+    # Mo ta trong moc phai den ca HAI noi: HTML (nguoi doc bai thay) va
+    # ke-hoach.json (nguoi dien anh doc o buoc 0). Gan o day, truoc ca hai.
+    mo_ta = doc_mo_ta(article['body'])
+    images = [{**i, 'mo_ta': mo_ta[i['id']]} if mo_ta.get(i['id']) else i
+              for i in images]
 
     # (1) tai/dat cho anh TRUOC  (2) ghep HTML bang URL that  (3) QA dung bai se dang  (4) moi dang
     uploaded = cong_bo.tai_anh(images)
