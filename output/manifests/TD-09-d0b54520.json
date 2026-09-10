@@ -6,9 +6,9 @@
   "phien_ban_ban_do": "funnel-map-v2+c7e2ae283573",
   "slug": "tu-mat-bi-dong-tuyet",
   "wp_slug": null,
-  "wp_post_id": null,
-  "wp_status": "cho_tac_nhan",
-  "wp_link": null,
+  "wp_post_id": 496,
+  "wp_status": "draft",
+  "wp_link": "https://ficool.top/?p=496",
   "qa": {
     "status": "PASS",
     "overall": 100,
@@ -58,5 +58,6 @@
     null,
     null
   ],
-  "created_at": "2026-09-10T07:37:36.102764+00:00"
+  "created_at": "2026-09-10T07:37:36.102764+00:00",
+  "dang_luc": "2026-09-10T07:39:49.291949+00:00"
 }

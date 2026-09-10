@@ -6,9 +6,9 @@
   "phien_ban_ban_do": "funnel-map-v2+c7e2ae283573",
   "slug": "gioang-tu-dong-bi-ho",
   "wp_slug": null,
-  "wp_post_id": null,
-  "wp_status": "cho_tac_nhan",
-  "wp_link": null,
+  "wp_post_id": 494,
+  "wp_status": "draft",
+  "wp_link": "https://ficool.top/?p=494",
   "qa": {
     "status": "PASS",
     "overall": 100,
@@ -58,5 +58,6 @@
     null,
     null
   ],
-  "created_at": "2026-09-10T07:37:33.930003+00:00"
+  "created_at": "2026-09-10T07:37:33.930003+00:00",
+  "dang_luc": "2026-09-10T07:39:48.763390+00:00"
 }
