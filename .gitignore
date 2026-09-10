@@ -8,3 +8,4 @@ output/runs/*
 output/demo/*
 !output/runs/.gitkeep
 output/dong-phuc/*
+output/anh-trang/*
