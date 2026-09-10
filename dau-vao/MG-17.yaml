@@ -1,0 +1,148 @@
+chu_de:
+  id: MG-17
+  tieu_de: 'Mã lỗi máy giặt Samsung thường gặp: Cách tra đúng model và hướng xử lý'
+  tu_khoa_chinh: mã lỗi máy giặt Samsung
+  chuyen_muc: Máy giặt
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Điểm quan trọng nhất khi tra mã lỗi máy giặt là mã lỗi KHÔNG dùng chung giữa
+    các model, kể cả trong cùng một hãng. Cùng một ký hiệu có thể mang ý nghĩa
+    khác nhau giữa dòng cửa trên và cửa trước, giữa các thế hệ bo mạch, và giữa
+    các thị trường. Vì vậy tra mã trên một bảng chung tìm được trên mạng là cách
+    dễ dẫn tới thay nhầm linh kiện. Cách tra đúng gồm bốn bước: đọc chính xác ký
+    hiệu hiện trên màn hình, phân biệt các ký tự dễ nhầm khi hiển thị bằng đèn
+    bảy đoạn như số 5 với chữ S, số 0 với chữ O, số 1 với chữ I, chữ b với số 6;
+    tìm đúng model đầy đủ trên tem dán ở lưng máy hoặc trong khung cửa, gồm cả
+    phần đuôi phía sau dấu gạch chéo vì phần đó phân biệt phiên bản; tra trong
+    tài liệu hướng dẫn sử dụng đi kèm máy hoặc trên trang hỗ trợ chính thức của
+    hãng theo đúng model; và ghi lại điều kiện xuất hiện mã lỗi, tức mã hiện ở
+    giai đoạn nào của chu trình. Về nhóm ý nghĩa, các mã lỗi máy giặt thường
+    thuộc một trong bốn nhóm chức năng: nhóm cấp nước, nhóm xả nước, nhóm cân
+    bằng và vắt, nhóm điện và bo mạch. Biết mã thuộc nhóm nào đã đủ để người
+    dùng thực hiện các bước kiểm tra an toàn ở phần ngoài máy. Nguyên tắc an
+    toàn quan trọng: không tự thay linh kiện dựa trên mã lỗi đọc được từ một
+    bảng tra không đúng model, vì mã chỉ chỉ ra vùng có vấn đề chứ không chỉ ra
+    bộ phận cụ thể đã hỏng.
+  nguon:
+  - url: https://www.samsung.com/vn/support/
+    title: Samsung Việt Nam — Trang hỗ trợ chính thức
+  - url: https://www.energystar.gov/products/clothes_washers
+    title: ENERGY STAR — Clothes Washers
+  serp: []
+
+bai_viet:
+  than: |
+    # Mã lỗi máy giặt Samsung thường gặp: Cách tra đúng model và hướng xử lý
+
+    Điều quan trọng nhất về mã lỗi máy giặt: **mã không dùng chung giữa các model**, kể cả trong cùng một hãng. Cùng một ký hiệu có thể mang ý nghĩa khác nhau giữa dòng cửa trên và cửa trước, và giữa các thế hệ bo mạch. Vì vậy bài này hướng dẫn cách tra đúng theo model của bạn, thay vì đưa một bảng mã chung.
+
+    <!-- IMAGE: IMG-001 | Người dùng cầm điện thoại chụp màn hình máy giặt đang hiện mã lỗi, đứng trong khu giặt phơi -->
+
+    ## Vì sao không nên tra mã trên một bảng chung?
+
+    Các bảng mã lưu truyền trên mạng thường không ghi rõ chúng áp cho model nào. Hệ quả:
+
+    - Cùng ký hiệu, hai model hiểu hai nghĩa khác nhau.
+    - Người dùng thay linh kiện theo bảng sai, và lỗi vẫn còn.
+    - Chi phí phát sinh mà không giải quyết được gì.
+
+    Mã lỗi chỉ ra **vùng có vấn đề**, không chỉ ra bộ phận cụ thể đã hỏng. Đây là điểm phân biệt quan trọng: mã báo "vùng cấp nước" chứ không báo "van cấp nước hỏng".
+
+    ## Bốn bước tra đúng
+
+    1. **Đọc chính xác ký hiệu.** Chụp ảnh màn hình để khỏi nhớ nhầm.
+    2. **Tìm model đầy đủ** trên tem dán ở lưng máy hoặc trong khung cửa. Lấy cả phần đuôi sau dấu gạch chéo, vì phần đó phân biệt phiên bản.
+    3. **Tra theo đúng model** trong sách hướng dẫn đi kèm máy, hoặc trên trang hỗ trợ chính thức của hãng.
+    4. **Ghi lại điều kiện xuất hiện.** Mã hiện ở giai đoạn nào của chu trình.
+
+    Bước 4 hay bị bỏ qua nhưng có giá trị chẩn đoán cao: một mã hiện lúc cấp nước khác hẳn cùng mã đó hiện lúc vắt.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh tem thông số dán trong khung cửa máy giặt, ghi model đầy đủ và số sê-ri -->
+
+    ## Cẩn thận với ký tự dễ nhầm
+
+    Màn hình đèn bảy đoạn vẽ chữ và số bằng cùng một bộ vạch, nên nhiều cặp trông gần giống nhau:
+
+    | Dễ nhầm | Cách phân biệt |
+    |---|---|
+    | Ký tự **5** và chữ **S** | Chữ S thường hẹp hơn, đầu trên bo hơn |
+    | Ký tự **0** và chữ **O** | Ký tự 0 thường cao hơn và hẹp hơn |
+    | Ký tự **1** và chữ **I** | Ký tự 1 thường lệch về phải |
+    | Chữ **b** và ký tự **6** | Chữ b có nét đứng cao hơn |
+
+    Đọc nhầm một ký tự là tra sang một nhóm lỗi hoàn toàn khác. Chụp ảnh rồi phóng to là cách chắc chắn nhất.
+
+    ## Bốn nhóm chức năng của mã lỗi
+
+    Dù ký hiệu khác nhau giữa các model, phần lớn mã lỗi máy giặt thuộc một trong bốn nhóm:
+
+    - **Nhóm cấp nước** — máy không nhận đủ nước trong thời gian quy định.
+    - **Nhóm xả nước** — nước không thoát hết trong thời gian quy định.
+    - **Nhóm cân bằng và vắt** — tải lệch, hoặc lồng không đạt tốc độ.
+    - **Nhóm điện và bo mạch** — cảm biến, động cơ, mạch điều khiển.
+
+    Biết mã thuộc nhóm nào là đủ để bạn làm các bước kiểm tra an toàn ở **phần ngoài máy**, và đó thường là nơi nguyên nhân nằm.
+
+    ## Bạn kiểm được gì theo từng nhóm?
+
+    | Nhóm | Kiểm ngoài máy |
+    |---|---|
+    | Cấp nước | Van khoá đã mở, áp lực nước, ống cấp không gập, lưới lọc đầu nối |
+    | Xả nước | Bộ lọc bơm xả, ống xả không gập, đầu ống đúng độ cao, thoát sàn không nghẹt |
+    | Cân bằng và vắt | Dàn đều đồ, giảm tải, chỉnh chân máy cho cân |
+    | Điện và bo mạch | Không tự kiểm, cần kỹ thuật viên |
+
+    Ba nhóm đầu có phần lớn nguyên nhân nằm ngoài máy, và bạn tự xử lý được.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, đối chiếu mã lỗi trên màn hình máy với sách hướng dẫn đúng model -->
+
+    ## Điều không nên làm
+
+    **Không tự thay linh kiện dựa trên một bảng mã không đúng model.** Đây là cách chắc chắn để tiêu tiền mà lỗi vẫn còn.
+
+    Cũng không nên rút điện rồi cắm lại nhiều lần để mong mã tự biến mất. Nếu mã hiện lại, nó đang báo một điều kiện thật.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh dùng đồng hồ đo kiểm tra bo mạch máy giặt đã mở nắp, tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thứ: ảnh chụp màn hình đang hiện mã lỗi, ảnh tem model đầy đủ, mã hiện ở giai đoạn nào của chu trình, và bạn đã kiểm phần ngoài máy chưa. Kỹ thuật viên Ficool tại TP.HCM sẽ tra theo đúng model của bạn và định hướng bước tiếp theo. Đừng tự thay linh kiện khi chưa xác định rõ nguyên nhân.
+
+    Nếu mã thuộc nhóm cấp nước, xem <!-- INTERNAL: máy giặt không cấp nước | /may-giat-khong-cap-nuoc/ -->. Nhóm xả nước thì xem <!-- INTERNAL: máy giặt không xả nước | /may-giat-khong-xa-nuoc/ -->. Muốn biết chi phí sửa gồm những phần nào, đọc <!-- INTERNAL: giá sửa máy giặt | /gia-sua-may-giat/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Mã lỗi máy giặt có giống nhau giữa các model không?
+
+    Không. Cùng một ký hiệu có thể mang ý nghĩa khác nhau giữa dòng cửa trên và cửa trước, giữa các thế hệ bo mạch và giữa các thị trường. Đó là lý do phải tra theo đúng model đầy đủ ghi trên tem máy, chứ không tra trên một bảng chung.
+
+    ### Tìm model đầy đủ của máy giặt ở đâu?
+
+    Trên tem dán ở lưng máy, hoặc trong khung cửa với máy cửa trước. Hãy lấy cả phần đuôi phía sau dấu gạch chéo, vì phần đó phân biệt phiên bản và nó quyết định bảng mã nào áp dụng cho máy của bạn.
+
+    ### Máy giặt báo lỗi rồi tự hết có cần kiểm tra không?
+
+    Nếu mã chỉ hiện một lần rồi không lặp lại, có thể là điều kiện tạm thời như áp lực nước yếu lúc đó. Nhưng nếu mã hiện lại, nó đang báo một điều kiện thật. Rút điện cắm lại nhiều lần để mã biến mất không giải quyết nguyên nhân.
+
+    ### Đọc nhầm ký tự trên màn hình máy giặt có hay xảy ra không?
+
+    Có, vì màn hình đèn bảy đoạn vẽ chữ và số bằng cùng một bộ vạch. Các cặp hay nhầm là 5 với S, 0 với O, 1 với I, b với 6. Đọc nhầm một ký tự là tra sang nhóm lỗi khác hẳn, nên hãy chụp ảnh rồi phóng to để đọc.
+
+    ### Ficool có tra mã lỗi máy giặt giúp tại TP.HCM không?
+
+    Có. Bạn gửi ảnh màn hình đang hiện mã, ảnh tem model đầy đủ, và cho biết mã xuất hiện ở giai đoạn nào của chu trình. Kỹ thuật viên Ficool sẽ tra theo đúng model và định hướng bước kiểm tra. Chi phí nếu cần tới nơi được thống nhất trước.
+  seo:
+    tieu_de: Mã lỗi máy giặt Samsung, cách tra đúng theo model
+    mo_ta: >-
+      Mã lỗi không dùng chung giữa các model. Bốn bước tra đúng, các ký tự dễ
+      đọc nhầm và bốn nhóm chức năng để biết mình kiểm được gì.
+    slug: ma-loi-may-giat-samsung
+    tu_khoa_phu:
+    - bảng mã lỗi máy giặt
+    - máy giặt báo lỗi
+    - cách đọc mã lỗi máy giặt

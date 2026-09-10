@@ -1,0 +1,92 @@
+{
+ "MG-13": {
+  "title": "Lắp đặt máy giặt: vị trí, đường nước và cân chỉnh chân máy",
+  "slug": "lap-dat-may-giat",
+  "excerpt": "Ba nhóm yêu cầu khi lắp máy giặt, sáu bước cân chỉnh chân máy, và chi tiết hay bị bỏ qua nhất là bu lông vận chuyển chưa tháo.",
+  "kw": "lắp đặt máy giặt",
+  "anh": 402,
+  "og": 403,
+  "cat": "Máy giặt"
+ },
+ "MG-14": {
+  "title": "Vận chuyển máy giặt khi chuyển nhà cần chuẩn bị gì?",
+  "slug": "van-chuyen-may-giat",
+  "excerpt": "Rủi ro lớn nhất là lồng giặt va đập bên trong. Cách khoá lồng, ba việc bắt buộc trước khi di chuyển và năm bước lắp lại ở nơi mới.",
+  "kw": "vận chuyển máy giặt",
+  "anh": 402,
+  "og": 403,
+  "cat": "Máy giặt"
+ },
+ "MG-15": {
+  "title": "Checklist nghiệm thu máy giặt trước khi thanh toán",
+  "slug": "checklist-nghiem-thu-may-giat",
+  "excerpt": "Kết quả chỉ lộ ra sau một chu trình đầy đủ. Phép kiểm chung bốn giai đoạn và checklist riêng cho vệ sinh, sửa chữa và lắp đặt.",
+  "kw": "checklist nghiệm thu máy giặt",
+  "anh": 404,
+  "og": 405,
+  "cat": "Máy giặt"
+ },
+ "MG-16": {
+  "title": "Giá sửa máy giặt gồm những gì, cách hỏi báo giá",
+  "slug": "gia-sua-may-giat",
+  "excerpt": "Ba phần tách biệt của chi phí sửa máy giặt, ba câu hỏi về linh kiện và nguyên tắc một câu giúp tránh phát sinh ngoài phạm vi.",
+  "kw": "giá sửa máy giặt",
+  "anh": 402,
+  "og": 403,
+  "cat": "Máy giặt"
+ },
+ "MG-17": {
+  "title": "Mã lỗi máy giặt Samsung, cách tra đúng theo model",
+  "slug": "ma-loi-may-giat-samsung",
+  "excerpt": "Mã lỗi không dùng chung giữa các model. Bốn bước tra đúng, các ký tự dễ đọc nhầm và bốn nhóm chức năng để biết mình kiểm được gì.",
+  "kw": "mã lỗi máy giặt Samsung",
+  "anh": 402,
+  "og": 403,
+  "cat": "Máy giặt"
+ },
+ "MG-18": {
+  "title": "Máy giặt cũ nên sửa hay thay mới? Bốn yếu tố quyết định",
+  "slug": "may-giat-nen-sua-hay-thay-moi",
+  "excerpt": "Bốn yếu tố đo được để quyết sửa hay thay, và vì sao bạc đạn là trường hợp riêng cần hỏi tổng chi phí trước khi đồng ý tháo máy.",
+  "kw": "máy giặt nên sửa hay thay mới",
+  "anh": 402,
+  "og": 403,
+  "cat": "Máy giặt"
+ },
+ "TL-01": {
+  "title": "Tủ lạnh không lạnh: nguyên nhân và cách tự kiểm tra",
+  "slug": "tu-lanh-khong-lanh",
+  "excerpt": "Một câu hỏi cắt đôi danh sách nguyên nhân: cả tủ ấm hay chỉ một ngăn. Bảy điểm bạn tự kiểm và dấu hiệu cần gọi kỹ thuật viên.",
+  "kw": "tủ lạnh không lạnh",
+  "anh": 408,
+  "og": 409,
+  "cat": "Tủ lạnh"
+ },
+ "TL-02": {
+  "title": "Ngăn mát tủ lạnh không lạnh nhưng ngăn đá vẫn lạnh",
+  "slug": "ngan-mat-tu-lanh-khong-lanh",
+  "excerpt": "Ngăn đá lạnh nghĩa là block vẫn chạy. Vấn đề ở khâu đưa khí lạnh xuống: cửa gió bị chặn, dàn bám tuyết, hay quạt gió hỏng.",
+  "kw": "ngăn mát tủ lạnh không lạnh",
+  "anh": 408,
+  "og": 409,
+  "cat": "Tủ lạnh"
+ },
+ "TL-03": {
+  "title": "Tủ lạnh đóng tuyết bất thường hay theo thiết kế?",
+  "slug": "tu-lanh-dong-tuyet",
+  "excerpt": "Phân biệt tủ đóng tuyết trực tiếp với tủ không đóng tuyết, vị trí tuyết bám nói lên điều gì, và cách rã đông an toàn không làm thủng dàn lạnh.",
+  "kw": "tủ lạnh đóng tuyết",
+  "anh": 408,
+  "og": 409,
+  "cat": "Tủ lạnh"
+ },
+ "TL-04": {
+  "title": "Tủ lạnh chảy nước: nước từ trong tủ hay dưới gầm?",
+  "slug": "tu-lanh-chay-nuoc",
+  "excerpt": "Vị trí nước phân loại gần hết nguyên nhân. Cách thông lỗ thoát nước ngưng tự làm được, và khi nào nước dưới gầm cần kỹ thuật viên.",
+  "kw": "tủ lạnh chảy nước",
+  "anh": 408,
+  "og": 409,
+  "cat": "Tủ lạnh"
+ }
+}
