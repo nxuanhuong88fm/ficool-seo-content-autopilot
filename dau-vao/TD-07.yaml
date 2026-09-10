@@ -1,0 +1,157 @@
+chu_de:
+  id: TD-07
+  tieu_de: 'Gioăng tủ mát, tủ đông bị hở: Dấu hiệu và khi nào cần thay'
+  tu_khoa_chinh: gioăng tủ đông bị hở
+  chuyen_muc: Tủ mát, tủ đông
+  the:
+  - Bảo trì
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Gioăng cửa hoặc gioăng nắp là chi tiết giữ cho khoang lạnh kín với không khí
+    bên ngoài, và khi nó không áp đều thì khí lạnh thoát ra liên tục còn hơi ẩm
+    lọt vào, dẫn tới ba hệ quả quan sát được: máy chạy nhiều hơn, tuyết bám dày
+    hơn quanh khu vực hở, và ngưng tụ xuất hiện quanh viền cửa. Các tài liệu tiết
+    kiệm năng lượng khuyến cáo kiểm tra độ kín của gioăng như một hạng mục bảo
+    dưỡng định kỳ, và phép thử phổ biến là kẹp một tờ giấy vào mép cửa rồi đóng
+    lại, sau đó rút ra: nếu tờ giấy rút ra dễ dàng ở một vị trí nào đó thì vị trí
+    đó không áp đủ. Điều quan trọng khi chẩn đoán là phân biệt bốn tình trạng
+    khác nhau vì cách xử lý khác hẳn nhau: gioăng bẩn với cặn tích trong rãnh
+    làm bề mặt không áp sát; gioăng lệch hoặc bung khỏi khe cài; gioăng chai và
+    biến dạng do lão hoá, mất tính đàn hồi nên không hồi lại hình dạng ban đầu;
+    và gioăng rách hoặc thủng. Hai tình trạng đầu xử lý bằng vệ sinh và lắp lại,
+    hai tình trạng sau thì cần thay. Ngoài bản thân gioăng, các yếu tố làm cửa
+    không khít gồm tủ kê không cân, bản lề bị xệ, hàng hoá chèn vào mép cửa, và
+    lớp tuyết tích tụ quanh miệng tủ. Với tủ mát cửa kính dùng gioăng nam châm,
+    lực hít giảm khi dải nam châm bên trong gioăng yếu đi hoặc khi gioăng bị kéo
+    giãn do đóng mở mạnh nhiều lần.
+  nguon:
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Gioăng tủ mát, tủ đông bị hở: Dấu hiệu và khi nào cần thay
+
+    Gioăng hở là một trong những nguyên nhân dễ kiểm nhất và cũng hay bị bỏ qua nhất. Nhưng "hở" gộp chung bốn tình trạng rất khác nhau, và hai trong bốn tình trạng đó **không cần thay gioăng**.
+
+    <!-- IMAGE: IMG-001 | Chủ cửa hàng kẹp một tờ giấy vào mép cửa tủ mát rồi đóng cửa lại để thử độ kín của gioăng -->
+
+    ## Ba dấu hiệu quan sát được
+
+    - **Máy chạy nhiều hơn trước**, có khi gần như không nghỉ.
+    - **Tuyết bám dày** quanh một khu vực nhất định của miệng tủ — thường chính là chỗ hở.
+    - **Ngưng tụ**, tức các giọt nước li ti, xuất hiện quanh viền cửa hoặc viền nắp.
+
+    Dấu hiệu thứ hai hữu ích nhất vì nó **chỉ thẳng vào vị trí** cần kiểm, thay vì chỉ nói rằng có vấn đề ở đâu đó.
+
+    ## Phép thử tờ giấy
+
+    1. Kẹp một tờ giấy vào mép cửa, một nửa trong một nửa ngoài.
+    2. Đóng cửa hoặc đóng nắp lại.
+    3. Rút tờ giấy ra.
+    4. Lặp lại ở nhiều vị trí quanh viền: bốn cạnh, bốn góc.
+
+    Đạt khi tờ giấy có **lực cản đều** ở mọi vị trí. Chỗ nào rút ra dễ dàng là chỗ đó không áp đủ.
+
+    Với tủ mát cửa kính, có thể thêm một phép thử nữa: đặt đèn pin trong tủ, đóng cửa, tắt đèn phòng và quan sát xem có tia sáng lọt ra ở viền không.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh dải gioăng cửa tủ mát bị chai và cong vênh, một đoạn bung khỏi khe cài, quanh đó bám tuyết -->
+
+    ## Bốn tình trạng, hai cách xử lý
+
+    | Tình trạng | Nhận ra | Xử lý |
+    |---|---|---|
+    | **Bẩn** — cặn tích trong rãnh | Lật rãnh thấy cặn, bụi, nhớt | Vệ sinh, không cần thay |
+    | **Lệch, bung** khỏi khe cài | Một đoạn gioăng nhô ra hoặc xoắn | Lắp lại đúng khe, không cần thay |
+    | **Chai, biến dạng** do lão hoá | Ấn xuống không hồi lại, cứng, cong vênh | **Thay** |
+    | **Rách, thủng** | Nhìn thấy vết rách hoặc lỗ | **Thay** |
+
+    Đây là lý do nên xem kỹ trước khi đặt gioăng mới: hai dòng đầu chiếm không ít số ca, và chúng xử lý được trong mười phút.
+
+    ## Bốn nguyên nhân nằm ngoài gioăng
+
+    Cửa không khít không phải lúc nào cũng do gioăng:
+
+    1. **Tủ kê không cân.** Đẩy nhẹ bốn góc xem có bập bênh, chỉnh chân tủ.
+    2. **Bản lề xệ** hoặc ốc bản lề lỏng, làm cánh cửa sa xuống.
+    3. **Hàng hoá chèn vào mép**, nhất là ở tủ đông nằm chất đầy.
+    4. **Tuyết tích quanh miệng tủ**, làm nắp không hạ hết xuống.
+
+    Bốn nguyên nhân này cho ra đúng triệu chứng của gioăng hở, và thay gioăng mới cũng không giải quyết được.
+
+    ## Vệ sinh và phục hồi trước khi tính chuyện thay
+
+    - Lật rãnh gioăng ra, lau sạch cặn bằng khăn với dung dịch nhẹ, rồi **lau khô**.
+    - Với đoạn bị lệch, đẩy lại vào đúng khe cài.
+    - Với gioăng bị bẹp nhẹ, lau bằng nước ấm giúp vật liệu mềm và hồi lại phần nào. Không dùng nước quá nóng.
+    - Kiểm lại bằng phép thử tờ giấy sau khi làm.
+
+    Nếu sau các bước này tờ giấy vẫn rút ra dễ ở cùng vị trí cũ, thì đó là gioăng đã mất đàn hồi.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, lật rãnh gioăng nắp tủ đông ra và lau sạch cặn bẩn đọng bên trong -->
+
+    ## Khi nào cần thay gioăng
+
+    - Gioăng **ấn xuống không hồi lại**, đã cứng hoặc cong vênh.
+    - Có **vết rách, thủng** hoặc mối nối đã hở.
+    - Đã vệ sinh, đã lắp lại đúng khe mà phép thử tờ giấy vẫn không đạt.
+    - Với tủ mát cửa kính: cửa **không còn tự hít lại** khi buông tay, do dải nam châm trong gioăng đã yếu.
+
+    Khi thay, hãy hỏi rõ gioăng có đúng chủng loại cho model không. Gioăng không đúng kích thước sẽ lặp lại đúng vấn đề cũ.
+
+    ## Vì sao nên xử lý sớm
+
+    Gioăng hở không làm tủ ngừng chạy, nên nó dễ bị hoãn. Nhưng trong lúc chờ:
+
+    - Máy chạy nhiều hơn, tiền điện cộng dồn theo tháng.
+    - Tuyết bám dày thêm, và tuyết dày lại làm nắp khó khít hơn nữa.
+    - Nhiệt độ trong khoang dao động, ảnh hưởng tới chất lượng hàng bảo quản.
+
+    Với hộ kinh doanh, mục thứ ba mới là khoản đắt nhất.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh thay dải gioăng cửa cho tủ mát tại cửa hàng của khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: loại tủ mát cửa kính, tủ đông đứng hay tủ đông nằm; vị trí nghi hở theo phép thử tờ giấy; tình trạng gioăng là bẩn, lệch, chai hay rách; và model của máy nếu cần đặt gioăng. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn cần vệ sinh và chỉnh lại, hay cần thay gioăng đúng chủng loại. Ảnh chụp sát viền gioăng giúp xác định nhanh hơn nhiều so với mô tả.
+
+    Nếu tuyết bám dày quanh miệng tủ, đọc <!-- INTERNAL: tủ đông đóng tuyết dày | /tu-dong-dong-tuyet-day/ -->. Nếu máy chạy không nghỉ, xem <!-- INTERNAL: tủ đông chạy liên tục | /tu-dong-chay-lien-tuc/ -->. Muốn biết chi phí gồm những phần nào, đọc <!-- INTERNAL: giá sửa tủ mát tủ đông | /gia-sua-tu-mat-tu-dong/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Làm sao biết gioăng tủ đông bị hở?
+
+    Dùng phép thử tờ giấy: kẹp một tờ giấy vào mép, đóng nắp hoặc đóng cửa, rồi rút ra. Lặp lại ở bốn cạnh và bốn góc. Đạt khi lực cản đều ở mọi vị trí; chỗ nào rút ra dễ dàng là chỗ đó không áp đủ. Ba dấu hiệu đi kèm là máy chạy nhiều hơn, tuyết bám dày một vùng, và ngưng tụ quanh viền.
+
+    ### Gioăng tủ mát hở có phải lúc nào cũng thay không?
+
+    Không. Có bốn tình trạng: bẩn, lệch khỏi khe cài, chai và biến dạng, rách hoặc thủng. Hai tình trạng đầu xử lý bằng vệ sinh rãnh và lắp lại đúng khe, không cần thay. Chỉ hai tình trạng sau mới cần gioăng mới.
+
+    ### Cửa tủ mát không tự đóng lại là do gioăng à?
+
+    Có thể, nhưng cũng có thể do tủ kê không cân, bản lề xệ hoặc ốc bản lề lỏng. Hãy đẩy nhẹ bốn góc kiểm bập bênh và xem cánh cửa có bị sa xuống không trước khi kết luận. Với tủ mát cửa kính dùng gioăng nam châm, cửa không tự hít lại thường là dấu hiệu dải nam châm trong gioăng đã yếu.
+
+    ### Gioăng hở ảnh hưởng thế nào tới tiền điện và hàng hoá?
+
+    Khí lạnh thoát ra liên tục nên máy phải chạy nhiều hơn, và tiền điện cộng dồn theo từng tháng. Hơi ẩm lọt vào làm tuyết bám dày thêm, tuyết dày lại làm nắp khó khít hơn. Đồng thời nhiệt độ trong khoang dao động, ảnh hưởng tới chất lượng hàng bảo quản.
+
+    ### Ficool có thay gioăng tủ mát, tủ đông tại TP.HCM không?
+
+    Có. Bạn gửi loại tủ, vị trí nghi hở theo phép thử tờ giấy, tình trạng gioăng và model máy. Kỹ thuật viên Ficool sẽ kiểm tra để xác định cần vệ sinh, chỉnh lại hay thay gioăng đúng chủng loại, và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Gioăng tủ mát, tủ đông hở và khi nào cần thay
+    mo_ta: >-
+      Phép thử tờ giấy, bốn tình trạng gioăng với hai cách xử lý, và bốn nguyên
+      nhân làm cửa không khít mà không phải do gioăng.
+    slug: gioang-tu-dong-bi-ho
+    tu_khoa_phu:
+    - gioăng tủ mát không kín
+    - thay ron tủ đông
+    - cửa tủ mát không khít
