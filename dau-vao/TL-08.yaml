@@ -1,0 +1,139 @@
+chu_de:
+  id: TL-08
+  tieu_de: 'Cách vệ sinh tủ lạnh tại nhà: Sắp xếp thực phẩm và làm sạch từng phần'
+  tu_khoa_chinh: cách vệ sinh tủ lạnh
+  chuyen_muc: Tủ lạnh
+  the:
+  - Vệ sinh
+  giai_doan_phieu: F2
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Vệ sinh tủ lạnh có hai ràng buộc chồng lên nhau: an toàn thực phẩm và an
+    toàn cho thiết bị. Về thực phẩm, cơ quan quản lý khuyến cáo giữ ngăn mát ở
+    mức từ 4 độ C trở xuống, và trong khoảng nhiệt độ từ khoảng 4 tới 60 độ C vi
+    khuẩn phát triển nhanh, nên thời gian thực phẩm dễ hỏng nằm ngoài tủ trong
+    lúc dọn cần được rút ngắn; cách làm thông thường là chuyển thực phẩm sang
+    thùng giữ lạnh có đá thay vì để trên mặt bàn. Về thiết bị, các bề mặt trong
+    khoang là nhựa và kính chịu lực, nên nước quá nóng đổ lên kính đang lạnh có
+    thể gây nứt do sốc nhiệt, còn chất tẩy mạnh hoặc dung môi có thể làm giòn
+    nhựa và để lại mùi bám dai. Lớp tuyết trong ngăn đá phải được để tan tự
+    nhiên, không cạy bằng vật sắc, vì đường ống làm lạnh nằm ngay sau lớp vỏ và
+    một vết thủng là hỏng nặng. Hai vị trí hay bị bỏ qua khi vệ sinh là lỗ thoát
+    nước ngưng ở thành sau ngăn mát, nơi tắc thì nước đọng dưới đáy tủ, và
+    gioăng cửa, nơi cặn bẩn tích trong các rãnh làm gioăng áp không đều. Bên
+    ngoài khoang, dàn nóng và khu vực dưới gầm bám bụi làm giảm khả năng thải
+    nhiệt. Sau khi vệ sinh, mức lấp đầy hợp lý được khuyến cáo là khoảng ba phần
+    tư để không khí lưu thông, và cần chừa khoảng trống trước các cửa gió.
+  nguon:
+  - url: https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety
+    title: US FDA — Refrigerator Thermometers and Food Safety
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Cách vệ sinh tủ lạnh tại nhà: Sắp xếp thực phẩm và làm sạch từng phần
+
+    Vệ sinh tủ lạnh vướng hai ràng buộc cùng lúc: thực phẩm dễ hỏng không nên nằm ngoài tủ lâu, và bề mặt trong khoang thì kỵ nước quá nóng lẫn chất tẩy mạnh. Làm đúng thứ tự sẽ giải quyết được cả hai.
+
+    <!-- IMAGE: IMG-001 | Người dùng lấy thực phẩm từ tủ lạnh xếp vào thùng giữ lạnh có đá đặt sẵn trên sàn bếp -->
+
+    ## Chuẩn bị trước khi bắt đầu
+
+    1. **Chuẩn bị chỗ giữ lạnh trước.** Thùng xốp hoặc thùng giữ lạnh có đá, đặt sẵn cạnh tủ. Đây là bước quyết định phần an toàn thực phẩm.
+    2. **Rút phích cắm** nếu định làm kỹ và lâu.
+    3. Chuẩn bị khăn mềm, khăn khô, nước ấm nhẹ và dung dịch nhẹ.
+    4. Dọn sẵn một mặt bàn để phân loại đồ bỏ và đồ giữ lại.
+
+    Bước 1 hay bị làm sau, và đó là lý do nhiều lần dọn tủ kết thúc bằng việc phải bỏ thêm đồ.
+
+    ## Thứ tự làm sạch từng phần
+
+    | Bước | Phần | Lưu ý |
+    |---|---|---|
+    | 1 | Lấy hết đồ ra, phân loại | Bỏ đồ quá hạn, gom đồ dễ hỏng vào thùng đá |
+    | 2 | Tháo khay, kệ, ngăn kéo | Để nguội về nhiệt độ phòng rồi mới rửa |
+    | 3 | Lau thành và trần khoang | Từ trên xuống dưới, khăn mềm |
+    | 4 | Lau gioăng cửa | Lật rãnh ra lau, đây là chỗ hay bỏ sót |
+    | 5 | Thông lỗ thoát nước ngưng | Ở thành sau ngăn mát |
+    | 6 | Lau khô hoàn toàn | Còn ẩm là còn mùi |
+    | 7 | Lắp lại và xếp đồ | Chừa lối cho khí đi |
+
+    Bước 2 có một cái bẫy: kệ kính vừa lấy từ tủ ra đang rất lạnh, dội nước nóng lên là sốc nhiệt. Để nguội trước.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh lỗ thoát nước ngưng ở thành sau ngăn mát bị cặn bẩn bịt kín, quanh đó đọng một vũng nước nhỏ -->
+
+    ## Ba thứ không nên dùng
+
+    - **Nước quá nóng trên kính đang lạnh.** Sốc nhiệt làm nứt kệ.
+    - **Chất tẩy mạnh hoặc dung môi.** Làm giòn nhựa và để lại mùi bám dai, mà mùi hoá chất trong tủ lạnh thì ám sang thực phẩm.
+    - **Vật sắc để cạy tuyết.** Đường ống làm lạnh nằm ngay sau lớp vỏ ngăn đá. Một vết thủng là hỏng nặng, không phải hỏng nhẹ.
+
+    Tuyết trong ngăn đá cần được **để tan tự nhiên**. Đây là phần tốn thời gian nhất và cũng là phần không rút ngắn được bằng dụng cụ.
+
+    ## Lỗ thoát nước ngưng — chỗ hay bị bỏ qua
+
+    Ngăn mát có một lỗ nhỏ ở thành sau để dẫn nước ngưng ra khay bay hơi phía sau tủ. Lỗ này tắc thì nước không thoát được, đọng dưới đáy khoang hoặc chảy ra sàn.
+
+    Rất nhiều trường hợp "tủ lạnh chảy nước" bắt đầu từ đúng chỗ này, và nó nằm trong tầm tay người dùng khi đang dọn tủ. Lau sạch quanh miệng lỗ, và nếu có dụng cụ thông kèm theo máy thì dùng đúng dụng cụ đó.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, lật rãnh gioăng cửa tủ lạnh ra và lau cặn bẩn đọng bên trong rãnh -->
+
+    ## Sắp xếp lại sau khi vệ sinh
+
+    Xếp đồ vào lại là lúc quyết định tủ chạy tốt tới đâu trong nhiều tháng sau:
+
+    - **Chừa khoảng trống trước cửa gió** ở thành sau hoặc thành trên. Che cửa gió là tạo vùng ấm cục bộ.
+    - **Lấp đầy khoảng ba phần tư.** Quá trống thì nhiệt dao động mạnh, quá đầy thì chặn dòng khí.
+    - **Đậy kín mọi món.** Vừa tránh lan mùi, vừa giảm hơi ẩm trong khoang.
+    - **Để đồ nguội hẳn** trước khi cho vào tủ.
+
+    ## Hai phần nằm ngoài khoang
+
+    - **Gioăng cửa.** Lau rãnh và kiểm bằng phép thử tờ giấy: kẹp tờ giấy vào mép cửa, đóng lại, rút ra thấy có lực cản đều quanh viền là đạt.
+    - **Dàn nóng và khu vực dưới gầm.** Bụi bám làm giảm khả năng thải nhiệt. Hút bụi hoặc quét sạch, và chừa đủ khoảng thoáng phía sau.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh kéo tủ lạnh ra khỏi tường và hút bụi dàn nóng phía sau tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Ba thông tin: tủ lâu chưa vệ sinh sâu tới mức nào, hiện có mùi hoặc nước đọng không, và ngăn đá có bám tuyết dày không. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn cần vệ sinh chuyên sâu hay chỉ cần làm theo các bước tự làm được. Nếu tủ đang có nước đọng dưới gầm, hãy nói rõ nước xuất hiện lúc nào trong ngày.
+
+    Nếu mùi vẫn còn sau khi dọn, đọc <!-- INTERNAL: tủ lạnh có mùi hôi | /tu-lanh-co-mui-hoi/ -->. Sau khi xếp lại đồ, kiểm nhiệt độ theo <!-- INTERNAL: cách chỉnh nhiệt độ tủ lạnh | /cach-chinh-nhiet-do-tu-lanh/ -->. Nếu vừa có người tới làm, đối chiếu <!-- INTERNAL: checklist nghiệm thu tủ lạnh | /checklist-nghiem-thu-tu-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Vệ sinh tủ lạnh có cần rút điện không?
+
+    Nếu chỉ lau nhanh vài kệ thì không bắt buộc. Nhưng nếu làm kỹ, tháo khay và lau toàn bộ khoang thì nên rút phích cắm, vì cửa mở lâu khiến máy chạy liên tục mà vẫn không giữ được nhiệt độ. Hãy chuẩn bị thùng giữ lạnh có đá trước khi rút điện.
+
+    ### Đồ trong tủ để ngoài bao lâu khi đang dọn thì an toàn?
+
+    Càng ngắn càng tốt, và thực phẩm dễ hỏng nên nằm trong thùng giữ lạnh có đá thay vì để trên mặt bàn. Lý do là trong khoảng nhiệt độ từ khoảng 4 tới 60 độ C vi khuẩn phát triển nhanh, nên mục tiêu là giữ đồ ở mức lạnh suốt thời gian dọn.
+
+    ### Có được dùng nước nóng để rửa kệ kính tủ lạnh không?
+
+    Không nên dội nước nóng lên kệ kính vừa lấy ra khi nó còn rất lạnh, vì sốc nhiệt có thể làm nứt. Hãy để kệ nguội về nhiệt độ phòng rồi mới rửa, và dùng nước ấm nhẹ cùng dung dịch nhẹ thay vì chất tẩy mạnh.
+
+    ### Vì sao không được cạy tuyết trong ngăn đá?
+
+    Vì đường ống làm lạnh nằm ngay sau lớp vỏ ngăn đá, và một vết thủng do vật sắc là hỏng nặng chứ không phải hỏng nhẹ. Cách đúng là rút điện, mở cửa và để tuyết tan tự nhiên, hứng nước bằng khăn hoặc khay.
+
+    ### Ficool có nhận vệ sinh tủ lạnh tại nhà ở TP.HCM không?
+
+    Có. Bạn gửi thông tin tủ lâu chưa vệ sinh sâu tới mức nào, hiện tượng mùi hoặc nước đọng, và mức tuyết bám trong ngăn đá. Kỹ thuật viên Ficool sẽ nói phạm vi công việc trước, và chi phí được thống nhất trước khi làm.
+  seo:
+    tieu_de: Cách vệ sinh tủ lạnh tại nhà theo đúng thứ tự
+    mo_ta: >-
+      Bảy bước làm sạch từng phần, ba thứ không nên dùng, và cách xếp đồ lại để
+      không chặn cửa gió.
+    slug: cach-ve-sinh-tu-lanh
+    tu_khoa_phu:
+    - vệ sinh tủ lạnh tại nhà
+    - làm sạch tủ lạnh
+    - dọn tủ lạnh đúng cách

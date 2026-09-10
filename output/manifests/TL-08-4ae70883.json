@@ -1,0 +1,63 @@
+{
+  "run_id": "TL-08-4ae70883",
+  "topic_id": "TL-08",
+  "topic": "Cách vệ sinh tủ lạnh tại nhà: Sắp xếp thực phẩm và làm sạch từng phần",
+  "category": "Tủ lạnh",
+  "phien_ban_ban_do": "funnel-map-v2+c7e2ae283573",
+  "slug": "cach-ve-sinh-tu-lanh",
+  "wp_slug": null,
+  "wp_post_id": null,
+  "wp_status": "cho_tac_nhan",
+  "wp_link": null,
+  "qa": {
+    "status": "PASS",
+    "overall": 100,
+    "checks": {
+      "h1_duy_nhat": true,
+      "phu_tu_khoa": true,
+      "faq": true,
+      "khong_khang_dinh_cam": true,
+      "anh_du_va_co_alt": true,
+      "anh_da_chen": true,
+      "co_nguon": true,
+      "boi_canh_dia_phuong": true,
+      "lien_ket_noi_bo": true,
+      "khong_con_chu_thich_tho": true,
+      "khong_lo_duong_dan_may": true,
+      "do_dai_title": true,
+      "do_dai_meta": true,
+      "du_dai_bai": true,
+      "tra_loi_som": true,
+      "cau_du_ngan": true,
+      "tieu_de_dang_cau_hoi": true,
+      "faq_du_cap": true,
+      "faq_tu_chua": true,
+      "thuc_the_ro_rang": true,
+      "co_dinh_dang_trich_duoc": true,
+      "co_schema": true,
+      "khong_trung_rank_math": true
+    },
+    "blockers": [],
+    "chi_tiet": {
+      "do_phu_tu_khoa": 1.0,
+      "so_tu": 1168,
+      "vi_pham_luat_cam": [],
+      "so_h1": 0
+    },
+    "schema": {
+      "types": [
+        "FAQPage",
+        "HowTo"
+      ],
+      "faq": 5,
+      "buoc": 4
+    }
+  },
+  "media_ids": [
+    410,
+    null,
+    null,
+    null
+  ],
+  "created_at": "2026-09-10T07:09:24.251872+00:00"
+}

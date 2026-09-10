@@ -1,0 +1,148 @@
+chu_de:
+  id: MG-08
+  tieu_de: 'Vệ sinh máy giặt tại nhà: Chế độ tự vệ sinh có thay thế vệ sinh chuyên sâu?'
+  tu_khoa_chinh: vệ sinh máy giặt tại nhà
+  chuyen_muc: Máy giặt
+  the:
+  - Vệ sinh
+  giai_doan_phieu: F2
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Phần lớn máy giặt hiện nay có sẵn một chế độ được gọi là tự vệ sinh lồng
+    giặt hoặc vệ sinh thùng, và tài liệu của các hãng mô tả nó là chu trình chạy
+    nước ở nhiệt độ cao hơn bình thường, đảo và xả nhiều lần để làm sạch bề mặt
+    lồng trong. Giới hạn nằm ở chỗ chu trình này chỉ tác động lên những bề mặt
+    mà nước trong lồng chạm tới. Các vị trí tích tụ cặn xà phòng, xơ vải và nấm
+    mốc lại nằm ngoài phạm vi đó: khe giữa lồng trong và lồng ngoài, mặt sau
+    lồng ngoài, nếp gấp của gioăng cao su ở máy cửa trước, ngăn chứa nước giặt
+    và nước xả, bộ lọc xơ vải cùng bộ lọc bơm xả, và đoạn ống xả. Tài liệu về
+    nấm mốc của EPA nêu nguyên tắc chung là mốc phát triển ở nơi có ẩm đọng và
+    cách xử lý bền vững là loại bỏ nguồn ẩm chứ không phải khử mùi bề mặt, điều
+    này giải thích vì sao mùi quay lại sau vài tuần nếu chỉ chạy chế độ tự vệ
+    sinh. Tài liệu về máy giặt của ENERGY STAR cũng lưu ý thói quen sử dụng ảnh
+    hưởng tới mức tích tụ: dùng quá nhiều bột hoặc nước giặt, giặt liên tục ở
+    nước lạnh, và đóng kín cửa máy ngay sau khi giặt đều làm ẩm đọng lâu hơn.
+    Vệ sinh chuyên sâu khác ở chỗ có tháo lồng giặt hoặc tháo các cụm chi tiết
+    để làm sạch những bề mặt mà chu trình nước không với tới.
+  nguon:
+  - url: https://www.energystar.gov/products/clothes_washers
+    title: ENERGY STAR — Clothes Washers
+  - url: https://www.epa.gov/mold/mold-course-chapter-2
+    title: US EPA — Mold Course, Chapter 2
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ sản phẩm
+  serp: []
+
+bai_viet:
+  than: |
+    # Vệ sinh máy giặt tại nhà: Chế độ tự vệ sinh có thay thế vệ sinh chuyên sâu?
+
+    Câu trả lời ngắn: không, nhưng nó vẫn đáng chạy đều. Chế độ tự vệ sinh làm sạch **những bề mặt nước trong lồng chạm tới**. Cặn xà phòng, xơ vải và nấm mốc thì tích tụ ở những chỗ nước không với tới được.
+
+    <!-- IMAGE: IMG-001 | Người dùng đứng trước máy giặt cửa trước trong phòng giặt, mở cửa máy và lật nếp gioăng cao su ra xem -->
+
+    ## Chế độ tự vệ sinh thực sự làm gì
+
+    Chu trình này chạy nước ở nhiệt độ cao hơn bình thường, đảo và xả nhiều lần. Nó có tác dụng thật với:
+
+    - Bề mặt lồng trong.
+    - Cặn bám lỏng lẻo trôi được theo nước.
+    - Mùi nhẹ mới xuất hiện.
+
+    Chạy đều đặn thì nó giữ cho lồng trong không tích cặn nhanh. Đó là lý do nên dùng, chứ không phải lý do bỏ qua phần còn lại.
+
+    ## Năm chỗ chế độ tự vệ sinh không chạm tới
+
+    | Vị trí | Vì sao nước trong lồng không tới |
+    |---|---|
+    | Khe giữa lồng trong và lồng ngoài | Nằm ngoài lồng quay, chỉ tiếp xúc phần nước tràn qua lỗ |
+    | Mặt sau lồng ngoài | Khuất hoàn toàn |
+    | Nếp gấp gioăng cao su cửa trước | Nước chảy qua chứ không đọng lại đủ để làm sạch nếp gấp |
+    | Ngăn chứa nước giặt, nước xả | Nằm trên đường cấp, không nằm trong lồng |
+    | Bộ lọc xơ vải, bộ lọc bơm xả, ống xả | Nằm trên đường thoát |
+
+    Năm vị trí này là nơi mùi hôi thường bắt nguồn. Chạy chế độ tự vệ sinh mà mùi vẫn còn thì gần như luôn vì lý do trong bảng.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh nếp gấp gioăng cao su cửa máy giặt bị lật ra, bên trong đọng cặn xà phòng và mảng mốc sẫm -->
+
+    ## Bốn việc bạn tự làm được
+
+    Không cần thợ, không cần tháo máy:
+
+    1. **Lau nếp gioăng cao su** sau mỗi vài lần giặt. Lật nếp ra, lau khô, chú ý phần đáy nơi nước đọng.
+    2. **Tháo và rửa ngăn chứa nước giặt.** Phần lớn model rút ra được bằng tay.
+    3. **Vệ sinh bộ lọc bơm xả** theo hướng dẫn của máy. Thường có nắp nhỏ ở góc dưới mặt trước, và cần khăn hứng nước.
+    4. **Để cửa máy hé mở** sau khi giặt xong cho lồng khô.
+
+    Việc thứ tư không tốn công nào mà lại là việc giảm mùi rõ nhất, vì nó xử lý đúng thứ gây mùi: ẩm đọng.
+
+    ## Ba thói quen làm máy bẩn nhanh hơn
+
+    - **Dùng quá nhiều bột hoặc nước giặt.** Phần dư không tan hết sẽ đọng thành cặn.
+    - **Luôn giặt ở nước lạnh.** Tiết kiệm điện, nhưng cặn tích nhanh hơn, nên cần bù bằng chu trình vệ sinh đều đặn.
+    - **Đóng kín cửa ngay sau khi giặt.** Hơi ẩm ở lại trong lồng.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, mở nắp bộ lọc bơm xả ở góc dưới máy giặt và hứng nước bằng khay nông -->
+
+    ## Dấu hiệu chế độ tự vệ sinh đã tới giới hạn
+
+    - Mùi hôi quay lại chỉ sau vài tuần.
+    - Quần áo giặt xong vẫn có mùi ẩm.
+    - Có mảng cặn hoặc vụn đen bám lên quần áo sau khi giặt.
+    - Nhìn thấy cặn ở khe giữa lồng trong và lồng ngoài khi soi đèn.
+    - Máy xả chậm hoặc còn đọng nước sau chu trình.
+
+    Thấy hai dấu hiệu trở lên nghĩa là phần cần xử lý nằm ngoài tầm của chu trình nước.
+
+    ## Vệ sinh chuyên sâu gồm những gì
+
+    Khác biệt nằm ở chỗ **có tháo**:
+
+    - Tháo lồng giặt để làm sạch khe giữa hai lồng và mặt sau lồng ngoài.
+    - Làm sạch cụm gioăng, ngăn chứa và các bộ lọc.
+    - Kiểm và thông đường xả.
+    - Lắp lại, chạy thử và kiểm rò nước.
+
+    Đây cũng là lý do vệ sinh chuyên sâu không phải việc làm trong mười phút, và không phải việc nên tự làm nếu bạn chưa từng tháo lồng giặt.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh tháo lồng giặt máy cửa trước ra khỏi vỏ máy tại nhà khách, các chi tiết xếp gọn trên tấm bạt -->
+
+    ## Gửi gì cho Ficool?
+
+    Ba thông tin: máy cửa trên hay cửa trước, mùi hoặc cặn xuất hiện từ bao giờ, và bạn đã chạy chế độ tự vệ sinh chưa. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn cần vệ sinh chuyên sâu hay chỉ cần đổi thói quen dùng và làm sạch mấy chỗ tự làm được. Ảnh chụp nếp gioăng và ngăn chứa nước giặt giúp định hướng nhanh hơn nhiều so với mô tả.
+
+    Muốn biết bao lâu nên làm một lần, đọc <!-- INTERNAL: bao lâu vệ sinh máy giặt | /bao-lau-ve-sinh-may-giat/ -->. Nếu quần áo giặt xong vẫn có mùi, xem <!-- INTERNAL: quần áo giặt xong có mùi hôi | /quan-ao-giat-xong-co-mui-hoi/ -->. Sau khi thợ làm xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu máy giặt | /checklist-nghiem-thu-may-giat/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Chế độ tự vệ sinh máy giặt có thay được vệ sinh chuyên sâu không?
+
+    Không. Chế độ tự vệ sinh làm sạch bề mặt lồng trong bằng nước nóng và nhiều lần xả, nhưng không với tới khe giữa hai lồng, mặt sau lồng ngoài, nếp gioăng cao su, ngăn chứa nước giặt và các bộ lọc. Đó lại chính là những chỗ mùi hôi bắt nguồn.
+
+    ### Vì sao chạy chế độ tự vệ sinh rồi mà máy giặt vẫn hôi?
+
+    Vì nguồn mùi nằm ở nơi nước trong lồng không chạm tới. Thường gặp nhất là nếp gấp gioăng cao su ở máy cửa trước, ngăn chứa nước giặt, bộ lọc bơm xả và khe giữa lồng trong với lồng ngoài. Xử lý nguồn ẩm mới hết mùi.
+
+    ### Có nên để cửa máy giặt mở sau khi giặt không?
+
+    Nên. Để cửa hé mở cho lồng và gioăng khô là cách giảm mùi đơn giản nhất, vì nó xử lý đúng nguyên nhân là ẩm đọng. Nếu nhà có trẻ nhỏ, hãy cân nhắc vị trí và mức hé cửa cho an toàn.
+
+    ### Dùng nhiều nước giặt có làm máy bẩn nhanh hơn không?
+
+    Có. Phần nước giặt hoặc bột dư không tan hết sẽ đọng lại thành cặn trong lồng, trong ngăn chứa và trên đường xả. Dùng đúng liều theo hướng dẫn của máy và của sản phẩm giặt là cách giảm tích tụ.
+
+    ### Ficool có nhận vệ sinh máy giặt tại nhà ở TP.HCM không?
+
+    Có. Bạn gửi loại máy cửa trên hay cửa trước, hiện tượng đang gặp và thời điểm bắt đầu. Kỹ thuật viên Ficool sẽ nói rõ phạm vi công việc gồm những phần nào trước khi làm, và chi phí được thống nhất trước.
+  seo:
+    tieu_de: Chế độ tự vệ sinh máy giặt có đủ không?
+    mo_ta: >-
+      Năm chỗ chu trình tự vệ sinh không chạm tới, bốn việc bạn tự làm được và
+      dấu hiệu cần vệ sinh chuyên sâu.
+    slug: ve-sinh-may-giat-tai-nha
+    tu_khoa_phu:
+    - cách vệ sinh máy giặt
+    - vệ sinh máy giặt cửa trước
+    - vệ sinh lồng giặt

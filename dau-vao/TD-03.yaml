@@ -1,0 +1,143 @@
+chu_de:
+  id: TD-03
+  tieu_de: Cách xả tuyết và vệ sinh tủ đông đúng cách, tránh làm hỏng lòng tủ
+  tu_khoa_chinh: cách xả tuyết tủ đông
+  chuyen_muc: Tủ mát, tủ đông
+  the:
+  - Vệ sinh
+  giai_doan_phieu: F1
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Xả tuyết tủ đông có hai ràng buộc song song: an toàn cho hàng đông và an
+    toàn cho lòng tủ. Về hàng đông, thực phẩm đã rã đông một phần không nên cấp
+    đông lại một cách tuỳ tiện, nên cách làm thông thường là chọn thời điểm
+    lượng hàng ở mức thấp nhất và chuyển hàng sang thùng giữ lạnh có đá hoặc
+    sang tủ khác trong suốt quá trình xả. Về lòng tủ, các hãng cảnh báo không
+    dùng vật sắc để cạy tuyết vì đường ống làm lạnh nằm ngay sau lớp vỏ trong và
+    một vết thủng dẫn tới rò rỉ môi chất; cũng không nên đổ nước sôi trực tiếp
+    lên thành tủ vì chênh lệch nhiệt độ đột ngột có thể làm nứt hoặc biến dạng
+    lớp nhựa lót. Cách được khuyến cáo là rút nguồn điện, mở nắp và để tuyết tan
+    tự nhiên, có hứng nước bằng khăn hoặc khay; có thể rút ngắn thời gian bằng
+    cách đặt một khay nước ấm bên trong rồi đóng nắp, hoặc dùng quạt thổi không
+    khí phòng vào lòng tủ. Sau khi tuyết tan hết, cần làm sạch bằng dung dịch
+    nhẹ, tránh chất tẩy mạnh vì mùi hoá chất bám lại sẽ ám sang thực phẩm, rồi
+    lau khô hoàn toàn trước khi cắm điện. Nhiều tủ đông có nút hoặc lỗ thoát
+    nước ở đáy hoặc phía dưới mặt trước, cần mở đúng nút này để nước thoát ra
+    ngoài và đóng lại trước khi vận hành. Sau khi cắm điện lại, tủ cần thời gian
+    hạ nhiệt trước khi đưa hàng đông trở vào.
+  nguon:
+  - url: https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety
+    title: US FDA — Refrigerator Thermometers and Food Safety
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Cách xả tuyết và vệ sinh tủ đông đúng cách, tránh làm hỏng lòng tủ
+
+    Xả tuyết là việc đơn giản nhưng có hai chỗ dễ hỏng: hàng đông bị rã trong lúc chờ, và lòng tủ bị làm thủng vì nôn nóng. Cả hai đều tránh được bằng cách chuẩn bị trước, chứ không bằng cách làm nhanh hơn.
+
+    <!-- IMAGE: IMG-001 | Chủ cửa hàng chuyển các túi thực phẩm đông từ tủ đông sang thùng giữ lạnh có đá đặt cạnh tủ -->
+
+    ## Chuẩn bị trước khi bắt đầu
+
+    1. **Chọn ngày ít hàng.** Đây là quyết định quan trọng, vì toàn bộ hàng phải ra ngoài trong lúc xả.
+    2. **Chuẩn bị chỗ giữ lạnh.** Thùng giữ lạnh có đá, thùng xốp, hoặc một tủ khác còn chỗ.
+    3. Chuẩn bị khăn, khay hứng nước, và chậu nếu tủ không có lỗ thoát.
+    4. Xác định **nút hoặc lỗ thoát nước** của tủ nằm ở đâu. Nhiều tủ đông có nút này ở đáy hoặc phía dưới mặt trước.
+
+    Bước 4 hay bị bỏ qua, và bỏ qua nó nghĩa là bạn sẽ vét nước bằng khăn suốt buổi.
+
+    ## Bảy bước xả tuyết
+
+    | Bước | Việc | Lưu ý |
+    |---|---|---|
+    | 1 | Chuyển hết hàng ra chỗ giữ lạnh | Gói kín, xếp chặt để giữ lạnh lâu hơn |
+    | 2 | Rút phích cắm | Không chỉ tắt công tắc trên máy |
+    | 3 | Mở nắp, mở nút thoát nước | Đặt khay hoặc chậu hứng |
+    | 4 | Để tuyết tan tự nhiên | Có thể đặt khay nước ấm bên trong rồi đóng nắp |
+    | 5 | Vét nước, lấy các mảng tuyết đã bong | Chỉ lấy phần đã tự rời, không cạy |
+    | 6 | Làm sạch bằng dung dịch nhẹ | Cả thành, đáy, gioăng và rãnh |
+    | 7 | Lau khô hoàn toàn, đóng nút thoát | Còn ẩm là mầm mùi cho kỳ sau |
+
+    Muốn nhanh hơn bước 4, có hai cách an toàn: đặt một khay **nước ấm** bên trong rồi đóng nắp, hoặc dùng quạt thổi không khí phòng vào lòng tủ.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh nút thoát nước ở đáy trước tủ đông đã mở, nước tan chảy theo máng xuống chậu hứng đặt bên dưới -->
+
+    ## Ba thứ không được dùng
+
+    - **Vật sắc để cạy tuyết.** Dao, tua vít, đục đá. Đường ống làm lạnh nằm ngay sau lớp vỏ trong, một vết thủng là rò rỉ môi chất.
+    - **Nước sôi đổ thẳng lên thành tủ.** Chênh lệch nhiệt độ đột ngột có thể làm nứt hoặc biến dạng lớp nhựa lót. Khay nước ấm đặt bên trong thì được, đổ trực tiếp thì không.
+    - **Chất tẩy mạnh hoặc dung môi.** Mùi hoá chất bám lại sẽ ám sang thực phẩm ở kỳ dùng sau.
+
+    Điểm chung của ba thứ này: chúng đều rút ngắn được vài chục phút, và đều có khả năng biến buổi vệ sinh thành một ca sửa chữa.
+
+    ## Làm sạch sau khi tuyết tan hết
+
+    - Lau thành và đáy bằng khăn mềm với dung dịch nhẹ.
+    - Lật **rãnh gioăng** ra lau, vì cặn bẩn tích ở đây làm gioăng áp không đều.
+    - Rửa các giỏ, khay đựng riêng, để khô hẳn rồi mới lắp lại.
+    - Lau khô toàn bộ, kể cả các góc khuất.
+
+    Bước lau khô quyết định việc kỳ sau tủ có mùi hay không, nên đừng rút ngắn nó.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, lau khô rãnh gioăng và các góc trong lòng tủ đông bằng khăn sạch -->
+
+    ## Sau khi cắm điện lại
+
+    1. **Đóng nút thoát nước** trước khi cắm điện. Quên bước này là nước ngưng sẽ chảy ra sàn suốt quá trình dùng.
+    2. Cắm điện, đóng nắp, để tủ chạy **không hàng** cho tới khi đạt nhiệt độ.
+    3. Đặt nhiệt kế vào trong và kiểm nhiệt độ thực trước khi đưa hàng đông trở vào. Mốc bảo quản đông lạnh được khuyến cáo là **âm 18 độ C**.
+    4. Đưa hàng vào theo đợt, không dồn hết một lúc.
+
+    Điểm 4 có lý do: dồn toàn bộ hàng vào ngay khi tủ vừa chạy làm tải nhiệt tăng đột ngột, và tủ sẽ mất rất nhiều giờ để kéo lại.
+
+    ## Hạn chế tuyết cho kỳ sau
+
+    - Kiểm gioăng nắp bằng phép thử tờ giấy, thay khi gioăng đã chai hoặc cong.
+    - Không xếp hàng chèn làm nắp kênh.
+    - Để thực phẩm ráo nước và nguội hẳn trước khi cho vào.
+    - Hạn chế số lần và thời gian mở nắp, nhất là ở khu vực ẩm.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh vệ sinh lòng tủ đông và kiểm tra đường thoát nước tại cửa hàng của khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Ba thông tin: loại tủ nằm hay đứng, mức tuyết hiện tại, và tủ đang chứa hàng gì. Kỹ thuật viên Ficool tại TP.HCM sẽ tư vấn phương án giữ lạnh cho hàng trong lúc xả, và nói rõ phần nào là vệ sinh thường lệ, phần nào cần kiểm tra thêm như gioăng hay hệ thống xả tuyết. Với hộ kinh doanh, hãy đặt lịch vào ngày ít hàng.
+
+    Nếu chưa rõ khi nào cần xả, đọc <!-- INTERNAL: tủ đông đóng tuyết dày | /tu-dong-dong-tuyet-day/ -->. Nếu xả xong mà vẫn đông chậm, xem <!-- INTERNAL: tủ đông không đông đá | /tu-dong-khong-dong-da/ -->. Nếu còn mùi sau khi vệ sinh, đọc <!-- INTERNAL: tủ đông có mùi hôi | /tu-dong-co-mui-hoi/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Xả tuyết tủ đông mất bao lâu?
+
+    Tuỳ độ dày lớp tuyết, nhiệt độ phòng và kích thước tủ, nên hãy tính theo buổi chứ đừng tính theo phút. Có thể rút ngắn an toàn bằng cách đặt một khay nước ấm bên trong rồi đóng nắp, hoặc dùng quạt thổi không khí phòng vào lòng tủ.
+
+    ### Có được dùng nước sôi để xả tuyết tủ đông không?
+
+    Không đổ trực tiếp lên thành tủ, vì chênh lệch nhiệt độ đột ngột có thể làm nứt hoặc biến dạng lớp nhựa lót. Cách an toàn là đặt một khay nước ấm bên trong rồi đóng nắp để hơi ấm làm tuyết bong dần.
+
+    ### Hàng đông để đâu trong lúc xả tuyết?
+
+    Chuyển sang thùng giữ lạnh có đá, thùng xốp hoặc một tủ khác còn chỗ, gói kín và xếp chặt để giữ lạnh lâu hơn. Nên chọn ngày lượng hàng ở mức thấp nhất để làm, vì toàn bộ hàng phải ra ngoài trong suốt quá trình.
+
+    ### Sau khi xả tuyết bao lâu thì cho hàng vào lại?
+
+    Cắm điện và để tủ chạy không hàng cho tới khi đạt nhiệt độ, kiểm bằng nhiệt kế đặt trong khoang thay vì bằng cảm giác tay. Khi đã đạt mốc, đưa hàng vào theo đợt chứ không dồn hết một lúc, vì dồn nhiều làm tải nhiệt tăng đột ngột.
+
+    ### Ficool có nhận vệ sinh tủ đông tại TP.HCM không?
+
+    Có. Bạn gửi loại tủ, mức tuyết hiện tại và loại hàng đang chứa. Kỹ thuật viên Ficool sẽ tư vấn phương án giữ lạnh cho hàng trong lúc làm, nêu rõ phạm vi công việc, và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Cách xả tuyết và vệ sinh tủ đông đúng cách
+    mo_ta: >-
+      Bảy bước xả tuyết an toàn, ba thứ không được dùng, và cách đưa hàng đông
+      trở vào sau khi cắm điện lại.
+    slug: cach-xa-tuyet-tu-dong
+    tu_khoa_phu:
+    - vệ sinh tủ đông
+    - xả tuyết tủ đông đúng cách
+    - làm sạch lòng tủ đông
