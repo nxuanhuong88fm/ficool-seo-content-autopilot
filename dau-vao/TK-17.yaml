@@ -1,0 +1,176 @@
+chu_de:
+  id: TK-17
+  tieu_de: Checklist nghiệm thu máy sấy và quạt điều hòa sau vệ sinh, sửa chữa hoặc lắp đặt
+  tu_khoa_chinh: checklist nghiệm thu máy sấy quạt điều hòa
+  chuyen_muc: Thiết bị khác
+  the:
+  - Kinh nghiệm hay
+  giai_doan_phieu: F3
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Nghiệm thu hai nhóm thiết bị này khác nhau ở chỗ kết quả được xác nhận bằng
+    gì. Máy sấy quần áo cho kết quả kiểm chứng được ngay trong một mẻ: sau khi
+    chạy hết một chu trình đầy đủ với tải thật, có thể đánh giá đồ đã khô chưa,
+    máy có ngắt giữa chừng không, và mức rung cùng tiếng ồn ra sao; vì vậy phép
+    nghiệm thu quan trọng nhất với máy sấy là chạy thử một mẻ thật chứ không
+    phải một chu trình rỗng. Ngoài ra còn có các hạng mục quan sát được: bộ lọc
+    xơ vải sạch và lắp đúng, đường ống thoát khí với máy thông hơi phải ngắn,
+    thẳng, không gập và đầu ra thông, bình chứa nước với máy ngưng tụ và bơm
+    nhiệt phải với tới được, máy kê cân, và khe hở thải nhiệt đủ theo hướng dẫn.
+    Một điểm an toàn cần được nêu riêng: xơ vải tích tụ trong đường khí vừa gây
+    quá nhiệt vừa là vật liệu dễ bắt lửa, nên nếu lượt dịch vụ liên quan tới bảo
+    vệ quá nhiệt đã ngắt thì phải xác nhận nguyên nhân cản khí đã được xử lý,
+    không chỉ xác nhận linh kiện đã thay. Quạt điều hòa thì ngược lại: kết quả
+    phụ thuộc độ ẩm không khí nên không thể nghiệm thu trong phòng đóng kín;
+    phép thử phải thực hiện ở điều kiện dùng thật với cửa mở hé, và đánh giá
+    bằng luồng gió trực tiếp chứ không bằng nhiệt độ chung của phòng. Các hạng
+    mục còn lại gồm tấm làm mát ướt đều, bơm chạy và đưa nước lên đủ, bình không
+    rò, lưới lọc sạch, và không còn mùi sau khi vệ sinh.
+  nguon:
+  - url: https://www.energy.gov/energysaver/clothes-dryers
+    title: U.S. Department of Energy — Clothes Dryers
+  - url: https://www.energy.gov/energysaver/evaporative-coolers
+    title: U.S. Department of Energy — Evaporative Coolers
+  - url: https://www.epa.gov/mold/mold-course-chapter-2
+    title: US EPA — Mold Course, Chapter 2
+  serp: []
+
+bai_viet:
+  than: |
+    # Checklist nghiệm thu máy sấy và quạt điều hòa sau vệ sinh, sửa chữa hoặc lắp đặt
+
+    Hai nhóm thiết bị này nghiệm thu theo hai cách khác hẳn nhau, vì kết quả của chúng được xác nhận bằng những thứ khác nhau:
+
+    - **Máy sấy** — kiểm chứng được ngay trong **một mẻ thật**.
+    - **Quạt điều hòa** — không kiểm chứng được trong **phòng đóng kín**.
+
+    Hiểu nhầm điểm này là lý do nhiều lượt nghiệm thu kết luận sai về cả hai phía.
+
+    <!-- IMAGE: IMG-001 | Khách hàng và kỹ thuật viên đứng trong phòng giặt trước máy sấy vừa lắp xong, cùng xem phiếu bàn giao -->
+
+    ## Phần A — Máy sấy quần áo
+
+    ### Kiểm tại chỗ, trước khi chạy thử
+
+    | Hạng mục | Đạt khi |
+    |---|---|
+    | Bộ lọc xơ vải | Sạch, lắp đúng vị trí |
+    | Đường ống thoát khí (máy thông hơi) | Ngắn, thẳng, không gập, đầu ra thông |
+    | Ống không tì vào tường hoặc vỏ máy | Không truyền rung |
+    | Bình chứa nước (ngưng tụ, bơm nhiệt) | Với tới được để đổ |
+    | Bộ lọc thứ cấp, bộ trao đổi nhiệt (bơm nhiệt) | Đã vệ sinh, lắp đúng |
+    | Máy kê cân | Không bập bênh khi đẩy chéo bốn góc |
+    | Khe hở thải nhiệt | Đủ ở lưng và hai bên |
+    | Bộ phụ kiện xếp chồng, nếu có | Đúng loại, cố định chắc |
+
+    ### Chạy thử — đây mới là phép nghiệm thu
+
+    Phải là **một mẻ thật với tải thật**, không phải một chu trình rỗng. Bốn thứ cần xác nhận:
+
+    1. **Đồ khô** sau một chu trình đầy đủ.
+    2. Máy **không ngắt giữa chừng**.
+    3. **Mức rung và tiếng ồn** bình thường, không có tiếng va đập kim loại.
+    4. **Không có mùi khét** trong suốt mẻ.
+
+    Với máy bơm nhiệt, nhớ rằng nó chạy **lâu hơn và mát hơn** theo thiết kế — đừng lấy nhiệt độ làm tiêu chí, hãy lấy độ khô của đồ.
+
+    ### ⚠️ Nếu lượt sửa liên quan tới bảo vệ quá nhiệt
+
+    Đây là hạng mục nghiệm thu riêng và không được bỏ.
+
+    Rơ le nhiệt hoặc cầu chì nhiệt ngắt là **hậu quả** của dòng khí bị cản, không phải nguyên nhân. Nên phải xác nhận:
+
+    - **Nguyên nhân cản khí đã được xử lý** — bộ lọc, đường ống, quạt thổi.
+    - Không chỉ xác nhận "đã thay linh kiện".
+
+    Xơ vải tích tụ trong đường khí vừa gây quá nhiệt vừa là vật liệu dễ bắt lửa, nên đây là hạng mục an toàn chứ không chỉ là hạng mục hiệu suất.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh bộ lọc xơ vải sạch vừa lắp lại vào máy sấy, phía sau là đoạn ống thoát khí thẳng không gập -->
+
+    ## Phần B — Quạt điều hòa
+
+    ### Điều kiện thử phải giống điều kiện dùng
+
+    Đây là điểm khác biệt lớn nhất so với mọi thiết bị làm mát khác.
+
+    Quạt điều hòa hạ nhiệt bằng cách cho nước **bay hơi**, nên hiệu quả phụ thuộc độ ẩm không khí. Nghiệm thu trong phòng đóng kín là nghiệm thu ở điều kiện mà thiết bị **không thể** làm việc tốt.
+
+    - Thử với **cửa mở hé**, như cách dùng thật.
+    - Đánh giá bằng **luồng gió trực tiếp**, không bằng nhiệt độ chung của phòng.
+    - Đừng so với máy lạnh — mức hạ nhiệt của thiết bị bay hơi thấp hơn nhiều.
+
+    ### Checklist
+
+    | Hạng mục | Đạt khi |
+    |---|---|
+    | Tấm làm mát | **Ướt đều** trên toàn bộ diện tích |
+    | Bơm nước | Chạy, đưa nước lên đủ |
+    | Máng phân phối | Các lỗ thông, nước phân bố đều |
+    | Bình chứa nước | Không rò, nắp đóng khít |
+    | Lưới lọc bụi | Sạch, lắp đúng |
+    | Mùi | Không còn mùi sau khi vệ sinh |
+    | Tấm lắp khít khung | Không có khe cho khí lách qua |
+    | Bánh xe, khớp, vỏ | Chắc, không lỏng |
+
+    Dòng "tấm ướt đều" là dòng quan trọng nhất: tấm chỉ ướt một vùng nghĩa là máng phân phối còn tắc hoặc bơm còn yếu, dù nhìn qua thì máy vẫn "chạy bình thường".
+
+    Dòng cuối cùng của bảng cũng đáng kiểm: khí lách qua khe là khí không được làm mát, và nó làm giảm hiệu quả ngay cả với tấm vừa thay mới.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên mở nắp lưng quạt điều hòa cho khách xem tấm làm mát đã ướt đều toàn bộ diện tích -->
+
+    ## Giấy tờ — chung cho cả hai nhóm
+
+    - **Bảo hành thiết bị** do hãng cấp, áp cho máy và linh kiện chính hãng.
+    - **Bảo hành dịch vụ** do đơn vị thực hiện cấp, áp cho phần việc họ vừa làm.
+
+    Yêu cầu phiếu ghi rõ hạng mục đã làm và điều kiện bảo hành cho phần việc đó. Với quạt điều hòa, hãy hỏi thêm phần nào là **vật tư tiêu hao** — tấm làm mát và lưới lọc có tuổi thọ hữu hạn, nên chúng không nằm cùng nhóm với linh kiện về mặt bảo hành.
+
+    ## Ba việc nên làm trước khi kỹ thuật viên rời đi
+
+    1. **Xem vật tư và linh kiện cũ** đã tháo ra.
+    2. **Chạy thử trước mặt bạn**, đúng điều kiện nêu ở trên.
+    3. Hỏi **lịch bảo trì tiếp theo** và những việc bạn tự làm được giữa hai kỳ.
+
+    Việc thứ hai là việc khó đòi lại nhất sau khi người ta đã về.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh ký phiếu bàn giao trên bàn, khách hàng đọc phiếu bên cạnh máy sấy và quạt điều hòa -->
+
+    ## Dùng checklist này với Ficool
+
+    Khi đặt dịch vụ với Ficool tại TP.HCM, hãy mở checklist này ra đối chiếu ngay lúc bàn giao. Với máy sấy, đề nghị chạy thử một mẻ thật; với quạt điều hòa, đề nghị thử ở điều kiện phòng mở hé như khi dùng. Nếu có hạng mục chưa đạt, nêu trước khi kỹ thuật viên rời đi.
+
+    Về điều kiện lắp máy sấy, đọc <!-- INTERNAL: lắp đặt máy sấy quần áo | /lap-dat-may-say-quan-ao/ -->. Muốn biết chi phí sửa quạt điều hòa gồm những phần nào, xem <!-- INTERNAL: giá sửa quạt điều hòa | /gia-sua-quat-dieu-hoa/ -->. Nếu quạt điều hòa còn mùi sau khi vệ sinh, đọc <!-- INTERNAL: quạt điều hòa có mùi hôi | /quat-dieu-hoa-co-mui-hoi/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Nghiệm thu máy sấy quần áo cần kiểm gì?
+
+    Tại chỗ: bộ lọc xơ vải sạch và lắp đúng, đường ống thoát khí ngắn thẳng không gập với máy thông hơi, bình chứa nước với tới được, máy kê cân, khe hở thải nhiệt đủ. Sau đó phải chạy thử một mẻ thật với tải thật để xác nhận đồ khô, máy không ngắt giữa chừng, không rung mạnh và không có mùi khét.
+
+    ### Vì sao không nghiệm thu quạt điều hòa trong phòng kín được?
+
+    Vì thiết bị này hạ nhiệt bằng cách cho nước bay hơi, nên hiệu quả phụ thuộc độ ẩm không khí. Phòng đóng kín làm độ ẩm tăng tới mức nước không bay hơi được nữa. Phải thử với cửa mở hé như cách dùng thật, và đánh giá bằng luồng gió trực tiếp chứ không bằng nhiệt độ chung của phòng.
+
+    ### Sau khi sửa máy sấy bị ngắt giữa chừng cần xác nhận gì thêm?
+
+    Phải xác nhận nguyên nhân cản khí đã được xử lý, không chỉ xác nhận đã thay linh kiện. Rơ le nhiệt và cầu chì nhiệt ngắt là hậu quả của dòng khí bị cản chứ không phải nguyên nhân, nên không xử lý bộ lọc, đường ống và quạt thổi thì sự cố sẽ lặp lại.
+
+    ### Tấm làm mát chỉ ướt một vùng có được coi là đạt không?
+
+    Không. Tấm phải ướt đều trên toàn bộ diện tích. Chỉ ướt một vùng nghĩa là máng phân phối còn tắc hoặc bơm còn yếu, dù nhìn qua thì máy vẫn chạy bình thường. Đây là hạng mục quan trọng nhất khi nghiệm thu quạt điều hòa.
+
+    ### Ficool có phiếu bàn giao khi hoàn thành không?
+
+    Có. Bạn nên yêu cầu phiếu ghi rõ hạng mục đã thực hiện và điều kiện bảo hành dịch vụ cho phần việc đó. Với quạt điều hòa, hãy hỏi thêm phần nào là vật tư tiêu hao, vì tấm làm mát và lưới lọc có tuổi thọ hữu hạn nên không cùng nhóm với linh kiện về mặt bảo hành.
+  seo:
+    tieu_de: Checklist nghiệm thu máy sấy và quạt điều hòa
+    mo_ta: >-
+      Máy sấy nghiệm thu bằng một mẻ thật; quạt điều hòa không nghiệm thu được
+      trong phòng kín. Hai checklist riêng cho hai nhóm.
+    slug: checklist-nghiem-thu-may-say-quat-dieu-hoa
+    tu_khoa_phu:
+    - kiểm tra máy sấy sau sửa
+    - kiểm tra quạt điều hòa sau vệ sinh
+    - nghiệm thu sau dịch vụ
