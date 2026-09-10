@@ -53,8 +53,12 @@ class QAPipeline:
         so_tu = len(re.findall(r'\w+', than, flags=re.UNICODE))
 
         checks = {
-            # đúng MỘT h1: theme đã render tiêu đề, hai h1 là lỗi cấu trúc
-            'h1_duy_nhat': so_h1 == 1,
+            # KHÔNG h1 nào trong post_content: theme đã render tiêu đề thành
+            # H1 rồi (Bricks #268 `ps1h1` = {post_title}). Bản cũ khẳng định
+            # `== 1` trong khi ghi chú ngay trên nó nói "hai h1 là lỗi cấu trúc"
+            # — ghi chú đúng, khẳng định ngược, và cổng bảo đảm đúng cái nó định
+            # chặn. Đo được trên 20/20 bài đã đăng ngày 10/09.
+            'h1_duy_nhat': so_h1 == 0,
             'phu_tu_khoa': phu >= NGUONG_PHU,
             'faq': bool(re.search(r'faq|câu hỏi thường gặp', than, re.I)),
             'khong_khang_dinh_cam': not vi_pham,

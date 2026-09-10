@@ -17,6 +17,7 @@ from pipeline.utils import dump_yaml
 MOC_ANH = re.compile(
     r'<!-- IMAGE:\s*(?P<id>[A-Za-z0-9_-]+)\s*(?:\|\s*(?P<mo_ta>[^>]*?)\s*)?-->')
 MOC_LIEN_KET = re.compile(r'<!-- INTERNAL:\s*(?P<neo>.+?)\s*\|\s*(?P<url>\S+?)\s*-->')
+BO_H1 = re.compile(r'^\s*<h1(?:\s[^>]*)?>.*?</h1>\s*', re.I | re.S)
 
 
 def doc_mo_ta(than: str) -> dict:
@@ -143,6 +144,16 @@ class AssemblyPipeline:
         body = MOC_ANH.sub('', body)
 
         html_body = markdown(body, extensions=['extra', 'tables'])
+
+        # ⚠️ BỎ <h1> KHỎI post_content. Template bài viết (Bricks #268, element
+        # `ps1h1`) đã render `{post_title}` thành H1 rồi. Giữ thêm một H1 trong
+        # nội dung là trang có HAI H1, và tiêu đề hiện ra hai lần ngay dưới nhau
+        # — thấy rõ trên bản xem thử ngày 10/09.
+        #
+        # Dòng `# ` trong Markdown vẫn PHẢI có: `geo.py` tách đoạn trả lời sớm
+        # bằng cách cắt tại dòng đó, và `assembly` dùng nó làm neo đặt IMG-001.
+        # Chỉ bỏ phần ĐẦU RA.
+        html_body = BO_H1.sub('', html_body, count=1).lstrip()
         dump_yaml(output_dir / 'assembled.yaml',
                   {'html_length': len(html_body), 'image_count': len(images)})
         (output_dir / 'article.html').write_text(html_body, encoding='utf-8')

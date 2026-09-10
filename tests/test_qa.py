@@ -44,7 +44,7 @@ def _bo_dat():
         topic={'primary_keyword': 'máy lạnh chảy nước trong nhà'},
         article={'body': than, 'seo': {'title': 'Máy lạnh chảy nước trong nhà: xử lý',
                                        'meta_description': 'Nguyên nhân và cách xử lý máy lạnh chảy nước tại TP.HCM.'}},
-        html_body='<h1>x</h1>' + '<figure class="ficool-article-image"></figure>' * 4 + '<a href="/bang-gia/">giá</a>',
+        html_body='<figure class="ficool-article-image"></figure>' * 4 + '<a href="/bang-gia/">giá</a>',
         images=[{'alt': f'anh {i}'} for i in range(4)],
         research={'serp': [{'link': 'https://vd.vn'}]},
     )
@@ -56,7 +56,9 @@ def test_bo_du_lieu_chuan_thi_PASS():
 
 
 @pytest.mark.parametrize('ten_phep,be', [
-    ('h1_duy_nhat',            lambda d: d.update(html_body=d['html_body'] + '<h1>hai</h1>')),
+    # Theme da render tieu de thanh H1; mot H1 nua trong post_content la
+    # trang co HAI H1 va tieu de hien ra hai lan.
+    ('h1_duy_nhat',            lambda d: d.update(html_body=d['html_body'] + '<h1>tieu de lap</h1>')),
     ('phu_tu_khoa',            lambda d: d['article'].update(body='Tủ lạnh kêu to. ' * 500)),
     ('faq',                    lambda d: d['article'].update(body=d['article']['body'].replace('Câu hỏi thường gặp', 'Kết luận'))),
     ('khong_khang_dinh_cam',   lambda d: d['article'].update(body=d['article']['body'] + ' Chỉ từ 150.000đ.')),

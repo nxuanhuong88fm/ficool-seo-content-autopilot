@@ -143,3 +143,28 @@ def test_demo_cung_sinh_dung_mot_anh_eager(tmp_path, monkeypatch):
     assert h.count('loading="lazy"') == 3
     assert len(re.findall(r'class="wp-image-', h)) == 4
     assert len(set(re.findall(r'alt="([^"]+)"', h))) == 4      # 4 alt KHAC nhau
+
+
+# ── H1: theme đã render tiêu đề, post_content không được lặp lại ────────────
+def test_html_bai_viet_KHONG_con_h1(tmp_path):
+    """Template bài viết (Bricks #268, `ps1h1`) render `{post_title}` thành H1.
+    Giữ thêm một H1 trong post_content là trang có HAI H1 và tiêu đề hiện ra hai
+    lần ngay dưới nhau — thấy trên bản xem thử 10/09, có ở 20/20 bài đã đăng.
+    """
+    h = AssemblyPipeline().run({'body': '# Tiêu đề bài\n\nĐoạn mở.'}, [], [], tmp_path)
+    assert '<h1' not in h
+    assert 'Đoạn mở' in h
+
+
+def test_van_giu_h2_h3(tmp_path):
+    """Bỏ H1 mà bỏ luôn H2 là xoá mất cấu trúc mục của bài."""
+    than = '# T\n\n## Mục hai\n\nNội dung.\n\n### Mục ba\n\nNữa.'
+    h = AssemblyPipeline().run({'body': than}, [], [], tmp_path)
+    assert '<h2' in h and '<h3' in h
+
+
+def test_chi_bo_h1_DAU_bai():
+    """Một H1 nằm giữa bài là lỗi của người viết, không im lặng dọn hộ —
+    cổng QA phải còn thấy nó."""
+    from pipeline.assembly import BO_H1
+    assert BO_H1.sub('', 'truoc<h1>x</h1>', count=1) == 'truoc<h1>x</h1>'
