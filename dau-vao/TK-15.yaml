@@ -1,0 +1,196 @@
+chu_de:
+  id: TK-15
+  tieu_de: 'Bảo trì quạt điều hòa: Kiểm tra bơm, quạt và hệ thống nước'
+  tu_khoa_chinh: bảo trì quạt điều hòa
+  chuyen_muc: Thiết bị khác
+  the:
+  - Bảo trì
+  giai_doan_phieu: F2
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Quạt điều hòa có hai mạch làm việc song song: mạch nước gồm bình chứa, bơm,
+    đường ống dẫn cùng máng phân phối, tấm làm mát và đường nước hồi về bình; và
+    mạch gió gồm lưới lọc, tấm làm mát, cánh quạt và động cơ. Điểm quyết định thứ
+    tự ưu tiên khi bảo trì là hai mạch này hỏng theo hai kiểu rất khác nhau: mạch
+    gió hỏng thì người dùng biết ngay vì gió yếu hoặc máy có tiếng lạ, còn mạch
+    nước hỏng thường không phát tín hiệu nào rõ ràng vì quạt vẫn chạy bình thường
+    nên máy trông vẫn hoạt động, chỉ có khí ra không mát. Kiểu hỏng khó đoán nhất
+    thuộc mạch nước là các lỗ trên máng phân phối bị cặn khoáng bít dần: bơm vẫn
+    làm việc và vẫn có tiếng nước, nhưng nước chỉ còn ra ở một vài lỗ nên tấm làm
+    mát chỉ ướt một phần trong khi phần lớn diện tích tấm vẫn khô, và vì hiệu quả
+    bay hơi tỉ lệ với diện tích tấm được làm ướt, máy mất phần lớn khả năng làm mát
+    mà không có biểu hiện nào ngoài việc khí ra không mát. Các điểm khác của mạch
+    nước gồm phần lọc ở đầu hút bơm bị cặn làm nước lên yếu, tấm làm mát bị cặn
+    khoáng nên nước chảy tràn thay vì ngấm vào, và đường nước hồi bị nghẽn. Về an
+    toàn điện, đây là thiết bị điện chứa nước và thường được di chuyển nên dây
+    nguồn cùng phích cắm chịu tác động cơ học nhiều hơn thiết bị đứng yên, vì thế
+    việc kiểm tra dây, phích và điều kiện bảo vệ của ổ cắm là hạng mục riêng chứ
+    không gộp vào phần vệ sinh. Hạng mục có đòn bẩy lớn nhất với thiết bị dùng theo
+    mùa lại là cách cất máy khi hết mùa nóng: dốc cạn nước, vệ sinh, cho quạt chạy
+    mà tắt bơm để làm khô tấm, rồi che phủ và cất nơi khô; trạng thái máy ở đầu mùa
+    sau gần như được quyết định hoàn toàn bởi bước này, và phần lớn khiếu nại trong
+    tuần nóng đầu tiên bắt nguồn từ việc máy đã được cất trong tình trạng còn ẩm.
+  nguon:
+  - url: https://www.energy.gov/energysaver/evaporative-coolers
+    title: U.S. Department of Energy — Evaporative Coolers
+  - url: https://www.iec.ch/homecare/electrical-safety
+    title: IEC — Electrical Safety
+  - url: https://www.epa.gov/mold/mold-cleanup-your-home
+    title: U.S. EPA — Mold Cleanup in Your Home
+  serp: []
+
+bai_viet:
+  than: |
+    # Bảo trì quạt điều hòa: Kiểm tra bơm, quạt và hệ thống nước
+
+    Máy này có **hai mạch làm việc song song**, và chúng hỏng theo hai kiểu rất khác nhau. Biết khác biệt đó là biết nên kiểm gì trước.
+
+    <!-- IMAGE: IMG-001 | Quạt điều hòa đã mở tấm lưng, thấy rõ bình nước phía dưới, bơm, đường ống dẫn và tấm làm mát -->
+
+    ## Hai mạch, và mạch nào hỏng âm thầm
+
+    | | Mạch nước | Mạch gió |
+    |---|---|---|
+    | Gồm | Bình chứa → bơm → ống dẫn và máng phân phối → tấm làm mát → nước hồi về bình | Lưới lọc → tấm làm mát → cánh quạt → động cơ |
+    | Khi hỏng | **Quạt vẫn chạy bình thường**, chỉ khí ra không mát | Gió yếu, hoặc máy có tiếng lạ |
+    | Bạn biết khi nào | Muộn, và thường đoán sai nguyên nhân | Ngay |
+
+    Đây là lý do **mạch nước được kiểm trước**: nó là mạch hỏng mà máy vẫn trông như đang làm việc.
+
+    ## Kiểu hỏng khó đoán nhất
+
+    **Các lỗ trên máng phân phối bị cặn khoáng bít dần.**
+
+    Điều làm nó khó đoán là mọi dấu hiệu đều nói "máy bình thường": bơm **vẫn làm việc**, **vẫn có tiếng nước**, quạt **vẫn chạy**. Nhưng nước chỉ còn ra ở một vài lỗ, nên **tấm làm mát chỉ ướt một phần** trong khi phần lớn diện tích tấm vẫn khô.
+
+    Và vì hiệu quả bay hơi **tỉ lệ với diện tích tấm được làm ướt**, máy mất phần lớn khả năng làm mát mà không có biểu hiện nào ngoài việc khí ra không mát.
+
+    **Cách kiểm:** cho máy chạy vài phút rồi mở tấm lưng ra **nhìn tấm làm mát**. Tấm phải ướt **đều trên toàn bộ chiều ngang**. Ướt một phía, ướt thành vệt, hoặc chỉ ướt phần trên là dấu hiệu máng bị bít.
+
+    Đây là phép kiểm đáng làm nhất trong cả bài, và nó chỉ mất một phút.
+
+    ## Mạch nước: bốn điểm theo thứ tự dòng chảy
+
+    Kiểm theo đúng đường nước đi, để không bỏ sót:
+
+    1. **Bình chứa** — mức nước, màng nhầy ở thành và đáy, cặn lắng.
+    2. **Phần lọc ở đầu hút bơm** — cặn ở đây làm nước lên yếu. Biểu hiện giống bơm yếu nhưng nguyên nhân khác.
+    3. **Ống dẫn và máng phân phối** — các lỗ tưới có bị bít, ống có bị gập hoặc tuột.
+    4. **Tấm làm mát** — nước **ngấm vào** hay **chảy tràn xuống**. Chảy tràn nghĩa là tấm đã bị cặn khoáng và không hút nước nữa.
+    5. **Đường nước hồi về bình** — có nghẽn, có đọng.
+
+    Điểm 2 và điểm 3 cho cùng một biểu hiện là tấm không ướt đủ, nhưng cách xử lý khác nhau, nên đừng kết luận ở điểm 2 mà chưa xem điểm 3.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh máng phân phối nước phía trên tấm làm mát, một số lỗ tưới bị cặn trắng bít kín -->
+
+    ## Mạch gió: ba điểm
+
+    - **Lưới lọc bụi** — bít là giảm cả gió lẫn mát. Rửa, để khô hoàn toàn rồi lắp.
+    - **Cánh quạt** — bụi bám lệch làm quạt rung và ồn hơn. Lau sạch cả hai mặt cánh.
+    - **Động cơ** — tiếng rên tăng dần hoặc tiếng cọ là dấu hiệu bạc trục. Nhóm này cần kỹ thuật viên.
+
+    ## Điện: thiết bị chứa nước nên cần một mục riêng
+
+    Đây là **thiết bị điện chứa nước** và **thường được di chuyển**, nên dây nguồn cùng phích cắm chịu tác động cơ học nhiều hơn thiết bị đứng yên. Vì vậy phần điện không gộp vào phần vệ sinh:
+
+    - **Dây nguồn** — vết nứt, vỏ giòn, chỗ bị kẹp hoặc bị bánh xe đè qua.
+    - **Phích cắm** — vết cháy, chân lỏng, nóng bất thường khi máy chạy.
+    - **Ổ cắm** — có tiếp địa và có thiết bị chống dòng rò. Bấm nút thử, nó phải nhảy.
+    - **Không có vết ẩm** ở khu vực bảng điện và động cơ.
+    - **Bánh xe và độ cân** — máy nghiêng làm nước sánh ra ngoài.
+
+    Nếu thấy dây bị nứt vỏ hoặc phích có vết cháy, dừng dùng máy và xử lý trước.
+
+    <!-- IMAGE: IMG-003 | Bàn tay kiểm tra dây nguồn và phích cắm của quạt điều hòa, một đoạn dây có vết ép do bánh xe đè qua -->
+
+    ## Việc có đòn bẩy lớn nhất: cách cất máy cuối mùa
+
+    Đây là thiết bị dùng theo mùa, và **trạng thái máy ở đầu mùa sau gần như được quyết định hoàn toàn bởi bước này.**
+
+    Phần lớn khiếu nại trong **tuần nóng đầu tiên** đều bắt nguồn từ việc máy đã được cất trong tình trạng còn ẩm.
+
+    Trình tự cất máy:
+
+    1. **Dốc cạn nước** trong bình và trong đường ống.
+    2. **Vệ sinh** bình, lưới lọc và tấm làm mát.
+    3. **Cho quạt chạy mà tắt bơm**, để dòng khí làm khô tấm.
+    4. **Che phủ** và cất nơi khô.
+
+    Bước 3 là bước hay bị bỏ và là bước quan trọng nhất: cất máy với tấm còn ẩm là tạo điều kiện cho nấm mốc phát triển suốt nhiều tháng không dùng.
+
+    ## Checklist theo tần suất
+
+    **Mỗi lần dùng**
+
+    - Nước trong bình là nước mới, không phải nước để từ hôm trước.
+    - **Dốc cạn bình sau khi dùng** nếu không dùng tiếp trong ngày.
+    - Không để bơm chạy khi bình đã cạn.
+
+    **Mỗi tuần**
+
+    - Cọ thành bình và đáy bình.
+    - Rửa lưới lọc bụi.
+    - **Nhìn tấm làm mát khi máy chạy** — ướt đều hay ướt lệch.
+
+    **Mỗi tháng**
+
+    - Làm sạch **máng phân phối và các lỗ tưới**.
+    - Làm sạch **phần lọc ở đầu hút bơm**.
+    - Lau cánh quạt.
+    - Kiểm dây nguồn, phích cắm, và bấm nút thử thiết bị chống dòng rò.
+
+    **Cuối mùa**
+
+    - Trình tự cất máy bốn bước ở mục trên.
+
+    **Khi nào cần kỹ thuật viên**
+
+    - Bơm không chạy, hoặc chạy mà nước không lên dù đã làm sạch phần lọc.
+    - Động cơ có tiếng rên tăng dần hoặc tiếng cọ.
+    - Dây nguồn nứt vỏ, phích có vết cháy.
+    - Thiết bị chống dòng rò nhảy khi máy chạy.
+    - Tấm làm mát đã cứng và nước chảy tràn — cần thay tấm.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên kiểm tra bơm nước tháo rời khỏi bình chứa quạt điều hòa, phần lọc đầu hút bám cặn -->
+
+    ## Gửi gì cho Ficool?
+
+    Năm thông tin: **biểu hiện** (không mát, gió yếu, có mùi, có tiếng lạ, nước không lên), **tấm làm mát có ướt đều khi máy chạy hay không** — đây là dữ kiện quan trọng nhất, **tình trạng tấm** (còn mềm hay đã cứng, nước ngấm hay chảy tràn), **máy dùng bao lâu rồi**, và **mùa trước máy được cất thế nào**.
+
+    Dữ kiện cuối nghe lạ nhưng nó giải thích phần lớn sự cố đầu mùa. Ficool tại TP.HCM sẽ khoanh vùng theo các dữ kiện đó và thống nhất phạm vi cùng chi phí trước khi thực hiện.
+
+    Cách vệ sinh từng bộ phận, xem <!-- INTERNAL: cách vệ sinh quạt điều hòa | /cach-ve-sinh-quat-dieu-hoa/ -->. Nếu nước không lên tấm, đọc <!-- INTERNAL: quạt điều hòa không bơm nước | /quat-dieu-hoa-khong-bom-nuoc/ -->. Nếu máy vẫn không mát, xem <!-- INTERNAL: quạt điều hòa không mát | /quat-dieu-hoa-khong-mat/ -->. Khi nào nên thay tấm, đọc <!-- INTERNAL: khi nào thay tấm làm mát quạt điều hòa | /khi-nao-thay-tam-lam-mat-quat-dieu-hoa/ -->. Sau khi kỹ thuật viên làm xong, đối chiếu bằng <!-- INTERNAL: checklist nghiệm thu máy sấy và quạt điều hòa | /checklist-nghiem-thu-may-say-quat-dieu-hoa/ -->. Chi phí sửa chữa gồm những phần nào thì xem <!-- INTERNAL: giá sửa quạt điều hòa | /gia-sua-quat-dieu-hoa/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Bảo trì quạt điều hòa nên kiểm mạch nào trước?
+
+    Kiểm mạch nước trước. Máy có hai mạch song song và chúng hỏng theo hai kiểu khác nhau: mạch gió hỏng thì biết ngay vì gió yếu hoặc có tiếng lạ, còn mạch nước hỏng thường không phát tín hiệu rõ ràng vì quạt vẫn chạy bình thường nên máy trông vẫn hoạt động, chỉ có khí ra không mát.
+
+    ### Bơm vẫn chạy có tiếng nước mà máy không mát là vì sao?
+
+    Khả năng cao là các lỗ trên máng phân phối bị cặn khoáng bít dần, nên nước chỉ ra ở một vài lỗ và tấm làm mát chỉ ướt một phần. Vì hiệu quả bay hơi tỉ lệ với diện tích tấm được làm ướt, máy mất phần lớn khả năng làm mát mà không có biểu hiện nào khác. Cách kiểm là cho máy chạy vài phút rồi mở tấm lưng xem tấm có ướt đều trên toàn bộ chiều ngang.
+
+    ### Vì sao phần điện của quạt điều hòa cần kiểm riêng?
+
+    Đây là thiết bị điện chứa nước và thường được di chuyển, nên dây nguồn cùng phích cắm chịu tác động cơ học nhiều hơn thiết bị đứng yên. Cần kiểm dây có vết nứt hoặc bị bánh xe đè qua, phích có vết cháy hoặc chân lỏng, ổ cắm có tiếp địa và thiết bị chống dòng rò còn nhảy khi bấm nút thử.
+
+    ### Cất quạt điều hòa cuối mùa thế nào cho đúng?
+
+    Bốn bước: dốc cạn nước trong bình và đường ống, vệ sinh bình cùng lưới lọc và tấm làm mát, cho quạt chạy mà tắt bơm để dòng khí làm khô tấm, rồi che phủ và cất nơi khô. Bước thứ ba hay bị bỏ nhưng quan trọng nhất, vì cất máy với tấm còn ẩm tạo điều kiện cho nấm mốc phát triển suốt nhiều tháng không dùng.
+
+    ### Đầu mùa nóng bật máy lên thấy có mùi và không mát, nguyên nhân từ đâu?
+
+    Phần lớn sự cố trong tuần nóng đầu tiên bắt nguồn từ cách máy được cất mùa trước, cụ thể là cất khi tấm làm mát còn ẩm. Nên khi mô tả tình trạng, hãy nói kèm việc mùa trước máy được cất thế nào — dữ kiện này giải thích phần lớn sự cố đầu mùa và giúp khoanh vùng nhanh hơn.
+  seo:
+    tieu_de: 'Bảo trì quạt điều hòa: mạch nước hỏng âm thầm'
+    mo_ta: >-
+      Quạt vẫn chạy nên máy trông vẫn tốt. Kiểu hỏng khó đoán nhất ở máng phân
+      phối, và cách cất máy quyết định cả mùa sau.
+    slug: bao-tri-quat-dieu-hoa
+    tu_khoa_phu:
+    - bảo dưỡng quạt điều hòa
+    - kiểm tra bơm quạt
+    - bảo trì quạt hơi nước
