@@ -10,17 +10,40 @@ ROOT = Path(__file__).resolve().parents[1]
 LUAT = yaml.safe_load((ROOT / 'config/forbidden-claims.yaml').read_text(encoding='utf-8'))['luat']
 
 
+def _vi_du(luat, khoa):
+    """`chan`/`khong_chan` nhận CHUỖI hoặc DANH SÁCH chuỗi.
+
+    Luật càng hẹp thì càng cần nhiều ví dụ mới khoá được hình dạng của nó. Ép
+    mỗi luật chỉ một ví dụ là ép người viết luật chọn một ca rồi bỏ phần còn lại
+    không ai đo — `so_sanh_nhat` có 9 ca `khong_chan`, mỗi ca là một lượt bắt
+    nhầm THẬT đã xảy ra trên 108 bài.
+    """
+    v = luat[khoa]
+    return [v] if isinstance(v, str) else list(v)
+
+
 @pytest.mark.parametrize('luat', LUAT, ids=[l['ten'] for l in LUAT])
 def test_moi_luat_cam_bat_dung_vi_du_chan(luat):
-    ten = [t for t, _ in khang_dinh_bi_cam(luat['chan'])]
-    assert luat['ten'] in ten, f"luat {luat['ten']} khong bat duoc vi du chan cua chinh no"
+    for cau in _vi_du(luat, 'chan'):
+        ten = [t for t, _ in khang_dinh_bi_cam(cau)]
+        assert luat['ten'] in ten, \
+            f"luat {luat['ten']} khong bat duoc vi du chan cua chinh no: {cau!r}"
 
 
 @pytest.mark.parametrize('luat', LUAT, ids=[l['ten'] for l in LUAT])
 def test_moi_luat_cam_tha_dung_vi_du_khong_chan(luat):
     """Chiều phủ định. Thiếu chiều này chính là cách lỗi `cam kết` lọt vào."""
-    assert khang_dinh_bi_cam(luat['khong_chan']) == [], \
-        f"vi du hop le cua {luat['ten']} bi chan nham"
+    for cau in _vi_du(luat, 'khong_chan'):
+        assert khang_dinh_bi_cam(cau) == [], \
+            f"vi du hop le cua {luat['ten']} bi chan nham: {cau!r}"
+
+
+@pytest.mark.parametrize('luat', LUAT, ids=[l['ten'] for l in LUAT])
+def test_moi_luat_deu_co_du_hai_chieu(luat):
+    """Luật thiếu một chiều thì nó lặng lẽ chặn nhầm — đúng lời mở đầu của
+    chính `config/forbidden-claims.yaml`."""
+    assert _vi_du(luat, 'chan'), luat['ten']
+    assert _vi_du(luat, 'khong_chan'), luat['ten']
 
 
 def test_cau_that_tren_trang_chu_ficool_khong_bi_chan():

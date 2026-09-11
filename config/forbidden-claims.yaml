@@ -14,10 +14,47 @@ luat:
     khong_chan: 'Vệ sinh định kỳ giúp máy chạy êm hơn.'
 
   - ten: so_sanh_nhat
-    ly_do: So sánh nhất là khẳng định thị trường, không có dữ liệu chống lưng.
-    mau: '\brẻ nhất\b|\btốt nhất\b|\bsố 1\b|\buy tín nhất\b|\bhàng đầu\b|\bnhanh nhất\b'
-    chan: 'Dịch vụ tốt nhất thành phố.'
-    khong_chan: 'Chọn đơn vị phù hợp với tình trạng máy của bạn.'
+    ly_do: >
+      So sánh nhất về NHÀ CUNG CẤP, GIÁ hoặc THỊ TRƯỜNG là khẳng định không có
+      dữ liệu chống lưng. Nhưng so sánh nhất về một CÁCH LÀM, một BƯỚC KIỂM hay
+      một DẤU HIỆU bên trong bài là lập luận kỹ thuật bình thường — và đó chính
+      là thứ bản cũ bắt nhầm.
+
+      Bản cũ khớp trần sáu cụm từ ở bất kỳ đâu, nên nó bắt nhầm 13 lượt trên
+      108 bài. Ba kiểu bắt nhầm, cả ba nay đều nằm trong `khong_chan`:
+      (1) "số 1" của một NÚM XOAY — "đánh số 1 tới 7";
+      (2) "hàng đầu" nghĩa là DÒNG ĐẦU của một bảng — "Hàng đầu tiên là…";
+      (3) so sánh nhất về cách làm — "cách làm rẻ nhất", "hạng mục kiểm nhanh
+      nhất", "việc rẻ nhất có ảnh hưởng lớn nhất".
+
+      Mỗi lượt bắt nhầm tốn một vòng viết lại, mà vòng đó không làm bài đúng
+      hơn — nó chỉ làm bài tránh một chuỗi ký tự.
+
+      Nay luật đòi so sánh nhất phải ĐI KÈM chủ thể thương mại (dịch vụ, đơn vị,
+      giá, Ficool, chúng tôi…) hoặc phạm vi thị trường (thị trường, TP.HCM, cả
+      nước…). Riêng `uy tín nhất` giữ vô điều kiện vì nó không có nghĩa kỹ thuật.
+
+      ⚠️ CÒN LỌT: "Sửa máy lạnh tốt nhất" — không chủ thể, không phạm vi. Thu
+      hẹp thêm để bắt nó thì sẽ bắt lại "cách vệ sinh tốt nhất". Đã cân nhắc và
+      chọn bỏ: đây là cổng chặn CHỮ, không phải cổng duy nhất.
+    mau: '(?:dịch vụ|đơn vị|công ty|trung tâm|cửa hàng|thợ|kỹ thuật viên|thương hiệu|địa chỉ|mức giá|chi phí|giá|Ficool|chúng tôi)[^.\n]{0,30}?\b(?:rẻ nhất|tốt nhất|uy tín nhất|hàng đầu|nhanh nhất|số 1)\b|\b(?:rẻ nhất|tốt nhất|uy tín nhất|hàng đầu|nhanh nhất|số 1)\b[^.\n]{0,30}?(?:thị trường|Việt Nam|TP\.?\s?HCM|thành phố|khu vực|cả nước|toàn quốc|ngành)|\buy tín nhất\b'
+    chan:
+      - 'Dịch vụ tốt nhất thành phố.'
+      - 'Ficool là đơn vị hàng đầu TP.HCM.'
+      - 'Giá rẻ nhất thị trường.'
+      - 'Trung tâm sửa máy lạnh số 1 Việt Nam.'
+      - 'Chúng tôi có mặt nhanh nhất khu vực.'
+      - 'Đơn vị uy tín nhất.'
+    khong_chan:
+      - 'Chọn đơn vị phù hợp với tình trạng máy của bạn.'
+      - 'Núm xoay đánh số 1 tới 7 trên tủ đông không phải thang nhiệt độ.'
+      - 'Hàng đầu tiên là phép thử quan trọng nhất trong cả bài.'
+      - 'Cách làm rẻ nhất và hiệu quả nhất là rửa lưới lọc theo chu kỳ.'
+      - 'Xếp dày bít đường gió là cách nhanh nhất tạo ra vùng ấm trong tủ.'
+      - 'Đây là hạng mục kiểm nhanh nhất trong cả bài.'
+      - 'Lỗi lắp đặt nào làm ống thoát khí bẩn nhanh nhất?'
+      - 'Đây là việc rẻ nhất có ảnh hưởng lớn nhất tới tuổi máy nén.'
+      - 'Cách tốt nhất để biết là đặt nhiệt kế vào vị trí ấm nhất của tủ.'
 
   - ten: gia_cu_the
     ly_do: >
