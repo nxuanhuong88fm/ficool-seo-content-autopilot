@@ -1,0 +1,139 @@
+chu_de:
+  id: MG-04
+  tieu_de: 'Máy giặt rung lắc, kêu to khi vắt: Do kê máy hay lỗi linh kiện?'
+  tu_khoa_chinh: máy giặt rung lắc mạnh
+  chuyen_muc: Máy giặt
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Rung lắc mạnh khi vắt có hai nhóm nguyên nhân với mức độ nghiêm trọng rất
+    khác nhau. Nhóm lắp đặt và sử dụng chiếm phần lớn số ca: máy chưa tháo bu
+    lông vận chuyển sau khi mua, chân máy chưa chỉnh cân, sàn không phẳng hoặc
+    quá mềm, máy kê sát tường hoặc sát vật khác, tải giặt lệch do nhồi quá nhiều
+    hoặc giặt một món nặng duy nhất. Bu lông vận chuyển là chi tiết đáng chú ý
+    nhất: nhà sản xuất lắp chúng để cố định lồng giặt khi vận chuyển, và bắt
+    buộc phải tháo trước lần giặt đầu tiên; quên tháo khiến máy rung dữ dội và
+    có thể làm hỏng hệ thống treo. Nhóm linh kiện gồm: bạc đạn lồng giặt mòn,
+    biểu hiện là tiếng rít hoặc tiếng gầm tăng dần theo tốc độ vắt; lò xo treo
+    lồng giãn hoặc gãy; giảm chấn mòn, khiến lồng dao động lâu hơn bình thường
+    sau khi ngừng; đối trọng bê tông bị nứt hoặc bu lông giữ đối trọng lỏng, gây
+    tiếng va đập nặng. Phân biệt hai nhóm bằng một phép thử đơn giản: chạy chu
+    trình vắt với lồng rỗng. Nếu lồng rỗng vẫn rung mạnh và kêu to thì nguyên
+    nhân nghiêng về linh kiện hoặc kê máy, không phải do tải. Ngoài ra có thể
+    đẩy nhẹ bốn góc máy để kiểm tra bập bênh, và dùng thước nivo đặt trên nắp
+    máy để kiểm tra thăng bằng. Rung mạnh kéo dài làm mòn bạc đạn nhanh hơn và
+    làm lỏng các mối ghép, nên không nên để tình trạng này kéo dài.
+  nguon:
+  - url: https://www.energystar.gov/products/clothes_washers
+    title: ENERGY STAR — Clothes Washers
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ kỹ thuật
+  serp: []
+
+bai_viet:
+  than: |
+    # Máy giặt rung lắc, kêu to khi vắt: Do kê máy hay lỗi linh kiện?
+
+    Có một phép thử tách được hai nhóm nguyên nhân trong năm phút: chạy chu trình vắt với **lồng rỗng**. Nếu lồng rỗng vẫn rung mạnh, vấn đề nằm ở cách kê máy hoặc ở linh kiện. Nếu lồng rỗng chạy êm, vấn đề nằm ở tải giặt.
+
+    <!-- IMAGE: IMG-001 | Máy giặt cửa trước đang chạy chu trình vắt trong khu giặt, thân máy rung khiến chai nước đặt trên nắp nghiêng ngả -->
+
+    ## Trước hết: đã tháo bu lông vận chuyển chưa?
+
+    Đây là điều cần hỏi đầu tiên với máy mới mua hoặc mới chuyển nhà.
+
+    Nhà sản xuất lắp các bu lông ở lưng máy để cố định lồng giặt trong lúc vận chuyển. Chúng **bắt buộc phải tháo** trước lần giặt đầu tiên. Quên tháo khiến máy rung dữ dội ngay từ lần vắt đầu, và có thể làm hỏng hệ thống treo lồng.
+
+    Nhìn ra lưng máy: nếu thấy các bu lông lớn cắm xuyên vỏ, thường có ống nhựa hoặc vòng đệm đi kèm, đó chính là chúng.
+
+    ## Nhóm 1: kê máy và tải giặt
+
+    | Nguyên nhân | Cách nhận biết | Xử lý |
+    |---|---|---|
+    | Chân máy chưa chỉnh cân | Đẩy nhẹ bốn góc thấy bập bênh | Chỉnh chân, khoá đai ốc |
+    | Sàn không phẳng hoặc quá mềm | Máy dịch chuyển dần khi vắt | Kê tấm cứng, chỉnh lại chân |
+    | Máy kê sát tường hoặc sát vật khác | Có tiếng va đập vào vật bên cạnh | Dời ra, chừa khoảng hở |
+    | Nhồi quá nhiều đồ | Rung chỉ khi giặt mẻ lớn | Giảm tải |
+    | Giặt một món nặng duy nhất | Rung khi giặt chăn, thảm | Giặt kèm vài món nhẹ |
+
+    Bốn nguyên nhân đầu bạn tự xử lý được. Dùng thước nivo đặt trên nắp máy để kiểm thăng bằng theo cả hai chiều, rồi chỉnh chân cho tới khi máy không bập bênh khi đẩy chéo bốn góc.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh chân đế máy giặt đang được vặn chỉnh, thước nivo đặt trên nắp máy có bọt khí lệch -->
+
+    ## Nhóm 2: linh kiện
+
+    Nhóm này cần thợ, và nhận biết qua kiểu tiếng:
+
+    - **Tiếng rít hoặc gầm tăng dần theo tốc độ vắt** — nghiêng về bạc đạn lồng giặt mòn.
+    - **Lồng dao động lâu bất thường sau khi ngừng** — nghiêng về giảm chấn mòn.
+    - **Tiếng va đập nặng, có nhịp** — nghiêng về đối trọng bê tông nứt hoặc bu lông giữ đối trọng lỏng.
+    - **Lồng bị xệ, chạm vỏ khi quay** — nghiêng về lò xo treo giãn hoặc gãy.
+
+    Rung mạnh kéo dài làm mòn bạc đạn nhanh hơn và làm lỏng các mối ghép, nên đây không phải chuyện để dành.
+
+    ## Phép thử lồng rỗng, làm thế nào
+
+    1. Lấy hết quần áo ra, đóng cửa.
+    2. Chọn chương trình chỉ vắt, tốc độ cao nhất máy có.
+    3. Đứng quan sát và nghe suốt chu trình.
+
+    Kết quả:
+
+    - **Lồng rỗng chạy êm** → tải giặt là nguyên nhân. Xem lại cách chia mẻ giặt.
+    - **Lồng rỗng vẫn rung mạnh** → kê máy hoặc linh kiện. Kiểm thăng bằng trước, nếu đã cân mà vẫn rung thì gọi thợ.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, dùng cờ lê chỉnh chân đế máy giặt và kiểm tra độ cân bằng -->
+
+    ## Khi nào cần kỹ thuật viên?
+
+    - Lồng rỗng vẫn rung mạnh sau khi đã chỉnh cân chân máy.
+    - Tiếng rít hoặc gầm tăng dần theo tốc độ.
+    - Tiếng va đập nặng có nhịp.
+    - Máy dịch chuyển khỏi vị trí mỗi lần vắt.
+    - Lồng chạm vỏ khi quay.
+
+    Ba dấu hiệu cuối là dấu hiệu nên dừng dùng máy cho tới khi kiểm tra xong, vì chạy tiếp làm hỏng nặng thêm.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh mở nắp lưng máy giặt để kiểm tra lò xo treo và giảm chấn, tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Với rung và tiếng ồn, một video ngắn quay lúc máy đang vắt nói được nhiều hơn mọi mô tả bằng chữ. Gửi kèm ba thông tin: kết quả phép thử lồng rỗng, máy dùng được bao lâu, và đã tháo bu lông vận chuyển chưa nếu là máy mới. Kỹ thuật viên Ficool tại TP.HCM sẽ dựa vào đó để nói trường hợp của bạn nghiêng về kê máy hay linh kiện.
+
+    Nếu máy rung tới mức không hoàn thành được chu trình vắt, xem thêm <!-- INTERNAL: máy giặt không vắt | /may-giat-khong-vat/ -->. Khi kỹ thuật viên xử lý xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu máy giặt | /checklist-nghiem-thu-may-giat/ -->. Nếu bạn muốn biết một lần sửa gồm những hạng mục nào, xem <!-- INTERNAL: giá sửa máy giặt | /gia-sua-may-giat/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy giặt mới mua rung mạnh khi vắt là do đâu?
+
+    Nguyên nhân thường gặp nhất là chưa tháo bu lông vận chuyển ở lưng máy. Nhà sản xuất lắp chúng để cố định lồng giặt khi vận chuyển và bắt buộc phải tháo trước lần giặt đầu tiên. Hãy nhìn ra lưng máy để kiểm tra trước khi nghĩ tới lỗi khác.
+
+    ### Làm sao biết máy giặt rung do tải hay do linh kiện?
+
+    Chạy chu trình vắt với lồng rỗng ở tốc độ cao nhất. Nếu lồng rỗng chạy êm thì nguyên nhân nằm ở cách chia mẻ giặt. Nếu lồng rỗng vẫn rung mạnh thì nguyên nhân nằm ở cách kê máy hoặc ở linh kiện bên trong.
+
+    ### Chỉnh chân đế máy giặt thế nào cho cân?
+
+    Đặt thước nivo trên nắp máy và kiểm theo cả hai chiều. Vặn từng chân cho tới khi bọt khí vào giữa, rồi khoá đai ốc hãm lại. Sau đó đẩy chéo bốn góc để kiểm tra không còn bập bênh. Sàn quá mềm thì nên kê thêm một tấm cứng bên dưới.
+
+    ### Máy giặt kêu rít khi vắt có nguy hiểm không?
+
+    Tiếng rít hoặc gầm tăng dần theo tốc độ vắt thường liên quan tới bạc đạn lồng giặt mòn. Chạy tiếp trong tình trạng này làm mòn nhanh hơn và có thể dẫn tới hỏng nặng hơn phần vốn còn xử lý được. Nên kiểm tra sớm thay vì chờ.
+
+    ### Ficool có kiểm tra máy giặt rung lắc tại TP.HCM không?
+
+    Có. Bạn gửi một video ngắn quay lúc máy vắt, kèm kết quả phép thử lồng rỗng và tuổi máy. Kỹ thuật viên Ficool sẽ định hướng trước xem nghiêng về kê máy hay linh kiện. Phạm vi công việc và chi phí phụ thuộc loại máy cùng tình trạng thực tế, được thống nhất trước khi làm.
+  seo:
+    tieu_de: 'Máy giặt rung lắc, kêu to khi vắt: do kê máy hay linh kiện?'
+    mo_ta: >-
+      Phép thử lồng rỗng tách được hai nhóm nguyên nhân trong năm phút. Bu lông
+      vận chuyển, chỉnh chân đế và các kiểu tiếng báo hiệu lỗi linh kiện.
+    slug: may-giat-rung-lac-manh
+    tu_khoa_phu:
+    - máy giặt kêu to khi vắt
+    - máy giặt bị nhảy khi vắt
+    - bu lông vận chuyển máy giặt

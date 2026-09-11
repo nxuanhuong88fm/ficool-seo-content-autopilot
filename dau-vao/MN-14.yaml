@@ -1,0 +1,164 @@
+chu_de:
+  id: MN-14
+  tieu_de: 'Di dời máy nước nóng: Những điều cần kiểm tra tại vị trí mới'
+  tu_khoa_chinh: di dời máy nước nóng
+  chuyen_muc: Máy nước nóng
+  the:
+  - Lắp đặt
+  giai_doan_phieu: F4
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Di dời máy nước nóng khác di dời phần lớn thiết bị gia dụng ở chỗ nó phải
+    được tháo rời khỏi ba hệ thống cùng lúc: điện, cấp nước và thoát nước của
+    van an toàn. Trình tự an toàn bắt đầu bằng ngắt nguồn tại aptomat và khoá
+    van cấp, sau đó xả hết nước trong bình trước khi tháo khỏi giá treo, vì bình
+    đầy nước nặng hơn rất nhiều và không thể khiêng an toàn. Việc xả cần mở một
+    vòi nước nóng để khí vào thay chỗ nước, nếu không nước sẽ thoát rất chậm.
+    Quá trình tháo cũng là dịp duy nhất trong nhiều năm nhìn được các bộ phận
+    khuất: mặt bích và gioăng, tình trạng thanh đốt, mức cặn trong bình, và
+    thanh magie còn lại bao nhiêu; vì phần lớn chi phí của những hạng mục này
+    nằm ở công tháo lắp, nên gộp chúng vào cùng lượt di dời thường hợp lý hơn
+    làm riêng về sau. Tại vị trí mới, các yêu cầu giống hệt lắp mới: tường chịu
+    lực, giá treo và bu lông đúng loại và không tái sử dụng bu lông đã tháo,
+    khoảng thao tác để sau này rút được thanh đốt, van khoá và van an toàn với
+    đường xả dẫn tới nơi thoát nước, cùng nguồn điện riêng có tiếp địa và thiết
+    bị chống dòng rò. Sau khi lắp lại, phải cấp nước cho bình đầy và xả hết khí
+    qua một vòi nước nóng rồi mới cấp điện; cấp điện khi bình chưa đầy làm thanh
+    đốt chạy khô và hỏng. Với máy làm nóng trực tiếp, không có bình nên không có
+    bước xả nước, nhưng yêu cầu về điện và về lưu lượng tại vị trí mới vẫn phải
+    kiểm.
+  nguon:
+  - url: https://www.energy.gov/energysaver/storage-water-heaters
+    title: U.S. Department of Energy — Storage Water Heaters
+  - url: https://www.energy.gov/energysaver/water-heating
+    title: U.S. Department of Energy — Water Heating
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ sản phẩm
+  serp: []
+
+bai_viet:
+  than: |
+    # Di dời máy nước nóng: Những điều cần kiểm tra tại vị trí mới
+
+    Máy nước nóng phải được tháo khỏi **ba hệ thống cùng lúc**: điện, cấp nước, và đường xả của van an toàn. Đó là lý do việc này không giống bê một chiếc tủ từ phòng này sang phòng khác.
+
+    <!-- IMAGE: IMG-001 | Kỹ thuật viên và chủ nhà đứng trong phòng tắm, cùng nhìn bình nóng lạnh cũ trên tường trước khi tháo -->
+
+    ## Trình tự tháo — bốn bước, không đảo thứ tự
+
+    1. **Ngắt nguồn tại aptomat.**
+    2. **Khoá van cấp nước** vào máy.
+    3. **Xả hết nước trong bình.** Mở van xả, đồng thời **mở một vòi nước nóng** để khí vào thay chỗ nước — không mở vòi thì nước thoát rất chậm.
+    4. Tháo các đường ống, rồi mới **tháo bình khỏi giá treo**.
+
+    Bước 3 không rút ngắn được. Bình còn nước nặng hơn rất nhiều, và tháo một vật nặng khỏi tường cao là chỗ dễ xảy ra tai nạn nhất trong cả quy trình.
+
+    ## Lúc tháo là dịp duy nhất nhìn được bên trong
+
+    Đây là điểm đáng tận dụng nhất và hay bị bỏ lỡ nhất.
+
+    Khi bình đã xuống khỏi tường, những thứ khuất suốt nhiều năm mới nhìn được:
+
+    | Bộ phận | Xem gì |
+    |---|---|
+    | Mặt bích và gioăng | Gioăng còn đàn hồi không, có vết rò không |
+    | Thanh đốt | Cặn bám dày tới đâu, cách điện còn tốt không |
+    | Lòng bình | Mức cặn tích tụ |
+    | Thanh magie | Còn lại bao nhiêu, hay đã mòn hết |
+
+    Phần lớn chi phí của những hạng mục này nằm ở **công tháo lắp**. Đã tháo rồi thì làm luôn thường hợp lý hơn làm riêng sau vài tháng, và đó là câu nên hỏi kỹ thuật viên ngay lúc bình vừa xuống.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh mặt bích bình nóng lạnh vừa tháo, thanh đốt phủ cặn dày và thanh magie đã mòn gần hết -->
+
+    ## Vị trí mới: yêu cầu giống hệt lắp mới
+
+    - **Tường chịu lực.** Tường gạch nhẹ hoặc vách thạch cao không treo trực tiếp được.
+    - **Giá treo và bu lông đúng loại.** Không tái sử dụng bu lông vừa tháo ra.
+    - **Khoảng thao tác** phía trước và phía dưới để lần sau rút được thanh đốt.
+    - **Van khoá và van an toàn**, với đường xả dẫn tới nơi thoát nước.
+    - **Nguồn điện riêng, có tiếp địa và thiết bị chống dòng rò.**
+
+    Dòng cuối là chỗ hay bị bỏ qua nhất khi di dời: vị trí cũ có đủ tiếp địa không có nghĩa vị trí mới cũng có. Đây là hạng mục phải kiểm lại từ đầu, không phải kế thừa.
+
+    ## Ba thứ đổi theo vị trí mới
+
+    - **Khoảng cách tới điểm dùng.** Xa hơn nghĩa là mỗi lần mở vòi phải xả bỏ nhiều nước nguội hơn và thất thoát nhiệt trên đường ống nhiều hơn.
+    - **Độ cao so với bồn chứa.** Ảnh hưởng trực tiếp tới áp lực nước tại máy.
+    - **Độ ẩm và thông thoáng của khu vực.** Ảnh hưởng tới tuổi thọ phần điện.
+
+    Nếu vị trí mới xa điểm dùng hơn hẳn, hãy hỏi trước xem có nên bọc cách nhiệt đường ống không.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt aptomat và khoá van, mở van xả cho nước trong bình thoát ra chậu hứng -->
+
+    ## Sau khi lắp lại
+
+    1. Mở van cấp, **để bình đầy**.
+    2. Mở một vòi nước nóng cho tới khi **nước chảy đều, hết tiếng khí**.
+    3. Kiểm quanh mọi mối nối xem có rò không.
+    4. **Rồi mới cấp điện.**
+    5. Cho máy đun một chu kỳ, kiểm lại rò một lần nữa khi đã nóng.
+
+    Bước 5 có lý do: có những chỗ chỉ rò khi nóng và áp suất tăng, nên nghiệm thu lúc nguội là nghiệm thu thiếu.
+
+    ## Nghiệm thu — bảy điểm
+
+    | Hạng mục | Đạt khi |
+    |---|---|
+    | Giá treo | Chắc, cân, bu lông mới đúng loại |
+    | Khoảng thao tác | Rút được thanh đốt ở lần bảo trì sau |
+    | Mối nối | Không rò, cả lúc nguội lẫn sau một chu kỳ đun |
+    | Van an toàn | Có, và đường xả dẫn tới nơi thoát nước |
+    | Tiếp địa tại **vị trí mới** | Có dây thật, đo được tính liên tục |
+    | Thiết bị chống rò | Bấm nút test thì ngắt |
+    | Nước nóng | Đạt nhiệt sau một chu kỳ đun |
+
+    Hai dòng về điện nên được thử **trước mặt bạn**.
+
+    ## Với máy làm nóng trực tiếp
+
+    Không có bình nên không có bước xả nước, và việc tháo nhẹ hơn nhiều. Nhưng hai thứ vẫn phải kiểm tại vị trí mới:
+
+    - **Nguồn điện**: loại này có công suất tức thời cao, nên yêu cầu về dây và aptomat thường nặng hơn bình chứa.
+    - **Lưu lượng nước**: máy chỉ bật khi lưu lượng đạt ngưỡng. Vị trí mới xa bồn hơn hoặc cao hơn có thể làm máy không kích hoạt.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh treo bình nóng lạnh lên giá tại vị trí mới và kiểm tra độ cân bằng thước thuỷ -->
+
+    ## Gửi gì cho Ficool?
+
+    Năm thông tin: loại máy và dung tích, vị trí cũ và vị trí mới cùng loại tường, khoảng cách từ vị trí mới tới điểm dùng, tình trạng nguồn điện và tiếp địa tại vị trí mới, và máy dùng được bao lâu rồi. Ficool tại TP.HCM sẽ khảo sát cả hai đầu trước khi làm. Nếu máy đã dùng nhiều năm, hãy hỏi luôn về việc gộp vệ sinh, thay gioăng và kiểm thanh magie vào cùng lượt — công tháo đã trả một lần rồi.
+
+    Về yêu cầu tại vị trí mới, đọc <!-- INTERNAL: lắp đặt máy nước nóng | /lap-dat-may-nuoc-nong/ -->. Về phần an toàn điện cần kiểm lại, xem <!-- INTERNAL: máy nước nóng bị rò điện | /may-nuoc-nong-bi-ro-dien/ -->. Muốn biết chi phí gồm những phần nào, đọc <!-- INTERNAL: giá sửa máy nước nóng | /gia-sua-may-nuoc-nong/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Di dời bình nóng lạnh có phải xả hết nước không?
+
+    Có, và phải xả trước khi tháo khỏi giá treo. Bình đầy nước nặng hơn rất nhiều nên không khiêng an toàn được. Khi xả, hãy mở một vòi nước nóng để khí vào thay chỗ nước, nếu không nước sẽ thoát rất chậm.
+
+    ### Vị trí mới có cần kiểm lại tiếp địa không?
+
+    Có, và đây là hạng mục hay bị bỏ qua nhất khi di dời. Vị trí cũ có đủ tiếp địa không có nghĩa vị trí mới cũng có. Nguồn điện riêng, dây tiếp địa thật và thiết bị chống dòng rò đều phải kiểm lại từ đầu chứ không kế thừa.
+
+    ### Có nên vệ sinh, thay gioăng khi di dời máy nước nóng?
+
+    Thường là nên. Lúc tháo là dịp duy nhất trong nhiều năm nhìn được mặt bích, gioăng, thanh đốt, mức cặn và thanh magie. Phần lớn chi phí của những hạng mục đó nằm ở công tháo lắp, nên gộp vào cùng lượt di dời hợp lý hơn làm riêng sau vài tháng.
+
+    ### Sau khi lắp lại bao lâu thì cấp điện được?
+
+    Ngay sau khi bình đã đầy nước và xả hết khí. Hãy mở van cấp cho bình đầy, mở một vòi nước nóng tới khi nước chảy đều và hết tiếng khí, kiểm các mối nối, rồi mới bật aptomat. Cấp điện khi bình chưa đầy làm thanh đốt chạy khô và hỏng.
+
+    ### Ficool có nhận di dời máy nước nóng tại TP.HCM không?
+
+    Có. Bạn gửi loại máy và dung tích, vị trí cũ và mới cùng loại tường, khoảng cách tới điểm dùng, tình trạng điện và tiếp địa tại vị trí mới, cùng tuổi máy. Ficool sẽ khảo sát cả hai đầu, nêu rõ hạng mục và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Di dời máy nước nóng cần kiểm những gì?
+    mo_ta: >-
+      Trình tự tháo bốn bước, những gì chỉ nhìn được lúc bình xuống khỏi tường,
+      và bảy điểm nghiệm thu tại vị trí mới.
+    slug: di-doi-may-nuoc-nong
+    tu_khoa_phu:
+    - tháo lắp bình nóng lạnh
+    - chuyển máy nước nóng
+    - di dời bình nóng lạnh

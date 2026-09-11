@@ -1,6 +1,11 @@
 __pycache__/
 .pytest_cache/
+.venv/
 .env
 *.pyc
+*.egg-info/
 output/runs/*
+output/demo/*
 !output/runs/.gitkeep
+output/dong-phuc/*
+output/anh-trang/*

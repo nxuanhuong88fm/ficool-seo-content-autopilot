@@ -1,0 +1,141 @@
+chu_de:
+  id: MG-15
+  tieu_de: Checklist nghiệm thu máy giặt sau vệ sinh, sửa chữa hoặc lắp đặt
+  tu_khoa_chinh: checklist nghiệm thu máy giặt
+  chuyen_muc: Máy giặt
+  the:
+  - Kinh nghiệm hay
+  giai_doan_phieu: F3
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Nghiệm thu máy giặt khác nghiệm thu máy lạnh ở một điểm quan trọng: kết quả
+    chỉ lộ ra sau một chu trình đầy đủ, vì lỗi cấp nước, lỗi xả và lỗi vắt nằm ở
+    ba giai đoạn khác nhau. Do đó phép kiểm chung cho mọi loại công việc là chạy
+    trọn một chu trình ngắn có đủ bốn giai đoạn cấp nước, giặt, xả và vắt, rồi
+    quan sát từng giai đoạn. Sau vệ sinh, các hạng mục cần xác nhận gồm: gioăng
+    cửa sạch và khô, không còn cặn trong nếp gấp; ngăn đựng bột giặt đã rửa và
+    thông; bộ lọc bơm xả sạch và nắp lọc vặn chặt không rỉ; lồng giặt không còn
+    cặn bám ra tay khi lau thử; khu vực làm việc được dọn; máy chạy không có mùi
+    lạ. Sau sửa chữa: đúng triệu chứng ban đầu đã hết, được xem linh kiện đã
+    thay, không phát sinh triệu chứng mới, và có ghi lại nguyên nhân. Sau lắp
+    đặt: bu lông vận chuyển đã tháo, bốn chân đã cân và khoá đai ốc hãm, đầu ống
+    xả đúng độ cao, các đầu nối không rỉ nước, ổ cắm riêng có tiếp địa, và chạy
+    thử không rung mạnh. Một điểm hay bị bỏ qua ở cả ba loại công việc là kiểm
+    dưới gầm máy sau khi chạy xong: nước đọng ở đó là dấu hiệu rò mà không nhìn
+    thấy từ bên ngoài. Về giấy tờ, nên có phiếu ghi rõ hạng mục đã làm và điều
+    kiện bảo hành cho phần việc đó, vì bảo hành dịch vụ khác bảo hành thiết bị.
+  nguon:
+  - url: https://www.energystar.gov/products/clothes_washers
+    title: ENERGY STAR — Clothes Washers
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ kỹ thuật
+  serp: []
+
+bai_viet:
+  than: |
+    # Checklist nghiệm thu máy giặt sau vệ sinh, sửa chữa hoặc lắp đặt
+
+    Máy giặt khác máy lạnh ở một điểm: kết quả chỉ lộ ra sau **một chu trình đầy đủ**, vì lỗi cấp nước, lỗi xả và lỗi vắt nằm ở ba giai đoạn khác nhau. Nghiệm thu bằng cách bật lên nghe tiếng máy chạy vài giây thì không kiểm chứng được gì.
+
+    <!-- IMAGE: IMG-001 | Khách hàng và kỹ thuật viên cùng đứng trước máy giặt đang chạy chu trình thử, khách cầm phiếu bàn giao -->
+
+    ## Phép kiểm chung: chạy trọn một chu trình
+
+    Yêu cầu chạy một chương trình ngắn có đủ **bốn giai đoạn** rồi quan sát từng giai đoạn:
+
+    1. **Cấp nước** — nước vào đều, không rỉ ở đầu nối phía sau.
+    2. **Giặt** — lồng quay đều, không có tiếng va đập lạ.
+    3. **Xả** — nước thoát ra đúng đường ống, không trào ngược ở thoát sàn.
+    4. **Vắt** — máy không rung mạnh, không dịch chuyển khỏi vị trí.
+
+    Sau khi chu trình kết thúc, làm thêm một việc mà hầu hết mọi người quên: **nhìn xuống gầm máy**. Nước đọng ở đó là dấu hiệu rò mà không thấy được từ bên ngoài.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh nền gạch dưới gầm máy giặt sau khi chạy thử, khô ráo hoàn toàn không có vết nước -->
+
+    ## Sau vệ sinh: sáu điểm
+
+    | Hạng mục | Đạt khi |
+    |---|---|
+    | Gioăng cửa | Sạch và **khô**, không còn cặn trong nếp gấp |
+    | Ngăn bột giặt | Đã rửa, các lỗ thông |
+    | Bộ lọc bơm xả | Sạch, nắp vặn chặt, không rỉ |
+    | Lồng giặt | Lau thử không ra cặn đen ở tay |
+    | Khu vực làm việc | Dọn sạch, trả lại hiện trạng |
+    | Vận hành | Chạy không có mùi lạ |
+
+    Dòng thứ tư là phép thử đơn giản mà hiệu quả: lấy khăn giấy trắng lau vào thành lồng, nếu ra vệt đen thì phần cặn chưa được xử lý.
+
+    ## Sau sửa chữa: bốn điểm
+
+    - **Đúng triệu chứng ban đầu đã hết.** Nếu bạn gọi vì máy không vắt, hãy xác nhận máy đã vắt được, không phải xác nhận thợ đã làm gì đó.
+    - **Được xem linh kiện đã thay.** Yêu cầu xem hoặc nhận lại phần cũ.
+    - **Không phát sinh triệu chứng mới.** Rung lạ, tiếng lạ, rò nước đều phải nêu ngay.
+    - **Có ghi lại nguyên nhân đã xử lý.** Thông tin này có giá trị cho lần sau.
+
+    ## Sau lắp đặt: sáu điểm
+
+    1. **Bu lông vận chuyển đã tháo.** Nhìn ra lưng máy để xác nhận.
+    2. Bốn chân đã cân và **khoá đai ốc hãm**.
+    3. Đầu ống xả đặt đúng khoảng độ cao hãng quy định.
+    4. Các đầu nối cấp và xả không rỉ nước.
+    5. Ổ cắm riêng, có tiếp địa.
+    6. Chạy thử không rung mạnh, máy không dịch chuyển.
+
+    Điểm 1 là điểm quan trọng nhất và cũng dễ kiểm nhất: hoặc các bu lông đã ra khỏi lưng máy, hoặc chưa.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, lật mép gioăng cửa máy giặt cho khách xem phần bên trong đã sạch -->
+
+    ## Giấy tờ: hai loại bảo hành khác nhau
+
+    - **Bảo hành thiết bị** do hãng cấp, áp cho máy và linh kiện.
+    - **Bảo hành dịch vụ** do đơn vị thực hiện cấp, áp cho phần việc họ vừa làm.
+
+    Hãy yêu cầu phiếu ghi rõ hạng mục đã làm và điều kiện bảo hành cho phần việc đó. Gộp hai thứ này làm một là nguồn của phần lớn tranh cãi về sau.
+
+    ## Nếu có hạng mục chưa đạt
+
+    Nêu ngay khi kỹ thuật viên còn ở đó: chỉ vào hạng mục, nói nó chưa đạt ở điểm nào, đề nghị xử lý trước khi thanh toán. Phần lớn trường hợp xử lý được tại chỗ.
+
+    Thanh toán trước rồi phản ánh sau khiến bạn phải chờ lịch quay lại, và cuộc trao đổi dễ chuyển sang tranh luận về nguyên nhân.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh ký phiếu bàn giao máy giặt trên bàn, khách hàng đọc phiếu bên cạnh -->
+
+    ## Dùng checklist này với Ficool
+
+    Khi đặt dịch vụ với Ficool tại TP.HCM, hãy mở checklist này ra đối chiếu ngay lúc bàn giao, khi kỹ thuật viên còn ở nhà bạn. Nếu có hạng mục chưa đạt, đề nghị xử lý trước khi thanh toán — đó là thứ tự bình thường và nó bảo vệ cả hai bên.
+
+    Muốn biết một lần sửa gồm những hạng mục nào và cách hỏi báo giá, xem <!-- INTERNAL: giá sửa máy giặt | /gia-sua-may-giat/ -->. Nếu vừa lắp máy mới, đọc thêm <!-- INTERNAL: lắp đặt máy giặt | /lap-dat-may-giat/ -->. Phần bạn tự làm được giữa hai lần dịch vụ nằm ở <!-- INTERNAL: vệ sinh máy giặt tại nhà | /ve-sinh-may-giat-tai-nha/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Nghiệm thu máy giặt nên chạy thử chương trình nào?
+
+    Một chương trình ngắn nhưng có đủ bốn giai đoạn cấp nước, giặt, xả và vắt. Lỗi cấp nước, lỗi xả và lỗi vắt nằm ở ba giai đoạn khác nhau, nên chỉ chạy một phần sẽ bỏ sót. Bật lên nghe vài giây rồi tắt thì không kiểm chứng được gì.
+
+    ### Sau khi vệ sinh máy giặt cần kiểm tra những gì?
+
+    Sáu điểm: gioăng cửa sạch và khô, ngăn bột giặt đã rửa và thông, bộ lọc bơm xả sạch với nắp vặn chặt, lồng giặt lau thử không ra cặn, khu vực làm việc được dọn, và máy chạy không có mùi lạ. Nhớ nhìn xuống gầm máy sau khi chạy xong.
+
+    ### Làm sao biết lồng giặt đã thực sự sạch?
+
+    Lấy một khăn giấy trắng lau vào thành lồng sau khi vệ sinh. Nếu ra vệt đen hoặc xám thì phần cặn chưa được xử lý. Đây là phép thử đơn giản mà bạn tự làm được ngay lúc bàn giao, không cần dụng cụ gì.
+
+    ### Vì sao phải kiểm tra dưới gầm máy giặt sau khi chạy thử?
+
+    Vì rò nước ở đường ống bên trong hoặc ở khoang bơm không nhìn thấy được từ bên ngoài, nhưng nước sẽ đọng lại dưới gầm. Đây là điểm hay bị bỏ qua ở cả ba loại công việc, và phát hiện muộn thì nước đã kịp làm hỏng sàn.
+
+    ### Ficool có phiếu bàn giao khi hoàn thành không?
+
+    Có. Bạn nên yêu cầu phiếu ghi rõ các hạng mục đã thực hiện và điều kiện bảo hành cho phần việc đó ngay lúc bàn giao tại TP.HCM. Đối chiếu checklist này với phiếu giúp cả hai bên thống nhất công việc đã xong tới đâu.
+  seo:
+    tieu_de: Checklist nghiệm thu máy giặt trước khi thanh toán
+    mo_ta: >-
+      Kết quả chỉ lộ ra sau một chu trình đầy đủ. Phép kiểm chung bốn giai đoạn
+      và checklist riêng cho vệ sinh, sửa chữa và lắp đặt.
+    slug: checklist-nghiem-thu-may-giat
+    tu_khoa_phu:
+    - nghiệm thu máy giặt
+    - kiểm tra sau khi vệ sinh máy giặt
+    - bàn giao máy giặt sau lắp đặt

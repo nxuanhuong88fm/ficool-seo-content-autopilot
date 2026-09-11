@@ -1,0 +1,145 @@
+chu_de:
+  id: TD-04
+  tieu_de: 'Tủ đông có mùi hôi: Cách xử lý và hạn chế tái phát'
+  tu_khoa_chinh: tủ đông có mùi hôi
+  chuyen_muc: Tủ mát, tủ đông
+  the:
+  - Vệ sinh
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Mùi trong tủ đông gần như luôn có nguồn vật chất, nên cách xử lý bền vững là
+    tìm và loại bỏ nguồn chứ không phải che mùi. Các nguồn thường gặp gồm: nước
+    rỉ từ thịt cá chảy xuống đáy hoặc thấm vào khe giữa các lớp lót rồi đóng
+    băng lại; thực phẩm không đậy kín làm mùi lan chéo giữa các món và làm bề
+    mặt thực phẩm bị khô do thăng hoa; một món đã hỏng trước khi được đưa vào
+    tủ; hàng đã rã đông trong một đợt mất điện hoặc một lần quên đóng nắp rồi
+    được cấp đông lại; cặn bẩn tích trong rãnh gioăng; và đường thoát nước bị
+    tắc khiến nước đọng lại. Lớp tuyết cũ cũng giữ mùi, nên tủ bám tuyết dày
+    thường khó khử mùi nếu chưa xả tuyết. Về an toàn thực phẩm, cơ quan quản lý
+    khuyến cáo thận trọng với thực phẩm đã rã đông ngoài mức lạnh an toàn trong
+    thời gian dài, vì trong khoảng nhiệt độ từ khoảng 4 tới 60 độ C vi khuẩn
+    phát triển nhanh; mùi bất thường xuất hiện sau một đợt mất điện là dấu hiệu
+    cần rà lại toàn bộ hàng trong tủ. Về vật liệu, chất tẩy mạnh và dung môi
+    không được khuyến khích vì mùi hoá chất bám lại sẽ ám sang thực phẩm; các
+    biện pháp hút mùi phổ biến sau khi đã làm sạch là đặt bột nở hoặc than hoạt
+    tính trong khoang. Bước lau khô hoàn toàn trước khi cắm điện lại là điều
+    kiện để mùi không quay lại.
+  nguon:
+  - url: https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety
+    title: US FDA — Refrigerator Thermometers and Food Safety
+  - url: https://www.epa.gov/mold/mold-course-chapter-2
+    title: US EPA — Mold Course, Chapter 2
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Tủ đông có mùi hôi: Cách xử lý và hạn chế tái phát
+
+    Mùi trong tủ đông gần như luôn có một nguồn vật chất cụ thể. Vì vậy thứ tự đúng là **tìm nguồn trước, khử mùi sau**. Làm ngược lại thì mùi biến mất vài ngày rồi quay lại nguyên như cũ.
+
+    <!-- IMAGE: IMG-001 | Chủ cửa hàng mở nắp tủ đông, nghiêng người kiểm tra các túi thực phẩm xếp ở đáy tủ -->
+
+    ## Sáu nguồn mùi thường gặp
+
+    | Nguồn | Dấu hiệu nhận ra |
+    |---|---|
+    | Nước rỉ từ thịt cá đọng ở đáy hoặc trong khe | Có vệt đóng băng sẫm màu, mùi rõ nhất khi cúi sát đáy |
+    | Thực phẩm không đậy kín | Nhiều món cùng ám một mùi chéo nhau |
+    | Một món đã hỏng trước khi đưa vào tủ | Mùi tập trung ở một khu vực, một giỏ |
+    | Hàng từng rã đông rồi được cấp đông lại | Mùi xuất hiện sau một đợt mất điện hoặc một lần quên đóng nắp |
+    | Cặn bẩn trong rãnh gioăng | Mùi rõ ngay khi vừa mở nắp, quanh miệng tủ |
+    | Đường thoát nước tắc, nước đọng | Có nước hoặc băng đọng bất thường ở đáy |
+
+    Bốn dòng đầu nằm ở hàng hoá, hai dòng cuối nằm ở tủ. Phân biệt được nhóm nào giúp bạn không dọn nhầm chỗ.
+
+    ## Lớp tuyết cũ cũng giữ mùi
+
+    Đây là lý do khử mùi thất bại ở những tủ bám tuyết dày: mùi đã ngấm vào lớp tuyết, mà lớp tuyết thì không lau được.
+
+    Với tủ đang bám tuyết, thứ tự bắt buộc là **xả tuyết trước, làm sạch sau, rồi mới tính chuyện hút mùi**. Bỏ qua bước đầu thì hai bước sau gần như không có tác dụng.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh đáy tủ đông có vệt nước thịt đã đóng băng sẫm màu đọng trong khe giữa hai lớp lót -->
+
+    ## Quy trình xử lý mùi
+
+    1. **Rà lại toàn bộ hàng.** Bỏ những món đã hỏng, món quá hạn, và món không còn nhận ra được là gì.
+    2. **Chuyển hàng còn tốt** sang thùng giữ lạnh có đá.
+    3. **Rút điện, xả tuyết** nếu tủ đang bám tuyết.
+    4. **Làm sạch** thành, đáy, khe, giỏ đựng và rãnh gioăng bằng dung dịch nhẹ.
+    5. **Kiểm và thông đường thoát nước.**
+    6. **Lau khô hoàn toàn.** Đây là bước quyết định mùi có quay lại hay không.
+    7. **Hút mùi** bằng bột nở hoặc than hoạt tính đặt trong khoang, sau khi mọi thứ đã khô.
+
+    Bước 7 chỉ có tác dụng khi sáu bước trước đã làm xong. Đặt than hoạt tính vào một chiếc tủ còn nguyên nguồn mùi là che, không phải xử lý.
+
+    ## Đừng dùng chất tẩy mạnh
+
+    Chất tẩy mạnh và dung môi để lại mùi hoá chất bám dai, và trong tủ đông thì mùi đó ám thẳng sang thực phẩm ở kỳ dùng sau. Dung dịch nhẹ cùng lau khô kỹ cho kết quả bền hơn.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, tháo giỏ đựng ra và lau sạch khe đáy tủ đông bằng khăn với dung dịch nhẹ -->
+
+    ## Nếu mùi xuất hiện sau một đợt mất điện
+
+    Đây là tình huống cần thận trọng hơn bình thường. Hàng đã rã đông và nằm ngoài mức lạnh an toàn trong thời gian dài thì không nên đánh giá bằng mùi hay bằng mắt.
+
+    Việc nên làm:
+
+    - Rà lại **toàn bộ** hàng trong tủ, không chỉ phần bốc mùi.
+    - Ưu tiên loại bỏ nhóm thực phẩm dễ hỏng.
+    - Sau khi dọn xong, đặt nhiệt kế và kiểm nhiệt độ thực trước khi đưa hàng mới vào.
+
+    Mùi ở đây chỉ là dấu hiệu bề mặt của một sự việc đã xảy ra trước đó, nên xử lý mùi mà không rà hàng là bỏ sót phần quan trọng hơn.
+
+    ## Hạn chế mùi quay lại
+
+    - **Đậy kín và gói kỹ mọi món**, nhất là thịt cá.
+    - Dùng khay hoặc hộp lót cho những món dễ rỉ nước.
+    - **Ghi nhãn ngày** cho từng gói, để không có món nào nằm quên trong tủ.
+    - Xả tuyết và vệ sinh theo chu kỳ thay vì chờ tới lúc có mùi.
+    - Kiểm gioăng nắp định kỳ bằng phép thử tờ giấy.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh vệ sinh lòng tủ đông và kiểm tra đường thoát nước tại cửa hàng của khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: mùi xuất hiện từ bao giờ, có đợt mất điện nào gần đây không, tủ có đang bám tuyết dày không, và mùi rõ nhất ở khu vực nào trong tủ. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn cần vệ sinh chuyên sâu, cần kiểm gioăng và đường thoát nước, hay cần kiểm tra khả năng giữ nhiệt của tủ. Với hộ kinh doanh, hãy nói rõ tủ đang chứa hàng gì để bố trí phương án giữ lạnh trong lúc xử lý.
+
+    Muốn xả tuyết và làm sạch đúng cách, đọc <!-- INTERNAL: cách xả tuyết tủ đông | /cach-xa-tuyet-tu-dong/ -->. Nếu tủ đang bám tuyết dày, xem <!-- INTERNAL: tủ đông đóng tuyết dày | /tu-dong-dong-tuyet-day/ -->. Nếu tủ còn đông chậm, đọc <!-- INTERNAL: tủ đông không đông đá | /tu-dong-khong-dong-da/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Vì sao tủ đông có mùi hôi?
+
+    Vì có một nguồn mùi vật chất trong tủ. Thường gặp là nước rỉ từ thịt cá đọng ở đáy hoặc trong khe, thực phẩm không đậy kín làm mùi lan chéo, một món đã hỏng, hàng từng rã đông rồi cấp đông lại, cặn bẩn trong rãnh gioăng, hoặc đường thoát nước tắc.
+
+    ### Khử mùi tủ đông bằng cách nào?
+
+    Trước hết rà lại hàng và bỏ những món đã hỏng, sau đó rút điện, xả tuyết nếu có, làm sạch thành, đáy, khe và rãnh gioăng bằng dung dịch nhẹ, thông đường thoát nước rồi lau khô hoàn toàn. Chỉ sau khi mọi thứ đã khô mới đặt bột nở hoặc than hoạt tính để hút mùi.
+
+    ### Vì sao khử mùi rồi mà tủ đông vẫn hôi lại?
+
+    Vì nguồn mùi chưa được loại bỏ. Hai chỗ hay bị bỏ sót là khe giữa các lớp lót ở đáy nơi nước thịt đọng lại và đóng băng, và lớp tuyết cũ vốn giữ mùi mà không lau được. Với tủ đang bám tuyết, phải xả tuyết trước thì các bước sau mới có tác dụng.
+
+    ### Tủ đông mất điện rồi có mùi thì xử lý sao?
+
+    Rà lại toàn bộ hàng chứ không chỉ phần bốc mùi, và thận trọng với nhóm thực phẩm dễ hỏng đã rã đông ngoài mức lạnh an toàn trong thời gian dài. Sau khi dọn xong, đặt nhiệt kế kiểm nhiệt độ thực trước khi đưa hàng mới vào.
+
+    ### Ficool có nhận vệ sinh khử mùi tủ đông tại TP.HCM không?
+
+    Có. Bạn gửi thời điểm mùi xuất hiện, tình huống gần đây như mất điện hay quên đóng nắp, mức tuyết bám và khu vực có mùi rõ nhất. Kỹ thuật viên Ficool sẽ nêu phạm vi công việc trước, và chi phí được thống nhất trước khi làm.
+  seo:
+    tieu_de: Tủ đông có mùi hôi, xử lý và hạn chế tái phát
+    mo_ta: >-
+      Sáu nguồn mùi thường gặp, quy trình bảy bước xử lý tận nguồn, và cách làm
+      khi mùi xuất hiện sau một đợt mất điện.
+    slug: tu-dong-co-mui-hoi
+    tu_khoa_phu:
+    - khử mùi tủ đông
+    - tủ đông bị hôi
+    - tủ đông có mùi thức ăn

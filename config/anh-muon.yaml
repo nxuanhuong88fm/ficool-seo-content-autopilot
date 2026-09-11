@@ -1,0 +1,88 @@
+# Ảnh MƯỢN làm ảnh đại diện cho bài blog, trong lúc chưa có ảnh riêng.
+#
+# Vì sao cần: không sinh ảnh thì bài không có featured image, nghĩa là không có
+# `og:image` riêng — 107 bài chia sẻ lên Facebook/Zalo sẽ ra cùng một tấm ảnh
+# mặc định. Mà 16 ảnh trang ĐÃ nằm sẵn trong Media Library rồi.
+#
+# Đây là ảnh TẠM. `ke-hoach.json` ghi rõ để người điền biết mà thay.
+#
+# Nguồn attachment id: đọc thẳng từ ficool.top ngày 10/09/2026 sau khi tải 16 ảnh
+# trang lên (xem handoff §34.3). `anh` là bản trong bài, `og` là bản 1200x630.
+
+# ── Tầng 1: bài có `trang_dich_vu` trong bản đồ funnel thì lấy đúng ảnh đó ────
+# Phủ 67/108 bài.
+theo_trang_dich_vu:
+  /dich-vu/sua-chua-may-lanh/:        {anh: 392, og: 393}
+  /dich-vu/ve-sinh-may-lanh/:         {anh: 394, og: 395}
+  /dich-vu/bao-tri-may-lanh/:         {anh: 396, og: 397}
+  /dich-vu/lap-moi-may-lanh/:         {anh: 398, og: 399}
+  /dich-vu/thao-do-lap-dat-may-lanh/: {anh: 400, og: 401}
+  /dich-vu/sua-chua-may-giat/:        {anh: 402, og: 403}
+  /dich-vu/ve-sinh-may-giat/:         {anh: 404, og: 405}
+  /dich-vu/bao-tri-may-giat/:         {anh: 406, og: 407}
+  /dich-vu/sua-chua-tu-lanh/:         {anh: 408, og: 409}
+  /dich-vu/ve-sinh-tu-lanh/:          {anh: 410, og: 411}
+  /dich-vu/bao-tri-tu-lanh/:          {anh: 412, og: 413}
+  /dich-vu/sua-chua-tu-mat/:          {anh: 414, og: 415}
+  /dich-vu/sua-chua-tu-dong/:         {anh: 416, og: 417}
+  /dich-vu/sua-may-nong-lanh/:        {anh: 418, og: 419}
+  /dich-vu/sua-binh-nong-lanh/:       {anh: 420, og: 421}
+
+# ── Tầng 0: chỉ đích danh theo MÃ BÀI, thắng cả hai tầng dưới ────────────────
+#
+# VÌ SAO CẦN TẦNG NÀY. Tầng 2 định tuyến theo TIỀN TỐ mã bài, mà tiền tố là
+# DÒNG THIẾT BỊ chứ không phải THIẾT BỊ. Hệ quả đo được ngày 11/09: cả 18 bài
+# TD đi về `/dich-vu/sua-chua-tu-mat/` và cả 18 bài MN đi về
+# `/dich-vu/sua-binh-nong-lanh/`, nên ảnh 416 (tủ đông) và 418 (máy nước nóng
+# trực tiếp) nằm ở **0 lượt dùng** — và sẽ mãi ở 0. Không phải vì thiếu bài
+# hợp, mà vì bảng không có đường nào dẫn tới chúng (RULES A126).
+#
+# Trỏ tới TRANG DỊCH VỤ chứ không tới attachment id: id chỉ khai một chỗ duy
+# nhất là `theo_trang_dich_vu`. Hai bảng cùng giữ id là hai bản sao sẽ trôi.
+#
+# Chỉ liệt kê bài LỆCH khỏi mặc định của danh mục. Bài nói về cả hai thiết bị
+# (TD-11, TD-16, TD-18) giữ mặc định tủ mát.
+theo_bai:
+  # Tủ đông — tiêu đề nói đích danh tủ đông, không phải tủ mát.
+  TD-01: /dich-vu/sua-chua-tu-dong/    # tủ đông không đông đá
+  TD-02: /dich-vu/sua-chua-tu-dong/    # tủ đông đóng tuyết dày
+  TD-03: /dich-vu/sua-chua-tu-dong/    # cách xả tuyết tủ đông
+  TD-04: /dich-vu/sua-chua-tu-dong/    # tủ đông có mùi hôi
+  TD-05: /dich-vu/sua-chua-tu-dong/    # tủ đông chạy liên tục
+  TD-06: /dich-vu/sua-chua-tu-dong/    # tủ đông chảy nước
+  TD-07: /dich-vu/sua-chua-tu-dong/    # gioăng tủ đông bị hở
+  TD-12: /dich-vu/sua-chua-tu-dong/    # lắp đặt tủ đông
+  TD-13: /dich-vu/sua-chua-tu-dong/    # vận chuyển tủ đông
+  TD-14: /dich-vu/sua-chua-tu-dong/    # cách chỉnh nhiệt độ tủ đông
+  TD-17: /dich-vu/sua-chua-tu-dong/    # tủ đông đứng hay tủ đông nằm
+
+  # Máy nước nóng TRỰC TIẾP. Bảng giá của `/dich-vu/sua-may-nong-lanh/` ghi rõ
+  # thiết bị là "Máy nước nóng trực tiếp", và có dòng "Sửa hoặc thay bơm trợ
+  # lực" — chính là đề tài của MN-13.
+  MN-06: /dich-vu/sua-may-nong-lanh/   # ra nước yếu — chuyện lưu lượng
+  MN-07: /dich-vu/sua-may-nong-lanh/   # lưới lọc đầu vào, ngưỡng kích hoạt
+  MN-13: /dich-vu/sua-may-nong-lanh/   # bơm trợ lực
+
+  # Tháo dỡ – lắp đặt. Bản đồ funnel xếp ML-14 vào `/dich-vu/lap-moi-may-lanh/`,
+  # nhưng bài là "Tháo lắp, di dời máy lạnh khi chuyển nhà" và site có hẳn trang
+  # `/dich-vu/thao-do-lap-dat-may-lanh/` với ảnh tháo dàn lạnh để di dời.
+  # ⚠️ Tầng này CHỈ đổi ảnh. Link CTA vẫn lấy từ `trang_dich_vu` của bản đồ, nên
+  # bản đồ funnel không bị tầng này sửa sau lưng.
+  ML-14: /dich-vu/thao-do-lap-dat-may-lanh/
+
+# ── Tầng 2: 41 bài không có `trang_dich_vu` thì theo danh mục ────────────────
+# Thiếu bao nhiêu: MG 2 · TL 2 · TD 8 · MN 11 · TK 18.
+#
+# ⚠️ TK ("Thiết bị khác") KHÔNG có trang dịch vụ nào trên site — 18 bài. Nó rơi
+# về hero trang chủ: một kỹ thuật viên Ficool đang làm việc, đúng thương hiệu và
+# đúng nghề, chỉ không đúng thiết bị. Đây là hệ quả của khoảng trống sản phẩm đã
+# ghi ở handoff §33.5, không phải một lựa chọn thiết kế.
+theo_danh_muc:
+  ML: /dich-vu/sua-chua-may-lanh/
+  MG: /dich-vu/sua-chua-may-giat/
+  TL: /dich-vu/sua-chua-tu-lanh/
+  TD: /dich-vu/sua-chua-tu-mat/
+  MN: /dich-vu/sua-binh-nong-lanh/
+  TK: null          # -> hero trang chu
+
+hero_trang_chu: {anh: 390, og: 391}

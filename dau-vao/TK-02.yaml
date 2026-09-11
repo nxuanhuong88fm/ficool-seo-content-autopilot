@@ -1,0 +1,160 @@
+chu_de:
+  id: TK-02
+  tieu_de: 'Máy sấy quần áo không nóng: Khi nào cần kiểm tra kỹ thuật?'
+  tu_khoa_chinh: máy sấy quần áo không nóng
+  chuyen_muc: Thiết bị khác
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Khi lồng máy sấy vẫn quay nhưng khí ra không nóng, cần phân biệt ba khả năng
+    trước khi kết luận hỏng. Thứ nhất là kiểu máy: máy bơm nhiệt hoạt động ở
+    nhiệt độ thấp hơn hẳn máy thông hơi và máy ngưng tụ, nên đồ lấy ra không
+    nóng là hành vi theo thiết kế chứ không phải triệu chứng. Thứ hai là chế độ
+    đang chọn: hầu hết máy có các chương trình thổi gió hoặc làm mới không dùng
+    gia nhiệt, và chọn nhầm chúng cho ra đúng hiện tượng lồng quay mà không
+    nóng. Thứ ba mới là hỏng hóc thật, và nhóm này có một đặc điểm quan trọng về
+    chẩn đoán: các máy sấy dùng gia nhiệt đều có thiết bị bảo vệ quá nhiệt gồm
+    rơ le nhiệt và cầu chì nhiệt, ngắt mạch gia nhiệt khi nhiệt độ vượt ngưỡng.
+    Nguyên nhân làm nhiệt độ vượt ngưỡng gần như luôn là dòng khí bị cản: bộ lọc
+    xơ vải bám kín, đường ống thoát khí tắc hoặc gập, hoặc quạt thổi yếu. Vì
+    vậy, thay cầu chì nhiệt mà không xử lý nguyên nhân cản khí là làm cho nó
+    cháy lại, và đây là lỗi chẩn đoán phổ biến. Các nguyên nhân hỏng hóc khác
+    gồm điện trở gia nhiệt đứt, rơ le điều khiển hoặc bo mạch lỗi, và cảm biến
+    nhiệt sai. Một điểm an toàn cần lưu ý là xơ vải tích tụ trong đường khí vừa
+    là nguyên nhân quá nhiệt vừa là vật liệu dễ cháy, nên việc vệ sinh bộ lọc và
+    đường thoát khí thuộc nhóm bảo trì an toàn chứ không chỉ là bảo trì hiệu
+    suất.
+  nguon:
+  - url: https://www.energy.gov/energysaver/clothes-dryers
+    title: U.S. Department of Energy — Clothes Dryers
+  - url: https://www.energystar.gov/products/clothes_dryers
+    title: ENERGY STAR — Clothes Dryers
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ sản phẩm
+  serp: []
+
+bai_viet:
+  than: |
+    # Máy sấy quần áo không nóng: Khi nào cần kiểm tra kỹ thuật?
+
+    Lồng vẫn quay nhưng khí ra không nóng. Trước khi kết luận hỏng, có **hai khả năng không phải hỏng** cần loại trừ — và một trong hai áp dụng cho cả một dòng máy.
+
+    <!-- IMAGE: IMG-001 | Người dùng đưa tay vào lồng máy sấy đang chạy để cảm nhận hơi nóng, cửa máy mở hé -->
+
+    ## Khả năng thứ nhất: máy bơm nhiệt vốn không nóng
+
+    Máy bơm nhiệt chạy ở nhiệt độ **thấp hơn hẳn** máy thông hơi và máy ngưng tụ. Đó là cách nó tiết kiệm điện, và đó cũng là lý do đồ lấy ra chỉ ấm chứ không nóng.
+
+    Với dòng máy này, "không nóng" là hành vi theo thiết kế. Điều đáng đo không phải nhiệt độ mà là **đồ có khô sau một mẻ đầy đủ không**.
+
+    ## Khả năng thứ hai: chương trình không dùng gia nhiệt
+
+    Hầu hết máy sấy có các chương trình **thổi gió** hoặc **làm mới** không bật bộ gia nhiệt. Chọn nhầm chúng cho ra đúng hiện tượng lồng quay mà không nóng.
+
+    Kiểm cả hai thứ:
+
+    - Chương trình đang chọn có phải loại có nhiệt không.
+    - Có bật nhầm chế độ giảm nhiệt cho vải mỏng không.
+
+    Hai khả năng trên mất một phút để loại trừ, và chúng đứng trước mọi phép kiểm khác.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh bảng điều khiển máy sấy quần áo, núm xoay đang ở chương trình thổi gió không gia nhiệt -->
+
+    ## Cầu chì nhiệt cháy là HẬU QUẢ, không phải nguyên nhân
+
+    Đây là phần quan trọng nhất của bài, và là chỗ hay sửa sai nhất.
+
+    Máy sấy dùng gia nhiệt đều có thiết bị bảo vệ quá nhiệt — rơ le nhiệt và cầu chì nhiệt — ngắt mạch gia nhiệt khi nhiệt độ vượt ngưỡng. Khi chúng ngắt, lồng vẫn quay nhưng không còn nhiệt.
+
+    Nguyên nhân làm nhiệt độ vượt ngưỡng **gần như luôn là dòng khí bị cản**:
+
+    - Bộ lọc xơ vải bám kín.
+    - Đường ống thoát khí tắc hoặc gập.
+    - Quạt thổi yếu.
+
+    Nghĩa là: **thay cầu chì nhiệt mà không xử lý chỗ cản khí là làm cho nó cháy lại.** Nếu ai đó báo giá "thay cầu chì nhiệt" mà không nhắc gì tới đường khí, đó là câu đáng hỏi lại.
+
+    ## Bốn thứ tự kiểm tra tự làm được
+
+    1. **Kiểm chương trình** đang chọn có dùng gia nhiệt không.
+    2. **Vệ sinh bộ lọc xơ vải.**
+    3. **Giảm tải** và thử lại một mẻ ít đồ.
+    4. **Kiểm đường ống thoát khí** với máy thông hơi: có gập, có bám xơ, đầu ra ngoài có bị che không.
+
+    Bốn bước này vừa là chẩn đoán vừa là xử lý nguyên nhân gốc của nhóm quá nhiệt.
+
+    ## An toàn: xơ vải vừa gây quá nhiệt vừa dễ cháy
+
+    Đây là lý do việc vệ sinh bộ lọc và đường thoát khí thuộc nhóm **bảo trì an toàn**, không chỉ bảo trì hiệu suất.
+
+    Xơ vải tích tụ trong đường khí là vật liệu dễ bắt lửa, và nó nằm đúng chỗ nhiệt độ cao. Ba dấu hiệu nên dừng máy ngay:
+
+    - **Mùi khét** trong lúc sấy.
+    - Vỏ máy hoặc khu vực quanh đường ống **nóng bất thường**.
+    - Máy **ngắt giữa chừng lặp lại** không rõ lý do.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, tháo đoạn ống thoát khí phía sau máy sấy và lấy ra nắm xơ vải tích tụ bên trong -->
+
+    ## Nhóm cần kỹ thuật viên
+
+    - **Điện trở gia nhiệt đứt** — máy chạy nhưng không sinh nhiệt.
+    - **Rơ le nhiệt hoặc cầu chì nhiệt đã ngắt** — cần tìm và xử lý nguyên nhân cản khí đi kèm.
+    - **Rơ le điều khiển hoặc bo mạch lỗi.**
+    - **Cảm biến nhiệt sai** — máy cắt nhiệt quá sớm.
+    - **Quạt thổi yếu** — vừa làm không khô vừa gây quá nhiệt.
+
+    ## Nghiệm thu sau khi sửa
+
+    Nhóm này có một câu hỏi nghiệm thu riêng, và nên hỏi thẳng:
+
+    1. **Nguyên nhân gốc là gì** — nếu là bảo vệ quá nhiệt đã ngắt, thì cái gì làm nó ngắt?
+    2. Đường khí đã được **thông và vệ sinh** chưa?
+    3. Xem **linh kiện cũ** đã tháo ra.
+    4. Chạy thử **một mẻ đầy đủ**, kiểm đồ có khô và máy có ngắt giữa chừng không.
+    5. Phiếu ghi rõ hạng mục và điều kiện bảo hành dịch vụ cho phần việc đó.
+
+    Câu 1 và 2 là hai câu phân biệt một lượt sửa xong việc với một lượt sửa sẽ lặp lại sau vài tuần.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh mở nắp sau máy sấy quần áo, kiểm tra cụm điện trở gia nhiệt và rơ le nhiệt -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: máy thuộc loại thông hơi, ngưng tụ hay bơm nhiệt; lồng có quay không; chương trình đang chọn; và máy có ngắt giữa chừng hay chạy hết chu trình. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn là chọn nhầm chế độ, là bảo vệ quá nhiệt đã ngắt, hay là bộ gia nhiệt hỏng. Nếu có mùi khét, hãy nói ngay và ngừng dùng máy.
+
+    Nếu máy có nóng nhưng đồ vẫn ẩm, đọc <!-- INTERNAL: máy sấy quần áo không khô | /may-say-quan-ao-khong-kho/ -->. Nếu kèm tiếng ồn lạ, xem <!-- INTERNAL: máy sấy quần áo kêu to | /may-say-quan-ao-keu-to/ -->. Về vị trí đặt và đường thoát khí, đọc <!-- INTERNAL: lắp đặt máy sấy quần áo | /lap-dat-may-say-quan-ao/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy sấy quần áo lồng quay nhưng không nóng là bị gì?
+
+    Trước hết loại trừ hai khả năng không phải hỏng: máy bơm nhiệt vốn chạy ở nhiệt độ thấp nên đồ chỉ ấm, và chương trình thổi gió hoặc làm mới không dùng gia nhiệt. Nếu đã loại trừ, nhóm hỏng hóc gồm bảo vệ quá nhiệt đã ngắt, điện trở gia nhiệt đứt, rơ le hoặc bo mạch lỗi, và cảm biến nhiệt sai.
+
+    ### Vì sao thay cầu chì nhiệt máy sấy xong lại cháy tiếp?
+
+    Vì cầu chì nhiệt cháy là hậu quả chứ không phải nguyên nhân. Nó ngắt khi nhiệt độ vượt ngưỡng, mà nguyên nhân làm nhiệt vượt ngưỡng gần như luôn là dòng khí bị cản: bộ lọc bám kín, đường ống tắc hoặc gập, hoặc quạt thổi yếu. Không xử lý chỗ cản khí thì nó sẽ ngắt lại.
+
+    ### Máy sấy bơm nhiệt không nóng có bình thường không?
+
+    Có. Máy bơm nhiệt chạy ở nhiệt độ thấp hơn hẳn hai loại kia, đó là cách nó tiết kiệm điện. Điều đáng đo không phải nhiệt độ mà là quần áo có khô sau một mẻ đầy đủ hay không.
+
+    ### Máy sấy có mùi khét thì làm gì?
+
+    Dừng máy ngay và rút nguồn. Xơ vải tích tụ trong đường khí vừa là nguyên nhân quá nhiệt vừa là vật liệu dễ bắt lửa, và nó nằm đúng chỗ nhiệt độ cao. Cùng nhóm dấu hiệu này còn có vỏ máy nóng bất thường và máy ngắt giữa chừng lặp lại.
+
+    ### Ficool có sửa máy sấy quần áo tại TP.HCM không?
+
+    Có. Bạn gửi loại máy, lồng có quay không, chương trình đang chọn và máy có ngắt giữa chừng không. Kỹ thuật viên Ficool sẽ xác định nguyên nhân gốc, xử lý cả phần cản khí nếu bảo vệ quá nhiệt đã ngắt, và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Máy sấy quần áo không nóng là do đâu?
+    mo_ta: >-
+      Hai khả năng không phải hỏng cần loại trừ trước, và vì sao thay cầu chì
+      nhiệt mà không thông đường khí là sửa nửa vời.
+    slug: may-say-quan-ao-khong-nong
+    tu_khoa_phu:
+    - máy sấy không nóng
+    - máy sấy không gia nhiệt
+    - máy sấy quay nhưng không nóng

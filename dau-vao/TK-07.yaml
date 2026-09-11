@@ -1,0 +1,152 @@
+chu_de:
+  id: TK-07
+  tieu_de: 'Lắp đặt máy sấy quần áo: Vị trí, nguồn điện và đường thoát phù hợp'
+  tu_khoa_chinh: lắp đặt máy sấy quần áo
+  chuyen_muc: Thiết bị khác
+  the:
+  - Lắp đặt
+  giai_doan_phieu: F4
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Yêu cầu lắp đặt máy sấy quần áo phụ thuộc trước hết vào kiểu máy, vì ba kiểu
+    phổ biến xử lý hơi ẩm theo ba cách khác nhau. Máy thông hơi đẩy khí ẩm nóng
+    ra ngoài qua một đường ống, nên bắt buộc phải có lối thoát ra không gian bên
+    ngoài; đường ống cần càng ngắn và càng thẳng càng tốt, hạn chế khúc cua, và
+    không được dài quá mức nhà sản xuất khuyến cáo vì mỗi khúc cua và mỗi mét
+    ống đều làm giảm dòng khí. Xả khí ẩm nóng vào một phòng kín là cách tạo ẩm
+    cho chính căn phòng đó và dẫn tới nấm mốc. Máy ngưng tụ và máy bơm nhiệt
+    không cần đường ống vì nước ngưng được chứa vào bình hoặc dẫn ra đường thoát
+    sàn, nhưng chúng thải nhiệt vào chính căn phòng đang đặt máy, nên phòng quá
+    kín hoặc quá nóng sẽ làm thời gian sấy kéo dài. Về kết cấu, máy sấy cần đặt
+    trên mặt sàn phẳng và cứng, kê cân bằng chân đế điều chỉnh được, vì lồng
+    quay lệch là nguyên nhân rung và ồn thường gặp. Về khoảng cách, cần chừa khe
+    hở phía sau và hai bên theo hướng dẫn, vừa để đường ống không bị gập vừa để
+    máy lấy và thải khí được. Về điện, máy sấy có công suất lớn nên các hãng
+    khuyến cáo dùng ổ cắm riêng có tiếp địa thay vì ổ chia hay dây nối dài; việc
+    chọn aptomat và tiết diện dây thuộc phần việc của thợ điện. Với phòng giặt
+    ẩm, thiết bị chống dòng rò là hạng mục nên có.
+  nguon:
+  - url: https://www.energy.gov/energysaver/clothes-dryers
+    title: U.S. Department of Energy — Clothes Dryers
+  - url: https://www.energystar.gov/products/clothes_dryers
+    title: ENERGY STAR — Clothes Dryers
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ sản phẩm
+  serp: []
+
+bai_viet:
+  than: |
+    # Lắp đặt máy sấy quần áo: Vị trí, nguồn điện và đường thoát phù hợp
+
+    Câu hỏi đầu tiên quyết định gần hết phần còn lại: **máy nhà bạn thuộc kiểu nào**. Ba kiểu máy xử lý hơi ẩm theo ba cách, nên yêu cầu lắp đặt cũng khác nhau ở đúng chỗ quan trọng nhất.
+
+    <!-- IMAGE: IMG-001 | Kỹ thuật viên và chủ nhà đứng trong phòng giặt, cùng xem vị trí dự kiến đặt máy sấy quần áo -->
+
+    ## Ba kiểu máy, ba yêu cầu khác nhau
+
+    | Kiểu máy | Hơi ẩm đi đâu | Yêu cầu riêng |
+    |---|---|---|
+    | **Thông hơi** | Ra ngoài qua đường ống | **Bắt buộc** có lối thoát ra không gian bên ngoài |
+    | **Ngưng tụ** | Ngưng thành nước, chứa vào bình | Cần chỗ đổ bình, hoặc đường thoát sàn |
+    | **Bơm nhiệt** | Như ngưng tụ, tái dùng nhiệt | Như trên, và cần phòng thoáng để thải nhiệt |
+
+    Nhầm ở dòng đầu là nhầm đắt nhất: mua máy thông hơi cho một phòng không có lối thoát khí ra ngoài thì không có cách lắp nào đúng.
+
+    ## Máy thông hơi: đường ống quyết định
+
+    Nguyên tắc: **càng ngắn và càng thẳng càng tốt.**
+
+    - Hạn chế **khúc cua**. Mỗi khúc cua làm giảm dòng khí.
+    - Không dài quá mức nhà sản xuất khuyến cáo.
+    - Không để ống **gập gấp** ở phía sau máy.
+    - Đầu ra ngoài phải **thông**, không bị che.
+    - Ống không **tì vào tường hay vỏ máy** — rung sẽ truyền và khuếch đại thành tiếng ồn.
+
+    ⚠️ **Không xả khí ẩm nóng vào một phòng kín.** Đó là tạo ẩm cho chính căn phòng đó, và hậu quả là nấm mốc trên tường, trần và đồ đạc. Nếu không có lối thoát ra ngoài, kiểu máy phù hợp là ngưng tụ hoặc bơm nhiệt, không phải thông hơi.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh đoạn ống thoát khí phía sau máy sấy bị gập gấp và tì sát vào tường -->
+
+    ## Máy ngưng tụ và bơm nhiệt: chỗ thoát nước và thông thoáng
+
+    - **Bình chứa nước** phải với tới được để đổ sau mỗi mẻ. Đặt máy ở chỗ khó với là tự tạo việc phiền mỗi ngày.
+    - Nhiều model đấu được thẳng ra **đường thoát sàn** — hỏi trước xem máy có hỗ trợ không, vì nó bỏ được hẳn việc đổ bình.
+    - **Phòng phải thoáng.** Hai kiểu máy này thải nhiệt vào chính căn phòng đang đặt chúng; phòng kín hoặc nóng làm mẻ sấy kéo dài.
+
+    ## Kết cấu và vị trí
+
+    1. **Sàn phẳng và cứng.** Sàn gỗ hoặc sàn cũ khuếch đại rung.
+    2. **Kê cân** bằng chân đế điều chỉnh được. Đẩy nhẹ bốn góc kiểm bập bênh.
+    3. **Khe hở phía sau và hai bên** theo hướng dẫn của máy.
+    4. **Khoảng mở cửa** đủ để lấy đồ ra thoải mái.
+
+    Lồng quay lệch vì máy kê không cân là nguyên nhân ồn và rung thường gặp nhất sau khi lắp, và nó mất hai phút để chỉnh đúng ngay từ đầu.
+
+    ## Điện: ba nguyên tắc
+
+    - **Ổ cắm riêng có tiếp địa.** Máy sấy có công suất lớn, không dùng ổ chia và không dùng dây nối dài.
+    - **Aptomat và tiết diện dây** do thợ điện chọn theo công suất máy.
+    - **Thiết bị chống dòng rò** — nên có, vì phòng giặt là khu vực ẩm.
+
+    Nếu phòng giặt dùng chung đường điện với máy giặt và bình nóng lạnh, hãy nói tổng phụ tải khi nhờ thợ điện bố trí, thay vì cắm thêm vào đường có sẵn.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên chỉnh chân đế máy sấy bằng thước thuỷ trên nền phòng giặt -->
+
+    ## Nghiệm thu — bảy điểm
+
+    | Hạng mục | Đạt khi |
+    |---|---|
+    | Cân bằng | Không bập bênh khi đẩy chéo bốn góc |
+    | Khe hở | Đủ ở lưng và hai bên theo hướng dẫn |
+    | Đường ống (máy thông hơi) | Ngắn, thẳng, không gập, đầu ra thông |
+    | Ống không tì vào tường hoặc vỏ máy | Không truyền rung |
+    | Bình nước (ngưng tụ, bơm nhiệt) | Với tới được, hoặc đã đấu ra thoát sàn |
+    | Nguồn điện | Ổ riêng, có tiếp địa |
+    | Chạy thử một mẻ | Đồ khô, máy không ngắt giữa chừng, không rung mạnh |
+
+    Dòng cuối là dòng duy nhất chứng minh được cả sáu dòng trên cùng lúc, nên đừng bỏ.
+
+    ## Nếu định đặt chồng lên máy giặt
+
+    Đây là tình huống riêng và có yêu cầu riêng về phụ kiện cố định cùng thứ tự máy nào ở dưới. Đừng xếp chồng tạm rồi tính sau — nó vừa gây rung mạnh vừa là vấn đề an toàn.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh lắp đặt máy sấy quần áo trong phòng giặt và đấu đường ống thoát khí ra ngoài -->
+
+    ## Gửi gì cho Ficool?
+
+    Năm thông tin: kiểu máy sấy, phòng đặt máy có lối thoát khí ra ngoài không, sàn và diện tích chỗ đặt, tình trạng nguồn điện tại đó, và có định đặt chồng lên máy giặt không. Ficool tại TP.HCM sẽ khảo sát trước và nêu rõ những gì cần chuẩn bị. Nếu phòng giặt không có lối thoát khí, hãy nói sớm — nó ảnh hưởng tới việc chọn kiểu máy chứ không chỉ tới cách lắp.
+
+    Nếu định xếp chồng, đọc <!-- INTERNAL: đặt máy sấy chồng máy giặt | /dat-may-say-chong-may-giat/ -->. Nếu máy lắp xong sấy không khô, xem <!-- INTERNAL: máy sấy quần áo không khô | /may-say-quan-ao-khong-kho/ -->. Nếu máy rung và kêu to sau khi lắp, đọc <!-- INTERNAL: máy sấy quần áo kêu to | /may-say-quan-ao-keu-to/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy sấy quần áo có bắt buộc phải có ống thoát khí không?
+
+    Chỉ máy thông hơi mới bắt buộc, vì nó đẩy khí ẩm nóng ra ngoài qua đường ống. Máy ngưng tụ và máy bơm nhiệt không cần ống, chúng ngưng hơi ẩm thành nước chứa vào bình hoặc dẫn ra đường thoát sàn. Nếu phòng không có lối thoát khí ra ngoài thì nên chọn hai kiểu sau.
+
+    ### Có được xả khí máy sấy vào trong phòng không?
+
+    Không nên. Xả khí ẩm nóng vào một phòng kín là tạo ẩm cho chính căn phòng đó, và hậu quả là nấm mốc trên tường, trần và đồ đạc. Nếu không có lối thoát ra ngoài, hãy đổi sang kiểu máy ngưng tụ hoặc bơm nhiệt.
+
+    ### Ống thoát khí máy sấy dài bao nhiêu là được?
+
+    Càng ngắn và càng thẳng càng tốt, và không vượt quá mức nhà sản xuất khuyến cáo cho model đó. Mỗi khúc cua và mỗi đoạn ống đều làm giảm dòng khí, mà dòng khí yếu vừa làm sấy lâu vừa có thể làm bảo vệ quá nhiệt ngắt.
+
+    ### Máy sấy cần nguồn điện như thế nào?
+
+    Ổ cắm riêng có tiếp địa, không dùng ổ chia và không dùng dây nối dài, vì máy sấy có công suất lớn. Aptomat và tiết diện dây do thợ điện chọn theo công suất máy. Phòng giặt là khu vực ẩm nên thiết bị chống dòng rò là hạng mục nên có.
+
+    ### Ficool có khảo sát trước khi lắp máy sấy tại TP.HCM không?
+
+    Có. Bạn gửi kiểu máy, phòng đặt có lối thoát khí không, sàn và diện tích chỗ đặt, tình trạng nguồn điện, và có định xếp chồng lên máy giặt không. Ficool sẽ khảo sát trước, nêu những gì cần chuẩn bị và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Lắp đặt máy sấy quần áo cần điều kiện gì?
+    mo_ta: >-
+      Ba kiểu máy có ba yêu cầu khác nhau, nguyên tắc đường ống thoát khí, và
+      bảy điểm nghiệm thu sau khi lắp.
+    slug: lap-dat-may-say-quan-ao
+    tu_khoa_phu:
+    - vị trí đặt máy sấy
+    - lắp máy sấy thông hơi
+    - ống thoát khí máy sấy

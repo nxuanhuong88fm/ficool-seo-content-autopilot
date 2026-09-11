@@ -4,11 +4,11 @@ from pipeline.utils import dump_yaml
 from pipeline.prioritize import prioritize_topics
 from pipeline.topic_selector import TopicSelector
 from connectors.gsc import GSCClient
-from connectors.web_search import SerperClient, OpenAIResearchClient
+from connectors.web_search import SerperClient, GeminiResearchClient
 
 class ResearchPipeline:
     def __init__(self):
-        self.selector=TopicSelector(); self.gsc=GSCClient(); self.serp=SerperClient(); self.ai=OpenAIResearchClient()
+        self.selector=TopicSelector(); self.gsc=GSCClient(); self.serp=SerperClient(); self.ai=GeminiResearchClient()
     def run(self,topic,output_dir):
         gsc=self.gsc.last_n_days(int(os.getenv('GSC_LOOKBACK_DAYS','90')))
         ranked=prioritize_topics(self.selector.all(),gsc)

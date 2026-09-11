@@ -1,0 +1,144 @@
+chu_de:
+  id: MG-01
+  tieu_de: 'Máy giặt không vắt: Nguyên nhân và cách kiểm tra trước khi gọi thợ'
+  tu_khoa_chinh: máy giặt không vắt
+  chuyen_muc: Máy giặt
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Máy giặt không vắt hoặc vắt không kiệt có ba nhóm nguyên nhân, và nhóm đầu
+    tiên chiếm phần lớn số ca nhưng không phải hỏng hóc. Nhóm tải và cân bằng:
+    quần áo dồn về một phía tạo lệch tâm, cảm biến phát hiện mất cân bằng và máy
+    dừng vắt để tránh rung mạnh; nhồi quá nhiều đồ hoặc giặt một món nặng duy
+    nhất như chăn, thảm đều gây ra hiện tượng này; máy kê không cân bằng trên
+    sàn cũng làm cảm biến báo lệch. Nhóm thoát nước: hầu hết máy giặt không
+    chuyển sang chu trình vắt khi nước chưa thoát hết, nên nghẹt bộ lọc bơm xả,
+    ống xả bị gập, hoặc đầu ống xả đặt quá cao đều biểu hiện ra ngoài thành lỗi
+    không vắt dù nguyên nhân thật nằm ở khâu xả. Nhóm cơ và điện: dây curoa
+    trùng hoặc đứt ở máy cửa trên dùng truyền động dây, chổi than mòn ở một số
+    dòng động cơ, công tắc cửa hỏng khiến máy không xác nhận cửa đóng, bo mạch
+    lỗi. Với máy cửa trước, cửa khoá điện tử trong suốt chu trình và chỉ mở sau
+    khi nước đã thoát và lồng đã dừng hẳn, nên không mở được cửa là biểu hiện
+    thường đi kèm. Trình tự kiểm tra hợp lý là đi từ nhóm rẻ và an toàn nhất tới
+    nhóm cần thợ: dàn đều đồ, giảm tải, kiểm tra máy có kê cân không, kiểm tra
+    ống xả và bộ lọc bơm, đọc mã lỗi nếu màn hình có hiển thị. Việc mở vỏ máy,
+    thay dây curoa hay can thiệp bo mạch cần thợ vì có rủi ro điện và nước.
+  nguon:
+  - url: https://www.energystar.gov/products/clothes_washers
+    title: ENERGY STAR — Clothes Washers
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ kỹ thuật
+  serp: []
+
+bai_viet:
+  than: |
+    # Máy giặt không vắt: Nguyên nhân và cách kiểm tra trước khi gọi thợ
+
+    Máy giặt không vắt có ba nhóm nguyên nhân: tải bị lệch, nước chưa thoát hết, hoặc lỗi cơ và điện. Nhóm đầu chiếm phần lớn số ca và bạn tự xử lý trong vài phút. Nhóm thứ hai cũng thường tự kiểm được, vì máy không chuyển sang vắt khi nước chưa thoát xong.
+
+    <!-- IMAGE: IMG-001 | Người dùng mở nắp máy giặt cửa trên, bên trong quần áo ướt dồn về một phía lồng giặt -->
+
+    ## Vì sao máy dừng vắt dù không hỏng gì?
+
+    Máy giặt hiện đại có cảm biến mất cân bằng. Khi quần áo dồn về một phía, lồng quay lệch tâm và máy dừng vắt để tránh rung mạnh có thể làm hỏng bạc đạn hoặc làm máy nhảy khỏi vị trí.
+
+    Ba tình huống hay gây ra điều này:
+
+    - **Nhồi quá nhiều đồ.** Quần áo không còn chỗ để dàn đều trong lúc quay.
+    - **Giặt một món nặng duy nhất.** Chăn, thảm, áo khoác dày khi ướt sẽ vón về một phía.
+    - **Máy kê không cân bằng.** Sàn không phẳng hoặc chân máy chưa chỉnh làm cảm biến báo lệch ngay từ đầu.
+
+    Cách thử: mở cửa, dàn đều quần áo, bớt bớt nếu nhiều, rồi chạy lại riêng chu trình vắt.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh nắp bộ lọc bơm xả góc dưới máy giặt cửa trước đã mở, bên trong đầy xơ vải và một đồng xu -->
+
+    ## Nhóm 2: thật ra là lỗi thoát nước
+
+    Đây là điểm nhiều người bỏ qua. Hầu hết máy giặt **không chuyển sang chu trình vắt khi nước chưa thoát hết**. Nghĩa là một lỗi ở khâu xả sẽ biểu hiện ra ngoài thành "máy không vắt".
+
+    Ba chỗ cần kiểm:
+
+    | Chỗ kiểm | Dấu hiệu | Xử lý |
+    |---|---|---|
+    | Bộ lọc bơm xả | Xơ vải, tóc, đồng xu, kẹp tóc | Tự vệ sinh được |
+    | Ống xả | Bị gập, bị đè, bị nghẹt | Nắn lại, thông |
+    | Độ cao đầu ống xả | Đặt quá cao so với hướng dẫn | Hạ xuống đúng mức |
+
+    Bộ lọc bơm xả thường nằm sau một nắp nhỏ ở góc dưới mặt trước máy cửa trước. Trước khi mở, rút phích cắm, chuẩn bị khăn và một khay hứng — nước trong đó sẽ chảy ra.
+
+    ## Nhóm 3: cơ và điện
+
+    Nhóm này cần thợ. Các nguyên nhân thường gặp:
+
+    - **Dây curoa trùng hoặc đứt** ở máy cửa trên dùng truyền động dây.
+    - **Chổi than mòn** ở một số dòng động cơ.
+    - **Công tắc cửa hỏng** khiến máy không xác nhận được cửa đã đóng.
+    - **Bo mạch lỗi.**
+
+    Dấu hiệu chung: lồng không quay hoặc quay yếu ở chu trình vắt dù nước đã thoát hết và tải đã cân.
+
+    ## Năm bước kiểm tra theo thứ tự
+
+    1. **Dàn đều đồ và giảm tải.** Chạy lại riêng chu trình vắt.
+    2. **Kiểm tra máy có kê cân không.** Đẩy nhẹ bốn góc xem có bập bênh.
+    3. **Xem nước đã thoát hết chưa.** Nếu còn nước trong lồng, vấn đề nằm ở khâu xả.
+    4. **Rút phích, vệ sinh bộ lọc bơm xả**, kiểm tra ống xả không bị gập.
+    5. **Đọc mã lỗi** nếu màn hình có hiển thị, ghi lại nguyên văn.
+
+    Nếu sau bước 5 máy vẫn không vắt, nguyên nhân nghiêng về nhóm cơ và điện.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, quỳ trước máy giặt cửa trước và tháo bộ lọc bơm xả ra khỏi khoang -->
+
+    ## Khi nào dừng lại và gọi thợ?
+
+    - Nước đã thoát hết, tải đã cân, mà lồng vẫn không quay.
+    - Nghe tiếng ù ở động cơ nhưng lồng đứng yên.
+    - Có mùi khét.
+    - Máy báo mã lỗi lặp lại sau khi đã khắc phục phần cơ bản.
+    - Máy cửa trước không mở được cửa dù chu trình đã kết thúc.
+
+    Đừng cạy cửa máy cửa trước. Cửa khoá điện tử suốt chu trình và chỉ mở sau khi nước đã thoát cùng lồng đã dừng hẳn; cạy làm hỏng chốt và khiến chi phí sửa tăng lên.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh kiểm tra dây curoa và động cơ ở lưng máy giặt đã mở nắp sau, tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: model máy ghi trên tem sau lưng hoặc trong khung cửa, mã lỗi hiện trên màn hình, nước trong lồng đã thoát hết chưa, và lồng có quay chút nào ở chu trình vắt không. Kỹ thuật viên Ficool tại TP.HCM sẽ dựa vào đó để định hướng, và nhiều trường hợp bạn tự xử lý được mà không cần ai tới.
+
+    Nếu vấn đề thật ra nằm ở khâu xả, đọc thêm <!-- INTERNAL: máy giặt không xả nước | /may-giat-khong-xa-nuoc/ -->. Nếu máy vắt được nhưng rung mạnh và kêu to, xem <!-- INTERNAL: máy giặt rung lắc khi vắt | /may-giat-rung-lac-manh/ -->. Còn nếu bạn muốn phòng ngừa bằng vệ sinh định kỳ, xem <!-- INTERNAL: vệ sinh máy giặt tại nhà | /ve-sinh-may-giat-tai-nha/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy giặt không vắt có phải do hỏng động cơ không?
+
+    Thường là không. Phần lớn ca đến từ tải bị lệch hoặc nước chưa thoát hết, và cả hai đều tự kiểm được. Hỏng động cơ hay dây curoa chỉ nên nghĩ tới sau khi đã dàn đều đồ, xác nhận nước đã thoát và vệ sinh bộ lọc bơm xả mà máy vẫn không vắt.
+
+    ### Vì sao máy giặt còn nước trong lồng thì không vắt?
+
+    Vì hầu hết máy giặt được lập trình để chỉ chuyển sang chu trình vắt sau khi nước đã thoát hết. Vắt trong khi còn nước sẽ làm nước văng ra ngoài và gây mất cân bằng nặng. Do đó một lỗi ở khâu xả luôn biểu hiện ra ngoài thành lỗi không vắt.
+
+    ### Vệ sinh bộ lọc bơm xả máy giặt thế nào cho an toàn?
+
+    Rút phích cắm trước. Chuẩn bị khăn và một khay hứng vì nước đọng sẽ chảy ra khi mở nắp. Tháo bộ lọc, lấy hết xơ vải và vật lạ, rửa sạch dưới vòi rồi lắp lại cho chặt. Nếu nắp lọc quá chặt hoặc bạn không tìm thấy nó, hãy dừng và hỏi kỹ thuật viên.
+
+    ### Máy giặt cửa trước không mở được cửa thì làm sao?
+
+    Không cạy. Cửa khoá điện tử suốt chu trình và chỉ mở sau khi nước đã thoát cùng lồng đã dừng hẳn. Hãy thử chạy riêng chu trình xả, chờ vài phút sau khi chu trình kết thúc, và kiểm tra xem còn nước trong lồng không. Nếu vẫn không mở, đó là trường hợp cần kỹ thuật viên.
+
+    ### Ficool có kiểm tra máy giặt tại nhà ở TP.HCM không?
+
+    Có. Bạn gửi model, mã lỗi và mô tả theo bốn điểm ở trên. Kỹ thuật viên Ficool sẽ định hướng trước, và nếu trường hợp của bạn thuộc nhóm tự xử lý được thì sẽ hướng dẫn để bạn khỏi phải chờ. Chi phí kiểm tra và sửa phụ thuộc loại máy cùng tình trạng thực tế, được thống nhất trước khi làm.
+  seo:
+    tieu_de: 'Máy giặt không vắt: nguyên nhân và cách tự kiểm tra'
+    mo_ta: >-
+      Máy giặt không vắt thường do tải lệch hoặc nước chưa thoát hết, không phải
+      hỏng động cơ. Năm bước tự kiểm và dấu hiệu cần gọi kỹ thuật viên.
+    slug: may-giat-khong-vat
+    tu_khoa_phu:
+    - máy giặt vắt không kiệt
+    - máy giặt không quay khi vắt
+    - máy giặt báo lỗi không vắt

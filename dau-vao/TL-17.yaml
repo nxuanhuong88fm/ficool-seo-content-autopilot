@@ -1,0 +1,141 @@
+chu_de:
+  id: TL-17
+  tieu_de: 'Tủ lạnh cũ hỏng nhiều lần: Nên sửa hay thay mới?'
+  tu_khoa_chinh: tủ lạnh nên sửa hay thay mới
+  chuyen_muc: Tủ lạnh
+  the:
+  - Kinh nghiệm hay
+  giai_doan_phieu: F4
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Quyết định sửa hay thay một chiếc tủ lạnh thường được các tài liệu tiêu dùng
+    khuyên đặt trên ba nhóm dữ liệu chứ không phải trên cảm tính: tuổi máy, chi
+    phí lần sửa này so với giá một máy mới tương đương, và lịch sử hỏng hóc gần
+    đây. Về tuổi máy, tủ lạnh là thiết bị chạy liên tục nên hao mòn tích luỹ
+    theo giờ vận hành; các chương trình hiệu suất năng lượng như ENERGY STAR
+    khuyến khích thay thế những máy đã cũ vì mức tiêu thụ điện của thiết bị mới
+    thấp hơn đáng kể so với các thế hệ trước, nghĩa là phần chênh lệch tiền điện
+    hằng tháng cũng phải được tính vào bài toán chứ không chỉ tính hoá đơn sửa.
+    Về loại hỏng hóc, các hỏng ở nhóm linh kiện ngoại vi như gioăng cửa, quạt,
+    rơ le, bộ xả tuyết, cảm biến hay bo mạch thường có chi phí thấp hơn nhiều so
+    với hỏng ở máy nén hoặc rò rỉ trong hệ thống kín, và nhóm sau là nhóm khiến
+    cân nhắc thay mới trở nên hợp lý, nhất là với máy đã cũ. Một yếu tố kỹ thuật
+    khác là môi chất lạnh: các dòng tủ đời cũ và đời mới dùng môi chất khác
+    nhau, nên nguồn linh kiện thay thế cho máy quá cũ có thể khan hiếm. Ngoài
+    ra, tần suất hỏng cũng là dữ liệu: một máy phải gọi thợ nhiều lần trong vòng
+    một năm thường báo hiệu hao mòn hệ thống chứ không phải một sự cố đơn lẻ.
+  nguon:
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Tủ lạnh cũ hỏng nhiều lần: Nên sửa hay thay mới?
+
+    Đây là quyết định nên đặt trên ba nhóm dữ liệu, không đặt trên cảm giác "tủ này dùng lâu rồi". Ba nhóm đó là: tuổi máy, loại hỏng hóc, và chi phí lần sửa này đặt cạnh giá một máy mới tương đương.
+
+    <!-- IMAGE: IMG-001 | Người dùng đứng trong bếp trước chiếc tủ lạnh cũ đã mở cửa, tay cầm phiếu sửa chữa của lần trước -->
+
+    ## Bốn câu hỏi trước khi quyết
+
+    1. **Tủ đã dùng bao lâu?**
+    2. **Hỏng ở nhóm nào** — linh kiện ngoại vi hay hệ thống kín?
+    3. **Đã gọi thợ mấy lần trong một năm gần đây?**
+    4. **Chi phí lần sửa này bằng khoảng bao nhiêu phần của một máy mới tương đương?**
+
+    Trả lời được bốn câu này thì quyết định gần như tự hiện ra. Thiếu một câu là còn đoán.
+
+    ## Hỏng gì thì nghiêng về sửa, hỏng gì thì nghiêng về thay
+
+    | Nhóm hỏng hóc | Ví dụ | Xu hướng |
+    |---|---|---|
+    | Linh kiện ngoại vi | Gioăng cửa, quạt dàn lạnh, quạt dàn ngưng, rơ le khởi động, bộ xả tuyết, cảm biến | Nghiêng về **sửa** |
+    | Điều khiển | Bo mạch, bảng điều khiển | Tuỳ tuổi máy và nguồn linh kiện |
+    | Hệ thống kín | Máy nén, rò rỉ môi chất trong ống, tắc ống mao dẫn | Nghiêng về **thay**, nhất là với máy đã cũ |
+
+    Ranh giới thật sự nằm ở dòng cuối. Hỏng trong hệ thống kín là công việc nặng, và trên một chiếc tủ đã nhiều tuổi thì sau khi sửa xong, các bộ phận còn lại vẫn cũ như trước khi sửa.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh phía sau tủ lạnh cũ, máy nén bám bụi dày và ống đồng có vết dầu loang quanh mối hàn -->
+
+    ## Ba con số cần có trước khi quyết
+
+    - **Tuổi máy.** Tủ lạnh chạy liên tục, nên hao mòn tính theo giờ vận hành chứ không theo số lần dùng. Máy trên mười năm tuổi thuộc nhóm cần cân nhắc kỹ.
+    - **Số lần gọi thợ trong một năm gần đây.** Phải gọi nhiều lần trong vòng một năm thường báo hiệu hao mòn cả hệ thống, chứ không phải một sự cố đơn lẻ.
+    - **Tỉ lệ giữa chi phí sửa và giá máy mới tương đương.** Đây là con số quan trọng, và nó là **tỉ lệ**, không phải một con số đứng một mình.
+
+    Vì sao phải so theo tỉ lệ: cùng một khoản chi phí có thể là hợp lý với một chiếc tủ dung tích lớn còn mới, và không hợp lý với một chiếc tủ nhỏ đã cũ.
+
+    ## Phần chi phí không nằm trên hoá đơn sửa
+
+    Tiền điện. Tủ lạnh chạy suốt ngày đêm, nên chênh lệch mức tiêu thụ giữa một máy đời cũ và một máy hiệu suất cao tích lại theo từng tháng.
+
+    Cách đưa nó vào bài toán mà không cần tính phức tạp: hỏi xem chiếc tủ hiện tại có đang chạy liên tục không nghỉ, có đóng tuyết bất thường, hay có phải đặt nấc lạnh hơn mức trước đây mới đạt nhiệt độ. Cả ba đều là dấu hiệu máy đang phải làm việc nhiều hơn để cho ra cùng kết quả.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, kiểm tra rơ le khởi động và giá đỡ máy nén phía sau tủ lạnh -->
+
+    ## Một yếu tố kỹ thuật hay bị quên: nguồn linh kiện
+
+    Tủ đời cũ và đời mới dùng môi chất lạnh khác nhau, và linh kiện cho những dòng quá cũ có thể khan hiếm. Trước khi đồng ý sửa một máy nhiều tuổi, hãy hỏi thẳng:
+
+    - Linh kiện cần thay có sẵn không, hay phải đặt?
+    - Là linh kiện đúng chủng loại hay linh kiện thay thế tương đương?
+    - Nếu phải đặt thì tủ sẽ nằm chờ bao lâu?
+
+    Một chiếc tủ chờ linh kiện là một chiếc tủ không dùng được, và đó cũng là một loại chi phí.
+
+    ## Khi nào nên dừng sửa
+
+    Các dấu hiệu dưới đây, khi xuất hiện cùng nhau, nghiêng hẳn về phương án thay mới:
+
+    - Máy đã nhiều tuổi **và** hỏng nằm trong hệ thống kín.
+    - Đã sửa nhiều lần trong một năm gần đây, mỗi lần một bộ phận khác nhau.
+    - Chi phí lần sửa này chiếm phần lớn giá một máy mới tương đương.
+    - Linh kiện phải đặt và thời gian chờ dài.
+    - Tủ chạy liên tục, tốn điện rõ rệt so với trước.
+
+    Một dấu hiệu đơn lẻ thì chưa đủ. Ba dấu hiệu trở lên thì tiền sửa nhiều khả năng chỉ mua thêm được vài tháng.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh trao đổi với khách bên cạnh tủ lạnh cũ, tay chỉ vào bảng hạng mục trên phiếu khảo sát -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: tủ dùng được bao lâu, hiện tượng đang gặp, các lần sửa trước đã thay gì, và dung tích cùng kiểu tủ. Kỹ thuật viên Ficool tại TP.HCM sẽ khoanh vùng xem hỏng nằm ở nhóm ngoại vi hay hệ thống kín, rồi nói rõ hạng mục cần làm để bạn tự đối chiếu với phương án thay mới. Chi phí được thống nhất trước khi làm.
+
+    Muốn biết báo giá sửa gồm những phần nào, đọc <!-- INTERNAL: giá sửa tủ lạnh | /gia-sua-tu-lanh/ -->. Nếu nghiêng về thay mới, xem <!-- INTERNAL: chọn dung tích tủ lạnh | /chon-dung-tich-tu-lanh/ -->. Sau khi sửa hoặc lắp máy mới, đối chiếu <!-- INTERNAL: checklist nghiệm thu tủ lạnh | /checklist-nghiem-thu-tu-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Tủ lạnh dùng bao lâu thì nên thay mới?
+
+    Không có mốc cứng, vì tuổi máy chỉ là một trong ba nhóm dữ liệu. Máy trên mười năm tuổi thuộc nhóm cần cân nhắc kỹ, nhưng quyết định còn phụ thuộc hỏng nằm ở nhóm linh kiện ngoại vi hay trong hệ thống kín, và chi phí sửa chiếm bao nhiêu phần của một máy mới tương đương.
+
+    ### Tủ lạnh hỏng máy nén có nên sửa không?
+
+    Hỏng máy nén thuộc nhóm hệ thống kín, là công việc nặng và chi phí cao. Với máy còn khá mới thì sửa có thể hợp lý; với máy đã nhiều tuổi thì sau khi sửa xong, các bộ phận còn lại vẫn cũ như trước, nên phương án thay mới thường đáng cân nhắc hơn.
+
+    ### So chi phí sửa với giá máy mới thế nào cho đúng?
+
+    So theo tỉ lệ, không so một con số đứng riêng. Hãy hỏi chi phí lần sửa này bằng khoảng bao nhiêu phần của một máy mới cùng dung tích và cùng kiểu. Cùng một khoản chi có thể hợp lý với tủ lớn còn mới nhưng không hợp lý với tủ nhỏ đã cũ.
+
+    ### Sửa nhiều lần trong một năm có phải dấu hiệu nên thay không?
+
+    Là một dấu hiệu đáng chú ý, nhất là khi mỗi lần hỏng một bộ phận khác nhau. Điều đó thường phản ánh hao mòn cả hệ thống chứ không phải một sự cố đơn lẻ. Hãy đặt nó cạnh tuổi máy và loại hỏng hóc trước khi kết luận.
+
+    ### Ficool có khảo sát trước khi báo hạng mục sửa tủ lạnh tại TP.HCM không?
+
+    Có. Bạn gửi tuổi máy, hiện tượng, lịch sử sửa chữa và kiểu tủ. Kỹ thuật viên Ficool sẽ kiểm tra để xác định hỏng thuộc nhóm nào, nêu rõ hạng mục cần làm và điều kiện bảo hành cho phần việc đó, rồi thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Tủ lạnh cũ nên sửa tiếp hay thay mới?
+    mo_ta: >-
+      Ba nhóm dữ liệu quyết định: tuổi máy, loại hỏng hóc và tỉ lệ chi phí sửa
+      so với một máy mới tương đương.
+    slug: tu-lanh-nen-sua-hay-thay-moi
+    tu_khoa_phu:
+    - tủ lạnh cũ có nên sửa
+    - sửa tủ lạnh hay mua mới
+    - khi nào nên thay tủ lạnh

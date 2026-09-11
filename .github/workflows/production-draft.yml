@@ -31,11 +31,12 @@ jobs:
       - name: Install dependencies
         run: pip install -e .
 
-      - name: Run production draft pipeline
+      - name: Chạy pipeline (tự chọn chủ đề ưu tiên cao nhất chưa làm)
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_TEXT_MODEL: ${{ vars.OPENAI_TEXT_MODEL }}
-          OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_TEXT_MODEL: ${{ vars.GEMINI_TEXT_MODEL }}
+          GEMINI_IMAGE_MODEL: ${{ vars.GEMINI_IMAGE_MODEL }}
+          GEMINI_IMAGE_SIZE: ${{ vars.GEMINI_IMAGE_SIZE }}
           GSC_SITE_URL: ${{ vars.GSC_SITE_URL }}
           GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
@@ -43,7 +44,7 @@ jobs:
           WP_USERNAME: ${{ vars.WP_USERNAME }}
           WP_APPLICATION_PASSWORD: ${{ secrets.WP_APPLICATION_PASSWORD }}
           FICOOL_MAX_ARTICLES_PER_RUN: '1'
-        run: python scripts/production_draft.py
+        run: python scripts/ficool.py run --auto
 
       - name: Commit run manifest
         run: |

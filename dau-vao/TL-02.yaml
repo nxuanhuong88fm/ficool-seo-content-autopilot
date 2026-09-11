@@ -1,0 +1,141 @@
+chu_de:
+  id: TL-02
+  tieu_de: 'Ngăn đá vẫn lạnh nhưng ngăn mát không lạnh: Vì sao?'
+  tu_khoa_chinh: ngăn mát tủ lạnh không lạnh
+  chuyen_muc: Tủ lạnh
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Hiện tượng ngăn đá vẫn lạnh trong khi ngăn mát ấm là dấu hiệu đặc trưng, và
+    nó loại trừ được ngay một loạt nguyên nhân. Nếu ngăn đá còn lạnh thì block
+    máy nén vẫn chạy, hệ thống môi chất lạnh vẫn còn đủ, và dàn lạnh vẫn sinh
+    lạnh. Vấn đề nằm ở khâu ĐƯA khí lạnh từ ngăn đá xuống ngăn mát. Với đa số
+    tủ lạnh hiện nay, dàn lạnh nằm ở ngăn đá và một quạt gió thổi khí lạnh qua
+    một cửa gió xuống ngăn mát; lượng khí đi xuống được điều tiết bằng một cửa
+    gió đóng mở theo nhiệt độ cài đặt. Bốn nhóm nguyên nhân theo thứ tự từ dễ
+    tới khó: một là cửa gió bị chặn bởi thực phẩm xếp sát, hộp đựng cao, hoặc
+    túi nylon bị hút vào; hai là dàn lạnh bám tuyết dày làm khí không qua được,
+    thường do bộ xả tuyết hỏng hoặc do cửa đóng không kín làm hơi ẩm vào liên
+    tục; ba là quạt gió hỏng hoặc kẹt, dấu hiệu là mở cửa ngăn đá không nghe
+    tiếng quạt chạy dù block vẫn chạy; bốn là cảm biến nhiệt độ ngăn mát sai
+    hoặc bo mạch điều khiển cửa gió lỗi. Người dùng tự kiểm được nhóm một và
+    một phần nhóm hai bằng quan sát. Có một nhầm lẫn phổ biến cần nêu: nhiều
+    người thấy ngăn mát ấm thì tăng mức lạnh lên cao nhất, nhưng nếu nguyên
+    nhân là dàn bám tuyết thì việc đó làm tuyết dày thêm và tình trạng nặng hơn.
+    Cách xử lý đúng khi nghi bám tuyết là rã đông toàn bộ tủ rồi quan sát tốc độ
+    tuyết quay lại.
+  nguon:
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Ngăn đá vẫn lạnh nhưng ngăn mát không lạnh: Vì sao?
+
+    Đây là triệu chứng nói rất nhiều. Ngăn đá còn lạnh nghĩa là block vẫn chạy, môi chất lạnh vẫn đủ, và dàn lạnh vẫn sinh lạnh. Vấn đề nằm ở khâu **đưa** khí lạnh từ ngăn đá xuống ngăn mát, không phải ở khâu tạo ra lạnh.
+
+    <!-- IMAGE: IMG-001 | Người dùng mở ngăn mát tủ lạnh, bên trong xếp đầy hộp thực phẩm sát vào thành sau -->
+
+    ## Khí lạnh đi từ đâu xuống?
+
+    Với đa số tủ lạnh hiện nay, dàn lạnh nằm ở **ngăn đá**. Một quạt gió thổi khí lạnh qua một cửa gió xuống ngăn mát, và lượng khí đi xuống được điều tiết theo nhiệt độ cài đặt.
+
+    Nghĩa là chuỗi này phải thông suốt: dàn lạnh sinh lạnh → quạt thổi → cửa gió mở → khí xuống ngăn mát. Ngăn đá lạnh mà ngăn mát ấm là chuỗi đứt ở một trong ba khâu sau.
+
+    ## Bốn nhóm nguyên nhân, từ dễ tới khó
+
+    | Nhóm | Dấu hiệu | Tự kiểm? |
+    |---|---|---|
+    | Cửa gió bị chặn | Thực phẩm xếp sát thành sau, hộp cao, túi nylon hút vào | Được |
+    | Dàn lạnh bám tuyết dày | Ngăn đá có tuyết dày bất thường, khí xuống yếu | Quan sát được |
+    | Quạt gió hỏng hoặc kẹt | Mở ngăn đá không nghe tiếng quạt dù block chạy | Nghe được |
+    | Cảm biến hoặc bo mạch | Không có dấu hiệu bên ngoài | Không |
+
+    Hai nhóm đầu chiếm phần lớn số ca, và cả hai đều không cần thợ để **phát hiện**.
+
+    ## Cách kiểm ba nhóm đầu
+
+    1. **Tìm cửa gió.** Thường nằm ở thành sau hoặc thành trên của ngăn mát, là một ô lưới nhỏ. Dọn trống khu vực quanh nó, để cách vài phân.
+    2. **Kiểm túi nylon.** Túi nhẹ dễ bị luồng khí hút dán vào cửa gió mà bạn không thấy.
+    3. **Mở ngăn đá, nghe tiếng quạt.** Block chạy mà không nghe tiếng quạt là dấu hiệu rõ.
+    4. **Nhìn lớp tuyết trong ngăn đá.** Tuyết dày bất thường ở thành sau là dấu hiệu dàn bám tuyết.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh ô lưới cửa gió ở thành sau ngăn mát tủ lạnh, bị một túi nylon hút dán che kín -->
+
+    ## Một nhầm lẫn phổ biến
+
+    Thấy ngăn mát ấm, nhiều người **tăng mức lạnh lên cao nhất**. Nghe hợp lý, nhưng nếu nguyên nhân là dàn bám tuyết thì việc đó làm tuyết dày thêm và tình trạng nặng hơn.
+
+    Cách xử lý đúng khi nghi bám tuyết: **rã đông toàn bộ tủ**.
+
+    1. Rút phích cắm.
+    2. Lấy hết thực phẩm ra, để nơi mát.
+    3. Mở cả hai cửa, để tủ rã đông tự nhiên trong nhiều giờ. Đặt khăn hứng nước.
+    4. Lau khô hoàn toàn, cắm điện lại.
+    5. **Quan sát tốc độ tuyết quay lại** trong vài ngày sau.
+
+    Bước 5 mới là phần cho câu trả lời. Tuyết quay lại nhanh nghĩa là bộ xả tuyết có vấn đề hoặc cửa đóng không kín, và đó là việc cần thợ.
+
+    ## Cửa đóng không kín cũng gây bám tuyết
+
+    Mỗi lần hơi ẩm từ ngoài lọt vào, nó ngưng tụ rồi đóng băng trên dàn lạnh. Gioăng cửa chai hoặc tủ kê nghiêng khiến cửa không tự đóng đều dẫn tới điều đó.
+
+    Kiểm bằng phép thử tờ giấy: kẹp tờ giấy vào mép cửa rồi kéo. Rút ra dễ dàng nghĩa là gioăng không còn kín ở chỗ đó.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, tháo tấm ốp thành sau ngăn đá để lộ dàn lạnh bám tuyết dày -->
+
+    ## Khi nào cần kỹ thuật viên?
+
+    - Không nghe tiếng quạt gió trong ngăn đá dù block chạy.
+    - Đã rã đông toàn bộ mà tuyết quay lại nhanh trong vài ngày.
+    - Đã dọn thoáng cửa gió mà ngăn mát vẫn ấm.
+    - Ngăn mát ấm kèm tiếng lạ hoặc mùi khét.
+
+    Các nguyên nhân còn lại là quạt gió, bộ xả tuyết, cảm biến nhiệt độ và bo mạch — đều nằm sau tấm ốp và cần tháo đúng cách.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh kiểm tra quạt gió và bộ xả tuyết bên trong ngăn đá tủ lạnh tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: model tủ, ngăn đá có còn lạnh bình thường không, có nghe tiếng quạt gió trong ngăn đá không, và lớp tuyết ở thành sau ngăn đá dày thế nào. Kèm một ảnh chụp bên trong ngăn đá. Kỹ thuật viên Ficool tại TP.HCM sẽ định hướng dựa trên đó, và nếu nguyên nhân là cửa gió bị chặn thì bạn tự xử lý trong vài phút.
+
+    Nếu cả hai ngăn đều ấm thì đó là chuyện khác, xem <!-- INTERNAL: tủ lạnh không lạnh | /tu-lanh-khong-lanh/ -->. Nếu tuyết bám dày bất thường, đọc <!-- INTERNAL: tủ lạnh đóng tuyết | /tu-lanh-dong-tuyet/ -->. Vệ sinh định kỳ giúp phát hiện sớm gioăng cửa chai, xem <!-- INTERNAL: cách vệ sinh tủ lạnh | /cach-ve-sinh-tu-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Ngăn đá lạnh mà ngăn mát không lạnh là bị gì?
+
+    Ngăn đá còn lạnh nghĩa là block vẫn chạy và môi chất lạnh vẫn đủ. Vấn đề nằm ở khâu đưa khí lạnh xuống ngăn mát: cửa gió bị chặn, dàn lạnh bám tuyết dày, quạt gió hỏng, hoặc cảm biến sai. Hai nguyên nhân đầu bạn tự phát hiện được.
+
+    ### Cửa gió tủ lạnh nằm ở đâu?
+
+    Thường ở thành sau hoặc thành trên của ngăn mát, là một ô lưới nhỏ. Hãy dọn trống khu vực quanh nó, để thực phẩm cách vài phân. Cũng cần kiểm túi nylon, vì túi nhẹ dễ bị luồng khí hút dán vào cửa gió mà bạn không nhìn thấy.
+
+    ### Tăng mức lạnh lên cao nhất có giúp ngăn mát lạnh hơn không?
+
+    Không, và có thể làm tình trạng nặng hơn. Nếu nguyên nhân là dàn lạnh bám tuyết, tăng mức lạnh khiến tuyết dày thêm và khí càng khó qua. Cách đúng khi nghi bám tuyết là rã đông toàn bộ tủ rồi quan sát tốc độ tuyết quay lại.
+
+    ### Rã đông tủ lạnh thế nào cho đúng?
+
+    Rút phích cắm, lấy hết thực phẩm ra để nơi mát, mở cả hai cửa và để rã đông tự nhiên trong nhiều giờ với khăn hứng nước. Lau khô hoàn toàn rồi cắm điện lại. Đừng dùng vật cứng cạy tuyết vì dễ làm thủng dàn lạnh.
+
+    ### Ficool có kiểm tra tủ lạnh tại nhà ở TP.HCM không?
+
+    Có. Bạn gửi model, cho biết ngăn đá có còn lạnh không, có nghe tiếng quạt gió không, kèm ảnh bên trong ngăn đá. Kỹ thuật viên Ficool sẽ định hướng trước khi tới. Chi phí phụ thuộc tình trạng thực tế và được thống nhất trước khi làm.
+  seo:
+    tieu_de: Ngăn mát tủ lạnh không lạnh nhưng ngăn đá vẫn lạnh
+    mo_ta: >-
+      Ngăn đá lạnh nghĩa là block vẫn chạy. Vấn đề ở khâu đưa khí lạnh xuống:
+      cửa gió bị chặn, dàn bám tuyết, hay quạt gió hỏng.
+    slug: ngan-mat-tu-lanh-khong-lanh
+    tu_khoa_phu:
+    - ngăn mát không lạnh
+    - tủ lạnh ngăn dưới không mát
+    - cửa gió tủ lạnh bị chặn

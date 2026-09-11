@@ -1,0 +1,142 @@
+chu_de:
+  id: ML-14
+  tieu_de: 'Tháo lắp, di dời máy lạnh khi chuyển nhà: Quy trình và lưu ý'
+  tu_khoa_chinh: di dời máy lạnh
+  chuyen_muc: Máy lạnh
+  the:
+  - Lắp đặt
+  giai_doan_phieu: F4
+  loai_noi_dung: how_to
+
+nghien_cuu:
+  van_ban: >-
+    Di dời máy lạnh là hai công việc ghép lại: tháo ở nơi cũ và lắp ở nơi mới,
+    và phần lớn hư hỏng phát sinh ở bước tháo chứ không phải bước lắp. Bước
+    quyết định là thu hồi môi chất lạnh về dàn nóng, thường gọi là pump down.
+    Quy trình: cho máy chạy chế độ làm lạnh, đóng van phía ống nhỏ để môi chất
+    bị hút hết về dàn nóng, chờ rồi đóng tiếp van phía ống lớn, sau đó mới tắt
+    máy và tháo ống. Bỏ qua bước này thì toàn bộ môi chất xả ra không khí, vừa
+    lãng phí vừa buộc phải nạp lại ở nơi mới. Sau khi tháo, hai đầu ống đồng và
+    hai cổng van phải được bịt kín ngay, vì hơi ẩm và bụi lọt vào hệ thống là
+    nguyên nhân gây tắc ẩm và ăn mòn về sau. Ống đồng cũ tái sử dụng được nếu
+    còn nguyên vẹn, không bị bẹp, không gãy gập; đoạn loe ở đầu ống thường phải
+    cắt bỏ và loe lại vì loe cũ đã biến dạng theo lực siết. Ở nơi mới, quy trình
+    lắp gồm: cố định giá đỡ, đi ống, kết nối, thử kín, hút chân không để rút hết
+    không khí và hơi ẩm ra khỏi đường ống, rồi mới mở van cho môi chất vào. Hút
+    chân không là bước không được bỏ qua, kể cả khi máy cũ và ống cũ. Nếu chiều
+    dài ống ở vị trí mới lớn hơn ở vị trí cũ, có thể phải bổ sung môi chất theo
+    chỉ dẫn của hãng. Các rủi ro khác khi vận chuyển: đặt dàn nóng nằm nghiêng
+    quá lâu làm dầu bôi trơn trong block chảy sai chỗ; va đập làm móp mặt lưới
+    dàn ngưng; mất các phụ kiện nhỏ như đệm cao su, ốc giá đỡ.
+  nguon:
+  - url: https://www.epa.gov/section608
+    title: US EPA — Section 608 Technician Certification, refrigerant handling
+  - url: https://www.daikin.com.vn/vi/support/faq/
+    title: Daikin Việt Nam — Câu hỏi thường gặp về điều hoà
+  serp: []
+
+bai_viet:
+  than: |
+    # Tháo lắp, di dời máy lạnh khi chuyển nhà: Quy trình và lưu ý
+
+    Di dời máy lạnh là hai việc ghép lại, và phần lớn hư hỏng phát sinh ở bước tháo chứ không phải bước lắp. Bước quyết định là thu hồi môi chất lạnh về dàn nóng trước khi tháo ống. Bỏ qua nó, bạn mất toàn bộ lượng gas đang có và phải nạp lại ở nhà mới.
+
+    <!-- IMAGE: IMG-001 | Hai kỹ thuật viên chuẩn bị tháo dàn lạnh khỏi tường phòng khách, thùng carton và dụng cụ đặt sẵn dưới sàn -->
+
+    ## Vì sao bước tháo mới là bước rủi ro?
+
+    Lắp một máy lạnh mới là quy trình chuẩn, ai làm cũng theo trình tự đó. Còn tháo một máy đang chạy đòi hỏi xử lý phần môi chất lạnh đang nằm trong hệ thống. Làm nhanh cho xong thì gas xả hết ra không khí, và bạn phải trả tiền nạp lại.
+
+    Ba thứ dễ hỏng trong lúc tháo:
+
+    - **Môi chất lạnh** nếu không thu hồi.
+    - **Đường ống** nếu bị bẻ gập hoặc kéo mạnh.
+    - **Hệ thống kín** nếu hai đầu ống để hở, hơi ẩm và bụi lọt vào.
+
+    ## Thu hồi môi chất: bước không được bỏ qua
+
+    Trình tự chuẩn, gọi là pump down:
+
+    1. Cho máy chạy chế độ làm lạnh vài phút.
+    2. Đóng van phía ống nhỏ ở dàn nóng. Môi chất bị hút dần về dàn nóng.
+    3. Chờ theo dõi, rồi đóng tiếp van phía ống lớn.
+    4. Tắt máy, ngắt CB.
+    5. Tháo ống, bịt kín ngay hai đầu ống và hai cổng van.
+
+    Bước 5 quan trọng ngang bước 2. Hơi ẩm lọt vào đường ống là nguyên nhân gây tắc ẩm và ăn mòn, và hậu quả chỉ xuất hiện vài tháng sau khi đã lắp xong ở nhà mới.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh hai đầu ống đồng vừa tháo, đã được bịt kín bằng nút nhựa, đặt cạnh cụm van dàn nóng -->
+
+    ## Ống đồng cũ có dùng lại được không?
+
+    Dùng lại được nếu ống còn nguyên vẹn. Kiểm theo bốn điểm:
+
+    | Kiểm tra | Đạt | Không đạt |
+    |---|---|---|
+    | Thân ống | Tròn đều, không móp | Có chỗ bẹp hoặc gãy gập |
+    | Lớp bảo ôn | Còn nguyên, không mục | Rách, mủn, thấm nước |
+    | Đầu loe | Cắt bỏ và loe lại | Dùng lại loe cũ |
+    | Chiều dài | Đủ cho vị trí mới | Phải nối thêm |
+
+    Đầu loe cũ đã biến dạng theo lực siết ở lần lắp trước, nên cắt bỏ và loe lại là việc bắt buộc, không phải tuỳ chọn. Nếu vị trí mới cần ống dài hơn, hãy hỏi rõ về việc bổ sung môi chất theo chỉ dẫn của hãng.
+
+    ## Vận chuyển: ba điều cần giữ
+
+    - **Không đặt dàn nóng nằm nghiêng lâu.** Dầu bôi trơn trong block sẽ chảy sai chỗ. Nếu buộc phải nằm, hãy để máy đứng lại và chờ trước khi cấp điện ở nơi mới.
+    - **Bọc mặt lưới dàn ngưng.** Các lá nhôm rất mỏng, một va chạm nhẹ cũng làm móp và cản dòng khí.
+    - **Giữ đủ phụ kiện nhỏ.** Đệm cao su, ốc giá đỡ, nắp che cổng van đều dễ thất lạc và đều cần dùng lại.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt CB, khoá van dàn nóng bằng lục giác trước khi tháo ống đồng -->
+
+    ## Lắp ở nơi mới: hút chân không là bắt buộc
+
+    Trình tự ở nhà mới:
+
+    1. Cố định giá đỡ dàn nóng và giá dàn lạnh.
+    2. Đi ống, giữ độ dốc liên tục cho ống thoát nước ngưng.
+    3. Kết nối, siết đúng lực.
+    4. Thử kín các mối nối.
+    5. **Hút chân không** để rút hết không khí và hơi ẩm khỏi đường ống.
+    6. Mở van cho môi chất vào, chạy thử, đo thông số.
+
+    Bước 5 không được bỏ qua kể cả với máy cũ và ống cũ. Không khí lẫn hơi ẩm còn trong đường ống làm giảm hiệu suất và gây ăn mòn từ bên trong. Đây cũng là bước hay bị cắt bớt nhất khi báo giá quá thấp.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh nối bơm hút chân không vào cụm van dàn nóng vừa lắp tại nhà mới -->
+
+    ## Gửi gì cho Ficool để nhận phạm vi công việc?
+
+    Năm thông tin: model máy ghi trên tem, số lượng máy, ảnh vị trí dàn nóng và dàn lạnh ở nhà cũ, ảnh khu vực dự kiến ở nhà mới, và khoảng cách di dời. Ficool tại TP.HCM sẽ dựa vào đó để nêu phạm vi công việc, gồm cả việc ống cũ có dùng lại được không và có cần bổ sung môi chất không. Chi phí phụ thuộc công suất máy, hiện trạng lắp đặt và khoảng cách, nên được thống nhất trước khi làm.
+
+    Chọn vị trí ở nhà mới nên bàn trước khi tháo, xem <!-- INTERNAL: lắp đặt máy lạnh đúng vị trí | /vi-tri-lap-may-lanh/ -->. Khi lắp xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu máy lạnh | /checklist-nghiem-thu-may-lanh/ --> trước khi thanh toán.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Di dời máy lạnh có phải nạp lại gas không?
+
+    Không, nếu bước thu hồi môi chất về dàn nóng được làm đúng trước khi tháo ống. Chỉ phải bổ sung khi đường ống ở vị trí mới dài hơn đáng kể so với vị trí cũ, hoặc khi phát hiện hệ thống đã rò rỉ từ trước. Hãy hỏi rõ điểm này khi nhận báo giá.
+
+    ### Ống đồng cũ có tái sử dụng được khi chuyển nhà không?
+
+    Được, nếu ống không móp, không gãy gập và lớp bảo ôn còn nguyên. Riêng phần đầu loe phải cắt bỏ và loe lại, vì loe cũ đã biến dạng theo lực siết ở lần lắp trước. Nếu vị trí mới cần ống dài hơn, sẽ phải nối thêm hoặc thay đoạn mới.
+
+    ### Vì sao phải hút chân không khi lắp lại máy lạnh cũ?
+
+    Vì trong lúc tháo và vận chuyển, không khí và hơi ẩm đã lọt vào đường ống. Hút chân không rút chúng ra trước khi cho môi chất vào. Bỏ bước này khiến hiệu suất giảm và gây ăn mòn từ bên trong hệ thống, và hậu quả chỉ lộ ra sau vài tháng.
+
+    ### Có thể tự tháo máy lạnh rồi thuê thợ lắp lại không?
+
+    Không nên. Bước tháo mới là bước rủi ro, vì nó liên quan tới thu hồi môi chất và bịt kín hệ thống. Tự tháo thường dẫn tới mất toàn bộ gas và để hở đầu ống, khiến chi phí ở bước lắp lại cao hơn phần bạn định tiết kiệm.
+
+    ### Ficool có nhận di dời máy lạnh trong TP.HCM không?
+
+    Có. Bạn gửi model, số lượng máy, ảnh hai vị trí cũ và mới, cùng khoảng cách di dời. Ficool sẽ nêu phạm vi công việc trước, gồm cả đánh giá ống cũ có dùng lại được không. Khi bạn đã sẵn sàng thì đặt lịch, và các hạng mục bàn giao được thống nhất từ đầu.
+  seo:
+    tieu_de: 'Di dời máy lạnh khi chuyển nhà: quy trình và lưu ý'
+    mo_ta: >-
+      Bước tháo mới là bước rủi ro. Quy trình thu hồi môi chất, cách đánh giá
+      ống đồng cũ và vì sao hút chân không là bắt buộc khi lắp lại.
+    slug: di-doi-may-lanh
+    tu_khoa_phu:
+    - tháo lắp máy lạnh
+    - chuyển máy lạnh sang nhà mới
+    - tháo máy lạnh chuyển nhà

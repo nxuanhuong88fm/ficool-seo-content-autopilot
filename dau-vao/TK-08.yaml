@@ -1,0 +1,152 @@
+chu_de:
+  id: TK-08
+  tieu_de: 'Đặt máy sấy chồng lên máy giặt: Điều kiện và phụ kiện cần có'
+  tu_khoa_chinh: đặt máy sấy chồng máy giặt
+  chuyen_muc: Thiết bị khác
+  the:
+  - Lắp đặt
+  giai_doan_phieu: F4
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Xếp chồng máy sấy lên máy giặt là cách tiết kiệm diện tích phổ biến, nhưng
+    nó chỉ an toàn khi đủ ba điều kiện. Điều kiện thứ nhất là thứ tự: máy giặt
+    luôn nằm dưới và máy sấy nằm trên, vì máy giặt nặng hơn nhiều khi chứa nước
+    và rung mạnh khi vắt, còn máy sấy nhẹ hơn và không có tải nước. Đảo thứ tự
+    là đặt một khối rung mạnh lên trên một khối nhẹ hơn. Điều kiện thứ hai là bộ
+    phụ kiện xếp chồng chuyên dụng của hãng hoặc loại tương thích với cặp máy
+    đó: bộ này khoá hai máy vào nhau và phân bố lực, còn xếp chồng trực tiếp thì
+    máy trên chỉ tì lên mặt máy dưới và có thể trượt khi máy giặt vắt. Điều kiện
+    thứ ba là cả hai máy phải là loại cửa trước, vì máy giặt cửa trên cần mở nắp
+    phía trên nên không thể có thiết bị nào nằm bên trên. Ngoài ba điều kiện đó
+    còn có các yêu cầu về kết cấu và thao tác: sàn phải phẳng và cứng vì tổng
+    trọng lượng hai máy dồn xuống cùng một diện tích nhỏ; máy giặt bên dưới phải
+    được kê cân trước khi đặt máy sấy lên, do rung của máy dưới truyền thẳng lên
+    máy trên; cần chừa khoảng mở cửa cho cả hai máy; và bảng điều khiển cùng cửa
+    máy trên phải nằm trong tầm với. Về vận hành, hai máy chồng lên nhau vẫn cần
+    khe hở thải nhiệt và đường thoát riêng theo kiểu máy sấy, đồng thời cần tính
+    trước việc bảo trì vì tháo máy trên xuống là công việc hai người.
+  nguon:
+  - url: https://www.energy.gov/energysaver/clothes-dryers
+    title: U.S. Department of Energy — Clothes Dryers
+  - url: https://www.energystar.gov/products/clothes_washers
+    title: ENERGY STAR — Clothes Washers
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ sản phẩm
+  serp: []
+
+bai_viet:
+  than: |
+    # Đặt máy sấy chồng lên máy giặt: Điều kiện và phụ kiện cần có
+
+    Xếp chồng là cách tiết kiệm diện tích hiệu quả, và nó an toàn — **khi đủ ba điều kiện**. Thiếu một trong ba thì hậu quả không dừng ở tiếng ồn.
+
+    <!-- IMAGE: IMG-001 | Chủ nhà và kỹ thuật viên đứng trước máy giặt cửa trước trong phòng giặt, phía trên còn trống -->
+
+    ## Ba điều kiện bắt buộc
+
+    **1. Máy giặt nằm DƯỚI, máy sấy nằm TRÊN.**
+
+    Không đảo được. Máy giặt nặng hơn nhiều khi chứa nước và rung mạnh khi vắt; máy sấy nhẹ hơn và không có tải nước. Đặt máy giặt lên trên là đặt một khối rung mạnh lên một khối nhẹ hơn.
+
+    **2. Phải có bộ phụ kiện xếp chồng chuyên dụng.**
+
+    Bộ này khoá hai máy vào nhau và phân bố lực. Xếp chồng trực tiếp thì máy trên chỉ **tì lên mặt máy dưới**, và khi máy giặt vắt thì nó có thể trượt.
+
+    **3. Cả hai phải là máy cửa trước.**
+
+    Máy giặt cửa trên cần mở nắp phía trên, nên không thể có thiết bị nào nằm bên trên nó.
+
+    Ba điều kiện này là điều kiện cần. Phần dưới là những thứ quyết định việc dùng hằng ngày có dễ chịu hay không.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh mặt trên máy giặt cửa trước có bộ phụ kiện xếp chồng bằng kim loại đã bắt vít cố định -->
+
+    ## Bộ phụ kiện: hỏi gì trước khi mua
+
+    - Bộ này có **tương thích với đúng cặp máy** của bạn không? Kích thước mặt máy khác nhau giữa các hãng và các dòng.
+    - Là bộ của hãng hay loại tương thích, và bên bán có xác nhận tương thích không?
+    - Bộ có kèm **khay hứng** không? Một số bộ có, và nó hữu ích khi máy trên có bình chứa nước.
+    - Có cần **khoan hay bắt vít** vào máy không?
+
+    Đừng thay bộ phụ kiện bằng thảm chống trượt hay miếng cao su. Chúng chống trượt trong điều kiện tĩnh, còn vấn đề ở đây là lực rung theo chu kỳ khi máy giặt vắt.
+
+    ## Kết cấu và thao tác
+
+    | Hạng mục | Vì sao |
+    |---|---|
+    | Sàn phẳng và cứng | Tổng trọng lượng hai máy dồn xuống một diện tích nhỏ |
+    | **Máy giặt dưới phải kê cân trước** | Rung của máy dưới truyền thẳng lên máy trên |
+    | Khoảng mở cửa cho cả hai máy | Cửa máy trên và cửa máy dưới không vướng nhau |
+    | Tầm với tới bảng điều khiển máy trên | Người dùng thấp nhất trong nhà cũng phải với tới |
+    | Khe hở thải nhiệt | Vẫn cần, theo hướng dẫn của từng máy |
+
+    Dòng thứ hai là dòng quyết định: **kê cân máy giặt trước, rồi mới đặt máy sấy lên**. Làm ngược lại thì mọi rung của máy dưới được khuếch đại lên trên, và bạn sẽ đi tìm nguyên nhân ở nhầm máy.
+
+    ## Đường thoát vẫn theo kiểu máy sấy
+
+    Xếp chồng không đổi yêu cầu về hơi ẩm:
+
+    - **Máy thông hơi** vẫn cần đường ống ra ngoài, và ở vị trí cao thì đoạn ống thường phải bố trí lại.
+    - **Máy ngưng tụ, bơm nhiệt** vẫn cần chỗ đổ bình nước — mà bình bây giờ nằm ở tầm cao hơn, nên hãy thử với tay trước khi chốt vị trí.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên dùng thước thuỷ kê cân máy giặt cửa trước trước khi đặt máy sấy lên trên -->
+
+    ## Nghĩ trước tới lần bảo trì
+
+    Tháo máy trên xuống là **công việc hai người**. Điều đó ảnh hưởng tới:
+
+    - Vệ sinh và bảo trì máy dưới.
+    - Sửa chữa bất kỳ máy nào trong hai máy.
+    - Việc kéo cụm máy ra khỏi tường để kiểm đường ống hoặc đường nước.
+
+    Không phải lý do để không xếp chồng, nhưng là lý do để chừa lối và để không kê cụm máy vào một hốc quá chật.
+
+    ## Dấu hiệu xếp chồng chưa đạt
+
+    - Máy trên **dịch chuyển** sau vài chu kỳ vắt.
+    - **Rung mạnh** lan lên máy trên mỗi khi máy dưới vắt.
+    - Có **khe hở không đều** giữa hai máy.
+    - Nghe tiếng **kim loại cọ** khi máy dưới chạy.
+
+    Bốn dấu hiệu này nghĩa là dừng dùng cụm máy cho tới khi kiểm lại bộ phụ kiện và độ cân của máy dưới.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh cùng một người nữa nâng máy sấy đặt lên bộ phụ kiện trên máy giặt tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Năm thông tin: hãng và dòng của cả hai máy, cả hai có phải cửa trước không, đã có bộ phụ kiện xếp chồng chưa, sàn và diện tích chỗ đặt, và kiểu máy sấy để tính đường thoát. Ficool tại TP.HCM sẽ xác nhận cặp máy có xếp chồng được không và cần bộ phụ kiện nào, rồi khảo sát vị trí trước khi làm. Nếu đang xếp chồng tạm mà thấy rung mạnh, hãy nói ngay.
+
+    Về yêu cầu chung khi lắp máy sấy, đọc <!-- INTERNAL: lắp đặt máy sấy quần áo | /lap-dat-may-say-quan-ao/ -->. Nếu cụm máy đang rung và kêu to, xem <!-- INTERNAL: máy sấy quần áo kêu to | /may-say-quan-ao-keu-to/ -->. Về phần máy giặt bên dưới, đọc <!-- INTERNAL: lắp đặt máy giặt | /lap-dat-may-giat/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Có được đặt máy giặt lên trên máy sấy không?
+
+    Không. Máy giặt luôn phải nằm dưới, vì nó nặng hơn nhiều khi chứa nước và rung mạnh khi vắt, còn máy sấy nhẹ hơn và không có tải nước. Đảo thứ tự là đặt một khối rung mạnh lên một khối nhẹ hơn.
+
+    ### Xếp chồng máy sấy có bắt buộc dùng bộ phụ kiện không?
+
+    Có. Bộ phụ kiện xếp chồng khoá hai máy vào nhau và phân bố lực. Xếp chồng trực tiếp thì máy trên chỉ tì lên mặt máy dưới và có thể trượt khi máy giặt vắt. Thảm chống trượt hay miếng cao su không thay thế được, vì vấn đề ở đây là lực rung theo chu kỳ chứ không phải ma sát tĩnh.
+
+    ### Máy giặt cửa trên có xếp chồng được không?
+
+    Không, vì máy giặt cửa trên cần mở nắp phía trên nên không thể có thiết bị nào nằm bên trên nó. Xếp chồng chỉ áp dụng cho cặp máy đều là loại cửa trước.
+
+    ### Vì sao cụm máy xếp chồng rung mạnh?
+
+    Nguyên nhân hay gặp nhất là máy giặt bên dưới chưa được kê cân, vì rung của máy dưới truyền thẳng lên máy trên. Kế đó là thiếu bộ phụ kiện xếp chồng hoặc dùng bộ không tương thích, và sàn không đủ cứng. Hãy kê cân máy dưới trước rồi mới đặt máy trên lên.
+
+    ### Ficool có lắp đặt cụm máy giặt và máy sấy xếp chồng tại TP.HCM không?
+
+    Có. Bạn gửi hãng và dòng của cả hai máy, cả hai có phải cửa trước không, đã có bộ phụ kiện chưa, sàn và diện tích chỗ đặt, cùng kiểu máy sấy. Ficool sẽ xác nhận cặp máy có xếp chồng được không, khảo sát vị trí và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Đặt máy sấy chồng lên máy giặt cần gì?
+    mo_ta: >-
+      Ba điều kiện bắt buộc, cách chọn bộ phụ kiện xếp chồng, và bốn dấu hiệu
+      cho thấy chưa đạt.
+    slug: dat-may-say-chong-may-giat
+    tu_khoa_phu:
+    - lắp máy sấy trên máy giặt
+    - bộ kit chồng máy giặt
+    - xếp chồng máy giặt máy sấy

@@ -1,0 +1,146 @@
+"""Chạy pipeline/run.py từ đầu tới cuối, KHÔNG cần khoá thật.
+
+Đây là phép đo mà CI cũ không có: validate_repo.py chỉ kiểm file có tồn tại,
+còn test cũ chỉ chạy nhánh demo. Không gì chạm vào pipeline/.
+"""
+from __future__ import annotations
+import json, re, sys
+from pathlib import Path
+import pytest
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from tests.fake_wp import FakeWordPress  # noqa: E402
+
+from pipeline.bai_mau import bai_mau  # noqa: E402
+
+BAI = bai_mau("máy lạnh chảy nước trong nhà")
+
+META = {"title": "Máy lạnh chảy nước trong nhà: cách xử lý",
+        "meta_description": "Nguyên nhân máy lạnh chảy nước, cách kiểm tra an toàn và khi nào nên gọi kỹ thuật viên tại TP.HCM.",
+        "slug": "may-lanh-chay-nuoc-trong-nha", "secondary_keywords": ["máy lạnh chảy nước"], "faq": []}
+
+
+@pytest.fixture(autouse=True)
+def so_sach(monkeypatch, tmp_path):
+    """Sổ chống trùng phải cách ly, nếu không lượt test thứ hai tự chặn chính nó."""
+    import pipeline.manifest
+    monkeypatch.setattr(pipeline.manifest, "THU_MUC", tmp_path / "manifests")
+
+
+@pytest.fixture
+def wp_gia(monkeypatch):
+    import requests
+    fake = FakeWordPress()
+    monkeypatch.setattr(requests, "request", fake.request)
+    monkeypatch.setenv("WP_URL", "https://ficool.top")
+    monkeypatch.setenv("WP_USERNAME", "bot")
+    monkeypatch.setenv("WP_APPLICATION_PASSWORD", "x x x x")
+    return fake
+
+
+@pytest.fixture
+def dich_vu_gia(monkeypatch, tmp_path):
+    """Chặn ở ranh giới: Gemini, GSC, Serper. Code của repo chạy thật."""
+    import pipeline.article, pipeline.research, pipeline.images
+
+    monkeypatch.setenv("GEMINI_API_KEY", "khoa-gia-cho-phep-thu")
+
+    class _ModelsGia:
+        def generate_content(self, model=None, contents="", config=None, **k):
+            # lượt thứ hai xin JSON thuần -> nhận diện bằng chính config, đúng
+            # cách production phân biệt hai lượt gọi
+            xin_json = getattr(config, "response_mime_type", None) == "application/json"
+            return type("R", (), {"text": json.dumps(META, ensure_ascii=False) if xin_json else BAI})()
+
+    class _ClientGia:
+        models = _ModelsGia()
+
+    monkeypatch.setattr(pipeline.article, "tao_client", lambda *a, **k: _ClientGia())
+
+    class _NghienCuuGia:
+        def run(self, topic, output_dir):
+            return {"topic": topic, "serp": [{"title": "x", "link": "https://vd.vn/a"}],
+                    "ai_research": {"sources": ["https://vd.vn/a"]}}
+    monkeypatch.setattr(pipeline.research, "ResearchPipeline", _NghienCuuGia)
+    monkeypatch.setattr("pipeline.run.ResearchPipeline", _NghienCuuGia)
+
+    from connectors.image_provider import GeneratedImage
+
+    class _AnhGia:
+        """Trả ẢNH THẬT (WebP) chứ không phải byte giả — pipeline nay dẫn xuất
+        bản og từ chính byte đó, nên byte giả không đi qua được."""
+
+        def generate(self, prompt, output_path, width=1600, height=900,
+                     anh_tham_chieu=()):
+            self.da_nhan_tham_chieu = anh_tham_chieu
+            import io as _io
+            from PIL import Image as _Image
+            from pipeline import anh_xu_ly
+
+            im = _Image.new("RGB", (1376, 768))
+            px = im.load()
+            for y in range(768):
+                for x in range(1376):
+                    px[x, y] = (int(200 * x / 1376), int(160 * y / 768) + 40, 90)
+            b = _io.BytesIO()
+            im.save(b, "JPEG", quality=92)
+            du_lieu = anh_xu_ly.sang_webp(b.getvalue())
+
+            output_path = Path(output_path).with_suffix(".webp")
+            output_path.parent.mkdir(parents=True, exist_ok=True)
+            output_path.write_bytes(du_lieu)
+            return GeneratedImage(output_path, 1376, 768, "image/webp", "gia",
+                                  du_lieu=du_lieu, mime_tho="image/jpeg",
+                                  byte_tho=len(b.getvalue()))
+    monkeypatch.setattr(pipeline.images, "GeminiImageProvider", lambda *a, **k: _AnhGia())
+
+
+def test_duong_rest_chay_het_ra_ban_nhap(wp_gia, dich_vu_gia, tmp_path):
+    """Đo đường ẢNH THẬT, nên phải khai `anh="gemini"`.
+
+    Mặc định của `run_topic` là `giu-cho` (không gọi API). Bỏ tham số này thì
+    phép đo vẫn chạy nhưng đo một đường khác — đúng loại xanh giả mà kho này
+    đã mất công dựng cổng để tránh. Đường giữ chỗ có phép đo riêng ở
+    `tests/test_giu_cho_anh.py`.
+    """
+    from pipeline.run import run_topic
+    root, qa, wp = run_topic("ML-01", output_root=tmp_path, dang_bai="rest",
+                             anh="gemini")
+
+    assert qa["status"] == "PASS", f"QA chặn: {qa}"
+    assert wp["status"] == "draft", f"khong phai ban nhap: {wp}"
+
+    payload = next(b for m, p, _, b in wp_gia.calls if m == "POST" and p == "/posts")
+    assert payload is not None
+    html = payload["content"]
+
+    # ① luôn là draft, không bao giờ publish
+    assert payload["status"] == "draft"
+    # ② liên kết nội bộ phải thành thẻ <a> thật
+    assert '<a href="/bang-gia/">bảng giá dịch vụ</a>' in html
+    # ③ danh sách phải có <ul> bọc — HTML hợp lệ
+    assert "<ul>" in html and "<li>" in html
+    # ④ bảng Markdown phải thành <table>
+    assert "<table>" in html
+    # ⑤ in đậm phải được xử lý
+    assert "**gas**" not in html
+    # ⑥ ảnh phải trỏ URL WordPress, không còn đường dẫn máy
+    assert "wp-content/uploads" in html and str(tmp_path) not in html
+    # ⑦ ảnh phải có alt và được gán featured
+    assert payload["featured_media"] in wp_gia.media
+    assert all(m.get("alt_text") for m in wp_gia.media.values()), "media thieu alt_text"
+    # ⑧ chuyên mục/thẻ phải được gán
+    assert payload["categories"] and payload["tags"]
+    # ⑨ excerpt = meta description
+    assert payload["excerpt"] == META["meta_description"]
+
+    # ⑩ schema GEO phải nằm TRONG bài được đăng, và chỉ gồm type Rank Math bỏ trống
+    import json as _j
+    from pipeline.geo import TYPE_RANK_MATH_GIU
+    khoi = re.search(r'application/ld\+json">(.*?)</script>', html, re.S)
+    assert khoi, 'khong co JSON-LD trong bai duoc dang'
+    do_thi = _j.loads(khoi.group(1))
+    types = {n['@type'] for n in do_thi['@graph']}
+    assert 'FAQPage' in types
+    assert not (types & TYPE_RANK_MATH_GIU), f'lan sang type cua Rank Math: {types}'

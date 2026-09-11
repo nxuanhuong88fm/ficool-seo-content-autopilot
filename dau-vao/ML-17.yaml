@@ -1,0 +1,147 @@
+chu_de:
+  id: ML-17
+  tieu_de: Cách chọn công suất máy lạnh theo diện tích và điều kiện phòng
+  tu_khoa_chinh: chọn công suất máy lạnh
+  chuyen_muc: Máy lạnh
+  the:
+  - Kinh nghiệm hay
+  giai_doan_phieu: F4
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Chọn công suất máy lạnh theo diện tích là cách phổ biến nhưng chưa đủ, vì
+    lượng nhiệt cần xử lý phụ thuộc cả thể tích phòng, mức nắng chiếu, số người
+    và thiết bị sinh nhiệt bên trong. Đơn vị thường dùng là HP (ngựa) hoặc BTU
+    trên giờ; một HP xấp xỉ 9.000 BTU trên giờ. Quy tắc kinh nghiệm ở Việt Nam
+    thường lấy khoảng 600 tới 700 BTU cho mỗi mét vuông với phòng có trần cao
+    tiêu chuẩn khoảng 2,8 mét, rồi cộng thêm cho các yếu tố làm tăng tải. Các
+    yếu tố cộng thêm: phòng hướng tây hoặc có cửa kính lớn đón nắng chiều; tầng
+    áp mái hoặc trần thấp không có lớp cách nhiệt; phòng có nhiều người thường
+    xuyên; phòng có bếp, tủ lạnh, máy tính hoặc thiết bị toả nhiệt; phòng thông
+    với không gian khác không có cửa ngăn. Chọn thiếu công suất khiến máy chạy
+    gần như liên tục mà phòng vẫn không đạt nhiệt độ mong muốn, điện tiêu thụ
+    cao và block chịu tải kéo dài. Chọn thừa công suất cũng có hại: máy đạt
+    nhiệt độ quá nhanh rồi ngắt, chu kỳ bật tắt ngắn làm giảm khả năng tách ẩm
+    nên phòng lạnh mà vẫn ẩm, đồng thời tăng hao mòn do khởi động liên tục. Với
+    máy biến tần, việc chọn thừa ít gây hại hơn vì máy điều chỉnh được công suất
+    theo tải, nhưng chọn thừa quá nhiều vẫn làm tăng chi phí đầu tư mà không thu
+    lại được. Thực tế nên khảo sát tại chỗ vì hai phòng cùng diện tích ở hai vị
+    trí khác nhau có thể cần hai mức công suất khác nhau.
+  nguon:
+  - url: https://www.energy.gov/energysaver/room-air-conditioners
+    title: U.S. Department of Energy — Room Air Conditioners
+  - url: https://www.daikin.com.vn/vi/support/faq/
+    title: Daikin Việt Nam — Câu hỏi thường gặp về điều hoà
+  serp: []
+
+bai_viet:
+  than: |
+    # Cách chọn công suất máy lạnh theo diện tích và điều kiện phòng
+
+    Diện tích chỉ là điểm khởi đầu. Lượng nhiệt máy phải xử lý còn phụ thuộc trần cao bao nhiêu, phòng hướng nào, có bao nhiêu người và thiết bị nào toả nhiệt. Hai phòng cùng 20 mét vuông ở hai vị trí khác nhau có thể cần hai mức công suất khác nhau.
+
+    <!-- IMAGE: IMG-001 | Kỹ thuật viên cầm thước dây đo chiều dài phòng ngủ có cửa sổ lớn đón nắng chiều -->
+
+    ## Bắt đầu từ diện tích, rồi cộng thêm
+
+    Quy tắc kinh nghiệm thường dùng ở Việt Nam: khoảng 600 tới 700 BTU trên giờ cho mỗi mét vuông, với phòng trần cao tiêu chuẩn khoảng 2,8 mét. Một HP xấp xỉ 9.000 BTU trên giờ.
+
+    | Diện tích phòng | Mức khởi điểm |
+    |---|---|
+    | Dưới 15 m² | 1 HP |
+    | 15 – 20 m² | 1,5 HP |
+    | 20 – 30 m² | 2 HP |
+    | 30 – 40 m² | 2,5 HP |
+
+    Đây là **mức khởi điểm**, không phải kết luận. Bước tiếp theo mới quyết định.
+
+    ## Năm yếu tố làm tăng tải
+
+    Cộng thêm nếu phòng của bạn có một hoặc nhiều điều sau:
+
+    - **Hướng tây hoặc cửa kính lớn đón nắng chiều.** Nắng chiếu qua kính là nguồn nhiệt lớn và kéo dài.
+    - **Tầng áp mái hoặc trần không có lớp cách nhiệt.** Nhiệt từ mái truyền xuống suốt buổi chiều.
+    - **Nhiều người sử dụng thường xuyên.** Mỗi người là một nguồn nhiệt.
+    - **Có bếp, tủ lạnh, máy tính hoặc thiết bị toả nhiệt.** Phòng làm việc nhiều máy khác hẳn phòng ngủ.
+    - **Thông với không gian khác, không có cửa ngăn.** Thể tích thực tế lớn hơn diện tích ghi trên giấy.
+
+    Càng nhiều yếu tố, càng nên nhích lên mức cao hơn trong bảng.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh tem thông số dán trên hông dàn lạnh, ghi công suất và chỉ số hiệu suất -->
+
+    ## Chọn thiếu và chọn thừa: hại theo hai kiểu khác nhau
+
+    Nhiều người biết chọn thiếu thì không mát, nhưng ít người biết chọn thừa cũng có vấn đề.
+
+    **Chọn thiếu công suất:**
+
+    - Máy chạy gần như liên tục mà phòng vẫn không đạt nhiệt độ đặt.
+    - Điện tiêu thụ cao vì máy không bao giờ được nghỉ.
+    - Block chịu tải kéo dài.
+
+    **Chọn thừa công suất:**
+
+    - Máy đạt nhiệt độ rất nhanh rồi ngắt, chu kỳ bật tắt ngắn.
+    - Chu kỳ ngắn làm giảm khả năng tách ẩm, nên phòng lạnh mà vẫn cảm giác ẩm.
+    - Khởi động liên tục làm tăng hao mòn.
+    - Chi phí đầu tư cao hơn mà không thu lại được.
+
+    Điểm thứ hai của nhóm chọn thừa là điều nhiều người không ngờ tới: cảm giác "lạnh mà bí" thường đến từ máy quá lớn so với phòng chứ không phải từ máy yếu.
+
+    ## Máy biến tần có thay đổi gì không?
+
+    Có, nhưng không xoá bỏ vấn đề. Máy biến tần điều chỉnh được công suất theo tải nên chịu được việc chọn dư một chút mà không rơi vào chu kỳ bật tắt ngắn. Đổi lại, chọn dư quá nhiều vẫn là tiền đầu tư không thu lại.
+
+    Nói cách khác, biến tần cho bạn biên độ rộng hơn khi chọn, chứ không cho phép bỏ qua bước tính.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đứng trong phòng khách thông với bếp, ghi chú vào sổ tay khi khảo sát -->
+
+    ## Bốn thông tin cần chuẩn bị trước khi hỏi tư vấn
+
+    1. **Diện tích và chiều cao trần.** Trần 3,5 mét khác hẳn trần 2,8 mét cùng diện tích.
+    2. **Hướng phòng và tình trạng nắng.** Nắng chiếu vào lúc nào, qua cửa sổ hay qua tường.
+    3. **Số người sử dụng thường xuyên** và khung giờ dùng chính.
+    4. **Thiết bị toả nhiệt trong phòng**, và phòng có thông với không gian khác không.
+
+    Bốn thông tin này thay thế được phần lớn việc phải tới tận nơi, ít nhất ở bước tư vấn ban đầu.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh tư vấn cho khách trước dàn lạnh mới còn bọc nilon đặt trong nhà -->
+
+    ## Gửi thông tin cho Ficool
+
+    Gửi diện tích, chiều cao trần, hướng phòng và số người sử dụng cho Ficool tại TP.HCM để nhận tư vấn công suất phù hợp với phòng của bạn. Nếu phòng có đặc điểm khó, ví dụ áp mái hoặc kính lớn hướng tây, nên khảo sát tại chỗ trước khi chốt.
+
+    Chọn đúng công suất rồi thì bước tiếp theo là đặt máy đúng chỗ, xem <!-- INTERNAL: lắp đặt máy lạnh đúng vị trí | /vi-tri-lap-may-lanh/ -->. Khi lắp xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu máy lạnh | /checklist-nghiem-thu-may-lanh/ --> và nhớ kiểm mục <!-- INTERNAL: hút chân không | /lap-may-lanh-co-can-hut-chan-khong/ --> trước khi thanh toán.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Phòng 20m2 nên lắp máy lạnh mấy HP?
+
+    Mức khởi điểm là 1,5 HP với phòng trần cao tiêu chuẩn, không nắng gắt và ít người. Nếu phòng hướng tây, có cửa kính lớn, nằm áp mái hoặc thường xuyên đông người, nên cân nhắc 2 HP. Diện tích chỉ là điểm bắt đầu chứ chưa phải kết luận.
+
+    ### Chọn máy lạnh công suất lớn hơn nhu cầu có tốt hơn không?
+
+    Không hẳn. Máy quá lớn đạt nhiệt độ rất nhanh rồi ngắt, và chu kỳ bật tắt ngắn làm giảm khả năng tách ẩm, khiến phòng lạnh mà vẫn cảm giác bí. Khởi động liên tục cũng làm tăng hao mòn. Máy biến tần chịu được việc chọn dư một chút, nhưng dư quá nhiều vẫn là lãng phí.
+
+    ### Trần nhà cao có ảnh hưởng tới việc chọn công suất không?
+
+    Có, và ảnh hưởng nhiều. Máy lạnh phải xử lý thể tích không khí chứ không phải diện tích sàn. Phòng 20 mét vuông trần 3,5 mét có thể tích lớn hơn đáng kể so với phòng cùng diện tích trần 2,8 mét, nên cần công suất cao hơn.
+
+    ### Một HP bằng bao nhiêu BTU?
+
+    Một HP xấp xỉ 9.000 BTU trên giờ. Khi so sánh giữa các model, nên nhìn con số BTU vì nó phản ánh năng suất lạnh trực tiếp, còn HP là cách gọi quy ước và có thể lệch nhẹ giữa các hãng.
+
+    ### Ficool có tư vấn công suất trước khi lắp tại TP.HCM không?
+
+    Có. Bạn gửi diện tích, chiều cao trần, hướng phòng, số người sử dụng và các thiết bị toả nhiệt trong phòng. Ficool sẽ tư vấn mức công suất phù hợp, và với phòng có đặc điểm khó thì nên khảo sát tại chỗ trước khi chốt. Chi phí lắp đặt phụ thuộc công suất máy và hiện trạng, được thống nhất trước.
+  seo:
+    tieu_de: Cách chọn công suất máy lạnh theo diện tích phòng
+    mo_ta: >-
+      Diện tích chỉ là điểm khởi đầu. Bảng mức khởi điểm theo m², năm yếu tố làm
+      tăng tải và vì sao chọn thừa công suất cũng gây hại.
+    slug: chon-cong-suat-may-lanh
+    tu_khoa_phu:
+    - máy lạnh bao nhiêu HP
+    - phòng 20m2 lắp máy lạnh mấy ngựa
+    - tính công suất điều hoà theo diện tích

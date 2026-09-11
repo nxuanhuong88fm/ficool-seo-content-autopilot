@@ -1,0 +1,156 @@
+chu_de:
+  id: TD-05
+  tieu_de: 'Tủ đông chạy liên tục không ngắt: Do sử dụng hay hư hỏng?'
+  tu_khoa_chinh: tủ đông chạy liên tục
+  chuyen_muc: Tủ mát, tủ đông
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Một chiếc tủ đông dùng máy nén thường có chu kỳ chạy và nghỉ: máy nén chạy
+    cho tới khi khoang đạt nhiệt độ cài đặt rồi ngắt, và chạy lại khi nhiệt độ
+    nhích lên. Tỉ lệ thời gian chạy trên tổng thời gian phụ thuộc tải nhiệt, nên
+    chạy nhiều không đồng nghĩa với hỏng. Các tình huống làm tủ chạy gần như
+    liên tục mà không có linh kiện nào hỏng gồm: vừa nạp một lượng lớn thực phẩm
+    chưa đông, mở nắp nhiều lần hoặc mở lâu, nhiệt độ phòng cao, tủ đặt sát
+    tường hoặc trong góc kín khiến dàn nóng không thải được nhiệt, dàn nóng bám
+    bụi, gioăng nắp hở làm khí lạnh thoát liên tục, lớp tuyết dày cản trao đổi
+    nhiệt, và cài đặt lạnh hơn mức cần. Nhóm hư hỏng thật gồm bộ điều nhiệt hoặc
+    cảm biến sai khiến máy không nhận được tín hiệu ngắt, quạt không quay ở các
+    model có quạt, và các sự cố thuộc hệ thống kín như thiếu môi chất do rò rỉ
+    hoặc máy nén yếu; ở nhóm sau, máy chạy liên tục nhưng nhiệt độ vẫn không đạt
+    mốc. Một điểm dễ gây hiểu nhầm là các model dùng máy nén biến tần được thiết
+    kế để chạy liên tục ở công suất thấp thay vì tắt bật theo chu kỳ, nên với
+    những model này việc máy không ngắt là hành vi bình thường. Phép phân biệt
+    đáng tin nhất là đo nhiệt độ thực trong khoang bằng nhiệt kế: chạy liên tục
+    mà vẫn đạt mốc thì nghiêng về tải sử dụng, còn chạy liên tục mà không đạt
+    mốc thì nghiêng về hư hỏng.
+  nguon:
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  - url: https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety
+    title: US FDA — Refrigerator Thermometers and Food Safety
+  serp: []
+
+bai_viet:
+  than: |
+    # Tủ đông chạy liên tục không ngắt: Do sử dụng hay hư hỏng?
+
+    Chạy nhiều không đồng nghĩa với hỏng. Máy nén chạy cho tới khi khoang đạt nhiệt độ cài đặt rồi ngắt, nên tỉ lệ thời gian chạy phản ánh **tải nhiệt** mà tủ đang phải gánh. Có một phép phân biệt đơn giản, và nó nằm ở cuối bài này.
+
+    <!-- IMAGE: IMG-001 | Chủ cửa hàng cúi sát phía sau tủ đông đang chạy, tay chạm vào thành tủ để cảm nhận độ nóng -->
+
+    ## Trước hết: tủ nhà bạn thuộc loại nào?
+
+    Có một trường hợp mà "chạy liên tục" là hành vi theo thiết kế: các model dùng **máy nén biến tần**. Chúng chạy liên tục ở công suất thấp thay vì tắt bật theo chu kỳ, vì giữ nhiệt độ ổn định ở mức thấp tốn ít điện hơn là kéo lên kéo xuống.
+
+    Hãy tra tài liệu của máy trước. Nếu tủ dùng máy nén biến tần, việc nó không ngắt hoàn toàn không phải triệu chứng.
+
+    ## Tám nguyên nhân không phải hư hỏng
+
+    | Nguyên nhân | Nhận ra bằng |
+    |---|---|
+    | Vừa nạp nhiều hàng chưa đông | Mới xảy ra trong ngày một hai hôm gần đây |
+    | Mở nắp nhiều lần hoặc mở lâu | Trùng với ngày bán hàng đông khách |
+    | Nhiệt độ phòng cao | Kho nóng, mùa nắng, tủ gần nguồn nhiệt |
+    | Kê sát tường, đặt trong góc kín | Thành tủ nóng, quanh tủ ấm rõ |
+    | Dàn nóng bám bụi | Nhìn thấy lớp bụi ở lưng hoặc dưới gầm |
+    | Gioăng nắp hở | Tuyết bám nhiều quanh miệng, nắp không hít lại |
+    | Lớp tuyết dày trong khoang | Tuyết dày quá bề dày một đốt ngón tay |
+    | Cài lạnh hơn mức cần | Nấc đang để ở mức thấp nhất mà không có lý do |
+
+    Tám dòng này giải thích phần lớn số ca. Điểm chung: chúng đều làm tủ **phải làm việc nhiều hơn**, chứ không làm tủ **mất khả năng làm lạnh**.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh dàn nóng phía sau tủ đông phủ lớp bụi dày, phía sau lưng tủ chỉ cách tường một khe hẹp -->
+
+    ## Ba nhóm hư hỏng thật
+
+    - **Bộ điều nhiệt hoặc cảm biến sai.** Máy không nhận được tín hiệu ngắt nên chạy mãi, kể cả khi khoang đã đủ lạnh. Dấu hiệu đi kèm: khoang lạnh quá mức cần, hàng bị đông cứng hơn bình thường.
+    - **Quạt không quay**, với model có quạt. Khí lạnh không phân bố, có vùng đông có vùng không, và máy chạy bù.
+    - **Hệ thống kín**: thiếu môi chất do rò rỉ, hoặc máy nén yếu. Máy chạy nhưng lạnh không đủ.
+
+    Nhóm cuối là nhóm nặng nhất và cũng là nhóm cho ra triệu chứng dễ nhận nhất, nhờ phép đo dưới đây.
+
+    ## Phép phân biệt: đo nhiệt độ thực
+
+    Đây là câu hỏi tách được hai nhóm chỉ bằng một con số:
+
+    > Tủ chạy liên tục — **nhưng nó có đạt nhiệt độ không?**
+
+    | Kết quả đo | Nghiêng về |
+    |---|---|
+    | Chạy liên tục **và đạt** mốc âm 18 độ C | Tải sử dụng. Xem lại tám nguyên nhân ở trên |
+    | Chạy liên tục **mà không đạt** mốc | Hư hỏng. Cần kỹ thuật viên |
+
+    Cách đo: đặt nhiệt kế vào giữa các món đông, đóng nắp, không mở trong suốt thời gian đo, chờ nhiều giờ rồi đọc. Ghi lại con số cùng thời điểm.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, kiểm tra bộ điều nhiệt và cụm rơ le phía sau tủ đông -->
+
+    ## Bốn việc tự làm được trước khi gọi thợ
+
+    1. **Kéo tủ ra, chừa khoảng hở** ở lưng và hai bên theo hướng dẫn của máy.
+    2. **Vệ sinh dàn nóng và gầm tủ.** Bụi bám là nguyên nhân ít tốn công nhất để loại trừ.
+    3. **Kiểm gioăng nắp** bằng phép thử tờ giấy: kẹp tờ giấy vào mép, đóng nắp, rút ra thấy lực cản đều quanh viền là đạt.
+    4. **Xả tuyết** nếu lớp tuyết đã dày.
+
+    Làm xong bốn việc này, chờ một ngày rồi đo lại. Rất nhiều trường hợp dừng ở đây.
+
+    ## Chạy liên tục có tốn điện không?
+
+    Có, và đó là phần chi phí ít người tính. Một chiếc tủ chạy gần như không nghỉ vì gioăng hở hoặc vì tuyết dày sẽ cộng dồn tiền điện theo từng tháng, trong khi việc xử lý nằm hoàn toàn trong tầm tay.
+
+    Nói cách khác: "tủ vẫn lạnh mà" không phải lý do để bỏ qua triệu chứng này.
+
+    ## Khi nào cần kỹ thuật viên
+
+    - Đã loại trừ hết tám nguyên nhân ngoài máy mà nhiệt độ đo vẫn không đạt.
+    - Khoang lạnh quá mức cài đặt, hàng đông cứng bất thường.
+    - Có tiếng lạ từ máy nén, hoặc máy nén nóng bất thường.
+    - Có mùi khét, hoặc aptomat nhảy khi tủ chạy.
+
+    Hai dấu hiệu cuối là dấu hiệu nên rút điện và gọi kiểm tra thay vì tiếp tục dùng.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh dùng đồng hồ đo dòng điện của máy nén tủ đông tại cửa hàng của khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: tủ dùng máy nén thường hay biến tần, nhiệt độ **thực đo được** kèm thời điểm đo, tình huống gần đây như vừa nạp nhiều hàng hay đổi vị trí đặt, và mức tuyết bám hiện tại. Kỹ thuật viên Ficool tại TP.HCM sẽ dựa vào đó để nói trường hợp của bạn nghiêng về tải sử dụng hay nghiêng về hư hỏng. Với hộ kinh doanh, hãy nói rõ tủ đang chứa hàng gì để bố trí phương án giữ lạnh nếu phải xử lý lâu.
+
+    Nếu tủ bám tuyết dày, đọc <!-- INTERNAL: tủ đông đóng tuyết dày | /tu-dong-dong-tuyet-day/ -->. Nếu nghi gioăng hở, xem <!-- INTERNAL: gioăng tủ đông bị hở | /gioang-tu-dong-bi-ho/ -->. Muốn biết chi phí kiểm tra gồm những phần nào, đọc <!-- INTERNAL: giá sửa tủ mát tủ đông | /gia-sua-tu-mat-tu-dong/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Tủ đông chạy liên tục không ngắt có phải hỏng không?
+
+    Không nhất thiết. Máy chạy nhiều phản ánh tải nhiệt đang cao, và các model dùng máy nén biến tần còn được thiết kế để chạy liên tục ở công suất thấp. Phép phân biệt là đo nhiệt độ thực: chạy liên tục mà vẫn đạt mốc thì nghiêng về cách sử dụng, chạy liên tục mà không đạt mốc thì nghiêng về hư hỏng.
+
+    ### Vì sao tủ đông chạy suốt mà vẫn không đủ lạnh?
+
+    Đây là nhóm dấu hiệu nghiêng về hư hỏng. Thường gặp là quạt lưu thông khí không quay, hoặc sự cố thuộc hệ thống kín như thiếu môi chất do rò rỉ và máy nén yếu. Trước khi kết luận, hãy loại trừ gioăng hở, tuyết dày và dàn nóng bám bụi.
+
+    ### Tủ đông chạy liên tục có tốn điện nhiều không?
+
+    Có. Một chiếc tủ chạy gần như không nghỉ vì gioăng hở, tuyết dày hoặc dàn nóng bám bụi sẽ cộng dồn tiền điện theo từng tháng. Điều đáng nói là ba nguyên nhân đó đều xử lý được mà không cần mở máy.
+
+    ### Vừa nạp nhiều hàng thì tủ đông chạy liên tục bao lâu là bình thường?
+
+    Tải nhiệt tăng đột ngột khiến tủ phải chạy rất nhiều giờ mới kéo nhiệt độ xuống lại, và phần hàng ở giữa khối là phần lâu đông nhất. Hãy chờ và đo lại nhiệt độ thực sau đó thay vì kết luận ngay, và lần sau nên nạp hàng theo đợt thay vì dồn hết một lúc.
+
+    ### Ficool có kiểm tra tủ đông chạy liên tục tại TP.HCM không?
+
+    Có. Bạn gửi loại máy nén, nhiệt độ thực đo được kèm thời điểm, tình huống sử dụng gần đây và mức tuyết bám. Kỹ thuật viên Ficool sẽ khoanh vùng nguyên nhân trước khi tới, nêu rõ hạng mục cần làm và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Tủ đông chạy liên tục không ngắt là do đâu?
+    mo_ta: >-
+      Tám nguyên nhân không phải hư hỏng, ba nhóm hỏng thật, và một phép đo tách
+      được hai nhóm chỉ bằng một con số.
+    slug: tu-dong-chay-lien-tuc
+    tu_khoa_phu:
+    - tủ đông chạy không ngắt
+    - tủ đông tốn điện
+    - máy nén tủ đông không nghỉ

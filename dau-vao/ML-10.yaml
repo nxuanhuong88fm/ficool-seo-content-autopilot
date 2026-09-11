@@ -1,0 +1,164 @@
+chu_de:
+  id: ML-10
+  tieu_de: 'Bảo trì máy lạnh cho gia đình và văn phòng: Checklist kiểm tra định kỳ'
+  tu_khoa_chinh: bảo trì máy lạnh
+  chuyen_muc: Máy lạnh
+  the:
+  - Bảo trì
+  giai_doan_phieu: F2
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Bảo trì máy lạnh khác vệ sinh máy lạnh ở phạm vi: vệ sinh tập trung vào làm
+    sạch, còn bảo trì là một lượt kiểm tra có danh sách hạng mục nhằm phát hiện
+    sớm các dấu hiệu xuống cấp trước khi chúng thành sự cố. Tài liệu bảo dưỡng
+    điều hoà của Bộ Năng lượng Hoa Kỳ nêu các hạng mục cốt lõi: lưới lọc, dàn
+    trao đổi nhiệt ở cả hai phía, máng và đường thoát nước ngưng, cánh tản
+    nhiệt, quạt, cùng phần đấu nối điện; và nhấn mạnh rằng dàn bám bụi hoặc
+    lưới lọc tắc làm giảm khả năng trao đổi nhiệt, khiến máy chạy lâu hơn và
+    tiêu thụ nhiều điện hơn để đạt cùng một kết quả. Với môi trường văn phòng và
+    cơ sở kinh doanh, hai khác biệt so với hộ gia đình cần được tính vào lịch:
+    số giờ chạy mỗi ngày cao hơn nhiều, và hậu quả của một lần ngừng hoạt động
+    lớn hơn vì nó ảnh hưởng tới công việc hoặc tới khách. Do đó chu kỳ bảo trì ở
+    nhóm này thường dày hơn và nên được lập thành lịch thay vì xử lý theo sự cố.
+    Một điểm phân biệt quan trọng khác là môi chất lạnh: nó nằm trong hệ thống
+    kín và không tiêu hao, nên "nạp gas" không phải hạng mục bảo trì định kỳ; sự
+    sụt giảm lượng môi chất là dấu hiệu rò rỉ cần tìm nguyên nhân. Về ghi chép,
+    việc lưu lại ngày thực hiện và hạng mục đã làm cho phép so sánh giữa các kỳ
+    và phát hiện xu hướng xuống cấp, thứ mà một lượt kiểm tra đơn lẻ không cho
+    thấy.
+  nguon:
+  - url: https://www.energy.gov/energysaver/maintaining-your-air-conditioner
+    title: U.S. Department of Energy — Maintaining Your Air Conditioner
+  - url: https://www.energy.gov/energysaver/air-conditioning
+    title: U.S. Department of Energy — Air Conditioning
+  - url: https://www.daikin.com.vn/vi/support/faq/
+    title: Daikin Việt Nam — Hỏi đáp hỗ trợ
+  serp: []
+
+bai_viet:
+  than: |
+    # Bảo trì máy lạnh cho gia đình và văn phòng: Checklist kiểm tra định kỳ
+
+    Bảo trì không phải vệ sinh. Vệ sinh là **làm sạch**; bảo trì là một lượt **kiểm tra có danh sách**, nhằm phát hiện dấu hiệu xuống cấp trước khi chúng thành sự cố.
+
+    Hai việc thường làm cùng lượt, nhưng hỏi "hôm nay làm những hạng mục nào" cho câu trả lời khác hẳn hỏi "hôm nay có vệ sinh không".
+
+    <!-- IMAGE: IMG-001 | Kỹ thuật viên và khách hàng đứng trong văn phòng nhỏ, cùng xem phiếu kiểm tra bên dưới dàn lạnh treo tường -->
+
+    ## Checklist — mười hạng mục
+
+    | # | Hạng mục | Đạt khi |
+    |---|---|---|
+    | 1 | Lưới lọc | Sạch, không rách, lắp đúng chiều |
+    | 2 | Dàn lạnh | Lá nhôm sạch, không bẹp, không bám nhớt |
+    | 3 | Dàn nóng | Sạch, đủ khoảng thoáng, không bị che chắn |
+    | 4 | Máng hứng nước ngưng | Sạch, không đọng nhớt sinh học |
+    | 5 | Đường thoát nước ngưng | Thoát thông, không đọng |
+    | 6 | Quạt dàn lạnh, quạt dàn nóng | Quay êm, không rung, không tiếng lạ |
+    | 7 | Cánh đảo gió | Chuyển động đủ hành trình |
+    | 8 | Phần đấu nối điện | Không lỏng, không dấu hiệu phát nhiệt |
+    | 9 | Nhiệt độ gió ra | Ổn định, so được với kỳ trước |
+    | 10 | Tiếng ồn và độ rung | Không đổi so với kỳ trước |
+
+    Hai dòng cuối chỉ có ý nghĩa khi **có ghi chép của kỳ trước** để so. Đó là lý do mục ghi chép ở dưới quan trọng hơn vẻ ngoài của nó.
+
+    ## Vì sao dàn bẩn là chuyện tiền, không chỉ chuyện sạch
+
+    Dàn bám bụi và lưới lọc tắc làm giảm khả năng trao đổi nhiệt. Máy phải **chạy lâu hơn** để đạt cùng một nhiệt độ, và điện tiêu thụ tăng theo.
+
+    Nghĩa là một chiếc máy bẩn không chỉ mát kém — nó còn tính tiền bạn mỗi tháng cho phần hiệu suất đã mất. Đây là hạng mục hoàn vốn rõ nhất trong cả danh sách.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh dàn nóng máy lạnh đặt ngoài ban công, lá tản nhiệt phủ lớp bụi dày và bị vật dụng che một phần -->
+
+    ## Gia đình và văn phòng khác nhau ở hai chỗ
+
+    | | Hộ gia đình | Văn phòng, cơ sở kinh doanh |
+    |---|---|---|
+    | Số giờ chạy | Vài giờ mỗi ngày, theo mùa | Gần như cả ngày làm việc |
+    | Hậu quả khi hỏng | Bất tiện | Ảnh hưởng công việc hoặc khách |
+    | Cách xử lý hợp lý | Theo mốc và theo dấu hiệu | **Lập lịch trước**, không chờ sự cố |
+
+    Dòng cuối là khác biệt thực sự. Với nhóm thứ hai, chi phí của một lần ngừng hoạt động thường lớn hơn nhiều so với chi phí của lượt bảo trì lẽ ra phải làm.
+
+    ## "Nạp gas" KHÔNG phải hạng mục bảo trì định kỳ
+
+    Đây là chỗ cần nói rõ vì nó hay xuất hiện nhầm trong bảng báo giá bảo trì.
+
+    Môi chất lạnh nằm trong **hệ thống kín** và không bị tiêu hao khi máy chạy. Một hệ còn nguyên vẹn giữ nguyên lượng môi chất suốt vòng đời máy.
+
+    Nên nếu lượng môi chất giảm, đó là **dấu hiệu rò rỉ cần tìm nguyên nhân**, không phải một mức hao hụt cần bù theo lịch. Thấy dòng "nạp gas định kỳ" trong báo giá bảo trì thì nên hỏi lại.
+
+    ## Ghi chép — phần tốn ít công nhất và hay bị bỏ nhất
+
+    Một lượt kiểm tra đơn lẻ cho biết **hiện trạng**. Chỉ khi so được giữa các kỳ mới thấy **xu hướng**.
+
+    Nên lưu lại, dù chỉ trong một ghi chú điện thoại:
+
+    - Ngày thực hiện.
+    - Hạng mục đã làm.
+    - Linh kiện đã thay, nếu có.
+    - Ghi nhận bất thường: tiếng ồn, nhiệt độ gió ra, nước đọng.
+
+    Lần sau, câu "máy có ồn hơn trước không" mới trả lời được bằng dữ liệu thay vì bằng trí nhớ.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt aptomat, kiểm tra máng hứng nước ngưng và đường thoát của dàn lạnh -->
+
+    ## Việc bạn tự làm giữa hai kỳ
+
+    - **Rửa lưới lọc** đều đặn, để khô hẳn rồi lắp lại.
+    - **Dọn quanh dàn nóng**: lá cây, rác, vật che chắn.
+    - **Để ý bốn dấu hiệu**: gió yếu đi, có mùi ẩm, có nước nhỏ giọt, tiếng ồn đổi.
+    - **Ghi lại** khi thấy bất thường, kèm ngày.
+
+    Bốn việc này kéo dài khoảng cách giữa hai kỳ bảo trì, nhưng không thay thế được chúng — bụi lọt qua lưới vẫn bám dần lên lá nhôm.
+
+    ## Khi nào cần gọi sớm hơn lịch
+
+    - Gió ra yếu hơn hẳn, hoặc kém lạnh dần qua nhiều tuần.
+    - Có nước nhỏ giọt từ dàn lạnh.
+    - Mùi ẩm không hết sau khi rửa lưới lọc.
+    - Tiếng ồn hoặc độ rung tăng dần.
+    - Bám tuyết trên ống đồng.
+    - Aptomat nhảy, hoặc có mùi khét — trường hợp này ngắt điện trước rồi mới gọi.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh ghi hạng mục đã kiểm vào phiếu bảo trì tại văn phòng của khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: số máy và vị trí lắp, số giờ chạy mỗi ngày, lần bảo trì hoặc vệ sinh gần nhất, và các bất thường đang thấy. Ficool tại TP.HCM sẽ đề xuất chu kỳ phù hợp thay vì một con số dùng chung, và bàn giao phiếu ghi rõ hạng mục đã kiểm để bạn có căn cứ so ở kỳ sau. Với văn phòng và cơ sở kinh doanh, hãy nói khung giờ thuận tiện để bố trí lịch không ảnh hưởng công việc.
+
+    Muốn biết bao lâu nên làm một lần, đọc <!-- INTERNAL: bao lâu vệ sinh máy lạnh | /bao-lau-ve-sinh-may-lanh/ -->. Sau khi làm xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu máy lạnh | /checklist-nghiem-thu-may-lanh/ -->. Nếu máy để lâu không dùng, xem <!-- INTERNAL: máy lạnh lâu ngày không sử dụng | /may-lanh-lau-ngay-khong-su-dung/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Bảo trì máy lạnh khác vệ sinh máy lạnh thế nào?
+
+    Vệ sinh tập trung vào làm sạch: lưới lọc, dàn, máng nước, quạt. Bảo trì là một lượt kiểm tra có danh sách hạng mục nhằm phát hiện sớm dấu hiệu xuống cấp, gồm cả phần đấu nối điện, nhiệt độ gió ra và độ ồn so với kỳ trước. Hai việc thường làm cùng lượt nhưng phạm vi khác nhau.
+
+    ### Bảo trì máy lạnh gồm những hạng mục nào?
+
+    Mười hạng mục cốt lõi: lưới lọc, dàn lạnh, dàn nóng, máng hứng nước ngưng, đường thoát nước, quạt hai phía, cánh đảo gió, phần đấu nối điện, nhiệt độ gió ra và mức ồn cùng độ rung. Hai hạng mục cuối chỉ có ý nghĩa khi có ghi chép của kỳ trước để so.
+
+    ### Bảo trì máy lạnh có bao gồm nạp gas không?
+
+    Không. Môi chất lạnh nằm trong hệ thống kín và không bị tiêu hao khi máy chạy, nên nạp gas không phải hạng mục bảo trì định kỳ. Nếu lượng môi chất giảm thì đó là dấu hiệu rò rỉ cần tìm nguyên nhân. Thấy dòng nạp gas định kỳ trong báo giá bảo trì thì nên hỏi lại.
+
+    ### Văn phòng có cần bảo trì máy lạnh dày hơn nhà ở không?
+
+    Thường là có, vì hai lý do: số giờ chạy mỗi ngày cao hơn nhiều, và hậu quả của một lần ngừng hoạt động lớn hơn vì nó ảnh hưởng tới công việc hoặc tới khách. Với nhóm này nên lập lịch trước thay vì xử lý theo sự cố.
+
+    ### Ficool có nhận bảo trì máy lạnh định kỳ tại TP.HCM không?
+
+    Có. Bạn gửi số máy và vị trí lắp, số giờ chạy mỗi ngày, lần bảo trì gần nhất và các bất thường đang thấy. Ficool sẽ đề xuất chu kỳ phù hợp với từng máy, bàn giao phiếu ghi rõ hạng mục đã kiểm, và thống nhất chi phí trước khi làm.
+  seo:
+    tieu_de: Bảo trì máy lạnh gồm những hạng mục nào?
+    mo_ta: >-
+      Checklist mười hạng mục, khác biệt giữa nhà ở và văn phòng, và vì sao nạp
+      gas không phải hạng mục bảo trì định kỳ.
+    slug: bao-tri-may-lanh
+    tu_khoa_phu:
+    - bảo dưỡng điều hòa định kỳ
+    - checklist bảo trì máy lạnh văn phòng
+    - lịch bảo trì máy lạnh

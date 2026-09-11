@@ -1,0 +1,140 @@
+chu_de:
+  id: TL-05
+  tieu_de: 'Tủ lạnh kêu to: Âm thanh nào bình thường, khi nào cần kiểm tra?'
+  tu_khoa_chinh: tủ lạnh kêu to
+  chuyen_muc: Tủ lạnh
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Tủ lạnh là thiết bị luôn phát ra âm thanh khi hoạt động, và phần lớn các âm
+    thanh đó nằm trong thiết kế. Nhóm âm thanh bình thường gồm: tiếng ù đều của
+    block máy nén khi chạy; tiếng gió nhẹ của quạt dàn lạnh và quạt dàn ngưng;
+    tiếng róc rách hoặc ục ục của môi chất lạnh di chuyển trong ống, rõ nhất
+    ngay sau khi block ngừng; tiếng lách tách hoặc răng rắc do vật liệu co giãn
+    theo nhiệt độ, thường nghe rõ vào ban đêm khi phòng yên; tiếng xèo nhẹ khi
+    nước tan trong chu kỳ xả tuyết rơi xuống bộ phận nóng; và với tủ có bộ làm
+    đá là tiếng đá rơi vào khay. Nhóm âm thanh bất thường gồm: tiếng va đập kim
+    loại có nhịp, thường do quạt chạm vật cản hoặc cánh quạt cong; tiếng rít cao
+    kéo dài, nghiêng về bạc đạn quạt khô dầu; tiếng ù rất to kèm rung mạnh cả
+    thân tủ, nghiêng về giá đỡ block lỏng hoặc cao su giảm chấn chai; tiếng gõ
+    lặp lại khi block khởi động, có thể liên quan tới rơ le khởi động; và tiếng
+    ồn tăng dần qua nhiều tháng. Yếu tố ngoài máy hay bị bỏ qua: tủ kê không cân
+    làm rung truyền xuống sàn; tủ kê sát tường hoặc sát tủ bếp làm âm cộng hưởng;
+    vật đặt trên nóc tủ rung theo; khay hứng nước phía sau lệch vị trí. Cách
+    khoanh vùng đơn giản là xác định tiếng phát ra từ phía sau, từ bên trong
+    khoang, hay từ chân tủ, và ghi lại tiếng đó xuất hiện lúc block chạy hay lúc
+    block vừa ngừng.
+  nguon:
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Tủ lạnh kêu to: Âm thanh nào bình thường, khi nào cần kiểm tra?
+
+    Tủ lạnh luôn phát ra âm thanh khi hoạt động, và phần lớn nằm trong thiết kế. Tiếng ù đều, tiếng gió nhẹ, tiếng róc rách sau khi block ngừng, tiếng lách tách do vật liệu co giãn đều là bình thường. Đáng lo là tiếng va đập kim loại, tiếng rít kéo dài, và tiếng ồn tăng dần qua nhiều tháng.
+
+    <!-- IMAGE: IMG-001 | Người dùng đứng nghiêng tai cạnh tủ lạnh trong bếp, một tay chạm vào cánh cửa tủ -->
+
+    ## Sáu âm thanh bình thường
+
+    | Tiếng nghe được | Nguồn |
+    |---|---|
+    | Ù đều, liên tục | Block máy nén đang chạy |
+    | Gió nhẹ | Quạt dàn lạnh và quạt dàn ngưng |
+    | Róc rách, ục ục | Môi chất lạnh di chuyển, rõ nhất ngay sau khi block ngừng |
+    | Lách tách, răng rắc | Vật liệu co giãn theo nhiệt độ, nghe rõ về đêm |
+    | Xèo nhẹ | Nước tan trong chu kỳ xả tuyết rơi xuống bộ phận nóng |
+    | Đá rơi | Bộ làm đá, với tủ có chức năng này |
+
+    Ba dòng cuối hay làm người dùng lo nhất vì chúng xuất hiện đột ngột và không đều. Nhưng cả ba đều là hoạt động theo thiết kế.
+
+    ## Ba câu hỏi khoanh vùng
+
+    Trước khi kết luận, trả lời ba câu:
+
+    1. **Tiếng phát ra từ đâu?** Phía sau tủ, bên trong khoang, hay từ chân tủ.
+    2. **Xuất hiện lúc nào?** Khi block đang chạy, hay ngay sau khi block vừa ngừng.
+    3. **Có từ bao giờ?** Mới xuất hiện, hay tăng dần qua nhiều tháng.
+
+    Câu 2 rất hữu ích: tiếng xuất hiện **sau khi block ngừng** gần như luôn là môi chất lạnh, và đó là chuyện bình thường.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh phía sau tủ lạnh, quạt dàn ngưng và khay hứng nước đặt lệch khỏi vị trí -->
+
+    ## Năm âm thanh cần kiểm tra
+
+    - **Va đập kim loại có nhịp** — quạt chạm vật cản hoặc cánh quạt cong.
+    - **Rít cao kéo dài** — bạc đạn quạt khô dầu.
+    - **Ù rất to kèm rung cả thân tủ** — giá đỡ block lỏng hoặc cao su giảm chấn chai.
+    - **Gõ lặp lại khi block khởi động** — có thể liên quan tới rơ le khởi động.
+    - **Ồn tăng dần qua nhiều tháng** — thường là hao mòn, cần kiểm sớm.
+
+    ## Bốn nguyên nhân nằm ngoài máy
+
+    Trước khi nghĩ tới linh kiện, kiểm bốn thứ này. Chúng miễn phí và chiếm khá nhiều số ca:
+
+    1. **Tủ kê không cân.** Đẩy nhẹ bốn góc xem có bập bênh. Chân tủ thường chỉnh được bằng cách xoay.
+    2. **Tủ kê sát tường hoặc sát tủ bếp.** Âm cộng hưởng qua bề mặt cứng, nghe to hơn thực tế.
+    3. **Vật đặt trên nóc tủ.** Hộp, chai, khay rung theo và tạo tiếng lạch cạch.
+    4. **Khay hứng nước phía sau lệch vị trí.** Khay chạm vào block hoặc vào vỏ sẽ kêu.
+
+    Bốn thứ này giải thích phần lớn trường hợp "tự nhiên hôm nay tủ kêu to hơn".
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, kéo tủ lạnh ra khỏi tường và kiểm tra chân đế cùng khay hứng nước -->
+
+    ## Khi nào cần kỹ thuật viên?
+
+    - Tiếng va đập kim loại mạnh.
+    - Tiếng rít kéo dài không dứt.
+    - Tiếng ồn kèm tủ kém lạnh.
+    - Tiếng ồn kèm mùi khét.
+    - Rung mạnh tới mức nhìn thấy thân tủ chuyển động.
+
+    Ba dấu hiệu cuối là dấu hiệu nên rút điện và gọi kiểm tra thay vì tiếp tục dùng.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh kiểm tra quạt dàn ngưng và giá đỡ block phía sau tủ lạnh tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Với tiếng ồn, một đoạn ghi âm hoặc video mười giây nói được nhiều hơn cả đoạn mô tả. Gửi kèm ba thông tin: tiếng phát ra từ đâu, xuất hiện lúc block chạy hay vừa ngừng, và có từ bao giờ. Kỹ thuật viên Ficool tại TP.HCM sẽ dựa vào đó để nói trường hợp của bạn nằm ở nhóm bình thường hay cần kiểm tra.
+
+    Nếu tiếng ồn đi kèm tủ chạy không nghỉ, đọc <!-- INTERNAL: tủ lạnh chạy liên tục | /tu-lanh-chay-lien-tuc/ -->. Muốn biết chi phí kiểm tra gồm những phần nào, xem <!-- INTERNAL: giá sửa tủ lạnh | /gia-sua-tu-lanh/ -->. Bảo trì định kỳ giúp phát hiện sớm bạc đạn quạt và cao su giảm chấn, xem <!-- INTERNAL: bảo trì tủ lạnh | /bao-tri-tu-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Tủ lạnh kêu ục ục có phải hỏng không?
+
+    Thường là không. Tiếng róc rách hoặc ục ục là môi chất lạnh di chuyển trong ống, và nó rõ nhất ngay sau khi block ngừng chạy. Đây là hoạt động theo thiết kế. Chỉ cần lưu ý nếu tiếng đó đi kèm việc tủ kém lạnh.
+
+    ### Vì sao ban đêm tủ lạnh kêu to hơn?
+
+    Một phần vì phòng yên tĩnh nên bạn nghe rõ hơn. Phần khác là tiếng lách tách do vật liệu co giãn theo nhiệt độ, và nó xuất hiện rõ khi nhiệt độ phòng hạ xuống về đêm. Cả hai đều bình thường.
+
+    ### Tủ lạnh rung mạnh làm sàn rung theo là do đâu?
+
+    Thường do tủ kê không cân hoặc kê sát tường khiến rung truyền và cộng hưởng. Hãy đẩy nhẹ bốn góc để kiểm bập bênh, chỉnh chân tủ, và chừa khoảng hở với tường. Nếu đã cân mà vẫn rung mạnh thì nghiêng về giá đỡ block hoặc cao su giảm chấn.
+
+    ### Tiếng kêu tăng dần qua nhiều tháng có đáng lo không?
+
+    Có. Ồn tăng dần thường là dấu hiệu hao mòn ở bạc đạn quạt hoặc ở block, và nó không tự dừng lại. Kiểm sớm thường rẻ hơn nhiều so với chờ tới lúc bộ phận đó hỏng hẳn.
+
+    ### Ficool có kiểm tra tiếng ồn tủ lạnh tại TP.HCM không?
+
+    Có. Bạn gửi một đoạn ghi âm hoặc video ngắn, kèm thông tin tiếng phát ra từ đâu và xuất hiện lúc nào. Kỹ thuật viên Ficool sẽ định hướng trước xem nghiêng về nguyên nhân ngoài máy hay bên trong. Chi phí phụ thuộc tình trạng thực tế và được thống nhất trước.
+  seo:
+    tieu_de: 'Tủ lạnh kêu to: tiếng nào bình thường, tiếng nào không'
+    mo_ta: >-
+      Sáu âm thanh nằm trong thiết kế, năm âm thanh cần kiểm tra, và bốn nguyên
+      nhân nằm ngoài máy mà bạn tự xử lý được.
+    slug: tu-lanh-keu-to
+    tu_khoa_phu:
+    - tủ lạnh phát ra tiếng lạ
+    - tủ lạnh kêu ù ù
+    - tủ lạnh rung mạnh

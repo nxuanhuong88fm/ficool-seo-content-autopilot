@@ -1,0 +1,139 @@
+chu_de:
+  id: ML-06
+  tieu_de: 'Remote máy lạnh không điều khiển được: Cách kiểm tra từng trường hợp'
+  tu_khoa_chinh: remote máy lạnh không điều khiển được
+  chuyen_muc: Máy lạnh
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Khi remote không điều khiển được máy lạnh, câu hỏi cần trả lời trước tiên là
+    lỗi nằm ở remote hay ở máy. Remote hồng ngoại phát tín hiệu ở bước sóng mắt
+    thường không thấy, nhưng camera điện thoại nhìn được: hướng đầu phát vào ống
+    kính camera trước rồi bấm một phím, nếu thấy đèn nhấp nháy tím hoặc trắng
+    thì remote còn phát. Đây là phép thử phân tách nhanh và không cần dụng cụ.
+    Các nguyên nhân phía remote: pin yếu (dấu hiệu là màn hình mờ hoặc chỉ hoạt
+    động khi đứng rất gần), tiếp điểm pin bị oxy hoá, phím cao su mòn, hoặc
+    remote đã bị đặt sai chế độ. Các nguyên nhân phía máy: mắt nhận hồng ngoại
+    trên dàn lạnh bị bụi che, ánh nắng chiếu thẳng vào mắt nhận gây nhiễu, đèn
+    huỳnh quang hoặc đèn LED công suất lớn đặt gần cũng gây nhiễu, bo mạch nhận
+    tín hiệu lỗi. Một trường hợp riêng: máy vẫn nhận lệnh (có tiếng bíp) nhưng
+    không thực hiện, đó không phải lỗi remote mà là lỗi phía máy. Nhiều dòng máy
+    có nút chạy khẩn cấp giấu dưới nắp dàn lạnh, dùng để chạy máy ở chế độ mặc
+    định khi mất remote; nút này cũng là công cụ chẩn đoán tốt vì nó bỏ qua toàn
+    bộ đường tín hiệu hồng ngoại. Về phòng ngừa, tránh để remote nơi nóng hoặc
+    ẩm, và tháo pin nếu không dùng dài ngày để tránh pin chảy làm hỏng tiếp điểm.
+  nguon:
+  - url: https://www.daikin.com.vn/vi/support/faq/
+    title: Daikin Việt Nam — Câu hỏi thường gặp về điều hoà
+  - url: https://www.energy.gov/energysaver/air-conditioning
+    title: U.S. Department of Energy — Air Conditioning
+  serp: []
+
+bai_viet:
+  than: |
+    # Remote máy lạnh không điều khiển được: Cách kiểm tra từng trường hợp
+
+    Trước khi thay remote, hãy xác định lỗi nằm ở remote hay ở máy. Dùng camera điện thoại soi đầu phát của remote rồi bấm một phím: thấy đèn nhấp nháy nghĩa là remote còn phát tín hiệu, và vấn đề nằm ở phía máy lạnh.
+
+    <!-- IMAGE: IMG-001 | Người dùng cầm điện thoại soi camera vào đầu phát của remote máy lạnh trong phòng khách -->
+
+    ## Phép thử bằng camera điện thoại
+
+    Remote máy lạnh phát tín hiệu hồng ngoại, bước sóng mắt thường không thấy. Nhưng cảm biến camera của điện thoại thì thấy.
+
+    1. Mở ứng dụng camera, chuyển sang camera trước.
+    2. Hướng đầu phát của remote vào ống kính, cách khoảng một gang tay.
+    3. Bấm giữ một phím bất kỳ và nhìn màn hình.
+
+    Nếu thấy chấm sáng tím hoặc trắng nhấp nháy, remote còn phát. Nếu không thấy gì, thử thay pin rồi soi lại trước khi kết luận.
+
+    Một số điện thoại đời mới lọc hồng ngoại ở camera sau, nên hãy dùng camera trước. Phép thử này mất ba mươi giây và tách được hai nhóm nguyên nhân hoàn toàn khác nhau.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh khoang pin của remote mở nắp, hai tiếp điểm kim loại phủ lớp oxy hoá xanh -->
+
+    ## Nếu remote không phát: lỗi ở remote
+
+    | Dấu hiệu | Nguyên nhân | Xử lý |
+    |---|---|---|
+    | Màn hình mờ, chữ nhạt | Pin yếu | Thay cả cặp pin mới |
+    | Chỉ hoạt động khi đứng sát máy | Pin gần hết | Thay pin |
+    | Không lên màn hình | Pin hết hẳn hoặc tiếp điểm oxy hoá | Thay pin, lau tiếp điểm |
+    | Vài phím không ăn, phím khác vẫn được | Phím cao su mòn | Thay remote |
+    | Có vết ẩm hoặc pin chảy trong khoang | Hỏng tiếp điểm | Thay remote |
+
+    Với tiếp điểm oxy hoá, dùng cục tẩy bút chì chà nhẹ lớp xanh rồi lau khô. Thay pin thì thay cả cặp cùng loại, đừng lắp một viên cũ một viên mới.
+
+    ## Nếu remote vẫn phát: lỗi ở phía máy
+
+    Kiểm tra theo thứ tự từ dễ tới khó:
+
+    - **Mắt nhận bị bụi che.** Mắt nhận hồng ngoại nằm sau một ô nhỏ trên mặt dàn lạnh. Lau bằng khăn khô.
+    - **Ánh nắng chiếu thẳng vào mắt nhận.** Ánh sáng mạnh làm nhiễu tín hiệu. Thử che rèm rồi bấm lại.
+    - **Đèn công suất lớn đặt gần.** Một số đèn LED và đèn huỳnh quang gây nhiễu. Thử tắt đèn rồi bấm lại.
+    - **Máy có bíp nhưng không làm gì.** Đây là dấu hiệu rõ nhất rằng đường tín hiệu vẫn thông và vấn đề nằm sâu hơn.
+
+    ## Nút chạy khẩn cấp: vừa là lối thoát, vừa là phép chẩn đoán
+
+    Phần lớn máy lạnh có một nút nhỏ giấu dưới nắp dàn lạnh, thường ghi Emergency, Test hoặc Manual. Nhấn nút đó, máy chạy ở chế độ mặc định mà **không** đi qua đường tín hiệu hồng ngoại.
+
+    Kết quả nói lên nhiều điều:
+
+    - **Máy chạy bình thường** — phần lạnh còn tốt, vấn đề nằm ở remote hoặc ở mạch nhận tín hiệu.
+    - **Máy không chạy** — vấn đề không liên quan tới remote chút nào, mà ở nguồn điện hoặc ở máy.
+
+    Ngắt CB trước khi mở nắp dàn lạnh để tìm nút này.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt CB, mở nắp dàn lạnh và chỉ vào nút chạy khẩn cấp nhỏ bên trong -->
+
+    ## Khi nào cần kỹ thuật viên?
+
+    - Remote còn phát, đã lau mắt nhận và loại trừ nhiễu, mà máy vẫn không nhận.
+    - Máy có bíp nhận lệnh nhưng không thực hiện.
+    - Nút chạy khẩn cấp cũng không làm máy chạy.
+    - Máy nhận lệnh chập chờn, lúc được lúc không.
+
+    Trường hợp cuối thường liên quan tới bo mạch nhận tín hiệu, và nó có xu hướng nặng dần.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh kiểm tra bo mạch nhận tín hiệu của dàn lạnh tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Ba thông tin đủ để định hướng: kết quả phép thử camera, máy có bíp khi bấm remote không, và nút chạy khẩn cấp có làm máy chạy không. Kèm model máy ghi trên tem ở hông dàn lạnh. Kỹ thuật viên Ficool tại TP.HCM sẽ nói ngay trường hợp của bạn cần thay remote hay cần kiểm tra bo mạch, thay vì để bạn mua remote mới rồi phát hiện không phải nguyên nhân.
+
+    Nếu máy nhận lệnh bình thường nhưng chạy một lúc rồi ngắt, đó là chuyện khác, xem <!-- INTERNAL: máy lạnh tự tắt liên tục | /may-lanh-tu-tat/ -->. Còn nếu bạn đang định gọi thợ và muốn biết một lần kiểm tra gồm những gì, đọc <!-- INTERNAL: giá vệ sinh máy lạnh gồm những gì | /gia-ve-sinh-may-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Làm sao biết remote máy lạnh còn phát tín hiệu?
+
+    Hướng đầu phát của remote vào camera trước của điện thoại, cách khoảng một gang tay, rồi bấm giữ một phím. Nếu màn hình điện thoại hiện chấm sáng tím hoặc trắng nhấp nháy, remote còn phát. Nếu không thấy gì, hãy thay pin rồi thử lại trước khi kết luận remote hỏng.
+
+    ### Máy lạnh có tiếng bíp nhưng không chạy là lỗi gì?
+
+    Tiếng bíp nghĩa là máy đã nhận được lệnh, nên remote và mắt nhận đều hoạt động. Vấn đề nằm ở phần thực thi: nguồn điện, bo mạch điều khiển, hoặc bảo vệ đang chặn. Đây là trường hợp cần kỹ thuật viên chứ không phải thay remote.
+
+    ### Có thể dùng remote đa năng thay cho remote gốc không?
+
+    Được trong nhiều trường hợp, nhưng remote đa năng thường chỉ hỗ trợ các lệnh cơ bản. Các chế độ riêng của từng hãng có thể không dùng được. Nếu máy còn bảo hành, nên hỏi hãng về remote thay thế đúng model trước.
+
+    ### Nút chạy khẩn cấp trên máy lạnh nằm ở đâu?
+
+    Thường nằm dưới nắp dàn lạnh, gần khu vực lưới lọc, và ghi Emergency, Test hoặc Manual. Hãy ngắt CB trước khi mở nắp. Nút này cho máy chạy ở chế độ mặc định, hữu ích cả khi mất remote lẫn khi cần xác định lỗi nằm ở đâu.
+
+    ### Ficool có kiểm tra lỗi remote và bo mạch tại TP.HCM không?
+
+    Có. Bạn gửi kết quả phép thử camera, cho biết máy có bíp không và nút khẩn cấp có chạy không, kèm model máy. Kỹ thuật viên Ficool sẽ định hướng trước khi tới, để bạn không phải mua remote mới một cách không cần thiết. Chi phí phụ thuộc tình trạng thực tế và được thống nhất trước.
+  seo:
+    tieu_de: Remote máy lạnh không điều khiển được, kiểm tra thế nào
+    mo_ta: >-
+      Soi remote bằng camera điện thoại để biết lỗi ở remote hay ở máy. Cách xử
+      lý từng trường hợp và cách dùng nút chạy khẩn cấp để chẩn đoán.
+    slug: remote-may-lanh-khong-dieu-khien-duoc
+    tu_khoa_phu:
+    - remote máy lạnh không nhận
+    - điều khiển máy lạnh bị hỏng
+    - máy lạnh không nhận remote

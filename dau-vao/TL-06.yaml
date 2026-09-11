@@ -1,0 +1,137 @@
+chu_de:
+  id: TL-06
+  tieu_de: 'Tủ lạnh chạy liên tục không ngắt: Nguyên nhân và khi nào cần gọi thợ'
+  tu_khoa_chinh: tủ lạnh chạy liên tục
+  chuyen_muc: Tủ lạnh
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Tủ lạnh chạy liên tục không ngắt cần được đánh giá cùng với một câu hỏi thứ
+    hai: tủ có đủ lạnh không. Hai câu trả lời kết hợp lại cho ra hai tình huống
+    rất khác nhau. Nếu tủ chạy liên tục mà vẫn đủ lạnh, nguyên nhân thường thuộc
+    nhóm tải nhiệt: nhiệt độ phòng cao, tủ mới cắm điện hoặc mới nạp đầy thực
+    phẩm, cửa mở nhiều lần, đặt đồ nóng vào tủ, nhiệt độ cài đặt quá thấp so với
+    nhu cầu, hoặc dàn nóng không thải được nhiệt do bám bụi hay do tủ kê sát
+    tường. Nếu tủ chạy liên tục mà không đủ lạnh, nguyên nhân nghiêng về nhóm
+    hệ thống: thiếu môi chất lạnh do rò rỉ, dàn lạnh bám tuyết dày chặn dòng
+    khí, quạt hỏng, hoặc block yếu không đạt năng suất. Một điểm quan trọng về
+    máy biến tần: tủ lạnh dùng block biến tần được thiết kế để chạy gần như liên
+    tục ở công suất thấp thay vì bật tắt theo chu kỳ, nên với loại tủ này việc
+    block chạy dài không phải dấu hiệu bất thường; điều cần nhìn là tủ có đủ
+    lạnh và tiêu thụ điện có tăng bất thường không. Về gioăng cửa, một khe hở
+    nhỏ khiến hơi ẩm và nhiệt vào liên tục, buộc block chạy nhiều hơn; kiểm bằng
+    phép thử tờ giấy. Về tần suất xả tuyết, bộ xả tuyết hỏng làm tuyết dày lên
+    và cản dòng khí, khiến tủ vừa chạy nhiều vừa lạnh kém. Tiêu thụ điện tăng
+    dần theo tháng là chỉ dấu gián tiếp đáng tin của nhóm nguyên nhân này.
+  nguon:
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Tủ lạnh chạy liên tục không ngắt: Nguyên nhân và khi nào cần gọi thợ
+
+    Câu hỏi thứ hai quyết định mọi thứ: tủ chạy liên tục mà **có đủ lạnh không?** Chạy nhiều nhưng vẫn đủ lạnh thường là chuyện tải nhiệt, xử lý được. Chạy nhiều mà vẫn không đủ lạnh mới là chuyện hệ thống, và cần thợ.
+
+    <!-- IMAGE: IMG-001 | Người dùng cầm nhiệt kế cầm tay đặt trong ngăn mát tủ lạnh để đo nhiệt độ thực tế -->
+
+    ## Trước hết: tủ nhà bạn dùng block gì?
+
+    Tủ lạnh dùng block **biến tần** được thiết kế để chạy gần như liên tục ở công suất thấp, thay vì bật tắt theo chu kỳ. Với loại tủ này, việc block chạy dài **không phải** dấu hiệu bất thường.
+
+    Điều cần nhìn thay vào đó là hai thứ: tủ có đủ lạnh không, và tiền điện có tăng bất thường không.
+
+    Tem thông số trong khoang hoặc sau lưng tủ thường ghi rõ loại block. Nếu không chắc, hãy nói model khi hỏi kỹ thuật viên.
+
+    ## Hai tình huống, hai hướng xử lý
+
+    | Tình huống | Nghiêng về | Ai xử lý |
+    |---|---|---|
+    | Chạy liên tục, **vẫn đủ lạnh** | Tải nhiệt: phòng nóng, cửa mở nhiều, dàn nóng bám bụi, cài quá thấp | Bạn |
+    | Chạy liên tục, **không đủ lạnh** | Hệ thống: thiếu môi chất, dàn bám tuyết, quạt hỏng, block yếu | Kỹ thuật viên |
+
+    Cách xác định "đủ lạnh": đặt một nhiệt kế cầm tay vào ngăn mát, đóng cửa, chờ vài giờ rồi đọc. Cảm giác bằng tay không đủ tin cậy.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh mặt sau tủ lạnh kê sát tường, dàn nóng bám bụi dày và không có khoảng hở tản nhiệt -->
+
+    ## Nhóm tải nhiệt: sáu thứ bạn kiểm được
+
+    1. **Nhiệt độ phòng.** Bếp nóng vào buổi trưa làm tủ phải chạy nhiều hơn.
+    2. **Tủ mới cắm điện hoặc mới nạp đầy.** Chạy liên tục vài giờ đầu là bình thường.
+    3. **Cửa mở nhiều lần hoặc mở lâu.** Mỗi lần mở là một lượng nhiệt và hơi ẩm đi vào.
+    4. **Đồ nóng đặt vào tủ.** Hãy để nguội trước.
+    5. **Nhiệt độ cài đặt quá thấp.** Đặt lạnh hơn mức cần không bảo quản tốt hơn, chỉ tốn điện hơn.
+    6. **Dàn nóng bám bụi hoặc tủ kê sát tường.** Nhiệt không thoát được thì block phải chạy mãi.
+
+    Điểm 6 là nguyên nhân phổ biến nhất của kiểu "tủ chạy nhiều dần lên theo năm tháng" mà không có sự cố rõ ràng nào.
+
+    ## Gioăng cửa: một khe hở nhỏ, hậu quả liên tục
+
+    Gioăng hở khiến hơi ẩm và nhiệt vào tủ suốt ngày đêm, và block phải bù lại. Đây là nguyên nhân âm thầm và rất hay bị bỏ qua.
+
+    Kiểm bằng **phép thử tờ giấy**: kẹp một tờ giấy vào mép cửa, đóng lại, rồi kéo tờ giấy ra. Rút ra dễ dàng nghĩa là chỗ đó không còn kín. Lặp lại ở nhiều điểm quanh cửa.
+
+    Gioăng chai thay riêng được, không cần thay tủ.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, dùng chổi mềm vệ sinh dàn nóng phía sau tủ lạnh đã kéo ra khỏi tường -->
+
+    ## Chỉ dấu gián tiếp: tiền điện
+
+    Tiêu thụ điện tăng dần qua các tháng, trong khi thói quen sử dụng không đổi, là chỉ dấu đáng tin của nhóm nguyên nhân này.
+
+    Nó xuất hiện trước khi bạn cảm nhận được tủ kém lạnh, nên nếu để ý sớm thì xử lý cũng sớm và rẻ hơn.
+
+    ## Khi nào cần kỹ thuật viên?
+
+    - Chạy liên tục **và** không đủ lạnh.
+    - Đã vệ sinh dàn nóng, chừa khoảng thoáng, kiểm gioăng mà vẫn chạy liên tục.
+    - Có tuyết bám dày bất thường trong ngăn đá.
+    - Nghe tiếng lạ hoặc có mùi khét.
+    - Tiền điện tăng rõ rệt mà thói quen không đổi.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh dùng ampe kìm đo dòng tiêu thụ của block máy nén phía sau tủ lạnh -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: model tủ, block thường hay biến tần nếu bạn biết, nhiệt độ thực đo được trong ngăn mát, và tình trạng bắt đầu từ khi nào. Kỹ thuật viên Ficool tại TP.HCM sẽ định hướng dựa trên đó. Riêng con số nhiệt độ đo được thường quyết định luôn hướng xử lý.
+
+    Nếu tủ chạy liên tục kèm lạnh yếu, đọc thêm <!-- INTERNAL: tủ lạnh không lạnh | /tu-lanh-khong-lanh/ -->. Nếu có tuyết bám dày, xem <!-- INTERNAL: tủ lạnh đóng tuyết | /tu-lanh-dong-tuyet/ -->. Sau khi kỹ thuật viên xử lý xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu tủ lạnh | /checklist-nghiem-thu-tu-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Tủ lạnh chạy liên tục có tốn điện không?
+
+    Có, nếu nguyên nhân là tải nhiệt hoặc hệ thống có vấn đề. Nhưng với tủ dùng block biến tần thì chạy liên tục ở công suất thấp lại là cách vận hành theo thiết kế và thường tiết kiệm hơn kiểu bật tắt. Điều cần nhìn là tủ có đủ lạnh và tiền điện có tăng bất thường không.
+
+    ### Tủ lạnh mới mua chạy liên tục có sao không?
+
+    Không sao trong vài giờ đầu. Tủ cần thời gian hạ nhiệt độ toàn bộ khoang xuống mức cài đặt, và trong giai đoạn đó block chạy gần như không nghỉ. Điều tương tự xảy ra sau khi bạn nạp đầy thực phẩm cùng lúc.
+
+    ### Làm sao đo được tủ lạnh có đủ lạnh không?
+
+    Đặt một nhiệt kế cầm tay vào giữa ngăn mát, đóng cửa và chờ vài giờ rồi đọc. Cảm giác bằng tay không đủ tin cậy vì nó phụ thuộc nhiệt độ tay bạn. Con số đo được là thông tin có giá trị nhất khi mô tả cho kỹ thuật viên.
+
+    ### Cài nhiệt độ thấp nhất có bảo quản tốt hơn không?
+
+    Không. Đặt lạnh hơn mức cần không làm thực phẩm bảo quản tốt hơn, chỉ khiến block chạy nhiều hơn và tốn điện hơn. Với ngăn mát, nên đặt ở mức trung bình rồi điều chỉnh theo lượng thực phẩm thực tế.
+
+    ### Ficool có kiểm tra tủ lạnh chạy liên tục tại TP.HCM không?
+
+    Có. Bạn gửi model, nhiệt độ thực đo được trong ngăn mát và tình trạng bắt đầu từ khi nào. Kỹ thuật viên Ficool sẽ định hướng xem nghiêng về tải nhiệt hay hệ thống. Chi phí phụ thuộc nguyên nhân và tình trạng thực tế, được thống nhất trước khi làm.
+  seo:
+    tieu_de: Tủ lạnh chạy liên tục không ngắt, nguyên nhân là gì?
+    mo_ta: >-
+      Chạy nhiều mà vẫn đủ lạnh là chuyện tải nhiệt. Chạy nhiều mà không đủ lạnh
+      là chuyện hệ thống. Cách phân biệt và sáu điểm bạn tự kiểm.
+    slug: tu-lanh-chay-lien-tuc
+    tu_khoa_phu:
+    - tủ lạnh không ngắt block
+    - tủ lạnh chạy suốt ngày
+    - tủ lạnh tốn điện

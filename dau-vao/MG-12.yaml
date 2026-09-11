@@ -1,0 +1,173 @@
+chu_de:
+  id: MG-12
+  tieu_de: 'Bảo trì máy giặt cho gia đình, homestay và cơ sở lưu trú: Những gì cần kiểm tra'
+  tu_khoa_chinh: bảo trì máy giặt
+  chuyen_muc: Máy giặt
+  the:
+  - Bảo trì
+  giai_doan_phieu: F2
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Bảo trì máy giặt là một lượt kiểm tra có danh sách hạng mục, khác với vệ
+    sinh vốn tập trung vào làm sạch. Các hạng mục cốt lõi trải trên ba hệ thống
+    của máy. Hệ cấp nước gồm ống cấp, van khoá và lưới lọc ở đầu vào; ống cấp
+    là bộ phận đáng chú ý vì nó chịu áp lực nước liên tục kể cả khi máy không
+    chạy, nên một ống nứt hoặc một đầu nối lỏng có thể gây ngập trong lúc không
+    ai ở nhà, và đây là lý do nhiều hướng dẫn khuyến cáo khoá van cấp khi đi
+    vắng dài ngày. Hệ thoát nước gồm bộ lọc xơ vải, bơm xả, ống xả và độ cao lắp
+    đặt của ống xả. Hệ cơ khí và điện gồm chân đế cùng độ cân bằng, gioăng cửa,
+    tình trạng lồng, dây điện và ổ cắm. Với hộ gia đình, tần suất giặt thấp nên
+    chu kỳ bảo trì có thể thưa; với homestay, nhà cho thuê và cơ sở lưu trú, máy
+    chạy nhiều lượt mỗi ngày, người dùng thay đổi liên tục nên khó kiểm soát
+    việc dùng đúng liều nước giặt và việc lấy vật lạ khỏi túi áo, và hậu quả của
+    một lần hỏng lớn hơn vì nó ảnh hưởng tới khách. Do đó nhóm này cần chu kỳ
+    dày hơn và cần một quy trình kiểm nhanh giữa các kỳ. Về ghi chép, việc lưu
+    ngày thực hiện và hạng mục đã làm cho phép so sánh giữa các kỳ và phát hiện
+    xu hướng, chẳng hạn mức rung tăng dần hoặc thời gian một chu trình dài ra.
+  nguon:
+  - url: https://www.energystar.gov/products/clothes_washers
+    title: ENERGY STAR — Clothes Washers
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ sản phẩm
+  - url: https://www.epa.gov/mold/mold-course-chapter-2
+    title: US EPA — Mold Course, Chapter 2
+  serp: []
+
+bai_viet:
+  than: |
+    # Bảo trì máy giặt cho gia đình, homestay và cơ sở lưu trú: Những gì cần kiểm tra
+
+    Bảo trì không phải vệ sinh. Vệ sinh là **làm sạch**; bảo trì là một lượt **kiểm tra có danh sách**, trải trên ba hệ thống của máy: cấp nước, thoát nước, và phần cơ khí cùng điện.
+
+    <!-- IMAGE: IMG-001 | Kỹ thuật viên và chủ homestay đứng trong phòng giặt, cùng xem phiếu kiểm tra bên cạnh hai máy giặt cửa trước -->
+
+    ## Checklist — mười hai hạng mục
+
+    **Hệ cấp nước**
+
+    | # | Hạng mục | Đạt khi |
+    |---|---|---|
+    | 1 | Ống cấp nước | Không nứt, không phồng, đầu nối chặt |
+    | 2 | Van khoá cấp nước | Đóng mở được, không rò |
+    | 3 | Lưới lọc đầu vào | Sạch cặn và mạt rỉ |
+
+    **Hệ thoát nước**
+
+    | # | Hạng mục | Đạt khi |
+    |---|---|---|
+    | 4 | Bộ lọc xơ vải | Sạch, nắp vặn chặt, không rò |
+    | 5 | Ống xả | Không gập, không tuột, đầu ra thông |
+    | 6 | Độ cao lắp ống xả | Đúng theo hướng dẫn của máy |
+    | 7 | Bơm xả | Xả hết nước trong thời gian bình thường |
+
+    **Cơ khí và điện**
+
+    | # | Hạng mục | Đạt khi |
+    |---|---|---|
+    | 8 | Chân đế, độ cân | Không bập bênh khi đẩy chéo bốn góc |
+    | 9 | Gioăng cửa | Sạch nếp, còn đàn hồi, không rách |
+    | 10 | Lồng giặt | Không vật lạ, quay êm |
+    | 11 | Dây điện và ổ cắm | Không nứt vỏ, không dấu hiệu phát nhiệt |
+    | 12 | Mức rung và thời gian chu trình | Không đổi so với kỳ trước |
+
+    Dòng 12 chỉ có ý nghĩa khi **có ghi chép của kỳ trước** để so.
+
+    ## Ống cấp nước đáng được ưu tiên nhất
+
+    Ống cấp nước chịu **áp lực nước liên tục**, kể cả khi máy không chạy. Một ống nứt hoặc một đầu nối lỏng có thể gây ngập trong lúc không có ai ở nhà.
+
+    Đó là lý do nhiều hướng dẫn khuyên **khoá van cấp khi đi vắng dài ngày** — và với nhà cho thuê hoặc homestay thì đây là thói quen nên đưa vào quy trình bàn giao.
+
+    Dấu hiệu cần thay ống: vỏ nứt, chỗ nối phồng, có vệt ẩm quanh ren, hoặc ống đã dùng nhiều năm mà chưa từng kiểm.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh ống cấp nước phía sau máy giặt, vỏ ống nứt nhẹ và quanh đầu nối có vệt ẩm -->
+
+    ## Gia đình và cơ sở lưu trú khác nhau ở ba chỗ
+
+    | | Hộ gia đình | Homestay, nhà cho thuê, cơ sở lưu trú |
+    |---|---|---|
+    | Số lượt giặt | Ít, theo thói quen cố định | Nhiều lượt mỗi ngày |
+    | Người dùng | Cố định, biết cách dùng | **Thay đổi liên tục** |
+    | Hậu quả khi hỏng | Bất tiện | Ảnh hưởng tới khách |
+
+    Dòng giữa là dòng tạo ra khác biệt lớn nhất, và nó đẻ ra hai vấn đề đặc thù:
+
+    - **Không kiểm soát được liều nước giặt.** Người dùng đổ theo cảm tính, và phần dư đọng thành cặn.
+    - **Không kiểm soát được vật lạ trong túi áo.** Đồng xu, kẹp tóc, chìa khoá đi thẳng vào bộ lọc hoặc vào khe lồng.
+
+    Cả hai đều làm chu kỳ bảo trì phải dày hơn, và đều giảm được bằng một bảng hướng dẫn ngắn dán cạnh máy.
+
+    ## Quy trình kiểm nhanh giữa các kỳ
+
+    Với cơ sở lưu trú, năm việc này làm được trong vài phút:
+
+    1. Nhìn **sàn quanh máy** có vệt ẩm không.
+    2. Lật nhanh **nếp gioăng**, lau khô.
+    3. Kiểm **bộ lọc xơ vải** sau các đợt khách đông.
+    4. Nghe **mức rung** khi máy vắt, so với cảm nhận thường ngày.
+    5. **Để cửa hé mở** sau lượt giặt cuối trong ngày.
+
+    Việc thứ nhất là việc phát hiện rò sớm nhất, và nó không tốn gì ngoài một cái nhìn.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, kéo máy giặt ra và kiểm tra ống cấp, ống xả cùng đầu nối phía sau -->
+
+    ## Ghi chép
+
+    Một lượt kiểm đơn lẻ cho biết **hiện trạng**. So được giữa các kỳ mới thấy **xu hướng**:
+
+    - Ngày thực hiện và hạng mục đã làm.
+    - Linh kiện đã thay, nếu có.
+    - Mức rung khi vắt.
+    - Thời gian một chu trình chuẩn.
+
+    Hai mục cuối là thứ phát hiện hao mòn sớm nhất: rung tăng dần và chu trình dài ra đều là dấu hiệu, và cả hai chỉ nhận ra được khi có số của kỳ trước.
+
+    ## Khi nào cần gọi sớm hơn lịch
+
+    - Có **vệt ẩm** trên sàn quanh máy.
+    - **Rung mạnh hơn** hẳn khi vắt.
+    - Máy **xả chậm** hoặc còn đọng nước.
+    - Có **mùi** không hết sau khi đã lau gioăng và ngăn chứa.
+    - **Aptomat nhảy**, hoặc ổ cắm ấm bất thường — trường hợp này rút điện trước rồi mới gọi.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh ghi hạng mục đã kiểm vào phiếu bảo trì tại phòng giặt của cơ sở lưu trú -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: số máy và số lượt giặt mỗi ngày, máy cửa trước hay cửa trên, lần bảo trì gần nhất, và các bất thường đang thấy. Ficool tại TP.HCM sẽ đề xuất chu kỳ phù hợp với mức sử dụng thay vì một con số dùng chung, và bàn giao phiếu ghi rõ hạng mục đã kiểm để bạn có căn cứ so ở kỳ sau. Với homestay và cơ sở lưu trú, hãy nói khung giờ ít khách để bố trí lịch.
+
+    Về phần tự làm được, đọc <!-- INTERNAL: vệ sinh bộ lọc máy giặt | /ve-sinh-bo-loc-may-giat/ -->. Muốn biết bao lâu nên vệ sinh một lần, xem <!-- INTERNAL: bao lâu vệ sinh máy giặt | /bao-lau-ve-sinh-may-giat/ -->. Sau khi làm xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu máy giặt | /checklist-nghiem-thu-may-giat/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Bảo trì máy giặt gồm những hạng mục nào?
+
+    Mười hai hạng mục trải trên ba hệ thống: cấp nước gồm ống cấp, van khoá và lưới lọc đầu vào; thoát nước gồm bộ lọc xơ vải, ống xả, độ cao lắp ống xả và bơm xả; cơ khí cùng điện gồm chân đế và độ cân, gioăng cửa, lồng giặt, dây điện với ổ cắm, và mức rung cùng thời gian chu trình so với kỳ trước.
+
+    ### Vì sao ống cấp nước máy giặt cần kiểm kỹ?
+
+    Vì nó chịu áp lực nước liên tục kể cả khi máy không chạy, nên một ống nứt hoặc đầu nối lỏng có thể gây ngập trong lúc không có ai ở nhà. Đó cũng là lý do nên khoá van cấp khi đi vắng dài ngày, nhất là với nhà cho thuê và homestay.
+
+    ### Homestay có cần bảo trì máy giặt dày hơn nhà ở không?
+
+    Có, vì ba lý do: số lượt giặt nhiều hơn hẳn, người dùng thay đổi liên tục nên không kiểm soát được liều nước giặt và vật lạ trong túi áo, và hậu quả của một lần hỏng lớn hơn vì ảnh hưởng tới khách. Nhóm này nên có thêm quy trình kiểm nhanh giữa các kỳ.
+
+    ### Dấu hiệu nào cho thấy cần gọi thợ sớm hơn lịch?
+
+    Có vệt ẩm trên sàn quanh máy, rung mạnh hơn hẳn khi vắt, máy xả chậm hoặc còn đọng nước, mùi không hết sau khi đã lau gioăng và ngăn chứa. Riêng aptomat nhảy hoặc ổ cắm ấm bất thường thì rút điện trước rồi mới gọi.
+
+    ### Ficool có nhận bảo trì máy giặt định kỳ tại TP.HCM không?
+
+    Có. Bạn gửi số máy, số lượt giặt mỗi ngày, loại máy, lần bảo trì gần nhất và các bất thường đang thấy. Ficool sẽ đề xuất chu kỳ phù hợp với mức sử dụng, bàn giao phiếu ghi rõ hạng mục đã kiểm, và thống nhất chi phí trước khi làm.
+  seo:
+    tieu_de: Bảo trì máy giặt gồm những hạng mục nào?
+    mo_ta: >-
+      Checklist mười hai hạng mục trên ba hệ thống, vì sao ống cấp nước đáng ưu
+      tiên nhất, và quy trình kiểm nhanh cho cơ sở lưu trú.
+    slug: bao-tri-may-giat
+    tu_khoa_phu:
+    - bảo dưỡng máy giặt
+    - bảo trì máy giặt định kỳ
+    - checklist bảo trì máy giặt

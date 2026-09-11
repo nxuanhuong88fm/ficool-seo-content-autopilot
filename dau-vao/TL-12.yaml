@@ -1,0 +1,148 @@
+chu_de:
+  id: TL-12
+  tieu_de: 'Vị trí đặt tủ lạnh: Khoảng thoáng, nguồn điện và những nơi cần tránh'
+  tu_khoa_chinh: vị trí đặt tủ lạnh
+  chuyen_muc: Tủ lạnh
+  the:
+  - Lắp đặt
+  giai_doan_phieu: F4
+  loai_noi_dung: how_to
+
+nghien_cuu:
+  van_ban: >-
+    Vị trí đặt tủ lạnh ảnh hưởng trực tiếp tới hiệu suất, tiền điện và tuổi thọ
+    block, nhưng thường được chọn theo chỗ nào còn trống trong bếp. Yêu cầu quan
+    trọng nhất là khoảng thoáng để thải nhiệt: tủ lạnh đẩy nhiệt ra qua dàn ngưng
+    ở lưng hoặc qua thành hông, và cần khoảng hở ở lưng, hai bên và phía trên
+    theo hướng dẫn của nhà sản xuất; kê sát tường hoặc nhét vào hốc kín khiến
+    nhiệt quẩn tại chỗ, block phải chạy nhiều hơn mà tủ vẫn không đủ lạnh. Nhóm
+    nơi cần tránh gồm: cạnh bếp nấu, lò nướng hoặc lò vi sóng vì nhiệt từ các
+    thiết bị đó làm tăng tải; nơi có nắng chiếu trực tiếp qua cửa sổ; sát máy
+    giặt hoặc máy sấy vì rung và nhiệt; nơi ẩm thấp không thông thoáng vì gây
+    ăn mòn và đọng sương mặt ngoài; và ngoài trời hoặc nơi nhiệt độ môi trường
+    vượt khoảng làm việc mà nhà sản xuất quy định. Về mặt sàn, tủ cần đặt trên
+    mặt phẳng và đủ cứng; sàn không phẳng khiến cửa không tự đóng và gioăng
+    không áp đều, còn sàn mềm làm tủ nghiêng dần theo thời gian. Về nguồn điện,
+    tủ lạnh nên có ổ cắm riêng có tiếp địa, không dùng chung ổ với thiết bị công
+    suất lớn, và không dùng dây nối dài kém chất lượng; nhiều nhà sản xuất cũng
+    khuyến cáo không cắm tủ lạnh qua ổ có công tắc dễ bị tắt nhầm. Về khoảng
+    trống mở cửa, cần đủ để cửa mở tới góc cho phép rút được khay và ngăn kéo
+    ra hoàn toàn, nếu không việc vệ sinh định kỳ sẽ bị bỏ qua.
+  nguon:
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Vị trí đặt tủ lạnh: Khoảng thoáng, nguồn điện và những nơi cần tránh
+
+    Yêu cầu quan trọng nhất là khoảng thoáng để thải nhiệt. Tủ lạnh đẩy nhiệt ra qua dàn ngưng ở lưng hoặc qua thành hông; kê sát tường hay nhét vào hốc kín khiến nhiệt quẩn tại chỗ, block chạy nhiều hơn mà tủ vẫn không đủ lạnh.
+
+    <!-- IMAGE: IMG-001 | Kỹ thuật viên dùng thước dây đo khoảng cách giữa lưng tủ lạnh và bức tường trong bếp -->
+
+    ## Khoảng thoáng: yêu cầu số một
+
+    Tủ lạnh cần khoảng hở ở **ba phía**: lưng, hai bên và phía trên. Con số cụ thể do nhà sản xuất quy định cho từng model, nên hãy tra tài liệu đi kèm.
+
+    Nguyên tắc chung: không khí phải **lưu thông được** quanh tủ. Một chiếc tủ nhét khít vào hốc tủ bếp trông gọn gàng nhưng đang tự bóp khả năng thải nhiệt của chính nó.
+
+    Hệ quả của thiếu khoảng thoáng nối tiếp nhau:
+
+    - Nhiệt không thoát được → áp suất trong hệ thống tăng.
+    - Block chạy nhiều hơn → tiền điện tăng.
+    - Tủ vẫn không đủ lạnh dù block làm việc nhiều hơn.
+    - Hao mòn nhanh hơn.
+
+    ## Năm nơi cần tránh
+
+    | Nơi | Vì sao |
+    |---|---|
+    | Cạnh bếp nấu, lò nướng, lò vi sóng | Nhiệt từ thiết bị làm tăng tải cho tủ |
+    | Nắng chiếu trực tiếp qua cửa sổ | Nhiệt bức xạ vào vỏ tủ suốt buổi |
+    | Sát máy giặt hoặc máy sấy | Rung truyền sang, và nhiệt từ máy sấy |
+    | Nơi ẩm thấp, thiếu thông thoáng | Ăn mòn và đọng sương mặt ngoài |
+    | Ngoài trời hoặc nơi quá nóng | Vượt khoảng nhiệt độ làm việc của model |
+
+    Dòng cuối đáng lưu ý ở nhà phố TP.HCM: một góc sân sau có mái nhưng hầm nhiệt vào buổi trưa có thể vượt khoảng làm việc mà hãng quy định.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh tủ lạnh kê khít trong hốc tủ bếp, hai bên và phía trên không còn khoảng hở nào -->
+
+    ## Mặt sàn
+
+    Tủ cần đặt trên mặt **phẳng và đủ cứng**.
+
+    - **Sàn không phẳng** → cửa không tự đóng, gioăng không áp đều, hơi ẩm vào liên tục.
+    - **Sàn mềm** → tủ nghiêng dần theo thời gian, và bạn không nhận ra cho tới khi cửa bắt đầu hở.
+
+    Chân tủ thường chỉnh được. Sau khi đặt, đẩy nhẹ bốn góc để xác nhận không bập bênh, và thử đóng cửa xem cửa có tự khép lại không.
+
+    Một mẹo: chỉnh chân trước hơi cao hơn chân sau một chút giúp cửa tự đóng nhờ trọng lực. Đừng nghiêng quá, chỉ cần đủ để cửa không đứng yên ở nửa chừng.
+
+    ## Nguồn điện
+
+    - **Ổ cắm riêng, có tiếp địa.**
+    - Không dùng chung ổ với thiết bị công suất lớn.
+    - Không dùng dây nối dài kém chất lượng.
+    - Tránh ổ có công tắc dễ bị tắt nhầm — một lần tắt qua đêm là cả tủ thực phẩm.
+
+    ## Khoảng trống mở cửa: điều hay bị quên
+
+    Đây là yêu cầu ít ai nghĩ tới lúc chọn chỗ, và nó ảnh hưởng tới việc bảo trì về sau.
+
+    Cửa tủ cần mở được tới góc đủ rộng để **rút khay và ngăn kéo ra hoàn toàn**. Nếu cửa chỉ mở được nửa chừng vì vướng tường hoặc vướng tủ bếp, bạn sẽ không lấy được khay ra để vệ sinh, và việc vệ sinh định kỳ sẽ bị bỏ qua.
+
+    Hãy thử mở cửa hết cỡ và rút thử một khay ngay khi đặt tủ vào vị trí, trước khi cắm điện.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên mở hết cỡ cánh cửa tủ lạnh và rút một khay kính ra để kiểm tra khoảng trống thao tác -->
+
+    ## Checklist trước khi cắm điện
+
+    1. Khoảng hở lưng, hai bên và phía trên đạt theo hướng dẫn của hãng.
+    2. Không đặt cạnh nguồn nhiệt và không có nắng chiếu trực tiếp.
+    3. Mặt sàn phẳng, cứng; tủ không bập bênh.
+    4. Cửa tự khép lại khi buông tay.
+    5. Ổ cắm riêng, có tiếp địa, không qua công tắc dễ tắt nhầm.
+    6. Mở cửa hết cỡ và rút được khay ra hoàn toàn.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh chỉnh chân đế tủ lạnh bằng cờ lê, thước nivo đặt trên nóc tủ -->
+
+    ## Gửi gì cho Ficool?
+
+    Gửi ảnh khu vực dự kiến đặt tủ, chụp đủ rộng để thấy tường, tủ bếp liền kề, ổ cắm và nguồn nhiệt gần đó. Kèm kích thước tủ nếu đã chọn. Ficool tại TP.HCM sẽ đối chiếu với checklist ở trên và nêu các điều kiện cần chuẩn bị. Nếu cần di dời tủ đang dùng, hãy yêu cầu khảo sát trước.
+
+    Nếu chuẩn bị chuyển tủ tới vị trí mới, đọc <!-- INTERNAL: vận chuyển tủ lạnh | /van-chuyen-tu-lanh/ -->. Sau khi đặt xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu tủ lạnh | /checklist-nghiem-thu-tu-lanh/ -->. Nếu tủ nóng hai bên sau khi đặt vào hốc, xem <!-- INTERNAL: tủ lạnh nóng hai bên | /tu-lanh-nong-hai-ben/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Tủ lạnh cần cách tường bao nhiêu?
+
+    Con số cụ thể do nhà sản xuất quy định cho từng model, nên hãy tra tài liệu đi kèm. Nguyên tắc chung là không khí phải lưu thông được ở lưng, hai bên và phía trên. Kê sát tường khiến nhiệt quẩn tại chỗ và block phải chạy nhiều hơn.
+
+    ### Có được đặt tủ lạnh cạnh bếp nấu không?
+
+    Nên tránh. Nhiệt từ bếp nấu, lò nướng hoặc lò vi sóng làm tăng tải cho tủ, khiến block chạy nhiều hơn và tốn điện hơn. Nếu không tránh được hoàn toàn, hãy chừa khoảng cách lớn nhất có thể và bảo đảm khu vực thông thoáng.
+
+    ### Đặt tủ lạnh trong hốc tủ bếp có sao không?
+
+    Có, nếu hốc kín và không chừa khoảng hở. Tủ nhét khít trông gọn nhưng đang tự bóp khả năng thải nhiệt. Nếu buộc phải đặt trong hốc, cần chừa khe hở theo hướng dẫn của hãng ở cả ba phía và bảo đảm có đối lưu không khí.
+
+    ### Vì sao cửa tủ lạnh không tự đóng?
+
+    Thường do tủ kê không cân hoặc sàn không phẳng. Hãy chỉnh chân tủ sao cho chân trước hơi cao hơn chân sau một chút, đủ để cửa tự khép nhờ trọng lực. Nếu đã chỉnh mà cửa vẫn không khép, kiểm tiếp bản lề và gioăng.
+
+    ### Ficool có khảo sát vị trí đặt tủ lạnh tại TP.HCM không?
+
+    Có. Bạn gửi ảnh khu vực dự kiến, chụp đủ rộng để thấy tường, tủ bếp liền kề, ổ cắm và nguồn nhiệt gần đó, kèm kích thước tủ. Ficool sẽ đối chiếu với các yêu cầu kỹ thuật và nêu điều kiện cần chuẩn bị trước khi đặt hoặc di dời.
+  seo:
+    tieu_de: 'Vị trí đặt tủ lạnh: khoảng thoáng, nguồn điện, nơi cần tránh'
+    mo_ta: >-
+      Khoảng thoáng để thải nhiệt là yêu cầu số một. Năm nơi cần tránh, yêu cầu
+      về mặt sàn và nguồn điện, cùng checklist sáu điểm trước khi cắm điện.
+    slug: vi-tri-dat-tu-lanh
+    tu_khoa_phu:
+    - đặt tủ lạnh ở đâu
+    - khoảng cách tủ lạnh với tường
+    - lưu ý khi kê tủ lạnh
