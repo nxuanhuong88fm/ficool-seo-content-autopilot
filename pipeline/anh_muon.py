@@ -40,6 +40,17 @@ def chon(topic: dict) -> dict:
     """
     c = cau_hinh()
     bang = c['theo_trang_dich_vu']
+    ma = str(topic.get('id', ''))
+
+    # Tầng 0 — chỉ đích danh theo mã bài. Thắng cả hai tầng dưới, vì tầng 2 định
+    # tuyến theo TIỀN TỐ (dòng thiết bị) nên không phân biệt nổi tủ mát với tủ
+    # đông, hay bình chứa với máy nước nóng trực tiếp.
+    dv0 = (c.get('theo_bai') or {}).get(ma)
+    if dv0:
+        if dv0 not in bang:
+            raise KhongCoAnhMuon(
+                'theo_bai[%r] tro toi %r ma theo_trang_dich_vu khong co' % (ma, dv0))
+        return {**bang[dv0], 'nguon': 'theo_bai %s -> %s' % (ma, dv0)}
 
     # Tầng 1 — bản đồ funnel đã chỉ đích danh trang dịch vụ.
     dv = (topic.get('trang_dich_vu') or '').strip()

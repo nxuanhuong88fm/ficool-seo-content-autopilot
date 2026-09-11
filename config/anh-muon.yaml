@@ -28,6 +28,48 @@ theo_trang_dich_vu:
   /dich-vu/sua-may-nong-lanh/:        {anh: 418, og: 419}
   /dich-vu/sua-binh-nong-lanh/:       {anh: 420, og: 421}
 
+# ── Tầng 0: chỉ đích danh theo MÃ BÀI, thắng cả hai tầng dưới ────────────────
+#
+# VÌ SAO CẦN TẦNG NÀY. Tầng 2 định tuyến theo TIỀN TỐ mã bài, mà tiền tố là
+# DÒNG THIẾT BỊ chứ không phải THIẾT BỊ. Hệ quả đo được ngày 11/09: cả 18 bài
+# TD đi về `/dich-vu/sua-chua-tu-mat/` và cả 18 bài MN đi về
+# `/dich-vu/sua-binh-nong-lanh/`, nên ảnh 416 (tủ đông) và 418 (máy nước nóng
+# trực tiếp) nằm ở **0 lượt dùng** — và sẽ mãi ở 0. Không phải vì thiếu bài
+# hợp, mà vì bảng không có đường nào dẫn tới chúng (RULES A126).
+#
+# Trỏ tới TRANG DỊCH VỤ chứ không tới attachment id: id chỉ khai một chỗ duy
+# nhất là `theo_trang_dich_vu`. Hai bảng cùng giữ id là hai bản sao sẽ trôi.
+#
+# Chỉ liệt kê bài LỆCH khỏi mặc định của danh mục. Bài nói về cả hai thiết bị
+# (TD-11, TD-16, TD-18) giữ mặc định tủ mát.
+theo_bai:
+  # Tủ đông — tiêu đề nói đích danh tủ đông, không phải tủ mát.
+  TD-01: /dich-vu/sua-chua-tu-dong/    # tủ đông không đông đá
+  TD-02: /dich-vu/sua-chua-tu-dong/    # tủ đông đóng tuyết dày
+  TD-03: /dich-vu/sua-chua-tu-dong/    # cách xả tuyết tủ đông
+  TD-04: /dich-vu/sua-chua-tu-dong/    # tủ đông có mùi hôi
+  TD-05: /dich-vu/sua-chua-tu-dong/    # tủ đông chạy liên tục
+  TD-06: /dich-vu/sua-chua-tu-dong/    # tủ đông chảy nước
+  TD-07: /dich-vu/sua-chua-tu-dong/    # gioăng tủ đông bị hở
+  TD-12: /dich-vu/sua-chua-tu-dong/    # lắp đặt tủ đông
+  TD-13: /dich-vu/sua-chua-tu-dong/    # vận chuyển tủ đông
+  TD-14: /dich-vu/sua-chua-tu-dong/    # cách chỉnh nhiệt độ tủ đông
+  TD-17: /dich-vu/sua-chua-tu-dong/    # tủ đông đứng hay tủ đông nằm
+
+  # Máy nước nóng TRỰC TIẾP. Bảng giá của `/dich-vu/sua-may-nong-lanh/` ghi rõ
+  # thiết bị là "Máy nước nóng trực tiếp", và có dòng "Sửa hoặc thay bơm trợ
+  # lực" — chính là đề tài của MN-13.
+  MN-06: /dich-vu/sua-may-nong-lanh/   # ra nước yếu — chuyện lưu lượng
+  MN-07: /dich-vu/sua-may-nong-lanh/   # lưới lọc đầu vào, ngưỡng kích hoạt
+  MN-13: /dich-vu/sua-may-nong-lanh/   # bơm trợ lực
+
+  # Tháo dỡ – lắp đặt. Bản đồ funnel xếp ML-14 vào `/dich-vu/lap-moi-may-lanh/`,
+  # nhưng bài là "Tháo lắp, di dời máy lạnh khi chuyển nhà" và site có hẳn trang
+  # `/dich-vu/thao-do-lap-dat-may-lanh/` với ảnh tháo dàn lạnh để di dời.
+  # ⚠️ Tầng này CHỈ đổi ảnh. Link CTA vẫn lấy từ `trang_dich_vu` của bản đồ, nên
+  # bản đồ funnel không bị tầng này sửa sau lưng.
+  ML-14: /dich-vu/thao-do-lap-dat-may-lanh/
+
 # ── Tầng 2: 41 bài không có `trang_dich_vu` thì theo danh mục ────────────────
 # Thiếu bao nhiêu: MG 2 · TL 2 · TD 8 · MN 11 · TK 18.
 #

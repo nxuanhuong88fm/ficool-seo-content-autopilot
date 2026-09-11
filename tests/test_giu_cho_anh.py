@@ -258,3 +258,55 @@ def test_css_giu_cho_dung_selector_nhan_doi_va_token_da_duyet():
     doan = css[i:i + 1200]
     assert '.ficool-anh-giu-cho.ficool-anh-giu-cho' in doan
     assert not re.search(r'#[0-9a-fA-F]{3,8}\b', doan), 'de ma mau tho, phai dung token'
+
+
+# ── tầng 0: chỉ đích danh theo mã bài (11/09) ───────────────────────────────
+#
+# Tầng 2 định tuyến theo TIỀN TỐ mã bài, mà tiền tố là DÒNG thiết bị chứ không
+# phải THIẾT BỊ. Nên 18 bài TD đều về ảnh tủ mát và 18 bài MN đều về ảnh bình
+# chứa, để hai ảnh 416 và 418 nằm ở 0 lượt dùng (RULES A126).
+def test_theo_bai_doi_duoc_anh_ma_ban_do_funnel_chi_sai_thiet_bi():
+    """TD-01 ("tủ đông không đông đá") được bản đồ funnel xếp vào trang tủ MÁT,
+    nên tầng 1 cho nó ảnh tủ mát. Đây là chỗ tầng 0 phải thắng."""
+    t = TopicSelector().by_id('TD-01')
+    assert t['trang_dich_vu'] == '/dich-vu/sua-chua-tu-mat/'
+    bang = anh_muon.cau_hinh()['theo_trang_dich_vu']
+    m = anh_muon.chon(t)
+    assert m['anh'] == bang['/dich-vu/sua-chua-tu-dong/']['anh']
+    assert m['anh'] != bang['/dich-vu/sua-chua-tu-mat/']['anh']
+    assert m['nguon'].startswith('theo_bai')
+
+
+def test_theo_bai_thang_ca_tang_trang_dich_vu():
+    """Bẻ đỏ bằng cách đặt tầng 0 SAU tầng 1: ML-14 có `trang_dich_vu` trong bản
+    đồ nên tầng 1 sẽ nuốt mất nó."""
+    t = TopicSelector().by_id('ML-14')
+    assert (t.get('trang_dich_vu') or '').strip(), 'ML-14 phai co trang_dich_vu'
+    thao_do = anh_muon.cau_hinh()['theo_trang_dich_vu']['/dich-vu/thao-do-lap-dat-may-lanh/']
+    assert anh_muon.chon(t)['anh'] == thao_do['anh']
+
+
+def test_bai_ngoai_bang_khong_bi_dong_vao():
+    t = TopicSelector().by_id('TD-08')          # tủ mát, giữ mặc định
+    tu_mat = anh_muon.cau_hinh()['theo_trang_dich_vu']['/dich-vu/sua-chua-tu-mat/']
+    assert anh_muon.chon(t)['anh'] == tu_mat['anh']
+
+
+def test_moi_dich_trong_theo_bai_deu_co_trong_bang_anh():
+    c = anh_muon.cau_hinh()
+    for ma, dv in (c.get('theo_bai') or {}).items():
+        assert dv in c['theo_trang_dich_vu'], '%s tro toi %s khong co trong bang' % (ma, dv)
+
+
+def test_moi_ma_trong_theo_bai_deu_la_chu_de_that():
+    ts = TopicSelector()
+    for ma in (anh_muon.cau_hinh().get('theo_bai') or {}):
+        assert ts.by_id(ma), 'theo_bai co ma la: %s' % ma
+
+
+def test_khong_con_anh_trang_nao_o_0_luot_dung():
+    """Phép đo đã mở ra tầng 0. Ảnh 416 (tủ đông), 418 (máy trực tiếp) và 400
+    (tháo dỡ di dời) từng ở 0 lượt trong khi vẫn có bài hợp với chúng."""
+    dung = {anh_muon.chon(t)['anh'] for t in TopicSelector().all()}
+    moi = {v['anh'] for v in anh_muon.cau_hinh()['theo_trang_dich_vu'].values()}
+    assert moi - dung == set(), 'con anh o 0 luot: %s' % sorted(moi - dung)
