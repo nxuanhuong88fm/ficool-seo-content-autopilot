@@ -100,3 +100,26 @@ def test_featured_khac_og():
 def test_moi_anh_than_du_bon_truong(truong):
     for ma, v in doc_cau_hinh()['ML-02']['than'].items():
         assert truong in v, '%s thieu %s' % (ma, truong)
+
+
+# ── ảnh thật thắng ảnh mượn (11/09) ─────────────────────────────────────────
+def test_bai_co_anh_that_thi_khong_muon_anh():
+    """Lỗi thật ngày 11/09: một lượt nắn ảnh mượn hàng loạt ghi đè ảnh đại diện
+    của post 383 bằng ảnh mượn. Không cổng nào kêu, vì với `chon()` thì ML-02
+    trông y hệt 107 bài kia. Bẻ đỏ bằng cách bỏ nhánh `anh_co_san` trong chon()."""
+    from pipeline import anh_muon
+    from pipeline.topic_selector import TopicSelector
+
+    ft = doc_cau_hinh()['ML-02']['featured']
+    m = anh_muon.chon(TopicSelector().by_id('ML-02'))
+    assert m['anh'] == ft['id']
+    assert m['og'] == ft['og']
+    assert m['nguon'].startswith('anh co san')
+
+
+def test_bai_khong_co_anh_that_van_muon_binh_thuong():
+    from pipeline import anh_muon
+    from pipeline.topic_selector import TopicSelector
+
+    m = anh_muon.chon(TopicSelector().by_id('ML-01'))
+    assert not m['nguon'].startswith('anh co san')

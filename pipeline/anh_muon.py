@@ -42,6 +42,12 @@ def chon(topic: dict) -> dict:
     bang = c['theo_trang_dich_vu']
     ma = str(topic.get('id', ''))
 
+    # Bài đã có ảnh thật thì trả chính ảnh đó, không mượn. Đặt TRƯỚC mọi tầng:
+    # tầng nào cũng sẽ vui vẻ trả về một ảnh mượn cho ML-02 nếu được hỏi.
+    ft = (anh_co_san().get(ma) or {}).get('featured')
+    if ft:
+        return {'anh': ft['id'], 'og': ft['og'], 'nguon': 'anh co san %s' % ma}
+
     # Tầng 0 — chỉ đích danh theo mã bài. Thắng cả hai tầng dưới, vì tầng 2 định
     # tuyến theo TIỀN TỐ (dòng thiết bị) nên không phân biệt nổi tủ mát với tủ
     # đông, hay bình chứa với máy nước nóng trực tiếp.
@@ -69,6 +75,23 @@ def chon(topic: dict) -> dict:
 
     # Tầng cuối — TK không có trang dịch vụ nào trên site.
     return {**c['hero_trang_chu'], 'nguon': 'hero trang chu (danh muc %s chua co trang dich vu)' % tien_to}
+
+
+CO_SAN = Path(__file__).resolve().parents[1] / 'config/anh-co-san.yaml'
+
+
+@lru_cache(maxsize=1)
+def anh_co_san() -> dict:
+    """Bài đã có ảnh THẬT thì không mượn ảnh nữa.
+
+    ML-02 (post 383) có bốn ảnh sinh từ 09/09. Ngày 11/09 một lượt nắn ảnh mượn
+    hàng loạt đã ghi đè ảnh đại diện của nó bằng ảnh mượn — mất ảnh thật mà
+    không cổng nào kêu, vì với `chon()` thì ML-02 trông y hệt 107 bài kia. Hàm
+    này là chỗ để `chon()` biết bài nào KHÔNG được mượn.
+    """
+    if not CO_SAN.exists():
+        return {}
+    return yaml.safe_load(CO_SAN.read_text(encoding='utf-8')) or {}
 
 
 def gan_vao(images: list, topic: dict) -> list:
