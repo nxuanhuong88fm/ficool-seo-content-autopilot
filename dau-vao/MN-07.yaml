@@ -1,0 +1,176 @@
+chu_de:
+  id: MN-07
+  tieu_de: Cách vệ sinh vòi sen và lưới lọc đầu vào máy nước nóng
+  tu_khoa_chinh: vệ sinh vòi sen máy nước nóng
+  chuyen_muc: Máy nước nóng
+  the:
+  - Vệ sinh
+  giai_doan_phieu: F2
+  loai_noi_dung: how_to
+
+nghien_cuu:
+  van_ban: >-
+    Khi lưu lượng nước qua máy nước nóng giảm, vị trí nghẽn trong phần lớn trường
+    hợp nằm ở hai đầu của đường nước chứ không nằm trong thân máy: lỗ phun của
+    vòi sen ở đầu ra, và lưới lọc ở đầu vào nước lạnh. Cặn tích tụ ở hai chỗ này
+    chủ yếu là muối cacbonat của canxi và magie kết tủa từ nước cấp, và vì tiết
+    diện lỗ phun rất nhỏ nên một lớp cặn mỏng cũng làm giảm lưu lượng rõ rệt.
+    Cacbonat tan trong axit yếu, nên ngâm trong dung dịch giấm ăn là cách xử lý
+    thông dụng, trong khi axit mạnh và vật liệu chà nhám gây hỏng lớp mạ cùng chi
+    tiết nhựa, và dùng vật nhọn bằng kim loại thông lỗ phun sẽ làm rộng lỗ không
+    đều khiến tia nước phân tán sai. Với máy làm nóng trực tiếp, việc lưới lọc
+    đầu vào bị nghẽn tạo ra một biểu hiện dễ chẩn đoán sai: loại máy này chỉ bật
+    thanh đốt khi lưu lượng nước qua máy đạt ngưỡng kích hoạt, nên lưới nghẽn làm
+    lưu lượng tụt xuống dưới ngưỡng và máy không nóng — người dùng kết luận máy
+    hỏng bộ đốt trong khi nguyên nhân là một lưới lọc bẩn. Phép thử tách nguyên
+    nhân đơn giản nhất là so sánh lưu lượng ở một vòi khác trên cùng đường cấp:
+    nếu vòi đó cũng yếu thì vấn đề nằm ở đường cấp chung hoặc áp lực nước của
+    nhà, còn nếu chỉ riêng đường qua máy nước nóng yếu thì nghẽn nằm trong nhánh
+    đó. Về an toàn, phải ngắt điện và đóng van cấp nước trước khi tháo lưới lọc,
+    và sau khi lắp lại phải xả hết khí trong đường ống bằng cách mở vòi nóng cho
+    tới khi nước ra liên tục rồi mới cấp điện, vì thanh đốt hoạt động khi không có
+    nước sẽ bị hỏng. Riêng cụm van đầu vào của bình chứa gián tiếp có van một
+    chiều và van an toàn nên không phải là chi tiết để tháo rời tuỳ ý.
+  nguon:
+  - url: https://www.energy.gov/energysaver/water-heating
+    title: U.S. Department of Energy — Water Heating
+  - url: https://www.epa.gov/watersense/showerheads
+    title: U.S. EPA WaterSense — Showerheads
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ sản phẩm
+  serp: []
+
+bai_viet:
+  than: |
+    # Cách vệ sinh vòi sen và lưới lọc đầu vào máy nước nóng
+
+    Khi nước nóng ra yếu, chỗ nghẽn thường nằm ở **hai đầu** của đường nước, không nằm trong thân máy. Và cả hai chỗ đó bạn tự làm sạch được.
+
+    <!-- IMAGE: IMG-001 | Cận cảnh mặt vòi sen với nhiều lỗ phun bị cặn trắng bám bít, tia nước phun ra lệch hướng -->
+
+    ## Phép thử tách nguyên nhân, mất hai phút
+
+    Trước khi tháo bất cứ thứ gì, hãy mở **một vòi khác** trên cùng đường cấp — bồn rửa, vòi ở phòng tắm còn lại.
+
+    | Kết quả | Nghĩa là |
+    |---|---|
+    | Vòi kia cũng yếu | Vấn đề ở **đường cấp chung** hoặc áp lực nước của nhà. Vệ sinh vòi sen sẽ không giải quyết gì. |
+    | Chỉ riêng đường qua máy nước nóng yếu | Nghẽn nằm **trong nhánh đó**. Đọc tiếp. |
+
+    Hai phút này tiết kiệm cả buổi chiều tháo lắp sai chỗ.
+
+    ## Ba chỗ nghẽn, xếp theo thứ tự nên kiểm
+
+    Xếp theo **công bỏ ra thấp nhất trước**:
+
+    1. **Lỗ phun trên mặt vòi sen** — dễ nhất, và là chỗ hay nghẽn nhất.
+    2. **Lưới lọc trong tay sen hoặc trong đầu nối ống mềm** — nhiều người không biết chỗ này có lưới.
+    3. **Lưới lọc ở đầu vào nước lạnh của máy** — khó hơn một chút, và là chỗ gây ra biểu hiện dễ chẩn đoán sai nhất.
+
+    ## Cặn đó là gì, và vì sao giấm xử lý được
+
+    Cặn trắng bám ở lỗ phun là **muối cacbonat của canxi và magie** kết tủa từ nước cấp. Cacbonat **tan trong axit yếu**, nên giấm ăn là đủ.
+
+    Vì tiết diện lỗ phun rất nhỏ, một lớp cặn mỏng cũng làm giảm lưu lượng rõ rệt — đó là lý do vòi sen "tự nhiên yếu dần" mà không có sự cố nào.
+
+    ## Vệ sinh vòi sen
+
+    1. **Tháo mặt sen** khỏi tay sen. Phần lớn model chỉ cần xoay tay; nếu cần kìm thì lót một lớp vải để không xước lớp mạ.
+    2. **Ngâm trong giấm ăn**, ngập phần mặt phun. Để đủ lâu cho cặn mềm ra — cặn dày cần lâu hơn.
+    3. **Miết nhẹ bằng ngón tay** lên các núm cao su nếu mặt sen có núm. Cặn mềm sẽ bong ra.
+    4. **Xả sạch bằng nước**, dùng bàn chải lông mềm cho phần còn sót.
+    5. **Kiểm tra lưới lọc trong đầu nối** — thường là một vòng lưới nhỏ nằm dưới gioăng cao su. Rửa hoặc thay.
+    6. **Lắp lại**, mở nước và quan sát tia phun: đều là xong, còn lệch một phía là còn lỗ bị bít.
+
+    <!-- IMAGE: IMG-002 | Mặt vòi sen đã tháo rời đặt ngâm trong bát giấm ăn, bên cạnh là bàn chải lông mềm và vòng lưới lọc nhỏ -->
+
+    ## Vệ sinh lưới lọc đầu vào máy
+
+    **Trước khi bắt đầu — hai việc bắt buộc:**
+
+    - **Ngắt điện** cấp cho máy.
+    - **Đóng van cấp nước** vào máy.
+
+    Với **máy làm nóng trực tiếp**, lưới lọc thường nằm ngay tại cổ nối nước lạnh vào máy:
+
+    1. Mở vòi để xả áp còn lại trong đường ống.
+    2. Tháo đầu nối nước lạnh. Chuẩn bị khăn — sẽ có nước còn lại chảy ra.
+    3. Lấy vòng lưới ra. Nó thường là lưới kim loại nhỏ nằm trong một vành nhựa.
+    4. Rửa xuôi chiều nước chảy, hoặc ngâm giấm nếu bám cặn. Lưới bị mục hoặc móp thì thay chứ không cố dùng lại.
+    5. Lắp lại đúng chiều, siết vừa tay, kiểm tra gioăng còn nguyên.
+
+    ⚠️ Với **bình chứa gián tiếp**, cụm van ở đầu vào có **van một chiều và van an toàn** — đây không phải chi tiết để tháo rời tuỳ ý. Nếu nghi nghẽn ở cụm này, hãy để kỹ thuật viên làm.
+
+    ## Biểu hiện dễ chẩn đoán sai nhất
+
+    Máy làm nóng trực tiếp chỉ **bật thanh đốt khi lưu lượng đạt ngưỡng kích hoạt**.
+
+    Nên khi lưới lọc bẩn làm lưu lượng tụt xuống dưới ngưỡng đó, máy **không nóng** — và người dùng kết luận bộ đốt hỏng, trong khi nguyên nhân là một cái lưới bẩn.
+
+    Dấu hiệu phân biệt: nếu máy **không nóng và nước ra yếu cùng lúc**, hãy kiểm lưu lượng trước khi nghĩ tới bộ đốt.
+
+    <!-- IMAGE: IMG-003 | Vòng lưới lọc kim loại nhỏ vừa tháo ra khỏi cổ nối nước lạnh của máy nước nóng trực tiếp, cặn bám rõ trên mặt lưới -->
+
+    ## Bước không được bỏ: xả khí trước khi cấp điện lại
+
+    Sau khi lắp xong và mở van nước:
+
+    1. **Mở vòi nóng** và để chảy cho tới khi nước ra **liên tục, không còn tiếng khí**.
+    2. **Chỉ khi đó mới cấp điện.**
+
+    Lý do: **thanh đốt hoạt động khi không có nước sẽ bị hỏng.** Đây là bước đơn giản nhất trong cả bài và cũng là bước gây thiệt hại lớn nhất nếu bỏ qua.
+
+    ## Bốn việc không nên làm
+
+    - **Không dùng vật nhọn bằng kim loại thông lỗ phun.** Nó làm rộng lỗ không đều nên tia nước phân tán sai, và hỏng đó không hồi lại được.
+    - **Không dùng axit mạnh.** Nó hỏng lớp mạ và chi tiết nhựa.
+    - **Không chà bằng vật liệu nhám** lên mặt mạ.
+    - **Không tháo cụm van an toàn** của bình chứa để "kiểm cho chắc".
+
+    ## Khi nào nên gọi kỹ thuật viên
+
+    - Đã vệ sinh cả ba chỗ mà lưu lượng **không cải thiện**.
+    - Vòi khác trên cùng đường cũng yếu — vấn đề nằm ở đường cấp hoặc áp lực nước.
+    - Có **nước rỉ** ở chỗ vừa tháo lắp và siết lại không hết.
+    - Nghi nghẽn nằm **bên trong bình chứa**, tức là cặn đã tích vào khoang chứa chứ không chỉ ở lưới.
+    - Máy vẫn không nóng dù lưu lượng đã trở lại bình thường.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh kiểm tra lưu lượng nước tại vòi sen bằng ca đong, máy nước nóng gắn trên tường phía sau -->
+
+    ## Gửi gì cho Ficool?
+
+    Nếu tự vệ sinh không cải thiện, hãy gửi bốn thông tin: loại máy (bình chứa hay làm nóng trực tiếp), nước yếu ở một vòi hay mọi vòi, bạn đã vệ sinh những chỗ nào, và máy có nóng hay không khi nước ra yếu. Ficool tại TP.HCM sẽ khoanh vùng theo bốn dữ kiện đó và thống nhất phạm vi cùng chi phí trước khi thực hiện.
+
+    Nếu nước yếu ở mọi vòi trong nhà, đọc <!-- INTERNAL: máy nước nóng ra nước yếu | /may-nuoc-nong-ra-nuoc-yeu/ --> và <!-- INTERNAL: máy nước nóng có bơm trợ lực | /may-nuoc-nong-co-bom-tro-luc/ -->. Chu kỳ vệ sinh phù hợp, xem <!-- INTERNAL: bao lâu nên vệ sinh máy nước nóng | /bao-lau-ve-sinh-may-nuoc-nong/ -->. Các hạng mục kiểm tra định kỳ, đọc <!-- INTERNAL: bảo trì máy nước nóng | /bao-tri-may-nuoc-nong/ -->. Chi phí sửa chữa gồm những phần nào thì xem <!-- INTERNAL: giá sửa máy nước nóng | /gia-sua-may-nuoc-nong/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Vòi sen máy nước nóng bị cặn thì vệ sinh bằng gì?
+
+    Cặn trắng ở lỗ phun là muối cacbonat của canxi và magie, và cacbonat tan trong axit yếu nên giấm ăn là đủ. Tháo mặt sen ra ngâm ngập trong giấm cho cặn mềm, miết nhẹ các núm cao su rồi xả sạch bằng nước. Không dùng axit mạnh vì nó hỏng lớp mạ và chi tiết nhựa.
+
+    ### Máy nước nóng trực tiếp không nóng có liên quan tới lưới lọc không?
+
+    Có, và đây là biểu hiện dễ chẩn đoán sai nhất. Máy làm nóng trực tiếp chỉ bật thanh đốt khi lưu lượng đạt ngưỡng kích hoạt, nên lưới lọc bẩn làm lưu lượng tụt dưới ngưỡng và máy không nóng. Nếu máy không nóng và nước ra yếu cùng lúc, hãy kiểm lưu lượng trước khi nghĩ tới bộ đốt.
+
+    ### Làm sao biết nghẽn ở vòi sen hay ở đường cấp nước của nhà?
+
+    Mở một vòi khác trên cùng đường cấp. Nếu vòi đó cũng yếu thì vấn đề ở đường cấp chung hoặc áp lực nước của nhà, và vệ sinh vòi sen sẽ không giải quyết gì. Nếu chỉ riêng đường qua máy nước nóng yếu thì nghẽn nằm trong nhánh đó.
+
+    ### Sau khi vệ sinh lưới lọc, có cần làm gì trước khi bật điện?
+
+    Có, và đây là bước không được bỏ. Mở vòi nóng cho nước chảy tới khi ra liên tục và không còn tiếng khí, rồi mới cấp điện. Thanh đốt hoạt động khi không có nước sẽ bị hỏng, nên bỏ bước xả khí là nguyên nhân gây thiệt hại lớn nhất trong cả việc này.
+
+    ### Có thể dùng kim thông các lỗ phun bị bít không?
+
+    Không nên. Vật nhọn bằng kim loại làm rộng lỗ phun không đều nên tia nước phân tán sai, và hỏng đó không hồi lại được. Cách đúng là ngâm giấm cho cặn mềm rồi miết bằng ngón tay hoặc bàn chải lông mềm.
+  seo:
+    tieu_de: Vệ sinh vòi sen và lưới lọc máy nước nóng đúng cách
+    mo_ta: >-
+      Nước yếu thường nghẽn ở hai đầu, không ở trong máy. Phép thử hai phút, ba
+      chỗ cần kiểm và bước xả khí không được bỏ.
+    slug: ve-sinh-voi-sen-may-nuoc-nong
+    tu_khoa_phu:
+    - vệ sinh lưới lọc máy nước nóng
+    - vòi sen bị cặn
+    - vòi sen nước nóng yếu
