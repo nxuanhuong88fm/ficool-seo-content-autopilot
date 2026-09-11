@@ -1,0 +1,60 @@
+/* TẦNG COMPONENT — token thuộc về MỘT component cụ thể.
+   ─────────────────────────────────────────────────────────────────────────
+   VÌ SAO TỒN TẠI. Hệ có ba tầng token, nhưng tới 11/09/2026 mới có hai:
+
+     brand       bản sắc Ficool, lấy từ logo      --color-accent-500, --font-heading
+     foundation  thang đo, không mang vai trò     --space-*, --type-*, ramp 100–900
+     semantic    vai trò trong giao diện          --surface-page, --text-quiet
+     component   thuộc về một component           ← TẦNG NÀY
+
+   Thiếu tầng này nên các giá trị riêng của component không có chỗ đứng, và
+   chúng nằm lại trong `components.css` dưới dạng px thô: đo ngày 11/09 được
+   33 khai báo spacing bằng px, trong khi README khẳng định "đã token hóa
+   100% … không còn px thô cho spacing trong CSS layer".
+
+   VÌ SAO KHÔNG NHÉT VÀO THANG CHUNG. Một nửa số px đó KHÔNG nằm trên thang
+   nào: 2, 3, 6, 7, 9, 11, 13, 14, 18, 22, 28.
+     · thang vi mô 4-based : 4 8 12 16 24 32 48
+     · thang section 5-based: 5 10 15 20 30 40 56 72 96
+   `padding: 12px 22px` là spec của NÚT CHÍNH. 22px chỉ trùng `--header-pad-y`
+   về con số, khác hẳn về vai trò — dùng nó là sai nghĩa. Còn làm tròn 22 → 24
+   là ĐỔI THIẾT KẾ, và luật của dự án là không đẻ số thiết kế mới, không đề
+   xuất đổi bản vẽ.
+
+   Nên tầng này chỉ ĐẶT TÊN cho con số đã có. Không một pixel nào đổi.
+
+   QUY TẮC ĐẶT Ở ĐÂY: chỉ giá trị LỆCH THANG mới cần token ở đây. Giá trị đã
+   có trên thang thì dùng thẳng token của thang (`--space-sm`, `--space-4`…) —
+   thêm một bí danh nữa chỉ tạo hai tên cho một thứ.
+
+   ⚠️ Tệp này phải có mặt ở CẢ HAI nơi: mảng thứ tự của `build-css-bundle.mjs`
+   VÀ danh sách đường lùi trong `inc/enqueue.php`. `var(--x)` gặp token chưa
+   định nghĩa thì cả khai báo thành không hợp lệ — nó không rơi về giá trị cũ,
+   nó biến mất. Quên đường lùi là đúng lúc lùi thì mọi padding mất sạch.
+   ───────────────────────────────────────────────────────────────────────── */
+:root {
+  /* — nút — */
+  --btn-pad-x: 22px;        /* .btn, .brxe-form .bricks-button; cặp với --space-sm */
+  --btn-lg-pad-x: 28px;     /* .btn-lg; cặp với --space-3 */
+  --btn-sm-pad-y: 11px;     /* .btn-sm; cặp với --space-4 */
+
+  /* — thẻ, chip, tab, eyebrow — */
+  --tag-pad-y: 3px;         /* .tag; cặp với --space-2 */
+  --chip-pad-y: 9px;        /* .chip và ô chọn của form dùng chung cặp này */
+  --chip-pad-x: 14px;
+  --tab-pad-x: 18px;        /* .tab; cặp với --space-2 */
+  --eyebrow-pad-y: 7px;
+  --eyebrow-pad-x: 13px;
+
+  /* — FAQ — */
+  --faq-pad-y: 22px;        /* .faq-q dọc, và lề dưới của .faq-a. Cùng con số
+                               với --btn-pad-x nhưng KHÁC vai trò (dọc vs ngang),
+                               nên là hai token — gộp lại là khoá hai thứ không
+                               liên quan vào nhau. */
+
+  /* — khe giữa icon và chữ —
+     Hai bậc, và khác nhau là có chủ ý: icon nhỏ hơn thì khe hẹp hơn mới cân
+     mắt. Đây là tinh chỉnh quang học đã được đặt tên, không phải thang đo. */
+  --gap-icon: 9px;          /* .tab, .eyebrow */
+  --gap-icon-sm: 7px;       /* .phone-link, ô chọn của form */
+}

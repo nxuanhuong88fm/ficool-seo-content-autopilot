@@ -1,0 +1,1163 @@
+/* Ficool component layer. Selectors are deliberately doubled (.btn.btn-primary) so they
+   outrank the parent Broadsheet sheet, which its bundle injects AFTER this file loads.
+ Class names match the parent print system so pages
+   built on either stylesheet render identically. */
+
+/* — buttons — */
+.btn.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--space-xs);
+  cursor: pointer; text-decoration: none;
+  font-family: var(--font-body); font-weight: var(--font-heading-weight);
+  font-size: var(--type-body); line-height: 1;
+  padding: var(--space-sm) var(--btn-pad-x);
+  border: 1px solid transparent; border-radius: var(--radius-md);
+  background: transparent; color: inherit;
+  transition: background var(--motion-fast) var(--ease-out), color var(--motion-fast) var(--ease-out), border-color var(--motion-fast) var(--ease-out);
+}
+.btn.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+
+/* the site's one primary action, always labelled "Đặt lịch ngay" */
+.btn.btn-primary { background: var(--color-accent); color: var(--text-on-accent); }
+.btn.btn-primary:hover { background: var(--color-accent-600); color: var(--text-on-accent); }
+.btn.btn-primary:active { background: var(--color-accent-700); }
+
+/* the secondary is always the phone call — CTA buttons keep the ink outline,
+   the accent-300 interactive fill deliberately does NOT apply to CTAs.
+   Hover text takes accent-700: accent-500 at body size is only 4.1:1 here. */
+.btn.btn-secondary { background: transparent; color: var(--color-text); border-color: var(--color-text); }
+.btn.btn-secondary:hover { color: var(--color-accent-700); border-color: var(--color-accent-700); background: transparent; }
+.btn.btn-secondary:active { color: var(--color-accent-700); border-color: var(--color-accent-700); background: transparent; }
+
+.btn.btn-ghost { color: var(--color-accent-700); padding-inline: var(--space-1); }
+.btn.btn-ghost:hover { background: color-mix(in srgb, var(--color-accent) 10%, transparent); }
+.btn.btn-ghost:active { background: color-mix(in srgb, var(--color-accent) 18%, transparent); }
+
+/* on the navy footer the primary inverts to paper */
+.btn.btn-on-ink { background: var(--surface-page); color: var(--color-accent-900); border: 0; }
+.btn.btn-on-ink:hover { background: var(--surface-input); }
+.btn.btn-on-ink:active { background: var(--color-accent-200); }
+
+.btn.btn-icon { width: var(--tap-min); height: var(--tap-min); padding: 0; }
+.btn.btn-block { width: 100%; }
+.btn.btn-lg { padding: var(--space-3) var(--btn-lg-pad-x); font-size: var(--type-body-lg); }
+.btn.btn-sm { padding: var(--btn-sm-pad-y) var(--space-4); font-size: var(--type-body); }
+.btn.btn-mobile { min-height: 52px; font-size: var(--type-body-lg); width: 100%; }
+
+/* — phone link in the header — */
+.phone-link.phone-link {
+  display: inline-flex; align-items: center; gap: var(--gap-icon-sm);
+  font-size: var(--type-body-m); color: var(--color-accent-700); text-decoration: none;
+  padding: var(--space-xs) var(--space-2); border-radius: var(--radius-md);
+  transition: background var(--motion-fast) var(--ease-out);
+}
+.phone-link:hover { background: var(--surface-page); color: var(--color-accent-800); }
+
+/* — tags and area chips — */
+.tag.tag {
+  display: inline-flex; align-items: center; font-size: var(--type-kicker);
+  letter-spacing: 0.02em; padding: var(--tag-pad-y) var(--space-2); border-radius: calc(var(--radius-md) * 0.75);
+  border: 1px solid transparent; background: transparent; font-family: inherit; color: inherit;
+}
+.tag.tag-accent { background: var(--color-accent-300); color: var(--color-accent-900); }
+.tag.tag-neutral { background: var(--color-neutral-100); color: var(--color-neutral-800); }
+.tag.tag-outline { background: var(--color-accent-300); color: var(--color-accent-900); border-color: transparent; }
+/* magenta of the parent system is not used on this site — keep the one accent */
+.tag.tag-accent-2 { background: var(--color-accent-300); color: var(--color-accent-900); }
+
+/* the selectable area chip: bigger than a tag, a real hit target */
+.chip.chip {
+  display: inline-flex; align-items: center; cursor: pointer;
+  font-family: inherit; font-size: var(--type-body-m); line-height: 1;
+  padding: var(--chip-pad-y) var(--chip-pad-x); border-radius: var(--radius-md);
+  border: 1px solid var(--color-divider); background: transparent; color: var(--color-text);
+  transition: background var(--motion-fast) var(--ease-out), border-color var(--motion-fast) var(--ease-out), color var(--motion-fast) var(--ease-out);
+}
+.chip.chip:hover { border-color: var(--color-accent); color: var(--color-accent-700); }
+/* Chip khu vực là <a> điều hướng: không có trạng thái "đã chọn" bền trên trang,
+   nên "nền xanh khi click" (yêu cầu khách 03/09) khớp với :active — nền đặc lúc
+   nhấn, rồi trang chuyển đi. Cùng bộ màu với trạng thái selected. */
+.chip.chip:active,
+.chip.chip[aria-pressed="true"], .chip.chip.is-selected {
+  background: var(--color-accent-300); border-color: transparent; color: var(--color-accent-900);
+}
+
+/* — tabs: the same interactive fill marks the selected one — */
+.tab.tab {
+  display: inline-flex; align-items: center; gap: var(--gap-icon); cursor: pointer;
+  font-family: var(--font-body); font-weight: var(--font-heading-weight);
+  font-size: var(--type-body-lg); line-height: 1.2; white-space: nowrap;
+  padding: var(--space-2) var(--tab-pad-x); border: 1px solid transparent; border-radius: var(--radius-md);
+  background: transparent; color: var(--text-muted);
+  transition: background var(--motion-fast) var(--ease-out), color var(--motion-fast) var(--ease-out);
+}
+.tab.tab:hover { background: var(--color-accent-200); color: var(--color-accent-900); }
+/* `aria-current="page"`: WordPress tự gắn cho link trỏ đúng URL đang xem.
+   Thanh lọc chủ đề của /chu-de/… là dãy <a> tới archive của term, nên nó KHÔNG
+   bao giờ có aria-selected — Bricks không sinh thuộc tính đó cho link. Trước khi
+   thêm dòng này, chip "Kiến thức" khi đang ở /chu-de/kien-thuc/ được đánh dấu
+   đúng về mặt ngữ nghĩa nhưng vẽ ra y hệt chip không được chọn: cùng nền trong
+   suốt, cùng màu chữ, cùng độ đậm. Người dùng mất dấu mình đang ở đâu. */
+.tab.tab[aria-selected="true"], .tab.tab.is-active, .tab.tab[aria-current="page"] {
+  background: var(--color-accent-300); color: var(--color-accent-900);
+}
+/* Mobile: hàng tab CHẠY NGANG, cuộn ngang khi tràn — thay cho việc wrap thành
+   nhiều dòng (yêu cầu khách 03/09). Desktop giữ flex-wrap như cũ. Menu là
+   `.tab-menu` (row + wrap), item đã có white-space:nowrap sẵn; ở mobile bốn tab
+   thiết bị cộng lại ~840px > khung ~350px nên trước đây rớt thành 4 dòng dọc.
+   nowrap + overflow-x:auto biến chúng thành một dải cuộn được. Bảng cuộn nằm
+   TRONG menu nên không đẩy rộng trang. Chỉ cuộn khi thật sự tràn. */
+@media (max-width: 767px) {
+  /* !important vì Bricks sinh `#brxe-<id> { flex-wrap: wrap }` từ _flexWrap của
+     menu — selector ID (1,0,0) đè mọi luật class (0,1,0) của ta, kể cả trong
+     media query. Cùng họ A57 nhưng là ID chứ không phải hai-class, nên leo
+     specificity bằng class là vô vọng; important là công cụ đúng để ghi đè một
+     luật do framework sinh tại breakpoint. overflow-x không cần important
+     (không có luật Bricks nào giành). */
+  /* BLOCK + inline-flex, KHÔNG phải flex-nowrap. Lý do đo được trên site thật:
+     một flex-item `flex-wrap:nowrap` có min-content = tổng bề rộng item (~842px
+     với 4 tab thiết bị), và `overflow-x:auto` KHÔNG cắt được min-content đó —
+     đã thử thêm `min-width:0` vẫn tràn ngang 241px @390 (cổng A21 bắt, xác nhận
+     CSS đã live qua CDN). Ngược lại, một scroll container dạng BLOCK có
+     min-content = 0, nên không bao giờ nong rộng section chứa nó. Đây là mẫu
+     cuộn-ngang bền nhất. `display:block !important` để đè `.brxe-<id>{display:flex}`
+     (luật ID Bricks sinh từ _direction:row). Các tab con thành inline-flex nên
+     vẫn là hàng icon+chữ, xếp ngang nhờ white-space:nowrap của menu. */
+  .tab-menu {
+    display: block !important;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .tab-menu::-webkit-scrollbar { display: none; }
+  /* !important cho CẢ CON: mỗi .tab-title có _direction:'row' nên Bricks sinh
+     `#brxe-<id> { display: flex }` — luật ID (1,0,0) đè `.tab-menu > *` (0,1,0).
+     Không có important thì tab vẫn là block-level, mỗi cái một dòng, và menu
+     không có gì để cuộn (đo được: 4 dòng, scrollWidth = clientWidth = 350). */
+  .tab-menu > * { display: inline-flex !important; vertical-align: top; }
+  .tab-menu > * + * { margin-left: var(--space-2); }
+}
+
+/* — dropdown "quận huyện khác" —
+   20 quận không xếp vừa một hàng tab. Dùng <details>/<summary> GỐC của HTML:
+   mở/đóng và bàn phím do trình duyệt lo, không một dòng JS, và không phải dựng
+   element tabs-nested/offcanvas của Bricks (hai thứ đã dính bẫy class cấu trúc
+   ở A12 và A23). <summary> mang luôn class .tab nên thừa hưởng nguyên hình dáng
+   ở trên — chỉ cần bỏ mũi tên mặc định và định vị panel. */
+.tab-more { position: relative; }
+.tab-more > summary { list-style: none; }
+.tab-more > summary::-webkit-details-marker { display: none; }
+.tab-more > summary::after {
+  /* px-co-y: mui ten 7px la co icon; margin-left 2px la nhich quang hoc cho
+     mui ten khong dinh chu — khong thuoc thang nao. */
+  content: ""; width: 7px; height: 7px; margin-left: 2px; flex: none;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: translateY(-2px) rotate(45deg);
+}
+.tab-more[open] > summary { background: var(--color-accent-300); color: var(--color-accent-900); }
+.tab-more[open] > summary::after { transform: translateY(1px) rotate(-135deg); }
+
+.tab-more-panel {
+  position: absolute; z-index: 20; top: calc(100% + 8px); left: 0;
+  min-width: 240px; max-height: 340px; overflow-y: auto;
+  padding: var(--space-xs);
+  background: var(--surface-input);
+  border: 1px solid var(--color-divider); border-radius: var(--radius-md);
+  box-shadow: 0 10px 30px rgb(0 0 0 / 12%);
+}
+/* Trong panel, mỗi quận là một dòng chứ không phải một chip giữa hàng. */
+.tab-more-panel .tab.tab { width: 100%; justify-content: flex-start; white-space: normal; }
+
+/* ── Thanh quận: hai tab ở khổ hẹp, năm ở desktop ─────────────────────────
+   Yêu cầu khách 05/09/2026: desktop giữ 5 tab + dropdown TRÊN MỘT DÒNG, mobile
+   2 tab + dropdown cũng trên một dòng.
+
+   Ẩn bằng CHUỖI ANH EM chứ không `:nth-child`: trong thanh còn `<details>` của
+   dropdown, và Bricks có thể chèn thêm nút bất cứ lúc nào — `:nth-child` sẽ
+   lệch, còn `.tab-quan ~ .tab-quan ~ .tab-quan` chỉ đếm đúng những chip quận,
+   nên nó khớp tab thứ ba trở đi bất kể có gì khác trong hàng.
+
+   ⚠️ Ẩn tab KHÔNG đủ. Dropdown chỉ chứa PHẦN BÙ của tập tab, nên nếu chỉ ẩn ba
+   chip mà danh sách thả xuống vẫn là phần bù của 5, thì Quận 5 · Quận 6 ·
+   Tân Bình không còn ĐƯỜNG NÀO để tới trên điện thoại. Vì vậy bộ sinh in ra
+   HAI danh sách và HAI nhãn (`.chi-desktop` / `.chi-mobile`), CSS chỉ chọn cái
+   nào được vẽ. Xem pages-b4.mjs và ficool_tab_quan_mobile(). */
+.chi-mobile { display: none !important; }
+
+@media (max-width: 478px) {
+  .tab-quan ~ .tab-quan ~ .tab-quan { display: none !important; }
+  .chi-desktop { display: none !important; }
+  /* `inline-flex` chứ không `block`: đây là nhãn nằm trong hàng của summary, và
+     mục dropdown thì `.tab-more-panel .tab.tab` bên dưới kéo về `width: 100%`. */
+  .chi-mobile { display: inline-flex !important; }
+
+  /* Nút phải co được, và nhãn dài thì CẮT chứ không đẩy hàng — `nowrap` của
+     thanh (đặt ở bộ sinh) chỉ chặn xuống dòng, không chặn tràn ngang. */
+  .tab-more { min-width: 0; }
+  .tab-more > summary { padding-inline: var(--space-sm); min-width: 0; }
+  .tab-more > summary > .chi-mobile {
+    min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+
+  /* ⚠️ PANEL NEO THEO CẢ THANH, KHÔNG THEO NÚT — và đây là lượt sửa thứ ba.
+
+     ① Bản gốc: `.tab-more { position: static }` + panel `left: 0; right: 0`,
+        ý là "thả xuống trọn bề ngang". Nhưng bỏ tổ toạ độ đi thì panel
+        `absolute` rơi về khối chứa ban đầu và `top: calc(100% + 8px)` thành
+        100% chiều cao CẢ TRANG. Đo ở 390: nút `y = 191`, panel `y = 6152` —
+        vẫn "mở" đúng về DOM, chỉ vẽ ở chỗ không ai cuộn tới. Đúng lỗi khách
+        báo là "không hoạt động trên mobile".
+
+     ② Lượt sửa hai: giữ `relative` trên `.tab-more` và neo panel theo mép PHẢI
+        của nút. Đo lại: `panel_x = -47`, tức thò ra ngoài mép trái màn hình.
+        Lý do là nút KHÔNG phải lúc nào cũng ở cuối hàng — lúc đó hàng còn
+        đang rớt dòng nên nút nằm đầu dòng hai, và neo phải kéo panel ra ngoài.
+
+     ③ Bản này: cho CHÍNH THANH QUẬN làm tổ toạ độ. Panel căng đúng bề ngang
+        của thanh, độc lập hoàn toàn với vị trí của nút. Không còn biến số nào
+        để sai — dù nút ở đâu trong hàng, panel vẫn nằm gọn dưới dải. */
+  .tab-quan-bar { position: relative; }
+  .tab-more { position: static; }
+  .tab-more-panel {
+    left: 0;
+    right: 0;
+    width: auto;
+    min-width: 0;
+    max-height: 60vh;
+  }
+}
+
+/* — kickers and section heads — */
+.kicker.kicker {
+  font-size: var(--type-kicker); letter-spacing: var(--tracking-kicker);
+  text-transform: uppercase; color: var(--text-quiet);
+}
+.kicker-accent { color: var(--color-accent-700); }
+.eyebrow.eyebrow {
+  display: inline-flex; align-items: center; gap: var(--gap-icon);
+  font-size: var(--type-kicker); letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--color-accent-900); background: var(--color-accent-300); padding: var(--eyebrow-pad-y) var(--eyebrow-pad-x);
+}
+
+/* — forms — */
+.field.field > label {
+  display: block; font-size: 12px; margin-bottom: var(--space-1); color: var(--text-muted);
+}
+.input.input {
+  width: 100%; min-height: 44px; padding: var(--space-xs) var(--space-sm); font: inherit;
+  font-size: var(--type-body); color: var(--color-text); caret-color: var(--color-accent);
+  background: var(--surface-input);
+  border: 1px solid var(--border-field); border-radius: var(--radius-md);
+}
+.input.input::placeholder { color: var(--text-quiet); opacity: 1; }
+/* selects read as fields, not as filled chips: same surface + border as text inputs */
+select.input.input {
+  background: var(--surface-input); color: var(--color-text); border-color: var(--border-field);
+}
+select.input.input:hover { border-color: var(--color-accent); }
+.input.input:hover { border-color: var(--color-accent); }
+.input.input:focus-visible { border-color: var(--color-accent); outline-offset: 0; }
+textarea.input.input { min-height: 96px; resize: vertical; }
+
+/* segmented control: the checked option takes the interactive fill */
+.seg .seg-opt:has(input:checked) { background: var(--color-accent-300); color: var(--color-accent-900); }
+
+/* — table —
+   Yêu cầu khách 03/09: ô KHÔNG được wrap 2 dòng; bảng nào rộng quá khung thì
+   cuộn ngang (mọi bảng đã nằm sẵn trong wrapper overflow-x:auto — .pg-scroll cho
+   /bang-gia/, hoặc %root%{overflow-x:auto} cho bảng tóm tắt và table() helper).
+
+   Cách cũ `width:100%` + ô để wrap tự do khiến bảng CO vào vừa khung rồi bẻ chữ
+   3–5 dòng, và wrapper không bao giờ cuộn vì bảng đã "ngoan ngoãn" thu nhỏ. Nay:
+     - white-space:nowrap  → ô giữ một dòng, bảng lấy bề rộng tự nhiên
+     - width:auto + min-width:100% → hẹp thì đầy khung như cũ, rộng thì tràn ra
+       và wrapper cuộn. Đúng trên cả desktop lẫn mobile. */
+.table.table { width: auto; min-width: 100%; border-collapse: collapse; font-size: var(--type-body-lg); }
+.table.table th, .table.table td { white-space: nowrap; }
+.table.table th {
+  text-align: left; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--text-quiet); padding: var(--space-2); border-bottom: 1px solid var(--color-divider);
+}
+.table.table td { padding: var(--space-2); border-bottom: var(--rule-hair); }
+.table.table td:first-child { font-family: var(--font-body); font-weight: var(--font-heading-weight); }
+.table.table tbody tr:hover { background: color-mix(in srgb, var(--color-text) 4%, transparent); }
+
+/* — accordion (FAQ) — */
+.faq-item.faq-item { border-bottom: 1px solid var(--color-divider); }
+.faq-q.faq-q {
+  display: flex; align-items: center; gap: var(--space-4); width: 100%;
+  background: transparent; border: 0; padding: var(--faq-pad-y) 0; cursor: pointer; text-align: left;
+  font-family: var(--font-body); font-weight: var(--font-heading-weight);
+  font-size: var(--type-h3); color: inherit;
+}
+.faq-q.faq-q:hover { color: var(--color-accent-700); }
+.faq-a.faq-a { font-size: var(--type-body-lg); line-height: var(--leading-body); margin: 0 0 var(--faq-pad-y); color: var(--text-muted); }
+
+/* — logo marquee — */
+.marquee { overflow: hidden; }
+.marquee-track { display: flex; width: max-content; animation: ficool-marquee var(--motion-marquee) var(--easing) infinite; }
+.marquee-group { display: flex; align-items: center; gap: var(--space-14); padding-right: var(--space-14); }
+@media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }
+
+/* — sections — */
+.section { padding: var(--section-pad-y) var(--section-pad-x) var(--section-pad-y-end); }
+.section-band { background: var(--surface-band); }
+.section-page { background: var(--surface-page); }
+.section-ink { background: var(--surface-ink); color: var(--text-on-ink); }
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   CẦU NỐI BRICKS — thêm vào, không sửa rule nào ở trên.
+
+   Đã đo trên DOM thật của Bricks 2.3.11 (trang /dom-probe/):
+   Bricks KHÔNG chèn wrapper nào — flex container, query loop và
+   section>container đều là quan hệ cha–con trực tiếp. Nên mọi selector
+   ở trên giữ nguyên, và KHÔNG cần .ficool-passthrough.
+
+   Vấn đề duy nhất: nội thất của element Form do Bricks tự sinh, không gắn
+   class riêng cho từng field được. Chỉ 4 nhóm dưới đây cần bắt cầu.
+   Mọi element khác nhận class handoff qua _cssClasses trong builder.
+   ───────────────────────────────────────────────────────────────────────── */
+
+/* nhãn field — <label> cho input thường, <div class="label"> cho radio/checkbox */
+.brxe-form .form-group > label,
+.brxe-form .form-group > .label {
+  display: block; font-size: 12px; margin-bottom: var(--space-1); color: var(--text-muted);
+}
+
+/* input/select/textarea của Bricks không có class nào — nhắm theo thẻ */
+.brxe-form input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
+.brxe-form select,
+.brxe-form textarea {
+  width: 100%; min-height: 44px; padding: var(--space-xs) var(--space-sm); font: inherit;
+  font-size: var(--type-body); color: var(--color-text); caret-color: var(--color-accent);
+  background: var(--surface-input);
+  border: 1px solid var(--border-field); border-radius: var(--radius-md);
+}
+.brxe-form input::placeholder,
+.brxe-form textarea::placeholder { color: var(--text-quiet); opacity: 1; }
+.brxe-form input:not([type="radio"]):not([type="checkbox"]):hover,
+.brxe-form select:hover,
+.brxe-form textarea:hover { border-color: var(--color-accent); }
+.brxe-form input:focus-visible,
+.brxe-form select:focus-visible,
+.brxe-form textarea:focus-visible { border-color: var(--color-accent); outline-offset: 0; }
+.brxe-form textarea { min-height: 96px; resize: vertical; }
+
+/* segmented control: Bricks render radio/checkbox thành ul.options-wrapper > li */
+.brxe-form .options-wrapper { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.brxe-form .options-wrapper li {
+  display: inline-flex; align-items: center; gap: var(--gap-icon-sm);
+  padding: var(--chip-pad-y) var(--chip-pad-x); border-radius: var(--radius-md);
+  border: 1px solid var(--color-divider); cursor: pointer;
+  transition: background var(--motion-fast) var(--ease-out), border-color var(--motion-fast) var(--ease-out), color var(--motion-fast) var(--ease-out);
+}
+.brxe-form .options-wrapper li:hover { border-color: var(--color-accent); color: var(--color-accent-700); }
+.brxe-form .options-wrapper li:has(input:checked) {
+  background: var(--color-accent-300); border-color: transparent; color: var(--color-accent-900);
+}
+
+/* nút submit của Form — element duy nhất không thể gắn _cssClasses.
+   Mọi nút khác dùng .btn.btn-primary trực tiếp. */
+.brxe-form .bricks-button {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--space-xs);
+  cursor: pointer; text-decoration: none;
+  font-family: var(--font-body); font-weight: var(--font-heading-weight);
+  font-size: var(--type-body); line-height: 1;
+  padding: var(--space-sm) var(--btn-pad-x);
+  border: 1px solid transparent; border-radius: var(--radius-md);
+  background: var(--color-accent); color: var(--text-on-accent);
+  transition: background var(--motion-fast) var(--ease-out);
+}
+.brxe-form .bricks-button:hover { background: var(--color-accent-600); }
+.brxe-form .bricks-button:active { background: var(--color-accent-700); }
+
+/* Bricks core (trong @layer bricks) đặt letter-spacing: 0.5px cho mọi .bricks-button.
+   Design system không định nghĩa tracking cho nút — trả lại normal.
+   Hình thức nút vẫn hoàn toàn do .btn.* quyết định. */
+.bricks-button { letter-spacing: normal; }
+
+/* Bricks tự gắn class "tag" vào thẻ <a> bọc element Image có liên kết. Nó trùng
+   tên với .tag của design system, nên logo trong Header bị ăn padding 3px 10px
+   và border 1px — header cao 105,6px thay vì 98px, logo lệch phải 10,8px.
+   Chỉ vô hiệu hoá trên đúng thẻ bọc ảnh, .tag thật không đổi gì. */
+a.brxe-image.tag {
+  display: block; padding: 0; border: 0; border-radius: 0;
+  background: none; font-size: inherit; letter-spacing: normal;
+}
+
+/* Băng chạy: `.marquee-track{width:max-content}` của handoff không đủ khi track là
+   con của .brxe-container (flex-column) — box vẫn co về bề ngang container (593px
+   ở 768px), trong khi nội dung thật rộng 4440px. Keyframes dịch translateX(-50%)
+   nên vòng lặp lệch hẳn. `min-width` thì trình duyệt tính đúng theo nội dung. */
+.marquee-track { min-width: max-content; }
+
+/* --section-pad-x theo breakpoint. tokens/spacing.css (chép nguyên văn handoff) chỉ
+   khai 80px cho desktop; handoff không có artboard tablet. Người dùng chốt 28/08:
+   50px cho dải tablet, 35px cho 479–767px sau khi đo tỷ lệ:
+
+     thiết kế giữ padding ≈ 10–11% bề ngang   (1440/80 = 11,1% · 390/20 = 10,3%)
+     50px ở 991px = 10,1% ✅   ở 768px = 13,0%   ở 600px = 16,7%   ở 479px = 20,9% ❌
+     35px ở 767px =  9,1%      ở 600px = 11,7%   ở 479px = 14,6% ✅
+
+   Đặt ở đây thay vì sửa tokens/ để giữ nguyên file chép từ handoff, và để header,
+   footer, container cùng đọc MỘT nguồn — trước đó ba chỗ gõ cứng 20px/80px riêng
+   nên lệch nhau 30px suốt dải tablet. */
+@media (max-width: 991px) { :root { --section-pad-x: 50px; } }
+@media (max-width: 767px) { :root { --section-pad-x: 35px; } }
+@media (max-width: 478px) { :root { --section-pad-x: 20px; } }
+
+/* Nhịp DỌC của section, cùng cách suy diễn với padding ngang. Thiết kế cho hai mốc
+   96/104 (desktop) và 36/40 (≤478); hai mốc giữa dùng một hệ số duy nhất, làm tròn
+   về bội của 2 — đúng hệ số mà deriveTablet() áp cho 33 section gõ cứng _padding:
+
+     ≤991  ×0,75   96 -> 72   104 -> 78
+     ≤767  ×0,60   96 -> 58   104 -> 62
+     ≤478  thiết kế: 36 / 40
+
+   Nhờ đặt ở token, 9 section không khai _padding riêng tự đi theo, và theme style
+   không cần override nào cho trục dọc nữa. */
+@media (max-width: 991px) { :root { --section-pad-y: 72px; --section-pad-y-end: 78px; } }
+@media (max-width: 767px) { :root { --section-pad-y: 58px; --section-pad-y-end: 62px; } }
+@media (max-width: 478px) { :root { --section-pad-y: 36px; --section-pad-y-end: 40px; } }
+
+/* — Chi tiết dịch vụ: chọn đúng một dòng opt_kinds (bước 8) —
+   Tiêu đề khối dấu hiệu / khối công việc và hai danh sách "đã gồm / chưa gồm"
+   nằm trong repeater opt_kinds trên Options page, bốn dòng theo nhóm công việc.
+   Bricks KHÔNG lọc được vòng lặp repeater theo giá trị của bài đang xem:
+   array_conditions trả về 0 dòng, còn _conditions trên phần tử con thì không
+   lần nào đúng (đã đo cả hai). Nên template in đủ bốn dòng, và CSS chọn dòng
+   khớp: section mang class kind-<svc_kind>, mỗi dòng mang kind-is-<kind_slug>. */
+.kindrow { display: none; }
+.kind-sua    .kind-is-sua,
+.kind-vesinh .kind-is-vesinh,
+.kind-baotri .kind-is-baotri,
+.kind-lap    .kind-is-lap { display: block; }
+
+/* — Accordion (FAQ): Bricks bỏ mất _direction của element accordion-nested —
+   Với `accordion-nested`, Bricks KHÔNG sinh CSS cho control _direction, mà core
+   cũng không đặt flex-direction. Element còn lại `display: flex` trần, nên rơi
+   về giá trị mặc định `row`: năm câu hỏi nằm thành năm cột hẹp.
+   Đặt ở đây một lần cho mọi accordion, thay vì _cssCustom lặp trên từng cái. */
+.brxe-accordion-nested { flex-direction: column; }
+
+/* — Form: rãnh dọc giữa hai cột (bước 8, sửa sau ảnh chụp) —
+   Bricks 2.3.11 COMMENT OUT cả hai control `columnGap` và `rowGap` của element
+   Form, nên không có cách nào đặt khe từ panel. Nhịp dọc thì có sẵn
+   (`.form-group{padding:0 0 20px}` của core), còn nhịp ngang thì bằng 0: hai ô
+   `width:50%` dính sát nhau.
+
+   Không sửa được bằng `column-gap` vì `width:50%` + gap > 100% sẽ làm ô thứ hai
+   rớt xuống dòng (flex-wrap ngắt dòng TRƯỚC khi co ô). Cũng không đổi được width
+   thành calc() vì control `width` của Bricks là number giới hạn đơn vị %.
+
+   Cách chạy được: đệm trong từng ô rồi kéo cả form ra hai bên đúng bằng số đó —
+   `width: auto` để form tự nở thêm phần margin âm. Ô là border-box nên 50% vẫn
+   đúng, mép ngoài của trường vẫn thẳng với container. */
+/* Hai rãnh, hai biến. Giá trị KHÔNG chốt ở đây: mỗi trang tự đặt qua
+   `%root% { --form-gutter: …; --form-gutter-y: …; }` do formBase() sinh ra, số
+   lấy thẳng từ bản vẽ (backups/audit/design-contract.json → forms[0].gap).
+   Số dưới đây chỉ là mặc định cho form nào quên khai. */
+.brxe-form { --form-gutter: 24px; --form-gutter-y: 20px; }
+.brxe-form.brxe-form {
+  margin-inline: calc(var(--form-gutter) / -2);
+  width: auto;
+  /* Bricks đặt max-width:100% cho form; giữ nguyên thì phần nở thêm bị chặn và
+     form lệch 12px sang trái. max-width của thiết kế đặt ở khối bọc, không ở đây. */
+  max-width: calc(100% + var(--form-gutter));
+}
+.brxe-form .form-group { padding-inline: calc(var(--form-gutter) / 2); }
+/* Rãnh DỌC của form Bricks nằm ở padding-bottom của .form-group — không phải
+   margin, không phải row-gap của form. Đây là chỗ duy nhất chỉnh được nó. */
+.brxe-form .form-group { padding-bottom: var(--form-gutter-y); }
+
+/* Dưới 478px hai ô 50% chỉ còn ~163px. Thiết kế bản mobile xếp form một cột
+   (Liên hệ: display:flex;flex-direction:column;gap:16px). Bricks không có control
+   width theo breakpoint cho trường, nên ép ở đây. */
+@media (max-width: 478px) {
+  /* !important là bắt buộc: CSS THEO ELEMENT của Bricks (#brxe-…) nằm NGOÀI
+     @layer — chỉ CSS lõi của element mới trong layer. Nên luật class ở đây thua
+     specificity #brxe-x .form-group:nth-child(n). Xem RULES A28. */
+  .brxe-form .form-group { width: 100% !important; }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   ĐẢO MÀU TRÊN NỀN TỐI — `.tone-ink` (bước 24, 04/09/2026; soát lại 05/09)
+
+   KHỐI NÀY HIỆN TRƠ: quét 21 cây đang chạy, KHÔNG element nào mang `.tone-ink`.
+   Nó là một NĂNG LỰC để sẵn, không phải code chết — v2 chạy nhịp band/page nên
+   chưa có section tối nào, nhưng bộ màu và ba số đo tương phản dưới đây thì đã
+   đo xong và đã chạy thật ở footer. Khối "DESIGN SYSTEM v2" cuối file còn dựa
+   vào nó (`.tone-ink .stat`, `.tone-ink .btn-secondary`).
+
+   Đây KHÔNG phải chế bảng màu mới. Bộ "trên nền tối" đã có sẵn trong design
+   system và đã chạy thật ở footer: --text-on-ink (12,2:1 trên ink),
+   --text-on-ink-muted, --text-on-ink-kicker = accent-300 (7,7:1), .btn-on-ink,
+   và viền color-mix(--text-on-ink 18%) mà build-bricks-vars.mjs gọi là
+   `on-dark-border`. Khối này chỉ đưa bộ đó ra khỏi footer.
+
+   ⚠️ VÌ SAO PHẢI !important — không phải cẩu thả:
+   para()/quiet()/h3() đặt màu qua `_typography`, nên Bricks sinh
+   `#brxe-<id> { color: … }` — selector ID, specificity (1,0,0). Mọi luật class
+   ở đây là (0,1,1) hoặc (0,2,0) nên THUA sạch. Và id do Bricks sinh ngẫu nhiên
+   theo element nên KHÔNG viết được selector nào bằng. Xem RULES A63.
+   Ngược lại `border`/`padding` của thẻ được GỠ Ở BỘ SINH (build-draft-home.mjs)
+   chứ không !important, vì ở đó ta chạm được đúng element. */
+
+.tone-ink { background: var(--surface-ink); }
+
+/* Chữ: tiêu đề và trích dẫn lấy tông sáng nhất; thân bài lấy bản muted. */
+.tone-ink :is(h1, h2, h3, h4, h5, h6),
+.tone-ink blockquote                { color: var(--text-on-ink) !important; }
+.tone-ink p,
+.tone-ink .brxe-text-basic          { color: var(--text-on-ink-muted) !important; }
+
+/* Icon Phosphor mặc định là accent-500 — trên navy chỉ ~2,7:1, TRƯỢT cả ngưỡng
+   3:1 cho đồ hoạ phi văn bản. Đây là lý do icon phải đảo màu chứ không phải
+   trang trí: hai section tối có 4 icon "vì sao" + 15 ngôi sao "đánh giá".
+   accent-300 trên ink = 7,7:1 (số đo ghi sẵn trong tokens/colors.css). */
+.tone-ink i[class*="ph-"]           { color: var(--text-on-ink-kicker) !important; }
+
+/* Liên kết chữ trong dải tối: accent-700 là xanh ĐẬM, trên navy gần như tàng
+   hình. Đổi sang accent-300 cùng họ với kicker. */
+.tone-ink .brxe-text-link,
+.tone-ink .brxe-text-link a         { color: var(--text-on-ink-kicker) !important; }
+/* Đường kẻ mảnh trong dải tối phải đảo theo, nếu không nó biến mất. */
+.tone-ink hr { border-color: color-mix(in srgb, var(--text-on-ink) 18%, transparent); }
+
+/* ── ĐÃ GỠ 05/09/2026 (bước 9 của §29): `.fc-card` và khối `.ficool-draft` ──
+   Cả hai thuộc bản thử giao diện THỨ NHẤT (/trang-chu-draft/, page #363), đã
+   dừng theo bản 5. Quét lại 21 cây đang chạy: `.fc-card` 0 lượt,
+   `.ficool-draft` 0 lượt — code chết hoàn toàn. Thẻ nay do khối
+   "DESIGN SYSTEM v2" bên dưới lo (`.card` và họ hàng), bảng cũng vậy.
+
+   `.tone-ink` thì GIỮ, dù cũng đang 0 lượt: nó không phải thí nghiệm mà là bộ
+   màu đảo đã có sẵn trong design system và đã chạy thật ở footer, cộng thêm ba
+   số đo tương phản. Khối v2 bên dưới còn dựa vào nó (`.tone-ink .stat`,
+   `.tone-ink .btn-secondary`) cho ngày có section tối trở lại. Xoá là vứt phần
+   đo đạc, mà giữ thì tốn chưa tới 1KB. */
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   DESIGN SYSTEM v2 — LỚP THÀNH PHẦN          (bước 3 của §29, 05/09/2026)
+
+   Khối này là bản draft 5 được nâng từ "một trang thử" lên "hệ thống". Nguồn
+   gốc: assets/css/draft2.css, mọi luật ở đó khoá sau `.ficool-draft-2`. Ở đây
+   khoá đó được GỠ, và tiền tố `fc2` được đổi sang tên hệ thống — `fc2` nghĩa
+   là "draft 2", giữ nguyên cái tên đó trong code chính thức là để lại một cái
+   tên nói dối cho người đọc sau.
+
+   ── HAI NỬA, VÀ ĐÂY LÀ ĐIỀU CẦN BIẾT TRƯỚC KHI ĐỌC TIẾP ───────────────────
+
+   NỬA TRƠ (mục 2–8). Nhắm vào class `.card*`, `.step-*`, `.reveal`, `.stat`,
+   `.ink-*` — KHÔNG element nào trên site đang mang chúng. Đã quét cả 21 cây
+   manifest: không một lượt nào. Nên các luật này chưa vẽ ra gì cả; chúng chỉ
+   sống dậy khi bộ sinh gắn class, tức bước 4–5 và lô A–E của bước 8.
+
+   NỬA SỐNG NGAY (mục 1 và 9–12). Nhắm vào selector ĐÃ CÓ trên site — nút,
+   chip, tab, ô nhập, bảng, accordion. Đẩy file này lên là 21 khuôn đổi hình
+   thức ngay lượt tải sau. Đó là chủ ý: nút và bảng là thành phần DÙNG CHUNG,
+   nếu để chúng đổi theo từng lô thì giữa hai lô site có hai loại nút.
+
+   ── VÌ SAO TÊN TRẦN, KHÔNG NHÂN ĐÔI SELECTOR ─────────────────────────────
+
+   Phần trên của file cố ý viết `.btn.btn`, `.table.table` để thắng sheet của
+   theme cha bất kể thứ tự nạp. Khối này dùng tên trần vì đã kiểm chứng, không
+   phải vì tin tưởng: quét toàn bộ .css của theme cha (`themes/bricks`) tìm
+   `.card* .reveal* .stat* .step-* .is-in .has-motion` — kết quả rỗng, thứ gần
+   nhất là `.static` và `.status`. Cộng thêm inc/enqueue.php đã buộc
+   components.css phụ thuộc `bricks-frontend` nên nó luôn đứng SAU.
+   Nếu sau này theme cha thêm `.card`, cách sửa là nhân đôi selector — một
+   dòng, không phải dựng lại khối.
+
+   ── BỐN LUẬT CỦA DESIGN SYSTEM BỊ KHỐI NÀY CỐ Ý GỠ ───────────────────────
+
+   Đã ghi đầy đủ lý do và số đo trong tokens/effects.css và tokens/fonts.css ở
+   bước 2. Tóm tắt: bo góc lớn hơn, có bóng đổ cho bố cục, có đường cong gia
+   tốc, và thân bài/giao diện chuyển sang sans. `--easing: linear` GIỮ NGUYÊN
+   và chỉ còn dành cho băng chạy logo.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+
+/* ── 1. Trích dẫn ở lại serif ──────────────────────────────────────────────
+   SỐNG NGAY. Từ bước 2, `--font-body` là sans và base.css đặt nó lên `body`,
+   nên blockquote thừa kế sans. Trích dẫn khách hàng là GIỌNG NGƯỜI NÓI, không
+   phải nhãn giao diện — một khối serif giữa trang sans nổi lên chứ không lạc
+   lõng, cùng lý do heading giữ serif.
+
+   Specificity (0,0,1) là đủ: thừa kế luôn thua một luật trực tiếp, và đã kiểm
+   3 blockquote trên site đều KHÔNG có `_typography.font-family`, tức Bricks
+   không sinh luật ID nào tranh chỗ. */
+blockquote { font-family: var(--font-heading); }
+
+
+/* ── 2. Thẻ ────────────────────────────────────────────────────────────────
+   TRƠ cho tới bước 4–5.
+
+   Đây là thứ thay thế cho các đường kẻ mảnh và gạch accent của v1: phân tách
+   bằng NỀN và MÉP thay vì bằng nét.
+
+   Nhấc 4px khi rê chuột dùng `transform`, trong khi hiện dần ở mục 7 dùng
+   `translate`. Đây là lý do KỸ THUẬT chứ không phải sở thích: cùng một thẻ vừa
+   là mục tiêu hiện dần vừa là mục tiêu hover, mà `transform` chỉ có MỘT giá
+   trị — luật nào thắng thì luật kia mất trắng, và tuỳ thứ tự file mà hỏng một
+   trong hai. `translate` là thuộc tính ĐỘC LẬP, trình duyệt gộp nó với
+   `transform` chứ không thay thế, nên hai hiệu ứng chồng lên nhau đúng như
+   mong muốn thay vì tranh nhau.
+
+   `--border-card` đã nằm trong tokens/effects.css từ bước 2 (accent-900 14%).
+   14% chứ không phải 9% vì `--surface-page` v2 là trắng hẳn, trùng đúng
+   `--surface-input` — ruột thẻ và nền section thành MỘT màu (1,000:1), viền và
+   bóng gánh toàn bộ việc phân định. Số đo đầy đủ ở effects.css. */
+.card,
+.card-step,
+.card-faq,
+.card-post,
+.card-form,
+.card-table {
+  background: var(--surface-input);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--lift-1);
+  transition:
+    transform var(--motion-mid) var(--ease-out),
+    box-shadow var(--motion-mid) var(--ease-out),
+    border-color var(--motion-mid) var(--ease-out);
+}
+
+.card,
+.card-step { padding: var(--space-lg); }
+
+.card:hover,
+.card-step:hover,
+.card-post:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--lift-2);
+  border-color: color-mix(in srgb, var(--color-accent) 34%, transparent);
+}
+
+/* Hộp biểu mẫu. Đệm phải LỚN HƠN phần form tự nở ra: luật `.brxe-form` ở trên
+   kéo form sang hai bên bằng `margin-inline: calc(var(--form-gutter) / -2)` để
+   bù rãnh cột, mà trang chủ đặt --form-gutter = 24px, tức thò ra 12px mỗi bên.
+   Đệm 32px còn lại 20px thật sự nhìn thấy. Đừng hạ xuống dưới 12px: ô nhập sẽ
+   trèo ra ngoài mép hộp. Và cũng đừng chữa bằng cách đặt --form-gutter ở đây —
+   biến đó khai trên CHÍNH element form bằng luật ID, đặt ở cha không với tới. */
+.card-form { padding: var(--space-xl); }
+.card-table { padding: var(--space-2) var(--space-lg) var(--space-4); }
+
+/* Thẻ bài viết dẫn bằng ảnh bìa: ảnh phải tràn tới mép hộp, chỉ phần chữ mới
+   có đệm. `overflow: hidden` vừa bo được góc ảnh vừa là điều kiện để phóng ảnh
+   khi rê mà không lòi ra ngoài hộp. */
+.card-post { overflow: hidden; padding-bottom: var(--space-lg); }
+.card-post > *:not(.brxe-image) { padding-inline: var(--space-lg); }
+.card-post img { transition: scale var(--motion-slow) var(--ease-out); }
+.card-post:hover img { scale: 1.06; }
+
+/* Dấu nháy trang trí ở thẻ trích dẫn. `.card-quote` đi KÈM `.card` chứ không
+   thay thế. Đặt ở góc PHẢI TRÊN, sau lưng nội dung: góc trái sẽ đụng dãy sao,
+   và một dấu nháy to bên trái luôn tranh chỗ đọc với dòng đầu tiên. */
+.card-quote { position: relative; overflow: hidden; }
+.card-quote::before {
+  content: "\201C";
+  position: absolute; top: -18px; right: 14px;
+  font-family: var(--font-heading); font-size: 108px; line-height: 1;
+  color: color-mix(in srgb, var(--color-accent-500) 14%, transparent);
+  pointer-events: none; user-select: none;
+}
+
+@media (max-width: 478px) {
+  /* Ở 390px, 32px mỗi bên ăn mất 64px của ~350px lòng trang. Rút về 20px:
+     vẫn hơn 12px form thò ra (xem trên), còn lại 8px nhìn thấy được. */
+  .card-form { padding: var(--space-4); }
+  .card-table { padding: var(--space-2) var(--space-md) var(--space-3); }
+  .card,
+  .card-step { padding: var(--space-md); }
+  .card-faq { padding: 0 var(--space-md); }
+  .card-post > *:not(.brxe-image) { padding-inline: var(--space-md); }
+}
+
+
+/* ── 3. Thẻ FAQ ────────────────────────────────────────────────────────────
+   TRƠ (phần `.card-faq`). Chỉ đổi mép khi rê — KHÔNG nhấc. Người ta rê vào đây
+   để BẤM MỞ, một cái nhích 4px ngay dưới ngón tay làm mục tiêu bấm chạy mất. */
+.card-faq { padding: 0 var(--space-lg); }
+.card-faq:hover {
+  border-color: color-mix(in srgb, var(--color-accent) 34%, transparent);
+  box-shadow: var(--lift-2);
+}
+
+/* ── Rãnh giữa các thẻ hỏi ─────────────────────────────────────────────────
+
+   ⚠️ SỬA 05/09/2026. Bản bước 3 viết `gap: var(--space-sm)` lên
+   `.brxe-accordion-nested:has(.card-faq)` và nó KHÔNG có tác dụng gì. Đo trên
+   trang thật: `gap` computed đúng 12px, nhưng `display` của accordion là
+   **block** — và `gap` chỉ sống trong flex/grid. Khe thật giữa hai thẻ: **0px**
+   trên cả bốn trang có FAQ. Khách nhìn ra trước tôi.
+
+   (`flex-direction: column` CÓ được khai, nên đọc lướt luật thì tưởng nó là
+   flex. Bricks bỏ `_direction` của element accordion — RULES A24 — nhưng vẫn
+   để lại thuộc tính con trỏ đó, đúng một cái bẫy đọc nhầm.)
+
+   Sửa bằng MARGIN chứ không đổi `display` của accordion sang flex: đổi kiểu
+   hiển thị của một element do Bricks dựng là đổi cả ngữ cảnh định dạng bên
+   trong nó, mà bên trong là cơ chế đóng/mở của accordion. Margin trên anh em
+   liền kề không đụng gì tới cấu trúc và không cần `:has()`.
+
+   20px chứ không phải 12px, và đây là số ĐO chứ không phải khẩu vị: `--lift-1`
+   có lớp bóng toả 12px lệch xuống 4px, tức bóng vươn ~16px dưới mép thẻ. Rãnh
+   12px thì bóng của thẻ trên chồng lên thẻ dưới và hai thẻ đọc ra là dính.
+   20px = `--space-4`, cùng con số với rãnh lưới thẻ bước, nên mọi chồng thẻ
+   trên site chung một nhịp. */
+.card-faq + .card-faq { margin-top: var(--space-4); }
+
+/* ── Mũi tên FAQ: hết dính chữ, hết rớt xuống dòng ─────────────────────────
+
+   SỐNG NGAY, và đây là một BẢN VÁ LỖI CÓ SẴN chứ không phải trang trí v2.
+   Đo ở 390 trên trang chủ thật: đúng 2/6 câu hỏi bị — mũi tên nằm ở `x: 37`
+   (mép TRÁI, dưới tiêu đề) thay vì `x: 333` (mép phải, cùng dòng).
+
+   Nguyên nhân là hai thứ cộng lại, và phải sửa CẢ HAI:
+
+   1. Hàng tiêu đề thừa kế `flex-wrap: wrap` từ `.brxe-block` của Bricks. Luật
+      ID của element chỉ khai `display / flex-direction / align-items /
+      justify-content / column-gap` — KHÔNG có flex-wrap (đã kiểm trong
+      post-364.min.css). Nên đây là luật lớp `@layer bricks`, và một luật lớp
+      thường ở NGOÀI layer thắng nó: `nowrap` trần là đủ, không cần important.
+
+   2. Thẻ h3 mặc định `flex: 0 1 auto`, tức nó lấy bề rộng theo NỘI DUNG. Câu
+      dài thì h3 chiếm trọn 316px, cộng khe 20px và mũi tên 20px là vượt hàng.
+      `flex: 1 1 auto` + `min-width: 0` bắt h3 nhận phần còn lại và tự ngắt
+      dòng bên trong, thay vì nong ra đẩy mũi tên đi.
+
+   Chỉ có `nowrap` thôi thì mũi tên hết rớt dòng nhưng bị bóp méo hoặc tràn;
+   chỉ có `flex: 1` thôi thì vẫn còn rớt ở câu dài nhất. Hai luật là một cặp.
+
+   Nhắm ở tầng `.brxe-accordion-nested` chứ KHÔNG phải `.card-faq`: lỗi này có
+   trên mọi accordion đang chạy, và nó là lỗi bố cục mặc định của Bricks chứ
+   không phải tính chất của thẻ. Khoá nó sau `.card-faq` là hoãn bản vá tới
+   bước 8 mà không có lý do gì. RULES A72. */
+.brxe-accordion-nested .accordion-title-wrapper { flex-wrap: nowrap; }
+.brxe-accordion-nested .accordion-title-wrapper > .brxe-heading {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+
+/* ── 4. Bước quy trình ─────────────────────────────────────────────────────
+   TRƠ cho tới bước 5.
+
+   Số vẫn VIỀN RỖNG và gạch accent vẫn còn — đó là bản sắc StepItem, và cổng
+   A45 đang canh đúng thuộc tính `-webkit-text-stroke`. v2 chỉ đặt chúng vào
+   hộp. Chỗ dễ sai nhất của một bản "làm đẹp lại" là tiện tay tô đặc cái số cho
+   nó nổi, rồi mất luôn thứ bản vẽ gọi tên. Ghi lại đây để lượt sau không ai
+   thử.
+
+   ── MOBILE: SỐ · GẠCH · TÊN BƯỚC TRÊN MỘT DÒNG ────────────────────────────
+
+   Trên desktop mỗi bước xếp dọc: hàng số → gạch accent ngang → tên + mô tả.
+   Dưới 767px yêu cầu là ba thứ đầu nằm CHUNG một dòng, mô tả xuống dưới.
+
+   Cây Bricks không cho phép làm thẳng: tên bước nằm CHUNG một khối bọc với mô
+   tả (`.step-body`), còn số nằm trong khối bọc khác (`.step-head`). Xếp lại
+   bằng cách dựng lại cây thì desktop cũng đổi theo, và phải sửa bộ sinh cho
+   một chuyện thuần trình bày.
+
+   `display: contents` gỡ đúng nút thắt đó: nó XOÁ HỘP của khối bọc mà giữ
+   nguyên các con, nên bốn element cháu — số, gạch, tên, mô tả — trở thành ô
+   lưới TRỰC TIẾP của thẻ bước. Nhờ vậy desktop không đổi một pixel nào, và
+   mobile xếp lại chỉ bằng một media query.
+
+   Hệ quả kèm theo (có lợi, và là lý do không cần dọn thêm): hộp biến mất thì
+   `margin-bottom: 18px` của khối số và `padding-top: 18px` của khối thân cũng
+   biến mất theo — chúng vốn là khoảng cách của bố cục DỌC, ở đây chỉ tổ làm
+   lệch hàng. Rãnh giữa hai hàng do `row-gap` của lưới lo, đặt ở bộ sinh.
+
+   `!important` ba lần trong khối này là bắt buộc, không phải cẩu thả: Bricks
+   sinh `#brxe-<id> { display: flex }` cho cả thẻ bước lẫn hai khối bọc —
+   selector ID (1,0,0), mà id thì ngẫu nhiên theo element nên không có selector
+   class nào leo tới được. Đúng chỗ RULES A63 nói important là công cụ đúng.
+   RULES A73. */
+@media (max-width: 767px) {
+  .card-step {
+    display: grid !important;
+    /* auto | 1fr — số lấy đúng bề rộng của mình, tên bước ăn hết phần còn lại
+       và tự ngắt dòng nếu dài. Đây là DẠNG B: bốn trang (#256 #257 #260 #338,
+       14 bước) có StepItem gọn — số, tên, mô tả, KHÔNG có gạch accent. Bản vẽ
+       của chúng vốn không có gạch, không phải thiếu. */
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    column-gap: var(--space-sm);
+  }
+  /* DẠNG A: bốn trang (#62 #263 #264 #337, 20 bước) có thêm gạch accent giữa
+     số và tên — thêm một cột `auto` cho nó. Bắt bằng `:has()` thay vì bằng một
+     class biến thể do bộ sinh gắn: sự khác biệt NẰM SẴN trong cây (có
+     `.step-rule` hay không), nên bắt nó trực tiếp thì không có gì để lệch.
+     Trình duyệt không hiểu `:has()` thì gạch rơi vào cột của tên bước — chật
+     hơn, không vỡ. */
+  .card-step:has(.step-rule) { grid-template-columns: auto auto 1fr; }
+
+  .step-head,
+  .step-body { display: contents !important; }
+
+  /* Mô tả trải hết ba cột ở hàng thứ hai. Không có dòng này thì nó tự rơi vào
+     cột 1 và bị bóp lại bằng bề ngang con số. */
+  .step-desc { grid-column: 1 / -1; }
+}
+
+
+/* ── 5. Khối mở màn tối ────────────────────────────────────────────────────
+   TRƠ. Dùng cho hero tối; trang chủ v2 (draft 5) chạy hero SÁNG nên hiện chưa
+   có element nào mang class này. Giữ lại vì dải "vì sao chọn" và "đánh giá"
+   vẫn là section tối, và vì đây là kết quả của một phép đo tốn công.
+
+   ── VÌ SAO CHUYỂN SẮC NẰM Ở ::before CHỨ KHÔNG Ở CHÍNH SECTION ────────────
+
+   Bản đầu đặt thẳng `background-image` lên section, kèm !important. Đo trên
+   site thật (04/09): `getComputedStyle(section).backgroundImage` trả về
+   `none`, dù luật có mặt đầy đủ trong CSSOM và selector khớp.
+
+   Thủ phạm: Bricks in class `bricks-lazy-hidden` vào 248 element của MỌI trang
+   ngay trong HTML server trả về, và luật đi kèm (`background-image: none`) nằm
+   TRONG `@layer bricks`. Với khai báo !important thì thứ tự layer bị ĐẢO:
+   important trong layer thắng important ngoài layer. Nghĩa là không có mức
+   !important nào giành lại được.
+
+   Bricks gỡ class đó bằng JS khi element vào tầm nhìn. Nhưng dựa vào việc đó
+   nghĩa là: có JS thì nền loé một nhịp navy phẳng rồi mới hiện chuyển sắc,
+   không JS thì không bao giờ hiện. Một lớp trang trí không được phép phụ thuộc
+   script. `::before` không mang class nào của Bricks nên luật lazy không với
+   tới, và không cần !important nữa. RULES A67.
+
+   ── KÍCH THƯỚC TÍNH BẰNG px, KHÔNG PHẢI rem ──────────────────────────────
+
+   Cỡ chữ gốc của site này là 10px chứ không phải 16px. `72rem` ra 720px chứ
+   không phải 1152px — quầng nhỏ hơn ý định 1,6 lần và tắt hẳn trước khi tới
+   dòng tiêu đề. Một lớp trang trí có kích thước tuyệt đối thì đừng buộc nó vào
+   cỡ chữ. RULES A68.
+
+   ── ĐỘ ĐẬM QUẦNG SÁNG LÀ SỐ ĐÃ ĐO ───────────────────────────────────────
+
+   Cổng A44 đọc `background-color`, mà chuyển sắc nằm ở background-IMAGE — nên
+   A44 báo nền navy gốc 12,07:1 và ĐẠT kể cả khi quầng đã kéo nền lên quá sáng.
+   Điểm mù của phép đo, phải tự canh: dựng lại phép pha của trình duyệt bằng
+   JS, quét từng điểm 10px dưới TOÀN BỘ cột chữ hero, lấy điểm SÁNG NHẤT.
+   Ở 1440 điểm sáng nhất là rgb(7,79,131):
+
+     text-on-ink #f3f2f2 ......... 7,65:1  ✓  (AA chữ thường cần 4,5)
+     on-ink-muted 80% ............ 5,55:1  ✓
+     accent-300 #93cbee .......... 4,89:1  ✓  (chữ 38–64px, chỉ cần 3)
+
+   Đã dò ba mức trước khi chốt: 40%/26% quá nhạt, 56%/34% kéo accent-300 xuống
+   4,52 — sát ngưỡng quá. Ai nâng 48%/30% lên phải chạy lại phép đo này trước,
+   đừng chỉnh bằng mắt. */
+.ink-glow,
+.ink-fade { position: relative; }
+
+.ink-glow::before,
+.ink-fade::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-repeat: no-repeat;
+}
+
+.ink-glow::before {
+  background-image:
+    radial-gradient(1100px 640px at 6% 4%,
+      color-mix(in srgb, var(--color-accent-500) 48%, transparent), transparent 72%),
+    radial-gradient(700px 480px at 96% 16%,
+      color-mix(in srgb, var(--color-accent-400) 30%, transparent), transparent 74%);
+}
+
+/* Đuôi của khối tối: một đoạn chuyển sắc tắt dần về navy đặc, dẫn mắt xuống
+   section sáng kế tiếp. Không quầng thứ hai. */
+.ink-fade::before {
+  background-image:
+    linear-gradient(180deg,
+      color-mix(in srgb, var(--color-accent-700) 26%, transparent), transparent 72%);
+}
+
+/* Nội dung phải nằm TRÊN lớp chuyển sắc. Không có dòng này thì ::before
+   (z-index 0, vẽ sau nền nhưng trước nội dung không xếp lớp) phủ lên chữ. */
+.ink-glow > *,
+.ink-fade > * { position: relative; z-index: 1; }
+
+
+/* ── 6. Số liệu trong dải tối ──────────────────────────────────────────────
+   TRƠ. `.tone-ink .brxe-text-basic` ở khối trên đang ép mọi chữ trong dải tối
+   sang trắng mờ — đúng cho nhãn, nhưng làm con số mất hẳn màu. accent-300 trên
+   navy = 7,7:1 (số đo có sẵn trong tokens/colors.css), thừa ngưỡng AA.
+   important + (0,2,0) để thắng chính luật important (0,2,0) nói trên — cùng
+   trọng số thì luật đứng sau thắng, và khối này đứng sau. */
+.tone-ink .stat {
+  color: var(--color-accent-300) !important;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Nút phụ trong dải tối là nút GỌI — viền và chữ của nó theo mặc định là màu
+   mực đen trên navy, tức gần như tàng hình. `.btn-on-ink` ở trên đã có cho
+   tình huống này nhưng nó là biến thể của nút CHÍNH; nút phụ chưa có bản đảo
+   nào, vì tới v1 chưa có section tối nào chứa nút. */
+.tone-ink .btn.btn-secondary {
+  color: var(--text-on-ink);
+  border-color: color-mix(in srgb, var(--text-on-ink) 45%, transparent);
+}
+.tone-ink .btn.btn-secondary:hover {
+  background: var(--text-on-ink);
+  border-color: var(--text-on-ink);
+  color: var(--color-accent-900);
+}
+
+
+/* ── 7. Hiện dần khi cuộn ──────────────────────────────────────────────────
+   TRƠ hai lớp: chưa element nào mang `.reveal`, và chưa có JS nào gắn
+   `has-motion` lên <html> (đó là bước 6).
+
+   Trạng thái ẩn CHỈ tồn tại khi <html> mang class `has-motion`, và class đó do
+   JS gắn. Đây là điểm quan trọng nhất của cả khối:
+
+     JS không chạy  ->  class không có  ->  luật ẩn không khớp  ->  trang hiện
+     đủ nội dung như thường.
+
+   Nếu làm ngược lại (ẩn sẵn trong CSS, chờ JS hiện ra) thì một lỗi JS, một
+   trình chặn script, hay một lượt tải hỏng sẽ biến trang thành trang trắng.
+   Nội dung không bao giờ được phụ thuộc vào hiệu ứng.
+
+   `translate` chứ không `transform` — lý do đầy đủ ở mục 2.
+   `--reveal-delay` do JS đặt trên từng element để tạo nhịp so le.
+
+   ⚠️ Heading KHÔNG bao giờ được đưa vào tập hiện dần. Cổng A46 đọc h1 qua phép
+   thử "có nhìn thấy không" và lọc `opacity <= 0.05`, nên một h1 ẩn chờ hiệu
+   ứng bị đếm là KHÔNG TỒN TẠI — cộng thêm nó là phần tử LCP. RULES A70. */
+html.has-motion .reveal {
+  opacity: 0;
+  translate: 0 18px;
+}
+html.has-motion .reveal.is-in {
+  opacity: 1;
+  translate: none;
+  transition:
+    opacity var(--motion-slow) var(--ease-out) var(--reveal-delay, 0ms),
+    translate var(--motion-slow) var(--ease-out) var(--reveal-delay, 0ms);
+}
+
+
+/* ── 8. Điều khiển: nút, chip, tab, ô nhập ─────────────────────────────────
+   SỐNG NGAY.
+
+   Bo góc đã tự đúng nhờ `--radius-md` đổi ở bước 2. Còn lại ba việc: thêm độ
+   nổi cho nút chính, bo TRÒN HẲN những thứ vốn là "viên" (chip, tab), và một
+   vòng lấy nét mềm.
+
+   `transition` của `.btn.btn` được khai LẠI ở đây chứ không sửa tại chỗ ở đầu
+   file: nút v2 có thêm hai thuộc tính động (box-shadow, transform) mà v1 không
+   có. Cùng specificity (0,2,0), khối này đứng sau nên thắng. Để nguyên luật
+   gốc thì diff của bước 3 đọc ra là "thêm cái gì", không phải "sửa cái gì". */
+.btn.btn {
+  transition:
+    background var(--motion-fast) var(--ease-out),
+    color var(--motion-fast) var(--ease-out),
+    border-color var(--motion-fast) var(--ease-out),
+    box-shadow var(--motion-mid) var(--ease-out),
+    transform var(--motion-mid) var(--ease-out);
+}
+.btn.btn-primary {
+  box-shadow: 0 2px 6px color-mix(in srgb, var(--color-accent-900) 22%, transparent);
+}
+.btn.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px color-mix(in srgb, var(--color-accent-900) 28%, transparent);
+}
+/* Nhấn thì hạ về đúng vị trí — phản hồi "ấn xuống" của một phím thật. */
+.btn.btn:active { transform: translateY(0); }
+
+/* Nút trong dải CTA dính đáy KHÔNG nhấc: nó đã dính mép màn, nhấc lên chỉ tạo
+   một khe hở nhấp nháy giữa nút và mép dưới. */
+.mobile-cta-bar .btn.btn:hover { transform: none; }
+
+.chip.chip {
+  border-radius: var(--radius-pill);
+  padding: var(--space-2) var(--space-md);
+}
+.tab.tab { border-radius: var(--radius-pill); }
+
+/* ── 8b. Sàn vùng chạm — mọi ĐIỀU KHIỂN về đúng `--tap-min` ────────────────
+   SỐNG NGAY. Bước 3 của kế hoạch tối ưu.
+
+   ⚠️ Đọc trước khi sửa: site này KHÔNG trượt WCAG 2.5.8 AA. Đo ngày 05/09 trên
+   `/`, `/bang-gia/`, `/khu-vuc/quan-7/` ở mốc 375: 8–14 mục tiêu nhỏ hơn 24px
+   mỗi trang, nhưng CẢ 14 đều lọt **ngoại lệ khoảng cách** — vòng tròn 24px đặt
+   giữa mỗi mục tiêu không cắt mục tiêu nào khác. Trượt AA thật: 0.
+
+   Vậy khối này KHÔNG phải để vá lỗi tiếp cận. Nó để giữ lời hứa của chính bộ
+   token: `--tap-min: 44px` đã khai ở `tokens/spacing.css:49` từ đầu, mà nút thật
+   lại cao 41, chip 36, tab 42–43. Token nói một đằng, trang vẽ một nẻo.
+
+   ── Vì sao chỉ ĐIỀU KHIỂN, không phải mọi link ────────────────────────────
+
+   Link chữ đứng riêng ("Xem chi tiết" 22px, link chân trang 22px, dòng dịch vụ
+   30px) KHÔNG được nới ở đây, dù chúng cũng dưới 44. Lý do là số đo, không phải
+   khẩu vị: mười dòng dịch vụ có khoảng hở dọc **0px**, sáu link chân trang hở
+   **9px**. Nới bằng A48 (`padding` + `margin` âm) cần +11px mỗi phía — nhiều hơn
+   khoảng hở — nên các hộp bấm sẽ CHỒNG LÊN NHAU. Bấm vào mép dòng này lại kích
+   hoạt dòng kia. Đó là hỏng nặng hơn hẳn cái đang muốn sửa, và nó sẽ không hiện
+   ra trong bất kỳ ảnh chụp nào.
+
+   Nới được thì phải nới cả khoảng hở — mà khoảng hở là bố cục, tức là bản vẽ.
+   Việc đó thuộc bucket C, không tự quyết ở tầng CSS.
+
+   `min-height` chứ không phải `height`: nút hai dòng chữ phải cao được hơn 44.
+   Padding dọc giữ nguyên — flex `align-items: center` đã canh giữa sẵn, nên chữ
+   không xê dịch, chỉ có hộp nở ra quanh nó. */
+.btn.btn,
+.chip.chip,
+.tab.tab,
+.tab-more > summary,
+/* Nút submit của Form phải liệt kê RIÊNG: nó là element duy nhất không gắn
+   được `_cssClasses`, nên không bao giờ mang class `btn` (xem chú thích ở dòng
+   `.brxe-form .bricks-button` phía trên). Bỏ sót nó thì mọi nút trên site cao
+   44 trừ đúng cái nút gửi biểu mẫu — và đó lại là nút quan trọng nhất. */
+.brxe-form .bricks-button {
+  min-height: var(--tap-min);
+}
+/* `.btn-mobile` cao hơn sàn (52px = `--tap-lg`) — khai lại để thứ tự nguồn
+   không kéo nó tụt xuống 44. */
+.btn.btn-mobile { min-height: var(--tap-lg); }
+
+/* Vòng lấy nét. Bỏ outline nét đứt của base.css để thay bằng một vòng toả mềm
+   ôm đúng góc bo của ô — vẫn là một chỉ báo lấy nét RÕ RÀNG (WCAG 2.4.7), chỉ
+   khác hình thức. Đổi cả viền để hai thứ thành một khối. */
+.brxe-form input:focus-visible,
+.brxe-form select:focus-visible,
+.brxe-form textarea:focus-visible,
+.input.input:focus-visible {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-accent) 24%, transparent);
+}
+.brxe-form input,
+.brxe-form select,
+.brxe-form textarea {
+  transition:
+    border-color var(--motion-fast) var(--ease-out),
+    box-shadow var(--motion-fast) var(--ease-out);
+}
+.brxe-form .bricks-button {
+  box-shadow: 0 2px 6px color-mix(in srgb, var(--color-accent-900) 22%, transparent);
+  transition:
+    background var(--motion-fast) var(--ease-out),
+    box-shadow var(--motion-mid) var(--ease-out),
+    transform var(--motion-mid) var(--ease-out);
+}
+.brxe-form .bricks-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px color-mix(in srgb, var(--color-accent-900) 28%, transparent);
+}
+
+
+/* ── 9. Bảng ───────────────────────────────────────────────────────────────
+   SỐNG NGAY, và đây là khối chạm nhiều nội dung nhất: 8 bảng trên site, riêng
+   /bang-gia/ là phần lớn.
+
+   Giữ NGUYÊN cơ chế của bước 23: `white-space: nowrap` + `width: auto` +
+   wrapper cuộn ngang. Ở đây chỉ đổi diện mạo — hàng tiêu đề có nền, sọc hàng,
+   và đường kẻ nhạt hơn vì cái hộp đã lo việc đóng khung.
+
+   Sọc dùng lớp phủ TRONG SUỐT chứ không màu đặc: bảng có thể nằm trong hộp
+   trắng, trên nền page, hay trên nền band — lớp phủ tự hoà theo nền bên dưới
+   nên một luật ăn cho mọi tông. Nền đặc thì phải viết một biến thể cho mỗi
+   tông.
+
+   Hover phải ĐẬM HƠN sọc, nếu không thì rê vào hàng chẵn trông y như chưa rê.
+   Đây là lỗi đã gặp thật ở bản draft 1 chứ không phải phòng xa. */
+.table.table th {
+  background: color-mix(in srgb, var(--color-accent-500) 8%, transparent);
+  color: var(--color-accent-800);
+  padding: var(--space-sm) var(--space-4);
+  border-bottom: 1px solid color-mix(in srgb, var(--color-accent-500) 22%, transparent);
+}
+.table.table td {
+  padding: var(--space-sm) var(--space-4);
+  border-bottom: 1px solid color-mix(in srgb, var(--color-accent-900) 8%, transparent);
+}
+.table.table tbody tr {
+  transition: background var(--motion-fast) var(--ease-out);
+}
+.table.table tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--color-accent-500) 4%, transparent);
+}
+.table.table tbody tr:hover {
+  background: color-mix(in srgb, var(--color-accent-500) 11%, transparent);
+}
+
+
+/* ── 10. Tôn trọng người tắt hiệu ứng chuyển động ──────────────────────────
+   SỐNG NGAY (phần nút và transition), TRƠ (phần thẻ).
+
+   JS của bước 6 sẽ tự không gắn `has-motion` khi máy bật prefers-reduced-
+   motion, nên phần hiện dần biến mất từ gốc. Khối này lo NỐT phần còn lại: mọi
+   transition hover, phóng ảnh, nhấc thẻ và nhấc nút.
+
+   Bản draft dùng một luật quét `*, *::before, *::after` kèm !important. Ở đây
+   nó được THU HẸP thành danh sách đích danh, và đó là một thay đổi có chủ ý:
+   luật quét ấy tắt luôn mọi `animation`/`transition` của Bricks trên toàn
+   site — kể cả những thứ không phải của ta và có thể là chức năng (accordion
+   mở/đóng, slider). Trên một trang thử thì không sao; site-wide thì đó là tác
+   dụng phụ không ai xin.
+
+   Đã kiểm để chắc danh sách này ĐỦ: toàn bộ CSS của child theme chỉ có ĐÚNG
+   MỘT `animation` — băng chạy logo, đã có `animation: none` riêng ở trên —
+   không có `scroll-behavior: smooth` ở đâu, và tab-scroll.js tự đọc
+   prefers-reduced-motion trong JS. Không còn chuyển động nào nằm ngoài đây. */
+@media (prefers-reduced-motion: reduce) {
+  .card,
+  .card-step,
+  .card-faq,
+  .card-post,
+  .card-form,
+  .card-table,
+  .btn.btn,
+  .chip.chip,
+  .tab.tab,
+  .brxe-form input,
+  .brxe-form select,
+  .brxe-form textarea,
+  .brxe-form .bricks-button,
+  .table.table tbody tr {
+    transition-duration: 0.01ms !important;
+  }
+  .card:hover,
+  .card-step:hover,
+  .card-post:hover,
+  .btn.btn-primary:hover,
+  .brxe-form .bricks-button:hover { transform: none; }
+  .card-post:hover img { scale: 1; }
+}
+
+/* — ô ảnh chưa điền trong bài blog —
+   Bài viết trước, ảnh điền sau: mỗi chỗ cần ảnh mang một khối giữ chỗ có mô tả.
+   Dùng lại đúng quy ước ô rỗng mà bản vẽ đã dùng cho trang chủ và 15 trang dịch
+   vụ — nền surface-input, viền 1px dashed border-field, chữ text-quiet căn giữa.
+   Không đẻ giá trị thiết kế mới: cả ba token đều nằm trong ficool-tokens.json.
+
+   Selector nhân đôi như .input.input / .btn.btn: Bricks sinh luật theo ID cho
+   bố cục, luật một class thua. */
+.ficool-anh-giu-cho.ficool-anh-giu-cho {
+  display: flex; align-items: center; justify-content: center;
+  margin: var(--space-5) 0; padding: var(--space-4);
+  aspect-ratio: 16 / 9;
+  background: var(--surface-input);
+  border: 1px dashed var(--border-field); border-radius: var(--radius-md);
+}
+.ficool-anh-giu-cho.ficool-anh-giu-cho .ficool-anh-giu-cho__nhan {
+  /* px-co-y: 6px la khe giua nhan dam va dong mo ta trong hop giu cho —
+     nho hon --space-xs (8px) de hai dong doc nhu mot khoi. */
+  display: flex; flex-direction: column; gap: 6px;
+  max-width: 46ch; text-align: center;
+  font-size: var(--type-meta); line-height: 1.5; color: var(--text-quiet);
+}
+.ficool-anh-giu-cho.ficool-anh-giu-cho b {
+  font-size: var(--type-kicker); letter-spacing: var(--tracking-kicker);
+  text-transform: uppercase; color: var(--color-accent-700);
+}
