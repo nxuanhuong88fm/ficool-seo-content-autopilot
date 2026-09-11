@@ -1,0 +1,38 @@
+# Ảnh THẬT đã sinh xong TRƯỚC khi dự án chuyển sang trình giữ chỗ.
+#
+# Chỉ có ML-02 nằm ở đây. Bốn tấm của nó được sinh ngày 09/09 bằng đường Gemini,
+# trước quyết định `--anh=giu-cho`; kế hoạch đã chốt là GIỮ NGUYÊN chúng, không
+# đổi thành khối giữ chỗ (xem mục "Ngoài phạm vi" của kế hoạch giữ chỗ ảnh).
+#
+# VÌ SAO LÀ YAML CHỨ KHÔNG PHẢI MÃ: giống `anh-muon.yaml`, đây là dữ liệu biên
+# tập — ảnh nào ứng với mốc nào. Đổi nó không nên phải sửa mã.
+#
+# VÌ SAO KHÔNG GHI ALT Ở ĐÂY: alt lấy từ MÔ TẢ trong mốc `<!-- IMAGE: ... -->`
+# của chính bài, qua `images.ap_mo_ta()` — cùng một đường với mọi bài khác
+# (RULES A131). Ghi alt ở hai chỗ là tạo ra hai nguồn sự thật.
+
+ML-02:
+  # Ảnh đại diện. `id` là bản thường dùng cho hero; `og` là bản 1200×630 cho
+  # thẻ chia sẻ. Bài 383 đang đặt NHẦM bản og làm ảnh đại diện.
+  featured:
+    id: 384
+    og: 388
+
+  # Ba tấm đi vào thân bài. IMG-001 không có ở đây vì ảnh vai trò `featured`
+  # không vào thân bài (RULES A128).
+  than:
+    IMG-002:
+      id: 385
+      url: https://ficool.top/wp-content/uploads/2026/09/may-lanh-chay-nuoc-trong-nha-02.webp
+      width: 1376
+      height: 768
+    IMG-003:
+      id: 386
+      url: https://ficool.top/wp-content/uploads/2026/09/may-lanh-chay-nuoc-trong-nha-03.webp
+      width: 1376
+      height: 768
+    IMG-004:
+      id: 387
+      url: https://ficool.top/wp-content/uploads/2026/09/may-lanh-chay-nuoc-trong-nha-04.webp
+      width: 1376
+      height: 768
