@@ -1,0 +1,141 @@
+chu_de:
+  id: TL-01
+  tieu_de: 'Tủ lạnh không lạnh hoặc lạnh yếu: Những nguyên nhân cần kiểm tra'
+  tu_khoa_chinh: tủ lạnh không lạnh
+  chuyen_muc: Tủ lạnh
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Tủ lạnh không lạnh hoặc lạnh yếu cần được phân loại trước theo một câu hỏi:
+    cả tủ đều không lạnh, hay chỉ một ngăn. Nếu cả hai ngăn đều ấm thì nguyên
+    nhân nghiêng về nguồn điện, block máy nén, hoặc hệ thống môi chất lạnh. Nếu
+    ngăn đá vẫn lạnh mà ngăn mát ấm thì nguyên nhân nghiêng về đường dẫn khí
+    lạnh giữa hai ngăn, tức quạt gió hoặc cửa gió bị chặn, hoặc dàn lạnh bám
+    tuyết dày. Các nguyên nhân người dùng tự kiểm được nằm ở phần bên ngoài và
+    phần sử dụng: phích cắm và ổ điện; nhiệt độ cài đặt bị chỉnh sai hoặc bị vô
+    tình xoay; chế độ đặc biệt như chế độ tiết kiệm hay chế độ nghỉ đang bật;
+    cửa không đóng kín do gioăng chai, do thực phẩm chặn, hoặc do tủ kê nghiêng
+    khiến cửa không tự đóng; nhồi quá nhiều thực phẩm chặn cửa gió phía trong;
+    đặt đồ nóng vào tủ; dàn nóng phía sau hoặc dưới gầm bám bụi dày; tủ kê sát
+    tường không đủ khoảng hở tản nhiệt; nhiệt độ phòng quá cao. Các nguyên nhân
+    cần thợ: quạt dàn lạnh hỏng, bộ xả tuyết hỏng khiến tuyết bám dày chặn dòng
+    khí, cảm biến nhiệt độ sai, bo mạch lỗi, block yếu, rò rỉ môi chất lạnh.
+    Một điểm cần nhấn mạnh về an toàn và về chẩn đoán: gas tủ lạnh không tiêu
+    hao khi sử dụng bình thường, nên thiếu gas luôn đồng nghĩa với có rò rỉ, và
+    nạp thêm mà không tìm chỗ rò chỉ giải quyết triệu chứng trong thời gian ngắn.
+  nguon:
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Tủ lạnh không lạnh hoặc lạnh yếu: Những nguyên nhân cần kiểm tra
+
+    Một câu hỏi cắt đôi danh sách nguyên nhân: **cả tủ đều ấm, hay chỉ một ngăn?** Cả hai ngăn ấm thì nghiêng về nguồn điện, block hoặc môi chất lạnh. Ngăn đá còn lạnh mà ngăn mát ấm thì nghiêng về đường dẫn khí lạnh giữa hai ngăn.
+
+    <!-- IMAGE: IMG-001 | Người dùng mở cả hai cánh tủ lạnh side by side trong bếp, đưa tay vào ngăn mát kiểm tra độ lạnh -->
+
+    ## Trước hết: phân loại
+
+    Mở cả hai ngăn, để tay vào từng ngăn khoảng mười giây.
+
+    - **Cả hai ngăn đều ấm** → nguồn điện, block, hoặc hệ thống môi chất lạnh.
+    - **Ngăn đá lạnh, ngăn mát ấm** → đường dẫn khí lạnh giữa hai ngăn.
+    - **Cả hai ngăn lạnh nhưng yếu hơn trước** → thường là tản nhiệt hoặc cửa đóng không kín.
+
+    Một phút bỏ ra cho việc này giúp bạn kiểm đúng chỗ thay vì kiểm tất cả.
+
+    ## Bảy điều bạn tự kiểm được
+
+    1. **Phích cắm và ổ điện.** Nghe tiếng block chạy không. Thử cắm thiết bị khác vào cùng ổ.
+    2. **Nhiệt độ cài đặt.** Núm xoay dễ bị vô tình chỉnh khi lau dọn.
+    3. **Chế độ đặc biệt.** Chế độ tiết kiệm hoặc chế độ nghỉ đang bật sẽ làm tủ lạnh yếu đi có chủ đích.
+    4. **Cửa có đóng kín không.** Kẹp một tờ giấy vào mép cửa rồi kéo; nếu rút ra dễ dàng thì gioăng không còn kín ở chỗ đó.
+    5. **Thực phẩm chặn cửa gió.** Nhồi quá đầy làm khí lạnh không lưu thông.
+    6. **Dàn nóng có bám bụi không.** Nằm phía sau hoặc dưới gầm tuỳ model.
+    7. **Khoảng hở quanh tủ.** Tủ kê sát tường thì nhiệt không thoát được.
+
+    Điểm 4 là phép thử tờ giấy, và nó bắt được nguyên nhân mà mắt thường không thấy.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh dàn nóng phía sau lưng tủ lạnh, các ống và lá tản nhiệt phủ lớp bụi và lông thú dày -->
+
+    ## Bảng đối chiếu
+
+    | Triệu chứng | Nghiêng về | Tự xử lý? |
+    |---|---|---|
+    | Cả tủ ấm, không nghe block chạy | Nguồn điện, bo mạch, block | Kiểm điện thì được |
+    | Cả tủ ấm, block chạy liên tục | Rò rỉ môi chất lạnh, tản nhiệt kém | Kiểm tản nhiệt |
+    | Ngăn đá lạnh, ngăn mát ấm | Quạt gió, cửa gió bị chặn, dàn bám tuyết | Kiểm phần chặn |
+    | Lạnh yếu dần nhiều tháng | Dàn nóng bám bụi, gioăng cửa chai | Được |
+    | Lạnh yếu sau khi mua đồ nhiều | Nhồi quá đầy, đặt đồ nóng vào | Được |
+
+    ## Về gas tủ lạnh
+
+    Gas **không tiêu hao** khi sử dụng bình thường. Nếu tủ thiếu gas thì hệ thống đang rò rỉ ở đâu đó.
+
+    Nạp thêm mà không tìm và xử lý chỗ rò chỉ giải quyết triệu chứng trong thời gian ngắn, rồi tình trạng quay lại. Nếu được báo cần nạp gas, hãy hỏi rõ chỗ rò nằm ở đâu và sẽ xử lý thế nào.
+
+    ## Đừng bỏ qua chuyện tản nhiệt
+
+    Tủ lạnh thải nhiệt qua dàn nóng. Bụi bám dày trên dàn, hoặc tủ kê sát tường không đủ khoảng hở, đều khiến nhiệt quẩn tại chỗ. Block phải chạy nhiều hơn mà tủ vẫn không đủ lạnh, và tiền điện tăng.
+
+    Đây là nguyên nhân phổ biến của kiểu "lạnh yếu dần theo nhiều tháng" mà không có sự cố rõ ràng nào.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, kéo tủ lạnh khỏi tường và dùng chổi mềm vệ sinh dàn nóng phía sau -->
+
+    ## Khi nào cần kỹ thuật viên?
+
+    - Block không chạy dù ổ điện vẫn có điện.
+    - Block chạy liên tục không nghỉ mà tủ vẫn không lạnh.
+    - Nghe tiếng lạ hoặc có mùi khét.
+    - Đã kiểm đủ bảy điểm trên mà tình trạng không đổi.
+    - Có tuyết bám dày bất thường bên trong.
+
+    Các nguyên nhân còn lại đều nằm sau vỏ máy: quạt dàn lạnh, bộ xả tuyết, cảm biến nhiệt độ, bo mạch, block, và hệ thống môi chất lạnh.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh dùng đồng hồ đo kiểm tra block máy nén phía sau tủ lạnh tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: model tủ ghi trên tem trong khoang hoặc sau lưng, cả tủ ấm hay chỉ một ngăn, tình trạng bắt đầu từ khi nào, và bạn đã kiểm bảy điểm ở trên chưa. Kỹ thuật viên Ficool tại TP.HCM sẽ định hướng dựa trên đó, và nhiều trường hợp nằm ở phần tản nhiệt hoặc gioăng cửa mà bạn tự xử lý được.
+
+    Nếu chỉ ngăn mát ấm, đọc riêng <!-- INTERNAL: ngăn mát tủ lạnh không lạnh | /ngan-mat-tu-lanh-khong-lanh/ -->. Nếu thấy tuyết bám dày, xem <!-- INTERNAL: tủ lạnh đóng tuyết | /tu-lanh-dong-tuyet/ -->. Vệ sinh định kỳ giúp giữ dàn nóng sạch, xem <!-- INTERNAL: cách vệ sinh tủ lạnh | /cach-ve-sinh-tu-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Tủ lạnh không lạnh có phải do hết gas không?
+
+    Không hẳn. Gas tủ lạnh không tiêu hao khi sử dụng bình thường, nên thiếu gas luôn đồng nghĩa với có rò rỉ. Trước khi nghĩ tới gas, hãy kiểm nguồn điện, nhiệt độ cài đặt, gioăng cửa và tình trạng bám bụi của dàn nóng.
+
+    ### Làm sao biết gioăng cửa tủ lạnh còn kín?
+
+    Dùng phép thử tờ giấy: kẹp một tờ giấy vào mép cửa rồi đóng lại, sau đó kéo tờ giấy ra. Nếu rút ra dễ dàng thì gioăng không còn kín ở chỗ đó. Làm lặp lại ở nhiều vị trí quanh cửa để tìm đoạn hở.
+
+    ### Tủ lạnh kê sát tường có ảnh hưởng gì không?
+
+    Có. Tủ lạnh thải nhiệt qua dàn nóng ở lưng hoặc dưới gầm, và cần khoảng hở để nhiệt thoát ra. Kê sát tường khiến nhiệt quẩn tại chỗ, block phải chạy nhiều hơn mà tủ vẫn không đủ lạnh, đồng thời tiền điện tăng.
+
+    ### Vì sao tủ lạnh lạnh yếu dần theo thời gian?
+
+    Nguyên nhân phổ biến là dàn nóng bám bụi dày và gioăng cửa chai đi. Cả hai đều diễn ra chậm nên khó nhận ra, và cả hai đều xử lý được mà không cần thay tủ. Hãy kiểm hai thứ này trước khi nghĩ tới hỏng block.
+
+    ### Ficool có kiểm tra tủ lạnh tại nhà ở TP.HCM không?
+
+    Có. Bạn gửi model, cho biết cả tủ ấm hay chỉ một ngăn, tình trạng bắt đầu từ khi nào và kết quả sau khi kiểm bảy điểm cơ bản. Kỹ thuật viên Ficool sẽ định hướng trước khi tới. Chi phí phụ thuộc tình trạng thực tế và được thống nhất trước.
+  seo:
+    tieu_de: 'Tủ lạnh không lạnh: nguyên nhân và cách tự kiểm tra'
+    mo_ta: >-
+      Một câu hỏi cắt đôi danh sách nguyên nhân: cả tủ ấm hay chỉ một ngăn. Bảy
+      điểm bạn tự kiểm và dấu hiệu cần gọi kỹ thuật viên.
+    slug: tu-lanh-khong-lanh
+    tu_khoa_phu:
+    - tủ lạnh lạnh yếu
+    - tủ lạnh không mát
+    - tủ lạnh chạy nhưng không lạnh

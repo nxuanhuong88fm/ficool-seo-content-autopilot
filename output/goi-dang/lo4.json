@@ -1,0 +1,92 @@
+{
+ "TL-05": {
+  "title": "Tủ lạnh kêu to: tiếng nào bình thường, tiếng nào không",
+  "slug": "tu-lanh-keu-to",
+  "excerpt": "Sáu âm thanh nằm trong thiết kế, năm âm thanh cần kiểm tra, và bốn nguyên nhân nằm ngoài máy mà bạn tự xử lý được.",
+  "kw": "tủ lạnh kêu to",
+  "anh": 408,
+  "og": 409,
+  "cat": "Tủ lạnh"
+ },
+ "TL-06": {
+  "title": "Tủ lạnh chạy liên tục không ngắt, nguyên nhân là gì?",
+  "slug": "tu-lanh-chay-lien-tuc",
+  "excerpt": "Chạy nhiều mà vẫn đủ lạnh là chuyện tải nhiệt. Chạy nhiều mà không đủ lạnh là chuyện hệ thống. Cách phân biệt và sáu điểm bạn tự kiểm.",
+  "kw": "tủ lạnh chạy liên tục",
+  "anh": 408,
+  "og": 409,
+  "cat": "Tủ lạnh"
+ },
+ "TL-07": {
+  "title": "Hai bên tủ lạnh nóng, khi nào bình thường khi nào không?",
+  "slug": "tu-lanh-nong-hai-ben",
+  "excerpt": "Ống dàn ngưng chạy trong thành hông làm tủ ấm lên theo thiết kế. Bốn dấu hiệu bình thường, năm dấu hiệu bất thường và điều không nên làm.",
+  "kw": "tủ lạnh nóng hai bên",
+  "anh": 408,
+  "og": 409,
+  "cat": "Tủ lạnh"
+ },
+ "TL-09": {
+  "title": "Tủ lạnh có mùi hôi: tìm nguồn mùi trước khi khử",
+  "slug": "tu-lanh-co-mui-hoi",
+  "excerpt": "Bốn nguồn mùi, trong đó nguồn khó tìm nhất nằm ở khay bay hơi phía sau tủ. Thứ tự đúng khi khử mùi và bốn chỗ ẩm hay bị bỏ qua.",
+  "kw": "tủ lạnh có mùi hôi",
+  "anh": 408,
+  "og": 409,
+  "cat": "Tủ lạnh"
+ },
+ "TL-10": {
+  "title": "Gioăng tủ lạnh bị hở: cách nhận biết và khi nào cần thay",
+  "slug": "gioang-tu-lanh-bi-ho",
+  "excerpt": "Hai phép thử tự làm không cần dụng cụ, sáu nguyên nhân gioăng hở, và cách vệ sinh phục hồi trước khi nghĩ tới việc thay.",
+  "kw": "gioăng tủ lạnh bị hở",
+  "anh": 410,
+  "og": 411,
+  "cat": "Tủ lạnh"
+ },
+ "TL-12": {
+  "title": "Vị trí đặt tủ lạnh: khoảng thoáng, nguồn điện, nơi cần tránh",
+  "slug": "vi-tri-dat-tu-lanh",
+  "excerpt": "Khoảng thoáng để thải nhiệt là yêu cầu số một. Năm nơi cần tránh, yêu cầu về mặt sàn và nguồn điện, cùng checklist sáu điểm trước khi cắm điện.",
+  "kw": "vị trí đặt tủ lạnh",
+  "anh": 408,
+  "og": 409,
+  "cat": "Tủ lạnh"
+ },
+ "TL-13": {
+  "title": "Vận chuyển tủ lạnh, có được đặt nằm và chờ bao lâu?",
+  "slug": "van-chuyen-tu-lanh",
+  "excerpt": "Dầu bôi trơn trong block là lý do phải chờ trước khi cắm điện. Sáu việc chuẩn bị, cách xử lý nếu buộc phải đặt nằm và thứ tự khi tới nơi mới.",
+  "kw": "vận chuyển tủ lạnh",
+  "anh": 408,
+  "og": 409,
+  "cat": "Tủ lạnh"
+ },
+ "TL-14": {
+  "title": "Cách chỉnh nhiệt độ tủ lạnh theo lượng thực phẩm",
+  "slug": "cach-chinh-nhiet-do-tu-lanh",
+  "excerpt": "Nấc trên núm xoay không phải độ C. Cách đo nhiệt độ thực, mức lấp đầy hợp lý và bốn thời điểm nên điều chỉnh lại.",
+  "kw": "cách chỉnh nhiệt độ tủ lạnh",
+  "anh": 408,
+  "og": 409,
+  "cat": "Tủ lạnh"
+ },
+ "TL-15": {
+  "title": "Checklist nghiệm thu tủ lạnh, hai bước cần làm",
+  "slug": "checklist-nghiem-thu-tu-lanh",
+  "excerpt": "Tủ lạnh không nghiệm thu ngay tại chỗ được. Tám điểm kiểm tại chỗ và bốn điểm kiểm bằng nhiệt kế sau nhiều giờ.",
+  "kw": "checklist nghiệm thu tủ lạnh",
+  "anh": 410,
+  "og": 411,
+  "cat": "Tủ lạnh"
+ },
+ "TL-16": {
+  "title": "Chọn dung tích tủ lạnh bao nhiêu lít cho gia đình?",
+  "slug": "chon-dung-tich-tu-lanh",
+  "excerpt": "Số người chỉ là điểm khởi đầu. Sáu yếu tố làm tăng nhu cầu, vì sao dung tích ghi trên tem không phải dung tích dùng được, và bốn thứ cần đo.",
+  "kw": "chọn dung tích tủ lạnh",
+  "anh": 408,
+  "og": 409,
+  "cat": "Tủ lạnh"
+ }
+}

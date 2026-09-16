@@ -1,0 +1,162 @@
+chu_de:
+  id: TD-10
+  tieu_de: 'Cách vệ sinh tủ mát: Làm sạch kệ, gioăng cửa và khu vực thoát nước'
+  tu_khoa_chinh: cách vệ sinh tủ mát
+  chuyen_muc: Tủ mát, tủ đông
+  the:
+  - Vệ sinh
+  giai_doan_phieu: F2
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Tủ mát dùng trong bán hàng có điều kiện vận hành khác tủ lạnh gia đình: cửa
+    mở rất nhiều lần trong ngày, hàng hoá thường xếp dày, và phần lớn model có
+    cửa kính nên bề mặt cần sạch cả vì lý do trưng bày. Việc vệ sinh vì thế phải
+    tính tới cả ba phía: bên trong khoang, phần kính cùng gioăng cửa, và khu vực
+    kỹ thuật gồm dàn nóng, khay hứng nước bay hơi và đường thoát nước ngưng.
+    Trong khoang, các bề mặt là nhựa và kính chịu lực nên nước quá nóng đổ lên
+    kính đang lạnh có thể gây nứt do sốc nhiệt, còn chất tẩy mạnh có thể làm
+    giòn nhựa và để lại mùi bám sang hàng hoá. Gioăng cửa là chi tiết cần chú ý
+    riêng: nó có rãnh nên cặn bẩn tích trong rãnh làm gioăng áp không đều, dẫn
+    tới khí lạnh thoát ra, máy chạy nhiều hơn và tuyết bám quanh khu vực hở; với
+    tủ mát cửa kính dùng gioăng nam châm, cặn bẩn còn làm giảm lực hít. Khu vực
+    thoát nước là nơi hay bị bỏ qua nhất: nước ngưng từ dàn lạnh chảy theo máng
+    và đường ống ra khay bay hơi, và khi đường này tắc do cặn hoặc nhớt sinh học
+    thì nước đọng trong khoang hoặc tràn ra sàn. Về thời điểm, nên chọn lúc
+    lượng hàng ở mức thấp nhất và cần chuẩn bị chỗ giữ lạnh cho hàng, vì cửa mở
+    lâu làm nhiệt độ khoang tăng. Sau khi vệ sinh, cần lau khô hoàn toàn trước
+    khi xếp hàng lại và đo nhiệt độ thực trước khi kết luận tủ đã ổn định.
+  nguon:
+  - url: https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety
+    title: US FDA — Refrigerator Thermometers and Food Safety
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.epa.gov/mold/mold-course-chapter-2
+    title: US EPA — Mold Course, Chapter 2
+  serp: []
+
+bai_viet:
+  than: |
+    # Cách vệ sinh tủ mát: Làm sạch kệ, gioăng cửa và khu vực thoát nước
+
+    Tủ mát bán hàng cần vệ sinh ở **ba phía**, và hai trong ba phía không nằm bên trong khoang: phần kính cùng gioăng cửa, và khu vực kỹ thuật phía sau. Bỏ phía thứ ba là lý do "đã lau sạch rồi mà tủ vẫn kém lạnh".
+
+    <!-- IMAGE: IMG-001 | Chủ cửa hàng mở cửa kính tủ mát trưng bày, lấy hàng ra xếp vào thùng giữ lạnh đặt cạnh -->
+
+    ## Chuẩn bị: chọn đúng lúc
+
+    1. **Chọn giờ vắng khách**, khi lượng hàng ở mức thấp nhất.
+    2. **Chuẩn bị chỗ giữ lạnh** cho hàng: thùng đá, hoặc tủ khác còn chỗ.
+    3. Chuẩn bị khăn mềm, khăn khô, nước ấm nhẹ và dung dịch nhẹ.
+    4. **Rút phích cắm** nếu định làm kỹ.
+
+    Bước 2 quyết định phần an toàn hàng hoá. Cửa mở lâu làm nhiệt độ khoang tăng, và với tủ bán hàng thì đó là hàng của bạn.
+
+    ## Phía 1: bên trong khoang
+
+    | Bước | Việc | Lưu ý |
+    |---|---|---|
+    | 1 | Lấy hết hàng ra, phân loại | Bỏ món quá hạn |
+    | 2 | Tháo kệ và giá đỡ | **Để nguội** về nhiệt độ phòng rồi mới rửa |
+    | 3 | Lau thành, trần, đáy khoang | Từ trên xuống dưới, khăn mềm |
+    | 4 | Lau khô hoàn toàn | Còn ẩm là còn mùi |
+
+    Bước 2 có một cái bẫy: kệ kính vừa lấy ra đang rất lạnh, dội nước nóng lên là **sốc nhiệt** và kính có thể nứt.
+
+    Hai thứ không dùng: **nước quá nóng** trên kính đang lạnh, và **chất tẩy mạnh** — nhựa giòn đi và mùi hoá chất bám sang hàng hoá.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh rãnh gioăng cửa kính tủ mát bị lật ra, bên trong đọng cặn bẩn và một vành tuyết mỏng -->
+
+    ## Phía 2: kính và gioăng cửa
+
+    Với tủ trưng bày, mặt kính vừa là bộ phận kỹ thuật vừa là mặt tiền bán hàng. Nhưng phần đáng chú ý hơn nằm ở gioăng.
+
+    - **Lật rãnh gioăng ra lau.** Cặn tích trong rãnh làm gioăng áp không đều.
+    - Hậu quả của gioăng bẩn: khí lạnh thoát ra, **máy chạy nhiều hơn**, và **tuyết bám** quanh khu vực hở.
+    - Với gioăng **nam châm** ở cửa kính, cặn bẩn còn làm **giảm lực hít**, và cửa không tự đóng khít.
+    - Sau khi lau, kiểm bằng **phép thử tờ giấy**: kẹp tờ giấy vào mép, đóng cửa, rút ra phải thấy lực cản đều quanh viền.
+
+    Đây là hạng mục cho hiệu quả cao nhất trên mỗi phút bỏ ra, vì nó ảnh hưởng tới cả tiền điện lẫn nhiệt độ trong tủ.
+
+    ## Phía 3: khu vực thoát nước và dàn nóng
+
+    Đây là phía hay bị bỏ qua nhất, và cũng là phía gây ra những sự cố khó hiểu nhất.
+
+    Nước ngưng từ dàn lạnh chảy theo **máng** và **đường ống** ra **khay bay hơi**. Khi đường này tắc do cặn hoặc nhớt sinh học, nước đọng trong khoang hoặc tràn ra sàn.
+
+    Cần kiểm:
+
+    - **Máng hứng nước** trong khoang, thường ở đáy hoặc thành sau.
+    - **Đường ống thoát**, thông nếu tắc.
+    - **Khay bay hơi** phía sau: đúng vị trí, không nứt, không đầy tràn.
+    - **Dàn nóng và khu vực dưới gầm**: bụi bám làm giảm khả năng thải nhiệt.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, kéo tủ mát ra và vệ sinh dàn nóng cùng khay hứng nước phía sau -->
+
+    ## Xếp hàng lại: đừng chặn cửa gió
+
+    Vệ sinh xong mà xếp hàng chặn đường khí thì tủ vẫn có vùng ấm.
+
+    - Chừa khoảng trống trước **cửa gió** ở thành sau hoặc thành trên.
+    - Không xếp hàng chạm sát thành sau.
+    - Không xếp quá cao che lối khí đi.
+    - Với tủ trưng bày, kiểm cả **mặt trước**: hàng xếp sát kính để đẹp mắt cũng có thể chặn đường khí.
+    - Để hàng **nguội hẳn** trước khi đưa vào tủ.
+
+    ## Sau khi vệ sinh
+
+    1. **Lau khô hoàn toàn** trước khi xếp hàng lại.
+    2. Cắm điện, đóng cửa, **để tủ chạy tới khi ổn định**.
+    3. Đặt **nhiệt kế trong một cốc nước** ở giữa khoang và đo nhiệt độ thực.
+    4. Đưa hàng vào **theo đợt**, không dồn hết một lúc.
+
+    Bước 3 là bước xác nhận. Mốc an toàn cho khoang mát được khuyến cáo là **từ 4 độ C trở xuống**, và đó là nhiệt độ thực chứ không phải nấc trên bảng điều khiển.
+
+    ## Khi nào cần kỹ thuật viên
+
+    - Đường thoát nước **tắc mà không thông được** từ phía trong khoang.
+    - Nước vẫn đọng sau khi đã vệ sinh.
+    - **Tuyết bám dày** quay lại nhanh sau khi vừa vệ sinh.
+    - Gioăng đã **chai hoặc rách**, phép thử tờ giấy không đạt sau khi đã lau.
+    - Nhiệt độ thực **không đạt** dù đã vệ sinh và xếp thoáng.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh thông đường thoát nước ngưng và kiểm tra máng hứng trong tủ mát tại cửa hàng -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: loại tủ mát cửa kính hay tủ quầy, lần vệ sinh sâu gần nhất, hiện có nước đọng hoặc tuyết bám không, và nhiệt độ thực đo được nếu có. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn là vệ sinh thường lệ hay cần kiểm thêm gioăng, đường thoát và khả năng làm lạnh. Hãy nói trước lượng hàng đang chứa để bố trí phương án giữ lạnh trong lúc làm.
+
+    Nếu tủ không đủ lạnh, đọc <!-- INTERNAL: tủ mát không lạnh | /tu-mat-khong-lanh/ -->. Nếu thành sau bám tuyết, xem <!-- INTERNAL: tủ mát bị đóng tuyết | /tu-mat-bi-dong-tuyet/ -->. Sau khi vệ sinh xong, kiểm nhiệt độ theo <!-- INTERNAL: cách chỉnh nhiệt độ tủ mát | /cach-chinh-nhiet-do-tu-mat/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Vệ sinh tủ mát gồm những phần nào?
+
+    Ba phía: bên trong khoang gồm kệ, giá đỡ và các bề mặt; phần kính cùng gioăng cửa, đặc biệt là rãnh gioăng; và khu vực kỹ thuật gồm máng nước, đường thoát nước ngưng, khay bay hơi phía sau cùng dàn nóng. Phía thứ ba hay bị bỏ qua nhất.
+
+    ### Có được dùng nước nóng rửa kệ kính tủ mát không?
+
+    Không nên dội nước nóng lên kệ kính vừa lấy ra khi nó còn rất lạnh, vì sốc nhiệt có thể làm nứt. Hãy để kệ nguội về nhiệt độ phòng rồi mới rửa, dùng nước ấm nhẹ và dung dịch nhẹ thay vì chất tẩy mạnh vốn làm giòn nhựa và để lại mùi bám sang hàng hoá.
+
+    ### Vì sao phải lau rãnh gioăng cửa tủ mát?
+
+    Vì cặn tích trong rãnh làm gioăng áp không đều, khiến khí lạnh thoát ra, máy chạy nhiều hơn và tuyết bám quanh khu vực hở. Với tủ cửa kính dùng gioăng nam châm, cặn bẩn còn làm giảm lực hít nên cửa không tự đóng khít. Sau khi lau nên kiểm bằng phép thử tờ giấy.
+
+    ### Vệ sinh tủ mát xong vẫn đọng nước là do đâu?
+
+    Thường do đường thoát nước ngưng bị tắc bởi cặn hoặc nhớt sinh học, hoặc khay hứng nước bay hơi phía sau bị nứt, đầy hoặc đặt lệch. Nước ngưng từ dàn lạnh chảy theo máng và ống ra khay, nên tắc ở bất kỳ điểm nào trên đường đó đều làm nước đọng lại.
+
+    ### Ficool có nhận vệ sinh tủ mát cho cửa hàng tại TP.HCM không?
+
+    Có. Bạn gửi loại tủ, lần vệ sinh sâu gần nhất, tình trạng nước đọng hoặc tuyết bám, và nhiệt độ thực đo được nếu có. Kỹ thuật viên Ficool sẽ nêu phạm vi công việc, bàn phương án giữ lạnh cho hàng trong lúc làm, và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Cách vệ sinh tủ mát đúng ba phía
+    mo_ta: >-
+      Bên trong khoang, kính cùng gioăng cửa, và khu vực thoát nước phía sau —
+      phía thứ ba hay bị bỏ qua nhất.
+    slug: cach-ve-sinh-tu-mat
+    tu_khoa_phu:
+    - vệ sinh tủ mát
+    - làm sạch tủ mát
+    - vệ sinh tủ mát trưng bày

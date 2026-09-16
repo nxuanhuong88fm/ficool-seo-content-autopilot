@@ -1,0 +1,151 @@
+chu_de:
+  id: TD-09
+  tieu_de: 'Tủ mát bị đóng tuyết: Kiểm tra nhiệt độ và dấu hiệu hỏng hóc'
+  tu_khoa_chinh: tủ mát bị đóng tuyết
+  chuyen_muc: Tủ mát, tủ đông
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Ở tủ mát, một lớp sương mỏng hoặc vài giọt nước ngưng trên thành sau trong
+    lúc máy nén đang chạy là hiện tượng theo thiết kế, và phần ẩm đó được xử lý
+    trong chu kỳ xả tuyết rồi thoát ra ngoài theo đường dẫn nước ngưng. Điều bất
+    thường là lớp tuyết dày hoặc lớp đá cứng tồn tại liên tục, vì nó cho thấy
+    lượng ẩm đi vào vượt khả năng xử lý, hoặc chu kỳ xả tuyết không hoạt động
+    đúng. Các nguyên nhân liên quan tới sử dụng gồm: cửa mở quá nhiều lần hoặc
+    mở lâu trong ngày bán hàng, cửa không tự đóng lại, gioăng hở làm khí ẩm lọt
+    vào liên tục, hàng hoá còn ướt hoặc chưa nguội đưa vào tủ, và mức cài đặt
+    lạnh hơn mức cần khiến bề mặt dàn lạnh xuống thấp hơn và bám tuyết nhanh
+    hơn. Các nguyên nhân thuộc hỏng hóc gồm bộ xả tuyết, bộ hẹn giờ hoặc điện
+    trở xả tuyết không hoạt động, cảm biến xả tuyết sai, quạt dàn lạnh không
+    quay khiến khí lạnh đọng cục bộ, đường thoát nước ngưng tắc làm nước đọng
+    rồi đóng băng, và thiếu môi chất do rò rỉ. Trường hợp thiếu môi chất có một
+    dấu hiệu đặc trưng là tuyết hoặc đá chỉ đóng ở một đoạn của dàn lạnh trong
+    khi các đoạn còn lại khô, do phần môi chất còn lại chỉ bay hơi hết ở đoạn
+    đầu. Về đánh giá, nhiệt độ thực trong khoang cần được đo bằng nhiệt kế đặt
+    trong cốc nước ở giữa khoang, vì tủ vừa đóng tuyết dày vừa không đạt mốc là
+    nhóm dấu hiệu khác hẳn với tủ đóng tuyết nhưng vẫn đủ lạnh.
+  nguon:
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety
+    title: US FDA — Refrigerator Thermometers and Food Safety
+  serp: []
+
+bai_viet:
+  than: |
+    # Tủ mát bị đóng tuyết: Kiểm tra nhiệt độ và dấu hiệu hỏng hóc
+
+    Một lớp sương mỏng trên thành sau khi máy đang chạy là bình thường, và nó tan đi trong chu kỳ xả tuyết. Bất thường là **lớp tuyết dày hoặc lớp đá cứng tồn tại liên tục** — dấu hiệu rằng ẩm vào nhiều hơn mức tủ xử lý được, hoặc chu kỳ xả tuyết không làm việc.
+
+    <!-- IMAGE: IMG-001 | Chủ cửa hàng mở cửa tủ mát trưng bày, thành sau bên trong phủ một mảng tuyết trắng dày sau lưới cửa gió -->
+
+    ## Phân biệt bình thường và bất thường
+
+    | Quan sát | Đánh giá |
+    |---|---|
+    | Sương mỏng hoặc vài giọt nước trên thành sau khi máy chạy | Theo thiết kế |
+    | Lớp mờ xuất hiện rồi tan sau một lúc | Chu kỳ xả tuyết đang làm việc |
+    | Tuyết dày tồn tại liên tục nhiều ngày | Bất thường |
+    | Đá cứng đóng thành mảng | Bất thường |
+    | Tuyết chỉ ở **một đoạn** dàn lạnh, các đoạn khác khô | Bất thường, nghi thiếu môi chất |
+
+    Dòng cuối đáng chú ý nhất. Khi hệ thống thiếu môi chất do rò rỉ, phần còn lại bay hơi hết ngay ở đoạn đầu của dàn, nên chỉ đoạn đó lạnh sâu và bám đá còn phần sau thì khô.
+
+    ## Năm nguyên nhân thuộc cách sử dụng
+
+    - **Cửa mở quá nhiều lần hoặc mở lâu**, nhất là vào giờ đông khách.
+    - **Cửa không tự đóng lại** khi buông tay, do bản lề hoặc do tủ kê không cân.
+    - **Gioăng hở**, làm khí ẩm lọt vào liên tục.
+    - **Hàng còn ướt hoặc chưa nguội** đưa thẳng vào tủ.
+    - **Cài lạnh hơn mức cần**, làm bề mặt dàn lạnh xuống thấp hơn và bám tuyết nhanh hơn.
+
+    Năm nguyên nhân này xử lý được mà không cần mở máy, và nên loại trừ trước.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh dàn lạnh sau lưới thành sau tủ mát, một đoạn ống bám mảng đá dày trong khi đoạn kế bên khô ráo -->
+
+    ## Phép đo tách hai nhóm
+
+    Sau khi đã thấy tuyết, hãy trả lời thêm một câu:
+
+    > Tủ đóng tuyết — **nhưng nhiệt độ có đạt không?**
+
+    | Kết quả | Nghiêng về |
+    |---|---|
+    | Đóng tuyết **và vẫn đạt** mức 4 độ C trở xuống | Cách dùng, gioăng, cài đặt |
+    | Đóng tuyết **và không đạt** mốc | Hỏng hóc: xả tuyết, quạt, hoặc hệ thống kín |
+
+    Cách đo: đặt nhiệt kế trong một cốc nước ở giữa khoang, đóng cửa, hạn chế mở, chờ nhiều giờ rồi đọc. Ghi lại con số cùng thời điểm.
+
+    ## Năm nhóm hỏng hóc
+
+    1. **Bộ xả tuyết không hoạt động** — bộ hẹn giờ, điện trở xả tuyết hoặc mạch điều khiển.
+    2. **Cảm biến xả tuyết sai**, khiến chu kỳ không kích hoạt đúng lúc.
+    3. **Quạt dàn lạnh không quay**, làm khí lạnh đọng cục bộ và bám tuyết tại chỗ.
+    4. **Đường thoát nước ngưng tắc**, nước đọng lại rồi đóng băng ngay tại máng.
+    5. **Thiếu môi chất do rò rỉ** — nhận ra qua dấu hiệu đóng đá một đoạn ở trên.
+
+    Nhóm 4 có một triệu chứng đi kèm dễ thấy: nước đọng trong lòng tủ hoặc chảy ra ngoài.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, tháo lưới thành sau tủ mát và kiểm tra quạt dàn lạnh cùng máng thoát nước -->
+
+    ## Việc nên làm trước khi gọi thợ
+
+    1. **Xả tuyết thủ công**: rút điện, chuyển hàng sang chỗ giữ lạnh, mở cửa cho đá tan tự nhiên, hứng nước. Không dùng vật sắc cạy.
+    2. **Vệ sinh** thành sau, máng thoát nước và rãnh gioăng, rồi lau khô.
+    3. **Kiểm gioăng** bằng phép thử tờ giấy.
+    4. **Chỉnh lại cài đặt** nếu đang để lạnh hơn mức cần.
+    5. Cắm điện lại, chờ ổn định rồi **đo nhiệt độ thực**.
+    6. Theo dõi xem tuyết quay lại sau bao lâu.
+
+    Bước 6 là bước cho câu trả lời rõ nhất: tuyết dày lại rất nhanh sau khi vừa xả sạch là dấu hiệu nghiêng hẳn về hỏng hóc chứ không phải cách dùng.
+
+    ## Vì sao không nên để tuyết dày kéo dài
+
+    - Tuyết là **lớp cách nhiệt**, nên máy phải chạy nhiều hơn để giữ cùng nhiệt độ.
+    - Khí lạnh bị chặn, tạo **vùng ấm cục bộ** ngay giữa khoang hàng.
+    - Đá đóng ở máng có thể làm nước tràn ra lòng tủ và ra sàn.
+    - Với hàng bảo quản, nhiệt độ dao động là phần thiệt hại khó nhìn thấy nhất.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh kiểm tra bộ xả tuyết và cảm biến của tủ mát tại cửa hàng của khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Năm thông tin: tuyết đóng ở đâu và dày khoảng bao nhiêu, tuyết có phủ đều hay chỉ ở một đoạn, nhiệt độ **thực đo được** kèm thời điểm, tủ có nước đọng không, và cửa được mở nhiều tới mức nào trong ngày. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn nghiêng về cách dùng và gioăng, hay nghiêng về bộ xả tuyết, quạt và hệ thống kín. Ảnh chụp thành sau trong tủ giúp phân biệt rất nhanh.
+
+    Nếu tủ vừa đóng tuyết vừa không đủ lạnh, đọc <!-- INTERNAL: tủ mát không lạnh | /tu-mat-khong-lanh/ -->. Nếu nghi cài đặt chưa đúng, xem <!-- INTERNAL: cách chỉnh nhiệt độ tủ mát | /cach-chinh-nhiet-do-tu-mat/ -->. Nếu cửa không khít, đọc <!-- INTERNAL: gioăng tủ đông bị hở | /gioang-tu-dong-bi-ho/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Tủ mát đóng tuyết có bình thường không?
+
+    Một lớp sương mỏng hoặc vài giọt nước ngưng trên thành sau khi máy nén đang chạy là theo thiết kế, và phần ẩm đó được xử lý trong chu kỳ xả tuyết. Bất thường là lớp tuyết dày hoặc lớp đá cứng tồn tại liên tục nhiều ngày.
+
+    ### Vì sao tủ mát chỉ đóng đá ở một đoạn?
+
+    Đây là dấu hiệu nghi thiếu môi chất do rò rỉ: phần môi chất còn lại bay hơi hết ngay ở đoạn đầu của dàn lạnh, nên chỉ đoạn đó lạnh sâu và bám đá còn các đoạn sau thì khô. Trường hợp này cần kỹ thuật viên kiểm tra hệ thống kín.
+
+    ### Tủ mát đóng tuyết nhưng vẫn lạnh thì có cần sửa không?
+
+    Hãy đo nhiệt độ thực trước. Nếu vẫn đạt mức 4 độ C trở xuống thì nghiêng về cách dùng: cửa mở nhiều, gioăng hở, hàng còn ướt, hoặc cài lạnh hơn mức cần. Vẫn nên xử lý vì tuyết là lớp cách nhiệt, làm máy chạy nhiều hơn và tạo vùng ấm cục bộ trong khoang hàng.
+
+    ### Xả tuyết tủ mát xong bao lâu thì tuyết quay lại là bất thường?
+
+    Tuyết dày lại rất nhanh chỉ sau ít ngày dù đã vệ sinh và gioăng vẫn kín là dấu hiệu nghiêng về hỏng hóc, thường là bộ xả tuyết, cảm biến xả tuyết hoặc quạt dàn lạnh. Hãy ghi lại mốc thời gian này để cung cấp cho kỹ thuật viên.
+
+    ### Ficool có kiểm tra tủ mát đóng tuyết tại TP.HCM không?
+
+    Có. Bạn gửi vị trí và độ dày lớp tuyết, tuyết phủ đều hay chỉ một đoạn, nhiệt độ thực đo được, tình trạng nước đọng và tần suất mở cửa. Kỹ thuật viên Ficool sẽ khoanh vùng nguyên nhân, nêu hạng mục cần làm và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Tủ mát bị đóng tuyết, khi nào là dấu hiệu hỏng?
+    mo_ta: >-
+      Phân biệt sương theo thiết kế với tuyết bất thường, phép đo tách hai nhóm,
+      và dấu hiệu đóng đá một đoạn nghi thiếu môi chất.
+    slug: tu-mat-bi-dong-tuyet
+    tu_khoa_phu:
+    - tủ mát đóng tuyết nhiều
+    - tủ mát bị đá
+    - tủ mát bám tuyết thành sau

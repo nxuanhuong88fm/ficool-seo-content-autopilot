@@ -1,0 +1,146 @@
+chu_de:
+  id: MG-14
+  tieu_de: 'Vận chuyển máy giặt khi chuyển nhà: Cần chuẩn bị và cố định những gì?'
+  tu_khoa_chinh: vận chuyển máy giặt
+  chuyen_muc: Máy giặt
+  the:
+  - Lắp đặt
+  giai_doan_phieu: F4
+  loai_noi_dung: how_to
+
+nghien_cuu:
+  van_ban: >-
+    Rủi ro chính khi vận chuyển máy giặt nằm ở lồng giặt. Lồng được treo bằng lò
+    xo và giảm chấn để hấp thụ rung khi vắt; khi máy bị xóc trong lúc di chuyển,
+    lồng va đập vào thành máy và có thể làm cong trục, hỏng giảm chấn hoặc vỡ
+    đối trọng bê tông. Đó là lý do nhà sản xuất cấp kèm bu lông vận chuyển: lắp
+    lại chúng trước khi di chuyển sẽ khoá lồng vào vỏ máy. Nếu đã làm mất bu
+    lông, có thể mua theo model hoặc chèn kín khoang lồng bằng vật liệu mềm,
+    nhưng chèn không tương đương với khoá cứng. Trước khi di chuyển còn ba việc
+    bắt buộc: xả hết nước còn trong máy qua bộ lọc bơm xả và qua ống xả, vì nước
+    còn lại sẽ chảy ra trong lúc vận chuyển; khoá van cấp và tháo ống cấp, xả
+    hết nước trong ống; tháo ống xả và để khô. Về tư thế, máy giặt nên được giữ
+    đứng trong suốt quá trình vận chuyển; nếu buộc phải đặt nằm, nên tránh nằm
+    sấp về phía cửa và cần dựng lại rồi chờ trước khi cắm điện, vì dầu bôi trơn
+    và nước còn sót có thể chảy sang chỗ không mong muốn. Khi tới nơi mới, quy
+    trình lắp lại gồm: tháo bu lông vận chuyển, đặt máy đúng vị trí, đấu ống cấp
+    và ống xả đúng độ cao, cân chỉnh chân bằng thước nivo rồi khoá đai ốc hãm,
+    và chạy thử một chu trình ngắn để kiểm rò nước cùng độ rung.
+  nguon:
+  - url: https://www.energystar.gov/products/clothes_washers
+    title: ENERGY STAR — Clothes Washers
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ kỹ thuật
+  serp: []
+
+bai_viet:
+  than: |
+    # Vận chuyển máy giặt khi chuyển nhà: Cần chuẩn bị và cố định những gì?
+
+    Rủi ro lớn nhất khi chuyển máy giặt không phải va đập bên ngoài, mà là lồng giặt bên trong. Lồng treo bằng lò xo và giảm chấn; khi xe xóc, nó va đập vào thành máy. Bu lông vận chuyển sinh ra để khoá lồng lại, và lắp chúng vào là việc quan trọng nhất trước khi di chuyển.
+
+    <!-- IMAGE: IMG-001 | Máy giặt cửa trước đã tháo ống, đứng giữa phòng trống có thùng carton và đồ đạc đang đóng gói -->
+
+    ## Vì sao phải khoá lồng giặt?
+
+    Lồng được thiết kế để **chuyển động** — đó là cách nó hấp thụ rung khi vắt. Điều tốt khi máy đứng yên một chỗ lại thành rủi ro khi máy nằm trên xe.
+
+    Lồng đập tự do trong lúc vận chuyển có thể dẫn tới:
+
+    - Cong trục lồng.
+    - Hỏng giảm chấn hoặc giãn lò xo treo.
+    - Vỡ hoặc nứt đối trọng bê tông.
+
+    Ba hư hỏng này đều nằm sâu bên trong và đều tốn kém, trong khi việc phòng ngừa chỉ là vặn lại mấy con bu lông.
+
+    ## Nếu đã mất bu lông vận chuyển
+
+    Bu lông thường bị vứt đi sau lần lắp đầu tiên. Nếu không còn:
+
+    - **Mua theo model.** Đây là cách đúng, và bu lông là phụ kiện bán rời.
+    - **Chèn kín khoang lồng bằng vật liệu mềm.** Đây là giải pháp tạm, không tương đương với khoá cứng.
+
+    Nếu chọn cách chèn, hãy nói rõ với bên vận chuyển để họ đi cẩn thận hơn.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh bu lông vận chuyển đang được vặn trở lại vào lỗ ở lưng máy giặt, kèm vòng đệm nhựa -->
+
+    ## Ba việc bắt buộc trước khi di chuyển
+
+    | Việc | Vì sao | Cách làm |
+    |---|---|---|
+    | Xả hết nước còn trong máy | Nước sót sẽ chảy ra trong lúc vận chuyển | Mở bộ lọc bơm xả với khay hứng, hạ thấp ống xả cho chảy hết |
+    | Khoá van, tháo ống cấp | Ống còn nước sẽ rỉ ra | Khoá van, tháo đầu nối, dốc cho ráo |
+    | Tháo ống xả, để khô | Tránh ẩm mốc và nhỏ nước | Tháo, dốc ngược, lau khô |
+
+    Nhiều người bỏ qua việc thứ nhất vì tưởng máy đã xả hết. Thực tế luôn còn một lượng nước trong khoang bơm và trong ống.
+
+    ## Tư thế khi vận chuyển
+
+    **Giữ máy đứng** trong suốt quá trình. Đây là tư thế an toàn nhất cho hệ thống treo lồng.
+
+    Nếu buộc phải đặt nằm:
+
+    - Tránh nằm sấp về phía cửa.
+    - Lót đệm dày bên dưới.
+    - Khi tới nơi, **dựng lại và chờ** trước khi cắm điện. Dầu bôi trơn và nước còn sót cần thời gian trở về đúng chỗ.
+
+    Đừng cắm điện chạy thử ngay khi vừa dựng máy lên khỏi tư thế nằm.
+
+    ## Bảo vệ phần bên ngoài
+
+    - Dán cố định cửa máy để nó không bật ra khi khiêng.
+    - Bọc góc và mặt trước bằng chăn hoặc xốp.
+    - Cố định dây điện, đừng để nó lê dưới sàn.
+    - Giữ ống cấp và ống xả trong một túi riêng, dán vào thân máy.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, đặt khay hứng dưới nắp bộ lọc và xả hết nước còn lại trong máy giặt -->
+
+    ## Lắp lại ở nơi mới, năm bước
+
+    1. **Tháo bu lông vận chuyển.** Đây là bước đầu tiên và không được quên lần nữa.
+    2. Đặt máy đúng vị trí cuối cùng.
+    3. Đấu ống cấp, đấu ống xả ở đúng độ cao hãng quy định.
+    4. Cân chỉnh chân bằng thước nivo theo hai chiều, rồi **khoá đai ốc hãm**.
+    5. Chạy thử một chu trình ngắn, kiểm rò nước và độ rung khi vắt.
+
+    Bước 5 nên làm trước khi bên vận chuyển rời đi, nếu họ là người lắp lại.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh đấu lại ống cấp nước cho máy giặt tại khu giặt phơi nhà mới -->
+
+    ## Gửi gì cho Ficool?
+
+    Ba thông tin: model máy ghi trên tem sau lưng, còn giữ bu lông vận chuyển hay không, và ảnh khu vực dự kiến đặt máy ở nhà mới. Ficool tại TP.HCM sẽ cho biết trường hợp của bạn cần kỹ thuật viên tháo lắp hay bạn tự làm được, và nêu trước các điều kiện cần chuẩn bị ở nơi mới.
+
+    Điều kiện lắp ở nhà mới nên xem trước khi chuyển, đọc <!-- INTERNAL: lắp đặt máy giặt | /lap-dat-may-giat/ -->. Sau khi lắp xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu máy giặt | /checklist-nghiem-thu-may-giat/ -->. Đây cũng là dịp tốt để vệ sinh máy khi nó đang trống, xem <!-- INTERNAL: bao lâu nên vệ sinh máy giặt | /bao-lau-ve-sinh-may-giat/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Có cần lắp lại bu lông vận chuyển khi chuyển nhà không?
+
+    Có. Bu lông khoá lồng giặt vào vỏ máy, ngăn lồng va đập trong lúc xe xóc. Không có chúng, lồng có thể làm cong trục, hỏng giảm chấn hoặc nứt đối trọng bê tông. Nếu đã mất, hãy mua theo model thay vì bỏ qua.
+
+    ### Máy giặt có được đặt nằm khi vận chuyển không?
+
+    Nên giữ đứng. Nếu buộc phải nằm, hãy tránh nằm sấp về phía cửa, lót đệm dày bên dưới, và khi tới nơi thì dựng lại rồi chờ trước khi cắm điện. Dầu bôi trơn cùng nước còn sót cần thời gian trở về đúng chỗ.
+
+    ### Trước khi chuyển máy giặt cần xả nước thế nào?
+
+    Rút phích cắm, chuẩn bị khay hứng rồi mở nắp bộ lọc bơm xả cho nước đọng chảy hết. Sau đó hạ thấp đầu ống xả xuống dưới mức máy để phần nước còn lại theo trọng lực chảy ra. Cuối cùng khoá van, tháo ống cấp và dốc cho ráo.
+
+    ### Vận chuyển xong có chạy thử ngay được không?
+
+    Nếu máy được giữ đứng suốt hành trình thì có thể lắp và chạy thử sau khi đã tháo bu lông. Nếu máy từng nằm, hãy dựng lại và chờ trước khi cắm điện. Trong mọi trường hợp, phải tháo bu lông vận chuyển trước khi giặt mẻ đầu tiên.
+
+    ### Ficool có nhận tháo lắp máy giặt khi chuyển nhà tại TP.HCM không?
+
+    Có. Bạn gửi model, cho biết còn bu lông vận chuyển hay không, kèm ảnh khu vực đặt máy ở nhà mới. Ficool sẽ nêu phạm vi công việc trước. Chi phí phụ thuộc loại máy và hiện trạng hai nơi, được thống nhất trước khi làm.
+  seo:
+    tieu_de: Vận chuyển máy giặt khi chuyển nhà cần chuẩn bị gì?
+    mo_ta: >-
+      Rủi ro lớn nhất là lồng giặt va đập bên trong. Cách khoá lồng, ba việc bắt
+      buộc trước khi di chuyển và năm bước lắp lại ở nơi mới.
+    slug: van-chuyen-may-giat
+    tu_khoa_phu:
+    - chuyển máy giặt sang nhà mới
+    - bu lông vận chuyển máy giặt
+    - tháo lắp máy giặt chuyển nhà

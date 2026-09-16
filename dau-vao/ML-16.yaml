@@ -1,0 +1,143 @@
+chu_de:
+  id: ML-16
+  tieu_de: 'Checklist nghiệm thu máy lạnh sau vệ sinh, sửa chữa hoặc lắp đặt: Kiểm tra gì trước khi thanh toán?'
+  tu_khoa_chinh: checklist nghiệm thu máy lạnh
+  chuyen_muc: Máy lạnh
+  the:
+  - Kinh nghiệm hay
+  giai_doan_phieu: F3
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Nghiệm thu là bước duy nhất mà khách hàng còn ở thế chủ động, vì kỹ thuật
+    viên vẫn còn tại chỗ và mọi hạng mục chưa đạt đều xử lý được ngay. Sau khi
+    họ rời đi, việc gọi lại tốn thời gian của cả hai bên và dễ dẫn tới tranh
+    cãi về nguyên nhân. Nội dung nghiệm thu khác nhau theo loại công việc. Sau
+    vệ sinh: lưới lọc sạch và đã khô khi lắp lại, dàn lạnh không còn mảng bám
+    nhìn thấy, máng hứng sạch, ống thoát thông và nước chảy ra đúng đường, dàn
+    nóng đã được vệ sinh, khu vực làm việc được dọn sạch, máy chạy êm và gió ra
+    mát rõ. Sau sửa chữa: xác nhận đúng triệu chứng ban đầu đã hết, linh kiện
+    thay thế được cho xem hoặc bàn giao phần cũ, không phát sinh triệu chứng
+    mới, và có ghi lại nguyên nhân đã xử lý. Sau lắp đặt: giá đỡ chắc chắn và
+    cân bằng, bảo ôn kín toàn tuyến, ống thoát dốc liên tục, đã hút chân không,
+    chạy thử đủ lâu, đo chênh lệch nhiệt độ gió vào và gió ra, bàn giao đủ phụ
+    kiện và giấy tờ bảo hành. Có ba phép kiểm chung cho cả ba loại và ai cũng
+    làm được: chạy máy ít nhất 20 phút rồi sờ gió ra, quan sát nước thoát đúng
+    chỗ, và nghe tiếng vận hành ở cả hai dàn. Về giấy tờ, nên có phiếu ghi rõ
+    hạng mục đã làm và điều kiện bảo hành cho phần việc đó, vì bảo hành dịch vụ
+    khác bảo hành thiết bị của hãng.
+  nguon:
+  - url: https://www.energy.gov/energysaver/maintaining-your-air-conditioner
+    title: U.S. Department of Energy — Maintaining Your Air Conditioner
+  - url: https://www.daikin.com.vn/vi/support/faq/
+    title: Daikin Việt Nam — Câu hỏi thường gặp về điều hoà
+  serp: []
+
+bai_viet:
+  than: |
+    # Checklist nghiệm thu máy lạnh sau vệ sinh, sửa chữa hoặc lắp đặt: Kiểm tra gì trước khi thanh toán?
+
+    Nghiệm thu là bước duy nhất bạn còn ở thế chủ động, vì kỹ thuật viên vẫn ở đó và mọi hạng mục chưa đạt đều xử lý được ngay. Ba phép kiểm chung cho mọi loại công việc: chạy máy ít nhất 20 phút rồi sờ gió ra, xem nước thoát đúng đường ống, và nghe tiếng vận hành ở cả hai dàn.
+
+    <!-- IMAGE: IMG-001 | Khách hàng và kỹ thuật viên cùng đứng trước dàn lạnh đang chạy, khách đưa tay kiểm tra luồng gió ra -->
+
+    ## Ba phép kiểm chung, ai cũng làm được
+
+    Không cần biết kỹ thuật, chỉ cần thời gian và quan sát.
+
+    1. **Chạy đủ lâu rồi mới đánh giá.** Bật máy ít nhất 20 phút, đóng cửa phòng. Bật lên thấy mát rồi tắt ngay không nói lên điều gì.
+    2. **Xem nước thoát.** Ra chỗ đầu ống thoát, xác nhận nước chảy ra đó. Vào lại nhà, xem thân dàn lạnh có nhỏ giọt không.
+    3. **Nghe cả hai dàn.** Đứng nghe ở dàn lạnh, rồi ra dàn nóng. Ghi nhớ tiếng vận hành lúc này để so sánh về sau.
+
+    Ba việc này mất khoảng nửa tiếng, và nửa tiếng đó là lúc dễ phát hiện vấn đề nhất, khi mọi thứ còn xử lý được tại chỗ.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh đầu ống thoát nước ngưng ngoài tường, nước đang chảy ra thành dòng đều -->
+
+    ## Sau vệ sinh: bảy điểm
+
+    | Hạng mục | Đạt khi |
+    |---|---|
+    | Lưới lọc | Sạch và **đã khô** khi lắp lại |
+    | Dàn lạnh | Không còn mảng bám nhìn thấy giữa các lá nhôm |
+    | Máng hứng | Sạch, không còn cặn |
+    | Ống thoát | Thông, nước chảy ra đúng đường |
+    | Dàn nóng | Đã được vệ sinh, mặt lưới sạch |
+    | Khu vực làm việc | Dọn sạch, trả lại hiện trạng |
+    | Vận hành | Máy chạy êm, gió ra mát rõ |
+
+    Lưới lọc lắp lại khi còn ẩm là lỗi hay gặp, và nó dẫn thẳng tới mùi ẩm mốc sau vài ngày.
+
+    ## Sau sửa chữa: bốn điểm
+
+    - **Đúng triệu chứng ban đầu đã hết.** Nếu bạn gọi vì máy không lạnh, hãy xác nhận máy đã lạnh, không phải xác nhận thợ đã làm gì đó.
+    - **Được xem linh kiện đã thay.** Yêu cầu xem hoặc nhận lại phần cũ.
+    - **Không phát sinh triệu chứng mới.** Tiếng lạ, rung, nhỏ nước đều là dấu hiệu cần nêu ngay.
+    - **Có ghi lại nguyên nhân đã xử lý.** Thông tin này có giá trị cho lần sau.
+
+    ## Sau lắp đặt: bảy điểm
+
+    1. Giá đỡ chắc chắn và cân bằng, có đệm cao su dưới chân dàn nóng.
+    2. Bảo ôn kín toàn tuyến ống, không hở đoạn nào kể cả chỗ xuyên tường.
+    3. Ống thoát nước dốc liên tục, không có đoạn võng.
+    4. Đã hút chân không trước khi mở van.
+    5. Chạy thử đủ lâu, không phải bật thử vài phút.
+    6. Đo chênh lệch nhiệt độ giữa gió vào và gió ra ở dàn lạnh.
+    7. Bàn giao đủ phụ kiện, remote và giấy tờ bảo hành.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt CB, chỉ cho khách xem lớp bảo ôn quấn kín đoạn ống đồng xuyên tường -->
+
+    ## Giấy tờ: hai loại bảo hành khác nhau
+
+    Nhiều tranh cãi bắt nguồn từ việc gộp hai thứ làm một:
+
+    - **Bảo hành thiết bị** do hãng cấp, áp cho máy và linh kiện của máy.
+    - **Bảo hành dịch vụ** do đơn vị thực hiện cấp, áp cho phần việc họ vừa làm.
+
+    Hãy yêu cầu một phiếu ghi rõ hạng mục đã làm và điều kiện bảo hành cho phần việc đó. Một tờ giấy lúc bàn giao tiết kiệm rất nhiều thời gian về sau.
+
+    ## Nếu có hạng mục chưa đạt thì làm gì?
+
+    Nêu ngay khi kỹ thuật viên còn ở đó, cụ thể và bình tĩnh: chỉ vào hạng mục, nói nó chưa đạt ở điểm nào, và đề nghị xử lý trước khi thanh toán. Phần lớn trường hợp xử lý được tại chỗ trong vài phút.
+
+    Điều nên tránh là thanh toán trước rồi phản ánh sau. Khi đó bạn phải chờ lịch quay lại, và cuộc trao đổi dễ chuyển sang tranh luận về nguyên nhân.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh ký phiếu bàn giao trên bàn ăn, khách hàng đọc phiếu bên cạnh -->
+
+    ## Dùng checklist này với Ficool
+
+    Khi đặt dịch vụ với Ficool tại TP.HCM, bạn có thể mở checklist này ra đối chiếu ngay lúc bàn giao. Nếu có hạng mục chưa đạt, hãy yêu cầu kỹ thuật viên xử lý trước khi thanh toán — đó là cách làm bình thường và đúng thứ tự, không phải chuyện khó xử.
+
+    Nếu bạn đang chuẩn bị hỏi báo giá và muốn biết một lần vệ sinh gồm những hạng mục nào, xem <!-- INTERNAL: giá vệ sinh máy lạnh gồm những gì | /gia-ve-sinh-may-lanh/ -->. Nếu vừa lắp máy mới, đọc thêm <!-- INTERNAL: lắp máy lạnh có cần hút chân không | /lap-may-lanh-co-can-hut-chan-khong/ --> để biết vì sao điểm số 4 quan trọng.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Nghiệm thu máy lạnh nên chạy thử bao lâu?
+
+    Ít nhất 20 phút với cửa phòng đóng kín. Khoảng thời gian đó đủ để máy đạt trạng thái ổn định, để nước ngưng bắt đầu chảy ra ống thoát, và để bạn nghe được tiếng vận hành thật. Bật lên thấy mát rồi tắt ngay không kiểm chứng được gì.
+
+    ### Sau khi vệ sinh máy lạnh cần kiểm tra những gì?
+
+    Bảy điểm: lưới lọc sạch và đã khô, dàn lạnh không còn mảng bám, máng hứng sạch, ống thoát thông, dàn nóng đã vệ sinh, khu vực làm việc được dọn, và máy chạy êm với gió ra mát rõ. Lưu ý riêng điểm lưới lọc phải khô, vì lắp lại khi còn ẩm sẽ sinh mùi sau vài ngày.
+
+    ### Có nên thanh toán trước khi kiểm tra không?
+
+    Không nên. Nghiệm thu trước, thanh toán sau là thứ tự thông thường và nó bảo vệ cả hai bên. Khi kỹ thuật viên còn tại chỗ, mọi hạng mục chưa đạt đều xử lý được ngay; sau khi họ về, việc gọi lại tốn thời gian của cả hai.
+
+    ### Bảo hành dịch vụ khác bảo hành thiết bị thế nào?
+
+    Bảo hành thiết bị do hãng sản xuất cấp cho máy và linh kiện. Bảo hành dịch vụ do đơn vị thực hiện cấp cho phần việc họ vừa làm, ví dụ một lần vệ sinh hoặc một lần thay linh kiện. Hai loại có phạm vi và thời hạn khác nhau, nên cần phiếu ghi rõ.
+
+    ### Ficool có phiếu bàn giao khi hoàn thành không?
+
+    Có. Bạn nên yêu cầu phiếu ghi rõ các hạng mục đã thực hiện và điều kiện bảo hành cho phần việc đó ngay lúc bàn giao tại TP.HCM. Đối chiếu checklist này với phiếu giúp cả hai bên thống nhất công việc đã xong tới đâu.
+  seo:
+    tieu_de: Checklist nghiệm thu máy lạnh trước khi thanh toán
+    mo_ta: >-
+      Ba phép kiểm ai cũng làm được, cùng checklist riêng cho vệ sinh, sửa chữa
+      và lắp đặt. Đối chiếu ngay lúc bàn giao, khi kỹ thuật viên còn ở đó.
+    slug: checklist-nghiem-thu-may-lanh
+    tu_khoa_phu:
+    - nghiệm thu máy lạnh
+    - kiểm tra sau khi vệ sinh máy lạnh
+    - bàn giao máy lạnh sau lắp đặt

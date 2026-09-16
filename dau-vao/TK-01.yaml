@@ -1,0 +1,154 @@
+chu_de:
+  id: TK-01
+  tieu_de: 'Máy sấy quần áo sấy không khô: Nguyên nhân và các bước kiểm tra'
+  tu_khoa_chinh: máy sấy quần áo không khô
+  chuyen_muc: Thiết bị khác
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Sấy quần áo là bài toán chuyển hơi ẩm từ vải ra khỏi lồng sấy, nên mọi
+    nguyên nhân của việc "sấy không khô" đều quy về một trong hai chuyện: hơi ẩm
+    không thoát được, hoặc không đủ nhiệt và không đủ dòng khí để đưa nó ra. Có
+    ba kiểu máy sấy phổ biến và chúng xử lý hơi ẩm theo ba cách khác nhau, nên
+    điểm hỏng cũng khác nhau. Máy thông hơi đẩy khí ẩm ra ngoài qua một đường
+    ống, nên ống bị tắc, bị gập hoặc quá dài là nguyên nhân đặc trưng. Máy ngưng
+    tụ làm lạnh khí ẩm để nước ngưng lại và chứa vào một bình, nên bình đầy hoặc
+    bộ ngưng tụ bám xơ là điểm hỏng đặc trưng. Máy bơm nhiệt hoạt động theo
+    nguyên lý tương tự máy ngưng tụ nhưng tái sử dụng nhiệt, chạy ở nhiệt độ
+    thấp hơn và lâu hơn theo thiết kế, đồng thời thường có thêm bộ lọc thứ cấp
+    và bộ trao đổi nhiệt cần vệ sinh định kỳ. Nguyên nhân chung cho cả ba loại,
+    và cũng là nguyên nhân thường gặp nhất, là bộ lọc xơ vải bị bám kín làm giảm
+    dòng khí đi qua lồng. Các nguyên nhân liên quan tới cách dùng gồm nhồi quá
+    tải làm quần áo không đảo được, đồ đưa vào còn quá ướt do máy giặt vắt chưa
+    kỹ, chọn chương trình không phù hợp với loại vải, và phòng đặt máy quá kín
+    hoặc quá nóng làm giảm khả năng thải nhiệt. Nhóm cần kỹ thuật viên gồm cảm
+    biến độ ẩm bẩn hoặc hỏng, bộ gia nhiệt yếu, và quạt thổi khí không đủ lực.
+  nguon:
+  - url: https://www.energy.gov/energysaver/clothes-dryers
+    title: U.S. Department of Energy — Clothes Dryers
+  - url: https://www.energystar.gov/products/clothes_dryers
+    title: ENERGY STAR — Clothes Dryers
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ sản phẩm
+  serp: []
+
+bai_viet:
+  than: |
+    # Máy sấy quần áo sấy không khô: Nguyên nhân và các bước kiểm tra
+
+    Sấy quần áo chỉ là bài toán **đưa hơi ẩm ra khỏi lồng**. Nên "sấy không khô" luôn quy về một trong hai chuyện: hơi ẩm không thoát được, hoặc không đủ nhiệt và dòng khí để đẩy nó đi.
+
+    <!-- IMAGE: IMG-001 | Người dùng mở cửa máy sấy quần áo, lấy ra một chiếc áo còn ẩm và sờ thử -->
+
+    ## Ba loại máy, ba đường thoát ẩm
+
+    Biết máy nhà bạn thuộc loại nào là bước rút ngắn được nhiều nhất.
+
+    | Loại máy | Hơi ẩm đi đâu | Điểm hỏng đặc trưng |
+    |---|---|---|
+    | **Thông hơi** | Đẩy ra ngoài qua đường ống | Ống tắc, gập, hoặc quá dài |
+    | **Ngưng tụ** | Ngưng thành nước, chứa vào bình | Bình đầy, bộ ngưng tụ bám xơ |
+    | **Bơm nhiệt** | Như ngưng tụ, nhưng tái dùng nhiệt | Bộ lọc thứ cấp và bộ trao đổi nhiệt bẩn |
+
+    Máy bơm nhiệt còn một đặc điểm hay bị hiểu nhầm: nó chạy ở **nhiệt độ thấp hơn và lâu hơn** theo thiết kế. Sờ vào thấy đồ không nóng và mẻ sấy kéo dài không phải dấu hiệu hỏng.
+
+    ## Bốn nguyên nhân chung cho cả ba loại
+
+    1. **Bộ lọc xơ vải bám kín.** Đây là nguyên nhân thường gặp nhất, và cũng là thứ mất ba mươi giây để loại trừ.
+    2. **Nhồi quá tải.** Quần áo không đảo được thì khí nóng không luồn vào giữa khối vải.
+    3. **Đồ vào còn quá ướt.** Máy giặt vắt chưa kỹ thì máy sấy phải gánh phần việc của nó.
+    4. **Chọn sai chương trình** so với loại vải và độ dày.
+
+    Bốn thứ này giải thích phần lớn số ca, và không thứ nào cần mở máy.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh bộ lọc xơ vải rút ra khỏi máy sấy, mặt lưới phủ kín một lớp xơ dày -->
+
+    ## Theo từng loại máy
+
+    **Máy thông hơi** — kiểm đường ống thoát khí:
+
+    - Ống có bị **gập gấp** ở phía sau máy không.
+    - Ống có bị **bám xơ** bên trong không.
+    - Đầu ra ngoài trời có bị **che hoặc tắc** không.
+    - Ống có **dài hơn mức khuyến cáo** của máy không.
+
+    **Máy ngưng tụ** — kiểm phần chứa nước và bộ ngưng tụ:
+
+    - **Bình chứa nước** đã đầy chưa. Máy thường dừng hoặc giảm hiệu quả khi bình đầy.
+    - **Bộ ngưng tụ** có bám xơ không, và có tháo ra vệ sinh được theo hướng dẫn không.
+
+    **Máy bơm nhiệt** — thêm hai chỗ:
+
+    - **Bộ lọc thứ cấp** ngoài bộ lọc xơ vải chính.
+    - **Bộ trao đổi nhiệt**, cần vệ sinh định kỳ theo hướng dẫn.
+
+    ## Thứ tự kiểm tra — sáu bước
+
+    1. **Vệ sinh bộ lọc xơ vải.** Làm trước mọi thứ khác.
+    2. **Đổ bình chứa nước**, với máy ngưng tụ và bơm nhiệt.
+    3. **Giảm tải**, thử một mẻ ít đồ hơn.
+    4. **Vắt lại** đồ ở máy giặt trước khi cho vào sấy.
+    5. **Kiểm đường ống thoát khí**, với máy thông hơi.
+    6. **Kiểm chương trình** đã chọn có hợp với loại vải không.
+
+    Làm hết sáu bước rồi thử lại một mẻ. Nếu vẫn không khô, nguyên nhân nằm bên trong máy.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, kéo máy sấy ra khỏi tường và kiểm tra đoạn ống thoát khí phía sau -->
+
+    ## Phòng đặt máy cũng ảnh hưởng
+
+    Với máy ngưng tụ và bơm nhiệt, máy thải nhiệt vào chính căn phòng đang đặt nó. Phòng quá kín hoặc quá nóng làm khả năng thải nhiệt giảm, và mẻ sấy kéo dài ra.
+
+    Nếu máy đặt trong một hốc kín hoặc phòng giặt nhỏ không có thông gió, hãy thử mở cửa phòng trong lúc sấy và so kết quả. Đây là phép thử không tốn gì.
+
+    ## Khi nào cần kỹ thuật viên
+
+    - Đã làm hết sáu bước mà đồ vẫn ẩm sau một mẻ đầy đủ.
+    - **Cảm biến độ ẩm** bẩn hoặc hỏng — máy tự dừng sớm vì tưởng đồ đã khô.
+    - **Bộ gia nhiệt yếu** — lồng quay nhưng không đủ nhiệt.
+    - **Quạt thổi khí không đủ lực.**
+    - Máy chạy hết chu trình mà đồ gần như không thay đổi.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh tháo nắp sau máy sấy quần áo để kiểm tra quạt thổi và bộ gia nhiệt tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: máy thuộc loại thông hơi, ngưng tụ hay bơm nhiệt; đồ ẩm đều hay chỉ ẩm ở phần dày; lần vệ sinh bộ lọc gần nhất; và mẻ sấy kéo dài hơn trước bao nhiêu. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn nghiêng về đường thoát ẩm, về cách dùng, hay về bộ gia nhiệt và cảm biến. Nếu máy đặt trong hốc kín, hãy nói luôn.
+
+    Nếu lồng quay mà không thấy nóng chút nào, đọc <!-- INTERNAL: máy sấy quần áo không nóng | /may-say-quan-ao-khong-nong/ -->. Nếu kèm tiếng ồn lạ, xem <!-- INTERNAL: máy sấy quần áo kêu to | /may-say-quan-ao-keu-to/ -->. Nếu nghi vị trí đặt và đường thoát chưa đúng, đọc <!-- INTERNAL: lắp đặt máy sấy quần áo | /lap-dat-may-say-quan-ao/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy sấy quần áo sấy không khô là do đâu?
+
+    Nguyên nhân thường gặp nhất là bộ lọc xơ vải bám kín làm giảm dòng khí qua lồng. Kế đó là nhồi quá tải, đồ vào còn quá ướt do máy giặt vắt chưa kỹ, và chọn sai chương trình. Riêng theo loại máy: máy thông hơi hay tắc đường ống, máy ngưng tụ hay đầy bình nước, máy bơm nhiệt cần vệ sinh bộ lọc thứ cấp và bộ trao đổi nhiệt.
+
+    ### Máy sấy bơm nhiệt sấy lâu có phải bị hỏng không?
+
+    Không nhất thiết. Máy bơm nhiệt chạy ở nhiệt độ thấp hơn và lâu hơn theo thiết kế, nên mẻ sấy kéo dài và đồ lấy ra không nóng là bình thường. Chỉ đáng lo khi thời gian dài hơn hẳn so với chính chiếc máy đó trước đây, hoặc đồ vẫn còn ẩm sau một mẻ đầy đủ.
+
+    ### Bao lâu nên vệ sinh bộ lọc xơ vải máy sấy?
+
+    Nên làm sau mỗi mẻ hoặc vài mẻ, tuỳ lượng xơ. Đây là việc mất khoảng ba mươi giây và nó ảnh hưởng trực tiếp tới dòng khí đi qua lồng, tức tới cả thời gian sấy lẫn điện tiêu thụ. Với máy bơm nhiệt còn có bộ lọc thứ cấp cần vệ sinh theo hướng dẫn riêng.
+
+    ### Phòng đặt máy sấy có ảnh hưởng không?
+
+    Có, với máy ngưng tụ và bơm nhiệt, vì chúng thải nhiệt vào chính căn phòng đang đặt máy. Phòng quá kín hoặc quá nóng làm khả năng thải nhiệt giảm và mẻ sấy kéo dài. Hãy thử mở cửa phòng trong lúc sấy và so kết quả — phép thử này không tốn gì.
+
+    ### Ficool có kiểm tra máy sấy quần áo tại TP.HCM không?
+
+    Có. Bạn gửi loại máy, tình trạng đồ sau khi sấy, lần vệ sinh bộ lọc gần nhất và mẻ sấy kéo dài hơn trước bao nhiêu. Kỹ thuật viên Ficool sẽ khoanh vùng nguyên nhân trước khi tới, nêu hạng mục cần làm và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Máy sấy quần áo không khô, kiểm tra gì trước?
+    mo_ta: >-
+      Ba loại máy sấy có ba đường thoát ẩm khác nhau. Bốn nguyên nhân chung, sáu
+      bước kiểm tra và khi nào cần kỹ thuật viên.
+    slug: may-say-quan-ao-khong-kho
+    tu_khoa_phu:
+    - máy sấy không khô
+    - máy sấy quần áo sấy lâu
+    - quần áo sấy xong vẫn ẩm

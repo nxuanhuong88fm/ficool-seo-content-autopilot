@@ -1,0 +1,152 @@
+chu_de:
+  id: ML-08
+  tieu_de: 'Bao lâu nên vệ sinh máy lạnh? Cách xác định theo mức sử dụng'
+  tu_khoa_chinh: bao lâu vệ sinh máy lạnh
+  chuyen_muc: Máy lạnh
+  the:
+  - Vệ sinh
+  giai_doan_phieu: F2
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Các tài liệu hướng dẫn bảo dưỡng điều hoà không đưa ra một con số tần suất
+    chung cho mọi máy, mà gắn tần suất với điều kiện vận hành. Bộ Năng lượng Hoa
+    Kỳ khuyến cáo kiểm tra lưới lọc theo tháng trong mùa dùng nhiều và làm sạch
+    hoặc thay khi thấy bẩn, đồng thời nêu rằng môi trường nhiều bụi, nhà có thú
+    nuôi hoặc máy chạy gần như liên tục đều rút ngắn khoảng cách giữa hai lần
+    làm sạch. Tài liệu cũng phân biệt rõ hai nhóm việc có chu kỳ khác nhau:
+    phần lưới lọc mà người dùng tự làm được với chu kỳ ngắn, và phần dàn trao
+    đổi nhiệt, máng nước, quạt cùng dàn nóng vốn cần kỹ thuật viên với chu kỳ
+    dài hơn. Lá dàn lạnh và dàn nóng bám bụi làm giảm khả năng trao đổi nhiệt,
+    và bụi tích tụ theo thời gian chứ không theo lịch, nên cách xác định đáng
+    tin là kết hợp mốc thời gian tham khảo với việc quan sát dấu hiệu thực tế:
+    gió ra yếu đi, mùi ẩm xuất hiện, máy chạy lâu hơn để đạt cùng nhiệt độ,
+    hoặc có nước nhỏ giọt. Với môi trường thương mại như quán ăn, văn phòng
+    hoặc nhà gần đường lớn, lượng bụi và dầu mỡ bám nhiều hơn hẳn so với hộ gia
+    đình dùng vài giờ mỗi tối, nên cùng một model có thể cần chu kỳ rất khác
+    nhau.
+  nguon:
+  - url: https://www.energy.gov/energysaver/maintaining-your-air-conditioner
+    title: U.S. Department of Energy — Maintaining Your Air Conditioner
+  - url: https://www.energy.gov/energysaver/air-conditioning
+    title: U.S. Department of Energy — Air Conditioning
+  - url: https://www.daikin.com.vn/vi/support/faq/
+    title: Daikin Việt Nam — Hỏi đáp hỗ trợ
+  serp: []
+
+bai_viet:
+  than: |
+    # Bao lâu nên vệ sinh máy lạnh? Cách xác định theo mức sử dụng
+
+    Câu trả lời không phải một con số. Bụi tích tụ theo **điều kiện vận hành**, không theo lịch, nên hai chiếc máy cùng model đặt ở hai nhà khác nhau có thể cần chu kỳ rất khác nhau. Bài này đưa mốc tham khảo, rồi đưa cách tự điều chỉnh mốc đó cho nhà bạn.
+
+    <!-- IMAGE: IMG-001 | Người dùng đứng trong phòng khách nhìn lên dàn lạnh treo tường, tay cầm remote máy lạnh -->
+
+    ## Vì sao không có một con số chung
+
+    Ba chiếc máy sau đây không thể dùng chung một lịch:
+
+    - Máy trong phòng ngủ, bật vài giờ mỗi tối, cửa sổ đóng kín.
+    - Máy trong quán ăn, chạy suốt giờ mở cửa, có dầu mỡ trong không khí.
+    - Máy trong phòng làm việc mặt tiền đường lớn, bụi vào liên tục.
+
+    Lượng bụi và dầu bám lên lá nhôm ở ba trường hợp này chênh nhau rất xa. Một lịch cố định sẽ hoặc thừa cho máy thứ nhất, hoặc thiếu cho hai máy còn lại.
+
+    ## Bốn yếu tố quyết định tần suất
+
+    | Yếu tố | Kéo chu kỳ ngắn lại khi |
+    |---|---|
+    | Số giờ chạy mỗi ngày | Máy chạy gần như liên tục |
+    | Môi trường xung quanh | Gần đường lớn, công trình, nhiều bụi |
+    | Nguồn bám dính | Có khói bếp, dầu mỡ, khói thuốc, thú nuôi |
+    | Kiểu sử dụng | Quán ăn, văn phòng, cơ sở lưu trú thay vì hộ gia đình |
+
+    Càng nhiều dòng trong bảng đúng với nhà bạn, khoảng cách giữa hai lần vệ sinh càng phải ngắn lại.
+
+    ## Mốc tham khảo theo mức sử dụng
+
+    | Mức sử dụng | Vệ sinh sâu | Rửa lưới lọc |
+    |---|---|---|
+    | Hộ gia đình, dùng theo mùa | Khoảng một lần mỗi năm | Mỗi tháng trong mùa dùng nhiều |
+    | Hộ gia đình, dùng gần như quanh năm | Khoảng hai lần mỗi năm | Mỗi tháng |
+    | Văn phòng, cửa hàng | Nhiều lần trong năm | Mỗi tháng hoặc dày hơn |
+    | Quán ăn, bếp, khu nhiều bụi | Dày hơn nhóm trên | Theo tuần tới nửa tháng |
+
+    Đây là **mốc để bắt đầu**, không phải quy định. Phần dưới là cách kiểm xem mốc đó có đúng với máy nhà bạn không.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh mặt lá nhôm dàn lạnh phủ lớp bụi dày, phía dưới là mảng nấm mốc sẫm màu trên máng hứng nước -->
+
+    ## Sáu dấu hiệu nói rằng đã tới kỳ
+
+    Những dấu hiệu này đáng tin hơn số tháng trên lịch:
+
+    1. **Gió ra yếu hơn** so với cảm nhận quen thuộc.
+    2. **Mùi ẩm** xuất hiện trong vài phút đầu sau khi bật máy.
+    3. **Máy chạy lâu hơn** mới đạt mức nhiệt bạn đặt.
+    4. **Nước nhỏ giọt** từ dàn lạnh.
+    5. **Tiếng ồn thay đổi**, nhất là tiếng rung hoặc tiếng va nhẹ theo nhịp.
+    6. **Nhìn thấy bụi** bám dày ở khe gió hoặc lá nhôm.
+
+    Thấy hai dấu hiệu trở lên thì đừng chờ tới mốc lịch. Ngược lại, chưa thấy dấu hiệu nào mà đã quá mốc thì vẫn nên kiểm, vì phần bụi bám bên trong không phải lúc nào cũng nhìn thấy từ ngoài.
+
+    ## Lưới lọc và vệ sinh sâu là hai chu kỳ khác nhau
+
+    Đây là chỗ hay bị gộp làm một.
+
+    - **Rửa lưới lọc** là việc bạn tự làm, chu kỳ ngắn, tính bằng tuần tới tháng.
+    - **Vệ sinh sâu** là việc của kỹ thuật viên, chu kỳ dài, và chạm tới lá dàn lạnh, máng nước, quạt lồng sóc và dàn nóng.
+
+    Rửa lưới lọc đều đặn **kéo dài** được khoảng cách giữa hai lần vệ sinh sâu, nhưng không thay thế được nó. Bụi lọt qua lưới vẫn bám dần lên lá nhôm.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt aptomat, dùng đèn pin soi vào khe gió dàn lạnh để đánh giá mức bụi bám -->
+
+    ## Cách tự lập lịch cho nhà mình
+
+    1. Chọn một mốc khởi điểm từ bảng mức sử dụng ở trên.
+    2. Ghi lại **ngày vệ sinh sâu gần nhất**. Không có ghi chép thì mọi ước lượng đều là đoán.
+    3. Giữa hai kỳ, mỗi tháng rút lưới lọc ra nhìn một lần.
+    4. Đến kỳ, đối chiếu với sáu dấu hiệu ở trên.
+    5. Nếu tới kỳ mà máy vẫn sạch và chạy tốt, **nới mốc ra**. Nếu chưa tới kỳ đã thấy dấu hiệu, **rút mốc lại**.
+
+    Sau một hai vòng như vậy, bạn sẽ có con số đúng với nhà mình thay vì con số đúng với trung bình.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh tháo mặt nạ dàn lạnh và ghi lịch bảo dưỡng vào phiếu cho khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Ba thông tin: máy chạy khoảng mấy giờ mỗi ngày, môi trường quanh nhà thế nào, và lần vệ sinh sâu gần nhất cách đây bao lâu. Kỹ thuật viên Ficool tại TP.HCM sẽ đề xuất chu kỳ phù hợp với máy nhà bạn, chứ không đưa một con số dùng chung. Nếu nhà có nhiều máy dùng khác nhau, hãy nói rõ từng máy.
+
+    Muốn biết phần nào tự làm được, đọc <!-- INTERNAL: vệ sinh máy lạnh tại nhà | /ve-sinh-may-lanh-tai-nha/ -->. Muốn biết chi phí gồm những phần nào, xem <!-- INTERNAL: giá vệ sinh máy lạnh | /gia-ve-sinh-may-lanh/ -->. Nếu máy đang có mùi, đọc <!-- INTERNAL: máy lạnh có mùi hôi | /may-lanh-co-mui-hoi/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Bao lâu nên vệ sinh máy lạnh một lần?
+
+    Tuỳ mức sử dụng. Hộ gia đình dùng theo mùa thường lấy mốc khoảng một lần mỗi năm cho vệ sinh sâu; dùng gần như quanh năm thì dày hơn; quán ăn và nơi nhiều bụi thì dày hơn nữa. Đây là mốc khởi điểm, còn con số đúng phải điều chỉnh theo dấu hiệu thực tế của máy.
+
+    ### Rửa lưới lọc thường xuyên có thay được vệ sinh sâu không?
+
+    Không. Rửa lưới lọc giữ cho cửa vào thông thoáng và kéo dài khoảng cách giữa hai lần vệ sinh sâu, nhưng bụi lọt qua lưới vẫn bám dần lên lá dàn lạnh, máng nước và quạt. Đây là hai chu kỳ khác nhau, không thay thế cho nhau.
+
+    ### Làm sao biết máy lạnh đã tới lúc cần vệ sinh?
+
+    Quan sát sáu dấu hiệu: gió ra yếu hơn, có mùi ẩm khi mới bật, máy chạy lâu hơn mới đạt nhiệt độ đặt, có nước nhỏ giọt, tiếng ồn thay đổi, và nhìn thấy bụi bám ở khe gió. Thấy hai dấu hiệu trở lên thì nên kiểm dù chưa tới mốc lịch.
+
+    ### Nhà có thú nuôi thì cần vệ sinh dày hơn không?
+
+    Có. Lông và bụi mịn bám vào lưới lọc và lá dàn lạnh nhanh hơn, nên khoảng cách giữa hai lần làm sạch nên ngắn lại. Nhà có khói bếp, khói thuốc hoặc ở gần đường lớn cũng rơi vào nhóm cần chu kỳ dày hơn.
+
+    ### Ficool có nhắc lịch vệ sinh máy lạnh tại TP.HCM không?
+
+    Có. Bạn gửi số giờ chạy mỗi ngày, môi trường quanh nhà và thời điểm vệ sinh gần nhất. Kỹ thuật viên Ficool sẽ đề xuất chu kỳ riêng cho từng máy và ghi lại mốc để nhắc vào kỳ sau.
+  seo:
+    tieu_de: Bao lâu nên vệ sinh máy lạnh một lần?
+    mo_ta: >-
+      Không có con số chung. Bốn yếu tố quyết định tần suất, mốc tham khảo theo
+      mức sử dụng và sáu dấu hiệu nói rằng đã tới kỳ.
+    slug: bao-lau-ve-sinh-may-lanh
+    tu_khoa_phu:
+    - chu kỳ vệ sinh máy lạnh
+    - dấu hiệu máy lạnh cần vệ sinh
+    - lịch bảo dưỡng máy lạnh

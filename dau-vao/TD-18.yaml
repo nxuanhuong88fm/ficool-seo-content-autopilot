@@ -1,0 +1,165 @@
+chu_de:
+  id: TD-18
+  tieu_de: 'Giá sửa tủ mát, tủ đông gồm những gì? Cách kiểm soát phát sinh khi sửa'
+  tu_khoa_chinh: giá sửa tủ mát tủ đông
+  chuyen_muc: Tủ mát, tủ đông
+  the:
+  - Kinh nghiệm hay
+  - Lỗi thường gặp
+  giai_doan_phieu: F3
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Sửa tủ mát và tủ đông khác sửa thiết bị gia dụng ở chỗ chúng thường là thiết
+    bị phục vụ kinh doanh, nên bài toán chi phí có thêm hai biến mà thiết bị gia
+    đình không có: thời gian ngừng hoạt động và phương án bảo quản hàng trong
+    lúc xử lý. Một báo giá đầy đủ thường tách thành các phần: phí kiểm tra hoặc
+    khảo sát để xác định nguyên nhân, công thực hiện cho từng hạng mục, chi phí
+    linh kiện nếu phải thay, chi phí cho các công việc thuộc hệ thống kín như xử
+    lý rò rỉ và nạp lại môi chất, và các khoản phụ thuộc điều kiện thực tế như
+    vị trí đặt khó tiếp cận, phải rút hàng ra, hoặc phải làm ngoài giờ bán hàng.
+    Một khoản riêng của nhóm thiết bị này là việc sửa tại chỗ hay phải đưa về
+    xưởng: với thiết bị lớn, khâu di dời có chi phí và thời gian riêng, và nó
+    ảnh hưởng trực tiếp tới thời gian ngừng. Báo giá qua điện thoại chỉ có thể
+    là khoảng ước lượng vì cùng một hiện tượng có thể bắt nguồn từ nhiều nhóm
+    nguyên nhân với khối lượng công việc rất khác nhau, từ vệ sinh dàn nóng và
+    thay gioăng cho tới xử lý rò rỉ trong hệ thống kín. Về nghiệm thu, tủ mát và
+    tủ đông cần nhiều giờ để hạ nhiệt độ toàn khoang nên kết quả không xác nhận
+    được ngay tại chỗ, và điều kiện bảo hành dịch vụ cùng cách liên hệ lại khi
+    kết quả chưa đạt cần được thống nhất bằng văn bản. Bảo hành dịch vụ do đơn
+    vị thực hiện cấp cho phần việc họ làm, khác với bảo hành thiết bị do hãng
+    cấp.
+  nguon:
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety
+    title: US FDA — Refrigerator Thermometers and Food Safety
+  serp: []
+
+bai_viet:
+  than: |
+    # Giá sửa tủ mát, tủ đông gồm những gì? Cách kiểm soát phát sinh khi sửa
+
+    Bài này không đưa con số, vì con số phụ thuộc nguyên nhân mà nguyên nhân thì phải kiểm mới biết. Thứ nói trước được là **cấu trúc** của một báo giá đúng — và với thiết bị kinh doanh, cấu trúc đó có hai khoản mà tủ lạnh gia đình không có.
+
+    <!-- IMAGE: IMG-001 | Chủ cửa hàng và kỹ thuật viên đứng cạnh tủ mát trưng bày, cùng xem bảng hạng mục trên phiếu khảo sát -->
+
+    ## Hai khoản riêng của thiết bị kinh doanh
+
+    - **Thời gian ngừng hoạt động.** Tủ nằm im một buổi là một buổi hàng không bán được hoặc phải gửi tạm nơi khác.
+    - **Phương án bảo quản hàng** trong lúc xử lý. Thùng đá, tủ mượn, hay chuyển sang tủ khác — đều là chi phí thật.
+
+    Hai khoản này ít khi nằm trên phiếu báo giá, nhưng chúng nằm trong túi bạn. Nên khi so hai phương án, hãy so cả chúng chứ đừng chỉ so dòng tổng.
+
+    ## Năm phần cấu thành một báo giá
+
+    | Phần | Gồm những gì |
+    |---|---|
+    | Kiểm tra, khảo sát | Công xác định nguyên nhân trước khi đề xuất hạng mục |
+    | Công thực hiện | Tính theo từng hạng mục, không gộp thành một dòng chung |
+    | Linh kiện | Quạt, rơ le, bộ xả tuyết, cảm biến, gioăng, bo mạch nếu phải thay |
+    | Hệ thống kín | Xử lý rò rỉ, hàn ống, hút chân không và nạp lại môi chất |
+    | Điều kiện thực tế | Vị trí khó tiếp cận, phải rút hàng ra, phải làm ngoài giờ bán hàng |
+
+    Dòng cuối đáng hỏi rõ. Làm ngoài giờ để không ảnh hưởng việc bán hàng là một lựa chọn hợp lý, nhưng nó nên được nói trước chứ không xuất hiện ở cuối phiếu.
+
+    ## Sửa tại chỗ hay đưa về xưởng?
+
+    Đây là câu hỏi riêng của nhóm thiết bị lớn, và nó ảnh hưởng tới cả tiền lẫn thời gian ngừng.
+
+    - **Tại chỗ**: nhanh hơn, không mất chi phí di dời, nhưng bị giới hạn bởi điều kiện mặt bằng.
+    - **Về xưởng**: xử lý được những hạng mục nặng, nhưng cộng thêm chi phí và thời gian cho hai lượt vận chuyển, và tủ vắng mặt lâu hơn.
+
+    Hãy hỏi thẳng: hạng mục này làm tại chỗ được không, và nếu phải đưa đi thì mất bao lâu.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh phiếu báo giá sửa tủ mát đặt trên quầy, các dòng hạng mục và cột chi phí bị làm mờ -->
+
+    ## Vì sao không báo giá chính xác qua điện thoại được
+
+    Cùng một hiện tượng, nhiều nhóm nguyên nhân. Ví dụ tủ mát không đủ lạnh có thể do:
+
+    - Hàng xếp chặn cửa gió ở thành sau.
+    - Gioăng cửa hở hoặc cửa không tự đóng.
+    - Dàn nóng bám bụi, thiếu khoảng thoáng.
+    - Quạt dàn lạnh không quay.
+    - Bộ xả tuyết hỏng khiến dàn bám tuyết dày.
+    - Rò rỉ môi chất trong hệ thống kín.
+
+    Khối lượng công việc của dòng đầu và dòng cuối cách nhau rất xa. Qua điện thoại, thứ hợp lý nhất là một khoảng ước lượng kèm điều kiện.
+
+    ## Bảy câu nên hỏi trước khi đồng ý
+
+    1. **Nguyên nhân được xác định là gì**, và xác định bằng cách nào?
+    2. Hạng mục sẽ làm gồm những gì, **tách theo từng dòng**?
+    3. Có phải thay linh kiện không, **đúng chủng loại hay loại tương đương**?
+    4. Nếu mở ra mà phát hiện thêm nguyên nhân khác thì **báo lại trước hay làm tiếp**?
+    5. Làm tại chỗ được không, hay phải đưa về xưởng, và mất bao lâu?
+    6. **Điều kiện bảo hành dịch vụ** cho phần việc này là gì?
+    7. Nếu sau nhiều giờ mà nhiệt độ vẫn chưa đạt thì liên hệ lại theo cách nào?
+
+    Câu 4 là câu chặn phát sinh hiệu quả nhất, và câu 5 là câu bảo vệ thời gian bán hàng của bạn.
+
+    ## Ba tình huống phát sinh thường gặp
+
+    - **Mở ra thấy thêm hỏng hóc khác.** Chặn trước bằng câu 4: yêu cầu báo lại và chờ bạn đồng ý.
+    - **Thay linh kiện không đúng chủng loại.** Chặn trước bằng câu 3, và yêu cầu được xem linh kiện cũ đã tháo ra.
+    - **Công việc kéo dài hơn dự kiến, hàng nằm ngoài lâu hơn.** Chặn trước bằng câu 5, và thống nhất phương án giữ lạnh ngay từ đầu.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, dùng đồng hồ đo kiểm tra quạt và bộ xả tuyết phía sau tủ mát -->
+
+    ## Nghiệm thu phải làm hai bước
+
+    Tủ mát và tủ đông cần nhiều giờ để hạ nhiệt độ toàn khoang, nên sờ tay thấy mát sau mười phút chưa chứng minh được gì.
+
+    - **Bước một, tại chỗ**: máy chạy êm, không rò nước, gioăng kín, tủ kê cân, khu vực được dọn, được xem linh kiện đã thay.
+    - **Bước hai, sau nhiều giờ**: đo nhiệt độ thực bằng nhiệt kế đặt trong khoang, và đây mới là bước xác nhận công việc đạt hay không.
+
+    Hãy thống nhất trước rằng sẽ có bước hai, và cách liên hệ nếu kết quả chưa đạt. Với hộ kinh doanh, nên hỏi thêm: nếu bước hai không đạt thì hàng đã đưa vào tủ xử lý thế nào.
+
+    ## Phân biệt hai loại bảo hành
+
+    - **Bảo hành thiết bị** do hãng cấp, áp cho tủ và linh kiện chính hãng.
+    - **Bảo hành dịch vụ** do đơn vị sửa cấp, áp cho phần việc họ vừa làm.
+
+    Hai loại này khác nhau và không thay thế cho nhau. Yêu cầu phiếu ghi rõ hạng mục đã làm và điều kiện bảo hành cho phần việc đó.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh ghi hạng mục đã thực hiện vào phiếu bàn giao tại quầy của cửa hàng -->
+
+    ## Gửi gì cho Ficool?
+
+    Năm thông tin: loại tủ mát hay tủ đông, hiện tượng cụ thể và bắt đầu từ bao giờ, nhiệt độ **thực đo được** nếu có, lượng hàng đang chứa, và vị trí đặt có dễ tiếp cận không. Kỹ thuật viên Ficool tại TP.HCM sẽ nêu các nhóm nguyên nhân khả dĩ, kiểm tra tại chỗ để chốt nguyên nhân, nói rõ hạng mục làm tại chỗ được hay phải đưa đi, rồi thống nhất chi phí trước khi làm. Với cửa hàng, hãy nói sớm về khung giờ thuận tiện để bố trí lịch.
+
+    Nếu tủ mát không đủ lạnh, đọc <!-- INTERNAL: tủ mát không lạnh | /tu-mat-khong-lanh/ -->. Nếu tủ đông không đông đá, xem <!-- INTERNAL: tủ đông không đông đá | /tu-dong-khong-dong-da/ -->. Nếu nghi gioăng đã hở, đọc <!-- INTERNAL: gioăng tủ đông bị hở | /gioang-tu-dong-bi-ho/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Giá sửa tủ mát, tủ đông gồm những khoản nào?
+
+    Một báo giá đầy đủ tách thành năm phần: phí kiểm tra hoặc khảo sát, công thực hiện theo từng hạng mục, chi phí linh kiện nếu phải thay, chi phí cho công việc thuộc hệ thống kín như xử lý rò rỉ và nạp lại môi chất, và các khoản phụ thuộc điều kiện thực tế như vị trí khó tiếp cận hoặc phải làm ngoài giờ bán hàng.
+
+    ### Vì sao không báo giá sửa tủ mát qua điện thoại được?
+
+    Vì cùng một hiện tượng có thể do nhiều nhóm nguyên nhân, từ hàng chặn cửa gió và gioăng hở cho tới rò rỉ trong hệ thống kín, và khối lượng công việc chênh nhau rất xa. Qua điện thoại chỉ nên là một khoảng ước lượng kèm điều kiện, còn con số cuối cùng phải chờ kiểm tra trực tiếp.
+
+    ### Sửa tủ đông tại chỗ hay đưa về xưởng thì hơn?
+
+    Tại chỗ nhanh hơn và không mất chi phí di dời, nhưng bị giới hạn bởi điều kiện mặt bằng. Đưa về xưởng xử lý được những hạng mục nặng nhưng cộng thêm chi phí và thời gian cho hai lượt vận chuyển, đồng thời tủ vắng mặt lâu hơn. Hãy hỏi rõ hạng mục này làm tại chỗ được không và mất bao lâu.
+
+    ### Làm sao tránh phát sinh khi sửa tủ mát cho cửa hàng?
+
+    Hỏi trước rằng nếu phát hiện thêm nguyên nhân khác thì bên thực hiện sẽ báo lại và chờ bạn đồng ý hay làm tiếp luôn, yêu cầu báo giá tách theo từng hạng mục, yêu cầu được xem linh kiện cũ đã tháo ra, và thống nhất ngay từ đầu về phương án giữ lạnh cho hàng trong lúc xử lý.
+
+    ### Ficool có báo hạng mục trước khi sửa tủ mát, tủ đông tại TP.HCM không?
+
+    Có. Kỹ thuật viên Ficool kiểm tra để xác định nguyên nhân, nêu hạng mục theo từng dòng, nói rõ phần nào làm tại chỗ được và thống nhất chi phí trước khi thực hiện. Phiếu bàn giao ghi rõ phần việc đã làm cùng điều kiện bảo hành dịch vụ cho phần việc đó.
+  seo:
+    tieu_de: Giá sửa tủ mát, tủ đông gồm những phần nào?
+    mo_ta: >-
+      Năm phần cấu thành báo giá, hai khoản riêng của thiết bị kinh doanh, và
+      bảy câu nên hỏi trước khi đồng ý sửa.
+    slug: gia-sua-tu-mat-tu-dong
+    tu_khoa_phu:
+    - chi phí sửa tủ đông
+    - báo giá sửa tủ mát
+    - phí kiểm tra tủ đông

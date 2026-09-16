@@ -1,0 +1,147 @@
+chu_de:
+  id: TL-13
+  tieu_de: 'Vận chuyển tủ lạnh: Có được đặt nằm và bao lâu mới cắm điện?'
+  tu_khoa_chinh: vận chuyển tủ lạnh
+  chuyen_muc: Tủ lạnh
+  the:
+  - Lắp đặt
+  giai_doan_phieu: F4
+  loai_noi_dung: how_to
+
+nghien_cuu:
+  van_ban: >-
+    Câu hỏi trung tâm khi vận chuyển tủ lạnh liên quan tới dầu bôi trơn trong
+    block máy nén. Block chứa một lượng dầu để bôi trơn các chi tiết chuyển
+    động; ở tư thế đứng, dầu nằm ở đáy block đúng nơi thiết kế. Khi tủ bị đặt
+    nằm, dầu có thể chảy ra khỏi khoang chứa và đi vào đường ống môi chất lạnh.
+    Nếu cắm điện ngay sau khi dựng lại, block khởi động trong lúc dầu chưa trở
+    về đủ, dẫn tới thiếu bôi trơn và có thể gây hỏng. Đó là lý do mọi hướng dẫn
+    sử dụng đều yêu cầu để tủ đứng yên một khoảng thời gian trước khi cắm điện
+    sau khi vận chuyển. Khoảng thời gian cụ thể khác nhau giữa các model và
+    được ghi trong tài liệu đi kèm; nguyên tắc chung được nhiều nhà sản xuất
+    nêu là thời gian chờ tương ứng với thời gian tủ từng nằm, và với tủ được
+    giữ đứng suốt hành trình thì thời gian chờ ngắn hơn nhiều. Về tư thế, giữ
+    đứng luôn là lựa chọn an toàn nhất. Nếu buộc phải nằm, nên tránh nằm về
+    phía có đường ống dẫn ở lưng và tránh nằm sấp về phía cửa. Các bước chuẩn bị
+    trước khi di chuyển gồm: rút phích cắm và để tủ rã đông hoàn toàn nếu có
+    tuyết, vì nước tan sẽ chảy ra trong lúc vận chuyển; đổ hết nước trong khay
+    bay hơi phía sau và trong bình chứa nước nếu tủ có chức năng lấy nước; lấy
+    hết thực phẩm; tháo hoặc cố định các khay kính và ngăn kéo bằng băng dính để
+    chúng không xô lệch và vỡ; cố định cửa bằng dây hoặc băng dính bản rộng; và
+    bọc góc cùng mặt ngoài để tránh xước. Khi tới nơi, nên đặt tủ vào vị trí
+    cuối cùng, cân chỉnh chân, rồi mới bắt đầu tính thời gian chờ.
+  nguon:
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Vận chuyển tủ lạnh: Có được đặt nằm và bao lâu mới cắm điện?
+
+    Câu trả lời ngắn: giữ đứng là an toàn nhất, và nếu tủ từng nằm thì phải để đứng yên một khoảng thời gian trước khi cắm điện. Lý do nằm ở dầu bôi trơn trong block máy nén — cắm điện quá sớm là cho block khởi động khi dầu chưa trở về đủ.
+
+    <!-- IMAGE: IMG-001 | Tủ lạnh đã dán cố định cửa bằng băng dính, đứng trong phòng trống cùng thùng carton đang đóng gói -->
+
+    ## Vì sao tư thế lại quan trọng?
+
+    Block máy nén chứa một lượng dầu để bôi trơn các chi tiết chuyển động. Ở tư thế **đứng**, dầu nằm ở đáy block, đúng nơi thiết kế.
+
+    Khi tủ bị đặt **nằm**, dầu có thể chảy ra khỏi khoang chứa và đi vào đường ống môi chất lạnh. Dựng lại thì dầu cần thời gian trở về.
+
+    Cắm điện ngay lúc đó nghĩa là block khởi động trong tình trạng thiếu bôi trơn. Đây là loại hư hỏng không lộ ra ngay mà xuất hiện sau đó, và nó nằm ở bộ phận đắt nhất của tủ.
+
+    ## Bao lâu thì được cắm điện?
+
+    Khoảng thời gian cụ thể **khác nhau giữa các model** và được ghi trong tài liệu đi kèm máy. Hãy tra theo model của bạn.
+
+    Nguyên tắc chung mà nhiều nhà sản xuất nêu: thời gian chờ tương ứng với thời gian tủ từng nằm. Tủ được giữ đứng suốt hành trình thì thời gian chờ ngắn hơn nhiều.
+
+    Và một điều nên làm đúng thứ tự: **đặt tủ vào vị trí cuối cùng, cân chỉnh chân, rồi mới bắt đầu tính giờ chờ.** Đừng để tủ ở giữa nhà chờ xong rồi mới kéo vào chỗ.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh các khay kính và ngăn kéo trong tủ lạnh đã được dán cố định bằng băng dính bản rộng -->
+
+    ## Sáu việc chuẩn bị trước khi di chuyển
+
+    1. **Rút phích cắm và rã đông hoàn toàn** nếu có tuyết. Nước tan sẽ chảy ra trong lúc vận chuyển.
+    2. **Đổ hết nước** trong khay bay hơi phía sau, và trong bình chứa nếu tủ có chức năng lấy nước.
+    3. **Lấy hết thực phẩm.**
+    4. **Tháo hoặc cố định khay kính và ngăn kéo** bằng băng dính. Khay kính xô lệch trong lúc xóc là vỡ.
+    5. **Cố định cửa** bằng dây hoặc băng dính bản rộng.
+    6. **Bọc góc và mặt ngoài** để tránh xước.
+
+    Việc thứ nhất và thứ hai hay bị bỏ qua, và cả hai đều dẫn tới nước chảy ra sàn xe hoặc sàn nhà mới.
+
+    ## Nếu buộc phải đặt nằm
+
+    | Nên | Không nên |
+    |---|---|
+    | Lót đệm dày bên dưới | Nằm sấp về phía cửa |
+    | Tránh nằm về phía có đường ống ở lưng | Chồng vật nặng lên trên |
+    | Ghi lại tủ đã nằm bao lâu | Cắm điện ngay khi vừa dựng lên |
+
+    Cột bên phải, dòng cuối, là điều quan trọng nhất trong cả bài này.
+
+    ## Khi tới nơi mới
+
+    1. Đưa tủ vào **vị trí cuối cùng**.
+    2. Kiểm khoảng hở lưng, hai bên và phía trên.
+    3. **Cân chỉnh chân** cho tủ không bập bênh, cửa tự khép.
+    4. Lau sạch bên trong, để cửa mở cho thoáng.
+    5. **Bắt đầu tính thời gian chờ** theo tài liệu của model.
+    6. Cắm điện, để tủ chạy không tải vài giờ rồi mới cho thực phẩm vào.
+
+    Bước 6 giúp tủ đạt nhiệt độ ổn định trước khi phải xử lý tải thực phẩm.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đang cân chỉnh chân đế tủ lạnh vừa đưa vào vị trí trong bếp nhà mới, tủ chưa cắm điện -->
+
+    ## Dấu hiệu cần chú ý sau khi cắm điện lại
+
+    - Block chạy nhưng tủ không lạnh sau nhiều giờ.
+    - Tiếng gõ hoặc tiếng va đập lạ khi block khởi động.
+    - Tủ rung mạnh bất thường.
+    - Nước đọng dưới gầm.
+
+    Nếu gặp các dấu hiệu này, hãy rút điện và gọi kiểm tra thay vì chạy tiếp để xem có tự hết không.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh kiểm tra block máy nén phía sau tủ lạnh vừa lắp đặt tại nhà mới -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: model tủ, tủ sẽ được giữ đứng hay có thể phải nằm, khoảng cách di dời, và ảnh vị trí dự kiến ở nơi mới. Ficool tại TP.HCM sẽ cho biết trường hợp của bạn cần kỹ thuật viên hỗ trợ hay bạn tự làm được, kèm thời gian chờ khuyến nghị theo model.
+
+    Vị trí ở nơi mới nên xem trước khi chuyển, đọc <!-- INTERNAL: vị trí đặt tủ lạnh | /vi-tri-dat-tu-lanh/ -->. Sau khi cắm điện và tủ chạy ổn định, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu tủ lạnh | /checklist-nghiem-thu-tu-lanh/ -->. Muốn biết chi phí nếu cần kỹ thuật viên, xem <!-- INTERNAL: giá sửa tủ lạnh | /gia-sua-tu-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Tủ lạnh có được đặt nằm khi vận chuyển không?
+
+    Giữ đứng là lựa chọn an toàn nhất. Nếu buộc phải nằm, hãy lót đệm dày, tránh nằm sấp về phía cửa, và ghi lại tủ đã nằm bao lâu. Sau khi dựng lại phải để tủ đứng yên một khoảng thời gian trước khi cắm điện.
+
+    ### Vì sao phải chờ trước khi cắm điện tủ lạnh mới chuyển?
+
+    Vì dầu bôi trơn trong block có thể đã chảy vào đường ống khi tủ nằm, và nó cần thời gian trở về khoang chứa. Cắm điện quá sớm là cho block khởi động trong tình trạng thiếu bôi trơn, và hư hỏng loại này nằm ở bộ phận đắt nhất của tủ.
+
+    ### Chờ bao lâu là đủ?
+
+    Khoảng thời gian cụ thể khác nhau giữa các model và được ghi trong tài liệu đi kèm, nên hãy tra theo model của bạn. Nguyên tắc chung nhiều hãng nêu là thời gian chờ tương ứng với thời gian tủ từng nằm; tủ giữ đứng suốt hành trình thì chờ ngắn hơn nhiều.
+
+    ### Có cần rã đông tủ lạnh trước khi chuyển nhà không?
+
+    Có, nếu trong tủ có tuyết. Nước tan sẽ chảy ra trong lúc vận chuyển và làm ướt xe cùng sàn nhà. Cũng nên đổ hết nước trong khay bay hơi phía sau và trong bình chứa nếu tủ có chức năng lấy nước.
+
+    ### Ficool có nhận di dời tủ lạnh trong TP.HCM không?
+
+    Có. Bạn gửi model, cho biết tủ sẽ được giữ đứng hay có thể phải nằm, khoảng cách di dời và ảnh vị trí dự kiến. Ficool sẽ nêu phạm vi công việc cùng thời gian chờ khuyến nghị theo model. Chi phí phụ thuộc kích thước tủ và hiện trạng hai nơi, được thống nhất trước.
+  seo:
+    tieu_de: Vận chuyển tủ lạnh, có được đặt nằm và chờ bao lâu?
+    mo_ta: >-
+      Dầu bôi trơn trong block là lý do phải chờ trước khi cắm điện. Sáu việc
+      chuẩn bị, cách xử lý nếu buộc phải đặt nằm và thứ tự khi tới nơi mới.
+    slug: van-chuyen-tu-lanh
+    tu_khoa_phu:
+    - chuyển tủ lạnh sang nhà mới
+    - tủ lạnh nằm bao lâu mới cắm điện
+    - di dời tủ lạnh

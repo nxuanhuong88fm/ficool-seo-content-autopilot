@@ -1,0 +1,149 @@
+chu_de:
+  id: TD-12
+  tieu_de: 'Lắp đặt tủ mát, tủ đông: Chọn vị trí và chuẩn bị nguồn điện'
+  tu_khoa_chinh: lắp đặt tủ đông
+  chuyen_muc: Tủ mát, tủ đông
+  the:
+  - Lắp đặt
+  giai_doan_phieu: F4
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Chất lượng vận hành của tủ mát và tủ đông phụ thuộc rất nhiều vào khâu lắp
+    đặt, vì phần lớn các sự cố về hiệu suất về sau đều bắt nguồn từ vị trí đặt
+    và điều kiện nguồn điện. Về vị trí, yêu cầu cơ bản là mặt sàn phẳng và chịu
+    được tải khi tủ đầy hàng, tủ được kê cân để không bập bênh, và có đủ khoảng
+    hở ở lưng cùng hai bên theo hướng dẫn của nhà sản xuất để dàn nóng thải được
+    nhiệt. Tủ đặt sát tường, đặt trong hốc kín hoặc bị hàng hoá vây quanh sẽ
+    phải chạy nhiều hơn để đạt cùng một nhiệt độ. Cần tránh các nguồn nhiệt như
+    bếp, lò, ánh nắng trực tiếp, và tránh vị trí có luồng khí nóng ẩm thổi vào
+    vì làm tăng ngưng tụ bề mặt. Mỗi model có một khoảng nhiệt độ môi trường mà
+    nó được thiết kế để làm việc, nên đặt tủ ở nơi nóng hơn khoảng đó sẽ làm khả
+    năng làm lạnh giảm. Về nguồn điện, các hãng khuyến cáo cắm trực tiếp vào ổ
+    cắm riêng có tiếp địa thay vì dùng ổ chia hoặc dây nối dài, vì thiết bị làm
+    lạnh có dòng khởi động cao; việc bố trí aptomat và tiết diện dây phù hợp
+    thuộc phần việc của thợ điện. Sau vận chuyển, cần để tủ đứng yên một khoảng
+    thời gian theo hướng dẫn của model trước khi cắm điện, để dầu bôi trơn trở
+    về đúng vị trí trong máy nén. Khi mới cắm điện, tủ cần chạy không tải tới
+    khi đạt nhiệt độ rồi mới đưa hàng vào, và nên đưa theo đợt thay vì dồn hết
+    một lúc.
+  nguon:
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Lắp đặt tủ mát, tủ đông: Chọn vị trí và chuẩn bị nguồn điện
+
+    Phần lớn những sự cố về hiệu suất sau này đều bắt nguồn từ khâu lắp đặt. Một chiếc tủ tốt đặt sai chỗ sẽ chạy nhiều hơn, tốn điện hơn và hỏng sớm hơn một chiếc tủ bình thường đặt đúng chỗ.
+
+    <!-- IMAGE: IMG-001 | Chủ cửa hàng và kỹ thuật viên đứng trong kho, cùng đo khoảng trống dự kiến kê tủ đông bằng thước dây -->
+
+    ## Đo trước khi mua, không đo sau khi hàng về
+
+    Bốn phép đo, theo thứ tự:
+
+    1. **Chỗ đặt** — rộng, sâu, cao.
+    2. **Khoảng hở thải nhiệt** cần chừa thêm ở lưng, hai bên và phía trên theo hướng dẫn của model.
+    3. **Lối đi và cửa ra vào** — cả chiều rộng lẫn khúc cua, cả bậc thềm.
+    4. **Khoảng trống mở cửa hoặc mở nắp** — đủ để mở hết, và đủ để rút giỏ ra.
+
+    Phép đo thứ tư hay bị quên. Với tủ đông nằm, nắp mở lên cao hơn nhiều so với chiều cao thân tủ, nên kệ treo phía trên là một vấn đề có thật.
+
+    ## Mặt sàn và độ cân
+
+    - Sàn phải **phẳng và chịu được tải khi tủ đầy hàng**. Một chiếc tủ đông chất đầy nặng hơn nhiều so với lúc rỗng.
+    - Kê **cân**, không bập bênh. Đẩy nhẹ bốn góc để kiểm.
+    - Tủ nghiêng làm nước ngưng không chảy đúng hướng thiết kế, và làm cửa không tự đóng lại.
+
+    Với sàn gạch cũ hoặc sàn gỗ, hãy kiểm cả khả năng lún tại chỗ đặt chân tủ.
+
+    ## Bốn vị trí nên tránh
+
+    | Vị trí | Vì sao |
+    |---|---|
+    | Sát tường, trong hốc kín | Dàn nóng không thải được nhiệt |
+    | Cạnh bếp, lò, nơi hứng nắng | Nhiệt độ môi trường vượt khoảng thiết kế |
+    | Nơi ẩm, gần khu vực rửa | Ngưng tụ bề mặt nặng hơn |
+    | Ngay luồng gió của máy lạnh hoặc quạt công nghiệp | Khí nóng ẩm thổi vào thân tủ |
+
+    Mỗi model có một **khoảng nhiệt độ môi trường** được thiết kế để làm việc. Đặt tủ ở nơi nóng hơn khoảng đó thì khả năng làm lạnh giảm, và đó không phải lỗi của máy.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh lưng tủ đông kê sát tường, dàn nóng chỉ cách bề mặt tường một khe rất hẹp -->
+
+    ## Nguồn điện: bốn nguyên tắc
+
+    1. **Cắm trực tiếp vào ổ cắm riêng**, không dùng ổ chia và không dùng dây nối dài. Thiết bị làm lạnh có dòng khởi động cao.
+    2. Ổ cắm nên **có tiếp địa**.
+    3. **Aptomat và tiết diện dây** phải phù hợp — đây là phần việc của thợ điện, không phải việc ước lượng.
+    4. Nếu khu vực có **điện áp chập chờn**, hãy hỏi ý kiến về phương án ổn áp trước khi vận hành.
+
+    Với cửa hàng chạy nhiều thiết bị cùng lúc, hãy nói rõ tổng phụ tải khi nhờ thợ điện bố trí, thay vì cắm thêm vào đường có sẵn.
+
+    ## Với tủ mát trưng bày: thêm ba yếu tố
+
+    - **Hướng cửa** phải mở được thoải mái ở nơi có người qua lại, không va vào lối đi.
+    - **Tầm nhìn** từ quầy — tủ trưng bày đặt sai hướng thì mất tác dụng bán hàng.
+    - **Luồng người** đi qua liên tục trước cửa kính làm cửa bị mở nhiều hơn dự tính, và điều đó ảnh hưởng tới lượng ẩm vào tủ.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên chỉnh chân đế tủ mát bằng thước thuỷ để tủ đứng cân trên nền gạch cửa hàng -->
+
+    ## Trước khi cắm điện lần đầu
+
+    1. Nếu tủ vừa được **vận chuyển**, để tủ đứng yên một khoảng thời gian theo hướng dẫn của model rồi mới cắm điện. Mục đích là để dầu bôi trơn trở về đúng vị trí trong máy nén.
+    2. Tháo hết vật liệu chèn, băng dính vận chuyển.
+    3. Lau sạch lòng tủ và **để khô**.
+    4. Kiểm lại độ cân và khoảng hở.
+
+    Bước 1 là bước hay bị bỏ qua nhất khi hàng về gấp, và nó là bước ảnh hưởng trực tiếp tới tuổi thọ máy nén.
+
+    ## Sau khi cắm điện
+
+    - Để tủ chạy **không tải** cho tới khi đạt nhiệt độ.
+    - Đặt **nhiệt kế** vào trong và kiểm nhiệt độ thực thay vì kết luận bằng cảm giác tay.
+    - Đưa hàng vào **theo đợt**, không dồn hết một lúc, vì dồn nhiều làm tải nhiệt tăng đột ngột.
+    - Trong vài ngày đầu, để ý xem máy có chu kỳ nghỉ không và có nước đọng dưới gầm không.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh kiểm tra ổ cắm và đo điện áp trước khi cắm điện cho tủ đông mới lắp tại cửa hàng -->
+
+    ## Gửi gì cho Ficool?
+
+    Năm thông tin: loại tủ và kích thước, mặt bằng chỗ đặt cùng lối đi, tình trạng nguồn điện tại vị trí đó, các thiết bị khác đang dùng chung đường điện, và nhiệt độ khu vực có cao bất thường không. Ficool tại TP.HCM sẽ khảo sát vị trí trước khi lắp và nêu rõ những gì cần chuẩn bị. Nếu cần bố trí lại nguồn điện, hãy nói sớm để sắp xếp cùng thợ điện.
+
+    Nếu tủ vừa được chuyển tới từ nơi khác, đọc <!-- INTERNAL: vận chuyển tủ đông | /van-chuyen-tu-dong/ -->. Sau khi lắp xong, kiểm nhiệt độ theo <!-- INTERNAL: cách chỉnh nhiệt độ tủ mát | /cach-chinh-nhiet-do-tu-mat/ -->. Nếu máy chạy không nghỉ trong những ngày đầu, xem <!-- INTERNAL: tủ đông chạy liên tục | /tu-dong-chay-lien-tuc/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Tủ đông cần chừa khoảng hở bao nhiêu phía sau?
+
+    Theo hướng dẫn của từng model, vì con số khác nhau giữa các dòng. Nguyên tắc chung là dàn nóng phải thải được nhiệt, nên tủ không được kê sát tường, không đặt trong hốc kín và không bị hàng hoá vây quanh. Thiếu khoảng hở làm máy phải chạy nhiều hơn để đạt cùng một nhiệt độ.
+
+    ### Có được cắm tủ đông vào ổ chia hoặc dây nối dài không?
+
+    Không nên. Thiết bị làm lạnh có dòng khởi động cao, nên các hãng khuyến cáo cắm trực tiếp vào ổ cắm riêng có tiếp địa. Việc bố trí aptomat và tiết diện dây phù hợp thuộc phần việc của thợ điện, nhất là ở cửa hàng chạy nhiều thiết bị cùng lúc.
+
+    ### Tủ đông mới chở về có được cắm điện ngay không?
+
+    Không. Hãy để tủ đứng yên một khoảng thời gian theo hướng dẫn của model rồi mới cắm điện, để dầu bôi trơn trở về đúng vị trí trong máy nén. Đây là bước hay bị bỏ qua khi hàng về gấp, và nó ảnh hưởng trực tiếp tới tuổi thọ máy nén.
+
+    ### Sau khi lắp bao lâu thì cho hàng vào tủ?
+
+    Để tủ chạy không tải cho tới khi đạt nhiệt độ, kiểm bằng nhiệt kế đặt trong khoang thay vì bằng cảm giác tay. Khi đã đạt, đưa hàng vào theo đợt chứ không dồn hết một lúc, vì dồn nhiều làm tải nhiệt tăng đột ngột và tủ mất rất nhiều giờ để kéo lại.
+
+    ### Ficool có khảo sát vị trí trước khi lắp tủ mát, tủ đông tại TP.HCM không?
+
+    Có. Bạn gửi loại tủ và kích thước, mặt bằng chỗ đặt cùng lối đi, tình trạng nguồn điện và các thiết bị dùng chung đường điện. Ficool sẽ khảo sát trước, nêu những gì cần chuẩn bị và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Lắp đặt tủ mát, tủ đông đúng vị trí và nguồn điện
+    mo_ta: >-
+      Bốn phép đo trước khi mua, bốn vị trí nên tránh, bốn nguyên tắc về nguồn
+      điện và những gì cần làm trước khi cắm điện lần đầu.
+    slug: lap-dat-tu-dong
+    tu_khoa_phu:
+    - vị trí đặt tủ mát
+    - lắp đặt tủ đông
+    - nguồn điện cho tủ đông

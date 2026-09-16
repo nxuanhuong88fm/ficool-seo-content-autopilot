@@ -1,12 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "ficool-seo-content-autopilot"
-version = "1.1.1"
+version = "1.2.0"
 description = "Production draft-first SEO content automation for Ficool"
 requires-python = ">=3.10"
-dependencies = ["PyYAML>=6.0", "requests>=2.31", "google-auth>=2.30", "openai>=1.40"]
+dependencies = ["PyYAML>=6.0", "requests>=2.31", "google-auth>=2.30", "google-genai>=1.0", "Markdown>=3.5", "python-dotenv>=1.0", "Pillow>=10.0"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
+
+[project.scripts]
+ficool = "pipeline.cli:main"
+
+# Kho này là flat-layout: nhiều gói cấp cao nằm cạnh knowledge/, config/, skills/…
+# setuptools từ chối tự dò trong trường hợp đó, nên phải liệt kê tay.
+# Thiếu khối này thì `pip install -e .` HỎNG — và đó là bước 5 của cron.
+[tool.setuptools]
+packages = [
+  "pipeline",
+  "connectors",
+  "connectors.gsc",
+  "connectors.gemini",
+  "connectors.web_search",
+  "connectors.wordpress",
+  "connectors.image_provider",
+]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]

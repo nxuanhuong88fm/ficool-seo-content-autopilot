@@ -1,0 +1,160 @@
+chu_de:
+  id: TD-06
+  tieu_de: 'Tủ đông chảy nước: Kiểm tra nút thoát nước, gioăng và vị trí đặt'
+  tu_khoa_chinh: tủ đông chảy nước
+  chuyen_muc: Tủ mát, tủ đông
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Nước xuất hiện quanh tủ đông có nhiều nguồn khác nhau, và bước đầu tiên để
+    xử lý đúng là xác định nước đến từ đâu chứ không phải xử lý ngay chỗ nhìn
+    thấy nước. Các nguồn thường gặp gồm: nút hoặc lỗ thoát nước ở đáy tủ bị để
+    mở sau một lần xả tuyết, khiến nước ngưng trong quá trình vận hành chảy
+    thẳng ra sàn; lớp tuyết tan do mất điện, do nắp bị kênh hoặc do quên đóng
+    nắp; hiện tượng ngưng tụ trên bề mặt ngoài của tủ khi độ ẩm không khí cao,
+    vốn không phải rò rỉ mà là hơi nước trong phòng ngưng lại trên bề mặt lạnh;
+    gioăng nắp hở làm khí ẩm lọt vào liên tục, vừa tạo tuyết bên trong vừa tạo
+    ngưng tụ quanh miệng tủ; khay hứng nước bay hơi phía sau bị đầy, nứt hoặc
+    đặt lệch; và nước rỉ từ thực phẩm chưa gói kín. Về vị trí đặt, tủ kê không
+    cân làm nước không chảy đúng hướng thiết kế và có thể đọng trong lòng tủ
+    thay vì thoát ra ngoài; tủ đặt ở nơi ẩm hoặc ngay luồng khí nóng ẩm cũng làm
+    ngưng tụ bề mặt nặng hơn. Với hộ kinh doanh, nước đọng dưới gầm còn là vấn
+    đề an toàn vì sàn trơn và vì thiết bị điện đặt gần đó. Nhóm nguyên nhân cần
+    kỹ thuật viên gồm đường thoát nước bị tắc bên trong, khay bay hơi hỏng và
+    các sự cố làm tủ mất khả năng giữ nhiệt dẫn tới tan tuyết hàng loạt.
+  nguon:
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.epa.gov/mold/mold-course-chapter-2
+    title: US EPA — Mold Course, Chapter 2
+  - url: https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety
+    title: US FDA — Refrigerator Thermometers and Food Safety
+  serp: []
+
+bai_viet:
+  than: |
+    # Tủ đông chảy nước: Kiểm tra nút thoát nước, gioăng và vị trí đặt
+
+    Câu hỏi đầu tiên không phải "làm sao hết chảy nước" mà là **"nước từ đâu ra"**. Nước trong lòng tủ, nước dưới gầm và nước đọng trên mặt ngoài là ba hiện tượng khác nhau, có nguyên nhân khác nhau và cách xử lý khác nhau.
+
+    <!-- IMAGE: IMG-001 | Chủ cửa hàng dùng khăn lau vũng nước đọng trên sàn ngay dưới gầm chiếc tủ đông nằm -->
+
+    ## Bước đầu: nước ở đâu?
+
+    | Nơi thấy nước | Nghiêng về |
+    |---|---|
+    | Trong lòng tủ | Tuyết tan, nắp kênh, đường thoát trong tủ tắc |
+    | Dưới gầm, ra sàn | Nút thoát nước để mở, khay bay hơi đầy hoặc lệch |
+    | Trên mặt ngoài thân tủ | Ngưng tụ do độ ẩm phòng cao, hoặc gioăng hở |
+    | Quanh miệng, quanh viền nắp | Gioăng hở, tuyết bám làm nắp không khít |
+
+    Xác định đúng dòng trong bảng này rút ngắn được phần lớn thời gian tìm nguyên nhân.
+
+    ## Nguyên nhân hay gặp: nút thoát nước để mở
+
+    Rất nhiều tủ đông có một nút hoặc lỗ thoát nước ở đáy hoặc phía dưới mặt trước, dùng khi xả tuyết. Sau khi xả xong, **nút này phải được đóng lại** trước khi cắm điện.
+
+    Quên đóng nghĩa là trong suốt quá trình dùng, nước ngưng sẽ chảy thẳng ra sàn. Triệu chứng đặc trưng: nước xuất hiện đều đặn, không nhiều một lúc, và bắt đầu ngay sau lần xả tuyết gần nhất.
+
+    Đây là thứ đáng kiểm đầu tiên nếu tủ vừa được xả tuyết hoặc vừa được vệ sinh.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh nút thoát nước ở đáy trước tủ đông đang mở, một dòng nước nhỏ chảy men theo chân tủ xuống sàn -->
+
+    ## Ngưng tụ bên ngoài không phải rò rỉ
+
+    Nếu nước đọng thành các giọt li ti trên **bề mặt ngoài** của thân tủ hoặc quanh viền nắp, và trong lòng tủ vẫn khô, thì phần lớn là hiện tượng ngưng tụ: hơi nước trong không khí gặp bề mặt lạnh và ngưng lại.
+
+    Nó nặng hơn khi:
+
+    - Độ ẩm không khí cao.
+    - Tủ đặt gần cửa ra vào, gần khu vực rửa, hoặc trong kho ẩm.
+    - Có luồng khí nóng ẩm thổi vào thân tủ.
+    - Gioăng nắp đã hở, làm vùng quanh miệng lạnh hơn bình thường.
+
+    Ba mục đầu xử lý bằng cách đổi vị trí đặt hoặc cải thiện thông thoáng. Mục cuối thì phải xử lý gioăng.
+
+    ## Năm thứ tự kiểm tra tự làm được
+
+    1. **Nút thoát nước** đã đóng chưa.
+    2. **Nắp có bị hàng hoá chèn** làm kênh không.
+    3. **Gioăng nắp** còn kín không — kẹp tờ giấy vào mép, đóng nắp, rút ra thấy lực cản đều quanh viền là đạt.
+    4. **Tủ có kê cân không** — đẩy nhẹ bốn góc xem có bập bênh; tủ nghiêng làm nước không chảy đúng hướng thiết kế.
+    5. **Khay hứng nước phía sau** có đầy, nứt hay đặt lệch không.
+
+    Năm mục này chiếm phần lớn số ca, và không mục nào cần mở máy.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, kéo tủ đông ra và kiểm tra khay hứng nước bay hơi đặt phía sau lưng tủ -->
+
+    ## Khi nước xuất hiện đột ngột và nhiều
+
+    Đây là tình huống khác hẳn, và nó thường không phải chuyện thoát nước:
+
+    - Vừa có **mất điện** kéo dài.
+    - Nắp bị **quên đóng** hoặc bị kênh qua đêm.
+    - Tủ **mất khả năng giữ lạnh**, khiến toàn bộ lớp tuyết tan cùng lúc.
+
+    Trong cả ba trường hợp, việc cần làm trước không phải lau nước mà là **kiểm tra hàng**: đo nhiệt độ thực, rà lại thực phẩm dễ hỏng, và thận trọng với hàng đã rã đông trong thời gian dài.
+
+    ## Vì sao nước đọng dưới gầm là chuyện đáng xử lý sớm
+
+    Với hộ kinh doanh, đây không chỉ là chuyện phiền:
+
+    - Sàn trơn ngay khu vực có người qua lại và bê hàng.
+    - Có thiết bị điện, ổ cắm hoặc dây điện đặt gần đó.
+    - Nước đọng lâu ngày sinh mùi và sinh nấm mốc ở chân tường, chân tủ.
+
+    Ba lý do này khiến việc "để mai lau" đắt hơn việc kiểm nút thoát nước trong hai phút.
+
+    ## Khi nào cần kỹ thuật viên
+
+    - Đã kiểm hết năm mục tự làm mà nước vẫn xuất hiện.
+    - Nghi đường thoát nước bên trong bị tắc.
+    - Khay bay hơi nứt hoặc hỏng.
+    - Nước đi kèm việc tủ không đạt nhiệt độ.
+    - Nước đọng gần ổ cắm hoặc phần điện của máy.
+
+    Dấu hiệu cuối là dấu hiệu nên rút điện trước, rồi mới gọi.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh thông đường thoát nước ở đáy tủ đông tại cửa hàng của khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: nước xuất hiện ở đâu theo bảng phía trên, xuất hiện từ bao giờ, tủ có vừa xả tuyết hoặc vừa di dời không, và khu vực đặt tủ có ẩm không. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn là chuyện thoát nước, chuyện gioăng và vị trí đặt, hay là dấu hiệu tủ đang mất khả năng giữ lạnh. Ảnh chụp chỗ đọng nước giúp định hướng nhanh hơn mô tả.
+
+    Nếu tủ đang bám tuyết dày, đọc <!-- INTERNAL: tủ đông đóng tuyết dày | /tu-dong-dong-tuyet-day/ -->. Trước khi xả tuyết, xem <!-- INTERNAL: cách xả tuyết tủ đông | /cach-xa-tuyet-tu-dong/ -->. Nếu nghi gioăng đã hở, đọc <!-- INTERNAL: gioăng tủ đông bị hở | /gioang-tu-dong-bi-ho/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Tủ đông chảy nước ra sàn là do đâu?
+
+    Nguyên nhân hay gặp là nút hoặc lỗ thoát nước ở đáy bị để mở sau một lần xả tuyết, khiến nước ngưng chảy thẳng ra ngoài. Ngoài ra còn có khay hứng nước phía sau bị đầy, nứt hoặc đặt lệch, và tủ kê không cân làm nước không chảy đúng hướng thiết kế.
+
+    ### Nước đọng trên thân tủ đông có phải rò rỉ không?
+
+    Thường không. Nếu lòng tủ vẫn khô mà nước đọng thành giọt li ti trên bề mặt ngoài, đó là hiện tượng ngưng tụ: hơi nước trong không khí gặp bề mặt lạnh và ngưng lại. Nó nặng hơn khi phòng ẩm, tủ đặt gần cửa hoặc khu vực rửa, hoặc khi gioăng nắp đã hở.
+
+    ### Vì sao sau khi xả tuyết tủ đông lại chảy nước?
+
+    Vì nút thoát nước chưa được đóng lại trước khi cắm điện. Triệu chứng đặc trưng là nước xuất hiện đều đặn chứ không nhiều một lúc, và bắt đầu ngay sau lần xả tuyết gần nhất. Hãy kiểm nút này trước tiên.
+
+    ### Tủ đông tan tuyết hàng loạt sau khi mất điện thì làm gì?
+
+    Việc cần làm trước không phải lau nước mà là kiểm tra hàng: đo nhiệt độ thực trong khoang, rà lại toàn bộ thực phẩm và thận trọng với nhóm dễ hỏng đã rã đông trong thời gian dài. Sau đó mới xử lý phần nước và kiểm xem tủ còn giữ được nhiệt độ không.
+
+    ### Ficool có kiểm tra tủ đông chảy nước tại TP.HCM không?
+
+    Có. Bạn gửi vị trí thấy nước, thời điểm bắt đầu, tình huống gần đây như vừa xả tuyết hay vừa di dời, và độ ẩm khu vực đặt tủ. Kỹ thuật viên Ficool sẽ khoanh vùng nguyên nhân, nêu hạng mục cần làm và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Tủ đông chảy nước, tìm nguồn trước khi sửa
+    mo_ta: >-
+      Nước trong lòng tủ, dưới gầm và trên mặt ngoài là ba chuyện khác nhau. Năm
+      thứ tự kiểm tra tự làm được.
+    slug: tu-dong-chay-nuoc
+    tu_khoa_phu:
+    - tủ đông rò nước
+    - tủ đông chảy nước dưới đáy
+    - nút thoát nước tủ đông

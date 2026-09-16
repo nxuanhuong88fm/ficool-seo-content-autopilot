@@ -1,0 +1,189 @@
+chu_de:
+  id: MN-17
+  tieu_de: Checklist nghiệm thu máy nước nóng sau vệ sinh, sửa chữa hoặc lắp đặt
+  tu_khoa_chinh: checklist nghiệm thu máy nước nóng
+  chuyen_muc: Máy nước nóng
+  the:
+  - Kinh nghiệm hay
+  giai_doan_phieu: F2
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Nghiệm thu máy nước nóng có một đặc điểm riêng khiến việc quan sát bằng mắt
+    không đủ: phần quan trọng nhất là lớp bảo vệ an toàn, và một thiết bị bảo vệ
+    đã bị tháo ra khỏi mạch hoặc đã chết thì trông y như một thiết bị đang làm
+    việc. Do đó nghiệm thu phải dựa trên phép thử chủ động chứ không dựa trên
+    quan sát: bấm nút thử thiết bị chống dòng rò để nó phải nhảy, kiểm tra tiếp
+    địa có thật và còn liên tục thay vì chỉ có ổ cắm ba chân, và kiểm tra đường
+    xả của van an toàn có thông. Trình tự bàn giao cũng là một hạng mục cần kiểm
+    chứ không chỉ là quy trình nội bộ của kỹ thuật viên: bình phải được cấp nước
+    đầy và xả hết khí trong đường ống trước khi cấp điện, vì thanh đốt hoạt động
+    khi chưa ngập nước sẽ hỏng, và với máy làm nóng trực tiếp thì điều kiện tương
+    tự áp dụng cho khoang làm nóng. Việc kiểm rò nước có một chi tiết dễ bị bỏ:
+    mối nối và gioăng mặt bích có thể kín khi bình còn nguội nhưng rỉ khi nước đã
+    nóng, vì giãn nở nhiệt làm thay đổi lực siết tại mối ghép, nên phép kiểm rò
+    chỉ có giá trị khi thực hiện sau khi bình đã đạt nhiệt độ làm việc. Về cơ khí,
+    giá treo phải bắt vào phần tường chịu lực được vì khối lượng bình khi đầy nước
+    lớn hơn nhiều so với khi rỗng, và bình phải cân bằng. Về điện, dây nguồn không
+    được bị kẹp, không đi qua bề mặt nóng, và không có mối nối tạm. Về hiệu suất,
+    mốc đối chiếu đáng ghi lại là thời gian từ lúc cấp điện tới lúc nước ra vòi
+    đạt nhiệt độ sử dụng, vì con số này là căn cứ duy nhất để sau này biết máy có
+    chậm đi hay không. Với máy làm nóng trực tiếp, hạng mục riêng là máy phải kích
+    hoạt ở lưu lượng sử dụng bình thường và không ngắt giữa lượt tắm. Về hồ sơ,
+    cần lấy danh mục hạng mục đã làm, linh kiện cũ đã thay được trả lại, nguyên
+    nhân đã được xác định, mức cài đặt nhiệt độ để lại, và phạm vi cùng thời hạn
+    bảo hành ghi rõ.
+  nguon:
+  - url: https://www.energy.gov/energysaver/water-heater-maintenance
+    title: U.S. Department of Energy — Water Heater Maintenance
+  - url: https://www.iec.ch/homecare/electrical-safety
+    title: IEC — Electrical Safety
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ sản phẩm
+  serp: []
+
+bai_viet:
+  than: |
+    # Checklist nghiệm thu máy nước nóng sau vệ sinh, sửa chữa hoặc lắp đặt
+
+    Máy nước nóng có một đặc điểm khiến việc "nhìn thấy ổn" không đủ: **một thiết bị bảo vệ đã bị tháo khỏi mạch, hoặc đã chết, trông y như một thiết bị đang làm việc.**
+
+    Nên nguyên tắc của cả checklist này là: **nghiệm thu bằng phép THỬ, không bằng quan sát.**
+
+    <!-- IMAGE: IMG-001 | Khách và kỹ thuật viên cùng đứng trước bình nóng lạnh vừa lắp xong trên tường phòng tắm, hộp điện bên cạnh đã mở nắp -->
+
+    ## Phần A — Trình tự bàn giao, và vì sao bạn nên kiểm nó
+
+    Trình tự này không phải quy trình nội bộ của kỹ thuật viên — nó là hạng mục bạn có quyền hỏi:
+
+    1. **Cấp nước đầy bình.**
+    2. **Xả hết khí** trong đường ống: mở vòi nóng cho tới khi nước ra liên tục, không còn tiếng khí.
+    3. **Chỉ khi đó mới cấp điện.**
+
+    Lý do: **thanh đốt hoạt động khi chưa ngập nước sẽ hỏng.** Với máy làm nóng trực tiếp, điều kiện tương tự áp dụng cho khoang làm nóng.
+
+    Nếu bạn thấy điện được cấp trước khi nước chảy ổn định, hãy nói ngay. Đây là sai sót có hậu quả tức thì.
+
+    ## Phần B — Bốn phép thử an toàn, làm ngay tại chỗ
+
+    | Phép thử | Làm thế nào | Đạt là |
+    |---|---|---|
+    | **Thiết bị chống dòng rò** | Bấm nút thử | Nó **phải nhảy**. Không nhảy là không đạt |
+    | **Tiếp địa** | Yêu cầu chỉ ra dây tiếp địa thật | Có dây thật, không phải chỉ có ổ ba chân |
+    | **Van an toàn** | Xem đường xả | Thông, **không bị bịt hay hàn kín**, và dẫn tới chỗ an toàn |
+    | **Bộ ngắt nhiệt bảo vệ** | Hỏi nó đã từng tác động chưa | Nếu đã tác động, phải có nguyên nhân được xác định |
+
+    Dòng thứ nhất là phép thử quan trọng nhất trong cả bài, mất năm giây, và bị bỏ nhiều nhất.
+
+    Hàng cuối cần một lưu ý: bộ ngắt nhiệt bảo vệ là loại **tác động một lần và giữ trạng thái**. Nếu nó đã tác động mà chỉ được ấn lại, lớp chặn cuối cùng đã bị vô hiệu hoá mà không ai biết.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh ngón tay bấm nút thử màu vàng trên thiết bị chống dòng rò, cần gạt bên cạnh đang ở vị trí đóng -->
+
+    ## Phần C — Kiểm rò nước, nhưng phải kiểm KHI ĐÃ NÓNG
+
+    Đây là chi tiết hay bị bỏ nhất, và nó có lý do vật lý rõ ràng:
+
+    **Mối nối và gioăng mặt bích có thể kín khi bình còn nguội nhưng rỉ khi nước đã nóng**, vì giãn nở nhiệt làm thay đổi lực siết tại mối ghép.
+
+    Nên phép kiểm rò **chỉ có giá trị sau khi bình đã đạt nhiệt độ làm việc**. Một lần kiểm lúc bình còn nguội không nói được gì.
+
+    Kiểm ba chỗ, sau khi máy đã hoàn tất một lượt đun:
+
+    - **Quanh mặt bích** — nơi vừa được mở ra và siết lại.
+    - **Hai đầu nối nước** vào và ra.
+    - **Đường xả của van an toàn** — có nước nhỏ giọt liên tục không.
+
+    Và kiểm lại lần nữa **sau một hai ngày**, vì một vết rỉ rất nhỏ cần thời gian để thành vết ẩm nhìn thấy được.
+
+    <!-- IMAGE: IMG-003 | Bàn tay lau khăn giấy khô quanh mặt bích bình nóng lạnh đang hoạt động để kiểm tra vết ẩm -->
+
+    ## Phần D — Hiệu suất, và một mốc đáng ghi lại
+
+    - Nước ra vòi **đạt nhiệt độ sử dụng**.
+    - Nhiệt độ **ổn định**, không nóng lạnh thất thường trong một lượt tắm.
+    - **Lưu lượng** ở vòi sen trở lại bình thường.
+    - Không có **tiếng lục cục** khi đun.
+
+    Và hạng mục đáng làm nhất: **ghi lại thời gian từ lúc cấp điện tới lúc nước ra vòi đạt nhiệt độ sử dụng.**
+
+    Con số này là **căn cứ duy nhất** để sau này biết máy có chậm đi hay không. Không có nó thì mọi nhận xét "dạo này nóng lâu hơn" đều là cảm giác, và bạn sẽ không biết cặn đã tích lại tới mức nào.
+
+    **Riêng máy làm nóng trực tiếp:** kiểm thêm hai điều — máy **kích hoạt ở lưu lượng sử dụng bình thường**, và **không ngắt giữa lượt tắm**.
+
+    ## Phần E — Cơ khí và điện
+
+    - **Giá treo bắt vào phần tường chịu lực được.** Khối lượng bình khi đầy nước lớn hơn nhiều so với khi rỗng — đây là lý do một giá treo "vẫn chắc lúc lắp" có thể không đủ.
+    - **Bình cân bằng**, không nghiêng.
+    - **Dây nguồn** không bị kẹp, không đi qua bề mặt nóng, **không có mối nối tạm**.
+    - Không có nước hoặc hơi ẩm đọng ở khu vực đầu nối điện.
+    - Các tấm che, nắp nhựa đã được gắn lại đủ.
+
+    ## Phần F — Giấy tờ và linh kiện cũ
+
+    - **Danh mục hạng mục đã làm**, viết ra.
+    - **Nguyên nhân đã được xác định là gì** — và nếu chỉ có tên linh kiện đã thay mà không có nguyên nhân, hãy hỏi thêm.
+    - **Linh kiện cũ được trả lại**: gioăng mặt bích, thanh magie, thanh đốt. Đây là cách kiểm đơn giản nhất rằng việc thay đã thực sự diễn ra.
+    - **Mức cài đặt nhiệt độ để lại**, ghi lại con số.
+    - **Phạm vi và thời hạn bảo hành** cho phần việc vừa làm, ghi rõ bao gồm những gì.
+
+    ## Ba điểm riêng theo từng loại việc
+
+    **Sau VỆ SINH** — yêu cầu xem **thanh đốt trước và sau**, và xem **thanh magie**. Thanh magie nằm bên trong nên không ai thấy nếu bạn không hỏi, và đây là hạng mục bị bỏ nhiều nhất. Hỏi cả việc **lòng bình đã được xả rửa** chưa, không chỉ hỏi thanh đốt.
+
+    **Sau SỬA CHỮA** — hỏi nguyên nhân, và hỏi **vì sao cách xử lý đó giải quyết được nguyên nhân đó**. Một thanh đốt hỏng thường có lý do làm nó hỏng, và lý do đó nếu còn thì linh kiện mới sẽ đi cùng đường.
+
+    **Sau LẮP ĐẶT hoặc DI DỜI** — kiểm giá treo và tường, kiểm nguồn điện tại vị trí mới có tiếp địa và thiết bị chống dòng rò, kiểm **đường xả van an toàn dẫn tới chỗ an toàn**, và kiểm khoảng thao tác còn lại phía trước và phía dưới bình để lần bảo trì sau rút được thanh đốt.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên trao phiếu hạng mục cho khách, trên bàn là gioăng cũ và thanh magie cũ vừa thay ra -->
+
+    ## Nếu có điểm chưa đạt
+
+    **Nêu ngay, trước khi kết thúc buổi làm việc.** Một điểm nêu lúc kỹ thuật viên còn ở đó là việc xử lý trong mười phút; cùng điểm đó nêu ngày mai là một lần hẹn mới.
+
+    Có hai loại điểm chưa đạt cần phân biệt:
+
+    - **Điểm an toàn** — nút thử không nhảy, không có tiếp địa, đường xả van an toàn bị bịt. Loại này không được bỏ qua và không được hẹn lại: nó phải xử lý trước khi bạn dùng máy.
+    - **Điểm hiệu suất** — nóng chậm hơn mong đợi, lưu lượng chưa như trước. Loại này có thể theo dõi thêm, nhưng hãy chốt trước khung thời gian họ quay lại và cách tính phí.
+
+    Và với phần kiểm rò nước — thứ chỉ hiện ra khi bình đã nóng và có thể cần một hai ngày — hãy chốt trước cách xử lý nếu nó xuất hiện sau khi kỹ thuật viên đã đi.
+
+    ## Gửi gì cho Ficool?
+
+    Nếu bạn vừa nhận lại máy và có điểm chưa chắc, hãy gửi: loại máy, việc vừa được làm, kết quả **bấm nút thử** thiết bị chống dòng rò, có vết ẩm quanh mặt bích sau khi máy đã đun xong hay không, và thời gian từ lúc cấp điện tới lúc nước đạt nhiệt độ sử dụng.
+
+    Nếu nút thử không làm thiết bị chống dòng rò nhảy, hãy nói điều đó ở dòng đầu và tạm không dùng máy. Ficool tại TP.HCM sẽ nói cho bạn biết điểm bạn thấy là bình thường hay là dấu hiệu cần kiểm tra, và thống nhất phạm vi cùng chi phí trước nếu cần đến tận nơi.
+
+    Một lần vệ sinh đầy đủ gồm những việc gì, xem <!-- INTERNAL: súc cặn bình nóng lạnh | /suc-can-binh-nong-lanh/ -->. Thanh magie làm gì và vì sao hay bị bỏ, đọc <!-- INTERNAL: thanh magie bình nóng lạnh | /thanh-magie-binh-nong-lanh/ -->. Các hạng mục kiểm tra định kỳ, xem <!-- INTERNAL: bảo trì máy nước nóng | /bao-tri-may-nuoc-nong/ -->. Nếu nghi có rò điện, đọc <!-- INTERNAL: máy nước nóng bị rò điện | /may-nuoc-nong-bi-ro-dien/ -->. Điều kiện lắp đặt ở vị trí mới, xem <!-- INTERNAL: lắp đặt máy nước nóng | /lap-dat-may-nuoc-nong/ -->. Chi phí sửa chữa gồm những phần nào thì đọc <!-- INTERNAL: giá sửa máy nước nóng | /gia-sua-may-nuoc-nong/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Nghiệm thu máy nước nóng cần kiểm những gì trước tiên?
+
+    Bốn phép thử an toàn, làm ngay tại chỗ: bấm nút thử thiết bị chống dòng rò và nó phải nhảy, xác nhận có dây tiếp địa thật chứ không chỉ có ổ cắm ba chân, xem đường xả van an toàn có thông và không bị bịt, và hỏi bộ ngắt nhiệt bảo vệ đã từng tác động chưa. Phép thử đầu tiên mất năm giây và bị bỏ nhiều nhất.
+
+    ### Vì sao phải kiểm rò nước khi bình đã nóng?
+
+    Vì mối nối và gioăng mặt bích có thể kín khi bình còn nguội nhưng rỉ khi nước đã nóng, do giãn nở nhiệt làm thay đổi lực siết tại mối ghép. Một lần kiểm lúc bình còn nguội không nói được gì. Nên kiểm sau khi máy hoàn tất một lượt đun, và kiểm lại sau một hai ngày vì vết rỉ rất nhỏ cần thời gian để thành vết ẩm nhìn thấy được.
+
+    ### Thứ tự cấp nước và cấp điện có quan trọng không?
+
+    Rất quan trọng, và đây là hạng mục bạn có quyền kiểm. Phải cấp nước đầy bình, xả hết khí bằng cách mở vòi nóng tới khi nước ra liên tục, rồi mới cấp điện. Thanh đốt hoạt động khi chưa ngập nước sẽ hỏng. Nếu thấy điện được cấp trước khi nước chảy ổn định, hãy nói ngay.
+
+    ### Nên ghi lại số liệu gì lúc bàn giao?
+
+    Thời gian từ lúc cấp điện tới lúc nước ra vòi đạt nhiệt độ sử dụng, và mức cài đặt nhiệt độ được để lại. Con số thứ nhất là căn cứ duy nhất để sau này biết máy có chậm đi hay không; không có nó thì mọi nhận xét về sau đều là cảm giác và bạn sẽ không biết cặn đã tích tới mức nào.
+
+    ### Sau khi vệ sinh, nên yêu cầu xem những gì?
+
+    Yêu cầu xem thanh đốt trước và sau, và xem thanh magie — thanh magie nằm bên trong nên không ai thấy nếu bạn không hỏi, và đây là hạng mục bị bỏ nhiều nhất. Hỏi thêm việc lòng bình đã được xả rửa chưa, không chỉ hỏi thanh đốt. Và xin lại gioăng mặt bích cũ cùng các linh kiện đã thay.
+  seo:
+    tieu_de: 'Checklist nghiệm thu máy nước nóng: thử, đừng chỉ nhìn'
+    mo_ta: >-
+      Thiết bị bảo vệ đã chết trông như còn tốt. Bốn phép thử an toàn, và vì sao
+      phải kiểm rò nước khi bình đã nóng.
+    slug: checklist-nghiem-thu-may-nuoc-nong
+    tu_khoa_phu:
+    - kiểm tra bình nóng lạnh sau sửa
+    - nghiệm thu máy nước nóng
+    - bàn giao bình nóng lạnh sau vệ sinh

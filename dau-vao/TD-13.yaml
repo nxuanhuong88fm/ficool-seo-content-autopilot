@@ -1,0 +1,154 @@
+chu_de:
+  id: TD-13
+  tieu_de: 'Di dời tủ mát, tủ đông: Cách chuẩn bị trước và sau vận chuyển'
+  tu_khoa_chinh: vận chuyển tủ đông
+  chuyen_muc: Tủ mát, tủ đông
+  the:
+  - Lắp đặt
+  giai_doan_phieu: F4
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Rủi ro lớn nhất khi di dời tủ mát và tủ đông không nằm ở phần vỏ mà nằm ở
+    máy nén và hệ thống ống. Máy nén chứa dầu bôi trơn, và khi tủ bị nghiêng
+    hoặc đặt nằm, dầu có thể tràn sang phần ống dẫn môi chất; nếu cắm điện ngay
+    sau đó, máy nén khởi động trong tình trạng thiếu dầu và phần dầu lọt vào ống
+    có thể gây tắc. Vì vậy các hãng khuyến cáo giữ tủ ở tư thế đứng trong suốt
+    quá trình vận chuyển, và nếu buộc phải nghiêng thì cần để tủ đứng yên một
+    khoảng thời gian theo hướng dẫn của model trước khi cắm điện, với thời gian
+    chờ dài hơn khi mức nghiêng lớn hơn. Về chuẩn bị, cần rút điện trước đủ lâu
+    để tủ hết lạnh, xả tuyết hoàn toàn, vệ sinh và lau khô, vì nước còn lại sẽ
+    chảy trong lúc vận chuyển và có thể chảy vào phần điện; các giỏ, kệ, khay
+    phải được lấy ra hoặc cố định, và nắp hoặc cửa phải được buộc để không bật
+    mở khi khiêng. Về thao tác, không kéo lê tủ trên sàn vì dễ gãy chân đế và
+    làm cong khung; nên dùng xe đẩy chuyên dụng và bảo vệ dàn nóng cùng đường
+    ống phía sau, đây là bộ phận lộ ra ngoài và dễ va đập nhất. Về hàng hoá, do
+    quá trình di dời kéo dài nhiều giờ tính cả thời gian chờ, cần bố trí phương
+    án giữ lạnh cho hàng hoặc chọn thời điểm lượng hàng ở mức thấp nhất. Sau khi
+    tới nơi, quy trình khởi động lại giống với lắp mới: kê cân, chừa khoảng hở,
+    chờ đủ thời gian, chạy không tải rồi đo nhiệt độ thực trước khi đưa hàng
+    vào.
+  nguon:
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Di dời tủ mát, tủ đông: Cách chuẩn bị trước và sau vận chuyển
+
+    Rủi ro lớn nhất khi di dời không nằm ở phần vỏ mà nằm ở **máy nén**. Máy nén chứa dầu bôi trơn, và khi tủ bị nghiêng, dầu có thể tràn sang đường ống dẫn môi chất. Cắm điện ngay sau đó nghĩa là cho máy nén khởi động trong tình trạng thiếu dầu.
+
+    <!-- IMAGE: IMG-001 | Hai người dùng xe đẩy chuyên dụng đưa chiếc tủ đông đứng đã buộc dây qua cửa kho -->
+
+    ## Quy tắc quan trọng nhất: giữ tủ đứng
+
+    Trong suốt quá trình vận chuyển, tủ nên ở **tư thế đứng**.
+
+    Nếu buộc phải nghiêng vì lối đi hoặc vì thùng xe, thì sau khi tới nơi phải để tủ **đứng yên** một khoảng thời gian theo hướng dẫn của model rồi mới cắm điện. Nghiêng càng nhiều thì thời gian chờ càng dài.
+
+    Đây là quy tắc không rút ngắn được. Phần dầu lọt vào ống cần thời gian để trở về máy nén, và không có cách nào ép nó nhanh hơn.
+
+    ## Chuẩn bị trước ngày di dời
+
+    | Việc | Vì sao |
+    |---|---|
+    | Chọn ngày lượng hàng ở mức thấp nhất | Toàn bộ hàng phải ra ngoài nhiều giờ |
+    | Bố trí chỗ giữ lạnh cho hàng | Thùng đá, tủ khác, hoặc gửi tạm |
+    | Rút điện trước đủ lâu để tủ hết lạnh | Chuẩn bị cho bước xả tuyết |
+    | Xả tuyết hoàn toàn | Đá còn lại sẽ tan và chảy trên đường đi |
+    | Vệ sinh và **lau khô** | Nước còn lại có thể chảy vào phần điện |
+    | Tháo hoặc cố định giỏ, kệ, khay | Tránh vỡ và tránh xê dịch khi khiêng |
+    | Buộc nắp hoặc cửa | Không để bật mở giữa chừng |
+
+    Dòng thứ năm hay bị làm qua loa. Một chiếc tủ còn ẩm khi khiêng nghiêng là nước chảy tới những chỗ nó không nên tới.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh phía sau tủ mát trong lúc chuẩn bị di dời, dàn nóng và đường ống đồng lộ ra chưa được che chắn -->
+
+    ## Bốn lỗi thao tác thường gặp
+
+    1. **Kéo lê tủ trên sàn.** Dễ gãy chân đế, cong khung, và làm hỏng mặt sàn.
+    2. **Khiêng bằng tay nắm cửa hoặc mép nắp.** Đây không phải điểm chịu lực.
+    3. **Không che chắn dàn nóng phía sau.** Đây là bộ phận lộ ra ngoài và dễ va đập nhất, và một đường ống bị móp là một ca sửa thuộc hệ thống kín.
+    4. **Đặt nằm cho gọn thùng xe.** Tiện lúc chở, nhưng đổi lại là thời gian chờ dài hơn và rủi ro cao hơn.
+
+    Cách làm đúng là dùng **xe đẩy chuyên dụng**, có dây đai, và có người đi kèm quan sát phía sau.
+
+    ## Tính thời gian cho cả một buổi
+
+    Nhiều người tính nhầm ở chỗ này. Thời gian di dời không phải là quãng đường đi, mà là tổng của:
+
+    - Thời gian rút điện và chờ tủ hết lạnh.
+    - Thời gian xả tuyết và lau khô.
+    - Thời gian tháo dỡ, khiêng, vận chuyển, đưa vào vị trí.
+    - **Thời gian chờ trước khi cắm điện.**
+    - Thời gian chạy không tải cho tới khi đạt nhiệt độ.
+
+    Với hộ kinh doanh, tổng này quyết định phương án hàng hoá. Hãy tính ngược từ nó để chọn ngày.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, dùng dây đai cố định nắp tủ đông và bọc góc trước khi vận chuyển -->
+
+    ## Sau khi tới nơi
+
+    1. Đưa vào vị trí, **kê cân**, đẩy nhẹ bốn góc kiểm bập bênh.
+    2. Chừa **khoảng hở** ở lưng và hai bên theo hướng dẫn của model.
+    3. **Chờ đủ thời gian** trước khi cắm điện. Ghi lại thời điểm bắt đầu chờ.
+    4. Cắm điện, để tủ chạy **không tải** cho tới khi đạt nhiệt độ.
+    5. Đặt **nhiệt kế** vào trong, kiểm nhiệt độ thực.
+    6. Đưa hàng vào **theo đợt**.
+
+    Bước 3 nên được ghi lại bằng chữ, nhất là khi thuê đơn vị vận chuyển: nó là mốc để đối chiếu nếu sau đó tủ có vấn đề.
+
+    ## Kiểm sau khi khởi động lại
+
+    Trong vài ngày đầu, để ý bốn thứ:
+
+    - Máy có **chu kỳ nghỉ** không, với tủ dùng máy nén thường.
+    - Có **nước đọng** dưới gầm không.
+    - Nắp hoặc cửa có **tự đóng khít** không sau khi di chuyển.
+    - Nhiệt độ thực có **giữ ổn định** qua các lần đo không.
+
+    Bốn dấu hiệu này nói lên nhiều hơn cảm giác tay ở ngày đầu tiên.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh kê cân tủ đông tại vị trí mới và ghi mốc thời gian chờ vào phiếu bàn giao -->
+
+    ## Gửi gì cho Ficool?
+
+    Năm thông tin: loại tủ và kích thước, quãng đường và lối đi ở cả hai đầu, tủ có phải nghiêng khi vận chuyển không, lượng hàng đang chứa, và tình trạng nguồn điện ở vị trí mới. Ficool tại TP.HCM sẽ khảo sát cả hai đầu trước khi di dời, bố trí thời gian chờ đúng theo model, và ghi rõ mốc thời gian đó trên phiếu bàn giao.
+
+    Về chuẩn bị vị trí mới, đọc <!-- INTERNAL: lắp đặt tủ đông | /lap-dat-tu-dong/ -->. Sau khi khởi động lại, kiểm nhiệt độ theo <!-- INTERNAL: cách chỉnh nhiệt độ tủ mát | /cach-chinh-nhiet-do-tu-mat/ -->. Nếu tủ đông chậm sau khi di dời, xem <!-- INTERNAL: tủ đông không đông đá | /tu-dong-khong-dong-da/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Tủ đông có được đặt nằm khi vận chuyển không?
+
+    Nên giữ tủ ở tư thế đứng trong suốt quá trình vận chuyển. Nếu buộc phải nghiêng, sau khi tới nơi phải để tủ đứng yên một khoảng thời gian theo hướng dẫn của model rồi mới cắm điện, và nghiêng càng nhiều thì thời gian chờ càng dài.
+
+    ### Vì sao phải chờ trước khi cắm điện cho tủ vừa vận chuyển?
+
+    Vì máy nén chứa dầu bôi trơn, và khi tủ nghiêng thì dầu có thể tràn sang đường ống dẫn môi chất. Cắm điện ngay nghĩa là cho máy nén khởi động khi thiếu dầu, còn phần dầu lọt vào ống có thể gây tắc. Thời gian chờ là để dầu trở về đúng vị trí.
+
+    ### Cần chuẩn bị gì trước khi di dời tủ mát, tủ đông?
+
+    Chọn ngày ít hàng, bố trí chỗ giữ lạnh cho hàng, rút điện trước đủ lâu để tủ hết lạnh, xả tuyết hoàn toàn, vệ sinh rồi lau khô, tháo hoặc cố định giỏ kệ khay, và buộc nắp hoặc cửa để không bật mở giữa chừng.
+
+    ### Di dời tủ đông mất bao lâu?
+
+    Hãy tính cả buổi chứ không tính theo quãng đường: thời gian rút điện và chờ hết lạnh, xả tuyết và lau khô, tháo dỡ và vận chuyển, thời gian chờ trước khi cắm điện, và thời gian chạy không tải cho tới khi đạt nhiệt độ. Tổng này quyết định phương án hàng hoá.
+
+    ### Ficool có nhận di dời tủ mát, tủ đông tại TP.HCM không?
+
+    Có. Bạn gửi loại tủ và kích thước, lối đi ở cả hai đầu, lượng hàng đang chứa và tình trạng nguồn điện ở vị trí mới. Ficool sẽ khảo sát trước, bố trí thời gian chờ đúng theo model và ghi mốc đó trên phiếu bàn giao, chi phí được thống nhất trước khi thực hiện.
+  seo:
+    tieu_de: Di dời tủ mát, tủ đông cần chuẩn bị những gì?
+    mo_ta: >-
+      Vì sao phải giữ tủ đứng và phải chờ trước khi cắm điện, bảy việc chuẩn bị
+      trước, và sáu bước sau khi tới nơi.
+    slug: van-chuyen-tu-dong
+    tu_khoa_phu:
+    - di dời tủ mát
+    - vận chuyển tủ đông
+    - chuyển tủ đông sang chỗ mới

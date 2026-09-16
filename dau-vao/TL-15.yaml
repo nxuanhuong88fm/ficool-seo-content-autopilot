@@ -1,0 +1,149 @@
+chu_de:
+  id: TL-15
+  tieu_de: Checklist nghiệm thu tủ lạnh sau sửa chữa, vệ sinh hoặc di dời
+  tu_khoa_chinh: checklist nghiệm thu tủ lạnh
+  chuyen_muc: Tủ lạnh
+  the:
+  - Kinh nghiệm hay
+  giai_doan_phieu: F3
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Nghiệm thu tủ lạnh khác nghiệm thu máy lạnh và máy giặt ở một điểm quyết
+    định: kết quả không thể xác nhận ngay tại chỗ. Tủ lạnh cần nhiều giờ để hạ
+    nhiệt độ toàn khoang xuống mức cài đặt, nên việc sờ tay thấy mát sau mười
+    phút không chứng minh được gì. Điều này dẫn tới một cách nghiệm thu hai
+    bước: bước tại chỗ kiểm những gì quan sát được ngay, và bước sau nhiều giờ
+    kiểm bằng nhiệt kế. Các hạng mục kiểm tại chỗ gồm: tủ đặt đúng vị trí, cân
+    bằng, không bập bênh; cửa tự khép khi buông tay; gioăng cửa áp đều, kiểm
+    bằng phép thử tờ giấy; khoảng hở lưng và hai bên đạt yêu cầu; block chạy êm,
+    không tiếng va đập; không có nước đọng dưới gầm; khu vực làm việc được dọn;
+    và với ca sửa chữa thì được xem linh kiện đã thay cùng ghi nhận nguyên nhân.
+    Sau vệ sinh cần thêm: các khay và ngăn kéo đã lắp lại đúng vị trí, rãnh và
+    lỗ thoát nước ngưng thông, không còn mùi, và bề mặt khô. Các hạng mục kiểm
+    sau nhiều giờ gồm: nhiệt độ thực đo bằng nhiệt kế ở ngăn mát và ngăn đá đạt
+    mốc an toàn thực phẩm; không có nước đọng dưới gầm sau một chu kỳ xả tuyết;
+    không có tuyết bám bất thường; và block có chu kỳ nghỉ với tủ dùng block
+    thường. Về giấy tờ, cần phiếu ghi rõ hạng mục đã làm và điều kiện bảo hành
+    cho phần việc đó, vì bảo hành dịch vụ khác bảo hành thiết bị của hãng. Với
+    ca di dời, cần ghi rõ thời gian chờ trước khi cắm điện đã được tuân thủ.
+  nguon:
+  - url: https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety
+    title: US FDA — Refrigerator Thermometers and Food Safety
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Checklist nghiệm thu tủ lạnh sau sửa chữa, vệ sinh hoặc di dời
+
+    Tủ lạnh khác máy lạnh và máy giặt ở một điểm quyết định: **kết quả không xác nhận được ngay tại chỗ**. Tủ cần nhiều giờ để hạ nhiệt độ toàn khoang, nên sờ tay thấy mát sau mười phút không chứng minh được gì. Vì vậy nghiệm thu tủ lạnh phải làm hai bước.
+
+    <!-- IMAGE: IMG-001 | Khách hàng và kỹ thuật viên đứng trước tủ lạnh vừa lắp xong trong bếp, cùng xem phiếu bàn giao -->
+
+    ## Vì sao phải nghiệm thu hai bước?
+
+    Khối lượng không khí, vách cách nhiệt và bản thân thực phẩm đều cần thời gian để hạ nhiệt. Với một chiếc tủ vừa được cắm điện lại, con số nhiệt độ chỉ đáng tin sau nhiều giờ.
+
+    Do đó:
+
+    - **Bước 1, tại chỗ** — kiểm những gì quan sát được ngay, khi kỹ thuật viên còn ở đó.
+    - **Bước 2, sau nhiều giờ** — kiểm bằng nhiệt kế, và đây mới là bước xác nhận công việc đạt hay không.
+
+    Hãy thống nhất trước với bên thực hiện rằng sẽ có bước 2, và cách liên hệ nếu kết quả chưa đạt.
+
+    ## Bước 1: tám điểm kiểm tại chỗ
+
+    | Hạng mục | Đạt khi |
+    |---|---|
+    | Vị trí và cân bằng | Tủ không bập bênh khi đẩy chéo bốn góc |
+    | Cửa | Tự khép lại khi buông tay |
+    | Gioăng cửa | Phép thử tờ giấy cho kết quả kín quanh viền |
+    | Khoảng hở | Lưng và hai bên đạt theo hướng dẫn của hãng |
+    | Block | Chạy êm, không tiếng va đập |
+    | Dưới gầm | Không có nước đọng |
+    | Khu vực làm việc | Được dọn sạch |
+    | Sửa chữa | Được xem linh kiện đã thay, có ghi nguyên nhân |
+
+    **Sau vệ sinh, kiểm thêm bốn điểm:** khay và ngăn kéo lắp lại đúng vị trí; rãnh và lỗ thoát nước ngưng thông; không còn mùi; bề mặt đã khô.
+
+    **Sau di dời, kiểm thêm một điểm:** thời gian chờ trước khi cắm điện đã được tuân thủ theo model.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh nhiệt kế cầm tay đặt trong cốc nước giữa ngăn mát tủ lạnh, màn hình hiện số -->
+
+    ## Bước 2: bốn điểm kiểm sau nhiều giờ
+
+    1. **Nhiệt độ thực** đo bằng nhiệt kế đặt trong cốc nước giữa ngăn mát, và đo ở ngăn đá. Đạt mốc an toàn thực phẩm.
+    2. **Không có nước đọng dưới gầm** sau khi tủ đã trải qua một chu kỳ xả tuyết.
+    3. **Không có tuyết bám bất thường** trong ngăn đá.
+    4. **Block có chu kỳ nghỉ**, với tủ dùng block thường. Tủ biến tần chạy liên tục ở công suất thấp là bình thường.
+
+    Điểm 1 là điểm quyết định. Đừng chấp nhận kết luận "tủ mát rồi" bằng cảm giác tay.
+
+    ## Giấy tờ
+
+    - **Bảo hành thiết bị** do hãng cấp, áp cho tủ và linh kiện.
+    - **Bảo hành dịch vụ** do đơn vị thực hiện cấp, áp cho phần việc họ vừa làm.
+
+    Yêu cầu phiếu ghi rõ hạng mục đã làm và điều kiện bảo hành cho phần việc đó. Với ca di dời, phiếu nên ghi cả thời gian chờ đã áp dụng.
+
+    ## Nếu bước 2 không đạt
+
+    Đây là lý do nên thống nhất trước cách liên hệ. Khi nhiệt độ không đạt sau nhiều giờ:
+
+    - Ghi lại **con số đo được**, không mô tả bằng cảm giác.
+    - Ghi lại thời điểm cắm điện và thời điểm đo.
+    - Kiểm nhanh xem cửa có bị kênh hay có món nào chặn cửa gió không.
+    - Liên hệ lại theo cách đã thống nhất.
+
+    Con số cụ thể rút ngắn rất nhiều cuộc trao đổi so với câu "tủ vẫn không lạnh lắm".
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, kẹp tờ giấy vào mép cửa tủ lạnh để kiểm tra độ kín của gioăng -->
+
+    ## Đừng thanh toán trước bước 2?
+
+    Đây là điểm cần thoả thuận, không phải quy tắc cứng. Nhiều nơi thanh toán ngay sau khi hoàn thành, và điều đó bình thường.
+
+    Cách dung hoà hợp lý: nghiệm thu bước 1 đầy đủ tại chỗ, thanh toán, đồng thời **thống nhất bằng chữ** rằng nếu bước 2 không đạt thì bên thực hiện sẽ quay lại xử lý trong phạm vi bảo hành dịch vụ.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh ký phiếu bàn giao tủ lạnh trên bàn ăn, khách hàng đọc phiếu bên cạnh -->
+
+    ## Dùng checklist này với Ficool
+
+    Khi đặt dịch vụ với Ficool tại TP.HCM, hãy mở checklist này ra đối chiếu bước 1 ngay lúc bàn giao, và thống nhất trước cách liên hệ cho bước 2. Nếu có hạng mục chưa đạt, đề nghị xử lý trước khi kỹ thuật viên rời đi.
+
+    Muốn biết mốc nhiệt độ và cách đo cho đúng, xem <!-- INTERNAL: cách chỉnh nhiệt độ tủ lạnh | /cach-chinh-nhiet-do-tu-lanh/ -->. Nếu vừa di dời tủ, đọc <!-- INTERNAL: vị trí đặt tủ lạnh | /vi-tri-dat-tu-lanh/ -->. Muốn biết chi phí sửa gồm những phần nào, xem <!-- INTERNAL: giá sửa tủ lạnh | /gia-sua-tu-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Vì sao không nghiệm thu tủ lạnh ngay tại chỗ được?
+
+    Vì tủ lạnh cần nhiều giờ để hạ nhiệt độ toàn khoang xuống mức cài đặt. Sờ tay thấy mát sau mười phút không chứng minh được gì. Cách đúng là kiểm những gì quan sát được ngay tại chỗ, rồi đo nhiệt độ bằng nhiệt kế sau nhiều giờ.
+
+    ### Sau khi sửa tủ lạnh cần kiểm tra những gì?
+
+    Tại chỗ: vị trí và cân bằng, cửa tự khép, gioăng kín, khoảng hở đạt, block chạy êm, không nước đọng dưới gầm, khu vực được dọn, và được xem linh kiện đã thay. Sau nhiều giờ: nhiệt độ thực đạt mốc, không nước đọng, không tuyết bất thường.
+
+    ### Đo nhiệt độ tủ lạnh khi nghiệm thu thế nào?
+
+    Đặt nhiệt kế cầm tay vào một cốc nước rồi để giữa ngăn mát, đóng cửa và chờ nhiều giờ mà không mở. Đo tương tự ở ngăn đá bằng cách đặt nhiệt kế giữa các món đông. Con số đo được là bằng chứng, cảm giác tay thì không.
+
+    ### Có nên thanh toán trước khi biết kết quả nhiệt độ không?
+
+    Đây là điểm nên thoả thuận chứ không phải quy tắc cứng. Cách dung hoà hợp lý là nghiệm thu đầy đủ phần tại chỗ, thanh toán, đồng thời thống nhất bằng chữ rằng nếu nhiệt độ sau nhiều giờ chưa đạt thì bên thực hiện quay lại xử lý.
+
+    ### Ficool có phiếu bàn giao khi hoàn thành không?
+
+    Có. Bạn nên yêu cầu phiếu ghi rõ hạng mục đã thực hiện và điều kiện bảo hành cho phần việc đó, và với ca di dời thì ghi cả thời gian chờ đã áp dụng. Đối chiếu checklist này với phiếu giúp cả hai bên thống nhất công việc đã xong tới đâu tại TP.HCM.
+  seo:
+    tieu_de: Checklist nghiệm thu tủ lạnh, hai bước cần làm
+    mo_ta: >-
+      Tủ lạnh không nghiệm thu ngay tại chỗ được. Tám điểm kiểm tại chỗ và bốn
+      điểm kiểm bằng nhiệt kế sau nhiều giờ.
+    slug: checklist-nghiem-thu-tu-lanh
+    tu_khoa_phu:
+    - nghiệm thu tủ lạnh
+    - kiểm tra sau khi sửa tủ lạnh
+    - bàn giao tủ lạnh sau di dời

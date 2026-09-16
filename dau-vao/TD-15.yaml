@@ -1,0 +1,159 @@
+chu_de:
+  id: TD-15
+  tieu_de: 'Cách chỉnh nhiệt độ tủ mát: Tránh quá lạnh và làm lạnh không đủ'
+  tu_khoa_chinh: cách chỉnh nhiệt độ tủ mát
+  chuyen_muc: Tủ mát, tủ đông
+  the:
+  - Kinh nghiệm hay
+  giai_doan_phieu: F3
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Mốc an toàn thực phẩm cho khoang mát được các cơ quan quản lý khuyến cáo là
+    từ 4 độ C trở xuống, vì trong khoảng nhiệt độ từ khoảng 4 tới 60 độ C vi
+    khuẩn phát triển nhanh. Đây là nhiệt độ THỰC bên trong khoang chứ không phải
+    nấc trên bảng điều khiển; nhiều tủ mát chỉ có núm xoay hoặc dãy nấc không
+    hiển thị nhiệt độ, và các nấc đó là mức tương đối. Cách đo phản ánh sát nhất
+    là đặt nhiệt kế trong một cốc nước ở giữa khoang, đóng cửa và chờ nhiều giờ
+    mà không mở, vì nhiệt độ không khí trong tủ dao động mạnh theo mỗi lần mở
+    cửa còn nhiệt độ nước phản ánh sát hơn nhiệt độ hàng hoá đang ở. Hai hướng
+    sai lệch đều có hậu quả riêng: cài không đủ lạnh làm hàng nằm trong vùng
+    nhiệt độ rủi ro, còn cài lạnh hơn mức cần không bảo quản tốt hơn mà làm máy
+    nén chạy nhiều hơn, tăng điện năng, làm bề mặt dàn lạnh xuống thấp hơn nên
+    bám tuyết nhanh hơn, và có thể làm đóng băng cục bộ những món đặt gần cửa
+    gió. Các yếu tố buộc phải điều chỉnh theo gồm nhiệt độ môi trường thay đổi
+    theo mùa và theo giờ trong ngày, tần suất mở cửa ở giờ cao điểm bán hàng,
+    mức lấp đầy của tủ, và việc vừa nạp một lượng lớn hàng chưa lạnh. Về sắp
+    xếp, hàng hoá che cửa gió tạo vùng ấm cục bộ ngay cả khi cài đặt đúng, nên
+    cần chừa khoảng trống trước các cửa gió. Sau mỗi lần điều chỉnh, cần chờ tủ
+    ổn định rồi mới đo lại, vì đo ngay sau khi vặn núm cho ra con số không phản
+    ánh gì.
+  nguon:
+  - url: https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety
+    title: US FDA — Refrigerator Thermometers and Food Safety
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Cách chỉnh nhiệt độ tủ mát: Tránh quá lạnh và làm lạnh không đủ
+
+    Mốc an toàn cho khoang mát là **từ 4 độ C trở xuống**. Nhưng đó là nhiệt độ thực trong khoang, không phải nấc trên núm xoay. Và có hai hướng sai lệch, không phải một: lạnh không đủ và lạnh hơn mức cần đều có cái giá của chúng.
+
+    <!-- IMAGE: IMG-001 | Chủ cửa hàng đặt một nhiệt kế cầm tay vào cốc nước rồi để giữa kệ của tủ mát trưng bày -->
+
+    ## Nấc trên núm không phải độ C
+
+    Nhiều tủ mát chỉ có núm xoay hoặc dãy nấc mà không hiển thị nhiệt độ. Các nấc đó là mức **tương đối**.
+
+    Nghĩa là câu hỏi "nên để nấc mấy" không có câu trả lời dùng chung, kể cả giữa hai tủ cùng hãng đặt ở hai cửa hàng khác nhau. Một chiếc nhiệt kế cầm tay rẻ tiền hữu ích hơn mọi lời khuyên về nấc.
+
+    ## Đo thế nào cho đúng
+
+    1. Đặt nhiệt kế **trong một cốc nước**, để giữa khoang.
+    2. Đóng cửa, **không mở** trong thời gian đo.
+    3. Chờ nhiều giờ rồi đọc.
+    4. Ghi lại con số cùng thời điểm và ngày.
+
+    Vì sao đặt trong cốc nước: nhiệt độ không khí trong tủ mát dao động mạnh mỗi lần mở cửa, còn nhiệt độ nước phản ánh sát hơn nhiệt độ mà **hàng hoá** thực sự đang ở. Với tủ bán hàng mở cửa liên tục, khác biệt giữa hai cách đo là rất lớn.
+
+    Nên đo ở **hai thời điểm**: một lần vào giờ vắng, một lần vào cuối giờ cao điểm. Chênh lệch giữa hai lần cho biết tủ chịu tải thế nào.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh bên trong tủ mát, các thùng hàng xếp cao che kín ô lưới cửa gió ở thành sau -->
+
+    ## Hai hướng sai lệch, hai cái giá
+
+    | Cài đặt | Hậu quả |
+    |---|---|
+    | **Không đủ lạnh** | Hàng nằm trong vùng nhiệt độ rủi ro, hạn dùng thực tế ngắn lại |
+    | **Lạnh hơn mức cần** | Máy chạy nhiều hơn, tốn điện; dàn lạnh bám tuyết nhanh hơn; món đặt gần cửa gió có thể bị đóng băng |
+
+    Điểm hay bị hiểu nhầm nằm ở dòng thứ hai: **lạnh hơn không có nghĩa là bảo quản tốt hơn**. Mục tiêu là đạt mốc rồi dừng.
+
+    Với tủ trưng bày đồ uống, cài quá lạnh còn có một hậu quả trực tiếp: chai bị đóng băng cục bộ ở hàng sát thành sau.
+
+    ## Bốn thời điểm phải điều chỉnh lại
+
+    - **Đổi mùa.** Nhiệt độ môi trường cao hơn thì tủ phải làm việc nhiều hơn.
+    - **Vào giờ cao điểm bán hàng.** Cửa mở liên tục, khí lạnh thoát nhiều.
+    - **Khi mức lấp đầy thay đổi.** Tủ gần trống dao động nhiệt mạnh hơn mỗi lần mở cửa.
+    - **Vừa nạp nhiều hàng chưa lạnh.** Có thể tăng lạnh tạm thời trong một hai ngày.
+
+    Sau mỗi lần chỉnh, **chờ tủ ổn định rồi mới đo lại**. Đo ngay sau khi vặn núm cho ra con số không phản ánh gì.
+
+    ## Chỉnh từng bước một
+
+    Cách làm gọn:
+
+    1. Đo, ghi lại con số hiện tại.
+    2. Chỉnh **một nấc**, không chỉnh vọt.
+    3. Chờ ổn định.
+    4. Đo lại, ghi lại.
+    5. Lặp cho tới khi đạt mốc, rồi dừng.
+
+    Sau hai ba vòng, bạn sẽ biết nấc nào ứng với mức nào ở chính chiếc tủ này, trong chính điều kiện của cửa hàng mình.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên chỉ cho chủ cửa hàng xem bảng điều khiển nhiệt độ ở nóc tủ mát và ghi lại nấc đang đặt -->
+
+    ## Sắp xếp quan trọng ngang cài đặt
+
+    Một chiếc tủ cài đúng nhiệt độ nhưng xếp chặn cửa gió vẫn sẽ có vùng ấm.
+
+    - Chừa khoảng trống trước **cửa gió** ở thành sau hoặc thành trên.
+    - Không xếp hàng chạm sát thành sau.
+    - Không xếp quá cao che lối khí đi.
+    - Để hàng nguội hẳn trước khi đưa vào tủ.
+    - Xoay vòng hàng theo thứ tự nhập, đừng để hàng cũ nằm khuất ở góc.
+
+    Với tủ trưng bày, hàng xếp sát mặt kính để đẹp mắt cũng có thể chặn đường khí. Hãy kiểm cả mặt trước.
+
+    ## Nếu đo mà không đạt mốc
+
+    Nếu đã cài đúng, chờ đủ, xếp thoáng mà nhiệt độ thực vẫn không đạt, thì vấn đề không nằm ở cài đặt. Hãy kiểm theo thứ tự:
+
+    - Gioăng cửa còn kín không, cửa có tự đóng lại không.
+    - Dàn nóng có bám bụi, có đủ khoảng thoáng không.
+    - Dàn lạnh ở thành sau có bám tuyết dày không.
+    - Khu vực đặt tủ có nóng bất thường không.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh dùng nhiệt kế điện tử đo nhiệt độ thực trong tủ mát tại cửa hàng của khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: loại tủ mát, nhiệt độ **thực đo được** ở giờ vắng và ở cuối giờ cao điểm, nấc đang đặt, và cách xếp hàng bên trong. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn cần chỉnh cài đặt, đổi cách sắp xếp, hay cần kiểm tra thiết bị. Con số đo được thường quyết định luôn hướng xử lý.
+
+    Nếu nhiệt độ không đạt dù đã cài đúng, đọc <!-- INTERNAL: tủ mát không lạnh | /tu-mat-khong-lanh/ -->. Nếu thành sau bám tuyết, xem <!-- INTERNAL: tủ mát bị đóng tuyết | /tu-mat-bi-dong-tuyet/ -->. Muốn biết chi phí kiểm tra gồm những phần nào, đọc <!-- INTERNAL: giá sửa tủ mát tủ đông | /gia-sua-tu-mat-tu-dong/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Nhiệt độ tủ mát nên để bao nhiêu?
+
+    Mốc an toàn cho khoang mát được khuyến cáo là từ 4 độ C trở xuống, và đó là nhiệt độ thực trong khoang chứ không phải nấc trên núm xoay. Cách chắc chắn là đặt nhiệt kế trong một cốc nước ở giữa khoang, đóng cửa và chờ nhiều giờ rồi đọc.
+
+    ### Cài tủ mát lạnh nhất có bảo quản tốt hơn không?
+
+    Không. Lạnh hơn mức cần chỉ làm máy nén chạy nhiều hơn và tốn điện hơn, làm bề mặt dàn lạnh xuống thấp hơn nên bám tuyết nhanh hơn, và có thể làm đóng băng cục bộ những món đặt gần cửa gió. Mục tiêu là đạt mốc rồi dừng.
+
+    ### Vì sao tủ mát cài đúng nấc mà hàng vẫn không đủ lạnh?
+
+    Thường do sắp xếp. Hàng xếp sát thành sau hoặc xếp quá cao che ô lưới cửa gió sẽ tạo vùng ấm cục bộ ngay cả khi cài đặt đúng. Ngoài ra còn có cửa mở quá nhiều ở giờ cao điểm, gioăng hở, và khu vực đặt tủ nóng bất thường.
+
+    ### Bao lâu sau khi chỉnh nấc thì đo lại được?
+
+    Hãy chờ tủ ổn định rồi mới đo, vì đo ngay sau khi vặn núm cho ra con số không phản ánh gì. Nên chỉnh từng nấc một thay vì chỉnh vọt, và ghi lại con số đo sau mỗi lần để biết nấc nào ứng với mức nào ở chính chiếc tủ đó.
+
+    ### Ficool có kiểm tra nhiệt độ tủ mát cho cửa hàng tại TP.HCM không?
+
+    Có. Bạn gửi loại tủ, nhiệt độ thực đo được ở giờ vắng và cuối giờ cao điểm, nấc đang đặt và cách xếp hàng bên trong. Kỹ thuật viên Ficool sẽ nói trường hợp của bạn cần chỉnh cài đặt, đổi cách sắp xếp hay cần kiểm tra thiết bị, và thống nhất chi phí trước khi làm.
+  seo:
+    tieu_de: Cách chỉnh nhiệt độ tủ mát cho đúng mốc an toàn
+    mo_ta: >-
+      Nấc trên núm không phải độ C. Cách đo nhiệt độ thực, hai hướng sai lệch và
+      bốn thời điểm phải điều chỉnh lại.
+    slug: cach-chinh-nhiet-do-tu-mat
+    tu_khoa_phu:
+    - nhiệt độ tủ mát
+    - chỉnh nhiệt độ tủ mát
+    - tủ mát để nấc mấy

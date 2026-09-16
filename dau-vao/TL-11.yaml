@@ -1,0 +1,158 @@
+chu_de:
+  id: TL-11
+  tieu_de: 'Bảo trì tủ lạnh cho gia đình và cơ sở kinh doanh: Những hạng mục nên kiểm tra'
+  tu_khoa_chinh: bảo trì tủ lạnh
+  chuyen_muc: Tủ lạnh
+  the:
+  - Bảo trì
+  giai_doan_phieu: F2
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Tủ lạnh khác phần lớn thiết bị gia dụng ở chỗ nó chạy liên tục và hậu quả
+    khi nó hỏng không dừng ở bản thân thiết bị mà lan sang thực phẩm bên trong.
+    Vì vậy một lượt bảo trì tủ lạnh nên được xây quanh câu hỏi thiết bị có còn
+    giữ được nhiệt độ an toàn hay không, và câu đó chỉ trả lời được bằng nhiệt
+    kế chứ không bằng cảm giác tay. Cơ quan quản lý thực phẩm khuyến cáo ngăn
+    mát ở mức từ 4 độ C trở xuống và ngăn đá ở âm 18 độ C, và đây là nhiệt độ
+    thực trong khoang chứ không phải nấc trên bảng điều khiển. Các hạng mục cốt
+    lõi gồm: gioăng cửa và độ kín, kiểm bằng phép thử tờ giấy; dàn nóng cùng khu
+    vực dưới gầm, nơi bụi bám làm giảm khả năng thải nhiệt; khoảng hở phía sau
+    và hai bên; độ cân bằng của tủ, vì tủ nghiêng làm cửa không tự đóng và làm
+    nước ngưng không chảy đúng hướng; lỗ và đường thoát nước ngưng ở thành sau
+    ngăn mát, nơi tắc thì nước đọng dưới đáy khoang; khay hứng nước bay hơi phía
+    sau; mức tuyết bám trong ngăn đá; chu kỳ chạy và nghỉ của máy nén với tủ
+    dùng block thường; và cách sắp xếp thực phẩm, vì hàng che cửa gió tạo vùng
+    ấm cục bộ ngay cả khi thiết bị hoạt động tốt. Với cơ sở kinh doanh, hai khác
+    biệt cần tính vào lịch là tần suất mở cửa cao hơn nhiều và giá trị hàng hoá
+    trong tủ, khiến chi phí của một lần hỏng vượt xa chi phí của lượt bảo trì.
+  nguon:
+  - url: https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety
+    title: US FDA — Refrigerator Thermometers and Food Safety
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Bảo trì tủ lạnh cho gia đình và cơ sở kinh doanh: Những hạng mục nên kiểm tra
+
+    Tủ lạnh có một đặc điểm khác hẳn thiết bị khác: khi nó hỏng, thiệt hại **không dừng ở thiết bị**. Nó lan sang thực phẩm bên trong. Vì vậy một lượt bảo trì tủ lạnh nên xây quanh đúng một câu hỏi:
+
+    > **Tủ có còn giữ được nhiệt độ an toàn không?**
+
+    Và câu đó chỉ trả lời được bằng nhiệt kế.
+
+    <!-- IMAGE: IMG-001 | Kỹ thuật viên và chủ nhà đứng trước tủ lạnh mở cửa trong bếp, cùng xem phiếu kiểm tra -->
+
+    ## Hạng mục quan trọng nhất: đo nhiệt độ thực
+
+    Sờ tay không phân biệt được mức 4 độ C với mức 9 độ C, mà khác biệt giữa hai mức đó lại rất lớn với thực phẩm.
+
+    Cách đo:
+
+    1. Đặt nhiệt kế **trong một cốc nước**, để giữa ngăn mát.
+    2. Đặt một nhiệt kế nữa giữa các món đông trong ngăn đá.
+    3. **Đóng cửa, không mở** trong thời gian đo.
+    4. Chờ nhiều giờ rồi đọc, **ghi lại con số cùng ngày**.
+
+    Mốc an toàn được khuyến cáo là **ngăn mát từ 4 độ C trở xuống** và **ngăn đá âm 18 độ C** — nhiệt độ thực trong khoang, không phải nấc trên bảng điều khiển.
+
+    ## Checklist — chín hạng mục còn lại
+
+    | # | Hạng mục | Đạt khi |
+    |---|---|---|
+    | 1 | Gioăng cửa | Phép thử tờ giấy cho lực cản đều quanh viền |
+    | 2 | Cửa | Tự khép khi buông tay |
+    | 3 | Dàn nóng, khu vực dưới gầm | Sạch bụi |
+    | 4 | Khoảng hở lưng và hai bên | Đủ theo hướng dẫn của model |
+    | 5 | Độ cân bằng | Không bập bênh khi đẩy chéo bốn góc |
+    | 6 | Lỗ và đường thoát nước ngưng | Thông, không đọng nước trong khoang |
+    | 7 | Khay hứng nước bay hơi phía sau | Đúng vị trí, không nứt, không tràn |
+    | 8 | Mức tuyết trong ngăn đá | Không bám dày bất thường |
+    | 9 | Chu kỳ chạy và nghỉ của máy nén | Có nghỉ, với tủ dùng block thường |
+
+    Hạng mục 9 có một lưu ý: tủ **biến tần** chạy liên tục ở công suất thấp là bình thường, không phải dấu hiệu hỏng.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh phía sau tủ lạnh kéo ra khỏi tường, dàn nóng bám bụi dày và khay hứng nước đặt lệch -->
+
+    ## Ba hạng mục hay bị bỏ sót nhất
+
+    **Lỗ thoát nước ngưng ở thành sau ngăn mát.** Tắc thì nước đọng dưới đáy khoang hoặc chảy ra sàn. Rất nhiều ca "tủ lạnh chảy nước" bắt đầu từ đúng chỗ này, và nó nằm trong tầm tay người dùng.
+
+    **Khay hứng nước bay hơi phía sau.** Đặt lệch thì chạm vào block hoặc vào vỏ và gây tiếng ồn; nứt thì nước chảy ra sàn.
+
+    **Cách sắp xếp thực phẩm.** Không phải bộ phận của máy, nhưng hàng che **cửa gió** tạo vùng ấm cục bộ ngay cả khi thiết bị hoạt động tốt. Một chiếc tủ đạt mọi hạng mục kỹ thuật vẫn có thể làm hỏng thực phẩm vì lý do này.
+
+    ## Gia đình và cơ sở kinh doanh khác nhau ở hai chỗ
+
+    | | Hộ gia đình | Quán ăn, cửa hàng |
+    |---|---|---|
+    | Tần suất mở cửa | Vài lần mỗi giờ | Liên tục trong giờ bán |
+    | Giá trị hàng trong tủ | Bữa ăn vài ngày | **Có thể là hàng của cả tuần** |
+
+    Dòng thứ hai là dòng quyết định lịch: với cơ sở kinh doanh, chi phí của một lần hỏng thường vượt xa chi phí của lượt bảo trì lẽ ra đã làm. Nhóm này nên lập lịch trước thay vì xử lý theo sự cố, và nên có phương án giữ lạnh dự phòng.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, kẹp tờ giấy vào mép cửa tủ lạnh để kiểm độ kín của gioăng -->
+
+    ## Việc bạn tự làm giữa hai kỳ
+
+    - **Vệ sinh khoang** và lau rãnh gioăng.
+    - **Thông lỗ thoát nước ngưng** khi dọn tủ.
+    - **Hút bụi dàn nóng và gầm tủ.**
+    - **Đo nhiệt độ thực** và ghi lại, ít nhất theo mùa.
+    - **Kiểm gioăng** bằng phép thử tờ giấy.
+
+    Bốn việc đầu không cần dụng cụ gì đặc biệt. Việc thứ tư là việc cho dữ liệu, và dữ liệu là thứ phân biệt "tủ có vẻ vẫn lạnh" với "tủ đang ở mức nào".
+
+    ## Khi nào cần gọi sớm hơn lịch
+
+    - Nhiệt độ đo được **không đạt mốc** dù đã cài đúng và xếp thoáng.
+    - Máy nén **chạy liên tục không nghỉ**, với tủ dùng block thường.
+    - **Tuyết bám dày** quay lại nhanh sau khi vừa xả.
+    - **Nước đọng** dưới đáy khoang hoặc dưới gầm.
+    - Tiếng ồn hoặc rung **tăng dần** qua nhiều tháng.
+    - Có **mùi khét**, hoặc aptomat nhảy — ngắt điện trước rồi mới gọi.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh dùng nhiệt kế điện tử đo nhiệt độ thực trong ngăn mát tủ lạnh tại quán ăn -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: tủ dùng cho gia đình hay cho kinh doanh, nhiệt độ **thực đo được** ở hai ngăn kèm thời điểm đo, lần bảo trì hoặc vệ sinh gần nhất, và các bất thường đang thấy. Ficool tại TP.HCM sẽ đề xuất chu kỳ theo mức sử dụng và bàn giao phiếu ghi rõ hạng mục đã kiểm để bạn so ở kỳ sau. Với quán ăn và cửa hàng, hãy nói khung giờ ít khách và lượng hàng đang chứa để bố trí lịch.
+
+    Muốn biết cách đo và cài nhiệt độ, đọc <!-- INTERNAL: cách chỉnh nhiệt độ tủ lạnh | /cach-chinh-nhiet-do-tu-lanh/ -->. Về phần vệ sinh tự làm được, xem <!-- INTERNAL: cách vệ sinh tủ lạnh | /cach-ve-sinh-tu-lanh/ -->. Sau khi làm xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu tủ lạnh | /checklist-nghiem-thu-tu-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Bảo trì tủ lạnh gồm những hạng mục nào?
+
+    Quan trọng nhất là đo nhiệt độ thực ở cả hai ngăn bằng nhiệt kế. Chín hạng mục còn lại gồm gioăng cửa, cửa tự khép, dàn nóng và gầm tủ, khoảng hở, độ cân bằng, lỗ và đường thoát nước ngưng, khay hứng nước bay hơi, mức tuyết trong ngăn đá, và chu kỳ chạy nghỉ của máy nén.
+
+    ### Vì sao phải đo nhiệt độ thay vì sờ tay?
+
+    Vì sờ tay không phân biệt được mức 4 độ C với mức 9 độ C, mà khác biệt giữa hai mức đó rất lớn với thực phẩm. Hãy đặt nhiệt kế trong một cốc nước ở giữa ngăn mát, đóng cửa và chờ nhiều giờ rồi đọc, ghi lại con số kèm ngày.
+
+    ### Tủ lạnh chạy liên tục không nghỉ có phải hỏng không?
+
+    Tuỳ loại máy nén. Với tủ dùng block thường thì chạy liên tục không nghỉ là dấu hiệu cần kiểm. Với tủ biến tần thì chạy liên tục ở công suất thấp là hành vi theo thiết kế, không phải hỏng hóc.
+
+    ### Quán ăn có cần bảo trì tủ lạnh dày hơn nhà ở không?
+
+    Thường là có, vì tần suất mở cửa cao hơn nhiều và giá trị hàng trong tủ lớn hơn. Chi phí của một lần hỏng thường vượt xa chi phí của lượt bảo trì lẽ ra đã làm, nên nhóm này nên lập lịch trước và có phương án giữ lạnh dự phòng.
+
+    ### Ficool có nhận bảo trì tủ lạnh định kỳ tại TP.HCM không?
+
+    Có. Bạn gửi mục đích sử dụng, nhiệt độ thực đo được ở hai ngăn kèm thời điểm, lần bảo trì gần nhất và các bất thường. Ficool sẽ đề xuất chu kỳ theo mức sử dụng, bàn giao phiếu ghi rõ hạng mục đã kiểm, và thống nhất chi phí trước khi làm.
+  seo:
+    tieu_de: Bảo trì tủ lạnh gồm những hạng mục nào?
+    mo_ta: >-
+      Hạng mục quan trọng nhất là đo nhiệt độ thực, cộng chín hạng mục còn lại
+      và ba chỗ hay bị bỏ sót nhất.
+    slug: bao-tri-tu-lanh
+    tu_khoa_phu:
+    - bảo dưỡng tủ lạnh
+    - kiểm tra tủ lạnh định kỳ
+    - checklist bảo trì tủ lạnh

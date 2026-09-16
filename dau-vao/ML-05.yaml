@@ -1,0 +1,137 @@
+chu_de:
+  id: ML-05
+  tieu_de: 'Máy lạnh tự tắt liên tục: Cài đặt, quá nhiệt hay lỗi kỹ thuật?'
+  tu_khoa_chinh: máy lạnh tự tắt
+  chuyen_muc: Máy lạnh
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Máy lạnh tự tắt hoặc tự ngắt block theo chu kỳ có ba nhóm nguyên nhân, và
+    nhóm đầu tiên không phải hỏng hóc. Nhóm cài đặt: hẹn giờ tắt đang bật, chế
+    độ Sleep tự nâng nhiệt độ sau vài giờ khiến máy đạt mốc và ngừng làm lạnh,
+    hoặc nhiệt độ đặt quá gần nhiệt độ phòng làm block ngắt liên tục theo cảm
+    biến. Đây là hành vi thiết kế chứ không phải lỗi. Nhóm quá nhiệt và bảo vệ:
+    dàn nóng không thải được nhiệt do bị che chắn, quạt dàn nóng yếu, hoặc dàn
+    ngưng bám bụi dày khiến áp suất phía cao áp tăng, rơ le bảo vệ ngắt block để
+    tránh hỏng; đặc điểm nhận biết là máy chạy được một lúc rồi ngắt, nghỉ vài
+    phút lại chạy, và chu kỳ lặp lại. Nhóm điện và linh kiện: điện áp không ổn
+    định, tụ khởi động yếu, rơ le nhiệt hỏng, hoặc bo mạch lỗi; nhóm này thường
+    kèm mã lỗi nhấp nháy trên đèn báo dàn lạnh. Việc đọc mã lỗi rất có giá trị
+    vì mỗi hãng quy ước số lần nháy tương ứng nhóm lỗi, và thông tin đó rút ngắn
+    quá trình chẩn đoán. Một tình huống riêng cần phân biệt: CB nhảy khác với
+    máy tự tắt. CB nhảy là hệ thống điện của nhà ngắt, thường do quá tải hoặc
+    chập, và không được bật lại nhiều lần. Máy tự tắt mà CB vẫn bật là chuyện
+    bên trong máy. Người dùng tự kiểm tra được nhóm cài đặt và phần thông thoáng
+    của dàn nóng; nhóm điện và linh kiện cần thợ.
+  nguon:
+  - url: https://www.energy.gov/energysaver/air-conditioning
+    title: U.S. Department of Energy — Air Conditioning
+  - url: https://www.daikin.com.vn/vi/support/faq/
+    title: Daikin Việt Nam — Câu hỏi thường gặp về điều hoà
+  serp: []
+
+bai_viet:
+  than: |
+    # Máy lạnh tự tắt liên tục: Cài đặt, quá nhiệt hay lỗi kỹ thuật?
+
+    Máy lạnh tự tắt có ba nhóm nguyên nhân: cài đặt đang làm đúng việc của nó, hệ thống bảo vệ ngắt block vì quá nhiệt, hoặc lỗi điện và linh kiện. Nhóm đầu không phải hỏng và bạn tự xử lý trong hai phút, nên hãy loại trừ nó trước.
+
+    <!-- IMAGE: IMG-001 | Người dùng ngồi trong phòng khách cầm remote máy lạnh, màn hình remote đang hiện biểu tượng hẹn giờ -->
+
+    ## Phân biệt trước: máy tự tắt hay CB nhảy?
+
+    Hai chuyện này khác nhau hoàn toàn, và nhầm lẫn giữa chúng dẫn tới xử lý sai hướng.
+
+    - **CB nhảy** — mất điện cả cụm máy lạnh, phải ra tủ điện bật lại. Đây là hệ thống điện của nhà đang ngắt vì quá tải hoặc chập.
+    - **Máy tự tắt** — CB vẫn bật, đèn báo trên dàn lạnh vẫn sáng hoặc nhấp nháy, chỉ là block ngừng chạy.
+
+    Nếu CB nhảy lặp lại, dừng ở đây và gọi thợ. Bật lại nhiều lần một CB đang bảo vệ đúng chức năng là điều không nên làm.
+
+    ## Nhóm 1: cài đặt đang làm đúng việc của nó
+
+    Ba thứ sau khiến máy ngừng làm lạnh mà không có gì hỏng:
+
+    - **Hẹn giờ tắt đang bật.** Kiểm tra biểu tượng Timer trên remote và trên màn hình dàn lạnh.
+    - **Chế độ Sleep.** Nhiều dòng máy tự nâng nhiệt độ đặt lên sau vài giờ để tiết kiệm điện. Máy đạt mốc rồi ngừng làm lạnh, người dùng thấy như máy tắt.
+    - **Nhiệt độ đặt quá gần nhiệt độ phòng.** Đặt 28 độ trong phòng đang 28 độ thì block ngắt gần như ngay lập tức.
+
+    Cách loại trừ: tắt hẹn giờ, chuyển về chế độ Cool, đặt 24 độ, quạt mức cao, rồi theo dõi 30 phút.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh mặt lưới dàn ngưng của dàn nóng bám lớp bụi dày, phía sau là bức tường đặt sát máy -->
+
+    ## Nhóm 2: bảo vệ quá nhiệt
+
+    Đây là nhóm có dấu hiệu dễ nhận nhất: máy chạy được một lúc rồi ngắt, nghỉ vài phút lại chạy, và chu kỳ lặp đi lặp lại.
+
+    Nguyên nhân nằm ở chỗ dàn nóng không thải được nhiệt:
+
+    - Dàn nóng đặt sát tường hoặc bị đồ đạc, cây cối che chắn.
+    - Mặt lưới dàn ngưng bám bụi dày.
+    - Quạt dàn nóng quay yếu hoặc không quay.
+    - Dàn nóng đặt trong hộp kỹ thuật kín, không có đối lưu.
+
+    Khi nhiệt không thoát được, áp suất phía cao áp tăng và rơ le bảo vệ ngắt block. Đó là cơ chế tự vệ, không phải hỏng — nhưng để lâu thì block chịu tải bất thường liên tục.
+
+    Phần bạn làm được: dọn vật cản, cắt cây leo, dời đồ đạc để dàn nóng có khoảng trống thoáng. Phần cần thợ: vệ sinh dàn ngưng và kiểm tra quạt.
+
+    ## Nhóm 3: điện và linh kiện
+
+    Nhóm này thường kèm mã lỗi. Nhìn đèn báo trên dàn lạnh khi máy vừa ngắt: nếu đèn nhấp nháy theo nhịp, đếm số lần nháy và khoảng nghỉ. Mỗi hãng quy ước riêng, và con số đó rút ngắn đáng kể quá trình chẩn đoán.
+
+    Các nguyên nhân thường gặp: điện áp không ổn định, tụ khởi động yếu, rơ le nhiệt hỏng, bo mạch lỗi. Không nhóm nào tự xử lý được tại nhà, vì đều nằm sau vỏ máy và liên quan tới điện.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt CB, mở nắp che khoang điện của dàn nóng để kiểm tra tụ và rơ le -->
+
+    ## Năm bước kiểm tra theo thứ tự
+
+    1. **Xác định là tự tắt hay CB nhảy.** Nếu CB nhảy, dừng lại và gọi thợ.
+    2. **Tắt hẹn giờ và chế độ Sleep.** Đặt Cool, 24 độ, quạt cao.
+    3. **Đếm mã lỗi.** Ghi lại số lần đèn nháy nếu có.
+    4. **Dọn thoáng dàn nóng.** Bảo đảm không có gì chắn mặt quạt và mặt lưới.
+    5. **Chạy thử 30 phút và ghi lại chu kỳ.** Máy chạy bao lâu thì ngắt, nghỉ bao lâu thì chạy lại.
+
+    Con số ở bước 5 là thông tin có giá trị nhất khi mô tả cho kỹ thuật viên.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh dùng ampe kìm đo dòng tại dàn nóng đặt ngoài ban công nhà khách -->
+
+    ## Gửi gì cho Ficool để được tư vấn?
+
+    Bốn thông tin, theo thứ tự quan trọng: mã lỗi nếu có, chu kỳ chạy và ngắt tính bằng phút, dàn nóng đặt ở đâu và có thoáng không, và máy đã dùng bao lâu. Kỹ thuật viên Ficool tại TP.HCM dựa vào đó để nói trường hợp của bạn nghiêng về nhóm nào trước khi tới nơi.
+
+    Nếu chu kỳ ngắt của bạn đi kèm việc máy kém lạnh dần, đọc thêm <!-- INTERNAL: giá vệ sinh máy lạnh gồm những gì | /gia-ve-sinh-may-lanh/ --> vì phần lớn ca đó bắt đầu từ dàn bám bụi. Còn nếu bạn muốn đặt lịch kiểm tra định kỳ để không rơi vào tình trạng này, xem <!-- INTERNAL: bảo trì máy lạnh gồm những hạng mục nào | /bao-tri-may-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy lạnh chạy một lúc rồi tắt, nghỉ vài phút lại chạy là bị gì?
+
+    Đó là dấu hiệu điển hình của bảo vệ quá nhiệt. Dàn nóng không thải được nhiệt nên áp suất tăng, và rơ le ngắt block để bảo vệ. Hãy kiểm tra xem dàn nóng có bị che chắn không và mặt lưới có bám bụi dày không, trước khi nghĩ tới hỏng linh kiện.
+
+    ### Máy lạnh tự tắt có phải do hết gas không?
+
+    Thiếu môi chất lạnh thường biểu hiện bằng việc máy kém lạnh chứ không phải tự tắt theo chu kỳ. Nếu máy ngắt rồi chạy lại đều đặn, nguyên nhân nghiêng về quá nhiệt hoặc bảo vệ. Nạp gas trong trường hợp này không giải quyết được vấn đề.
+
+    ### Đèn báo trên máy lạnh nhấp nháy nghĩa là gì?
+
+    Đó là mã lỗi. Mỗi hãng quy ước số lần nháy và khoảng nghỉ tương ứng với một nhóm sự cố. Bạn không cần tra cứu, chỉ cần đếm chính xác số lần nháy rồi báo lại. Thông tin đó giúp kỹ thuật viên khoanh vùng nhanh hơn nhiều so với mô tả bằng lời.
+
+    ### CB nhảy khi bật máy lạnh thì có nên bật lại không?
+
+    Bật lại một lần để xác nhận thì được. Nếu nó nhảy tiếp, không nên bật thêm lần nữa. CB đang làm đúng việc bảo vệ, và nguyên nhân thường là quá tải hoặc chập trong mạch. Đây là trường hợp cần kỹ thuật viên kiểm tra.
+
+    ### Ficool có kiểm tra máy lạnh tự tắt tại TP.HCM không?
+
+    Có. Bạn gửi mã lỗi, chu kỳ chạy và ngắt, cùng ảnh vị trí đặt dàn nóng. Kỹ thuật viên Ficool sẽ định hướng trước xem trường hợp của bạn nghiêng về cài đặt, quá nhiệt hay linh kiện. Phạm vi và chi phí phụ thuộc tình trạng máy, và được thống nhất trước khi làm.
+  seo:
+    tieu_de: 'Máy lạnh tự tắt liên tục: ba nhóm nguyên nhân'
+    mo_ta: >-
+      Máy lạnh tự tắt do cài đặt, bảo vệ quá nhiệt hay lỗi linh kiện? Cách phân
+      biệt với CB nhảy, năm bước kiểm tra và thông tin cần gửi cho thợ.
+    slug: may-lanh-tu-tat
+    tu_khoa_phu:
+    - máy lạnh tự ngắt
+    - điều hoà chạy một lúc rồi tắt
+    - máy lạnh bật không lên

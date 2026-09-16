@@ -1,0 +1,143 @@
+chu_de:
+  id: MG-05
+  tieu_de: 'Máy giặt bị rò nước: Những vị trí cần kiểm tra trước khi sửa'
+  tu_khoa_chinh: máy giặt bị rò nước
+  chuyen_muc: Máy giặt
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Rò nước ở máy giặt cần được khoanh vùng theo vị trí và theo thời điểm xuất
+    hiện, vì hai thông tin đó gần như chỉ thẳng ra nguyên nhân. Về vị trí: nước
+    ở phía sau máy nghiêng về đầu nối ống cấp hoặc ống xả; nước ở góc dưới mặt
+    trước nghiêng về nắp bộ lọc bơm xả chưa vặn chặt hoặc gioăng nắp lọc hỏng;
+    nước quanh khung cửa máy cửa trước nghiêng về gioăng cửa rách hoặc kẹt dị
+    vật; nước ở ngăn đựng bột giặt nghiêng về ngăn bị tắc do bột đóng cục làm
+    nước tràn ngược; nước lan đều dưới gầm khó xác định hơn và có thể là thùng
+    chứa hoặc đường ống bên trong. Về thời điểm: rò ngay khi cấp nước nghiêng về
+    đầu nối ống cấp hoặc van cấp; rò trong lúc giặt nghiêng về gioăng cửa, ngăn
+    bột giặt hoặc thùng; rò khi xả nghiêng về ống xả, bơm hoặc bộ lọc; rò cả khi
+    máy không chạy nghiêng về van cấp không kín hoặc đầu nối lỏng. Một nguyên
+    nhân thường bị hiểu nhầm là dùng quá nhiều bột hoặc nước giặt: bọt sinh ra
+    nhiều tràn qua các khe và ra ngoài, và người dùng tưởng máy rò. Về an toàn,
+    rò nước ở khu vực có điện là tình huống cần dừng máy, rút phích và khoá van
+    nước trước khi làm gì khác. Người dùng kiểm tra được các điểm bên ngoài như
+    đầu nối, nắp lọc, gioăng cửa và ngăn bột; các điểm bên trong cần thợ.
+  nguon:
+  - url: https://www.energystar.gov/products/clothes_washers
+    title: ENERGY STAR — Clothes Washers
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ kỹ thuật
+  serp: []
+
+bai_viet:
+  than: |
+    # Máy giặt bị rò nước: Những vị trí cần kiểm tra trước khi sửa
+
+    Hai câu hỏi khoanh vùng gần hết nguyên nhân rò nước: nước xuất hiện **ở đâu** trên máy, và **lúc nào** trong chu trình. Trả lời được hai câu đó, bạn thu hẹp từ một danh sách dài xuống còn một hai điểm cụ thể.
+
+    <!-- IMAGE: IMG-001 | Vũng nước lan trên nền gạch dưới gầm máy giặt cửa trước trong khu vực giặt phơi -->
+
+    ## Trước hết, an toàn
+
+    Rò nước ở khu vực có điện là tình huống cần xử lý ngay, không phải chuyện quan sát thêm vài ngày.
+
+    1. **Dừng máy.**
+    2. **Rút phích cắm**, không chạm vào ổ cắm nếu tay hoặc sàn ướt.
+    3. **Khoá van nước** cấp cho máy.
+    4. Lau khô khu vực rồi mới bắt đầu tìm nguyên nhân.
+
+    Nếu nước đã lan tới ổ cắm hoặc dây điện, hãy ngắt CB của khu vực đó trước khi bước vào.
+
+    ## Nước ở đâu?
+
+    | Vị trí | Nghiêng về | Tự kiểm được? |
+    |---|---|---|
+    | Phía sau máy | Đầu nối ống cấp, đầu nối ống xả | Được |
+    | Góc dưới mặt trước | Nắp bộ lọc bơm xả chưa chặt, gioăng nắp hỏng | Được |
+    | Quanh khung cửa (máy cửa trước) | Gioăng cửa rách, kẹt dị vật | Được |
+    | Ngăn đựng bột giặt | Ngăn tắc do bột đóng cục, nước tràn ngược | Được |
+    | Lan đều dưới gầm | Thùng chứa hoặc đường ống bên trong | Không |
+
+    Bốn dòng đầu bạn xem được bằng mắt. Dòng cuối cần mở máy, và đó là việc của thợ.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh gioăng cao su quanh khung cửa máy giặt cửa trước, một đoạn bị rách và kẹt sợi vải -->
+
+    ## Nước xuất hiện lúc nào?
+
+    Thông tin này cũng có giá trị ngang vị trí:
+
+    - **Ngay khi cấp nước** → đầu nối ống cấp hoặc van cấp.
+    - **Trong lúc giặt** → gioăng cửa, ngăn bột giặt, hoặc thùng.
+    - **Khi xả** → ống xả, bơm, hoặc bộ lọc.
+    - **Cả khi máy không chạy** → van cấp không kín hoặc đầu nối lỏng.
+
+    Trường hợp cuối đáng lưu ý: nếu nước rỉ ra cả lúc máy tắt, nguồn nước vẫn đang chảy vào, và khoá van là việc phải làm ngay.
+
+    ## Một nguyên nhân hay bị hiểu nhầm
+
+    Dùng quá nhiều bột giặt hoặc nước giặt sinh ra lượng bọt lớn. Bọt tràn qua các khe và chảy ra ngoài, và người dùng tưởng máy bị rò.
+
+    Cách phân biệt: nước rò thật thì trong, còn bọt tràn thì có bọt trắng và thường xuất hiện quanh cửa hoặc ngăn bột giặt trong lúc giặt. Thử giảm lượng bột xuống theo hướng dẫn của máy và giặt lại một mẻ để xác nhận.
+
+    ## Bốn điểm bạn tự kiểm
+
+    1. **Đầu nối ống cấp.** Siết lại vừa tay, kiểm tra gioăng cao su trong đầu nối còn nguyên không.
+    2. **Nắp bộ lọc bơm xả.** Rút phích trước. Mở ra, vệ sinh, lắp lại cho chặt, kiểm tra gioăng nắp.
+    3. **Gioăng cửa.** Lật mép gioăng, tìm vết rách, dị vật kẹt, hoặc cặn bẩn tích tụ. Lau sạch và để cửa hé sau mỗi lần giặt.
+    4. **Ngăn đựng bột giặt.** Rút ngăn ra, rửa sạch phần bột đóng cục, thông các lỗ nhỏ.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích và khoá van, dùng đèn pin soi mép gioăng cửa máy giặt để tìm vết rách -->
+
+    ## Khi nào cần kỹ thuật viên?
+
+    - Nước lan đều dưới gầm mà không xác định được nguồn.
+    - Đã siết đầu nối và vệ sinh nắp lọc mà vẫn rò.
+    - Gioăng cửa rách, cần thay.
+    - Nước rò kèm mùi khét hoặc kèm máy báo lỗi.
+    - Rò nhiều, chảy thành dòng.
+
+    Với trường hợp cuối, hãy ngừng sử dụng máy cho tới khi kiểm tra xong. Rò nhiều ở khu vực có điện là rủi ro không nên chấp nhận để dùng thêm vài mẻ.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh nghiêng máy giặt kiểm tra đường ống bên trong khoang gầm, tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Ảnh chụp vị trí rò là thông tin có giá trị nhất, chụp đủ rộng để thấy cả khu vực xung quanh. Gửi kèm ba thông tin: nước xuất hiện lúc nào trong chu trình, nước trong hay có bọt, và bạn đã kiểm bốn điểm ở trên chưa. Kỹ thuật viên Ficool tại TP.HCM sẽ định hướng dựa trên đó, và nếu rò nghiêm trọng thì lời khuyên đầu tiên sẽ là ngừng dùng máy.
+
+    Nếu nước đọng lại trong lồng mà không thoát, đó là chuyện khác, xem <!-- INTERNAL: máy giặt không xả nước | /may-giat-khong-xa-nuoc/ -->. Vệ sinh định kỳ gioăng cửa và ngăn bột giặt giúp phòng phần lớn ca rò nhẹ, xem <!-- INTERNAL: vệ sinh máy giặt tại nhà | /ve-sinh-may-giat-tai-nha/ -->. Sau khi sửa xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu máy giặt | /checklist-nghiem-thu-may-giat/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy giặt rò nước ở phía sau là do đâu?
+
+    Thường là đầu nối ống cấp hoặc đầu nối ống xả bị lỏng, hoặc gioăng cao su trong đầu nối đã chai. Hãy khoá van nước, rút phích cắm, rồi siết lại vừa tay và kiểm tra gioăng. Nếu gioăng đã cứng hoặc nứt thì cần thay.
+
+    ### Nước chảy ra quanh cửa máy giặt cửa trước thì sao?
+
+    Lật mép gioăng cửa và kiểm tra ba thứ: vết rách, dị vật kẹt bên trong, và cặn bẩn tích tụ. Cặn và dị vật thì lau sạch được. Gioăng rách thì cần thay, và đó là việc của kỹ thuật viên vì phải tháo vòng kẹp giữ gioăng.
+
+    ### Vì sao máy giặt tràn bọt ra ngoài?
+
+    Thường do dùng quá nhiều bột giặt hoặc nước giặt so với lượng đồ. Bọt sinh ra nhiều tràn qua các khe và chảy ra ngoài, trông giống như rò nước. Cách phân biệt: bọt tràn có màu trắng và xuất hiện trong lúc giặt, còn nước rò thật thì trong.
+
+    ### Máy giặt rò nước khi không chạy có nguy hiểm không?
+
+    Có, và cần khoá van nước ngay. Rò khi máy tắt nghĩa là nguồn nước vẫn đang chảy vào, thường do van cấp không kín hoặc đầu nối lỏng. Để nguyên có thể dẫn tới ngập khu vực, và nước ở gần thiết bị điện là rủi ro cần xử lý sớm.
+
+    ### Ficool có kiểm tra máy giặt rò nước tại TP.HCM không?
+
+    Có. Bạn gửi ảnh vị trí rò chụp đủ rộng, kèm thông tin nước xuất hiện lúc nào trong chu trình và nước trong hay có bọt. Kỹ thuật viên Ficool sẽ định hướng trước khi tới. Nếu rò nhiều, hãy ngừng sử dụng máy và khoá van cho tới khi kiểm tra xong.
+  seo:
+    tieu_de: 'Máy giặt bị rò nước: vị trí cần kiểm tra trước khi sửa'
+    mo_ta: >-
+      Nước ở đâu và xuất hiện lúc nào trong chu trình sẽ chỉ ra nguyên nhân.
+      Bảng đối chiếu theo vị trí, bốn điểm bạn tự kiểm và khi nào cần thợ.
+    slug: may-giat-bi-ro-nuoc
+    tu_khoa_phu:
+    - máy giặt chảy nước ra sàn
+    - máy giặt rỉ nước phía sau
+    - gioăng cửa máy giặt bị rách

@@ -1,0 +1,176 @@
+chu_de:
+  id: TD-11
+  tieu_de: 'Bảo trì tủ mát, tủ đông cho cửa hàng: Checklist giảm nguy cơ mất hàng'
+  tu_khoa_chinh: bảo trì tủ mát tủ đông
+  chuyen_muc: Tủ mát, tủ đông
+  the:
+  - Bảo trì
+  giai_doan_phieu: F2
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Thiết bị lạnh thương mại trong cửa hàng vận hành ở điều kiện khắt khe hơn tủ
+    gia đình: cửa mở rất nhiều lần mỗi ngày, hàng hoá xếp dày, và thiệt hại khi
+    hỏng không nằm ở tiền sửa mà ở lô hàng bảo quản bên trong. Nguyên nhân làm
+    giảm hiệu suất phổ biến nhất là dàn nóng bám bụi và dầu mỡ: lớp bám đó hoạt
+    động như một tấm cách nhiệt, làm nhiệt độ ngưng tụ tăng lên, kéo theo áp suất
+    đẩy tăng, năng suất lạnh giảm và máy nén phải chạy dài hơn để giữ cùng một
+    nhiệt độ. Kiểu hỏng đáng lo hơn cả lại là kiểu không phát tín hiệu nào: khi
+    dàn lạnh bị tuyết bọc kín, lớp tuyết cách nhiệt giữa không khí và dàn nên cảm
+    biến vẫn đọc được nhiệt độ chấp nhận được ở vị trí của nó trong khi hàng hoá
+    ở phần xa đang ấm dần; tương tự, quạt dàn lạnh chết làm không khí ngừng luân
+    chuyển, máy nén vẫn chạy và tủ vẫn kêu bình thường nhưng nhiệt độ trong
+    khoang phân tầng nặng. Gioăng cửa trên tủ trưng bày chịu số lần đóng mở rất
+    lớn nên bị biến dạng dư và bản lề bị xệ, tạo khe hở nhỏ thường trực; khe đó
+    đưa khí ẩm bên ngoài vào liên tục, vừa làm máy chạy dài hơn vừa cấp ẩm cho
+    dàn lạnh đóng tuyết. Vì các cơ chế trên, phép đo đáng tin không phải nhiệt độ
+    khí trong khoang — con số này dao động mạnh theo mỗi lần mở cửa — mà là nhiệt
+    độ của chính hàng hoá ở vị trí ấm nhất trong tủ, vì nó phản ánh trạng thái đã
+    ổn định. Quy định an toàn thực phẩm của Hoa Kỳ lấy mốc bảo quản lạnh là 5°C
+    hoặc thấp hơn, và với hàng đông thì yêu cầu là giữ thực phẩm đông cứng liên
+    tục, không có mốc thời gian nào cho phép rã rồi đông lại. Điều kiện bên ngoài
+    cũng quyết định: dàn nóng thải nhiệt vào phòng, nên một tủ kê sát tường hoặc
+    bị kẹp sau quầy sẽ làm việc ở nhiệt độ môi trường cao hơn nhiệt độ chung của
+    cửa hàng, và hệ thống xả tuyết hỏng bộ hẹn hoặc hỏng điện trở sẽ làm tuyết
+    dày lên theo từng ngày thay vì hỏng dứt khoát một lần.
+  nguon:
+  - url: https://www.fda.gov/food/fda-food-code/food-code-2022
+    title: U.S. Food and Drug Administration — Food Code 2022
+  - url: https://www.energy.gov/energysaver/commercial-refrigeration
+    title: U.S. Department of Energy — Commercial Refrigeration
+  - url: https://www.ashrae.org/technical-resources
+    title: ASHRAE — Technical Resources
+  serp: []
+
+bai_viet:
+  than: |
+    # Bảo trì tủ mát, tủ đông cho cửa hàng: Checklist giảm nguy cơ mất hàng
+
+    Với cửa hàng, hoá đơn sửa tủ thường là phần nhỏ nhất của thiệt hại. Phần lớn nằm ở lô hàng bên trong. Và những kiểu hỏng làm mất hàng nhiều nhất lại là những kiểu **không phát tín hiệu nào**.
+
+    <!-- IMAGE: IMG-001 | Chủ cửa hàng đứng trước dãy tủ mát cửa kính, tay cầm nhiệt kế cầm tay chĩa vào thùng hàng trong tủ -->
+
+    ## Điều đáng lo không phải tủ ngừng chạy
+
+    Tủ ngừng chạy là tin tốt — theo nghĩa tương đối. Nó thông báo ngay, và bạn còn kịp chuyển hàng.
+
+    | | Hỏng ồn ào | Hỏng âm thầm |
+    |---|---|---|
+    | Biểu hiện | Tủ im, không mát, báo lỗi | Tủ vẫn kêu, vẫn mát ở chỗ cảm biến |
+    | Bạn biết khi nào | Trong vài giờ | Khi hàng đã hỏng |
+    | Mất hàng | Một phần, nếu kịp chuyển | Thường là cả lô |
+
+    Cả checklist dưới đây được xếp theo một tiêu chí duy nhất: **ưu tiên những hạng mục mà nếu hỏng, bạn sẽ không biết.**
+
+    ## Bốn kiểu hỏng âm thầm
+
+    **① Dàn nóng bám bụi và dầu mỡ.** Lớp bám hoạt động như tấm cách nhiệt: nhiệt độ ngưng tụ tăng, áp suất đẩy tăng, năng suất lạnh giảm, máy nén chạy dài hơn để giữ cùng một mức nhiệt. Tủ vẫn lạnh — chỉ là nó đang làm việc nặng hơn mỗi ngày, và tiền điện là dấu hiệu duy nhất.
+
+    **② Tuyết bọc kín dàn lạnh.** Lớp tuyết cách nhiệt giữa khí và dàn. Cảm biến ở vị trí của nó vẫn đọc con số chấp nhận được, trong khi hàng ở phần xa ấm dần. Đây là kiểu hỏng làm mất hàng nhiều nhất.
+
+    **③ Quạt dàn lạnh chết.** Máy nén vẫn chạy, tủ vẫn có tiếng, nhưng không khí ngừng luân chuyển nên khoang phân tầng nặng: chỗ gần dàn thì buốt, chỗ xa thì ấm.
+
+    **④ Gioăng hở một khe nhỏ thường trực.** Tủ trưng bày chịu số lần đóng mở rất lớn, gioăng bị biến dạng dư và bản lề xệ. Khe hở nhỏ không làm tủ mất lạnh ngay, nó làm hai việc chậm hơn: máy chạy dài hơn, và cấp ẩm liên tục cho dàn lạnh đóng tuyết — tức là nó **nuôi** kiểu hỏng ②.
+
+    ## Phép đo duy nhất đáng tin
+
+    Đo nhiệt độ **hàng hoá**, không đo nhiệt độ khí.
+
+    Nhiệt độ khí trong khoang dao động mạnh sau mỗi lần mở cửa, nên nó nói cho bạn biết cửa vừa mở chứ không nói hàng có đang được bảo quản đúng hay không. Nhiệt độ của chính hàng hoá thì trễ hơn và ổn định hơn — đó là lý do nó đáng tin.
+
+    Cách làm ít tốn công mà hiệu quả:
+
+    1. Đặt **một nhiệt kế ở vị trí ấm nhất** của tủ — thường là gần cửa, tầng trên, hoặc góc xa dàn lạnh.
+    2. Ghi lại con số **hai lần mỗi ngày**, đầu buổi và cuối buổi.
+    3. Chú ý **xu hướng**, không chỉ con số. Một tủ nhích lên đều đặn trong một tuần đang báo cho bạn biết trước, còn con số hôm nay thì không.
+
+    Mốc tham chiếu quốc tế: hàng lạnh giữ ở 5°C hoặc thấp hơn; hàng đông phải **đông cứng liên tục** — không có khoảng thời gian nào cho phép rã rồi đông lại.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh nhiệt kế đặt giữa các thùng hàng ở tầng trên cùng của tủ mát, cạnh một tờ giấy ghi nhiệt độ theo ngày -->
+
+    ## Checklist theo tần suất
+
+    **Mỗi ngày — dưới hai phút**
+
+    - Đọc và ghi nhiệt kế, đầu buổi và cuối buổi.
+    - Nhìn nhanh sàn quanh chân tủ xem có nước.
+    - Nghe: tủ có tiếng lạ, hoặc chạy liên tục không nghỉ.
+
+    **Mỗi tuần**
+
+    - Lau kính, tay cầm và **rãnh gioăng** — cặn trong rãnh là thứ làm gioăng không ăn khít.
+    - Kiểm tra khe hở gioăng bằng cách kẹp một tờ giấy rồi kéo ra: chỗ nào tuột dễ là chỗ hở.
+    - Nhìn dàn lạnh: đã có tuyết chưa, và tuyết phủ đều hay phủ một phía.
+    - Xem đường thoát nước ngưng có ứ.
+
+    **Mỗi tháng**
+
+    - Vệ sinh **dàn nóng**. Đây là hạng mục có ảnh hưởng lớn nhất tới điện và tuổi máy nén.
+    - Kiểm tra quạt dàn nóng và quạt dàn lạnh có quay, quay êm.
+    - Kiểm tra khoảng thông thoáng quanh tủ có bị hàng hoá hoặc thùng carton chặn lại.
+
+    **Định kỳ — giao kỹ thuật viên**
+
+    - Vệ sinh sâu dàn lạnh, khay hứng nước bay hơi, đường thoát nước.
+    - Kiểm tra hệ thống xả tuyết: bộ hẹn, điện trở, cảm biến kết thúc xả.
+    - Đo dòng làm việc của máy nén và đối chiếu với thông số.
+    - Kiểm tra bảo vệ điện tại ổ cấp nguồn cho tủ.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên dùng bàn chải mềm và máy hút bụi làm sạch dàn nóng phía sau tủ đông trong khu vực sau cửa hàng -->
+
+    ## Ba thứ ở ngoài tủ nhưng quyết định tủ
+
+    **Chỗ đặt.** Dàn nóng thải nhiệt vào phòng. Một tủ kê sát tường hoặc bị kẹp sau quầy làm việc ở nhiệt độ môi trường cao hơn nhiệt độ chung của cửa hàng — và nó không có cách nào báo cho bạn biết điều đó.
+
+    **Nguồn điện.** Tủ nên có nguồn riêng, có tiếp địa và có thiết bị chống dòng rò. Một ổ cắm dùng chung với thiết bị công suất lớn khác là nguồn của những lần ngắt không rõ nguyên nhân.
+
+    **Cách xếp hàng.** Xếp dày bít đường gió là cách chắc chắn tạo ra vùng ấm trong một cái tủ vẫn đang chạy tốt. Chừa khoảng gió trước miệng thổi và đừng chặn lưới hồi.
+
+    ## Nhiều tủ thì quản bằng danh mục, không quản bằng nhớ
+
+    Từ ba tủ trở lên, việc nhớ tủ nào đã vệ sinh khi nào là việc sẽ trượt. Một bảng đơn giản là đủ: mỗi dòng một tủ, ghi vị trí, model, lần vệ sinh dàn nóng gần nhất, lần kiểm tra định kỳ gần nhất, và nhiệt độ ghi nhận hôm nay.
+
+    Bảng đó có tác dụng thứ hai quan trọng hơn: nó cho bạn thấy **tủ nào hay có vấn đề**, và đó thường là tủ đặt ở chỗ nóng hoặc tủ bị mở cửa nhiều nhất.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên và chủ cửa hàng cùng xem một bảng danh mục thiết bị in trên giấy, phía sau là dãy tủ mát và tủ đông -->
+
+    ## Gửi gì cho Ficool?
+
+    Nếu bạn có nhiều tủ và muốn có lịch kiểm tra thay vì chờ hỏng, hãy gửi danh mục: số lượng tủ, loại (tủ mát cửa kính, tủ đông nắp kính, tủ đông nắp đặc), vị trí đặt từng tủ, và loại hàng đang bảo quản. Ficool tại TP.HCM sẽ đề xuất tần suất kiểm tra cho từng tủ theo điều kiện thực tế của nó, và thống nhất phạm vi cùng chi phí trước khi làm.
+
+    Nếu đang có một tủ bất thường, hãy nói kèm nhiệt độ bạn ghi được mấy ngày gần đây — xu hướng giúp khoanh vùng nhanh hơn nhiều so với mô tả cảm giác.
+
+    Mức nhiệt nên đặt cho từng loại hàng, xem <!-- INTERNAL: cách chỉnh nhiệt độ tủ mát | /cach-chinh-nhiet-do-tu-mat/ -->. Sau mỗi lần kỹ thuật viên làm xong, đối chiếu bằng <!-- INTERNAL: checklist nghiệm thu tủ mát, tủ đông | /checklist-nghiem-thu-tu-mat-tu-dong/ -->. Muốn biết chi phí sửa chữa gồm những phần nào, đọc <!-- INTERNAL: giá sửa tủ mát, tủ đông | /gia-sua-tu-mat-tu-dong/ -->. Phần vệ sinh khoang và gioăng bạn tự làm được, xem <!-- INTERNAL: cách vệ sinh tủ mát | /cach-ve-sinh-tu-mat/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Bao lâu nên bảo trì tủ mát, tủ đông của cửa hàng?
+
+    Hạng mục quan trọng nhất là vệ sinh dàn nóng, nên làm hằng tháng vì lớp bụi và dầu mỡ ở đó ảnh hưởng trực tiếp tới điện và tuổi máy nén. Kiểm tra sâu gồm dàn lạnh, khay nước, hệ thống xả tuyết và dòng làm việc của máy nén thì làm định kỳ và nên giao kỹ thuật viên. Riêng việc đọc nhiệt kế thì làm mỗi ngày.
+
+    ### Tủ vẫn lạnh thì có cần bảo trì không?
+
+    Cần, vì những kiểu hỏng làm mất hàng nhiều nhất đều xảy ra trên tủ "vẫn lạnh". Khi dàn lạnh bị tuyết bọc, lớp tuyết cách nhiệt nên cảm biến vẫn đọc con số chấp nhận được trong khi hàng ở phần xa ấm dần. Quạt dàn lạnh chết cũng vậy: máy nén vẫn chạy nhưng khoang phân tầng.
+
+    ### Nên đo nhiệt độ khí trong tủ hay nhiệt độ hàng hoá?
+
+    Đo nhiệt độ hàng hoá. Nhiệt độ khí dao động mạnh sau mỗi lần mở cửa nên nó chỉ nói cửa vừa mở, còn nhiệt độ hàng trễ hơn và ổn định hơn nên phản ánh đúng chất lượng bảo quản. Đặt nhiệt kế ở vị trí ấm nhất của tủ và theo dõi xu hướng chứ không chỉ con số hôm nay.
+
+    ### Vì sao gioăng hở một khe nhỏ lại nghiêm trọng?
+
+    Vì nó nuôi một lỗi khác. Khe hở không làm tủ mất lạnh ngay, nhưng nó đưa khí ẩm bên ngoài vào liên tục, vừa làm máy chạy dài hơn vừa cấp ẩm cho dàn lạnh đóng tuyết. Đến lúc tuyết bọc kín dàn thì vấn đề đã chuyển thành kiểu hỏng âm thầm.
+
+    ### Ficool có nhận lập lịch kiểm tra định kỳ cho cửa hàng nhiều tủ không?
+
+    Có. Bạn gửi danh mục gồm số lượng tủ, loại tủ, vị trí đặt và loại hàng bảo quản. Ficool sẽ đề xuất tần suất kiểm tra riêng cho từng tủ theo điều kiện thực tế của nó, vì một tủ kê ở chỗ nóng hoặc bị mở cửa nhiều cần tần suất khác tủ đặt ở chỗ thoáng. Phạm vi và chi phí được thống nhất trước khi thực hiện.
+  seo:
+    tieu_de: 'Bảo trì tủ mát, tủ đông cửa hàng: checklist giảm mất hàng'
+    mo_ta: >-
+      Bốn kiểu hỏng âm thầm khiến tủ vẫn lạnh mà hàng vẫn hỏng, phép đo đáng tin
+      duy nhất, và checklist theo ngày, tuần, tháng.
+    slug: bao-tri-tu-mat-tu-dong
+    tu_khoa_phu:
+    - bảo dưỡng tủ mát tủ đông
+    - checklist bảo trì tủ đông
+    - bảo trì tủ đông cửa hàng

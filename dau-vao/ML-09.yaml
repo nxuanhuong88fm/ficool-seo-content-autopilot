@@ -1,0 +1,150 @@
+chu_de:
+  id: ML-09
+  tieu_de: Giá vệ sinh máy lạnh gồm những gì? Cách hỏi báo giá để tránh phát sinh
+  tu_khoa_chinh: giá vệ sinh máy lạnh
+  chuyen_muc: Máy lạnh
+  the:
+  - Kinh nghiệm hay
+  giai_doan_phieu: F3
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Báo giá vệ sinh máy lạnh chênh nhau giữa các đơn vị phần lớn không phải vì
+    đơn vị này đắt hơn đơn vị kia, mà vì hai bên đang báo hai phạm vi công việc
+    khác nhau. Một lần vệ sinh đầy đủ thường gồm: che chắn khu vực làm việc, tháo
+    và rửa lưới lọc, xịt rửa dàn lạnh bằng máy bơm áp lực với túi hứng nước, vệ
+    sinh máng hứng và thông đường ống thoát nước ngưng, vệ sinh dàn nóng, kiểm
+    tra thông số vận hành sau khi lắp lại, và dọn dẹp. Nhiều báo giá thấp chỉ
+    bao gồm rửa lưới lọc và xịt sơ mặt ngoài dàn lạnh, bỏ qua máng hứng, ống
+    thoát và dàn nóng — ba hạng mục tốn công nhất và cũng là nơi gây mùi cùng
+    rò nước. Các yếu tố làm giá khác nhau một cách chính đáng: công suất máy,
+    loại máy (treo tường, âm trần, tủ đứng, multi), vị trí lắp đặt có khó tiếp
+    cận không (dàn nóng trên cao, trong hộp kỹ thuật, ngoài ban công không có
+    lối), số lượng máy trong cùng một lần tới, và tình trạng máy khi lâu ngày
+    chưa vệ sinh. Các khoản hay phát sinh mà khách không lường trước: bơm gas
+    khi kiểm tra thấy thiếu, thay máng hứng nứt, thay ống thoát nước, tháo dàn
+    nóng xuống để vệ sinh khi lắp ở vị trí không thao tác được tại chỗ. Cách
+    tránh tranh cãi là yêu cầu báo giá ghi rõ phạm vi từng hạng mục và nêu trước
+    điều kiện phát sinh, đồng thời chốt nguyên tắc mọi phát sinh phải được báo và
+    đồng ý trước khi làm.
+  nguon:
+  - url: https://www.energy.gov/energysaver/maintaining-your-air-conditioner
+    title: U.S. Department of Energy — Maintaining Your Air Conditioner
+  - url: https://www.daikin.com.vn/vi/support/faq/
+    title: Daikin Việt Nam — Câu hỏi thường gặp về điều hoà
+  serp: []
+
+bai_viet:
+  than: |
+    # Giá vệ sinh máy lạnh gồm những gì? Cách hỏi báo giá để tránh phát sinh
+
+    Hai báo giá vệ sinh máy lạnh chênh nhau thường không phải vì bên nào đắt hơn, mà vì hai bên đang báo hai phạm vi công việc khác nhau. Muốn so sánh đúng, hãy hỏi phạm vi trước rồi mới hỏi con số.
+
+    <!-- IMAGE: IMG-001 | Khách hàng và kỹ thuật viên đứng cạnh dàn lạnh trong phòng khách, cùng xem phiếu ghi hạng mục công việc -->
+
+    ## Một lần vệ sinh đầy đủ gồm những gì?
+
+    Bảy hạng mục dưới đây là phạm vi của một lần vệ sinh làm tới nơi:
+
+    1. **Che chắn khu vực.** Trải bạt, che tường và đồ đạc quanh dàn lạnh.
+    2. **Tháo và rửa lưới lọc.** Rửa sạch, để khô trước khi lắp lại.
+    3. **Xịt rửa dàn lạnh.** Dùng máy bơm áp lực với túi hứng nước trùm kín.
+    4. **Vệ sinh máng hứng và thông ống thoát.** Đây là nơi sinh mùi và gây rò nước.
+    5. **Vệ sinh dàn nóng.** Rửa mặt lưới dàn ngưng, kiểm tra quạt.
+    6. **Kiểm tra thông số sau khi lắp lại.** Đo nhiệt độ gió ra, nghe tiếng vận hành.
+    7. **Dọn dẹp.** Trả lại hiện trạng khu vực làm việc.
+
+    Nhiều báo giá thấp chỉ gồm mục 2 và một phần mục 3. Ba mục tốn công nhất — máng hứng, ống thoát và dàn nóng — bị bỏ qua. Đó cũng chính là ba nơi gây mùi hôi và rò nước sau này.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh máng hứng nước của dàn lạnh đóng cặn bẩn, đầu ống thoát nước ngưng nghẹt -->
+
+    ## Vì sao giá khác nhau một cách chính đáng?
+
+    Năm yếu tố dưới đây làm giá khác nhau mà không ai sai:
+
+    | Yếu tố | Vì sao ảnh hưởng |
+    |---|---|
+    | Công suất máy | Máy lớn hơn thì dàn lớn hơn, thời gian và nước rửa nhiều hơn |
+    | Loại máy | Âm trần và tủ đứng tháo lắp phức tạp hơn treo tường |
+    | Vị trí lắp đặt | Dàn nóng trên cao hoặc trong hộp kỹ thuật cần thêm công và đồ bảo hộ |
+    | Số máy mỗi lần tới | Nhiều máy cùng một lần đi thì chi phí di chuyển chia đều |
+    | Tình trạng máy | Máy lâu ngày chưa vệ sinh cần thời gian gấp đôi |
+
+    Đây là lý do một con số duy nhất áp cho mọi trường hợp thường là con số không đáng tin. Giá phụ thuộc công suất và tình trạng máy, nên báo giá đúng phải bắt đầu bằng vài câu hỏi về máy của bạn.
+
+    ## Bốn khoản hay phát sinh
+
+    Phát sinh không xấu, nhưng phát sinh **không được báo trước** thì có. Bốn khoản thường gặp:
+
+    - **Bơm gas** khi kiểm tra thấy thiếu. Lưu ý: thiếu gas nghĩa là có rò rỉ, nên hỏi luôn về việc tìm và xử lý chỗ rò.
+    - **Thay máng hứng** khi máng nứt hoặc biến dạng.
+    - **Thay ống thoát nước** khi ống mục hoặc bị gãy gập.
+    - **Tháo dàn nóng xuống** khi vị trí lắp không cho phép thao tác tại chỗ.
+
+    ## Cách hỏi báo giá để không phải tranh cãi
+
+    Gửi trước bốn thông tin, và hỏi lại ba câu.
+
+    **Gửi trước:**
+
+    - Loại máy và công suất, chụp tem trên hông dàn lạnh.
+    - Số lượng máy cần vệ sinh.
+    - Ảnh vị trí dàn nóng, chụp đủ rộng để thấy lối tiếp cận.
+    - Lần vệ sinh gần nhất cách đây bao lâu.
+
+    **Hỏi lại:**
+
+    1. Báo giá này gồm những hạng mục nào trong bảy mục ở trên?
+    2. Có bao gồm vệ sinh dàn nóng và thông ống thoát không?
+    3. Nếu phát sinh, có báo và chờ tôi đồng ý trước khi làm không?
+
+    Câu thứ ba là câu quan trọng nhất, và nó nên được trả lời bằng chữ chứ không bằng lời hứa miệng.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt CB, chỉ vào máng hứng nước đã tháo ra để khách xem tình trạng thực tế -->
+
+    ## So sánh hai báo giá thế nào cho đúng?
+
+    Đặt hai báo giá cạnh nhau và đối chiếu theo bảy hạng mục, không đối chiếu theo con số cuối. Một báo giá cao hơn nhưng gồm cả dàn nóng, máng hứng và ống thoát thường rẻ hơn về lâu dài, vì bạn không phải gọi lại sau vài tháng vì mùi hôi hoặc rò nước.
+
+    Cũng nên hỏi rõ: sau khi làm xong, bên thực hiện có kiểm tra lại thông số và bàn giao không, hay chỉ lắp lại rồi về.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh đo nhiệt độ gió ra tại dàn lạnh sau khi vệ sinh xong tại nhà khách -->
+
+    ## Xem bảng giá và gửi thông tin cho Ficool
+
+    Bảng giá dịch vụ của Ficool tại TP.HCM ghi phạm vi từng hạng mục, xem tại <!-- INTERNAL: bảng giá dịch vụ | /bang-gia/ -->. Vì giá phụ thuộc công suất, loại máy và tình trạng thực tế, hãy gửi loại máy cùng số lượng để nhận báo giá phù hợp với trường hợp của bạn thay vì một con số chung.
+
+    Muốn biết phần nào bạn tự làm được để đỡ chi phí, xem <!-- INTERNAL: vệ sinh máy lạnh tại nhà | /ve-sinh-may-lanh-tai-nha/ -->. Muốn biết bao lâu nên vệ sinh một lần theo mức sử dụng thực tế, xem <!-- INTERNAL: bao lâu nên vệ sinh máy lạnh | /bao-lau-ve-sinh-may-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Vệ sinh máy lạnh có bao gồm dàn nóng không?
+
+    Tuỳ đơn vị, và đây chính là chỗ hai báo giá hay chênh nhau. Một lần vệ sinh đầy đủ có gồm dàn nóng, vì mặt lưới dàn ngưng bám bụi là nguyên nhân phổ biến khiến máy kém lạnh và ngắt theo chu kỳ. Hãy hỏi rõ trước khi chốt.
+
+    ### Vì sao mỗi nơi báo một giá khác nhau?
+
+    Vì phạm vi công việc khác nhau, và vì máy của mỗi nhà khác nhau. Công suất, loại máy, vị trí dàn nóng, số lượng máy và tình trạng lâu ngày chưa vệ sinh đều làm thay đổi khối lượng công việc. Một con số duy nhất áp cho mọi trường hợp thường không phản ánh được điều đó.
+
+    ### Làm sao tránh phát sinh khi vệ sinh máy lạnh?
+
+    Yêu cầu báo giá ghi rõ hạng mục, và thống nhất trước một nguyên tắc: mọi khoản ngoài phạm vi phải được báo và bạn đồng ý trước khi thực hiện. Gửi ảnh vị trí dàn nóng ngay từ đầu cũng giúp bên báo giá lường trước phần khó tiếp cận.
+
+    ### Bơm gas có nằm trong gói vệ sinh không?
+
+    Thường là không, vì đó là hạng mục khác. Quan trọng hơn: nếu máy thiếu gas thì hệ thống đang rò rỉ ở đâu đó, vì gas không tiêu hao khi dùng bình thường. Hãy hỏi về việc tìm và xử lý chỗ rò, đừng chỉ bơm thêm.
+
+    ### Ficool báo giá vệ sinh máy lạnh như thế nào?
+
+    Bạn gửi loại máy, công suất, số lượng và ảnh vị trí dàn nóng. Ficool báo lại phạm vi từng hạng mục kèm mức chi phí tương ứng với trường hợp của bạn tại TP.HCM. Nếu trong quá trình làm phát hiện hạng mục ngoài phạm vi, kỹ thuật viên báo và chờ bạn đồng ý trước khi thực hiện.
+  seo:
+    tieu_de: Giá vệ sinh máy lạnh gồm những gì, cách hỏi báo giá
+    mo_ta: >-
+      Bảy hạng mục của một lần vệ sinh đầy đủ, năm yếu tố làm giá khác nhau và
+      ba câu cần hỏi để tránh phát sinh khi vệ sinh máy lạnh.
+    slug: gia-ve-sinh-may-lanh
+    tu_khoa_phu:
+    - báo giá vệ sinh máy lạnh
+    - chi phí vệ sinh máy lạnh
+    - vệ sinh máy lạnh gồm những gì

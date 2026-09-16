@@ -1,13 +1,15 @@
 from __future__ import annotations
 from collections import defaultdict
 
+from pipeline.utils import bo_dau
+
 def prioritize_topics(topics,gsc_rows):
     metrics=defaultdict(lambda:{'clicks':0.0,'impressions':0.0,'position':100.0})
     for row in gsc_rows:
-        q=(row.get('query') or '').casefold()
+        q=bo_dau(row.get('query') or '')
         for t in topics:
             phrases=[t['primary_keyword'],*t.get('secondary_keywords',[])]
-            if any(p.casefold() in q or q in p.casefold() for p in phrases):
+            if any(bo_dau(p) in q or q in bo_dau(p) for p in phrases if p):
                 m=metrics[t['id']]; m['clicks']+=float(row.get('clicks') or 0); m['impressions']+=float(row.get('impressions') or 0); m['position']=min(m['position'],float(row.get('position') or 100))
     out=[]
     for t in topics:

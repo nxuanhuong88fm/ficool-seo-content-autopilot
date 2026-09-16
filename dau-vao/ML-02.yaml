@@ -1,0 +1,177 @@
+chu_de:
+  id: ML-02
+  tieu_de: 'Máy lạnh chảy nước: Nguyên nhân, cách kiểm tra và khi nào cần xử lý kỹ thuật'
+  tu_khoa_chinh: máy lạnh chảy nước
+  chuyen_muc: Máy lạnh
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Nước nhỏ giọt từ dàn lạnh trong nhà gần như luôn là nước ngưng tụ chứ không
+    phải môi chất lạnh, và hiểu đúng điểm này quyết định hướng xử lý: dàn lạnh
+    làm không khí đi qua nó lạnh xuống dưới điểm sương, hơi ẩm trong không khí
+    ngưng thành nước trên bề mặt dàn, nước chảy xuống máng hứng rồi theo ống
+    thoát ra ngoài. Do đó nước xuất hiện sai chỗ nghĩa là một mắt xích trong
+    chuỗi máng hứng và đường thoát đang không làm việc, chứ không phải máy thiếu
+    gas. Các nguyên nhân thường gặp xếp theo tần suất gồm ống thoát nước bị nghẽn
+    bởi bụi trộn với màng nhầy sinh học hình thành trong môi trường ẩm thường
+    xuyên, máng hứng bị bẩn hoặc nứt, đường ống bị võng tạo điểm đọng nước làm
+    dòng chảy dừng lại, đầu ra của ống thoát bị ngập hoặc bị côn trùng làm tổ,
+    dàn lạnh lắp không cân nên nước chảy về phía sai, và lưới lọc quá bẩn làm
+    luồng gió giảm khiến dàn bị đóng băng rồi tan ra thành lượng nước vượt quá
+    khả năng thoát của máng. Nhóm nguyên nhân thứ hai ít gặp hơn nhưng nghiêm
+    trọng hơn là dàn bị đóng băng do thiếu môi chất hoặc do quạt dàn lạnh yếu;
+    khi đó biểu hiện kèm theo là máy kém lạnh và có thể nhìn thấy tuyết bám trên
+    dàn, và việc chỉ thông ống thoát sẽ không giải quyết được gì. Về an toàn, mọi
+    thao tác kiểm tra phải thực hiện sau khi ngắt nguồn điện cấp cho máy, vì nước
+    và thiết bị điện nằm cùng một chỗ; người dùng có thể tự làm phần tiếp cận
+    được gồm tháo và rửa lưới lọc, quan sát đường ống có bị võng hay bị chặn ở
+    đầu ra, và lau khô để xác định nước đến từ đâu, nhưng việc mở nắp dàn lạnh,
+    thông ống bằng áp lực, xử lý máng hứng nứt hoặc cân chỉnh lại dàn thuộc phạm
+    vi kỹ thuật viên. Dấu hiệu cần dừng dùng máy ngay gồm nước chảy vào khu vực ổ
+    cắm hoặc bảng điện, có mùi khét, và thiết bị chống dòng rò nhảy.
+  nguon:
+  - url: https://www.energy.gov/energysaver/air-conditioning
+    title: U.S. Department of Energy — Air Conditioning
+  - url: https://www.epa.gov/mold/mold-cleanup-your-home
+    title: U.S. EPA — Mold Cleanup in Your Home
+  - url: https://www.ashrae.org/technical-resources
+    title: ASHRAE — Technical Resources
+  serp: []
+
+bai_viet:
+  than: |
+    # Máy lạnh chảy nước: Nguyên nhân, cách kiểm tra và khi nào cần xử lý kỹ thuật
+
+    Nước nhỏ từ dàn lạnh gần như luôn là **nước ngưng tụ**, không phải gas. Biết điều này đổi hẳn hướng xử lý: việc cần tìm là **mắt xích nào trong đường thoát nước đang tắc**, chứ không phải máy có thiếu gas hay không.
+
+    <!-- IMAGE: IMG-001 | Kỹ thuật viên chỉ vào vệt nước chảy dọc tường ngay dưới dàn lạnh treo tường, chủ nhà ngồi cạnh quan sát, xô hứng nước đặt dưới sàn -->
+
+    ## Nước đó từ đâu ra?
+
+    Dàn lạnh làm không khí đi qua nó **lạnh xuống dưới điểm sương**. Hơi ẩm trong không khí ngưng thành nước trên bề mặt dàn, nước chảy xuống **máng hứng**, rồi theo **ống thoát** ra ngoài.
+
+    Nên một cái máy lạnh **luôn luôn sinh ra nước** — đó là hoạt động bình thường. Vấn đề chỉ xuất hiện khi nước ra **sai chỗ**.
+
+    Và nước ra sai chỗ nghĩa là một trong ba thứ: **máng hứng**, **đường ống**, hoặc **lượng nước vượt quá khả năng thoát**.
+
+    ## Sáu nguyên nhân thường gặp, xếp theo tần suất
+
+    1. **Ống thoát nước bị nghẽn** — bụi trộn với màng nhầy sinh học hình thành trong môi trường ẩm thường xuyên. Đây là nguyên nhân phổ biến nhất.
+    2. **Máng hứng bẩn hoặc nứt** — nước không về được miệng ống.
+    3. **Đường ống bị võng** — chỗ võng đọng nước và làm dòng chảy dừng lại. Ống vẫn thông nhưng nước vẫn không đi.
+    4. **Đầu ra của ống bị ngập hoặc bị côn trùng làm tổ.**
+    5. **Dàn lạnh lắp không cân** — nước chảy về phía sai và tràn ra mép.
+    6. **Lưới lọc quá bẩn** — luồng gió giảm, dàn bị đóng băng, rồi tan ra thành lượng nước vượt quá khả năng thoát của máng.
+
+    Nguyên nhân 6 đáng chú ý vì nó **không nằm ở đường thoát** mà vẫn gây ra cùng một biểu hiện — và nó là nguyên nhân bạn tự xử lý được dễ nhất.
+
+    ## Nhóm nguyên nhân thứ hai: dàn bị đóng băng
+
+    Ít gặp hơn nhưng nghiêm trọng hơn: **thiếu môi chất**, hoặc **quạt dàn lạnh yếu**.
+
+    Cách phân biệt với nhóm trên:
+
+    | | Tắc đường thoát | Dàn đóng băng |
+    |---|---|---|
+    | Máy có lạnh không | **Vẫn lạnh bình thường** | **Kém lạnh** |
+    | Nhìn thấy gì trên dàn | Bình thường | Có **tuyết bám** |
+    | Nước chảy khi nào | Đều đều lúc máy chạy | Nhiều lên sau khi tắt máy, lúc tuyết tan |
+    | Thông ống thoát có giải quyết không | Có | **Không** |
+
+    Dòng cuối là dòng đáng nhớ: nếu máy **vừa chảy nước vừa kém lạnh**, thông ống thoát sẽ không đổi được gì, và việc cần làm là kiểm tra.
+
+    <!-- IMAGE: IMG-002 | Người dùng lau nước đọng ở mép dưới dàn lạnh đang nhỏ giọt, hộp nhựa hứng nước đặt bên dưới -->
+
+    ## Kiểm tra tại nhà thế nào cho an toàn?
+
+    ⚠️ **Ngắt nguồn điện cấp cho máy trước khi chạm vào bất cứ thứ gì.** Nước và thiết bị điện đang nằm cùng một chỗ — đây không phải lời nhắc hình thức.
+
+    Sau khi đã ngắt điện, bạn làm được bốn việc:
+
+    1. **Lau khô toàn bộ khu vực**, rồi bật lại máy và quan sát. Nước xuất hiện lại ở đâu trước tiên là dữ kiện quan trọng nhất: mép trái, mép phải, hay giữa thân máy.
+    2. **Tháo và rửa lưới lọc.** Nếu nguyên nhân là lưới bẩn, việc này giải quyết luôn. Để khô hoàn toàn rồi lắp lại.
+    3. **Đi dọc đường ống thoát** từ máy ra ngoài, tìm đoạn **bị võng** hoặc bị vật gì đè lên.
+    4. **Xem đầu ra của ống** ở ngoài trời: có nước nhỏ ra khi máy chạy không, có bị ngập, có tổ côn trùng.
+
+    Bước 1 hay bị bỏ nhưng nó đáng làm nhất, vì nó biến "máy chảy nước" thành một mô tả có vị trí — và vị trí là thứ khoanh vùng được.
+
+    ## Phần nào nên để kỹ thuật viên làm
+
+    | Việc | Tự làm | Kỹ thuật viên |
+    |---|---|---|
+    | Rửa lưới lọc | ✔ | |
+    | Quan sát đường ống, đầu ra | ✔ | |
+    | Lau khô và xác định vị trí rỉ | ✔ | |
+    | **Mở nắp dàn lạnh** | | ✔ |
+    | **Thông ống bằng áp lực** | | ✔ |
+    | **Xử lý máng hứng nứt** | | ✔ |
+    | **Cân chỉnh lại dàn lạnh** | | ✔ |
+    | **Kiểm tra môi chất, quạt dàn lạnh** | | ✔ |
+
+    Ranh giới ở đây không phải độ khó, mà là: **mọi việc phải mở máy ra đều đưa tay vào chỗ có điện và có cánh tản nhiệt sắc.**
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đeo kính bảo hộ và găng tay mở nắp dàn lạnh bằng tua vít, xô hứng đặt phía dưới, thang nhôm bên cạnh -->
+
+    ## Khi nào nên dừng dùng máy ngay
+
+    - **Nước chảy vào khu vực ổ cắm hoặc bảng điện.**
+    - Có **mùi khét**.
+    - **Thiết bị chống dòng rò nhảy.**
+    - Nước chảy thành dòng chứ không nhỏ giọt.
+
+    Trong bốn trường hợp này, việc bật lại xem sao là phép thử có giá quá cao.
+
+    ## Làm gì để không lặp lại?
+
+    Nguyên nhân phổ biến nhất — màng nhầy trong ống thoát — hình thành dần trong môi trường ẩm thường xuyên, nên nó sẽ quay lại nếu không có gì thay đổi.
+
+    - **Rửa lưới lọc theo chu kỳ.** Đây là việc ít tốn công mà có ảnh hưởng lớn, và nó chặn luôn nguyên nhân số 6.
+    - **Vệ sinh máy định kỳ**, trong đó có làm sạch máng hứng và thông đường thoát.
+    - **Kiểm tra độ dốc của ống** sau mỗi lần có ai đó động vào khu vực đó.
+    - Để ý **thời điểm nước xuất hiện lại** — nếu chu kỳ ngắn dần, vấn đề không nằm ở chỗ vừa được thông.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên quỳ trên tấm trải bảo vệ sàn, dùng đồng hồ đo kiểm tra dàn lạnh, túi đồ nghề mở bên cạnh -->
+
+    ## Gửi gì cho Ficool?
+
+    Năm thông tin giúp khoanh vùng nhanh: **nước xuất hiện ở đâu trước tiên** (mép trái, mép phải, giữa thân máy, hay theo đường ống), **máy có còn lạnh bình thường không**, **có nhìn thấy tuyết bám trên dàn không**, **lần vệ sinh gần nhất**, và **đầu ra của ống ngoài trời có nước nhỏ khi máy chạy không**.
+
+    Dữ kiện thứ hai quan trọng nhất: máy vẫn lạnh thì hướng xử lý nằm ở đường thoát, còn máy kém lạnh kèm chảy nước thì hướng khác hẳn. Ficool tại TP.HCM sẽ thống nhất phạm vi và chi phí trước khi thực hiện.
+
+    Nếu máy vừa chảy nước vừa kém lạnh, đọc <!-- INTERNAL: máy lạnh không lạnh | /may-lanh-khong-lanh/ -->. Phần vệ sinh bạn tự làm được, xem <!-- INTERNAL: vệ sinh máy lạnh tại nhà | /ve-sinh-may-lanh-tai-nha/ -->. Chi phí vệ sinh gồm những phần nào, đọc <!-- INTERNAL: giá vệ sinh máy lạnh | /gia-ve-sinh-may-lanh/ -->. Bao lâu nên vệ sinh một lần, xem <!-- INTERNAL: bao lâu vệ sinh máy lạnh | /bao-lau-ve-sinh-may-lanh/ -->. Nếu nghi vị trí lắp làm nước chảy sai hướng, đọc <!-- INTERNAL: vị trí lắp máy lạnh | /vi-tri-lap-may-lanh/ -->. Sau khi kỹ thuật viên làm xong, đối chiếu bằng <!-- INTERNAL: checklist nghiệm thu máy lạnh | /checklist-nghiem-thu-may-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy lạnh chảy nước có phải do thiếu gas không?
+
+    Phần lớn trường hợp thì không. Nước nhỏ từ dàn lạnh gần như luôn là nước ngưng tụ, và nước ra sai chỗ nghĩa là máng hứng hoặc đường thoát đang không làm việc. Thiếu môi chất chỉ gây chảy nước gián tiếp qua việc dàn bị đóng băng rồi tan ra, và khi đó máy sẽ kém lạnh kèm theo tuyết bám trên dàn.
+
+    ### Vì sao máy lạnh lại sinh ra nước?
+
+    Dàn lạnh làm không khí đi qua nó lạnh xuống dưới điểm sương, nên hơi ẩm trong không khí ngưng thành nước trên bề mặt dàn. Nước đó chảy xuống máng hứng rồi theo ống thoát ra ngoài. Một cái máy lạnh luôn luôn sinh ra nước, và đó là hoạt động bình thường — vấn đề chỉ xuất hiện khi nước ra sai chỗ.
+
+    ### Tự kiểm tra máy lạnh chảy nước tại nhà thế nào cho an toàn?
+
+    Ngắt nguồn điện cấp cho máy trước khi chạm vào bất cứ thứ gì, vì nước và thiết bị điện đang nằm cùng một chỗ. Sau đó lau khô toàn bộ khu vực rồi bật lại và quan sát nước xuất hiện ở đâu trước tiên, tháo rửa lưới lọc, đi dọc đường ống tìm đoạn bị võng, và xem đầu ra của ống ngoài trời có bị ngập hay có tổ côn trùng.
+
+    ### Lưới lọc bẩn có làm máy lạnh chảy nước không?
+
+    Có, và đây là nguyên nhân bạn tự xử lý được dễ nhất. Lưới quá bẩn làm luồng gió giảm nên dàn bị đóng băng, rồi lớp băng tan ra thành lượng nước vượt quá khả năng thoát của máng hứng. Đáng chú ý là nguyên nhân này không nằm ở đường thoát nhưng vẫn gây ra đúng biểu hiện đó.
+
+    ### Khi nào phải dừng dùng máy lạnh đang chảy nước?
+
+    Khi nước chảy vào khu vực ổ cắm hoặc bảng điện, khi có mùi khét, khi thiết bị chống dòng rò nhảy, và khi nước chảy thành dòng chứ không nhỏ giọt. Trong bốn trường hợp này, việc bật lại để xem sao là phép thử có giá quá cao, và cần ngắt điện rồi gọi kiểm tra.
+  seo:
+    tieu_de: 'Máy lạnh chảy nước: nguyên nhân và cách kiểm tra'
+    mo_ta: >-
+      Nước ngưng tụ chứ không phải gas. Sáu nguyên nhân xếp theo tần suất, cách
+      phân biệt với dàn đóng băng, và phần tự làm được.
+    slug: may-lanh-chay-nuoc
+    tu_khoa_phu:
+    - điều hòa bị chảy nước
+    - dàn lạnh chảy nước trong nhà
+    - máy lạnh nhỏ nước

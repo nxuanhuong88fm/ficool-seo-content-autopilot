@@ -1,0 +1,171 @@
+chu_de:
+  id: TD-14
+  tieu_de: Cách chỉnh nhiệt độ tủ đông theo nhu cầu bảo quản
+  tu_khoa_chinh: cách chỉnh nhiệt độ tủ đông
+  chuyen_muc: Tủ mát, tủ đông
+  the:
+  - Kinh nghiệm hay
+  giai_doan_phieu: F2
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Điểm gây nhầm lẫn lớn nhất khi chỉnh tủ đông là núm xoay đánh số từ 1 tới 7
+    không phải là thang nhiệt độ: nó điều chỉnh dải đóng ngắt của bộ ổn nhiệt,
+    nên cùng một vị trí núm sẽ cho ra nhiệt độ khác nhau tuỳ nhiệt độ phòng,
+    lượng hàng bên trong, số lần mở cửa và mức tuyết đang bám trên dàn. Hệ quả
+    thực tế là không thể suy ra nhiệt độ trong tủ từ vị trí núm, và cách duy nhất
+    biết được là đặt một nhiệt kế trong khoang rồi đọc sau khi tủ đã ổn định.
+    Mốc tham chiếu được dùng rộng rãi cho bảo quản đông dài hạn là âm 18°C, trong
+    khi quy định an toàn thực phẩm chỉ đặt yêu cầu là thực phẩm phải giữ đông
+    cứng liên tục. Đặt lạnh hơn mức cần không mang lại thêm lợi ích bảo quản mà
+    có hai cái giá: điện tiêu thụ tăng vì máy nén chạy dài hơn, và hiện tượng
+    dịch chuyển ẩm trong khoang mạnh hơn nên hàng dễ bị khô bề mặt cùng lớp tuyết
+    bám trên bao bì. Khối lượng hàng ảnh hưởng theo hai chiều ngược nhau: tủ đầy
+    có quán tính nhiệt lớn nên giữ được nhiệt độ lâu hơn khi mất điện, nhưng cũng
+    cần nhiều thời gian hơn để hạ nhiệt sau khi nạp hàng mới, và nạp một lượng
+    lớn hàng còn ấm cùng lúc sẽ đẩy nhiệt độ cả khoang lên trong nhiều giờ. Kết
+    cấu tủ cũng tạo khác biệt: tủ đông nằm giữ được khí lạnh khi mở nắp vì khí
+    lạnh nặng hơn nên đọng lại trong khoang, còn tủ đứng mất khí lạnh mỗi lần mở
+    cửa vì khí lạnh tràn ra theo cửa. Cuối cùng, lớp tuyết bám trên dàn lạnh làm
+    thay đổi quan hệ giữa vị trí núm và nhiệt độ thực tế, nên sau mỗi lần xả
+    tuyết cần đo lại thay vì giả định cài đặt cũ vẫn đúng, và bộ ổn nhiệt đọc
+    nhiệt độ khí tại đúng chỗ nó được đặt nên con số đó không phải nhiệt độ của
+    hàng hoá ở các vị trí khác trong tủ.
+  nguon:
+  - url: https://www.fda.gov/food/buy-store-serve-safe-food/are-you-storing-food-safely
+    title: U.S. Food and Drug Administration — Are You Storing Food Safely?
+  - url: https://www.energy.gov/energysaver/refrigerators-and-freezers
+    title: U.S. Department of Energy — Refrigerators and Freezers
+  - url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety
+    title: USDA FSIS — Freezing and Food Safety
+  serp: []
+
+bai_viet:
+  than: |
+    # Cách chỉnh nhiệt độ tủ đông theo nhu cầu bảo quản
+
+    Núm xoay đánh số từ 1 tới 7 trên tủ đông **không phải thang nhiệt độ**. Biết điều này trước thì mọi việc còn lại dễ hẳn.
+
+    <!-- IMAGE: IMG-001 | Cận cảnh bàn tay xoay núm điều chỉnh đánh số bên trong tủ đông, các vạch số hiện rõ -->
+
+    ## Núm xoay điều chỉnh cái gì, nếu không phải nhiệt độ
+
+    Nó điều chỉnh **dải đóng ngắt của bộ ổn nhiệt** — tức là điều chỉnh việc máy nén chạy nhiều hay ít, chứ không đặt ra một mức nhiệt cố định.
+
+    Nên cùng một vị trí núm sẽ cho ra nhiệt độ khác nhau khi:
+
+    - phòng nóng hơn hoặc mát hơn;
+    - tủ nhiều hàng hơn hoặc ít hàng hơn;
+    - nắp mở nhiều lần hơn trong ngày;
+    - dàn lạnh đang bám nhiều tuyết hơn.
+
+    Hệ quả thực tế: **không thể suy ra nhiệt độ trong tủ từ vị trí núm.** Cách duy nhất biết được là đặt nhiệt kế vào khoang và đọc sau khi tủ đã ổn định.
+
+    Bộ ổn nhiệt cũng chỉ đọc nhiệt độ khí tại đúng chỗ nó được gắn, nên con số nó dùng để đóng ngắt không phải nhiệt độ của hàng ở các vị trí khác.
+
+    ## Mốc tham chiếu: âm 18°C
+
+    Mức được dùng rộng rãi cho bảo quản đông dài hạn là **âm 18°C**. Quy định an toàn thực phẩm thì đặt yêu cầu theo trạng thái chứ không theo con số: thực phẩm phải **đông cứng liên tục**, không có khoảng nào cho phép rã rồi đông lại.
+
+    Hai cách diễn đạt này không mâu thuẫn. Con số là mục tiêu vận hành, còn trạng thái là điều kiện không được vi phạm.
+
+    ## Lạnh hơn mức cần không phải là chỉnh đúng hơn
+
+    Đặt xuống thấp hơn mức cần **không thêm lợi ích bảo quản**, mà mang hai cái giá:
+
+    - **Điện tăng**, vì máy nén chạy dài hơn.
+    - **Hàng khô bề mặt và bám tuyết trên bao bì**, vì hiện tượng dịch chuyển ẩm trong khoang mạnh hơn.
+
+    Cái giá thứ hai hay bị hiểu sai thành "tủ có vấn đề", trong khi nguyên nhân chỉ là núm đang ở mức thấp hơn cần thiết.
+
+    ## Đặt theo loại hàng
+
+    | Loại hàng | Hướng chỉnh |
+    |---|---|
+    | Thực phẩm đông dài hạn, hàng trữ nhiều tháng | Quanh mốc âm 18°C |
+    | Hàng luân chuyển nhanh, vào ra trong vài ngày | Có thể ấm hơn một chút, miễn giữ đông cứng |
+    | Kem và hàng cần giữ độ cứng khi múc | Lạnh hơn mốc chung |
+    | Đá viên, nước đá | Ấm hơn mốc chung là đủ |
+    | Nhiều loại hàng trong một tủ | Lấy theo loại **khắt khe nhất**, không lấy trung bình |
+
+    Dòng cuối là dòng hay sai nhất: trong một khoang chỉ có một nhiệt độ, nên không có chuyện chỉnh dung hoà.
+
+    <!-- IMAGE: IMG-002 | Nhiệt kế đặt giữa các túi thực phẩm đông trong khoang tủ đông nằm, mặt số hướng lên -->
+
+    ## Quy trình chỉnh: đặt → chờ → đo → nhích
+
+    1. **Đặt nhiệt kế** vào khoang, ở vị trí **ấm nhất** — thường là sát nắp hoặc góc xa dàn lạnh.
+    2. **Đặt núm ở mức giữa** nếu bạn đang bắt đầu từ đầu.
+    3. **Chờ ổn định.** Đây là bước hay bị bỏ. Sau khi xoay núm, tủ cần nhiều giờ để tới trạng thái mới, và nếu vừa nạp hàng thì còn lâu hơn. Đọc nhiệt kế sau vài giờ là đọc một con số đang di chuyển.
+    4. **Đọc và so** với mức cần cho loại hàng của bạn.
+    5. **Nhích một bậc** theo chiều cần thiết, rồi lặp lại bước 3.
+
+    Nhích một bậc mỗi lần là cách duy nhất biết bậc nào là bậc đúng. Xoay thẳng về cực lạnh rồi chỉnh lui sẽ mất nhiều thời gian hơn và làm đá bám nhiều hơn.
+
+    ## Sau khi xả tuyết, đo lại
+
+    Lớp tuyết trên dàn lạnh **làm thay đổi quan hệ giữa vị trí núm và nhiệt độ thực tế**. Nên cài đặt đang đúng với một dàn bám tuyết sẽ không còn đúng với dàn vừa được xả sạch.
+
+    Đây cũng là lý do một tủ "tự nhiên lạnh quá" ngay sau lần xả tuyết không phải là tủ hỏng.
+
+    <!-- IMAGE: IMG-003 | Tủ đông nắp mở, dàn lạnh bên trong sạch không còn tuyết bám, người dùng đặt lại nhiệt kế vào khoang -->
+
+    ## Ba lỗi thường gặp
+
+    **① Nạp nhiều hàng còn ấm cùng lúc.** Nó đẩy nhiệt độ cả khoang lên trong nhiều giờ, và phần hàng đã đông sẵn cũng chịu ảnh hưởng. Nạp rải ra, và để hàng nguội trước khi cho vào.
+
+    **② Kết luận từ một lần đọc.** Nhiệt độ khoang dao động theo chu kỳ đóng ngắt của máy nén. Một con số đơn lẻ có thể là đỉnh hoặc là đáy của chu kỳ đó.
+
+    **③ Chỉnh núm để chữa một lỗi khác.** Nếu tủ không đạt nhiệt ở mọi vị trí núm, vấn đề không nằm ở núm. Tuyết dày, gioăng hở, dàn nóng bám bụi hay thiếu gas đều biểu hiện giống "chỉnh chưa đủ lạnh".
+
+    ## Khi nào việc chỉnh không giải quyết được gì
+
+    Dấu hiệu cho biết bạn đang chỉnh một thứ không phải nguyên nhân:
+
+    - Xoay tới mức lạnh nhất mà nhiệt độ vẫn không đạt.
+    - Máy nén chạy liên tục không nghỉ.
+    - Có tuyết dày trở lại rất nhanh sau khi xả.
+    - Nhiệt độ chênh lệch lớn giữa các vị trí trong cùng khoang.
+
+    Lúc này việc cần làm là kiểm tra, không phải chỉnh tiếp.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh đo thông số tại bảng điều khiển tủ đông, tay còn lại ghi vào phiếu kiểm tra -->
+
+    ## Gửi gì cho Ficool?
+
+    Nếu chỉnh không đưa nhiệt độ về mức cần, hãy gửi bốn thông tin: loại tủ (đông nằm hay đông đứng), loại hàng đang bảo quản, nhiệt độ bạn đo được ở vị trí ấm nhất, và vị trí núm hiện tại. Kèm thêm việc máy nén có nghỉ hay chạy liên tục. Ficool tại TP.HCM sẽ khoanh vùng theo bốn dữ kiện đó và thống nhất chi phí trước khi thực hiện.
+
+    Tủ mát chỉnh theo nguyên tắc khác, xem <!-- INTERNAL: cách chỉnh nhiệt độ tủ mát | /cach-chinh-nhiet-do-tu-mat/ -->. Nếu tủ không đạt nhiệt ở mọi mức núm, đọc <!-- INTERNAL: tủ đông không đông đá | /tu-dong-khong-dong-da/ -->. Nếu tuyết đóng dày trở lại nhanh, xem <!-- INTERNAL: tủ đông đóng tuyết dày | /tu-dong-dong-tuyet-day/ -->. Sau khi kỹ thuật viên làm xong, đối chiếu bằng <!-- INTERNAL: checklist nghiệm thu tủ mát, tủ đông | /checklist-nghiem-thu-tu-mat-tu-dong/ -->, và chi phí sửa chữa gồm những phần nào thì đọc <!-- INTERNAL: giá sửa tủ mát, tủ đông | /gia-sua-tu-mat-tu-dong/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Nhiệt độ tủ đông nên đặt bao nhiêu?
+
+    Mốc được dùng rộng rãi cho bảo quản đông dài hạn là âm 18°C. Hàng luân chuyển nhanh có thể ấm hơn một chút miễn vẫn giữ đông cứng, còn kem cần lạnh hơn mốc chung để giữ độ cứng khi múc. Nếu một tủ chứa nhiều loại hàng, lấy theo loại khắt khe nhất vì trong một khoang chỉ có một nhiệt độ.
+
+    ### Núm xoay từ 1 tới 7 trên tủ đông tương ứng bao nhiêu độ?
+
+    Không có bảng tương ứng, vì núm điều chỉnh dải đóng ngắt của bộ ổn nhiệt chứ không đặt một mức nhiệt cố định. Cùng một vị trí núm cho ra nhiệt độ khác nhau tuỳ nhiệt độ phòng, lượng hàng, số lần mở nắp và mức tuyết đang bám. Cách duy nhất biết là đặt nhiệt kế vào khoang và đọc sau khi tủ đã ổn định.
+
+    ### Đặt lạnh hơn mức cần có bảo quản tốt hơn không?
+
+    Không. Nó không thêm lợi ích bảo quản nhưng làm máy nén chạy dài hơn nên tốn điện hơn, và làm dịch chuyển ẩm trong khoang mạnh hơn nên hàng dễ khô bề mặt và bám tuyết trên bao bì. Hiện tượng thứ hai hay bị hiểu sai thành tủ có vấn đề.
+
+    ### Sau khi xoay núm, bao lâu thì đo được?
+
+    Cần chờ tủ tới trạng thái ổn định, tính bằng nhiều giờ, và lâu hơn nữa nếu vừa nạp hàng. Đọc nhiệt kế quá sớm là đọc một con số đang di chuyển. Cũng nên đọc vài lần vì nhiệt độ khoang dao động theo chu kỳ đóng ngắt của máy nén.
+
+    ### Khi nào chỉnh núm không còn giải quyết được vấn đề?
+
+    Khi xoay tới mức lạnh nhất mà nhiệt độ vẫn không đạt, khi máy nén chạy liên tục không nghỉ, khi tuyết dày trở lại rất nhanh sau xả, hoặc khi nhiệt độ chênh lệch lớn giữa các vị trí trong cùng khoang. Tuyết dày, gioăng hở, dàn nóng bám bụi và thiếu gas đều biểu hiện giống "chỉnh chưa đủ lạnh".
+  seo:
+    tieu_de: Cách chỉnh nhiệt độ tủ đông đúng theo loại hàng
+    mo_ta: >-
+      Núm 1–7 không phải thang nhiệt độ. Mốc âm 18°C, vì sao lạnh hơn không tốt
+      hơn, và quy trình đặt – chờ – đo – nhích.
+    slug: cach-chinh-nhiet-do-tu-dong
+    tu_khoa_phu:
+    - nhiệt độ tủ đông bao nhiêu
+    - chỉnh nhiệt độ tủ đông
+    - núm điều chỉnh tủ đông

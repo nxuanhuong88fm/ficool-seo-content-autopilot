@@ -1,0 +1,196 @@
+chu_de:
+  id: MN-18
+  tieu_de: 'Máy nước nóng lâu ngày không dùng: Cần làm gì trước khi sử dụng lại?'
+  tu_khoa_chinh: máy nước nóng lâu ngày không dùng
+  chuyen_muc: Máy nước nóng
+  the:
+  - Bảo trì
+  - Kinh nghiệm hay
+  giai_doan_phieu: F2
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Khi một máy nước nóng nằm không dùng trong thời gian dài, phản xạ thông thường
+    là cấp điện rồi xem máy còn chạy hay không, nhưng đây là thao tác đặt sai thứ
+    tự vì ba thay đổi đã diễn ra trong thời gian đó và hai trong ba không quan sát
+    được từ bên ngoài. Thay đổi thứ nhất là lượng nước trong bình: nếu hệ thống
+    từng được xả, hoặc nước trong bình rút về theo đường cấp khi áp lực nước mất,
+    thì thanh đốt có thể đang ở trạng thái không ngập nước, và cấp điện trong điều
+    kiện đó làm thanh đốt hỏng ngay trong lượt đun đầu. Thay đổi thứ hai là độ ẩm
+    trong khoang điện: phòng tắm là môi trường ẩm, và một thiết bị không sinh nhiệt
+    trong thời gian dài sẽ để hơi ẩm đọng lại bên trong, nên dòng rò có thể đã
+    tăng lên so với trước dù bên ngoài không có dấu hiệu gì. Thay đổi thứ ba là
+    chất lượng nước trong bình: nước tù trong khoang ấm là môi trường thuận lợi cho
+    vi khuẩn phát triển, và hướng dẫn về hệ thống nước của các toà nhà ít người sử
+    dụng đều yêu cầu xả rửa hệ thống trước khi dùng lại thay vì dùng ngay. Ngoài
+    ba thay đổi chính còn có những thay đổi cơ khí: gioăng bị khô nên có thể rỉ khi
+    hệ thống được tạo áp lại, cặn đã khô và cứng hơn, và dây dẫn trong các lắp đặt
+    bỏ lâu có thể bị động vật gặm. Bản thân thiết bị chống dòng rò cũng cần được
+    thử lại vì cơ cấu của nó có thể bị kẹt sau thời gian dài không tác động. Do đó
+    trình tự đúng là cấp nước và xả khí trước, kiểm rò nước khi hệ thống còn nguội,
+    thử thiết bị chống dòng rò bằng nút thử, rồi mới cấp điện và theo dõi lượt đun
+    đầu, cuối cùng xả nước nóng ra thoát nước một lượng đủ trước khi dùng. Nếu
+    thiết bị chống dòng rò nhảy ngay ở lần cấp điện đầu thì đó là thiết bị bảo vệ
+    đang làm đúng việc của nó và không được vô hiệu hoá nó để dùng tiếp, còn việc
+    dùng cơ thể để thử xem nước có điện hay không là thao tác không được thực hiện
+    trong bất kỳ trường hợp nào.
+  nguon:
+  - url: https://www.cdc.gov/legionella/wmp/index.html
+    title: U.S. CDC — Water Management Program Toolkit (Legionella)
+  - url: https://www.energy.gov/energysaver/water-heater-maintenance
+    title: U.S. Department of Energy — Water Heater Maintenance
+  - url: https://www.iec.ch/homecare/electrical-safety
+    title: IEC — Electrical Safety
+  serp: []
+
+bai_viet:
+  than: |
+    # Máy nước nóng lâu ngày không dùng: Cần làm gì trước khi sử dụng lại?
+
+    Phản xạ thông thường là bật điện lên xem máy còn chạy hay không. Đó chính là thứ không nên làm đầu tiên.
+
+    Trong thời gian máy nằm im, **ba thứ đã đổi** — và hai trong ba không nhìn thấy được từ bên ngoài.
+
+    <!-- IMAGE: IMG-001 | Bình nóng lạnh cũ treo trên tường phòng tắm lâu không dùng, vỏ bám bụi, công tắc nguồn đang ở vị trí tắt -->
+
+    ## Ba thứ đã đổi trong lúc máy nằm im
+
+    | Thay đổi | Nhìn thấy được? | Hậu quả nếu bật ngay |
+    |---|---|---|
+    | **Lượng nước trong bình** có thể đã rút | **Không** | Thanh đốt không ngập nước → **hỏng ngay lượt đun đầu** |
+    | **Độ ẩm đã đọng trong khoang điện** | **Không** | Dòng rò đã tăng, nguy cơ điện giật |
+    | **Nước trong bình đã tù** | Không | Nước không đạt điều kiện dùng cho sinh hoạt |
+
+    Thay đổi thứ nhất đáng nói kỹ: nước trong bình có thể **rút về theo đường cấp** khi áp lực nước trong nhà mất, dù không ai xả bình. Bên ngoài bình trông y như cũ.
+
+    Thay đổi thứ hai có cơ chế đơn giản: phòng tắm là môi trường ẩm, và một thiết bị **không sinh nhiệt trong thời gian dài** sẽ để hơi ẩm đọng lại bên trong. Máy hoạt động thường xuyên thì chính nhiệt của nó làm khô khoang điện; máy nằm im thì không có gì làm việc đó.
+
+    Còn ba thay đổi phụ nữa: gioăng bị khô nên có thể rỉ khi hệ thống được tạo áp lại, cặn đã khô và cứng hơn, và dây dẫn trong các lắp đặt bỏ lâu có thể bị động vật gặm.
+
+    ## Trình tự đúng
+
+    Thứ tự này không đảo được:
+
+    **Nước → kiểm rò nguội → thử bảo vệ điện → cấp điện → theo dõi lượt đầu → xả nước**
+
+    ## Bước 1 — Nhìn trước khi chạm
+
+    - Vỏ máy có **vết ẩm, vệt rỉ, vết cháy** quanh khu vực đầu nối điện.
+    - Dây nguồn có **vết gặm, vết nứt, vỏ bị giòn**.
+    - Giá treo còn chắc, bình không nghiêng.
+    - Đường xả van an toàn còn thông, không bị bịt.
+
+    Nếu thấy vết cháy hoặc dây bị hỏng vỏ, dừng ở đây và gọi kiểm tra.
+
+    ## Bước 2 — Cấp nước và xả khí, khi CHƯA có điện
+
+    1. Giữ **nguồn điện ở trạng thái ngắt**.
+    2. Mở van cấp nước vào máy.
+    3. **Mở vòi nóng** và để chảy cho tới khi nước ra **liên tục, không còn tiếng khí**.
+
+    Bước 3 là bước xác nhận bình đã đầy. Đây là lớp bảo vệ duy nhất chống việc thanh đốt hoạt động khi chưa ngập nước.
+
+    ## Bước 3 — Kiểm rò nước khi còn nguội
+
+    Gioăng bị khô trong thời gian dài có thể rỉ khi hệ thống được tạo áp lại. Kiểm quanh mặt bích, hai đầu nối nước, và đường xả van an toàn.
+
+    Nếu có rỉ ở bước này, xử lý xong rồi mới cấp điện — đừng cấp điện với ý định "xem nó có tự kín lại không".
+
+    <!-- IMAGE: IMG-002 | Bàn tay mở van cấp nước vào bình nóng lạnh, vòi nóng trong phòng tắm đang chảy nước ở phía sau -->
+
+    ## Bước 4 — Thử thiết bị chống dòng rò
+
+    **Bấm nút thử. Nó phải nhảy.**
+
+    Cơ cấu của thiết bị này có thể **bị kẹt sau thời gian dài không tác động**, nên với một máy lâu không dùng thì đây không phải bước hình thức. Nếu nó không nhảy, đừng cấp điện cho máy.
+
+    Kiểm thêm: ổ cấp nguồn có **tiếp địa** thật.
+
+    ## Bước 5 — Cấp điện và theo dõi lượt đun đầu
+
+    Đứng lại xem, đừng bật rồi đi:
+
+    - Có **tiếng lạ**, mùi khét, tiếng nổ nhỏ.
+    - Thiết bị chống dòng rò có nhảy sau vài phút.
+    - Có **vết ẩm xuất hiện** quanh mặt bích khi nước bắt đầu nóng — giãn nở nhiệt làm thay đổi lực siết tại mối ghép, nên một mối nối kín lúc nguội vẫn có thể rỉ lúc nóng.
+    - Máy có **hoàn tất một lượt đun và ngắt**, hay chạy liên tục không nghỉ.
+
+    <!-- IMAGE: IMG-003 | Người dùng đứng quan sát bình nóng lạnh vừa được cấp điện, đèn báo hoạt động sáng, khăn giấy đặt dưới mặt bích -->
+
+    ## Bước 6 — Xả nước trước khi dùng
+
+    Bước này hay bị bỏ vì nó không liên quan tới việc máy có chạy hay không.
+
+    **Nước tù trong một khoang ấm là môi trường thuận lợi cho vi khuẩn phát triển.** Hướng dẫn về hệ thống nước của các toà nhà ít người sử dụng đều yêu cầu xả rửa hệ thống trước khi dùng lại, thay vì dùng ngay.
+
+    Cách làm: sau khi máy đã đun xong một lượt, **mở vòi nóng cho chảy ra đường thoát nước một lượng đủ để thay toàn bộ phần nước trong bình**, rồi mới dùng. Mở cả các vòi nóng khác trong nhà nếu chúng cũng lâu không dùng — phần nước tù nằm cả trong đường ống, không chỉ trong bình.
+
+    Với hệ thống lâu không dùng, nên **đặt nhiệt độ ở mức cao hơn bình thường cho lượt xả này** rồi hạ về mức dùng hằng ngày sau đó.
+
+    ## Nếu thiết bị chống dòng rò nhảy ngay lần đầu
+
+    Đó là **thiết bị bảo vệ đang làm đúng việc của nó.**
+
+    Không được vô hiệu hoá nó để dùng tiếp — không đấu tắt, không cắm máy sang ổ khác không có bảo vệ, không "bật lại xem có nhảy nữa không" nhiều lần.
+
+    Việc nó nhảy nghĩa là có dòng đi ra ngoài mạch, và với một máy vừa qua thời gian dài trong môi trường ẩm thì đây là tình huống hoàn toàn có thể xảy ra. Cần kiểm tra, không cần thử lại.
+
+    ## Ba việc không được làm
+
+    - **Không dùng cơ thể để thử xem nước có điện hay không.** Đây là thao tác không được thực hiện trong bất kỳ trường hợp nào, kể cả khi bạn chỉ định chạm nhẹ.
+    - **Không cấp điện trước khi xác nhận nước đã chảy ổn định.**
+    - **Không vô hiệu hoá thiết bị chống dòng rò** để dùng tạm.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh dùng đồng hồ đo kiểm tra cách điện của bình nóng lạnh lâu không dùng, nguồn điện đã ngắt -->
+
+    ## Khi nào nên gọi kiểm tra TRƯỚC khi bật
+
+    - Máy **đã nằm rất lâu** và bạn không biết nước trong bình còn hay đã rút.
+    - Có **vết cháy, chảy nhựa** ở khu vực đầu nối điện.
+    - Dây nguồn có **vết gặm hoặc vỏ bị giòn, nứt**.
+    - **Không có thiết bị chống dòng rò**, hoặc nó không nhảy khi bấm nút thử.
+    - Có **rỉ nước** ngay khi mở van cấp.
+    - Nhà **từng bị ngập** ở khu vực có thiết bị điện.
+
+    Trong các trường hợp trên, phép thử bằng cách bật lên xem sao là phép thử có giá quá cao.
+
+    ## Gửi gì cho Ficool?
+
+    Năm thông tin: **loại máy và dung tích**, **máy đã không dùng khoảng bao lâu**, **có biết nước trong bình còn hay đã xả**, **kết quả bấm nút thử** thiết bị chống dòng rò, và **những gì bạn quan sát được** ở vỏ máy cùng dây nguồn.
+
+    Nếu nhà từng bị ngập trong thời gian đó, hãy nói luôn. Ficool tại TP.HCM sẽ kiểm tra cách điện và tình trạng nước trong bình trước khi cấp điện, và thống nhất phạm vi cùng chi phí trước khi thực hiện.
+
+    Sau khi kiểm tra xong, đối chiếu bằng <!-- INTERNAL: checklist nghiệm thu máy nước nóng | /checklist-nghiem-thu-may-nuoc-nong/ -->. Nếu thiết bị chống dòng rò nhảy lại, đọc <!-- INTERNAL: ELCB máy nước nóng bị nhảy | /elcb-may-nuoc-nong-bi-nhay/ --> và <!-- INTERNAL: máy nước nóng bị rò điện | /may-nuoc-nong-bi-ro-dien/ -->. Nếu có rỉ nước, xem <!-- INTERNAL: máy nước nóng bị rò nước | /may-nuoc-nong-bi-ro-nuoc/ -->. Các hạng mục kiểm tra định kỳ về sau, đọc <!-- INTERNAL: bảo trì máy nước nóng | /bao-tri-may-nuoc-nong/ -->. Nếu định thay máy mới, xem <!-- INTERNAL: chọn dung tích bình nóng lạnh | /chon-dung-tich-binh-nong-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy nước nóng lâu không dùng có bật lên được ngay không?
+
+    Không nên. Ba thứ đã đổi trong thời gian đó và hai trong ba không nhìn thấy được: lượng nước trong bình có thể đã rút về theo đường cấp khi áp lực nước mất, độ ẩm đã đọng trong khoang điện nên dòng rò có thể đã tăng, và nước trong bình đã tù. Trình tự đúng là cấp nước và xả khí trước, kiểm rò khi còn nguội, thử thiết bị chống dòng rò, rồi mới cấp điện.
+
+    ### Vì sao phải cấp nước trước khi cấp điện?
+
+    Vì thanh đốt hoạt động khi chưa ngập nước sẽ hỏng ngay trong lượt đun đầu. Với máy lâu không dùng, nước trong bình có thể đã rút về theo đường cấp mà bên ngoài trông y như cũ. Mở vòi nóng cho chảy tới khi nước ra liên tục và không còn tiếng khí là lớp bảo vệ duy nhất chống việc này.
+
+    ### Có cần xả nước trong bình trước khi dùng lại không?
+
+    Có. Nước tù trong một khoang ấm là môi trường thuận lợi cho vi khuẩn phát triển, và hướng dẫn về hệ thống nước của các toà nhà ít người sử dụng đều yêu cầu xả rửa trước khi dùng lại. Sau khi máy đun xong một lượt, mở vòi nóng cho chảy ra đường thoát nước một lượng đủ để thay toàn bộ phần nước trong bình, và mở cả các vòi nóng khác vì nước tù nằm cả trong đường ống.
+
+    ### Thiết bị chống dòng rò nhảy khi bật máy lại thì làm gì?
+
+    Đó là thiết bị bảo vệ đang làm đúng việc của nó, nghĩa là có dòng đi ra ngoài mạch. Không được đấu tắt nó, không cắm máy sang ổ không có bảo vệ, và không bật lại nhiều lần để xem có nhảy nữa không. Với một máy vừa qua thời gian dài trong môi trường ẩm thì đây là tình huống hoàn toàn có thể xảy ra và cần kiểm tra.
+
+    ### Khi nào nên gọi kỹ thuật viên trước khi bật máy?
+
+    Khi máy đã nằm rất lâu và bạn không biết nước trong bình còn hay đã rút, khi có vết cháy hoặc chảy nhựa ở khu vực đầu nối điện, khi dây nguồn có vết gặm hoặc vỏ bị nứt, khi không có thiết bị chống dòng rò hoặc nó không nhảy khi bấm nút thử, khi có rỉ nước ngay lúc mở van cấp, và khi nhà từng bị ngập ở khu vực có thiết bị điện.
+  seo:
+    tieu_de: Máy nước nóng lâu không dùng, cần làm gì trước khi bật?
+    mo_ta: >-
+      Ba thứ đã đổi và hai trong ba là vô hình. Trình tự nước trước, điện sau, và
+      bước xả nước hay bị bỏ.
+    slug: may-nuoc-nong-lau-ngay-khong-dung
+    tu_khoa_phu:
+    - bình nóng lạnh lâu ngày không dùng
+    - bật lại máy nước nóng
+    - máy nước nóng không dùng lâu có sao không

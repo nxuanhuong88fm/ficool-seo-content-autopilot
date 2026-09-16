@@ -1,0 +1,139 @@
+chu_de:
+  id: ML-01
+  tieu_de: 'Máy lạnh không lạnh: Nguyên nhân, cách kiểm tra ban đầu và khi nào cần gọi thợ'
+  tu_khoa_chinh: máy lạnh không lạnh
+  chuyen_muc: Máy lạnh
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Máy lạnh chạy nhưng không làm lạnh là nhóm triệu chứng có nhiều nguyên nhân
+    khác nhau, và phần lớn không phải hết gas. Bốn nhóm nguyên nhân thường gặp:
+    (1) cài đặt sai chế độ — remote đang ở Fan hoặc Dry thay vì Cool, hoặc nhiệt
+    độ đặt cao hơn nhiệt độ phòng; (2) dòng khí bị cản — lưới lọc bám bụi dày,
+    dàn lạnh bẩn, dàn nóng bị che chắn hoặc đặt sát tường; (3) nguồn điện và
+    thiết bị bảo vệ — điện áp thấp, CB ngắt, tụ khởi động dàn nóng hỏng khiến
+    block không chạy; (4) hệ thống gas — rò rỉ tại mối nối hoặc ống đồng, dấu
+    hiệu điển hình là dàn lạnh đóng tuyết cục bộ hoặc ống đồng đọng sương bất
+    thường. Các tài liệu kỹ thuật của nhà sản xuất đều khuyến cáo người dùng chỉ
+    tự thực hiện các bước kiểm tra không cần mở vỏ máy: kiểm tra remote, kiểm
+    tra CB, tháo lưới lọc rửa sạch, dọn vật cản quanh dàn nóng. Các thao tác
+    liên quan tới điện bên trong, gas, tụ điện hoặc block đều cần thợ có chuyên
+    môn vì có rủi ro điện giật và làm hỏng nặng thêm. Một chi tiết quan trọng để
+    phân biệt: nếu dàn nóng không chạy (không nghe tiếng block, quạt không quay)
+    thì vấn đề nghiêng về điện hoặc tụ; nếu dàn nóng chạy nhưng gió ra không mát
+    thì nghiêng về gas hoặc tắc nghẽn dòng khí. Gas máy lạnh không tiêu hao
+    trong quá trình sử dụng bình thường — nó chỉ giảm khi có rò rỉ, nên "nạp gas
+    định kỳ" là quan niệm sai.
+  nguon:
+  - url: https://www.energy.gov/energysaver/air-conditioning
+    title: U.S. Department of Energy — Air Conditioning
+  - url: https://www.daikin.com.vn/vi/support/faq/
+    title: Daikin Việt Nam — Câu hỏi thường gặp về điều hoà
+  serp: []
+
+bai_viet:
+  than: |
+    # Máy lạnh không lạnh: Nguyên nhân, cách kiểm tra ban đầu và khi nào cần gọi thợ
+
+    Máy lạnh chạy nhưng không lạnh thường đến từ bốn nhóm nguyên nhân: cài đặt sai chế độ, lưới lọc và dàn bị bẩn làm nghẽn dòng khí, nguồn điện hoặc tụ dàn nóng có vấn đề, và rò rỉ gas. Bạn tự kiểm tra được ba nhóm đầu trong khoảng mười phút mà không cần mở vỏ máy.
+
+    <!-- IMAGE: IMG-001 | Kỹ thuật viên đứng trước dàn lạnh treo tường trong phòng khách, tay cầm remote kiểm tra chế độ và nhiệt độ đặt -->
+
+    ## Vì sao máy vẫn chạy mà gió ra không mát?
+
+    Điểm dễ nhầm nhất là gộp mọi trường hợp vào một nguyên nhân duy nhất — hết gas. Thực tế gas máy lạnh không hao trong quá trình dùng bình thường. Nó chỉ giảm khi có rò rỉ tại mối nối hoặc ống đồng. Vì vậy "nạp gas định kỳ" là một quan niệm sai, và nạp thêm gas vào một hệ thống đang rò chỉ giải quyết triệu chứng trong vài tuần.
+
+    Cách khoanh vùng nhanh là nghe dàn nóng. Ra chỗ đặt dàn nóng, để ý hai thứ:
+
+    - **Dàn nóng không chạy** — không nghe tiếng block, cánh quạt đứng yên. Nguyên nhân nghiêng về nguồn điện, CB, hoặc tụ khởi động.
+    - **Dàn nóng chạy nhưng gió trong nhà vẫn không mát** — nghiêng về nghẽn dòng khí hoặc thiếu gas.
+
+    Một quan sát đó đã cắt đôi danh sách nguyên nhân.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh lưới lọc dàn lạnh phủ lớp bụi dày, một nửa đã tháo rời khỏi máy -->
+
+    ## Bốn nhóm nguyên nhân thường gặp
+
+    | Nhóm | Dấu hiệu đi kèm | Tự xử lý được? |
+    |---|---|---|
+    | Cài đặt sai chế độ | Remote ở Fan hoặc Dry, nhiệt độ đặt cao hơn phòng | Được |
+    | Nghẽn dòng khí | Lưới lọc bám bụi, gió yếu, dàn nóng bị che | Được phần vệ sinh cơ bản |
+    | Điện và tụ dàn nóng | Dàn nóng im, CB nhảy, đèn báo nhấp nháy | Không |
+    | Rò rỉ gas | Dàn lạnh đóng tuyết cục bộ, ống đồng đọng sương lạ | Không |
+
+    Hai nhóm cuối cần thợ, không phải vì phức tạp mà vì chúng liên quan tới điện bên trong máy và tới hệ thống kín chứa môi chất lạnh.
+
+    ## Cách kiểm tra ban đầu, làm được tại nhà
+
+    Làm lần lượt, dừng lại ngay khi máy lạnh trở lại bình thường.
+
+    1. **Kiểm tra remote.** Đặt về chế độ Cool, hạ nhiệt độ xuống 24 độ, quạt để mức cao. Nếu màn hình remote mờ hoặc không phản hồi, thay pin trước khi kết luận máy hỏng.
+    2. **Kiểm tra CB.** Xem CB riêng của máy lạnh đã bật chưa. Nếu vừa bật lại mà nhảy tiếp, dừng ở đây và gọi thợ. CB nhảy lặp lại là dấu hiệu chập hoặc quá tải.
+    3. **Rửa lưới lọc.** Mở nắp dàn lạnh, rút hai tấm lưới lọc, rửa nước sạch, để khô hoàn toàn rồi lắp lại. Đây là nguyên nhân phổ biến nhất khiến gió yếu và phòng lâu mát.
+    4. **Dọn quanh dàn nóng.** Dàn nóng cần khoảng trống để thải nhiệt. Dời đồ đạc che chắn, cắt cây leo, kiểm tra xem có vật gì chắn trước mặt quạt không.
+    5. **Chờ và đo lại.** Đóng cửa phòng, chạy 20 tới 30 phút, rồi so nhiệt độ trong phòng với nhiệt độ đặt trên remote.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt CB, đang mở nắp dàn lạnh để kiểm tra khoang lọc gió -->
+
+    ## Khi nào nên dừng và gọi kỹ thuật viên?
+
+    Dừng tự xử lý khi gặp bất kỳ dấu hiệu nào sau đây:
+
+    - CB nhảy lại sau khi bật.
+    - Dàn lạnh đóng tuyết ở một mảng, hoặc ống đồng đọng sương bất thường.
+    - Dàn nóng không chạy dù đã có điện.
+    - Có mùi khét, tiếng va đập kim loại, hoặc nước rỉ ra thân máy.
+    - Đã làm đủ năm bước trên mà phòng vẫn không mát.
+
+    Ba trường hợp đầu liên quan tới điện và môi chất lạnh. Tự mở máy trong các tình huống đó có rủi ro điện giật, và thao tác sai với hệ thống gas làm hỏng nặng thêm phần vốn còn sửa được.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh đang đo thông số tại dàn nóng đặt ngoài ban công một căn hộ -->
+
+    ## Chuẩn bị gì trước khi gọi thợ?
+
+    Mô tả càng cụ thể thì việc khoanh vùng càng nhanh, và bạn càng đỡ mất thời gian chờ. Chuẩn bị sẵn bốn thứ:
+
+    - Model máy, ghi trên tem dán ở hông dàn lạnh hoặc mặt dàn nóng.
+    - Triệu chứng: dàn nóng có chạy không, gió có ra không, có đóng tuyết không.
+    - Mã lỗi nếu đèn báo nhấp nháy theo nhịp.
+    - Lần vệ sinh gần nhất cách đây bao lâu.
+
+    Ficool nhận mô tả kèm ảnh để định hướng bước kiểm tra trước khi tới nhà, tại TP.HCM. Nếu triệu chứng nghiêng về điện hoặc gas, kỹ thuật viên sẽ nói rõ ngay từ đầu thay vì để bạn tự đoán.
+
+    Nếu máy vẫn còn mát nhưng yếu dần theo thời gian, phần lớn là chuyện vệ sinh chứ không phải hỏng, xem <!-- INTERNAL: bao lâu nên vệ sinh máy lạnh một lần | /bao-lau-ve-sinh-may-lanh/ -->. Còn nếu bạn đang nghi hết gas, đọc <!-- INTERNAL: máy lạnh có cần nạp gas định kỳ không | /may-lanh-co-can-nap-gas-dinh-ky/ --> trước khi quyết định nạp. Muốn biết một lần vệ sinh gồm những hạng mục nào và hỏi báo giá ra sao, xem <!-- INTERNAL: giá vệ sinh máy lạnh gồm những gì | /gia-ve-sinh-may-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy lạnh không lạnh có phải lúc nào cũng do hết gas?
+
+    Không. Gas máy lạnh không tiêu hao khi sử dụng bình thường, nó chỉ giảm khi hệ thống bị rò rỉ. Nguyên nhân phổ biến hơn nhiều là lưới lọc bẩn, dàn nóng bị che chắn, hoặc remote đang đặt sai chế độ. Nên kiểm tra ba nhóm đó trước khi nghĩ tới gas.
+
+    ### Tự rửa lưới lọc máy lạnh có an toàn không?
+
+    Có, nếu bạn ngắt CB trước khi mở nắp và chỉ tháo đúng hai tấm lưới lọc. Rửa bằng nước sạch, để khô hoàn toàn rồi mới lắp lại. Không xịt nước vào bên trong dàn lạnh và không tháo các bộ phận khác, phần đó cần dụng cụ và chuyên môn.
+
+    ### Vì sao dàn lạnh bị đóng tuyết?
+
+    Đóng tuyết ở dàn lạnh thường là dấu hiệu dòng khí qua dàn quá yếu hoặc lượng môi chất lạnh không đủ. Cả hai đều khiến nhiệt độ bề mặt dàn xuống dưới điểm đóng băng. Nếu thấy tuyết bám thành mảng, tắt máy và gọi kỹ thuật viên thay vì tiếp tục chạy.
+
+    ### Bao lâu sau khi bật thì máy lạnh phải mát?
+
+    Với phòng đóng kín và máy đúng công suất, bạn cảm nhận được chênh lệch rõ trong khoảng 15 tới 30 phút. Nếu sau 30 phút phòng vẫn không mát dù remote đặt 24 độ ở chế độ Cool, đó là lúc nên kiểm tra theo năm bước ở trên.
+
+    ### Ficool có kiểm tra tại nhà ở TP.HCM không?
+
+    Có. Bạn gửi model máy và mô tả triệu chứng trước, kỹ thuật viên Ficool sẽ định hướng bước kiểm tra và cho biết trường hợp của bạn có cần tới tận nơi hay không. Phạm vi và chi phí phụ thuộc công suất máy cùng tình trạng thực tế, nên sẽ được thống nhất trước khi làm.
+  seo:
+    tieu_de: 'Máy lạnh không lạnh: nguyên nhân và cách kiểm tra'
+    mo_ta: >-
+      Máy lạnh không lạnh thường do cài đặt sai, lưới lọc bẩn, lỗi điện hoặc rò
+      gas. Năm bước kiểm tra tại nhà và dấu hiệu cần gọi kỹ thuật viên.
+    slug: may-lanh-khong-lanh
+    tu_khoa_phu:
+    - máy lạnh chạy nhưng không mát
+    - điều hoà không lạnh
+    - máy lạnh không mát phải làm sao

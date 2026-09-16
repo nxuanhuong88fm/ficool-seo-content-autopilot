@@ -1,0 +1,142 @@
+chu_de:
+  id: MG-07
+  tieu_de: 'Quần áo giặt xong có mùi hôi: Do máy giặt hay thói quen sử dụng?'
+  tu_khoa_chinh: quần áo giặt xong có mùi hôi
+  chuyen_muc: Máy giặt
+  the:
+  - Lỗi thường gặp
+  - Vệ sinh
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Quần áo giặt xong vẫn có mùi thường bắt nguồn từ hai phía: bản thân máy đã
+    tích tụ cặn và vi sinh vật, hoặc thói quen sử dụng tạo điều kiện cho điều đó
+    xảy ra. Về phía máy, các điểm tích tụ chính là gioăng cửa ở máy cửa trước
+    với các nếp gấp giữ ẩm và xơ vải, ngăn đựng bột giặt nơi bột đóng cục, lồng
+    ngoài mà người dùng không nhìn thấy được, bộ lọc bơm xả, và đường ống xả.
+    Màng sinh học hình thành ở các bề mặt ẩm này và phát ra mùi ẩm mốc, đồng
+    thời bám ngược lên quần áo trong lúc giặt. Về phía thói quen, ba yếu tố phổ
+    biến: đóng cửa máy ngay sau khi giặt xong khiến hơi ẩm bị giữ lại bên trong;
+    để quần áo ướt trong lồng nhiều giờ sau khi chu trình kết thúc; và giặt liên
+    tục ở nhiệt độ thấp, vì nước lạnh không đủ để phân huỷ dầu mỡ cùng cặn bột
+    giặt, khiến lớp cặn tích tụ dần. Dùng quá nhiều bột giặt hoặc nước xả cũng
+    làm tăng cặn thay vì làm sạch hơn. Về phòng ngừa, các khuyến cáo phổ biến
+    gồm: để cửa và ngăn bột giặt hé sau mỗi lần giặt cho khô, lấy quần áo ra
+    ngay khi chu trình kết thúc, định kỳ chạy một chu trình vệ sinh lồng ở nhiệt
+    độ cao với lồng rỗng, lau gioăng cửa sau mỗi vài lần giặt, và dùng đúng
+    lượng bột theo hướng dẫn. Vệ sinh chuyên sâu tháo lồng chỉ cần khi mùi vẫn
+    còn sau khi đã làm các bước trên, vì phần cặn nằm ở mặt ngoài lồng.
+  nguon:
+  - url: https://www.epa.gov/mold/mold-course-chapter-2
+    title: US EPA — Mold Course, Chapter 2 Causes and Effects of Mold
+  - url: https://www.energystar.gov/products/clothes_washers
+    title: ENERGY STAR — Clothes Washers
+  serp: []
+
+bai_viet:
+  than: |
+    # Quần áo giặt xong có mùi hôi: Do máy giặt hay thói quen sử dụng?
+
+    Mùi trên quần áo vừa giặt xong đến từ hai phía: máy đã tích tụ cặn và vi sinh vật, hoặc thói quen sử dụng đang tạo điều kiện cho điều đó. Phần lớn trường hợp là cả hai, và phần thói quen thì bạn đổi được ngay hôm nay mà không tốn gì.
+
+    <!-- IMAGE: IMG-001 | Người dùng cầm chiếc áo vừa lấy khỏi máy giặt lên ngửi, nét mặt nhăn lại vì mùi -->
+
+    ## Năm nơi tích tụ trong máy
+
+    Mùi không sinh ra từ quần áo, nó bám vào quần áo từ các bề mặt ẩm bên trong máy:
+
+    | Nơi tích tụ | Vì sao | Bạn tự làm được? |
+    |---|---|---|
+    | Gioăng cửa (máy cửa trước) | Nếp gấp giữ ẩm và xơ vải | Được |
+    | Ngăn đựng bột giặt | Bột đóng cục, ẩm lâu ngày | Được |
+    | Bộ lọc bơm xả | Xơ vải và cặn đọng | Được |
+    | Lồng ngoài | Cặn bám mặt ngoài, không nhìn thấy | Không |
+    | Đường ống xả | Cặn xà phòng tích tụ | Một phần |
+
+    Ba dòng đầu bạn xử lý được trong khoảng hai mươi phút. Dòng thứ tư là lý do vì sao có lúc phải vệ sinh chuyên sâu.
+
+    ## Ba thói quen tạo ra mùi
+
+    - **Đóng cửa máy ngay sau khi giặt.** Hơi ẩm bị nhốt bên trong, và bề mặt ẩm là điều kiện để vi sinh vật phát triển.
+    - **Để quần áo ướt trong lồng nhiều giờ.** Mùi hình thành ngay trên quần áo chứ không cần chờ tới lần giặt sau.
+    - **Giặt liên tục ở nhiệt độ thấp.** Nước lạnh không đủ phân huỷ dầu mỡ và cặn bột giặt, nên lớp cặn dày lên theo thời gian.
+
+    Điểm thứ ba là điểm ít người biết. Giặt nước lạnh tiết kiệm điện, nhưng nếu **luôn luôn** giặt nước lạnh thì nên bù bằng một chu trình vệ sinh lồng ở nhiệt độ cao định kỳ.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh nếp gấp gioăng cửa máy giặt lật ra, bên trong đọng nước và mảng nhớt xám đen -->
+
+    ## Dùng nhiều bột giặt không làm sạch hơn
+
+    Đây là hiểu lầm hay gặp. Lượng bột vượt mức làm sạch không tăng thêm, mà phần dư trở thành cặn bám trong máy và trên sợi vải. Cặn đó lại là chỗ cho vi sinh vật.
+
+    Cùng lý do đó với nước xả vải: dùng dư sẽ tích tụ trong ngăn và trong đường dẫn.
+
+    Hãy đong theo hướng dẫn của máy và theo lượng đồ thực tế, không theo thói quen ước lượng.
+
+    ## Bốn việc làm ngay, không tốn gì
+
+    1. **Để cửa và ngăn bột giặt hé sau mỗi lần giặt.** Cho máy khô tự nhiên.
+    2. **Lấy quần áo ra ngay khi chu trình kết thúc.** Đừng để qua đêm.
+    3. **Lau gioăng cửa sau mỗi vài lần giặt.** Lật mép, lau khô, lấy hết xơ vải.
+    4. **Rửa ngăn đựng bột giặt.** Rút ra, rửa sạch phần đóng cục, thông các lỗ nhỏ.
+
+    Làm bốn việc này trong hai tuần rồi đánh giá lại. Nếu mùi giảm rõ, nguyên nhân chủ yếu nằm ở thói quen.
+
+    ## Chu trình vệ sinh lồng
+
+    Nhiều máy có sẵn chương trình vệ sinh lồng, thường ghi Tub Clean, Drum Clean hoặc tương tự. Chạy với **lồng rỗng** ở nhiệt độ cao nhất chương trình cho phép.
+
+    Nếu máy không có chương trình riêng, chọn chu trình nước nóng nhất với lồng rỗng. Sau khi chạy xong, lau khô gioăng cửa và để cửa hé.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, tháo ngăn đựng bột giặt ra khỏi máy và chỉ vào phần bột đóng cục bên trong -->
+
+    ## Khi nào cần vệ sinh chuyên sâu?
+
+    Vệ sinh chuyên sâu là tháo lồng để làm sạch mặt ngoài — nơi bạn không nhìn thấy và không chạm tới được. Cần khi:
+
+    - Đã làm bốn việc ở trên và chạy chu trình vệ sinh lồng, sau hai tuần mùi vẫn còn.
+    - Thấy cặn đen bám ra quần áo.
+    - Máy dùng nhiều năm và chưa từng vệ sinh chuyên sâu.
+    - Mùi nồng cả khi mở cửa lúc máy không chạy.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh tháo lồng giặt đặt trên tấm bạt trải sàn, đang chà rửa mặt ngoài lồng tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Ba thông tin: mùi giống mùi gì và xuất hiện ở đâu, bạn đã làm bốn việc cơ bản chưa và kết quả ra sao, và máy dùng bao lâu rồi cùng lần vệ sinh chuyên sâu gần nhất. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn cần vệ sinh chuyên sâu hay chỉ cần đổi thói quen. Nhiều ca giải quyết được mà không cần ai tới.
+
+    Muốn biết phần nào tự làm và phần nào nên thuê, xem <!-- INTERNAL: vệ sinh máy giặt tại nhà | /ve-sinh-may-giat-tai-nha/ -->. Muốn biết bao lâu nên vệ sinh một lần và một lần gồm hạng mục gì, xem <!-- INTERNAL: bao lâu nên vệ sinh máy giặt | /bao-lau-ve-sinh-may-giat/ -->. Sau khi vệ sinh xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu máy giặt | /checklist-nghiem-thu-may-giat/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Vì sao quần áo giặt xong vẫn có mùi hôi?
+
+    Vì mùi bám ngược từ các bề mặt ẩm bên trong máy: gioăng cửa, ngăn bột giặt, bộ lọc bơm xả và mặt ngoài lồng. Thói quen đóng cửa ngay sau khi giặt và để quần áo ướt trong lồng lâu làm tình trạng nặng thêm. Hãy xử lý cả hai phía cùng lúc.
+
+    ### Có nên để cửa máy giặt mở sau khi giặt xong không?
+
+    Nên để hé, cùng với ngăn đựng bột giặt, cho máy khô tự nhiên. Đóng kín ngay sau khi giặt sẽ nhốt hơi ẩm bên trong, và bề mặt ẩm là điều kiện để vi sinh vật phát triển. Đây là việc không tốn gì mà hiệu quả rõ.
+
+    ### Giặt nước lạnh có làm máy giặt bị hôi không?
+
+    Giặt nước lạnh không sai, nhưng nếu luôn giặt ở nhiệt độ thấp thì dầu mỡ và cặn bột giặt không được phân huỷ hết, và lớp cặn dày lên theo thời gian. Cách bù là định kỳ chạy một chu trình vệ sinh lồng ở nhiệt độ cao với lồng rỗng.
+
+    ### Dùng nhiều bột giặt có sạch hơn không?
+
+    Không. Lượng vượt mức không tăng khả năng làm sạch, mà phần dư trở thành cặn bám trong máy và trên sợi vải, rồi thành chỗ cho vi sinh vật. Hãy đong theo hướng dẫn của máy và theo lượng đồ thực tế, không ước lượng theo thói quen.
+
+    ### Ficool có vệ sinh máy giặt chuyên sâu tại TP.HCM không?
+
+    Có. Bạn gửi mô tả mùi, kết quả sau khi đã làm các bước cơ bản, cùng loại máy và thời gian sử dụng. Kỹ thuật viên Ficool sẽ nói trường hợp của bạn có cần tháo lồng vệ sinh hay không. Phạm vi hạng mục và chi phí phụ thuộc loại máy cùng tình trạng thực tế, được thống nhất trước.
+  seo:
+    tieu_de: Quần áo giặt xong có mùi hôi, do máy hay do thói quen?
+    mo_ta: >-
+      Năm nơi tích tụ mùi trong máy giặt, ba thói quen tạo ra mùi, và bốn việc
+      làm ngay không tốn gì trước khi nghĩ tới vệ sinh chuyên sâu.
+    slug: quan-ao-giat-xong-co-mui-hoi
+    tu_khoa_phu:
+    - máy giặt có mùi hôi
+    - quần áo giặt xong bị hôi
+    - vệ sinh lồng máy giặt

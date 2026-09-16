@@ -1,0 +1,146 @@
+chu_de:
+  id: MN-01
+  tieu_de: 'Máy nước nóng không nóng: Nguyên nhân và khi nào cần gọi thợ'
+  tu_khoa_chinh: máy nước nóng không nóng
+  chuyen_muc: Máy nước nóng
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Máy nước nóng gia dụng chia thành hai nhóm có nguyên lý khác hẳn nhau, nên
+    cùng một triệu chứng "không nóng" lại trỏ về hai tập nguyên nhân khác nhau.
+    Nhóm thứ nhất là bình chứa, còn gọi là bình gián tiếp: nước được đun và giữ
+    trong một bình cách nhiệt, có thanh đốt và bộ điều nhiệt, nên khi hỏng thì
+    biểu hiện thường là nước ấm rồi nguội dần, hoặc chỉ có một lượng nhỏ nước
+    nóng rồi hết. Nhóm thứ hai là máy làm nóng trực tiếp, đun nước ngay khi nước
+    chảy qua, không trữ; loại này chỉ kích hoạt khi lưu lượng nước đạt ngưỡng
+    tối thiểu, nên nước yếu là một nguyên nhân phổ biến khiến máy không hề bật.
+    Tài liệu của Bộ Năng lượng Hoa Kỳ mô tả rõ khác biệt này và lưu ý rằng máy
+    làm nóng trực tiếp phụ thuộc lưu lượng, trong khi bình chứa phụ thuộc dung
+    tích và khả năng giữ nhiệt. Các nguyên nhân chung cho cả hai nhóm gồm mất
+    nguồn điện tới máy, thiết bị bảo vệ chống rò điện đã ngắt, và cài đặt nhiệt
+    độ bị chỉnh xuống thấp. Riêng bình chứa còn có cặn khoáng bám lên thanh đốt
+    làm giảm khả năng truyền nhiệt, thanh đốt hỏng, và bộ điều nhiệt sai. Về an
+    toàn, đây là thiết bị có điện và có nước cùng chỗ, nên mọi thao tác chạm vào
+    máy phải thực hiện sau khi ngắt nguồn tại aptomat, và việc mở nắp che phần
+    điện hay tháo thanh đốt không thuộc phạm vi người dùng tự làm.
+  nguon:
+  - url: https://www.energy.gov/energysaver/water-heating
+    title: U.S. Department of Energy — Water Heating
+  - url: https://www.energy.gov/energysaver/storage-water-heaters
+    title: U.S. Department of Energy — Storage Water Heaters
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ sản phẩm
+  serp: []
+
+bai_viet:
+  than: |
+    # Máy nước nóng không nóng: Nguyên nhân và khi nào cần gọi thợ
+
+    Câu hỏi đầu tiên không phải "vì sao không nóng" mà là **"máy nhà bạn thuộc loại nào"**. Bình chứa và máy làm nóng trực tiếp có nguyên lý khác hẳn nhau, nên cùng một triệu chứng lại trỏ về hai tập nguyên nhân khác nhau.
+
+    <!-- IMAGE: IMG-001 | Người dùng đứng trong phòng tắm mở vòi sen, tay thử nước, phía trên tường là bình nóng lạnh -->
+
+    ## Hai loại máy, hai cách hỏng
+
+    | | Bình chứa (gián tiếp) | Máy làm nóng trực tiếp |
+    |---|---|---|
+    | Nguyên lý | Đun và **giữ** nước trong bình cách nhiệt | Đun nước **ngay khi chảy qua**, không trữ |
+    | Triệu chứng đặc trưng | Nước nóng được một lúc rồi nguội dần | Không nóng chút nào, hoặc chỉ nóng khi mở vòi nhỏ |
+    | Phụ thuộc | Dung tích và khả năng giữ nhiệt | **Lưu lượng nước** |
+
+    Dòng cuối là mấu chốt với máy trực tiếp: loại này chỉ kích hoạt khi lưu lượng đạt ngưỡng tối thiểu. Nước yếu thì máy **không hề bật**, và đó không phải hỏng.
+
+    ## An toàn trước, kiểm tra sau
+
+    Đây là thiết bị có điện và nước ở cùng một chỗ. Trước khi chạm vào bất cứ phần nào:
+
+    1. **Ngắt nguồn tại aptomat**, không chỉ tắt công tắc trên máy.
+    2. Không mở nắp che phần điện, không tháo thanh đốt.
+    3. Không chạm vào máy khi tay hoặc chân đang ướt.
+
+    Ba việc tự làm được nằm ở phần dưới, và không việc nào đòi mở máy.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh bảng điện có aptomat và thiết bị chống rò điện của máy nước nóng, một cần gạt đang ở vị trí ngắt -->
+
+    ## Bình chứa không nóng — năm nguyên nhân
+
+    - **Mất nguồn điện tới máy.** Aptomat riêng của bình đã ngắt, hoặc ổ cắm mất điện.
+    - **Thiết bị chống rò điện đã ngắt.** Đây là bảo vệ đang làm việc, không phải phiền toái.
+    - **Cài nhiệt độ bị chỉnh xuống thấp.** Có người trong nhà vặn núm mà không nói.
+    - **Cặn khoáng bám lên thanh đốt.** Cặn là lớp cách nhiệt, nên nhiệt không truyền hết vào nước.
+    - **Thanh đốt hoặc bộ điều nhiệt hỏng.** Máy chạy nhưng không sinh nhiệt, hoặc ngắt quá sớm.
+
+    Hai nguyên nhân cuối cần kỹ thuật viên. Ba nguyên nhân đầu bạn kiểm được.
+
+    ## Máy trực tiếp không nóng — bốn nguyên nhân
+
+    - **Lưu lượng nước không đạt ngưỡng.** Máy không nhận lệnh bật. Đây là nguyên nhân hay gặp nhất và cũng hay bị hiểu nhầm nhất.
+    - **Lưới lọc đầu vào tắc.** Cặn và rỉ bám vào lưới làm giảm lưu lượng, dẫn tới đúng vấn đề trên.
+    - **Nguồn điện hoặc thiết bị chống rò điện đã ngắt.**
+    - **Cảm biến dòng chảy hoặc thanh đốt hỏng.**
+
+    Nếu mở vòi thật nhỏ thì nước nóng, mở lớn thì nguội — đó là dấu hiệu công suất không đủ cho lưu lượng đang dùng, không phải máy hỏng.
+
+    ## Bốn thứ tự kiểm tra tự làm được
+
+    1. **Nguồn điện.** Kiểm aptomat của máy. Nếu nó vừa ngắt, hãy đọc phần dấu hiệu phải dừng ở dưới trước khi bật lại.
+    2. **Cài đặt nhiệt độ.** Xem núm hoặc bảng điều khiển có bị chỉnh xuống không.
+    3. **Nguồn nước.** Thử một vòi nước lạnh khác trong nhà xem áp lực có yếu bất thường không.
+    4. **Lưới lọc đầu vào và đầu vòi sen.** Cặn bám ở đây làm giảm lưu lượng, và làm sạch được bằng tay.
+
+    Làm xong bốn bước mà vẫn không nóng thì nguyên nhân nằm bên trong máy.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt aptomat, tháo lưới lọc đầu vào của máy nước nóng ra và soi phần cặn bám -->
+
+    ## Dấu hiệu phải dừng ngay, không kiểm tiếp
+
+    - **Cảm giác tê khi chạm** vào vòi, vòi sen hoặc thân máy.
+    - **Thiết bị chống rò điện ngắt lặp lại** sau mỗi lần bật.
+    - **Có mùi khét**, tiếng nổ nhỏ, hoặc vết cháy xém quanh phần điện.
+    - **Nước rò ra từ thân bình.**
+
+    Bốn dấu hiệu này nghĩa là ngắt aptomat, **không dùng máy**, và gọi kỹ thuật viên. Không bật lại để "thử xem còn không" — thiết bị chống rò điện ngắt là nó đang làm đúng việc của nó.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh dùng đồng hồ đo kiểm tra thanh đốt của bình nóng lạnh tháo trên tường nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: máy là bình chứa hay loại làm nóng trực tiếp, hiện tượng cụ thể là không nóng chút nào hay nóng rồi nguội, thiết bị chống rò điện có ngắt không, và máy dùng được bao lâu rồi. Kỹ thuật viên Ficool tại TP.HCM sẽ khoanh vùng trước khi tới và nói rõ hạng mục cần làm. Nếu có bất kỳ dấu hiệu tê điện nào, hãy nói ngay từ đầu để xử lý theo thứ tự an toàn.
+
+    Nếu nước có nóng nhưng chậm hoặc không đủ, đọc <!-- INTERNAL: máy nước nóng nóng chậm | /may-nuoc-nong-nong-cham/ -->. Nếu thiết bị chống rò điện cứ nhảy, xem <!-- INTERNAL: ELCB máy nước nóng bị nhảy | /elcb-may-nuoc-nong-bi-nhay/ -->. Muốn biết chi phí kiểm tra gồm những phần nào, đọc <!-- INTERNAL: giá sửa máy nước nóng | /gia-sua-may-nuoc-nong/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy nước nóng không nóng là do đâu?
+
+    Tuỳ loại máy. Bình chứa thường do mất nguồn điện, thiết bị chống rò điện đã ngắt, cài nhiệt độ bị chỉnh thấp, cặn bám thanh đốt, hoặc thanh đốt và bộ điều nhiệt hỏng. Máy làm nóng trực tiếp thì hay do lưu lượng nước không đạt ngưỡng kích hoạt, lưới lọc đầu vào tắc, mất nguồn, hoặc cảm biến dòng chảy hỏng.
+
+    ### Vì sao máy nước nóng trực tiếp mở vòi nhỏ thì nóng, mở lớn lại nguội?
+
+    Vì loại này đun nước ngay khi chảy qua, nên công suất phải chia cho lưu lượng. Mở lớn thì cùng một lượng nhiệt phải làm nóng nhiều nước hơn trong cùng thời gian, và nhiệt độ ra thấp xuống. Đây là giới hạn công suất chứ không phải hỏng hóc.
+
+    ### Bình nóng lạnh nóng được một lúc rồi nguội là bị gì?
+
+    Đó là triệu chứng đặc trưng của bình chứa: lượng nước nóng trữ được đã dùng hết và phần bổ sung chưa kịp đun. Nếu thời gian nóng ngắn hơn hẳn so với trước đây thì nên kiểm cặn bám thanh đốt, bộ điều nhiệt và dung tích có còn phù hợp với nhu cầu không.
+
+    ### Thiết bị chống rò điện của máy nước nóng nhảy thì có được bật lại không?
+
+    Không nên bật lại nhiều lần. Nó ngắt là nó đang làm đúng việc bảo vệ. Nếu nó ngắt lặp lại sau mỗi lần bật, hoặc có cảm giác tê khi chạm vào vòi và thân máy, hãy ngắt aptomat, ngừng sử dụng và gọi kỹ thuật viên.
+
+    ### Ficool có kiểm tra máy nước nóng tại TP.HCM không?
+
+    Có. Bạn gửi loại máy, hiện tượng cụ thể, tình trạng thiết bị chống rò điện và thời gian đã sử dụng. Kỹ thuật viên Ficool sẽ khoanh vùng nguyên nhân trước khi tới, nêu rõ hạng mục cần làm và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Máy nước nóng không nóng, kiểm tra gì trước?
+    mo_ta: >-
+      Bình chứa và máy trực tiếp hỏng theo hai kiểu khác nhau. Chín nguyên nhân,
+      bốn bước tự kiểm và dấu hiệu phải ngừng dùng ngay.
+    slug: may-nuoc-nong-khong-nong
+    tu_khoa_phu:
+    - bình nóng lạnh không nóng
+    - máy nước nóng không ra nước nóng
+    - bình nóng lạnh không lên nhiệt

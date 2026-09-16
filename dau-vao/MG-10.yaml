@@ -1,0 +1,156 @@
+chu_de:
+  id: MG-10
+  tieu_de: Cách vệ sinh bộ lọc và ngăn nước giặt đúng cách
+  tu_khoa_chinh: vệ sinh bộ lọc máy giặt
+  chuyen_muc: Máy giặt
+  the:
+  - Vệ sinh
+  giai_doan_phieu: F2
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Trên một chiếc máy giặt có nhiều bộ phận cùng được gọi là "bộ lọc" nhưng
+    nằm ở ba vị trí khác nhau và phục vụ ba mục đích khác nhau, nên việc phân
+    biệt chúng là điều kiện để vệ sinh đúng chỗ. Thứ nhất là lưới lọc ở đầu vào
+    của van cấp nước, nằm tại chỗ nối ống nước vào máy; nó chặn cặn và mạt rỉ từ
+    đường nước, và khi bám kín thì máy cấp nước chậm hoặc báo lỗi cấp nước. Thứ
+    hai là bộ lọc xơ vải trên đường xả, thường đặt sau một nắp nhỏ ở góc dưới
+    mặt trước với máy cửa trước, hoặc trong một túi lọc gắn trong lồng với nhiều
+    máy cửa trên; nó giữ lại xơ vải, tóc và vật nhỏ trước khi nước đi vào bơm
+    xả, và khi tắc thì máy xả chậm, còn đọng nước hoặc báo lỗi xả. Thứ ba là
+    ngăn chứa nước giặt và nước xả, không phải bộ lọc nhưng cùng nhóm bảo trì,
+    vì phần bột hoặc nước giặt dư đọng lại thành cặn nuôi vi sinh vật và gây
+    mùi. Về thao tác, việc mở nắp bộ lọc bơm xả luôn kèm nước chảy ra do đường
+    ống còn giữ nước, nên cần chuẩn bị khăn và khay hứng, và cần rút phích cắm
+    trước; nhiều model có một ống xả phụ nhỏ đặt cạnh nắp dùng để tháo nước
+    trước khi mở. Với lưới lọc đầu vào, cần khoá van cấp nước trước khi tháo ống.
+    Về tần suất, các hãng khuyến cáo kiểm bộ lọc xơ vải định kỳ và nhất là sau
+    khi giặt đồ nhiều xơ như chăn, khăn hoặc quần áo mới.
+  nguon:
+  - url: https://www.energystar.gov/products/clothes_washers
+    title: ENERGY STAR — Clothes Washers
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ sản phẩm
+  - url: https://www.epa.gov/mold/mold-course-chapter-2
+    title: US EPA — Mold Course, Chapter 2
+  serp: []
+
+bai_viet:
+  than: |
+    # Cách vệ sinh bộ lọc và ngăn nước giặt đúng cách
+
+    Trên một chiếc máy giặt có **ba thứ cùng được gọi là bộ lọc**, nằm ở ba chỗ khác nhau và hỏng theo ba kiểu khác nhau. Vệ sinh nhầm chỗ là lý do phổ biến khiến "đã vệ sinh rồi mà máy vẫn báo lỗi".
+
+    <!-- IMAGE: IMG-001 | Người dùng ngồi xuống mở nắp nhỏ ở góc dưới mặt trước máy giặt, tay cầm khăn và khay hứng nước -->
+
+    ## Ba vị trí, ba triệu chứng
+
+    | Bộ phận | Nằm ở đâu | Khi tắc thì |
+    |---|---|---|
+    | **Lưới lọc đầu vào** | Chỗ nối ống nước vào máy | Cấp nước chậm, hoặc báo lỗi cấp nước |
+    | **Bộ lọc xơ vải trên đường xả** | Nắp nhỏ góc dưới mặt trước, hoặc túi lọc trong lồng | Xả chậm, còn đọng nước, báo lỗi xả |
+    | **Ngăn chứa nước giặt, nước xả** | Ngăn kéo phía trên | Cặn đóng, có mùi, nước giặt không tan hết |
+
+    Bảng này đọc ngược cũng dùng được: máy **cấp** nước chậm thì kiểm dòng một, máy **xả** chậm thì kiểm dòng hai.
+
+    ## Bộ lọc xơ vải trên đường xả
+
+    Đây là bộ lọc hay phải làm nhất, và cũng là bộ lọc hay bị quên nhất vì nó nằm khuất.
+
+    1. **Rút phích cắm.**
+    2. **Chuẩn bị khăn và khay nông.** Mở nắp luôn kèm nước chảy ra, vì đường ống còn giữ nước.
+    3. Nhiều model có **một ống xả phụ nhỏ** đặt cạnh nắp — dùng nó để tháo nước trước khi mở, sẽ đỡ hơn nhiều.
+    4. **Vặn nắp ra**, lấy bộ lọc, gỡ hết xơ vải, tóc và vật nhỏ.
+    5. **Rửa dưới vòi**, kiểm cả khoang bên trong.
+    6. **Lắp lại cho chặt** rồi mới cắm điện. Lắp lỏng là rò nước ngay chu trình sau.
+
+    Bước 6 đáng nhấn: đây là nắp giữ nước, không phải nắp che.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh bộ lọc xơ vải vừa tháo khỏi máy giặt, phủ đầy xơ vải, tóc và một đồng xu -->
+
+    ## Lưới lọc đầu vào van cấp nước
+
+    Ít người biết bộ phận này tồn tại, và nó là nguyên nhân thường bị bỏ sót khi máy cấp nước chậm.
+
+    1. **Rút phích cắm** và **khoá van cấp nước**.
+    2. Tháo ống nước ra khỏi máy, có khăn hứng.
+    3. Lấy **lưới lọc nhỏ** ở đầu vào ra — thường là một vòng lưới có thể gắp bằng nhíp.
+    4. Rửa sạch cặn và mạt rỉ.
+    5. Lắp lại, nối ống, mở van, **kiểm rò** trước khi cắm điện.
+
+    Nếu nhà bạn dùng nước có nhiều cặn, đây là hạng mục nên đưa vào lịch chứ đừng chờ tới lúc máy báo lỗi.
+
+    ## Ngăn chứa nước giặt và nước xả
+
+    Không phải bộ lọc, nhưng cùng nhóm bảo trì vì cùng một cơ chế: **phần dư đọng lại thành cặn**, và cặn nuôi vi sinh vật gây mùi.
+
+    - Phần lớn model **rút ngăn ra được bằng tay**, thường có một chốt nhỏ.
+    - Rửa dưới vòi, chú ý các **khe và ống nhỏ** phía trong.
+    - Lau cả **khoang chứa ngăn** trên thân máy, vì cặn bám cả ở đó.
+    - **Để khô** rồi lắp lại.
+
+    Nếu bạn thấy nước giặt không tan hết hoặc còn vệt trên quần áo, đây là chỗ đáng kiểm trước khi nghĩ tới chương trình giặt.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, tháo ngăn chứa nước giặt ra và rửa các khe cặn bám bên trong -->
+
+    ## Dùng đúng liều là một phần của việc vệ sinh
+
+    Dùng quá nhiều bột hoặc nước giặt không làm quần áo sạch hơn — phần dư không tan hết sẽ đọng lại thành cặn ở ngăn chứa, trong lồng và trên đường xả.
+
+    Nghĩa là **liều lượng ảnh hưởng trực tiếp tới tần suất bạn phải vệ sinh**. Dùng đúng theo hướng dẫn của máy và của sản phẩm giặt là cách giảm việc cho chính mình.
+
+    ## Khi nào nên làm
+
+    - **Định kỳ** với bộ lọc xơ vải, theo hướng dẫn của máy.
+    - **Ngay sau khi giặt đồ nhiều xơ**: chăn, khăn, quần áo mới.
+    - **Khi máy xả chậm** hoặc còn đọng nước.
+    - **Khi máy cấp nước chậm** — lúc này kiểm lưới lọc đầu vào.
+    - **Khi thấy mùi** hoặc cặn trên quần áo.
+
+    ## Khi nào cần kỹ thuật viên
+
+    - Đã vệ sinh cả ba chỗ mà máy vẫn xả chậm hoặc báo lỗi.
+    - **Nắp bộ lọc không vặn ra được**, hoặc bị chờn.
+    - Có **rò nước** sau khi lắp lại.
+    - Nghi tắc nằm ở **bơm xả** hoặc trong đường ống xả.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh kiểm tra bơm xả và đường ống xả của máy giặt tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: máy cấp nước chậm hay xả chậm, đã vệ sinh chỗ nào rồi, mã lỗi hiện trên máy nếu có, và máy cửa trước hay cửa trên. Kỹ thuật viên Ficool tại TP.HCM sẽ nói vấn đề nằm ở bộ lọc nào, hay đã sang tới bơm xả và đường ống. Nếu nắp bộ lọc bị chờn không mở được, hãy nói trước để mang đúng dụng cụ.
+
+    Muốn biết phần nào tự làm được và phần nào cần thợ, đọc <!-- INTERNAL: vệ sinh máy giặt tại nhà | /ve-sinh-may-giat-tai-nha/ -->. Nếu máy không xả nước, xem <!-- INTERNAL: máy giặt không xả nước | /may-giat-khong-xa-nuoc/ -->. Muốn biết bao lâu nên làm một lần, đọc <!-- INTERNAL: bao lâu vệ sinh máy giặt | /bao-lau-ve-sinh-may-giat/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy giặt có mấy bộ lọc?
+
+    Có ba bộ phận thường được gọi chung là bộ lọc, ở ba vị trí khác nhau: lưới lọc ở đầu vào van cấp nước, bộ lọc xơ vải trên đường xả ở góc dưới mặt trước hoặc trong lồng, và ngăn chứa nước giặt cùng nước xả. Chúng hỏng theo ba kiểu khác nhau nên cần phân biệt trước khi vệ sinh.
+
+    ### Vệ sinh bộ lọc xơ vải máy giặt thế nào?
+
+    Rút phích cắm, chuẩn bị khăn và khay vì mở nắp luôn kèm nước chảy ra. Nhiều model có ống xả phụ nhỏ cạnh nắp để tháo nước trước. Vặn nắp, lấy bộ lọc, gỡ hết xơ vải và vật nhỏ, rửa dưới vòi rồi lắp lại cho chặt trước khi cắm điện.
+
+    ### Máy giặt cấp nước chậm thì kiểm ở đâu?
+
+    Kiểm lưới lọc ở đầu vào van cấp nước, tại chỗ nối ống nước vào máy. Nó chặn cặn và mạt rỉ từ đường nước và khi bám kín thì máy cấp nước chậm hoặc báo lỗi cấp nước. Nhớ khoá van cấp và rút phích cắm trước khi tháo ống.
+
+    ### Dùng nhiều nước giặt có ảnh hưởng gì không?
+
+    Có. Phần dư không tan hết sẽ đọng lại thành cặn ở ngăn chứa, trong lồng và trên đường xả, và cặn nuôi vi sinh vật gây mùi. Liều lượng vì thế ảnh hưởng trực tiếp tới tần suất bạn phải vệ sinh máy.
+
+    ### Ficool có vệ sinh máy giặt tại nhà ở TP.HCM không?
+
+    Có. Bạn gửi thông tin máy cấp nước chậm hay xả chậm, đã vệ sinh chỗ nào, mã lỗi nếu có và loại máy cửa trước hay cửa trên. Kỹ thuật viên Ficool sẽ xác định vấn đề nằm ở bộ lọc nào hay đã sang bơm xả, và thống nhất chi phí trước khi làm.
+  seo:
+    tieu_de: Vệ sinh bộ lọc và ngăn nước giặt máy giặt
+    mo_ta: >-
+      Ba bộ phận cùng gọi là bộ lọc, ở ba vị trí và hỏng theo ba kiểu. Cách làm
+      từng chỗ và khi nào cần thợ.
+    slug: ve-sinh-bo-loc-may-giat
+    tu_khoa_phu:
+    - vệ sinh lưới lọc máy giặt
+    - vệ sinh ngăn nước giặt
+    - bộ lọc xơ vải máy giặt

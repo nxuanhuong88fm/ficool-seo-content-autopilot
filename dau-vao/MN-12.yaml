@@ -1,0 +1,162 @@
+chu_de:
+  id: MN-12
+  tieu_de: 'Lắp đặt máy nước nóng: Yêu cầu về vị trí, điện và chống rò điện'
+  tu_khoa_chinh: lắp đặt máy nước nóng
+  chuyen_muc: Máy nước nóng
+  the:
+  - Lắp đặt
+  giai_doan_phieu: F4
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Lắp đặt máy nước nóng có ba nhóm yêu cầu tách bạch: kết cấu, đường nước và
+    điện. Về kết cấu, bình chứa khi đầy nước nặng hơn rất nhiều so với lúc rỗng,
+    nên tường treo phải là tường chịu lực và bộ giá treo cùng bu lông phải theo
+    đúng khuyến cáo của nhà sản xuất; tường gạch nhẹ hoặc vách thạch cao không
+    treo trực tiếp được. Vị trí còn cần chừa khoảng thao tác phía dưới và phía
+    trước để sau này tháo được mặt bích và thanh đốt khi vệ sinh hoặc thay thế —
+    một chiếc bình lắp sát trần trong hốc kín là chiếc bình mà mọi lần bảo trì
+    đều tốn thêm công tháo dỡ. Về khoảng cách, đặt máy gần điểm dùng làm giảm
+    lượng nước nguội phải xả bỏ và giảm thất thoát nhiệt trên đường ống. Về
+    đường nước, cần có van khoá trên đường cấp để cô lập máy khi bảo trì, van
+    một chiều và van an toàn theo cấu hình của nhà sản xuất, và quan trọng là
+    đường xả của van an toàn phải dẫn tới nơi thoát nước chứ không xả tự do lên
+    sàn hay lên thiết bị khác. Về điện, các hãng khuyến cáo cấp nguồn riêng cho
+    máy, có dây tiếp địa thật và có thiết bị chống dòng rò; việc chọn aptomat và
+    tiết diện dây thuộc phần việc của thợ điện dựa trên công suất máy. Hai lớp
+    bảo vệ là tiếp địa và thiết bị chống rò không thay thế cho nhau. Sau khi
+    lắp, cần xả hết khí trong bình bằng cách mở vòi nước nóng cho tới khi nước
+    chảy đều rồi mới cấp điện, vì cấp điện khi bình chưa đầy nước làm thanh đốt
+    chạy khô và hỏng.
+  nguon:
+  - url: https://www.energy.gov/energysaver/storage-water-heaters
+    title: U.S. Department of Energy — Storage Water Heaters
+  - url: https://www.energy.gov/energysaver/water-heating
+    title: U.S. Department of Energy — Water Heating
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ sản phẩm
+  serp: []
+
+bai_viet:
+  than: |
+    # Lắp đặt máy nước nóng: Yêu cầu về vị trí, điện và chống rò điện
+
+    Ba nhóm yêu cầu tách bạch: **kết cấu, đường nước và điện**. Sai ở nhóm nào cũng để lại hậu quả riêng, và hai trong ba nhóm chỉ lộ ra sau nhiều tháng.
+
+    <!-- IMAGE: IMG-001 | Kỹ thuật viên và chủ nhà đứng trong phòng tắm, cùng xem vị trí tường dự kiến treo bình nóng lạnh -->
+
+    ## Kết cấu: tường phải chịu được bình khi ĐẦY nước
+
+    Đây là con số hay bị bỏ qua: bình chứa khi đầy nước nặng hơn rất nhiều so với lúc rỗng, và trọng lượng đó treo trên tường suốt vòng đời máy.
+
+    - Tường treo phải là **tường chịu lực**. Tường gạch nhẹ hoặc vách thạch cao không treo trực tiếp được.
+    - **Giá treo và bu lông** theo đúng khuyến cáo của nhà sản xuất, không thay bằng loại sẵn có.
+    - Nếu tường không đạt, phải làm khung đỡ — nói chuyện này **trước khi mua**, không phải trong lúc lắp.
+
+    ## Vị trí: nghĩ tới lần bảo trì đầu tiên
+
+    Một chiếc bình lắp sát trần trong hốc kín là chiếc bình mà **mọi lần bảo trì đều tốn thêm công tháo dỡ**.
+
+    Cần chừa:
+
+    - Khoảng thao tác **phía trước và phía dưới** để tháo mặt bích và rút thanh đốt ra.
+    - Lối với tới **cụm van** ở đường cấp.
+    - Chỗ đứng an toàn cho người thao tác.
+
+    Ngoài ra, đặt máy **gần điểm dùng** làm giảm lượng nước nguội phải xả bỏ mỗi lần mở vòi, và giảm thất thoát nhiệt trên đường ống.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh bình nóng lạnh lắp sát trần trong hốc kín, không còn khoảng trống để tháo mặt bích phía dưới -->
+
+    ## Đường nước: bốn hạng mục
+
+    | Hạng mục | Vì sao cần |
+    |---|---|
+    | Van khoá trên đường cấp | Cô lập máy khi bảo trì mà không phải khoá cả nhà |
+    | Van một chiều | Theo cấu hình của nhà sản xuất |
+    | Van an toàn | Xả bớt khi áp suất tăng do nước giãn nở lúc đun |
+    | **Đường xả của van an toàn** | Dẫn tới nơi thoát nước |
+
+    Dòng cuối là chỗ hay làm ẩu nhất. Van an toàn xả tự do lên sàn hoặc lên thiết bị bên dưới là chuyện chỉ phát hiện khi đã có nước, và với thiết bị điện phía dưới thì hậu quả không dừng ở nước.
+
+    ## Điện: hai lớp bảo vệ, không thay nhau được
+
+    - **Nguồn riêng cho máy**, không dùng chung ổ với thiết bị khác.
+    - **Dây tiếp địa thật**, dẫn xuống điểm tiếp đất — không phải một dây nối tới chỗ không dẫn đi đâu.
+    - **Thiết bị chống dòng rò** (ELCB, RCD).
+    - **Aptomat và tiết diện dây** do thợ điện chọn theo công suất máy.
+
+    Tiếp địa dẫn dòng rò xuống đất; thiết bị chống rò ngắt mạch khi phát hiện chênh lệch dòng. Đủ cả hai mới là cấu hình đúng, và đây là hạng mục nên hỏi thẳng khi nghiệm thu.
+
+    ## Trước khi cấp điện lần đầu
+
+    1. Mở van cấp nước, **để bình đầy**.
+    2. Mở một vòi nước nóng cho tới khi **nước chảy đều, hết tiếng khí**.
+    3. Kiểm quanh các mối nối xem có rò không.
+    4. **Rồi mới cấp điện.**
+
+    Bước 2 không rút ngắn được. Cấp điện khi bình chưa đầy nước làm thanh đốt chạy khô và hỏng — một lỗi lắp đặt cho hậu quả ngay trong ngày đầu.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên mở vòi nước nóng xả khí sau khi lắp bình, tay còn cầm cờ lê, aptomat vẫn ở vị trí ngắt -->
+
+    ## Nghiệm thu — bảy điểm
+
+    | Hạng mục | Đạt khi |
+    |---|---|
+    | Giá treo | Chắc, cân, bu lông đúng loại |
+    | Khoảng thao tác | Tháo được mặt bích và thanh đốt |
+    | Van khoá, van một chiều, van an toàn | Đủ và đúng vị trí |
+    | Đường xả van an toàn | Dẫn tới nơi thoát nước |
+    | Mối nối | Không rò sau khi cấp nước đầy |
+    | Tiếp địa | Có dây tiếp địa thật, đo được tính liên tục |
+    | Thiết bị chống rò | Có, và **bấm nút test thì ngắt** |
+
+    Hai dòng cuối nên được thử **trước mặt bạn**, không nhận bằng lời.
+
+    ## Với máy làm nóng trực tiếp
+
+    Khác bình chứa ở ba điểm:
+
+    - Không có bình nên không có bài toán tải trọng, nhưng **công suất tức thời cao hơn**, nên yêu cầu về dây và aptomat thường nặng hơn.
+    - Phụ thuộc **lưu lượng**: nhà nước yếu thì máy có thể không kích hoạt.
+    - Vẫn cần đủ tiếp địa và thiết bị chống rò như bình chứa.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh siết giá treo bình nóng lạnh lên tường và kiểm tra độ cân bằng thước thuỷ -->
+
+    ## Gửi gì cho Ficool?
+
+    Năm thông tin: loại máy định lắp, vị trí dự kiến và loại tường, khoảng cách từ đó tới điểm dùng, tình trạng nguồn điện tại vị trí đó, và nhà đã có tiếp địa chưa. Ficool tại TP.HCM sẽ khảo sát trước khi lắp và nêu rõ những gì cần chuẩn bị. Nếu cần bố trí lại nguồn điện hoặc làm khung đỡ, hãy nói sớm để sắp xếp cùng thợ điện và thợ xây.
+
+    Nếu là chuyển máy cũ sang chỗ mới, đọc <!-- INTERNAL: di dời máy nước nóng | /di-doi-may-nuoc-nong/ -->. Về phần an toàn điện, xem <!-- INTERNAL: máy nước nóng bị rò điện | /may-nuoc-nong-bi-ro-dien/ -->. Nếu nhà nước yếu, đọc <!-- INTERNAL: máy nước nóng có bơm trợ lực | /may-nuoc-nong-co-bom-tro-luc/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Lắp bình nóng lạnh cần tường như thế nào?
+
+    Phải là tường chịu lực, vì bình khi đầy nước nặng hơn rất nhiều so với lúc rỗng và trọng lượng đó treo suốt vòng đời máy. Tường gạch nhẹ hoặc vách thạch cao không treo trực tiếp được, phải làm khung đỡ. Giá treo và bu lông dùng đúng loại theo khuyến cáo của nhà sản xuất.
+
+    ### Máy nước nóng có bắt buộc phải có tiếp địa không?
+
+    Nên có, và nó không thay thế được cho thiết bị chống dòng rò. Tiếp địa dẫn dòng rò xuống đất để dòng không đi qua người; thiết bị chống rò ngắt mạch khi phát hiện chênh lệch dòng vào và dòng ra. Đủ cả hai mới là cấu hình đúng, và nên yêu cầu kiểm cả hai khi nghiệm thu.
+
+    ### Vì sao phải xả khí trước khi cấp điện cho bình nóng lạnh?
+
+    Vì cấp điện khi bình chưa đầy nước làm thanh đốt chạy khô và hỏng ngay. Hãy mở van cấp cho bình đầy, mở một vòi nước nóng tới khi nước chảy đều và hết tiếng khí, kiểm các mối nối xem có rò không, rồi mới bật aptomat.
+
+    ### Đường xả van an toàn có cần dẫn đi đâu không?
+
+    Có. Van an toàn xả bớt nước khi áp suất trong bình tăng lúc đun, nên đường xả phải dẫn tới nơi thoát nước. Xả tự do lên sàn hoặc lên thiết bị bên dưới là lỗi lắp đặt chỉ phát hiện khi đã có nước, và nếu bên dưới có thiết bị điện thì hậu quả không dừng ở nước.
+
+    ### Ficool có khảo sát trước khi lắp máy nước nóng tại TP.HCM không?
+
+    Có. Bạn gửi loại máy, vị trí dự kiến và loại tường, khoảng cách tới điểm dùng, tình trạng nguồn điện và tình trạng tiếp địa. Ficool sẽ khảo sát trước, nêu những gì cần chuẩn bị và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Lắp đặt máy nước nóng cần những điều kiện gì?
+    mo_ta: >-
+      Yêu cầu về tường và giá treo, bốn hạng mục đường nước, hai lớp bảo vệ điện
+      và bảy điểm nghiệm thu.
+    slug: lap-dat-may-nuoc-nong
+    tu_khoa_phu:
+    - lắp bình nóng lạnh
+    - yêu cầu điện máy nước nóng
+    - vị trí treo bình nóng lạnh

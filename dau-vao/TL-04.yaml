@@ -1,0 +1,145 @@
+chu_de:
+  id: TL-04
+  tieu_de: 'Tủ lạnh chảy nước: Nước từ trong tủ hay dưới gầm?'
+  tu_khoa_chinh: tủ lạnh chảy nước
+  chuyen_muc: Tủ lạnh
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Nước xuất hiện ở tủ lạnh cần được phân loại theo vị trí trước, vì hai vị trí
+    chính ứng với hai nhóm nguyên nhân hoàn toàn khác nhau. Nước đọng bên TRONG
+    tủ, thường ở đáy ngăn mát, phần lớn do lỗ thoát nước ngưng bị nghẹt. Tủ lạnh
+    luôn sinh nước ngưng trong quá trình hoạt động; nước này chảy theo một rãnh
+    ở thành sau xuống một lỗ nhỏ, rồi theo ống dẫn xuống khay bay hơi đặt gần
+    block ở phía sau, nơi nhiệt từ block làm nước bay hơi. Khi lỗ hoặc ống bị
+    nghẹt bởi mảnh thực phẩm, cặn bẩn hoặc đá, nước tràn ngược ra đáy ngăn mát
+    và có thể đóng băng ở đó. Nước dưới GẦM tủ có bốn nguyên nhân thường gặp:
+    khay bay hơi bị nứt hoặc lệch vị trí; ống dẫn nước ngưng tuột khỏi khay;
+    lượng nước ngưng vượt khả năng bay hơi do cửa mở nhiều hoặc do độ ẩm cao; và
+    với tủ có bộ làm đá hoặc bình lọc nước thì là rò rỉ ở đường nước cấp. Nước
+    đọng quanh viền cửa hoặc chảy dọc mặt ngoài thường không phải rò rỉ mà là
+    hơi ẩm ngưng tụ trên bề mặt lạnh, hay gặp trong những ngày nồm ẩm; trường
+    hợp này liên quan tới gioăng cửa và độ ẩm phòng chứ không phải hỏng hóc. Về
+    an toàn, nước gần ổ cắm hoặc dây điện là tình huống cần rút điện trước khi
+    xử lý. Người dùng thông được lỗ thoát ở đáy ngăn mát bằng cách đổ nước ấm
+    hoặc dùng dây mềm chuyên dụng; các can thiệp phía sau tủ cần thợ.
+  nguon:
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Tủ lạnh chảy nước: Nước từ trong tủ hay dưới gầm?
+
+    Một câu hỏi phân loại gần hết nguyên nhân: nước ở **trong** tủ hay **dưới gầm**? Nước đọng đáy ngăn mát phần lớn là lỗ thoát nước ngưng bị nghẹt, và bạn tự thông được. Nước dưới gầm thì liên quan tới khay bay hơi hoặc đường ống phía sau.
+
+    <!-- IMAGE: IMG-001 | Người dùng mở ngăn mát tủ lạnh, đáy ngăn đọng một vũng nước dưới khay đựng rau -->
+
+    ## Trước hết: an toàn
+
+    Nếu nước đã lan tới ổ cắm hoặc dây điện, **rút phích cắm trước** khi làm bất cứ điều gì khác. Nếu không với tới phích an toàn, ngắt CB của khu vực.
+
+    Sau đó lau khô rồi mới bắt đầu tìm nguyên nhân.
+
+    ## Nước ngưng đi đâu trong một chiếc tủ lạnh?
+
+    Tủ lạnh **luôn** sinh nước ngưng khi hoạt động. Đường đi của nó:
+
+    1. Nước ngưng chảy theo rãnh ở thành sau ngăn mát.
+    2. Xuống một **lỗ thoát nhỏ** ở đáy rãnh.
+    3. Theo ống dẫn xuống **khay bay hơi** đặt gần block ở phía sau.
+    4. Nhiệt từ block làm nước trong khay bay hơi.
+
+    Hiểu chuỗi này là hiểu vì sao nước xuất hiện ở đâu.
+
+    ## Nước đọng bên trong tủ
+
+    Chuỗi trên đứt ở bước 2 hoặc 3. Lỗ thoát hoặc ống dẫn bị nghẹt bởi mảnh thực phẩm, cặn bẩn hoặc đá. Nước tràn ngược ra đáy ngăn mát, và có khi đóng băng ở đó.
+
+    **Cách thông, bạn tự làm được:**
+
+    1. Rút phích cắm.
+    2. Lấy khay rau ra, tìm lỗ thoát ở giữa rãnh thành sau.
+    3. Đổ từ từ một ít **nước ấm** vào lỗ. Không dùng nước sôi.
+    4. Nếu vẫn nghẹt, dùng dây mềm chuyên dụng luồn nhẹ. Không dùng vật cứng nhọn.
+    5. Lau khô, cắm điện lại, theo dõi vài ngày.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh lỗ thoát nước ngưng nhỏ ở giữa rãnh thành sau ngăn mát, bị cặn bẩn bịt kín -->
+
+    ## Nước dưới gầm tủ
+
+    | Nguyên nhân | Dấu hiệu | Tự xử lý? |
+    |---|---|---|
+    | Khay bay hơi nứt hoặc lệch | Nước nhỏ giọt đều dưới gầm phía sau | Không |
+    | Ống dẫn tuột khỏi khay | Nước chảy thành dòng nhỏ | Không |
+    | Nước ngưng vượt khả năng bay hơi | Nước ít, xuất hiện những ngày ẩm | Giảm mở cửa |
+    | Rò ở đường nước cấp (tủ có làm đá) | Nước nhiều, cả khi tủ không chạy | Khoá van, gọi thợ |
+
+    Dòng cuối cần xử lý ngay: khoá van nước cấp cho tủ trước khi chờ kỹ thuật viên.
+
+    ## Nước quanh viền cửa hoặc mặt ngoài
+
+    Trường hợp này thường **không phải rò rỉ**. Đó là hơi ẩm trong phòng ngưng tụ trên bề mặt lạnh, hay gặp vào những ngày nồm ẩm.
+
+    Liên quan tới hai thứ: gioăng cửa và độ ẩm phòng. Kiểm gioăng bằng phép thử tờ giấy — kẹp tờ giấy vào mép cửa rồi kéo, rút ra dễ dàng nghĩa là chỗ đó không còn kín.
+
+    Nếu gioăng còn tốt mà vẫn đọng nước mặt ngoài trong ngày ẩm, đó là hiện tượng vật lý bình thường.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, dùng bơm tiêm đổ nước ấm thông lỗ thoát nước ngưng ở ngăn mát -->
+
+    ## Khi nào cần kỹ thuật viên?
+
+    - Nước dưới gầm mà không phải do độ ẩm.
+    - Đã thông lỗ thoát mà nước vẫn đọng lại sau vài ngày.
+    - Nước chảy nhiều, thành dòng.
+    - Nước xuất hiện cả khi tủ vừa mới cắm điện.
+    - Có nước kèm tiếng lạ hoặc mùi khét.
+
+    Khay bay hơi và ống dẫn nằm phía sau tủ, gần block. Tiếp cận chúng cần kéo tủ ra và tháo tấm che, và đó là việc của thợ.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh kéo tủ lạnh khỏi tường, tháo tấm che phía sau để kiểm tra khay bay hơi -->
+
+    ## Gửi gì cho Ficool?
+
+    Ba thông tin cùng một ảnh: nước ở trong tủ hay dưới gầm, xuất hiện lúc nào và nhiều hay ít, tủ có bộ làm đá hoặc bình lọc nước không. Ảnh chụp vị trí nước đọng, đủ rộng để thấy khu vực xung quanh. Kỹ thuật viên Ficool tại TP.HCM sẽ định hướng dựa trên đó, và nếu là lỗ thoát nghẹt thì bạn tự thông trong mười phút.
+
+    Nếu nước đóng băng ở đáy ngăn mát, đọc thêm <!-- INTERNAL: tủ lạnh đóng tuyết | /tu-lanh-dong-tuyet/ -->. Nếu kèm theo ngăn mát không lạnh, xem <!-- INTERNAL: ngăn mát tủ lạnh không lạnh | /ngan-mat-tu-lanh-khong-lanh/ -->. Vệ sinh định kỳ gồm cả việc thông lỗ thoát, xem <!-- INTERNAL: cách vệ sinh tủ lạnh | /cach-ve-sinh-tu-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Vì sao đáy ngăn mát tủ lạnh bị đọng nước?
+
+    Phần lớn do lỗ thoát nước ngưng ở rãnh thành sau bị nghẹt bởi mảnh thực phẩm hoặc cặn bẩn. Nước ngưng không thoát được sẽ tràn ngược ra đáy ngăn, và có khi đóng băng. Đây là trường hợp bạn tự thông được sau khi rút phích cắm.
+
+    ### Thông lỗ thoát nước tủ lạnh thế nào cho an toàn?
+
+    Rút phích cắm, lấy khay rau ra, tìm lỗ thoát ở giữa rãnh thành sau, rồi đổ từ từ một ít nước ấm vào. Không dùng nước sôi và không dùng vật cứng nhọn. Nếu vẫn nghẹt, dùng dây mềm chuyên dụng luồn nhẹ.
+
+    ### Nước dưới gầm tủ lạnh có nguy hiểm không?
+
+    Tuỳ nguyên nhân và tuỳ vị trí. Nước gần ổ cắm hoặc dây điện là tình huống cần rút điện ngay. Với tủ có bộ làm đá hoặc bình lọc nước, nước nhiều và xuất hiện cả khi tủ không chạy thì nên khoá van cấp nước trước khi chờ kỹ thuật viên.
+
+    ### Tủ lạnh đọng nước mặt ngoài có phải hỏng không?
+
+    Thường không. Đó là hơi ẩm trong phòng ngưng tụ trên bề mặt lạnh, hay gặp vào những ngày nồm ẩm. Hãy kiểm gioăng cửa bằng phép thử tờ giấy; nếu gioăng còn kín thì đây là hiện tượng vật lý bình thường chứ không phải hỏng hóc.
+
+    ### Ficool có xử lý tủ lạnh chảy nước tại TP.HCM không?
+
+    Có. Bạn gửi ảnh vị trí nước đọng chụp đủ rộng, kèm thông tin nước ở trong tủ hay dưới gầm và tủ có bộ làm đá không. Kỹ thuật viên Ficool sẽ định hướng trước khi tới. Chi phí phụ thuộc nguyên nhân và tình trạng thực tế, được thống nhất trước khi làm.
+  seo:
+    tieu_de: 'Tủ lạnh chảy nước: nước từ trong tủ hay dưới gầm?'
+    mo_ta: >-
+      Vị trí nước phân loại gần hết nguyên nhân. Cách thông lỗ thoát nước ngưng
+      tự làm được, và khi nào nước dưới gầm cần kỹ thuật viên.
+    slug: tu-lanh-chay-nuoc
+    tu_khoa_phu:
+    - tủ lạnh đọng nước ngăn mát
+    - tủ lạnh rỉ nước
+    - lỗ thoát nước tủ lạnh bị nghẹt

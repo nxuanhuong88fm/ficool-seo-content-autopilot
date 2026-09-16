@@ -1,0 +1,158 @@
+chu_de:
+  id: TD-08
+  tieu_de: 'Tủ mát không lạnh: Các bước kiểm tra ban đầu và khi nào gọi thợ'
+  tu_khoa_chinh: tủ mát không lạnh
+  chuyen_muc: Tủ mát, tủ đông
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Tủ mát dùng trong bán hàng khác tủ lạnh gia đình ở điều kiện vận hành: cửa
+    được mở rất nhiều lần trong ngày, hàng hoá thường được xếp dày và sát thành
+    sau, và tủ hay đặt trong không gian có nhiệt độ môi trường cao. Vì vậy khi
+    tủ mát không đạt độ lạnh, nhóm nguyên nhân liên quan tới sử dụng và lắp đặt
+    cần được loại trừ trước nhóm hỏng hóc. Các mục kiểm ban đầu gồm: nguồn điện
+    và tình trạng aptomat, ổ cắm; mức cài đặt trên bảng điều khiển và khả năng
+    ai đó đã chỉnh nhầm; độ kín của cửa, tình trạng gioăng và việc cửa có tự
+    đóng lại hay không; hàng hoá xếp chặn cửa gió ở thành sau hoặc thành trên,
+    vốn tạo vùng ấm cục bộ ngay cả khi máy chạy tốt; khoảng hở thải nhiệt quanh
+    dàn nóng và mức bụi bám trên dàn; nhiệt độ môi trường nơi đặt tủ, vì mỗi
+    model có giới hạn nhiệt độ môi trường mà ngoài khoảng đó khả năng làm lạnh
+    giảm; và việc vừa nạp một lượng lớn hàng chưa lạnh. Mốc an toàn thực phẩm
+    cho khoang mát được các cơ quan quản lý khuyến cáo là từ 4 độ C trở xuống,
+    và đây là nhiệt độ thực đo bằng nhiệt kế chứ không phải nấc trên bảng điều
+    khiển; cách đo phản ánh sát nhất là đặt nhiệt kế trong một cốc nước ở giữa
+    khoang. Nhóm cần kỹ thuật viên gồm quạt dàn lạnh hoặc quạt dàn ngưng không
+    quay, dàn lạnh bám tuyết dày, bộ điều nhiệt và cảm biến sai, và các sự cố
+    thuộc hệ thống kín.
+  nguon:
+  - url: https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety
+    title: US FDA — Refrigerator Thermometers and Food Safety
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Tủ mát không lạnh: Các bước kiểm tra ban đầu và khi nào gọi thợ
+
+    Với tủ mát bán hàng, mỗi giờ chờ đợi là một khoản rủi ro cho hàng bên trong. Nên bài này xếp theo thứ tự **nhanh trước, chậm sau**: những gì kiểm được trong vài phút đặt lên đầu, và việc bảo vệ hàng hoá đặt song song chứ không đặt sau.
+
+    <!-- IMAGE: IMG-001 | Chủ cửa hàng mở cửa kính tủ mát trưng bày trong quán, tay chạm vào chai nước xếp trên kệ giữa -->
+
+    ## Làm ngay: bảo vệ hàng trước
+
+    Trước khi tìm nguyên nhân, hãy quyết định về hàng hoá:
+
+    - Chuyển nhóm **dễ hỏng nhất** sang tủ khác nếu có chỗ.
+    - **Hạn chế mở cửa** trong lúc đang xử lý.
+    - Ghi lại **thời điểm** bạn phát hiện tủ không lạnh — con số này quyết định cách đánh giá hàng sau đó.
+
+    Mục thứ ba hay bị quên, và thiếu nó thì sau đó không ai trả lời được câu "hàng nằm ở nhiệt độ đó bao lâu rồi".
+
+    ## Bảy bước kiểm tra ban đầu
+
+    | Bước | Kiểm | Mất bao lâu |
+    |---|---|---|
+    | 1 | Nguồn điện: phích cắm, ổ cắm, aptomat | Một phút |
+    | 2 | Mức cài đặt trên bảng điều khiển, xem có ai chỉnh nhầm | Một phút |
+    | 3 | Cửa có tự đóng lại khi buông tay không | Một phút |
+    | 4 | Gioăng cửa, bằng phép thử tờ giấy | Vài phút |
+    | 5 | Hàng hoá có chặn cửa gió ở thành sau hoặc thành trên | Vài phút |
+    | 6 | Khoảng hở quanh dàn nóng, mức bụi bám | Vài phút |
+    | 7 | Nhiệt độ khu vực đặt tủ có cao bất thường | Ngay |
+
+    Bước 5 là bước hay cho kết quả nhất ở tủ bán hàng: một thùng hàng xếp sát thành sau có thể che ô lưới cửa gió, và phần khí lạnh bị chặn ngay tại đó dù máy vẫn chạy tốt.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh thành sau bên trong tủ mát, các thùng hàng xếp sát che kín ô lưới cửa gió -->
+
+    ## Đo thay vì sờ
+
+    Sờ tay không phân biệt được mức 6 độ C với mức 12 độ C, mà khác biệt giữa hai mức đó lại rất lớn với hàng bảo quản.
+
+    Cách đo:
+
+    1. Đặt nhiệt kế **trong một cốc nước**, để giữa khoang.
+    2. Đóng cửa, hạn chế mở.
+    3. Chờ nhiều giờ rồi đọc.
+    4. Ghi lại con số cùng thời điểm.
+
+    Vì sao đặt trong cốc nước: nhiệt độ không khí trong tủ mát dao động mạnh mỗi lần mở cửa, còn nhiệt độ nước phản ánh sát hơn nhiệt độ mà hàng hoá thực sự đang ở. Mốc an toàn cho khoang mát được khuyến cáo là **từ 4 độ C trở xuống**.
+
+    ## Nhiệt độ môi trường: yếu tố hay bị bỏ qua
+
+    Mỗi model có một khoảng nhiệt độ môi trường mà nó được thiết kế để làm việc. Đặt tủ trong không gian nóng hơn khoảng đó thì khả năng làm lạnh giảm, và đây không phải lỗi của máy.
+
+    Các tình huống thường gặp ở cửa hàng:
+
+    - Tủ đặt ngoài hiên, ngoài mái che, hứng nắng chiều.
+    - Tủ đặt cạnh bếp, lò nướng, máy pha cà phê.
+    - Tủ đặt trong góc kín không có luồng khí đi qua.
+    - Dàn nóng thổi thẳng vào tường cách quá gần.
+
+    Bốn tình huống này đều xử lý được bằng cách đổi vị trí hoặc cải thiện thông thoáng, và chúng rẻ hơn mọi phương án khác.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, kiểm tra dàn nóng và khoảng hở phía sau tủ mát trưng bày -->
+
+    ## Bốn nhóm cần kỹ thuật viên
+
+    - **Quạt dàn lạnh hoặc quạt dàn ngưng không quay.** Khí lạnh không được đẩy đi, hoặc nhiệt không được thải ra.
+    - **Dàn lạnh bám tuyết dày.** Tuyết là lớp cách nhiệt, càng dày càng chặn trao đổi nhiệt.
+    - **Bộ điều nhiệt hoặc cảm biến sai.** Máy ngắt sớm vì tưởng đã đạt.
+    - **Hệ thống kín**: rò rỉ môi chất, máy nén yếu.
+
+    Dấu hiệu chung của bốn nhóm này: bạn đã loại trừ hết bảy bước ở trên mà nhiệt độ đo vẫn không đạt.
+
+    ## Gọi thợ ngay, không kiểm tiếp
+
+    - Máy **không chạy** dù nguồn điện bình thường.
+    - Có **mùi khét** hoặc aptomat nhảy khi tủ chạy.
+    - Tiếng va đập kim loại mạnh từ khối máy.
+    - Tủ **ngừng lạnh đột ngột** trong khi đang chứa nhiều hàng.
+
+    Ba dấu hiệu đầu là dấu hiệu nên rút điện trước rồi mới gọi.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh dùng nhiệt kế điện tử đo nhiệt độ thực trong tủ mát tại cửa hàng của khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Năm thông tin: tủ mát cửa kính hay tủ mát quầy, nhiệt độ **thực đo được** kèm thời điểm, tủ có đang chạy không, hàng có chặn cửa gió không, và khu vực đặt tủ có nóng bất thường không. Kỹ thuật viên Ficool tại TP.HCM sẽ khoanh vùng trước khi tới và nói rõ hạng mục cần làm. Nếu tủ đang chứa nhiều hàng, hãy nói ngay để bố trí thứ tự xử lý phù hợp và bàn phương án giữ lạnh tạm.
+
+    Nếu dàn lạnh bám tuyết, đọc <!-- INTERNAL: tủ mát bị đóng tuyết | /tu-mat-bi-dong-tuyet/ -->. Nếu nghi cài đặt chưa đúng, xem <!-- INTERNAL: cách chỉnh nhiệt độ tủ mát | /cach-chinh-nhiet-do-tu-mat/ -->. Nếu cửa không khít, đọc <!-- INTERNAL: gioăng tủ đông bị hở | /gioang-tu-dong-bi-ho/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Tủ mát không lạnh thì kiểm tra gì trước?
+
+    Theo thứ tự nhanh trước: nguồn điện và aptomat, mức cài đặt trên bảng điều khiển, cửa có tự đóng lại không, gioăng cửa bằng phép thử tờ giấy, hàng hoá có chặn cửa gió không, khoảng hở và mức bụi ở dàn nóng, và nhiệt độ khu vực đặt tủ. Song song đó hãy chuyển nhóm hàng dễ hỏng sang chỗ khác.
+
+    ### Nhiệt độ tủ mát nên để bao nhiêu?
+
+    Mốc an toàn cho khoang mát được khuyến cáo là từ 4 độ C trở xuống, và đó là nhiệt độ thực đo bằng nhiệt kế chứ không phải nấc trên bảng điều khiển. Hãy đặt nhiệt kế trong một cốc nước ở giữa khoang, đóng cửa và chờ nhiều giờ rồi đọc.
+
+    ### Vì sao tủ mát chạy nhưng vẫn không đủ lạnh?
+
+    Hai nhóm hay gặp. Nhóm sử dụng: hàng chặn cửa gió ở thành sau, cửa không khít, dàn nóng bám bụi hoặc thiếu khoảng thoáng, và nhiệt độ khu vực đặt tủ vượt khoảng thiết kế. Nhóm hỏng hóc: quạt không quay, dàn lạnh bám tuyết dày, cảm biến sai, hoặc sự cố thuộc hệ thống kín.
+
+    ### Đặt tủ mát ngoài hiên có được không?
+
+    Mỗi model có khoảng nhiệt độ môi trường được thiết kế để làm việc, và đặt tủ ở nơi nóng hơn khoảng đó sẽ làm khả năng làm lạnh giảm. Hiên hứng nắng chiều, chỗ cạnh bếp hoặc góc kín không có luồng khí đi qua đều là những vị trí nên tránh.
+
+    ### Ficool có xử lý tủ mát không lạnh cho cửa hàng tại TP.HCM không?
+
+    Có. Bạn gửi loại tủ, nhiệt độ thực đo được kèm thời điểm, tình trạng máy có chạy không và cách xếp hàng bên trong. Kỹ thuật viên Ficool sẽ khoanh vùng nguyên nhân trước khi tới, nêu hạng mục cần làm và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: 'Tủ mát không lạnh: kiểm tra gì trước khi gọi thợ?'
+    mo_ta: >-
+      Bảy bước kiểm tra ban đầu xếp theo thứ tự nhanh trước, cách đo nhiệt độ
+      thực, và bốn nhóm dấu hiệu cần kỹ thuật viên.
+    slug: tu-mat-khong-lanh
+    tu_khoa_phu:
+    - tủ mát làm lạnh yếu
+    - tủ mát không mát
+    - tủ mát bán hàng không lạnh

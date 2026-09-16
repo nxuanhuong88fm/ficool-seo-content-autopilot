@@ -1,0 +1,148 @@
+chu_de:
+  id: MG-02
+  tieu_de: 'Máy giặt không xả nước: Kiểm tra ống xả, bộ lọc và bơm xả'
+  tu_khoa_chinh: máy giặt không xả nước
+  chuyen_muc: Máy giặt
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Máy giặt không xả nước là lỗi có trình tự kiểm tra rõ ràng vì đường nước ra
+    chỉ đi qua vài điểm cố định: từ lồng giặt xuống bộ lọc bơm xả, qua bơm xả,
+    rồi theo ống xả ra ngoài. Kiểm tra tuần tự theo đúng đường đó sẽ tìm ra chỗ
+    nghẽn mà không cần đoán. Điểm thứ nhất là bộ lọc bơm xả, nơi giữ lại xơ vải,
+    tóc, và các vật nhỏ rơi từ túi quần như đồng xu, kẹp tóc, ghim. Đây là
+    nguyên nhân phổ biến nhất và cũng là điểm người dùng tự xử lý được. Điểm thứ
+    hai là ống xả: bị gập gãy khúc, bị đồ vật đè, bị nghẹt do cặn xà phòng tích
+    tụ, hoặc đầu ống đặt sai độ cao. Nhà sản xuất quy định khoảng độ cao cho đầu
+    ống xả; đặt quá cao thì bơm không đủ sức đẩy, đặt quá thấp lại gây hiện
+    tượng tự chảy khiến nước thoát ra ngay trong lúc giặt. Điểm thứ ba là bơm
+    xả: cánh bơm bị kẹt bởi vật lạ, hoặc động cơ bơm hỏng; dấu hiệu là nghe
+    tiếng ù nhưng nước không xuống. Điểm thứ tư là cảm biến mực nước và bo mạch:
+    máy tưởng đã xả xong dù còn nước, hoặc không kích hoạt bơm. Có một nguyên
+    nhân bên ngoài máy hay bị bỏ sót: đường thoát nước của nhà bị nghẹt, khiến
+    nước không đi được dù máy vẫn bơm bình thường; dấu hiệu là nước trào ngược ở
+    miệng thoát sàn. Về an toàn, luôn rút phích cắm trước khi mở nắp bộ lọc, và
+    chuẩn bị khay hứng vì lượng nước còn trong máy sẽ chảy ra.
+  nguon:
+  - url: https://www.energystar.gov/products/clothes_washers
+    title: ENERGY STAR — Clothes Washers
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ kỹ thuật
+  serp: []
+
+bai_viet:
+  than: |
+    # Máy giặt không xả nước: Kiểm tra ống xả, bộ lọc và bơm xả
+
+    Nước ra khỏi máy giặt chỉ đi qua vài điểm cố định: từ lồng xuống bộ lọc bơm xả, qua bơm, rồi theo ống xả ra ngoài. Kiểm tra tuần tự theo đúng đường đó là tìm được chỗ nghẽn mà không phải đoán. Điểm đầu tiên, bộ lọc bơm xả, cũng là nguyên nhân phổ biến nhất và bạn tự làm được.
+
+    <!-- IMAGE: IMG-001 | Người dùng mở cửa máy giặt cửa trước, nước còn đọng lại trong lồng ngập phần quần áo ướt -->
+
+    ## Đường nước đi qua đâu?
+
+    Bốn điểm, theo đúng thứ tự nước chảy:
+
+    1. **Bộ lọc bơm xả** — nơi giữ xơ vải và vật lạ.
+    2. **Bơm xả** — đẩy nước ra ống.
+    3. **Ống xả** — dẫn nước ra ngoài.
+    4. **Đường thoát của nhà** — nằm ngoài máy, hay bị quên.
+
+    Kiểm từ điểm 1 tới điểm 4. Ba điểm đầu bạn xem được, điểm 4 thì nhìn miệng thoát sàn là biết.
+
+    ## Điểm 1: bộ lọc bơm xả
+
+    Bộ lọc thường nằm sau một nắp nhỏ ở góc dưới mặt trước máy cửa trước. Đây là nơi giữ lại xơ vải, tóc, và mọi thứ rơi ra từ túi quần: đồng xu, kẹp tóc, ghim, cúc áo.
+
+    Cách mở an toàn:
+
+    1. **Rút phích cắm.**
+    2. Chuẩn bị khăn và một khay thấp để hứng. Nước còn trong máy sẽ chảy ra.
+    3. Mở nắp, xoay bộ lọc ngược chiều kim đồng hồ để tháo.
+    4. Lấy hết xơ vải và vật lạ, rửa dưới vòi.
+    5. Lắp lại cho chặt, đóng nắp.
+
+    Nếu nắp lọc quá chặt hoặc bạn không tìm thấy nó trên model của mình, hãy dừng lại thay vì cạy.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh đoạn ống xả sau máy giặt bị gập gãy khúc do máy kê sát tường -->
+
+    ## Điểm 2 và 3: bơm xả và ống xả
+
+    | Dấu hiệu | Nghiêng về | Bạn làm được? |
+    |---|---|---|
+    | Không nghe tiếng bơm chạy | Bơm không được kích hoạt, hoặc bo mạch | Không |
+    | Nghe tiếng ù nhưng nước không xuống | Cánh bơm kẹt vật lạ, hoặc bơm hỏng | Không |
+    | Ống xả gập gãy khúc hoặc bị đè | Cơ học đơn thuần | Được |
+    | Nước chảy chậm, rồi ngừng | Ống nghẹt do cặn xà phòng | Một phần |
+
+    Về độ cao đầu ống xả, nhà sản xuất quy định một khoảng cụ thể cho từng model. Đặt **quá cao** thì bơm không đủ sức đẩy. Đặt **quá thấp** lại gây tự chảy, nước thoát ra ngay trong lúc giặt và máy phải cấp bù liên tục. Hãy kiểm tra lại theo tài liệu của máy bạn.
+
+    ## Điểm 4: đường thoát của nhà
+
+    Nguyên nhân này nằm ngoài máy nên hay bị bỏ sót. Nếu đường thoát nước sàn bị nghẹt, nước không đi được dù bơm vẫn làm đúng việc của nó.
+
+    Dấu hiệu nhận biết rất rõ: **nước trào ngược ở miệng thoát sàn** khi máy đang xả. Trong trường hợp này, sửa máy giặt không giải quyết được gì.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, đặt khay hứng dưới nắp bộ lọc và tháo bộ lọc bơm xả ra -->
+
+    ## Trình tự kiểm tra, sáu bước
+
+    1. Rút phích cắm.
+    2. Nhìn miệng thoát sàn xem có nước trào ngược không.
+    3. Kiểm tra ống xả: có gập, có bị đè, đầu ống đặt đúng độ cao không.
+    4. Mở và vệ sinh bộ lọc bơm xả.
+    5. Cắm điện, chạy riêng chu trình xả và nghe: có tiếng bơm không.
+    6. Đọc mã lỗi nếu màn hình hiển thị, ghi lại nguyên văn.
+
+    Bước 5 là bước phân tách: có tiếng bơm mà nước không xuống khác hẳn với không nghe tiếng bơm nào.
+
+    ## Khi nào cần kỹ thuật viên?
+
+    - Nghe tiếng ù ở bơm nhưng nước không xuống, sau khi đã vệ sinh bộ lọc.
+    - Không nghe tiếng bơm chạy chút nào.
+    - Máy báo mã lỗi lặp lại sau khi đã làm đủ sáu bước.
+    - Có mùi khét khi máy chuyển sang chu trình xả.
+    - Nước rỉ ra sàn quanh chân máy.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh tháo bơm xả khỏi khoang máy giặt để kiểm tra cánh bơm, tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: model máy, mã lỗi nếu có, có nghe tiếng bơm chạy khi chuyển sang chu trình xả không, và bộ lọc sau khi vệ sinh có nhiều vật lạ không. Kỹ thuật viên Ficool tại TP.HCM sẽ định hướng dựa trên đó. Nếu nước trào ngược ở miệng thoát sàn, hãy nói rõ ngay từ đầu vì đó là chuyện đường thoát của nhà chứ không phải của máy.
+
+    Lỗi xả và lỗi vắt hay bị nhầm với nhau, xem thêm <!-- INTERNAL: máy giặt không vắt | /may-giat-khong-vat/ -->. Nếu nước còn rỉ ra sàn, đọc <!-- INTERNAL: máy giặt bị rò nước | /may-giat-bi-ro-nuoc/ -->. Vệ sinh định kỳ giúp giảm cặn tích tụ trong đường xả, xem <!-- INTERNAL: vệ sinh máy giặt tại nhà | /ve-sinh-may-giat-tai-nha/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy giặt không xả nước thì kiểm tra gì đầu tiên?
+
+    Bộ lọc bơm xả, vì đó là nguyên nhân phổ biến nhất và bạn tự làm được. Rút phích cắm, chuẩn bị khay hứng vì nước đọng sẽ chảy ra, rồi tháo bộ lọc và lấy hết xơ vải cùng vật lạ. Sau đó mới kiểm tới ống xả và bơm.
+
+    ### Đầu ống xả máy giặt nên đặt cao bao nhiêu?
+
+    Mỗi model có khoảng độ cao riêng do nhà sản xuất quy định, nên hãy tra tài liệu của máy bạn. Nguyên tắc chung: đặt quá cao thì bơm không đủ sức đẩy, đặt quá thấp thì nước tự chảy ra ngay trong lúc giặt và máy phải cấp bù liên tục.
+
+    ### Nghe tiếng bơm chạy nhưng nước không thoát là bị gì?
+
+    Bơm đang được cấp điện và quay, nhưng dòng nước bị chặn hoặc cánh bơm bị kẹt. Nguyên nhân thường gặp là vật lạ mắc trong cánh bơm hoặc ống xả nghẹt. Nếu đã vệ sinh bộ lọc và nắn thẳng ống mà vẫn vậy, đây là trường hợp cần kỹ thuật viên.
+
+    ### Nước trào ngược ở lỗ thoát sàn khi máy giặt xả thì sao?
+
+    Đó là dấu hiệu đường thoát nước của nhà bị nghẹt, không phải máy giặt hỏng. Máy vẫn bơm bình thường nhưng nước không có chỗ đi. Trường hợp này cần thông đường thoát, và sửa máy giặt sẽ không giải quyết được gì.
+
+    ### Ficool có kiểm tra lỗi xả nước máy giặt tại TP.HCM không?
+
+    Có. Bạn gửi model, mã lỗi, và cho biết có nghe tiếng bơm chạy không cùng tình trạng bộ lọc sau khi vệ sinh. Kỹ thuật viên Ficool sẽ định hướng trước khi tới. Phạm vi công việc và chi phí phụ thuộc loại máy cùng tình trạng thực tế, được thống nhất trước.
+  seo:
+    tieu_de: 'Máy giặt không xả nước: kiểm tra ống xả, bộ lọc và bơm'
+    mo_ta: >-
+      Nước ra khỏi máy giặt chỉ qua bốn điểm. Kiểm tuần tự theo đường nước để
+      tìm chỗ nghẽn, bắt đầu từ bộ lọc bơm xả mà bạn tự làm được.
+    slug: may-giat-khong-xa-nuoc
+    tu_khoa_phu:
+    - máy giặt không thoát nước
+    - máy giặt còn nước trong lồng
+    - vệ sinh bộ lọc bơm xả máy giặt

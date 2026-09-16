@@ -1,0 +1,152 @@
+chu_de:
+  id: TL-16
+  tieu_de: 'Chọn dung tích tủ lạnh cho gia đình: Bao nhiêu lít là phù hợp?'
+  tu_khoa_chinh: chọn dung tích tủ lạnh
+  chuyen_muc: Tủ lạnh
+  the:
+  - Kinh nghiệm hay
+  giai_doan_phieu: F4
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Chọn dung tích tủ lạnh theo số người là cách phổ biến nhưng chỉ là điểm khởi
+    đầu, vì nhu cầu thực tế phụ thuộc thói quen mua sắm và cách nấu ăn nhiều hơn
+    là phụ thuộc số nhân khẩu. Quy tắc kinh nghiệm thường dùng là khoảng 50 tới
+    80 lít cho mỗi người, cộng thêm một khoảng dự phòng; hộ hai người thường
+    nằm trong khoảng 150 tới 250 lít, hộ ba tới bốn người khoảng 250 tới 400
+    lít, hộ năm người trở lên từ 400 lít. Các yếu tố làm tăng nhu cầu: đi chợ
+    hoặc siêu thị theo tuần thay vì mỗi ngày; trữ đông nhiều thịt cá; nấu ăn tại
+    nhà phần lớn các bữa; có trẻ nhỏ cần trữ sữa và đồ ăn dặm; hay tiếp khách và
+    nấu số lượng lớn; và trồng hoặc mua rau củ theo lô. Các yếu tố làm giảm nhu
+    cầu: ăn ngoài thường xuyên; đi chợ mỗi ngày; nhà có tủ đông riêng. Về tỉ lệ
+    giữa hai ngăn, hộ trữ đông nhiều nên ưu tiên model có ngăn đá lớn hoặc kiểu
+    ngăn đá dưới; hộ dùng rau củ nhiều nên ưu tiên ngăn mát lớn với ngăn rau có
+    kiểm soát độ ẩm. Một lưu ý về vận hành thường bị bỏ qua: dung tích ghi trên
+    thông số là dung tích hình học, còn dung tích sử dụng thực tế nhỏ hơn vì
+    khay, ngăn kéo và khoảng lưu thông khí chiếm chỗ; đồng thời tủ nên được lấp
+    đầy khoảng ba phần tư để dòng khí lưu thông, nên khi tính nhu cầu cần trừ
+    hao phần này. Về kích thước ngoài, cần đo cả lối đi và cửa ra vào để bảo
+    đảm đưa được tủ vào vị trí, và cần chừa khoảng hở tản nhiệt theo hướng dẫn.
+  nguon:
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Chọn dung tích tủ lạnh cho gia đình: Bao nhiêu lít là phù hợp?
+
+    Số người chỉ là điểm khởi đầu. Nhu cầu thực tế phụ thuộc thói quen mua sắm và cách nấu ăn nhiều hơn là phụ thuộc số nhân khẩu. Một hộ hai người đi siêu thị mỗi tuần và trữ đông nhiều có thể cần dung tích lớn hơn hộ bốn người ăn ngoài thường xuyên.
+
+    <!-- IMAGE: IMG-001 | Người dùng đứng trong bếp cầm thước dây đo khoảng trống dự kiến kê tủ lạnh cạnh tủ bếp -->
+
+    ## Mức khởi điểm theo số người
+
+    Quy tắc kinh nghiệm thường dùng là khoảng 50 tới 80 lít cho mỗi người, cộng một khoảng dự phòng.
+
+    | Số người | Mức khởi điểm |
+    |---|---|
+    | 1 – 2 người | 150 – 250 lít |
+    | 3 – 4 người | 250 – 400 lít |
+    | 5 người trở lên | Từ 400 lít |
+
+    Đây là **mức khởi điểm**. Bước tiếp theo mới quyết định nên nhích lên hay xuống.
+
+    ## Sáu yếu tố làm tăng nhu cầu
+
+    - **Đi chợ hoặc siêu thị theo tuần** thay vì mỗi ngày.
+    - **Trữ đông nhiều thịt cá.**
+    - **Nấu ăn tại nhà** phần lớn các bữa.
+    - **Có trẻ nhỏ** cần trữ sữa và đồ ăn dặm.
+    - **Hay tiếp khách**, nấu số lượng lớn.
+    - **Mua rau củ theo lô.**
+
+    Ngược lại, ba yếu tố làm **giảm** nhu cầu: ăn ngoài thường xuyên, đi chợ mỗi ngày, và nhà đã có tủ đông riêng.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh bên trong ngăn mát tủ lạnh xếp gọn khoảng ba phần tư, còn khoảng trống cho khí lưu thông -->
+
+    ## Dung tích ghi trên thông số không phải dung tích dùng được
+
+    Đây là điều hay gây hụt hẫng sau khi mua.
+
+    Con số trên thông số là **dung tích hình học**. Dung tích sử dụng thực tế nhỏ hơn vì:
+
+    - Khay, kệ và ngăn kéo chiếm chỗ.
+    - Cần chừa khoảng lưu thông khí.
+    - Tủ nên chỉ lấp đầy **khoảng ba phần tư** để dòng khí đi được.
+
+    Nghĩa là khi tính nhu cầu, nên trừ hao phần này thay vì lấy đúng con số ghi trên tem.
+
+    ## Tỉ lệ giữa hai ngăn
+
+    Cùng một tổng dung tích, các model chia rất khác nhau giữa ngăn mát và ngăn đá.
+
+    - **Trữ đông nhiều** → ưu tiên model có ngăn đá lớn, hoặc kiểu ngăn đá đặt dưới.
+    - **Dùng rau củ nhiều** → ưu tiên ngăn mát lớn, có ngăn rau kiểm soát độ ẩm.
+    - **Cân bằng cả hai** → xem tỉ lệ chia trên thông số, đừng chỉ nhìn tổng lít.
+
+    Kiểu ngăn đá đặt dưới cũng đáng cân nhắc theo thói quen: ngăn mát ở tầm mắt thuận tiện hơn nếu bạn mở ngăn mát nhiều lần mỗi ngày.
+
+    ## Đừng quên đo lối vào
+
+    Một chiếc tủ đúng dung tích nhưng không đưa được vào bếp là chuyện có thật.
+
+    Trước khi chốt, đo bốn thứ:
+
+    1. **Chỗ đặt tủ** — rộng, sâu, cao.
+    2. **Khoảng hở tản nhiệt** cần chừa thêm ở lưng, hai bên và phía trên.
+    3. **Lối đi và cửa ra vào** — cả chiều rộng lẫn khúc cua.
+    4. **Khoảng trống mở cửa** — đủ để rút khay và ngăn kéo ra hoàn toàn.
+
+    Điểm 4 hay bị quên và nó ảnh hưởng tới việc vệ sinh về sau.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đo chiều rộng khung cửa bếp bằng thước dây trước khi đưa tủ lạnh vào -->
+
+    ## Chọn thừa dung tích có sao không?
+
+    Tủ lớn hơn nhu cầu tiêu thụ nhiều điện hơn tủ nhỏ cùng công nghệ, và nó chiếm chỗ. Nhưng tủ quá nhỏ so với nhu cầu cũng có vấn đề riêng: bạn sẽ nhồi chặt, khí không lưu thông, và xuất hiện vùng ấm cục bộ.
+
+    Nếu phân vân giữa hai mức, hãy nghĩ tới thói quen mua sắm trong **hai năm tới** chứ không phải hôm nay: gia đình sắp có thêm người, hay các con sắp ra ở riêng.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh tư vấn cho khách bên cạnh tủ lạnh mới còn bọc nilon đặt trong bếp -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: số người trong nhà, tần suất đi chợ, có trữ đông nhiều không, và kích thước chỗ đặt cùng lối đi. Ficool tại TP.HCM sẽ tư vấn khoảng dung tích và tỉ lệ hai ngăn phù hợp. Nếu cần lắp đặt hoặc di dời tủ cũ, hãy yêu cầu khảo sát vị trí trước.
+
+    Chỗ đặt cũng quan trọng ngang dung tích, xem <!-- INTERNAL: vị trí đặt tủ lạnh | /vi-tri-dat-tu-lanh/ -->. Nếu phải chuyển tủ cũ đi, đọc <!-- INTERNAL: vận chuyển tủ lạnh | /van-chuyen-tu-lanh/ -->. Sau khi lắp xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu tủ lạnh | /checklist-nghiem-thu-tu-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Gia đình 4 người nên mua tủ lạnh bao nhiêu lít?
+
+    Mức khởi điểm là khoảng 250 tới 400 lít. Nhưng hãy điều chỉnh theo thói quen: nếu đi siêu thị theo tuần, trữ đông nhiều hoặc nấu ăn tại nhà phần lớn các bữa thì nên nhích lên mức cao trong khoảng đó, hoặc cao hơn.
+
+    ### Dung tích ghi trên tủ lạnh có phải dung tích dùng được không?
+
+    Không. Con số trên thông số là dung tích hình học, còn dung tích sử dụng thực tế nhỏ hơn vì khay, kệ và ngăn kéo chiếm chỗ. Ngoài ra tủ nên chỉ lấp đầy khoảng ba phần tư để không khí lưu thông, nên cần trừ hao thêm phần này.
+
+    ### Nên chọn ngăn đá trên hay ngăn đá dưới?
+
+    Tuỳ thói quen. Ngăn đá dưới đặt ngăn mát ở tầm mắt, thuận tiện nếu bạn mở ngăn mát nhiều lần mỗi ngày. Ngăn đá trên thuận hơn nếu bạn lấy đồ đông thường xuyên. Về dung tích, hãy xem tỉ lệ chia giữa hai ngăn chứ đừng chỉ nhìn tổng lít.
+
+    ### Mua tủ lạnh lớn hơn nhu cầu có tốn điện không?
+
+    Có, tủ lớn hơn tiêu thụ nhiều điện hơn tủ nhỏ cùng công nghệ. Nhưng tủ quá nhỏ so với nhu cầu cũng có vấn đề: bạn sẽ nhồi chặt, khí không lưu thông và xuất hiện vùng ấm cục bộ. Nên chọn theo nhu cầu thực trong khoảng hai năm tới.
+
+    ### Ficool có tư vấn chọn và lắp đặt tủ lạnh tại TP.HCM không?
+
+    Có. Bạn gửi số người trong nhà, tần suất đi chợ, nhu cầu trữ đông, cùng kích thước chỗ đặt và lối đi. Ficool sẽ tư vấn khoảng dung tích và tỉ lệ hai ngăn phù hợp, và khảo sát vị trí trước nếu cần lắp đặt hoặc di dời tủ cũ.
+  seo:
+    tieu_de: Chọn dung tích tủ lạnh bao nhiêu lít cho gia đình?
+    mo_ta: >-
+      Số người chỉ là điểm khởi đầu. Sáu yếu tố làm tăng nhu cầu, vì sao dung
+      tích ghi trên tem không phải dung tích dùng được, và bốn thứ cần đo.
+    slug: chon-dung-tich-tu-lanh
+    tu_khoa_phu:
+    - tủ lạnh bao nhiêu lít
+    - dung tích tủ lạnh cho 4 người
+    - chọn tủ lạnh cho gia đình

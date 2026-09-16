@@ -2,15 +2,44 @@ name: Validate
 on:
   push:
   pull_request:
+
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # 3.11 là bản cron dùng. 3.13 để bắt cú pháp chỉ hợp lệ ở một phía —
+        # f-string lồng nháy cùng loại hợp lệ từ 3.12 (PEP 701), SyntaxError ở 3.11.
+        python-version: ['3.11', '3.13']
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-      - run: python scripts/validate_repo.py
-      - run: python scripts/ficool.py demo "máy lạnh bị chảy nước"
-      - run: pip install pytest
-      - run: pytest -q
+          python-version: ${{ matrix.python-version }}
+
+      # Bước này thiếu ở bản cũ, và nó chính là bước hỏng: `pip install -e .`
+      # thất bại vì pyproject không khai packages (flat-layout nhiều gói cấp cao).
+      - name: Cài như production cài
+        run: pip install -e . pytest
+
+      # Phép đo QUAN TRỌNG NHẤT. Bản cũ chỉ kiểm file có TỒN TẠI, nên pipeline/
+      # đứt 7 chỗ mà cổng vẫn xanh. Một dòng import là đủ bắt hết.
+      - name: Đường production phải import được
+        run: |
+          python -c "import pipeline.run, pipeline.cli, pipeline.chon"
+          python -c "import connectors.gsc, connectors.wordpress, connectors.image_provider"
+
+      - name: Kiểm kho
+        run: python scripts/validate_repo.py
+
+      - name: Chạy khô toàn tuyến (không mạng, không khoá)
+        run: python scripts/ficool.py demo "máy lạnh bị chảy nước"
+
+      - name: Lệnh README hứa thì phải chạy được
+        run: |
+          python scripts/ficool.py topics --category ML
+          python scripts/ficool.py show ML-01
+
+      - name: pytest
+        run: pytest -q

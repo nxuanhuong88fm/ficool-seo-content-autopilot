@@ -1,0 +1,78 @@
+{
+  "run_id": "ML-01-81f1dbc2",
+  "topic_id": "ML-02",
+  "topic": "Máy lạnh chảy nước trong nhà",
+  "category": "Máy lạnh",
+  "slug": "may-lanh-chay-nuoc-trong-nha",
+  "wp_slug": null,
+  "wp_post_id": 383,
+  "wp_status": "draft",
+  "wp_link": "https://ficool.top/?p=383",
+  "qa": {
+    "status": "PASS",
+    "overall": 100,
+    "checks": {
+      "h1_duy_nhat": true,
+      "phu_tu_khoa": true,
+      "faq": true,
+      "khong_khang_dinh_cam": true,
+      "anh_du_va_co_alt": true,
+      "anh_da_chen": true,
+      "co_nguon": true,
+      "boi_canh_dia_phuong": true,
+      "lien_ket_noi_bo": true,
+      "khong_con_chu_thich_tho": true,
+      "khong_lo_duong_dan_may": true,
+      "do_dai_title": true,
+      "do_dai_meta": true,
+      "du_dai_bai": true,
+      "tra_loi_som": true,
+      "cau_du_ngan": true,
+      "tieu_de_dang_cau_hoi": true,
+      "faq_du_cap": true,
+      "faq_tu_chua": true,
+      "thuc_the_ro_rang": true,
+      "co_dinh_dang_trich_duoc": true,
+      "co_schema": true,
+      "khong_trung_rank_math": true
+    },
+    "blockers": [],
+    "chi_tiet": {
+      "do_phu_tu_khoa": 1.0,
+      "so_tu": 1346,
+      "vi_pham_luat_cam": [],
+      "so_h1": 1
+    },
+    "schema": {
+      "types": [
+        "FAQPage"
+      ],
+      "faq": 5,
+      "buoc": 6
+    }
+  },
+  "media_ids": [
+    384,
+    385,
+    386,
+    387
+  ],
+  "created_at": "2026-09-09T07:38:58.436713+00:00",
+  "dang_luc": "2026-09-09T07:50:05.110826+00:00",
+  "media_ids_jpg_cu": [
+    379,
+    380,
+    381,
+    382
+  ],
+  "og_media_id": 388,
+  "anh": {
+    "dinh_dang": "image/webp",
+    "chat_luong": 85,
+    "sua_tai_cho": "2026-09-09",
+    "ghi_chu": "4 anh JPEG doi sang WebP ngay tren server (GD), them ban og 1200x630. The <img> co class wp-image + sizes; anh dau eager. 4 attachment JPEG cu (379-382) GIU LAI, chua xoa."
+  },
+  "topic_id_ban_do_cu": "ML-01",
+  "phien_ban_ban_do": "funnel-map-v2+c7e2ae283573",
+  "ghi_chu_ban_do": "Bai nay viet theo hat giong cu, luc do mang ma ML-01. Duoi ban do funnel v2 no la ML-02 (\"May lanh chay nuoc\"), con ML-02 cua ban do moi la mot chu de KHAC (\"May lanh khong lanh\"). Doi topic_id o day de chong trung khong bo sot ML-01 moi va khong viet lai ML-02. Tieu de, slug, tu khoa va CTA cua bai VAN CHUA khop dac ta ML-02 — viec doi chieu rieng."
+}

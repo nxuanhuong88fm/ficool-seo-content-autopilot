@@ -1,0 +1,162 @@
+chu_de:
+  id: MN-16
+  tieu_de: Cách chọn dung tích bình nóng lạnh theo số người và thói quen sử dụng
+  tu_khoa_chinh: chọn dung tích bình nóng lạnh
+  chuyen_muc: Máy nước nóng
+  the:
+  - Kinh nghiệm hay
+  giai_doan_phieu: F4
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Chọn dung tích bình nóng lạnh theo số người là cách phổ biến nhưng chỉ là
+    điểm khởi đầu, vì lượng nước nóng thực sự dùng phụ thuộc thói quen tắm và
+    thời điểm dùng nhiều hơn là phụ thuộc số nhân khẩu. Yếu tố quyết định thường
+    bị bỏ qua là mọi người có tắm liên tiếp trong cùng một khung giờ hay rải ra
+    trong ngày: bình chứa cần thời gian để đun lại phần nước đã dùng, nên hai hộ
+    cùng số người nhưng khác nhịp sinh hoạt sẽ cần dung tích khác nhau. Một điểm
+    kỹ thuật quan trọng là lượng nước ấm dùng được lớn hơn dung tích ghi trên
+    bình, vì nước nóng trong bình được pha với nước lạnh tại vòi để đạt nhiệt độ
+    tắm; đổi lại, phần nước lạnh cấp vào bình trong lúc dùng làm nhiệt độ trong
+    bình giảm dần, nên phần cuối luôn mát hơn phần đầu. Về kiểu thiết bị, bình
+    chứa phù hợp với nhà cần nhiều nước nóng trong thời gian ngắn, còn máy làm
+    nóng trực tiếp không trữ nước nên cấp nóng không giới hạn thời gian nhưng
+    phụ thuộc lưu lượng và có công suất tức thời cao hơn, kéo theo yêu cầu nặng
+    hơn về dây dẫn và thiết bị bảo vệ. Ngoài nhu cầu còn có ràng buộc lắp đặt:
+    bình dung tích lớn nặng hơn khi đầy nước nên đòi tường chịu lực tốt hơn và
+    chiếm nhiều chỗ hơn trên tường phòng tắm. Về vận hành, bình lớn hơn mức cần
+    làm tăng thất thoát nhiệt do phải giữ ấm một lượng nước không dùng tới, nên
+    chọn thừa cũng có cái giá của nó.
+  nguon:
+  - url: https://www.energy.gov/energysaver/storage-water-heaters
+    title: U.S. Department of Energy — Storage Water Heaters
+  - url: https://www.energy.gov/energysaver/water-heating
+    title: U.S. Department of Energy — Water Heating
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ sản phẩm
+  serp: []
+
+bai_viet:
+  than: |
+    # Cách chọn dung tích bình nóng lạnh theo số người và thói quen sử dụng
+
+    Số người chỉ là điểm khởi đầu. Yếu tố quyết định thật sự là **mọi người tắm rải ra hay tắm dồn vào một khung giờ** — vì bình chứa cần thời gian đun lại phần nước vừa dùng.
+
+    <!-- IMAGE: IMG-001 | Người dùng đứng trong phòng tắm nhìn lên khoảng tường dự kiến treo bình nóng lạnh, tay cầm thước dây -->
+
+    ## Mức khởi điểm theo số người
+
+    | Số người | Mức khởi điểm |
+    |---|---|
+    | 1 – 2 người | Dung tích nhỏ |
+    | 3 – 4 người | Dung tích trung bình |
+    | 5 người trở lên | Dung tích lớn, hoặc chia hai bình cho hai khu vực |
+
+    Bảng này cố tình không ghi con số lít cụ thể, vì con số đó chỉ có nghĩa sau khi trả lời được câu hỏi ở mục kế tiếp.
+
+    ## Câu hỏi quyết định: tắm dồn hay tắm rải?
+
+    Hai hộ cùng bốn người có thể cần dung tích khác hẳn nhau:
+
+    - **Tắm rải ra trong ngày** — bình có thời gian đun lại giữa các lượt. Dung tích vừa phải là đủ.
+    - **Tắm liên tiếp trong cùng một khung giờ** — bình phải cấp đủ cho cả nhóm mà chỉ kịp đun lại rất ít. Cần dung tích lớn hơn hẳn.
+
+    Đây là câu hỏi đáng trả lời trước khi nhìn bảng thông số, và nó cũng giải thích vì sao "nhà em bốn người thì mua bao nhiêu lít" không có một đáp án.
+
+    ## Dung tích ghi trên bình không phải lượng nước tắm được
+
+    Có hai hiệu ứng ngược chiều nhau, và biết cả hai thì ước lượng sát hơn.
+
+    **Làm lượng dùng được NHIỀU hơn dung tích:** nước nóng trong bình được **pha với nước lạnh tại vòi** để đạt nhiệt độ tắm. Nên một bình cỡ nhỏ vẫn cho ra nhiều nước ấm hơn con số ghi trên vỏ.
+
+    **Làm phần cuối MÁT hơn phần đầu:** trong lúc bạn dùng, nước lạnh cấp vào bình để bù chỗ, nên nhiệt độ trong bình giảm dần. Người tắm cuối luôn gặp nước mát hơn người tắm đầu.
+
+    Hiệu ứng thứ hai là thứ khiến "bình vẫn đủ" trên giấy nhưng "không đủ" trong thực tế.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh bảng thông số dán trên vỏ bình nóng lạnh, dòng ghi dung tích và công suất -->
+
+    ## Sáu yếu tố làm tăng nhu cầu
+
+    - **Tắm dồn** trong một khung giờ.
+    - **Tắm vòi sen lâu**, hoặc dùng vòi sen lưu lượng lớn.
+    - **Có bồn tắm.**
+    - **Nhiều điểm dùng** cùng lúc: phòng tắm và bồn rửa bếp.
+    - **Nhà có trẻ nhỏ**, tắm nhiều lần trong ngày.
+    - **Mùa lạnh**, vì nước cấp vào lạnh hơn nên tỉ lệ pha nước lạnh tại vòi giảm.
+
+    Càng nhiều dòng đúng với nhà bạn, càng nên nhích lên mức trên.
+
+    ## Chọn thừa cũng có giá của nó
+
+    Bình lớn hơn mức cần phải **giữ ấm một lượng nước không dùng tới**, và phần thất thoát nhiệt đó lặp lại mỗi ngày.
+
+    Ngoài ra:
+
+    - Bình lớn **nặng hơn khi đầy nước**, đòi tường chịu lực tốt hơn.
+    - Chiếm nhiều chỗ hơn trên tường phòng tắm.
+    - Cần khoảng thao tác lớn hơn cho lần bảo trì sau.
+
+    Nói cách khác, "mua dư cho chắc" không miễn phí như nghe qua.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đo khoảng tường và khoảng trần còn lại phía trên vị trí dự kiến treo bình -->
+
+    ## Bình chứa hay máy làm nóng trực tiếp?
+
+    | | Bình chứa | Máy làm nóng trực tiếp |
+    |---|---|---|
+    | Lượng nước nóng | Giới hạn bởi dung tích, cần thời gian đun lại | Không giới hạn thời gian |
+    | Phụ thuộc | Dung tích và nhịp sử dụng | **Lưu lượng nước** |
+    | Yêu cầu điện | Nhẹ hơn | Công suất tức thời cao hơn, dây và bảo vệ nặng hơn |
+    | Chỗ đặt | Cần tường chịu lực | Gọn hơn |
+    | Hợp với | Nhà cần nhiều nước nóng trong thời gian ngắn | Nhà một điểm dùng, áp lực nước đủ |
+
+    Dòng "phụ thuộc" là dòng quyết định: nhà nước yếu thì máy trực tiếp có thể **không kích hoạt**, và lúc đó dung tích không còn là câu hỏi.
+
+    ## Ba thứ nên đo trước khi chốt
+
+    1. **Khoảng tường** còn trống: rộng, cao, và loại tường.
+    2. **Khoảng thao tác** phía trước và phía dưới, để lần bảo trì sau rút được thanh đốt.
+    3. **Nguồn điện** tại vị trí đó: có nguồn riêng, tiếp địa và thiết bị chống dòng rò chưa.
+
+    Mục 2 hay bị quên, và nó biến mọi lần vệ sinh về sau thành việc tốn thêm công tháo dỡ.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh tư vấn cho khách trong phòng tắm bên cạnh hai mẫu bình nóng lạnh khác dung tích -->
+
+    ## Gửi gì cho Ficool?
+
+    Năm thông tin: số người trong nhà, mọi người tắm dồn hay rải ra trong ngày, có bồn tắm không, số điểm dùng nước nóng, và khoảng tường cùng loại tường tại vị trí dự kiến. Ficool tại TP.HCM sẽ tư vấn khoảng dung tích và kiểu thiết bị phù hợp, và khảo sát vị trí trước nếu cần lắp đặt. Nếu nhà bạn nước yếu, hãy nói luôn — nó ảnh hưởng tới việc chọn kiểu máy nhiều hơn chọn dung tích.
+
+    Về điều kiện lắp đặt, đọc <!-- INTERNAL: lắp đặt máy nước nóng | /lap-dat-may-nuoc-nong/ -->. Nếu nhà nước yếu, xem <!-- INTERNAL: máy nước nóng có bơm trợ lực | /may-nuoc-nong-co-bom-tro-luc/ -->. Muốn biết chi phí sửa chữa về sau gồm những phần nào, đọc <!-- INTERNAL: giá sửa máy nước nóng | /gia-sua-may-nuoc-nong/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Gia đình 4 người nên dùng bình nóng lạnh bao nhiêu lít?
+
+    Số người chỉ là điểm khởi đầu. Câu hỏi quyết định là mọi người tắm dồn vào một khung giờ hay rải ra trong ngày, vì bình chứa cần thời gian đun lại phần nước vừa dùng. Hai hộ cùng bốn người nhưng khác nhịp sinh hoạt sẽ cần dung tích khác hẳn nhau.
+
+    ### Vì sao người tắm sau luôn thấy nước mát hơn?
+
+    Vì trong lúc dùng, nước lạnh được cấp vào bình để bù chỗ nước nóng đã ra, nên nhiệt độ trong bình giảm dần. Đây là hiệu ứng khiến một bình "vừa đủ" trên giấy lại không đủ trong thực tế khi cả nhà tắm liên tiếp.
+
+    ### Bình nóng lạnh có cho ra nhiều nước ấm hơn dung tích của nó không?
+
+    Có. Nước nóng trong bình được pha với nước lạnh tại vòi để đạt nhiệt độ tắm, nên lượng nước ấm dùng được lớn hơn con số ghi trên vỏ. Nhưng cùng lúc đó nhiệt độ trong bình giảm dần, nên hai hiệu ứng này ngược chiều nhau.
+
+    ### Mua bình dung tích lớn hơn nhu cầu có sao không?
+
+    Có cái giá của nó. Bình lớn phải giữ ấm một lượng nước không dùng tới nên thất thoát nhiệt lặp lại mỗi ngày; nó cũng nặng hơn khi đầy nước nên đòi tường chịu lực tốt hơn, chiếm nhiều chỗ hơn và cần khoảng thao tác lớn hơn cho bảo trì.
+
+    ### Ficool có tư vấn chọn và lắp bình nóng lạnh tại TP.HCM không?
+
+    Có. Bạn gửi số người, nhịp tắm dồn hay rải, có bồn tắm không, số điểm dùng và khoảng tường cùng loại tường. Ficool sẽ tư vấn khoảng dung tích và kiểu thiết bị, khảo sát vị trí trước khi lắp, và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Chọn dung tích bình nóng lạnh bao nhiêu là đủ?
+    mo_ta: >-
+      Tắm dồn hay tắm rải quyết định nhiều hơn số người. Hai hiệu ứng ngược chiều
+      của dung tích, và ba thứ nên đo trước khi chốt.
+    slug: chon-dung-tich-binh-nong-lanh
+    tu_khoa_phu:
+    - bình nóng lạnh bao nhiêu lít
+    - chọn dung tích theo số người
+    - bình nóng lạnh cho gia đình

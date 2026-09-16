@@ -1,0 +1,342 @@
+{
+ "may-giat-khong-vat": [
+  "Lỗi thường gặp"
+ ],
+ "may-giat-khong-xa-nuoc": [
+  "Lỗi thường gặp"
+ ],
+ "may-giat-khong-cap-nuoc": [
+  "Lỗi thường gặp"
+ ],
+ "may-giat-rung-lac-manh": [
+  "Lỗi thường gặp"
+ ],
+ "may-giat-bi-ro-nuoc": [
+  "Lỗi thường gặp"
+ ],
+ "may-giat-khong-mo-duoc-cua": [
+  "Lỗi thường gặp"
+ ],
+ "quan-ao-giat-xong-co-mui-hoi": [
+  "Lỗi thường gặp",
+  "Vệ sinh"
+ ],
+ "ve-sinh-may-giat-tai-nha": [
+  "Vệ sinh"
+ ],
+ "ve-sinh-gioang-cao-su-may-giat": [
+  "Vệ sinh"
+ ],
+ "ve-sinh-bo-loc-may-giat": [
+  "Vệ sinh"
+ ],
+ "bao-lau-ve-sinh-may-giat": [
+  "Vệ sinh",
+  "Kinh nghiệm hay"
+ ],
+ "bao-tri-may-giat": [
+  "Bảo trì"
+ ],
+ "lap-dat-may-giat": [
+  "Lắp đặt"
+ ],
+ "van-chuyen-may-giat": [
+  "Lắp đặt"
+ ],
+ "checklist-nghiem-thu-may-giat": [
+  "Kinh nghiệm hay"
+ ],
+ "gia-sua-may-giat": [
+  "Kinh nghiệm hay",
+  "Lỗi thường gặp"
+ ],
+ "ma-loi-may-giat-samsung": [
+  "Lỗi thường gặp"
+ ],
+ "may-giat-nen-sua-hay-thay-moi": [
+  "Kinh nghiệm hay"
+ ],
+ "may-lanh-khong-lanh": [
+  "Lỗi thường gặp"
+ ],
+ "may-lanh-co-mui-hoi": [
+  "Lỗi thường gặp"
+ ],
+ "may-lanh-keu-to": [
+  "Lỗi thường gặp"
+ ],
+ "may-lanh-tu-tat": [
+  "Lỗi thường gặp"
+ ],
+ "remote-may-lanh-khong-dieu-khien-duoc": [
+  "Lỗi thường gặp"
+ ],
+ "ve-sinh-may-lanh-tai-nha": [
+  "Vệ sinh"
+ ],
+ "bao-lau-ve-sinh-may-lanh": [
+  "Vệ sinh"
+ ],
+ "gia-ve-sinh-may-lanh": [
+  "Kinh nghiệm hay"
+ ],
+ "bao-tri-may-lanh": [
+  "Bảo trì"
+ ],
+ "may-lanh-lau-ngay-khong-su-dung": [
+  "Bảo trì",
+  "Kinh nghiệm hay"
+ ],
+ "may-lanh-co-can-nap-gas-dinh-ky": [
+  "Bảo trì",
+  "Lỗi thường gặp"
+ ],
+ "vi-tri-lap-may-lanh": [
+  "Lắp đặt"
+ ],
+ "di-doi-may-lanh": [
+  "Lắp đặt"
+ ],
+ "lap-may-lanh-co-can-hut-chan-khong": [
+  "Lắp đặt"
+ ],
+ "checklist-nghiem-thu-may-lanh": [
+  "Kinh nghiệm hay"
+ ],
+ "chon-cong-suat-may-lanh": [
+  "Kinh nghiệm hay"
+ ],
+ "may-lanh-nen-sua-hay-thay-moi": [
+  "Kinh nghiệm hay"
+ ],
+ "may-nuoc-nong-khong-nong": [
+  "Lỗi thường gặp"
+ ],
+ "may-nuoc-nong-nong-cham": [
+  "Lỗi thường gặp"
+ ],
+ "may-nuoc-nong-bi-ro-nuoc": [
+  "Lỗi thường gặp"
+ ],
+ "may-nuoc-nong-bi-ro-dien": [
+  "Lỗi thường gặp"
+ ],
+ "elcb-may-nuoc-nong-bi-nhay": [
+  "Lỗi thường gặp"
+ ],
+ "may-nuoc-nong-ra-nuoc-yeu": [
+  "Lỗi thường gặp"
+ ],
+ "ve-sinh-voi-sen-may-nuoc-nong": [
+  "Vệ sinh"
+ ],
+ "suc-can-binh-nong-lanh": [
+  "Vệ sinh"
+ ],
+ "bao-lau-ve-sinh-may-nuoc-nong": [
+  "Vệ sinh",
+  "Kinh nghiệm hay"
+ ],
+ "bao-tri-may-nuoc-nong": [
+  "Bảo trì"
+ ],
+ "thanh-magie-binh-nong-lanh": [
+  "Bảo trì"
+ ],
+ "lap-dat-may-nuoc-nong": [
+  "Lắp đặt"
+ ],
+ "may-nuoc-nong-co-bom-tro-luc": [
+  "Lắp đặt",
+  "Kinh nghiệm hay"
+ ],
+ "di-doi-may-nuoc-nong": [
+  "Lắp đặt"
+ ],
+ "gia-sua-may-nuoc-nong": [
+  "Kinh nghiệm hay",
+  "Lỗi thường gặp"
+ ],
+ "chon-dung-tich-binh-nong-lanh": [
+  "Kinh nghiệm hay"
+ ],
+ "checklist-nghiem-thu-may-nuoc-nong": [
+  "Kinh nghiệm hay"
+ ],
+ "may-nuoc-nong-lau-ngay-khong-dung": [
+  "Bảo trì",
+  "Kinh nghiệm hay"
+ ],
+ "tu-dong-khong-dong-da": [
+  "Lỗi thường gặp"
+ ],
+ "tu-dong-dong-tuyet-day": [
+  "Lỗi thường gặp",
+  "Vệ sinh"
+ ],
+ "cach-xa-tuyet-tu-dong": [
+  "Vệ sinh"
+ ],
+ "tu-dong-co-mui-hoi": [
+  "Vệ sinh",
+  "Lỗi thường gặp"
+ ],
+ "tu-dong-chay-lien-tuc": [
+  "Lỗi thường gặp"
+ ],
+ "tu-dong-chay-nuoc": [
+  "Lỗi thường gặp"
+ ],
+ "gioang-tu-dong-bi-ho": [
+  "Bảo trì",
+  "Lỗi thường gặp"
+ ],
+ "tu-mat-khong-lanh": [
+  "Lỗi thường gặp"
+ ],
+ "tu-mat-bi-dong-tuyet": [
+  "Lỗi thường gặp"
+ ],
+ "cach-ve-sinh-tu-mat": [
+  "Vệ sinh"
+ ],
+ "bao-tri-tu-mat-tu-dong": [
+  "Bảo trì"
+ ],
+ "lap-dat-tu-dong": [
+  "Lắp đặt"
+ ],
+ "van-chuyen-tu-dong": [
+  "Lắp đặt"
+ ],
+ "cach-chinh-nhiet-do-tu-dong": [
+  "Kinh nghiệm hay"
+ ],
+ "cach-chinh-nhiet-do-tu-mat": [
+  "Kinh nghiệm hay"
+ ],
+ "checklist-nghiem-thu-tu-mat-tu-dong": [
+  "Kinh nghiệm hay"
+ ],
+ "tu-dong-dung-hay-tu-dong-nam": [
+  "Kinh nghiệm hay"
+ ],
+ "gia-sua-tu-mat-tu-dong": [
+  "Kinh nghiệm hay",
+  "Lỗi thường gặp"
+ ],
+ "may-say-quan-ao-khong-kho": [
+  "Lỗi thường gặp"
+ ],
+ "may-say-quan-ao-khong-nong": [
+  "Lỗi thường gặp"
+ ],
+ "may-say-quan-ao-keu-to": [
+  "Lỗi thường gặp"
+ ],
+ "cach-ve-sinh-may-say-quan-ao": [
+  "Vệ sinh"
+ ],
+ "ve-sinh-ong-thoat-khi-may-say": [
+  "Vệ sinh"
+ ],
+ "bao-tri-may-say-quan-ao": [
+  "Bảo trì"
+ ],
+ "lap-dat-may-say-quan-ao": [
+  "Lắp đặt"
+ ],
+ "dat-may-say-chong-may-giat": [
+  "Lắp đặt"
+ ],
+ "so-sanh-cac-loai-may-say-quan-ao": [
+  "Kinh nghiệm hay"
+ ],
+ "quat-dieu-hoa-khong-mat": [
+  "Lỗi thường gặp"
+ ],
+ "quat-dieu-hoa-khong-bom-nuoc": [
+  "Lỗi thường gặp"
+ ],
+ "quat-dieu-hoa-co-mui-hoi": [
+  "Lỗi thường gặp",
+  "Vệ sinh"
+ ],
+ "cach-ve-sinh-quat-dieu-hoa": [
+  "Vệ sinh"
+ ],
+ "khi-nao-thay-tam-lam-mat-quat-dieu-hoa": [
+  "Bảo trì",
+  "Vệ sinh"
+ ],
+ "bao-tri-quat-dieu-hoa": [
+  "Bảo trì"
+ ],
+ "gia-sua-quat-dieu-hoa": [
+  "Kinh nghiệm hay",
+  "Lỗi thường gặp"
+ ],
+ "checklist-nghiem-thu-may-say-quat-dieu-hoa": [
+  "Kinh nghiệm hay"
+ ],
+ "chon-quat-dieu-hoa-cho-gia-dinh": [
+  "Kinh nghiệm hay"
+ ],
+ "tu-lanh-khong-lanh": [
+  "Lỗi thường gặp"
+ ],
+ "ngan-mat-tu-lanh-khong-lanh": [
+  "Lỗi thường gặp"
+ ],
+ "tu-lanh-dong-tuyet": [
+  "Lỗi thường gặp"
+ ],
+ "tu-lanh-chay-nuoc": [
+  "Lỗi thường gặp"
+ ],
+ "tu-lanh-keu-to": [
+  "Lỗi thường gặp"
+ ],
+ "tu-lanh-chay-lien-tuc": [
+  "Lỗi thường gặp"
+ ],
+ "tu-lanh-nong-hai-ben": [
+  "Lỗi thường gặp"
+ ],
+ "cach-ve-sinh-tu-lanh": [
+  "Vệ sinh"
+ ],
+ "tu-lanh-co-mui-hoi": [
+  "Vệ sinh",
+  "Lỗi thường gặp"
+ ],
+ "gioang-tu-lanh-bi-ho": [
+  "Bảo trì",
+  "Lỗi thường gặp"
+ ],
+ "bao-tri-tu-lanh": [
+  "Bảo trì"
+ ],
+ "vi-tri-dat-tu-lanh": [
+  "Lắp đặt"
+ ],
+ "van-chuyen-tu-lanh": [
+  "Lắp đặt"
+ ],
+ "cach-chinh-nhiet-do-tu-lanh": [
+  "Kinh nghiệm hay"
+ ],
+ "checklist-nghiem-thu-tu-lanh": [
+  "Kinh nghiệm hay"
+ ],
+ "chon-dung-tich-tu-lanh": [
+  "Kinh nghiệm hay"
+ ],
+ "tu-lanh-nen-sua-hay-thay-moi": [
+  "Kinh nghiệm hay"
+ ],
+ "gia-sua-tu-lanh": [
+  "Kinh nghiệm hay",
+  "Lỗi thường gặp"
+ ]
+}

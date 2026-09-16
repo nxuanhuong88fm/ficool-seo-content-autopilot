@@ -1,0 +1,150 @@
+chu_de:
+  id: TK-10
+  tieu_de: 'Quạt điều hòa không mát: Nguyên nhân và cách kiểm tra ban đầu'
+  tu_khoa_chinh: quạt điều hòa không mát
+  chuyen_muc: Thiết bị khác
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Quạt điều hòa, còn gọi là quạt hơi nước hay máy làm mát bay hơi, hạ nhiệt độ
+    bằng cách cho không khí đi qua một tấm vật liệu thấm nước; nước bay hơi và
+    lấy nhiệt từ dòng khí đó. Nguyên lý này dẫn tới một hệ quả quyết định mà
+    người dùng thường không biết: hiệu quả phụ thuộc trực tiếp vào độ ẩm của
+    không khí. Không khí càng khô thì nước bay hơi càng nhiều và độ hạ nhiệt
+    càng rõ; không khí đã bão hoà ẩm thì nước gần như không bay hơi được và
+    thiết bị chỉ còn là một chiếc quạt thổi khí ẩm. Vì vậy tài liệu của Bộ Năng
+    lượng Hoa Kỳ về máy làm mát bay hơi nhấn mạnh yêu cầu thông gió: phòng phải
+    có lối cho khí ẩm thoát ra, thường là mở hé cửa hoặc cửa sổ, ngược hẳn với
+    cách dùng máy lạnh vốn cần đóng kín. Đặt quạt điều hòa trong phòng kín làm
+    độ ẩm tăng dần cho tới khi thiết bị hết tác dụng. Các nguyên nhân khác thuộc
+    về thiết bị và bảo trì: bình chứa hết nước, bơm không đưa nước lên tấm làm
+    mát, tấm làm mát khô ở một phần diện tích, tấm bám cặn khoáng làm nước không
+    thấm đều, tấm đã mục nên diện tích tiếp xúc giảm, và lưới lọc bụi phía sau
+    bị bám kín làm giảm lưu lượng khí. Ngoài ra còn có kỳ vọng: thiết bị này hạ
+    nhiệt độ theo cơ chế bay hơi nên mức hạ được thấp hơn nhiều so với máy lạnh,
+    và nó không thể so sánh trực tiếp với máy lạnh.
+  nguon:
+  - url: https://www.energy.gov/energysaver/evaporative-coolers
+    title: U.S. Department of Energy — Evaporative Coolers
+  - url: https://www.energy.gov/energysaver/air-conditioning
+    title: U.S. Department of Energy — Air Conditioning
+  - url: https://www.epa.gov/mold/mold-course-chapter-2
+    title: US EPA — Mold Course, Chapter 2
+  serp: []
+
+bai_viet:
+  than: |
+    # Quạt điều hòa không mát: Nguyên nhân và cách kiểm tra ban đầu
+
+    Trước khi kiểm bất cứ bộ phận nào, cần biết một điều về nguyên lý — vì nó giải thích phần lớn số ca "quạt điều hòa không mát" mà thiết bị vẫn tốt nguyên.
+
+    <!-- IMAGE: IMG-001 | Người dùng đứng trước quạt điều hòa đang chạy trong phòng khách, tay đưa ra hứng luồng gió -->
+
+    ## Nguyên lý: nước bay hơi thì mới mát
+
+    Thiết bị này cho không khí đi qua một tấm vật liệu thấm nước. Nước **bay hơi** và lấy nhiệt từ dòng khí đó.
+
+    Hệ quả trực tiếp:
+
+    - Không khí càng **khô** thì nước bay hơi càng nhiều, càng mát rõ.
+    - Không khí đã **bão hoà ẩm** thì nước gần như không bay hơi được, và thiết bị chỉ còn là một chiếc quạt thổi khí ẩm.
+
+    ## Sai lầm phổ biến nhất: đóng kín phòng
+
+    Đây là điểm ngược hẳn với máy lạnh, và là chỗ hầu hết mọi người làm sai.
+
+    | | Máy lạnh | Quạt điều hòa |
+    |---|---|---|
+    | Phòng | **Đóng kín** | **Phải có lối cho khí ẩm thoát ra** |
+    | Cơ chế | Trao đổi nhiệt qua môi chất | Bay hơi nước |
+    | Càng dùng lâu | Phòng càng mát | Phòng càng ẩm nếu không thoát khí |
+
+    Đóng kín phòng với quạt điều hòa nghĩa là độ ẩm tăng dần cho tới khi thiết bị hết tác dụng. Cách đúng là **mở hé cửa hoặc cửa sổ** để khí ẩm ra ngoài và khí khô hơn vào thay.
+
+    Phép thử mất một phút: mở hé cửa, chờ, và xem có khác không.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh tấm làm mát tổ ong phía sau quạt điều hòa, một nửa khô ráo còn nửa kia ướt sẫm màu -->
+
+    ## Sáu nguyên nhân thuộc về thiết bị
+
+    1. **Bình hết nước.** Đơn giản nhất, và đáng kiểm đầu tiên.
+    2. **Bơm không đưa nước lên** tấm làm mát.
+    3. **Tấm làm mát khô ở một phần diện tích** — nước không được phân đều lên toàn bộ tấm.
+    4. **Tấm bám cặn khoáng**, nước không thấm đều nữa.
+    5. **Tấm đã mục**, diện tích tiếp xúc giảm.
+    6. **Lưới lọc bụi phía sau bám kín**, làm giảm lưu lượng khí.
+
+    Mục 3 có một dấu hiệu nhìn thấy được: tắt máy, mở nắp sau và xem tấm — nếu một phần khô ráo trong khi phần khác ướt, nước đang không lên đều.
+
+    ## Thứ tự kiểm tra ban đầu
+
+    1. **Mở hé cửa hoặc cửa sổ**, chờ và so lại.
+    2. **Kiểm mực nước** trong bình.
+    3. **Rút phích cắm**, mở nắp sau, xem **tấm làm mát có ướt đều** không.
+    4. **Vệ sinh lưới lọc bụi.**
+    5. Kiểm **tấm làm mát** có bám cặn trắng hay đã mục không.
+    6. Bật lại và đứng gần **luồng gió trực tiếp** để đánh giá, không đánh giá bằng nhiệt độ chung của phòng.
+
+    Bước 6 đáng nói: thiết bị này làm mát **luồng khí đi qua nó**, không hạ nhiệt độ cả phòng như máy lạnh.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, tháo tấm làm mát ra khỏi quạt điều hòa và soi đèn kiểm tra bề mặt -->
+
+    ## Về đá lạnh và kỳ vọng
+
+    Nhiều model có ngăn bỏ đá. Đá làm nước mát hơn nên khí ra mát hơn trong một khoảng thời gian, nhưng nó **không thay đổi nguyên lý**: khi phòng đã bão hoà ẩm thì thêm đá cũng không giúp được nhiều.
+
+    Và một điều nên nói thẳng: mức hạ nhiệt của thiết bị bay hơi thấp hơn nhiều so với máy lạnh. Nếu kỳ vọng là cảm giác như máy lạnh thì đó là kỳ vọng sai chứ không phải máy hỏng — nhất là vào những ngày trời đã ẩm sẵn.
+
+    ## Khi nào cần kỹ thuật viên
+
+    - Đã mở thoáng phòng, bình đủ nước, lưới sạch mà **tấm vẫn khô**.
+    - **Bơm không chạy** hoặc chạy mà nước không lên.
+    - Quạt gió yếu hơn hẳn trước đây.
+    - Có **mùi hôi** kèm theo.
+    - Có rò nước ra sàn, hoặc thiết bị chống rò điện ngắt khi cắm máy.
+
+    Dấu hiệu cuối là dấu hiệu rút điện trước rồi mới gọi.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh kiểm tra bơm nước và đường dẫn nước bên trong quạt điều hòa tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: phòng có mở thoáng khi dùng không, tấm làm mát có ướt đều không, bơm có chạy không, và tấm dùng được bao lâu rồi. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn là chuyện thông gió, chuyện bảo trì, hay là bơm và tấm cần thay. Ảnh chụp tấm làm mát khi mở nắp sau giúp phân biệt rất nhanh.
+
+    Nếu bơm không đưa nước lên, đọc <!-- INTERNAL: quạt điều hòa không bơm nước | /quat-dieu-hoa-khong-bom-nuoc/ -->. Nếu tấm bám cặn hoặc đã mục, xem <!-- INTERNAL: khi nào thay tấm làm mát quạt điều hòa | /khi-nao-thay-tam-lam-mat-quat-dieu-hoa/ -->. Nếu có mùi khó chịu, đọc <!-- INTERNAL: quạt điều hòa có mùi hôi | /quat-dieu-hoa-co-mui-hoi/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Vì sao quạt điều hòa chạy nhưng không mát?
+
+    Nguyên nhân phổ biến nhất là phòng đóng kín. Thiết bị này làm mát bằng cách cho nước bay hơi, nên khi không khí đã bão hoà ẩm thì nước không bay hơi được nữa và nó chỉ còn thổi khí ẩm. Cách đúng là mở hé cửa hoặc cửa sổ cho khí ẩm thoát ra.
+
+    ### Dùng quạt điều hòa nên đóng hay mở cửa?
+
+    Mở hé, ngược với máy lạnh. Máy lạnh cần phòng kín, còn quạt điều hòa cần lối cho khí ẩm ra ngoài và khí khô hơn vào thay. Đóng kín phòng làm độ ẩm tăng dần cho tới khi thiết bị hết tác dụng.
+
+    ### Bỏ đá vào quạt điều hòa có mát hơn không?
+
+    Có, trong một khoảng thời gian, vì nước mát hơn thì khí ra mát hơn. Nhưng đá không thay đổi nguyên lý: khi phòng đã bão hoà ẩm thì thêm đá cũng không giúp được nhiều. Thông gió vẫn là điều kiện quyết định.
+
+    ### Quạt điều hòa có mát bằng máy lạnh không?
+
+    Không. Mức hạ nhiệt của thiết bị bay hơi thấp hơn nhiều so với máy lạnh, và nó làm mát luồng khí đi qua nó chứ không hạ nhiệt độ cả phòng. Vào những ngày trời đã ẩm sẵn thì hiệu quả càng giảm. Đây là giới hạn nguyên lý, không phải hỏng hóc.
+
+    ### Ficool có kiểm tra quạt điều hòa tại TP.HCM không?
+
+    Có. Bạn gửi thông tin phòng có mở thoáng không, tấm làm mát có ướt đều không, bơm có chạy không và tấm dùng được bao lâu. Kỹ thuật viên Ficool sẽ khoanh vùng nguyên nhân, nêu hạng mục cần làm và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Quạt điều hòa không mát, vì sao và kiểm gì?
+    mo_ta: >-
+      Vì sao đóng kín phòng làm quạt điều hòa hết tác dụng, sáu nguyên nhân
+      thuộc thiết bị và sáu bước kiểm tra ban đầu.
+    slug: quat-dieu-hoa-khong-mat
+    tu_khoa_phu:
+    - quạt hơi nước không mát
+    - quạt điều hòa chạy nhưng không mát
+    - máy làm mát không mát

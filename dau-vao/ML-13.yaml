@@ -1,0 +1,139 @@
+chu_de:
+  id: ML-13
+  tieu_de: 'Lắp đặt máy lạnh đúng vị trí: Lưu ý cho dàn nóng và dàn lạnh'
+  tu_khoa_chinh: vị trí lắp máy lạnh
+  chuyen_muc: Máy lạnh
+  the:
+  - Lắp đặt
+  giai_doan_phieu: F4
+  loai_noi_dung: how_to
+
+nghien_cuu:
+  van_ban: >-
+    Vị trí lắp quyết định phần lớn hiệu quả làm lạnh và tuổi thọ của máy, nhưng
+    thường bị chọn theo thẩm mỹ hoặc theo chỗ nào dễ đi ống nhất. Với dàn lạnh,
+    các nguyên tắc kỹ thuật gồm: đặt ở vị trí luồng gió trải dọc theo chiều dài
+    phòng thay vì thổi thẳng vào tường gần; tránh thổi thẳng vào chỗ nằm hoặc
+    chỗ ngồi làm việc; giữ khoảng hở phía trên và hai bên theo hướng dẫn của nhà
+    sản xuất để không cản dòng hồi gió; tránh lắp ngay trên thiết bị điện tử vì
+    rủi ro nước ngưng nhỏ giọt; bảo đảm độ dốc của ống thoát nước ngưng liên tục
+    theo hướng thoát, vì ống bị võng hoặc dốc ngược là nguyên nhân phổ biến của
+    rò nước. Với dàn nóng: đặt nơi thoáng, không bị vật cản trước mặt quạt và
+    trước mặt lưới dàn ngưng, có khoảng cách tối thiểu với tường theo hướng dẫn
+    của hãng; tránh nắng chiếu trực tiếp cả ngày vì nhiệt độ môi trường cao làm
+    giảm hiệu suất và tăng tải cho block; tránh hộp kỹ thuật kín không có đối
+    lưu; đặt trên giá đỡ chắc chắn bắt vào tường đặc, có đệm cao su giảm chấn;
+    không đặt hai dàn nóng thổi trực diện vào nhau. Chiều dài và chênh cao giữa
+    hai dàn phải nằm trong giới hạn của model, vượt giới hạn thì phải bổ sung
+    môi chất lạnh theo chỉ dẫn của hãng và hiệu suất giảm. Một điểm hay bị bỏ
+    qua khi khảo sát: đường điện cấp riêng và CB riêng cho máy lạnh, cùng vị trí
+    đi ống sao cho sau này còn tháo ra vệ sinh và bảo trì được.
+  nguon:
+  - url: https://www.energy.gov/energysaver/central-air-conditioning
+    title: U.S. Department of Energy — Central Air Conditioning
+  - url: https://www.daikin.com.vn/vi/support/faq/
+    title: Daikin Việt Nam — Câu hỏi thường gặp về điều hoà
+  serp: []
+
+bai_viet:
+  than: |
+    # Lắp đặt máy lạnh đúng vị trí: Lưu ý cho dàn nóng và dàn lạnh
+
+    Vị trí lắp quyết định phần lớn hiệu quả làm lạnh và tuổi thọ máy, nhưng hay bị chọn theo chỗ nào dễ đi ống nhất. Ba nguyên tắc quan trọng nhất: dàn lạnh thổi dọc chiều dài phòng, dàn nóng đặt nơi thoáng và tránh nắng gắt, ống thoát nước dốc liên tục về một hướng.
+
+    <!-- IMAGE: IMG-001 | Kỹ thuật viên cầm thước đo đứng trong phòng ngủ trống, khảo sát bức tường dự kiến lắp dàn lạnh -->
+
+    ## Dàn lạnh: đặt ở đâu trong phòng?
+
+    Mục tiêu là luồng gió lạnh đi được hết chiều dài phòng trước khi hồi về máy. Bốn nguyên tắc:
+
+    - **Thổi dọc theo chiều dài phòng**, không thổi thẳng vào bức tường cách đó hai mét. Gió gặp tường gần sẽ dội lại và hồi sớm, phần cuối phòng không mát.
+    - **Không thổi thẳng vào giường hoặc bàn làm việc.** Gió lạnh liên tục vào người gây khó chịu, và người dùng sẽ đối phó bằng cách chỉnh nhiệt độ cao lên hoặc tắt máy.
+    - **Chừa khoảng hở phía trên và hai bên** theo hướng dẫn của hãng. Dàn lạnh hồi gió từ phía trên, bịt kín chỗ đó là tự bóp lưu lượng.
+    - **Không lắp ngay phía trên tivi, tủ điện hay ổ cắm.** Nếu máng hứng đầy hoặc ống thoát nghẹt, nước sẽ nhỏ xuống đúng chỗ không nên nhỏ.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh đoạn ống thoát nước ngưng bị võng xuống thành hình chữ U giữa hai điểm treo -->
+
+    ## Ống thoát nước: chi tiết nhỏ, hậu quả lớn
+
+    Nước ngưng chảy ra ngoài bằng trọng lực. Điều đó nghĩa là ống phải dốc **liên tục** theo hướng thoát, không có đoạn nào võng xuống rồi lên lại.
+
+    Một đoạn võng tạo thành túi nước. Túi nước đọng lại, sinh cặn, rồi nghẹt. Khi nghẹt, nước tràn ngược ra khỏi máng hứng và chảy xuống tường. Đây là một trong những nguyên nhân rò nước phổ biến nhất, và nó bắt nguồn từ lúc lắp chứ không phải lúc dùng.
+
+    Khi nghiệm thu, hãy nhìn dọc đường ống: nó phải đi xuống đều, không có chỗ nào cong lên.
+
+    ## Dàn nóng: sáu điều cần kiểm
+
+    | Yêu cầu | Vì sao |
+    |---|---|
+    | Thoáng trước mặt quạt và mặt lưới | Dàn nóng thải nhiệt, bị chắn thì áp suất tăng và máy ngắt bảo vệ |
+    | Đủ khoảng cách với tường theo hướng dẫn hãng | Thiếu khoảng hở làm khí nóng hồi lại chính nó |
+    | Tránh nắng chiếu trực tiếp cả ngày | Nhiệt độ môi trường cao làm giảm hiệu suất, tăng tải cho block |
+    | Không đặt trong hộp kỹ thuật kín | Không có đối lưu thì nhiệt quẩn tại chỗ |
+    | Giá đỡ bắt vào tường đặc, có đệm cao su | Giảm rung, tránh tiếng ù truyền vào phòng |
+    | Không thổi trực diện vào dàn nóng khác | Hai máy làm nóng lẫn nhau |
+
+    Hai dòng cuối hay bị bỏ qua ở chung cư và nhà phố, nơi các dàn nóng bị dồn vào cùng một khoảng nhỏ.
+
+    ## Chiều dài ống và chênh cao
+
+    Mỗi model có giới hạn chiều dài ống đồng và chênh cao giữa dàn lạnh với dàn nóng. Vượt giới hạn thì phải bổ sung môi chất lạnh theo chỉ dẫn của hãng, và hiệu suất giảm.
+
+    Khi khảo sát, hãy hỏi rõ: đường ống dự kiến dài bao nhiêu, chênh cao bao nhiêu, và con số đó có nằm trong giới hạn của model bạn chọn không.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt CB, dùng thước nivo kiểm tra độ nghiêng của giá đỡ dàn nóng trên tường -->
+
+    ## Hai thứ hay bị quên trong lúc khảo sát
+
+    1. **Đường điện riêng và CB riêng.** Máy lạnh nên có nhánh điện riêng với CB riêng, không dùng chung ổ cắm với thiết bị công suất lớn khác.
+    2. **Còn tháo ra bảo trì được không.** Một dàn nóng lắp ở vị trí không ai với tới sẽ khiến mọi lần vệ sinh sau này đều phát sinh chi phí, hoặc tệ hơn là bị bỏ qua.
+
+    Điều thứ hai đáng cân nhắc ngay từ lúc chọn chỗ, vì đổi vị trí sau khi lắp xong tốn kém hơn nhiều.
+
+    ## Trước khi chốt lắp, nên làm gì?
+
+    1. Đo diện tích phòng và ghi lại hướng nắng.
+    2. Chụp ảnh bức tường dự kiến đặt dàn lạnh và khu vực dự kiến đặt dàn nóng.
+    3. Vẽ phác vị trí giường, bàn, tivi để tránh thổi thẳng vào người.
+    4. Yêu cầu khảo sát vị trí trước khi chốt, thay vì quyết định qua điện thoại.
+    5. Thống nhất bằng văn bản các hạng mục sẽ bàn giao.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh bắt giá đỡ dàn lạnh lên tường phòng ngủ, dàn lạnh mới còn bọc nilon dựng bên cạnh -->
+
+    ## Gửi gì cho Ficool để được tư vấn vị trí?
+
+    Gửi diện tích phòng, ảnh bức tường dự kiến lắp dàn lạnh, ảnh khu vực đặt dàn nóng chụp đủ rộng để thấy lối tiếp cận, và một phác thảo vị trí giường hoặc bàn. Ficool tại TP.HCM sẽ tư vấn vị trí dựa trên đó, và bạn nên yêu cầu kiểm tra vị trí trước khi chốt lắp — đây là bước tốn ít công nhất trong cả quá trình mà lại quyết định nhiều nhất.
+
+    Chọn đúng công suất cũng quan trọng ngang chọn đúng vị trí, xem <!-- INTERNAL: cách chọn công suất máy lạnh theo diện tích | /chon-cong-suat-may-lanh/ -->. Khi lắp xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu máy lạnh | /checklist-nghiem-thu-may-lanh/ --> trước khi thanh toán.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Lắp dàn lạnh ở vị trí nào trong phòng là hợp lý?
+
+    Vị trí cho phép luồng gió đi dọc theo chiều dài phòng, không thổi thẳng vào bức tường gần và không thổi trực tiếp vào giường hay bàn làm việc. Cũng cần chừa khoảng hở phía trên và hai bên theo hướng dẫn của hãng, vì dàn lạnh hồi gió từ phía trên.
+
+    ### Dàn nóng đặt ngoài nắng có sao không?
+
+    Nắng chiếu trực tiếp cả ngày làm nhiệt độ môi trường quanh dàn nóng tăng, hiệu suất giảm và block chịu tải nặng hơn. Nếu không tránh được hoàn toàn, nên có mái che phía trên nhưng vẫn giữ thông thoáng bốn phía, không quây kín.
+
+    ### Vì sao máy lạnh mới lắp đã bị chảy nước?
+
+    Nguyên nhân thường gặp nhất là ống thoát nước ngưng không dốc liên tục. Một đoạn võng xuống rồi lên lại tạo túi nước, lâu ngày sinh cặn và nghẹt, khiến nước tràn ngược khỏi máng hứng. Đây là lỗi từ lúc lắp, và cần xử lý ở phần đường ống.
+
+    ### Có nên tự chọn vị trí lắp rồi báo thợ tới làm theo không?
+
+    Bạn nên đề xuất vị trí mong muốn, nhưng để kỹ thuật viên khảo sát trước khi chốt. Nhiều ràng buộc chỉ thấy được tại chỗ: kết cấu tường, giới hạn chiều dài ống, lối đi ống, và khả năng tiếp cận để bảo trì sau này.
+
+    ### Ficool có khảo sát vị trí trước khi lắp tại TP.HCM không?
+
+    Có. Bạn gửi diện tích phòng cùng ảnh khu vực dự kiến đặt hai dàn, Ficool sẽ tư vấn vị trí và nêu các ràng buộc kỹ thuật trước khi chốt. Phạm vi công việc và chi phí phụ thuộc hiện trạng lắp đặt, nên được thống nhất trước khi bắt đầu.
+  seo:
+    tieu_de: 'Vị trí lắp máy lạnh: lưu ý cho dàn nóng và dàn lạnh'
+    mo_ta: >-
+      Vị trí lắp quyết định hiệu quả làm lạnh và tuổi thọ máy. Nguyên tắc đặt
+      dàn lạnh, sáu yêu cầu cho dàn nóng và lỗi ống thoát nước hay gặp.
+    slug: vi-tri-lap-may-lanh
+    tu_khoa_phu:
+    - lắp máy lạnh ở đâu
+    - vị trí đặt dàn nóng máy lạnh
+    - lưu ý khi lắp đặt máy lạnh

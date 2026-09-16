@@ -1,0 +1,148 @@
+chu_de:
+  id: TD-01
+  tieu_de: 'Tủ đông không đông đá hoặc đông chậm: Nguyên nhân cần kiểm tra'
+  tu_khoa_chinh: tủ đông không đông đá
+  chuyen_muc: Tủ mát, tủ đông
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Mốc bảo quản đông lạnh được các cơ quan quản lý thực phẩm khuyến cáo là âm
+    18 độ C, và đây là nhiệt độ THỰC trong khoang chứ không phải nấc trên bảng
+    điều khiển; cách xác định đáng tin là đo bằng nhiệt kế đặt giữa các món đông
+    rồi đọc sau nhiều giờ, tránh mở nắp trong thời gian đo. Khi tủ đông đông
+    chậm hoặc không đạt mốc, nhóm nguyên nhân nằm ngoài máy thường gặp trước
+    nhóm hỏng hóc: nạp quá nhiều thực phẩm chưa đông vào cùng một lúc làm tải
+    nhiệt tăng đột ngột và tủ cần rất nhiều giờ mới kéo lại được; gioăng nắp
+    hoặc gioăng cửa hở khiến khí lạnh thoát và hơi ẩm bên ngoài lọt vào; tủ kê
+    sát tường hoặc trong góc kín làm dàn nóng không thải được nhiệt; nhiệt độ
+    phòng cao và dàn nóng bám bụi cũng làm giảm khả năng thải nhiệt. Nhóm bên
+    trong máy gồm lớp tuyết dày bám lên dàn lạnh làm chặn trao đổi nhiệt, quạt
+    lưu thông khí không quay ở các model có quạt, bộ điều nhiệt hoặc cảm biến
+    sai, và các sự cố thuộc hệ thống kín như rò rỉ môi chất hay máy nén yếu.
+    Một điểm cần phân biệt là tủ đông nằm và tủ đông đứng có hành vi khác nhau:
+    tủ nằm giữ khí lạnh tốt hơn khi mở vì khí lạnh nặng hơn nên đọng lại trong
+    lòng tủ, còn tủ đứng mất khí lạnh nhanh hơn mỗi lần mở cửa. Với tủ mới lắp
+    hoặc mới di dời, cần tính cả thời gian chờ trước khi cắm điện và thời gian
+    hạ nhiệt ban đầu trước khi kết luận máy có lỗi.
+  nguon:
+  - url: https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety
+    title: US FDA — Refrigerator Thermometers and Food Safety
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Tủ đông không đông đá hoặc đông chậm: Nguyên nhân cần kiểm tra
+
+    Trước khi kết luận tủ hỏng, cần loại trừ hai tình huống rất hay gặp: tủ chưa có đủ thời gian, và tủ đang phải gánh quá nhiều hàng chưa đông. Cả hai đều cho ra đúng triệu chứng "đông chậm" mà không có bất kỳ linh kiện nào hỏng.
+
+    <!-- IMAGE: IMG-001 | Chủ cửa hàng mở nắp tủ đông nằm, bên trong xếp đầy túi thực phẩm, tay chạm vào lớp đá trên thành tủ -->
+
+    ## Ba câu hỏi trước khi kết luận
+
+    1. **Tủ mới cắm điện hay mới di dời gần đây?** Tủ cần thời gian hạ nhiệt ban đầu, và tủ vừa vận chuyển còn cần thời gian chờ trước khi cắm điện theo hướng dẫn của model.
+    2. **Vừa nạp nhiều hàng chưa đông cùng lúc?** Tải nhiệt tăng đột ngột, và tủ cần rất nhiều giờ mới kéo lại được.
+    3. **Nhiệt độ phòng có cao bất thường không?** Kho nóng, phòng kín, hoặc tủ đặt cạnh nguồn nhiệt đều làm tủ phải chạy nhiều hơn.
+
+    Nếu một trong ba câu trên đúng, hãy chờ và đo lại trước khi gọi thợ.
+
+    ## Bốn nguyên nhân nằm ngoài máy
+
+    | Nguyên nhân | Dấu hiệu đi kèm |
+    |---|---|
+    | Nạp quá nhiều hàng chưa đông cùng lúc | Máy chạy liên tục, phần hàng ở giữa lâu đông nhất |
+    | Gioăng nắp hoặc gioăng cửa hở | Có tuyết bám nhiều quanh miệng tủ, nắp không hít lại |
+    | Kê sát tường, đặt trong góc kín | Thành tủ nóng, dàn nóng không thải được nhiệt |
+    | Dàn nóng bám bụi, phòng nóng | Máy chạy liên tục, khu vực quanh tủ ấm rõ |
+
+    Bốn nguyên nhân này chiếm phần lớn số ca "tủ đông yếu" ở cửa hàng và hộ kinh doanh, và cả bốn đều xử lý được mà không cần mở máy.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh mép gioăng nắp tủ đông bị chai và cong, quanh miệng tủ bám một vành tuyết dày -->
+
+    ## Bốn nguyên nhân bên trong máy
+
+    - **Lớp tuyết dày trên dàn lạnh.** Tuyết là lớp cách nhiệt, nên càng dày thì trao đổi nhiệt càng kém. Đây là vòng luẩn quẩn: đông kém thì mở lâu hơn, mở lâu hơn thì tuyết dày thêm.
+    - **Quạt lưu thông khí không quay**, với các model có quạt. Khí lạnh không phân bố đều, có vùng đông và có vùng không.
+    - **Bộ điều nhiệt hoặc cảm biến sai.** Máy tưởng đã đạt nên ngắt sớm.
+    - **Hệ thống kín**: rò rỉ môi chất hoặc máy nén yếu. Máy chạy nhưng không tạo đủ lạnh.
+
+    Ba nguyên nhân đầu thường đi kèm dấu hiệu quan sát được. Nguyên nhân cuối thì cần đo, và đó là ranh giới cần kỹ thuật viên.
+
+    ## Đo thay vì đoán
+
+    Sờ tay không phải phép đo. Cách làm đúng:
+
+    1. Đặt **nhiệt kế** vào giữa các món đông, không đặt sát thành và không đặt ngay dưới nắp.
+    2. **Đóng nắp**, không mở trong suốt thời gian đo.
+    3. Chờ nhiều giờ rồi đọc. Mốc bảo quản đông lạnh được khuyến cáo là **âm 18 độ C**.
+    4. Ghi lại con số cùng thời điểm đo.
+
+    Con số đo được là thứ rút ngắn mọi cuộc trao đổi sau đó, kể cả khi bạn tự xử lý.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, kéo tủ đông ra khỏi tường và kiểm tra dàn nóng cùng khoảng hở phía sau -->
+
+    ## Tủ đông nằm và tủ đông đứng hành xử khác nhau
+
+    Khí lạnh nặng hơn khí ấm, và điều đó tạo ra khác biệt thật:
+
+    - **Tủ nằm** giữ khí lạnh tốt hơn khi mở nắp, vì khí lạnh đọng lại trong lòng tủ. Đổi lại, tuyết và nước hay đọng ở đáy.
+    - **Tủ đứng** mất khí lạnh nhanh hơn mỗi lần mở cửa, nên ở nơi mở cửa liên tục thì nhiệt độ dao động mạnh hơn.
+
+    Nếu tủ đứng đặt ở quầy bán hàng và cửa mở suốt buổi, "đông chậm" có thể chỉ là hệ quả của cách sử dụng chứ không phải lỗi máy.
+
+    ## Khi nào cần kỹ thuật viên
+
+    - Đã loại trừ hết nhóm nguyên nhân ngoài máy mà nhiệt độ đo vẫn không đạt.
+    - Máy chạy liên tục không nghỉ mà vẫn không đông.
+    - Có tiếng lạ từ máy nén, hoặc máy nén nóng bất thường.
+    - Tuyết bám dày quay lại rất nhanh sau khi vừa xả.
+    - Có mùi khét, hoặc aptomat nhảy khi tủ chạy.
+
+    Ba dấu hiệu cuối là dấu hiệu nên rút điện và gọi kiểm tra thay vì tiếp tục dùng.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh dùng nhiệt kế điện tử đo nhiệt độ thực trong lòng tủ đông tại cửa hàng của khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: tủ nằm hay tủ đứng, nhiệt độ **thực đo được** và thời điểm đo, tủ vừa nạp nhiều hàng hay vừa di dời không, và mức tuyết bám hiện tại. Kỹ thuật viên Ficool tại TP.HCM sẽ dựa vào đó để nói trường hợp của bạn nghiêng về cách sử dụng hay nghiêng về hỏng hóc. Với hộ kinh doanh, hãy nói rõ tủ đang chứa hàng gì để bố trí phương án giữ lạnh trong lúc xử lý.
+
+    Nếu tủ bám tuyết dày, đọc <!-- INTERNAL: tủ đông đóng tuyết dày | /tu-dong-dong-tuyet-day/ -->. Muốn xả tuyết đúng cách, xem <!-- INTERNAL: cách xả tuyết tủ đông | /cach-xa-tuyet-tu-dong/ -->. Nếu đi kèm mùi khó chịu, đọc <!-- INTERNAL: tủ đông có mùi hôi | /tu-dong-co-mui-hoi/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Tủ đông không đông đá là do đâu?
+
+    Nhóm nguyên nhân ngoài máy thường gặp trước: nạp quá nhiều hàng chưa đông cùng lúc, gioăng nắp hở, tủ kê sát tường thiếu khoảng thoáng, hoặc dàn nóng bám bụi. Nhóm bên trong gồm tuyết dày chặn trao đổi nhiệt, quạt không quay, bộ điều nhiệt sai, và các sự cố thuộc hệ thống kín.
+
+    ### Tủ đông mới mua bao lâu thì đông đá?
+
+    Tủ cần thời gian hạ nhiệt ban đầu, và nếu vừa vận chuyển thì còn cần thời gian chờ trước khi cắm điện theo hướng dẫn của model. Cách kiểm đúng là để tủ trống chạy ổn định, đặt nhiệt kế vào trong, đóng nắp và đọc sau nhiều giờ thay vì kết luận bằng cảm giác tay.
+
+    ### Nhiệt độ tủ đông nên để bao nhiêu?
+
+    Mốc bảo quản đông lạnh được khuyến cáo là âm 18 độ C, và đây là nhiệt độ thực trong khoang chứ không phải nấc trên bảng điều khiển. Hãy đo bằng nhiệt kế đặt giữa các món đông, đóng nắp và chờ nhiều giờ rồi mới đọc.
+
+    ### Nạp nhiều hàng cùng lúc có làm tủ đông yếu đi không?
+
+    Có. Tải nhiệt tăng đột ngột khiến tủ phải chạy rất nhiều giờ mới kéo nhiệt độ xuống lại, và phần hàng ở giữa khối là phần lâu đông nhất. Nếu vừa nạp nhiều, hãy chờ và đo lại trước khi kết luận máy có lỗi.
+
+    ### Ficool có kiểm tra tủ đông tại TP.HCM không?
+
+    Có. Bạn gửi loại tủ nằm hay đứng, nhiệt độ thực đo được kèm thời điểm đo, tình huống sử dụng gần đây và mức tuyết bám. Kỹ thuật viên Ficool sẽ khoanh vùng nguyên nhân trước khi tới, và chi phí được thống nhất trước khi làm.
+  seo:
+    tieu_de: Tủ đông không đông đá hoặc đông chậm do đâu?
+    mo_ta: >-
+      Bốn nguyên nhân nằm ngoài máy, bốn nguyên nhân bên trong, và cách đo nhiệt
+      độ thực thay vì kết luận bằng cảm giác tay.
+    slug: tu-dong-khong-dong-da
+    tu_khoa_phu:
+    - tủ đông không lạnh
+    - tủ đông đông chậm
+    - tủ đông yếu lạnh

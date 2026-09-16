@@ -1,0 +1,142 @@
+chu_de:
+  id: ML-07
+  tieu_de: 'Vệ sinh máy lạnh tại nhà: Phần có thể tự làm và phần nên thuê thợ'
+  tu_khoa_chinh: vệ sinh máy lạnh tại nhà
+  chuyen_muc: Máy lạnh
+  the:
+  - Vệ sinh
+  giai_doan_phieu: F2
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Bảo dưỡng máy lạnh được các cơ quan năng lượng khuyến cáo là việc định kỳ,
+    trong đó phần lưới lọc là hạng mục người dùng tự làm được và có ảnh hưởng
+    lớn tới hiệu suất. Lưới lọc bẩn chặn dòng khí đi qua dàn lạnh, làm giảm khả
+    năng trao đổi nhiệt và khiến máy chạy lâu hơn để đạt cùng một nhiệt độ; tài
+    liệu của Bộ Năng lượng Hoa Kỳ nêu rằng thay hoặc làm sạch lưới lọc bẩn là
+    biện pháp đơn giản có tác động rõ rệt tới mức tiêu thụ điện. Tần suất phụ
+    thuộc điều kiện: môi trường nhiều bụi, có thú nuôi hoặc máy chạy gần như
+    liên tục thì cần làm dày hơn. Các hạng mục còn lại đòi hỏi tháo vỏ, che chắn
+    mạch điện và dùng nước có áp lực nên vượt phạm vi tự làm: dàn lạnh với các
+    lá nhôm rất mỏng, dễ bẹp và bẹp rồi thì chặn khí; máng hứng nước ngưng và
+    đường ống thoát vốn là nơi sinh nhớt sinh học gây tắc và gây mùi; quạt lồng
+    sóc nằm sâu bên trong; dàn nóng ngoài trời cùng khối mạch điện. Tài liệu về
+    nấm mốc của EPA nhấn mạnh nguyên tắc chung là xử lý nguồn ẩm chứ không phải
+    chỉ khử mùi bề mặt, vì mùi quay lại nếu phần ẩm đọng vẫn còn. Về an toàn,
+    mọi thao tác chạm vào máy phải thực hiện sau khi ngắt nguồn điện tại
+    aptomat, không chỉ tắt bằng remote, vì remote chỉ dừng chế độ chứ không cắt
+    điện vào máy.
+  nguon:
+  - url: https://www.energy.gov/energysaver/maintaining-your-air-conditioner
+    title: U.S. Department of Energy — Maintaining Your Air Conditioner
+  - url: https://www.epa.gov/mold/mold-course-chapter-2
+    title: US EPA — Mold Course, Chapter 2
+  - url: https://www.daikin.com.vn/vi/support/faq/
+    title: Daikin Việt Nam — Hỏi đáp hỗ trợ
+  serp: []
+
+bai_viet:
+  than: |
+    # Vệ sinh máy lạnh tại nhà: Phần có thể tự làm và phần nên thuê thợ
+
+    Không phải toàn bộ việc vệ sinh máy lạnh đều cần thợ, và cũng không phải phần nào cũng nên tự làm. Ranh giới khá rõ: những gì tháo ra được bằng tay, rửa bằng nước sạch rồi lắp lại thì bạn làm được; những gì phải mở vỏ, che mạch điện hoặc xịt nước có áp lực thì không.
+
+    <!-- IMAGE: IMG-001 | Người dùng đứng trên ghế thấp, mở nắp dàn lạnh treo tường và rút tấm lưới lọc ra khỏi máy -->
+
+    ## Ba phần bạn tự làm được
+
+    | Hạng mục | Cách làm | Vì sao tự làm được |
+    |---|---|---|
+    | Lưới lọc bụi | Rút ra, rửa nước sạch, để khô hẳn rồi lắp lại | Thiết kế để tháo bằng tay, không chạm mạch điện |
+    | Mặt nạ và vỏ ngoài dàn lạnh | Lau bằng khăn ẩm | Chỉ là bề mặt nhựa |
+    | Khu vực quanh dàn nóng | Dọn lá cây, rác, vật che chắn | Không phải mở máy |
+
+    Ba việc này chiếm phần lớn tác dụng mà người dùng có thể tự tạo ra, và không việc nào đòi dụng cụ chuyên dụng.
+
+    ## Vì sao lưới lọc là phần đáng làm trước
+
+    Lưới lọc bẩn chặn dòng khí đi qua dàn lạnh. Khí đi qua ít hơn thì trao đổi nhiệt kém hơn, và máy phải chạy lâu hơn để đạt cùng mức nhiệt độ bạn đặt trên remote.
+
+    Đây là lý do tài liệu năng lượng xếp việc làm sạch lưới lọc vào nhóm biện pháp đơn giản nhưng có tác động rõ tới điện năng. Nó cũng là hạng mục duy nhất trong bài này mà bạn có thể làm bất cứ lúc nào mà không cần hẹn ai.
+
+    Vài lưu ý khi rửa:
+
+    - Rửa bằng **nước sạch**, không dùng nước nóng và không chà mạnh làm rách lưới.
+    - **Để khô hoàn toàn** rồi mới lắp lại. Lưới còn ẩm là môi trường cho mùi.
+    - Không phơi trực tiếp dưới nắng gắt vì khung nhựa dễ cong.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh tấm lưới lọc máy lạnh phủ kín lớp bụi xám, một nửa đã được rửa sạch để đối chứng -->
+
+    ## Bốn phần không nên tự tháo
+
+    - **Dàn lạnh.** Các lá nhôm rất mỏng và bẹp chỉ bằng một lần chạm sai. Lá nhôm bẹp thì chặn khí, và hậu quả ngược đúng với mục tiêu vệ sinh.
+    - **Máng hứng nước ngưng và đường ống thoát.** Đây là nơi sinh nhớt sinh học gây tắc và gây mùi. Thông đúng cách cần dụng cụ và cần biết đường ống đi đâu.
+    - **Quạt lồng sóc.** Nằm sâu bên trong, tháo ra và lắp lại đúng vị trí không phải việc làm bằng tay không.
+    - **Dàn nóng và khối mạch điện.** Có điện, có cánh quạt lớn, và thường nằm ở vị trí phải với ra ban công hoặc trèo cao.
+
+    Điểm chung của bốn hạng mục này: làm sai không chỉ là làm không sạch, mà là làm hỏng thêm.
+
+    ## Quy tắc an toàn trước khi chạm vào máy
+
+    1. **Ngắt điện tại aptomat**, không chỉ tắt bằng remote. Remote dừng chế độ chứ không cắt điện vào máy.
+    2. Nếu phải đứng cao, dùng thang chắc chắn và có người giữ.
+    3. Không xịt nước vào bất kỳ phần nào có mạch điện.
+    4. Không dùng vật cứng cạy lớp bám trên lá nhôm.
+
+    Nếu một bước nào trong bốn bước này khiến bạn phải với quá tầm hoặc trèo ra ngoài lan can, đó là dấu hiệu dừng lại.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt aptomat, dùng túi hứng nước bọc quanh dàn lạnh trước khi xịt rửa -->
+
+    ## Vệ sinh sâu khác vệ sinh bề mặt thế nào?
+
+    Đây là chỗ dễ hiểu nhầm. Rửa lưới lọc làm sạch **thứ chặn ở cửa vào**. Vệ sinh sâu làm sạch **thứ bám bên trong**: lá nhôm dàn lạnh, quạt lồng sóc, máng nước và đường thoát.
+
+    Dấu hiệu cho thấy vệ sinh bề mặt đã tới giới hạn:
+
+    - Mùi ẩm vẫn còn dù lưới lọc vừa rửa.
+    - Gió ra yếu hơn cảm nhận trước đây.
+    - Có nước nhỏ giọt từ dàn lạnh.
+    - Máy chạy liên tục mà phòng vẫn không đạt mức nhiệt đặt.
+
+    Bốn dấu hiệu này đều trỏ vào phần nằm sau lưới lọc, tức phần nằm ngoài phạm vi tự làm.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh vệ sinh dàn lạnh treo tường bằng máy xịt áp lực thấp tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Ba thông tin giúp định hướng nhanh: máy đã bao lâu chưa vệ sinh sâu, hiện có mùi hay có nhỏ nước không, và dàn nóng đặt ở vị trí nào. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn cần vệ sinh sâu hay chỉ cần bạn rửa lại lưới lọc. Nếu dàn nóng nằm ở chỗ khó với, hãy nói trước để bố trí đủ đồ bảo hộ.
+
+    Muốn biết bao lâu nên làm một lần, đọc <!-- INTERNAL: bao lâu vệ sinh máy lạnh | /bao-lau-ve-sinh-may-lanh/ -->. Muốn biết chi phí gồm những phần nào, xem <!-- INTERNAL: giá vệ sinh máy lạnh | /gia-ve-sinh-may-lanh/ -->. Sau khi thợ làm xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu máy lạnh | /checklist-nghiem-thu-may-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Tự vệ sinh máy lạnh tại nhà có được không?
+
+    Được, với phần lưới lọc, mặt nạ nhựa và khu vực quanh dàn nóng. Đây là những phần tháo bằng tay, rửa bằng nước sạch rồi lắp lại. Phần dàn lạnh, máng nước, quạt lồng sóc và dàn nóng thì cần dụng cụ che chắn và cần ngắt điện đúng cách, nên không thuộc phạm vi tự làm.
+
+    ### Rửa lưới lọc máy lạnh thế nào cho đúng?
+
+    Rút lưới ra, rửa bằng nước sạch, không dùng nước nóng và không chà mạnh. Quan trọng nhất là để lưới khô hoàn toàn trước khi lắp lại, vì lưới còn ẩm sẽ sinh mùi. Không phơi dưới nắng gắt vì khung nhựa dễ cong.
+
+    ### Vì sao đã rửa lưới lọc mà máy lạnh vẫn có mùi?
+
+    Vì mùi thường không nằm ở lưới lọc mà nằm ở máng hứng nước ngưng, đường ống thoát và bề mặt lá nhôm dàn lạnh. Đây là những phần chỉ làm sạch được khi vệ sinh sâu. Xử lý nguồn ẩm mới hết mùi, còn khử mùi bề mặt thì mùi quay lại.
+
+    ### Tắt máy bằng remote có đủ an toàn để vệ sinh không?
+
+    Không. Remote chỉ dừng chế độ chứ không cắt điện vào máy. Trước khi chạm vào bất kỳ phần nào, hãy ngắt nguồn tại aptomat. Đây là bước bắt buộc kể cả khi bạn chỉ rút lưới lọc.
+
+    ### Ficool có nhận vệ sinh máy lạnh tại nhà ở TP.HCM không?
+
+    Có. Bạn gửi thông tin máy đã bao lâu chưa vệ sinh sâu, hiện tượng đang gặp và vị trí đặt dàn nóng. Kỹ thuật viên Ficool sẽ nói phạm vi công việc trước, và chi phí được thống nhất trước khi làm.
+  seo:
+    tieu_de: 'Vệ sinh máy lạnh tại nhà: tự làm tới đâu là đủ?'
+    mo_ta: >-
+      Ba phần bạn tự làm được, bốn phần không nên tự tháo, và bốn dấu hiệu cho
+      thấy đã tới lúc cần vệ sinh sâu.
+    slug: ve-sinh-may-lanh-tai-nha
+    tu_khoa_phu:
+    - cách vệ sinh điều hòa
+    - làm sạch lưới lọc máy lạnh
+    - tự vệ sinh máy lạnh

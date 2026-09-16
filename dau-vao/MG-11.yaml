@@ -1,0 +1,147 @@
+chu_de:
+  id: MG-11
+  tieu_de: Bao lâu nên vệ sinh máy giặt? Chi phí và hạng mục cần biết
+  tu_khoa_chinh: bao lâu vệ sinh máy giặt
+  chuyen_muc: Máy giặt
+  the:
+  - Vệ sinh
+  - Kinh nghiệm hay
+  giai_doan_phieu: F3
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Chu kỳ vệ sinh máy giặt không có một con số chung cho mọi nhà, vì nó phụ
+    thuộc tần suất giặt, loại đồ giặt, nhiệt độ nước thường dùng, chất lượng
+    nguồn nước và môi trường đặt máy. Các mốc tham khảo phổ biến: chạy chu trình
+    vệ sinh lồng khoảng mỗi tháng một lần với hộ giặt hằng ngày; vệ sinh chuyên
+    sâu có tháo lồng khoảng mỗi mười hai tới mười tám tháng với hộ gia đình dùng
+    bình thường, và dày hơn với hộ giặt nhiều, giặt đồ bảo hộ nhiều dầu mỡ, nhà
+    có trẻ nhỏ hoặc thú cưng, khu vực nước cứng nhiều cặn vôi, hoặc máy đặt ở
+    nơi ẩm thấp thiếu thông thoáng. Cần phân biệt rõ ba mức công việc vì chúng
+    hay bị gọi chung là vệ sinh máy giặt: mức một là việc người dùng tự làm gồm
+    lau gioăng cửa, rửa ngăn bột giặt, vệ sinh bộ lọc bơm xả và chạy chu trình
+    vệ sinh lồng; mức hai là vệ sinh chuyên sâu có tháo lồng để làm sạch mặt
+    ngoài lồng và khoang máy, kiểm tra ống xả và ống cấp; mức ba là bảo trì gồm
+    cả kiểm tra cân bằng, dây curoa, bạc đạn, gioăng và các mối nối. Hai báo giá
+    chênh nhau thường vì đang báo hai mức khác nhau, chứ không phải vì đơn giá.
+    Các yếu tố làm chi phí khác nhau một cách chính đáng gồm loại máy cửa trên
+    hay cửa trước, khối lượng máy và vị trí đặt có dễ tháo lắp không, số lượng
+    máy trong một lần tới, và tình trạng máy khi lâu ngày chưa vệ sinh. Nên yêu
+    cầu báo giá ghi rõ hạng mục và nêu trước điều kiện phát sinh.
+  nguon:
+  - url: https://www.energystar.gov/products/clothes_washers
+    title: ENERGY STAR — Clothes Washers
+  - url: https://www.epa.gov/mold/mold-course-chapter-2
+    title: US EPA — Mold Course, Chapter 2 Causes and Effects of Mold
+  serp: []
+
+bai_viet:
+  than: |
+    # Bao lâu nên vệ sinh máy giặt? Chi phí và hạng mục cần biết
+
+    Không có một con số chung cho mọi nhà. Chu kỳ phụ thuộc bạn giặt bao nhiêu, giặt gì, ở nhiệt độ nào, nước nhà bạn thế nào và máy đặt ở đâu. Nhưng có ba mức công việc rất khác nhau hay bị gọi chung là "vệ sinh máy giặt", và phân biệt được chúng là phân biệt được hai báo giá.
+
+    <!-- IMAGE: IMG-001 | Khách hàng và kỹ thuật viên đứng cạnh máy giặt cửa trước, cùng xem tờ phiếu ghi hạng mục vệ sinh -->
+
+    ## Ba mức công việc
+
+    | Mức | Gồm gì | Ai làm |
+    |---|---|---|
+    | 1 — Cơ bản | Lau gioăng cửa, rửa ngăn bột giặt, vệ sinh bộ lọc bơm xả, chạy chu trình vệ sinh lồng | Bạn tự làm |
+    | 2 — Chuyên sâu | Tháo lồng, làm sạch mặt ngoài lồng và khoang máy, kiểm tra ống xả và ống cấp | Kỹ thuật viên |
+    | 3 — Bảo trì | Mức 2 cộng kiểm tra cân bằng, dây curoa, bạc đạn, gioăng, các mối nối | Kỹ thuật viên |
+
+    Khi so hai báo giá, hãy hỏi trước nó thuộc mức nào. Một báo giá thấp thường là mức 2 đã lược bớt, hoặc thậm chí chỉ là mức 1 làm hộ.
+
+    ## Mốc tham khảo theo mức sử dụng
+
+    - **Chu trình vệ sinh lồng (mức 1):** khoảng mỗi tháng một lần với hộ giặt hằng ngày.
+    - **Vệ sinh chuyên sâu (mức 2):** khoảng mỗi mười hai tới mười tám tháng với hộ gia đình dùng bình thường.
+
+    Rút ngắn chu kỳ nếu nhà bạn có một trong các điều sau:
+
+    - Giặt nhiều, mỗi ngày vài mẻ.
+    - Giặt đồ bảo hộ hoặc đồ dính nhiều dầu mỡ.
+    - Nhà có trẻ nhỏ hoặc thú cưng.
+    - Khu vực nước cứng, nhiều cặn vôi.
+    - Máy đặt nơi ẩm thấp, thiếu thông thoáng.
+    - Thường xuyên giặt ở nhiệt độ thấp.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh mặt ngoài lồng giặt vừa tháo ra, phủ lớp cặn xám đen bám dày quanh các lỗ thoát nước -->
+
+    ## Vì sao mặt ngoài lồng mới là chỗ quan trọng?
+
+    Bạn nhìn thấy và lau được mặt trong lồng. Nhưng cặn xà phòng, xơ vải và màng sinh học tích tụ ở **mặt ngoài** — khoảng giữa lồng trong và lồng ngoài, nơi không tay nào với tới.
+
+    Đó là lý do một chiếc máy nhìn sạch bên trong vẫn có thể làm quần áo có mùi, và cũng là lý do vệ sinh chuyên sâu phải tháo lồng chứ không thể làm bằng cách xịt rửa từ ngoài vào.
+
+    ## Vì sao giá khác nhau một cách chính đáng?
+
+    Bốn yếu tố:
+
+    - **Loại máy.** Cửa trước và cửa trên có cấu tạo khác nhau, công tháo lắp khác nhau.
+    - **Khối lượng và vị trí đặt máy.** Máy kê trong hốc chật hoặc trên cao cần thêm công.
+    - **Số lượng máy trong một lần tới.** Chi phí di chuyển chia đều.
+    - **Tình trạng máy.** Máy nhiều năm chưa vệ sinh cần thời gian gấp đôi.
+
+    Giá phụ thuộc loại máy và tình trạng thực tế, nên một báo giá đúng phải bắt đầu bằng vài câu hỏi về máy của bạn chứ không phải bằng một con số.
+
+    ## Ba câu nên hỏi trước khi chốt
+
+    1. Báo giá này thuộc mức nào trong ba mức ở trên?
+    2. Có tháo lồng không, hay chỉ vệ sinh phần nhìn thấy?
+    3. Nếu phát sinh, có báo và chờ tôi đồng ý trước khi làm không?
+
+    Câu thứ hai là câu phân biệt rõ nhất giữa mức 1 và mức 2.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, tháo nắp lưng máy giặt để tiếp cận lồng ngoài, dụng cụ xếp trên bạt -->
+
+    ## Giữa hai lần vệ sinh, làm gì?
+
+    Bốn thói quen kéo dài chu kỳ và không tốn gì:
+
+    1. Để cửa và ngăn bột giặt hé sau mỗi lần giặt.
+    2. Lấy quần áo ra ngay khi chu trình kết thúc.
+    3. Lau gioăng cửa sau mỗi vài lần giặt.
+    4. Đong bột giặt theo hướng dẫn, không ước lượng dư.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh lắp lồng giặt trở lại máy sau khi vệ sinh, tại khu giặt phơi nhà khách -->
+
+    ## Xem hạng mục và gửi thông tin cho Ficool
+
+    Bảng giá dịch vụ của Ficool tại TP.HCM ghi phạm vi từng hạng mục, xem tại <!-- INTERNAL: bảng giá dịch vụ | /bang-gia/ -->. Vì chi phí phụ thuộc loại máy và tình trạng thực tế, hãy gửi loại máy cùng số lượng để nhận báo giá phù hợp thay vì một con số chung.
+
+    Muốn biết phần nào bạn tự làm được, xem <!-- INTERNAL: vệ sinh máy giặt tại nhà | /ve-sinh-may-giat-tai-nha/ -->. Nếu quần áo đang có mùi, đọc <!-- INTERNAL: quần áo giặt xong có mùi hôi | /quan-ao-giat-xong-co-mui-hoi/ --> trước, vì nhiều ca xử lý được bằng thói quen. Sau khi vệ sinh xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu máy giặt | /checklist-nghiem-thu-may-giat/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Bao lâu nên vệ sinh máy giặt một lần?
+
+    Chu trình vệ sinh lồng nên chạy khoảng mỗi tháng với hộ giặt hằng ngày. Vệ sinh chuyên sâu có tháo lồng thường khoảng mỗi mười hai tới mười tám tháng với hộ gia đình dùng bình thường. Rút ngắn chu kỳ nếu bạn giặt nhiều, giặt đồ dầu mỡ, hoặc máy đặt nơi ẩm thấp.
+
+    ### Vệ sinh máy giặt có cần tháo lồng không?
+
+    Tuỳ mức công việc. Vệ sinh cơ bản không tháo lồng và bạn tự làm được. Vệ sinh chuyên sâu thì có, vì cặn và màng sinh học tích tụ ở mặt ngoài lồng, khoảng giữa lồng trong và lồng ngoài, nơi không thể làm sạch bằng cách xịt rửa từ ngoài vào.
+
+    ### Chạy chu trình vệ sinh lồng thế nào cho đúng?
+
+    Chạy với lồng rỗng, chọn chương trình vệ sinh lồng nếu máy có, ở nhiệt độ cao nhất chương trình cho phép. Nếu máy không có chương trình riêng, chọn chu trình nước nóng nhất với lồng rỗng. Sau khi xong, lau khô gioăng cửa và để cửa hé.
+
+    ### Vì sao hai nơi báo giá vệ sinh máy giặt chênh nhau nhiều?
+
+    Thường vì hai bên đang báo hai mức công việc khác nhau, chứ không phải vì đơn giá. Một bên báo mức có tháo lồng, bên kia chỉ vệ sinh phần nhìn thấy. Hãy hỏi rõ có tháo lồng không trước khi so con số.
+
+    ### Ficool báo giá vệ sinh máy giặt như thế nào?
+
+    Bạn gửi loại máy cửa trên hay cửa trước, số lượng máy và thời gian sử dụng. Ficool báo lại phạm vi từng hạng mục kèm mức chi phí tương ứng tại TP.HCM. Nếu trong lúc làm phát hiện hạng mục ngoài phạm vi, kỹ thuật viên báo và chờ bạn đồng ý trước khi thực hiện.
+  seo:
+    tieu_de: Bao lâu nên vệ sinh máy giặt? Ba mức công việc và chi phí
+    mo_ta: >-
+      Ba mức công việc hay bị gọi chung là vệ sinh máy giặt, mốc tham khảo theo
+      mức sử dụng, và ba câu nên hỏi trước khi chốt báo giá.
+    slug: bao-lau-ve-sinh-may-giat
+    tu_khoa_phu:
+    - vệ sinh máy giặt định kỳ
+    - chi phí vệ sinh máy giặt
+    - vệ sinh lồng máy giặt bao lâu một lần

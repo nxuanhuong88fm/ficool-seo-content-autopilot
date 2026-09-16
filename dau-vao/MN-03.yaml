@@ -1,0 +1,156 @@
+chu_de:
+  id: MN-03
+  tieu_de: 'Máy nước nóng rò nước: Phân biệt rò ở đường ống, van và thân bình'
+  tu_khoa_chinh: máy nước nóng bị rò nước
+  chuyen_muc: Máy nước nóng
+  the:
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Nước xuất hiện quanh máy nước nóng có nhiều nguồn với mức nghiêm trọng rất
+    khác nhau, nên bước đầu tiên là xác định nước đến từ đâu chứ không phải xử
+    lý ngay chỗ nhìn thấy nước. Nhóm nhẹ nhất là các mối nối ren ở đường cấp và
+    đường ra: gioăng hoặc băng tan xuống cấp, ốc lỏng sau một thời gian dùng.
+    Nhóm thứ hai là van, gồm van một chiều và van an toàn lắp ở đường cấp vào;
+    van an toàn có nhiệm vụ xả bớt khi áp suất trong bình tăng do nước giãn nở
+    khi được đun nóng, nên một lượng nước nhỏ chảy ra từ van này trong chu kỳ
+    đun là hiện tượng theo thiết kế chứ không phải hỏng. Van nhỏ giọt liên tục
+    kể cả khi máy không đun thì lại là dấu hiệu van bẩn, kẹt hoặc áp lực nước
+    cấp vào quá cao. Nhóm thứ ba là gioăng mặt bích nơi lắp thanh đốt: rò ở đây
+    thường biểu hiện thành vệt nước chảy dọc thân bình từ phía mặt bích. Nhóm
+    nặng nhất là thân bình bị thủng do ăn mòn từ bên trong, thường sau nhiều năm
+    sử dụng và liên quan tới việc thanh magie bảo vệ đã mòn hết; trường hợp này
+    không vá được vì lớp tráng men và lớp cách nhiệt đã hỏng theo, và phương án
+    thực tế là thay bình. Về an toàn, nước rò trên một thiết bị có điện là tình
+    huống phải ngắt nguồn tại aptomat trước khi làm bất cứ việc gì khác, và cần
+    phân biệt với hiện tượng ngưng tụ trên bề mặt đường ống lạnh vốn không phải
+    rò rỉ.
+  nguon:
+  - url: https://www.energy.gov/energysaver/storage-water-heaters
+    title: U.S. Department of Energy — Storage Water Heaters
+  - url: https://www.energy.gov/energysaver/water-heating
+    title: U.S. Department of Energy — Water Heating
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ sản phẩm
+  serp: []
+
+bai_viet:
+  than: |
+    # Máy nước nóng rò nước: Phân biệt rò ở đường ống, van và thân bình
+
+    Nước quanh máy nước nóng không phải một vấn đề mà là **bốn vấn đề khác nhau**, xếp từ chuyện siết lại một con ốc cho tới chuyện phải thay cả bình. Nên câu hỏi đầu tiên là nước đến từ đâu.
+
+    <!-- IMAGE: IMG-001 | Người dùng soi đèn pin lên phần dưới bình nóng lạnh gắn tường, dưới sàn có vũng nước nhỏ -->
+
+    ## Việc đầu tiên, trước mọi việc khác
+
+    1. **Ngắt nguồn tại aptomat.** Đây là thiết bị có điện, và nước đang chảy ra ngoài.
+    2. **Khoá van cấp nước** vào máy.
+    3. Lau khô khu vực để lát nữa nhìn ra nước mới xuất hiện ở đâu.
+    4. Không chạm vào máy khi tay hoặc chân đang ướt.
+
+    Bước 3 nghe nhỏ nhưng nó là thứ giúp bạn xác định được nguồn rò: trên một bề mặt đã khô, giọt nước đầu tiên chỉ thẳng vào chỗ cần tìm.
+
+    ## Bốn nguồn rò, xếp từ nhẹ tới nặng
+
+    | Nguồn | Dấu hiệu | Mức độ |
+    |---|---|---|
+    | Mối nối ren ở đường cấp và đường ra | Nước đọng ngay tại chỗ nối, ốc có vết ẩm | Nhẹ — siết lại hoặc thay gioăng |
+    | Van một chiều, van an toàn | Nước chảy ra từ thân van hoặc ống xả của van | Tuỳ — xem mục dưới |
+    | Gioăng mặt bích lắp thanh đốt | Vệt nước chảy dọc thân bình từ phía mặt bích | Trung bình — cần tháo, thay gioăng |
+    | Thân bình thủng | Nước rỉ ra từ chính vỏ bình, không từ mối nối nào | Nặng — thay bình |
+
+    Ba dòng đầu sửa được. Dòng cuối thì không, và phần dưới giải thích vì sao.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh cụm van an toàn và van một chiều ở đường cấp vào bình nóng lạnh, có vệt nước đọng quanh ren -->
+
+    ## Van an toàn nhỏ giọt có thể là bình thường
+
+    Đây là chỗ hay bị hiểu nhầm nhất.
+
+    Nước nở ra khi được đun nóng, và áp suất trong bình tăng theo. Van an toàn có nhiệm vụ **xả bớt phần dư đó**. Nên một lượng nước nhỏ chảy ra từ van trong chu kỳ đun là hiện tượng theo thiết kế.
+
+    Cách phân biệt:
+
+    - **Chảy ít, chỉ trong lúc máy đang đun** → theo thiết kế.
+    - **Nhỏ giọt liên tục kể cả khi máy không đun** → van bẩn, kẹt, hoặc áp lực nước cấp vào quá cao.
+
+    Trường hợp thứ hai cần xử lý, nhưng đừng bịt van lại. Van bị bịt là bỏ mất thiết bị bảo vệ áp suất của cả chiếc bình.
+
+    ## Cách xác định vị trí rò
+
+    1. Lau khô toàn bộ thân máy và sàn bên dưới.
+    2. Đặt giấy hoặc khăn khô ở vài vị trí: dưới cụm van, dưới mặt bích, dưới đáy bình.
+    3. Mở lại van cấp nước, **chưa cắm điện**.
+    4. Chờ và xem chỗ nào ướt trước.
+    5. Nếu chưa thấy gì, bật điện cho máy đun một chu kỳ rồi kiểm lại — có những chỗ chỉ rò khi nóng và áp suất tăng.
+
+    Bước 5 giải thích vì sao nhiều người "không thấy rò" vào buổi sáng nhưng chiều lại có nước.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt aptomat và khoá van cấp, dùng khăn khô kiểm tra quanh mặt bích thanh đốt của bình -->
+
+    ## Thân bình thủng — vì sao không vá được
+
+    Bình chứa bị ăn mòn **từ bên trong ra**. Khi nước rỉ qua vỏ thì lớp tráng men bên trong đã hỏng trên một vùng rộng, và lớp cách nhiệt giữa vỏ trong với vỏ ngoài cũng đã ngấm nước.
+
+    Hàn hay vá chỗ thủng nhìn thấy được không giải quyết được phần còn lại, và chỗ thủng tiếp theo thường xuất hiện không lâu sau đó. Phương án thực tế là **thay bình**.
+
+    Đây cũng là lý do thanh magie đáng được kiểm định kỳ: nó mòn thay cho vỏ bình, và khi nó mòn hết thì phần bị ăn mòn tiếp theo chính là vỏ.
+
+    ## Phân biệt với ngưng tụ
+
+    Nếu nước đọng thành giọt li ti trên **bề mặt ngoài của đường ống lạnh** hoặc thân máy, mà lau khô rồi một lúc lại có, thì có thể chỉ là hơi nước trong không khí ngưng lại trên bề mặt lạnh. Nó nặng hơn trong phòng tắm kín và ẩm.
+
+    Cách phân biệt: ngưng tụ xuất hiện **đều trên cả một vùng**, còn rò rỉ thì bắt nguồn từ **một điểm** và chảy thành vệt.
+
+    ## Dấu hiệu phải ngừng dùng ngay
+
+    - Nước rỉ ra từ **chính vỏ bình**.
+    - Nước chảy tới gần phần điện, ổ cắm hoặc dây dẫn.
+    - **Cảm giác tê** khi chạm vào vòi, vòi sen hoặc thân máy.
+    - Thiết bị chống rò điện ngắt cùng lúc với hiện tượng rò nước.
+
+    Trong cả bốn trường hợp: ngắt aptomat, khoá van cấp, không dùng máy, và gọi kỹ thuật viên.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh tháo bình nóng lạnh rò nước khỏi giá treo tường tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: nước xuất hiện ở đâu theo bảng phía trên, rò liên tục hay chỉ khi máy đun, máy dùng được bao lâu rồi, và thiết bị chống rò điện có ngắt không. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn là chuyện mối nối, chuyện van, chuyện gioăng mặt bích, hay là bình đã tới lúc thay. Ảnh chụp chỗ rò giúp phân biệt nhanh hơn nhiều so với mô tả.
+
+    Nếu kèm dấu hiệu tê điện, đọc ngay <!-- INTERNAL: máy nước nóng bị rò điện | /may-nuoc-nong-bi-ro-dien/ -->. Nếu phải thay máy hoặc đổi vị trí, xem <!-- INTERNAL: lắp đặt máy nước nóng | /lap-dat-may-nuoc-nong/ -->. Muốn biết chi phí gồm những phần nào, đọc <!-- INTERNAL: giá sửa máy nước nóng | /gia-sua-may-nuoc-nong/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy nước nóng rò nước ở đâu là nặng nhất?
+
+    Rò từ chính vỏ bình là nặng nhất, vì bình chứa bị ăn mòn từ bên trong ra: khi nước rỉ qua vỏ thì lớp tráng men đã hỏng trên vùng rộng và lớp cách nhiệt đã ngấm nước. Trường hợp này không vá được, phương án thực tế là thay bình. Rò ở mối nối, ở van và ở gioăng mặt bích thì đều sửa được.
+
+    ### Van an toàn máy nước nóng nhỏ giọt có sao không?
+
+    Tuỳ lúc. Nước nở ra khi được đun nóng và van an toàn có nhiệm vụ xả bớt phần dư, nên chảy ít trong lúc máy đang đun là theo thiết kế. Nhưng nhỏ giọt liên tục kể cả khi máy không đun thì cần kiểm van bẩn, van kẹt hoặc áp lực nước cấp quá cao. Không được bịt van lại.
+
+    ### Làm sao biết máy nước nóng rò ở chỗ nào?
+
+    Ngắt điện, khoá van cấp, lau khô toàn bộ thân máy và sàn, rồi đặt khăn khô ở dưới cụm van, dưới mặt bích và dưới đáy bình. Mở lại nước và chờ xem chỗ nào ướt trước. Nếu chưa thấy, cho máy đun một chu kỳ rồi kiểm lại, vì có chỗ chỉ rò khi nóng và áp suất tăng.
+
+    ### Máy nước nóng rò nước có nguy hiểm không?
+
+    Có, vì đây là thiết bị có điện. Việc đầu tiên luôn là ngắt nguồn tại aptomat rồi mới làm việc khác. Nếu nước chảy tới gần phần điện, có cảm giác tê khi chạm vào vòi hoặc thân máy, hoặc thiết bị chống rò điện ngắt cùng lúc, thì ngừng sử dụng và gọi kỹ thuật viên.
+
+    ### Ficool có xử lý máy nước nóng rò nước tại TP.HCM không?
+
+    Có. Bạn gửi vị trí thấy nước, rò liên tục hay chỉ khi máy đun, tuổi máy và tình trạng thiết bị chống rò điện. Kỹ thuật viên Ficool sẽ xác định nguồn rò, nêu rõ hạng mục cần làm và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Máy nước nóng rò nước, tìm nguồn trước khi sửa
+    mo_ta: >-
+      Bốn nguồn rò xếp từ nhẹ tới nặng, vì sao van an toàn nhỏ giọt có thể là
+      bình thường, và khi nào bình đã tới lúc thay.
+    slug: may-nuoc-nong-bi-ro-nuoc
+    tu_khoa_phu:
+    - bình nóng lạnh bị rò nước
+    - máy nước nóng chảy nước
+    - bình nóng lạnh chảy nước từ van

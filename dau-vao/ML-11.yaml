@@ -1,0 +1,155 @@
+chu_de:
+  id: ML-11
+  tieu_de: 'Máy lạnh lâu ngày không sử dụng: Cần kiểm tra gì trước khi bật lại?'
+  tu_khoa_chinh: máy lạnh lâu ngày không sử dụng
+  chuyen_muc: Máy lạnh
+  the:
+  - Bảo trì
+  - Kinh nghiệm hay
+  giai_doan_phieu: F2
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Một chiếc máy lạnh nghỉ dài ngày không đứng yên về mặt trạng thái: bụi tiếp
+    tục lắng lên lưới lọc và lá dàn, hơi ẩm còn lại trong máng hứng nước ngưng
+    và trên bề mặt dàn lạnh tạo điều kiện cho nấm mốc phát triển vì không còn
+    dòng khí làm khô, và dàn nóng đặt ngoài trời trở thành nơi côn trùng làm tổ
+    hoặc chuột trú ngụ. Các trường hợp tổ côn trùng trong khoang dàn nóng hoặc
+    trong đường ống thoát nước ngưng là nguyên nhân quen thuộc của việc máy chạy
+    lại thì kém lạnh hoặc chảy nước. Về phần điện, dây dẫn ngoài trời có thể bị
+    chuột cắn hoặc bị lão hoá vỏ cách điện, và các điểm đấu nối có thể oxy hoá
+    trong môi trường ẩm. Về phần cơ, dầu bôi trơn trong máy nén lắng xuống khi
+    máy nghỉ lâu; nhiều nhà sản xuất khuyến cáo cấp nguồn cho máy một khoảng
+    thời gian trước khi cho chạy chế độ làm lạnh, để bộ sấy dầu của máy nén hoạt
+    động, và khoảng thời gian này khác nhau theo model nên cần tra tài liệu của
+    máy. Về môi chất, rò rỉ xảy ra trong thời gian không dùng sẽ không được phát
+    hiện cho tới lần bật lại, nên biểu hiện kém lạnh sau một mùa nghỉ có thể bắt
+    nguồn từ đó. Trình tự khởi động lại được khuyến cáo là kiểm tra ngoại quan
+    và vệ sinh trước, cấp nguồn chờ theo hướng dẫn, chạy chế độ quạt trước để
+    làm khô và đẩy bụi, rồi mới chạy chế độ làm lạnh và theo dõi trong thời gian
+    đầu.
+  nguon:
+  - url: https://www.energy.gov/energysaver/maintaining-your-air-conditioner
+    title: U.S. Department of Energy — Maintaining Your Air Conditioner
+  - url: https://www.epa.gov/mold/mold-course-chapter-2
+    title: US EPA — Mold Course, Chapter 2
+  - url: https://www.daikin.com.vn/vi/support/faq/
+    title: Daikin Việt Nam — Hỏi đáp hỗ trợ
+  serp: []
+
+bai_viet:
+  than: |
+    # Máy lạnh lâu ngày không sử dụng: Cần kiểm tra gì trước khi bật lại?
+
+    Một chiếc máy nghỉ dài ngày **không đứng yên**. Bụi vẫn lắng, ẩm vẫn còn trong máng nước, dàn nóng ngoài trời vẫn là chỗ côn trùng làm tổ. Bật thẳng lên sau một mùa nghỉ là bật một chiếc máy đã khác với lúc bạn tắt nó.
+
+    <!-- IMAGE: IMG-001 | Người dùng cầm remote đứng trước dàn lạnh treo tường trong căn phòng lâu ngày không dùng, rèm còn đóng -->
+
+    ## Bốn thứ đổi trong lúc máy nghỉ
+
+    | Phần | Chuyện gì xảy ra |
+    |---|---|
+    | Lưới lọc, lá dàn | Bụi tiếp tục lắng, dày thêm |
+    | Máng nước, bề mặt dàn lạnh | Ẩm còn lại mà **không còn dòng khí làm khô** → nấm mốc |
+    | Dàn nóng ngoài trời | Côn trùng làm tổ, chuột trú, lá cây và rác lấp |
+    | Dây điện ngoài trời | Chuột cắn, vỏ cách điện lão hoá, điểm đấu nối oxy hoá |
+
+    Dòng thứ hai giải thích mùi ẩm xộc ra ngay phút đầu tiên khi bật lại. Dòng thứ ba giải thích vì sao máy chạy lại thì kém lạnh hoặc chảy nước, dù trước khi nghỉ nó vẫn tốt.
+
+    ## Trình tự bật lại — sáu bước
+
+    1. **Kiểm ngoại quan dàn nóng.** Tổ côn trùng, lá cây, rác, vật rơi vào. Dọn sạch và chừa khoảng thoáng.
+    2. **Kiểm dây điện** phần ngoài trời: có vết cắn, vỏ nứt, đấu nối lỏng không.
+    3. **Ngắt aptomat, vệ sinh lưới lọc.** Rửa, để khô hoàn toàn rồi lắp lại.
+    4. **Cấp nguồn và chờ** theo hướng dẫn của model trước khi cho chạy làm lạnh — xem mục dưới.
+    5. **Chạy chế độ quạt trước.** Nó làm khô bề mặt và đẩy bụi ra trước khi máy bắt đầu ngưng nước.
+    6. **Rồi mới chạy chế độ làm lạnh**, và theo dõi.
+
+    Bước 5 là bước tốn ít công nhất mà giảm mùi rõ nhất, vì nó xử lý đúng nguyên nhân: ẩm đọng trên bề mặt.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh khoang dàn nóng máy lạnh ngoài ban công, bên trong có tổ côn trùng và lá cây khô lấp giữa các lá tản nhiệt -->
+
+    ## Vì sao phải cấp nguồn chờ trước khi chạy lạnh
+
+    Dầu bôi trơn trong máy nén **lắng xuống** khi máy nghỉ lâu. Nhiều nhà sản xuất khuyến cáo cấp nguồn cho máy một khoảng thời gian trước khi cho chạy chế độ làm lạnh, để bộ sấy dầu của máy nén hoạt động.
+
+    Khoảng thời gian này **khác nhau theo model**, nên hãy tra tài liệu của chính chiếc máy đó thay vì lấy một con số chung. Nếu không tìm được tài liệu, đây là câu đáng hỏi kỹ thuật viên.
+
+    Bỏ bước này với một máy nghỉ cả mùa là cho máy nén khởi động trong điều kiện không thuận lợi nhất của nó.
+
+    ## Theo dõi trong buổi đầu tiên
+
+    Sau khi chạy làm lạnh, để ý bốn thứ:
+
+    - **Nhiệt độ gió ra** có mát dần đều không.
+    - **Nước** có thoát đúng đường không, có nhỏ giọt từ dàn lạnh không.
+    - **Tiếng ồn** có gì lạ so với trước khi nghỉ không.
+    - **Mùi** có giảm dần sau vài chục phút không.
+
+    Mùi ẩm giảm dần là bình thường. Mùi **không giảm** sau khi máy đã chạy một lúc thì nguồn mùi nằm ở máng nước và bề mặt dàn — đó là việc của vệ sinh sâu.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã ngắt aptomat, dùng đèn pin soi vào khoang dàn nóng và gỡ tổ côn trùng ra ngoài -->
+
+    ## Dừng ngay nếu thấy bốn dấu hiệu này
+
+    - **Mùi khét** hoặc khói.
+    - **Aptomat nhảy** khi cấp điện.
+    - **Nước chảy thành dòng** từ dàn lạnh.
+    - **Tiếng va đập kim loại** mạnh từ dàn nóng.
+
+    Cả bốn đều là ngắt aptomat trước, gọi sau. Với máy nghỉ lâu, hai dấu hiệu đầu hay liên quan tới phần điện đã bị chuột cắn hoặc bị ẩm — không phải thứ nên thử lại lần nữa.
+
+    ## Đường thoát nước ngưng: chỗ hay bị bỏ qua
+
+    Ống thoát nước ngưng là một đường ống nhỏ, hở đầu, để yên nhiều tháng. Côn trùng làm tổ trong đó là chuyện thường gặp, và hậu quả là nước không thoát được, đọng lại rồi tràn ra tường ngay hôm bật lại.
+
+    Nếu máy nghỉ cả mùa, hãy tính việc kiểm đường thoát vào lượt chuẩn bị chứ đừng chờ tới lúc thấy vệt nước trên tường.
+
+    ## Khi nào nên gọi thợ trước khi bật
+
+    - Máy nghỉ **qua nhiều mùa**, không chỉ một mùa.
+    - Dàn nóng có **tổ côn trùng hoặc dấu vết chuột**.
+    - Thấy **dây điện bị cắn** hoặc vỏ cách điện nứt.
+    - Trước khi nghỉ máy **đã có vấn đề** chưa xử lý.
+    - Nhà đóng cửa lâu, phòng ẩm và có mùi mốc rõ.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh vệ sinh dàn lạnh và thông đường thoát nước ngưng trước khi bàn giao cho khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: máy nghỉ bao lâu, dàn nóng có tổ côn trùng hay dấu vết chuột không, trước khi nghỉ máy có vấn đề gì không, và phòng có ẩm mốc không. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn tự bật lại được hay nên kiểm trước khi cấp điện. Nếu thấy dây điện có vết cắn, hãy nói ngay và đừng bật máy.
+
+    Về hạng mục kiểm định kỳ, đọc <!-- INTERNAL: bảo trì máy lạnh | /bao-tri-may-lanh/ -->. Phần nào tự vệ sinh được, xem <!-- INTERNAL: vệ sinh máy lạnh tại nhà | /ve-sinh-may-lanh-tai-nha/ -->. Nếu bật lại mà máy kém lạnh, đọc <!-- INTERNAL: máy lạnh không lạnh | /may-lanh-khong-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Máy lạnh lâu ngày không dùng có bật thẳng được không?
+
+    Không nên. Trong lúc máy nghỉ, bụi vẫn lắng, ẩm còn lại trong máng nước tạo điều kiện cho nấm mốc vì không còn dòng khí làm khô, và dàn nóng ngoài trời có thể có tổ côn trùng hoặc dấu vết chuột. Hãy kiểm ngoại quan, vệ sinh lưới lọc, cấp nguồn chờ theo hướng dẫn, chạy quạt trước rồi mới chạy lạnh.
+
+    ### Vì sao phải cấp nguồn chờ trước khi chạy chế độ lạnh?
+
+    Vì dầu bôi trơn trong máy nén lắng xuống khi máy nghỉ lâu. Nhiều nhà sản xuất khuyến cáo cấp nguồn một khoảng thời gian trước khi cho chạy làm lạnh để bộ sấy dầu hoạt động. Khoảng thời gian này khác nhau theo model nên cần tra tài liệu của chính chiếc máy đó.
+
+    ### Máy lạnh bật lại có mùi hôi thì làm sao?
+
+    Chạy chế độ quạt trước một lúc để làm khô bề mặt và đẩy bụi. Mùi ẩm giảm dần sau vài chục phút là bình thường. Nếu mùi không giảm khi máy đã chạy một lúc thì nguồn mùi nằm ở máng hứng nước ngưng và bề mặt dàn lạnh, và đó là việc của vệ sinh sâu.
+
+    ### Vì sao máy lạnh nghỉ lâu bật lại thì chảy nước?
+
+    Nguyên nhân hay gặp là đường thoát nước ngưng bị tắc. Đây là một ống nhỏ hở đầu để yên nhiều tháng, nên côn trùng làm tổ trong đó là chuyện thường gặp; nước không thoát được sẽ đọng lại rồi tràn ra tường ngay hôm bật lại.
+
+    ### Ficool có kiểm tra máy lạnh trước khi bật lại tại TP.HCM không?
+
+    Có. Bạn gửi thời gian máy nghỉ, tình trạng dàn nóng có tổ côn trùng hay dấu vết chuột, vấn đề tồn tại trước khi nghỉ và mức ẩm mốc của phòng. Kỹ thuật viên Ficool sẽ nói bạn tự bật lại được hay nên kiểm trước khi cấp điện, và thống nhất chi phí trước khi làm.
+  seo:
+    tieu_de: Máy lạnh lâu ngày không dùng, bật lại thế nào?
+    mo_ta: >-
+      Bốn thứ đổi trong lúc máy nghỉ, trình tự bật lại sáu bước, và vì sao phải
+      cấp nguồn chờ trước khi chạy chế độ lạnh.
+    slug: may-lanh-lau-ngay-khong-su-dung
+    tu_khoa_phu:
+    - bật máy lạnh sau thời gian dài
+    - bảo quản máy lạnh khi không dùng
+    - máy lạnh để lâu không dùng

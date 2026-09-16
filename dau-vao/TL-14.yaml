@@ -1,0 +1,145 @@
+chu_de:
+  id: TL-14
+  tieu_de: Cách chỉnh nhiệt độ tủ lạnh phù hợp với lượng thực phẩm
+  tu_khoa_chinh: cách chỉnh nhiệt độ tủ lạnh
+  chuyen_muc: Tủ lạnh
+  the:
+  - Kinh nghiệm hay
+  giai_doan_phieu: F3
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Về an toàn thực phẩm, các cơ quan quản lý khuyến cáo giữ ngăn mát ở mức từ
+    4 độ C trở xuống và ngăn đá ở mức âm 18 độ C, vì trong khoảng nhiệt độ từ
+    khoảng 4 tới 60 độ C vi khuẩn phát triển nhanh. Đây là mốc theo nhiệt độ
+    THỰC bên trong khoang, không phải theo nấc trên bảng điều khiển. Nhiều tủ
+    lạnh chỉ có núm xoay hoặc dãy nấc từ 1 tới 7 mà không hiển thị nhiệt độ, và
+    các nấc đó chỉ là mức tương đối; nấc cao hơn nghĩa là lạnh hơn ở phần lớn
+    model nhưng không phải mọi model, nên cách chắc chắn là đo bằng nhiệt kế
+    cầm tay đặt trong khoang. Cách đo đúng: đặt nhiệt kế vào giữa ngăn mát, tốt
+    nhất trong một cốc nước để phản ánh nhiệt độ thực phẩm thay vì nhiệt độ
+    không khí dao động theo mỗi lần mở cửa; đóng cửa và chờ nhiều giờ, tránh mở
+    cửa trong thời gian đo; rồi đọc. Về ảnh hưởng của lượng thực phẩm: tủ quá
+    trống làm nhiệt độ dao động mạnh hơn mỗi lần mở cửa vì không khí lạnh thoát
+    ra nhanh và không có khối lượng nào giữ lạnh; tủ quá đầy lại chặn dòng khí
+    lưu thông và tạo vùng ấm cục bộ, đặc biệt khi thực phẩm che cửa gió. Mức lấp
+    đầy hợp lý thường được khuyến cáo là khoảng ba phần tư, chừa lối cho không
+    khí đi. Các yếu tố khác cần điều chỉnh theo: nhiệt độ phòng thay đổi theo
+    mùa, tần suất mở cửa, và việc vừa nạp nhiều thực phẩm cùng lúc. Đặt lạnh hơn
+    mức cần không bảo quản tốt hơn mà chỉ làm block chạy nhiều hơn và tốn điện.
+  nguon:
+  - url: https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety
+    title: US FDA — Refrigerator Thermometers and Food Safety
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Cách chỉnh nhiệt độ tủ lạnh phù hợp với lượng thực phẩm
+
+    Mốc an toàn thực phẩm là ngăn mát từ 4 độ C trở xuống và ngăn đá ở âm 18 độ C. Nhưng đó là nhiệt độ **thực** bên trong khoang, không phải nấc trên bảng điều khiển. Nếu tủ nhà bạn chỉ có núm xoay từ 1 tới 7, cách duy nhất để biết là đo.
+
+    <!-- IMAGE: IMG-001 | Người dùng đặt một nhiệt kế cầm tay vào cốc nước rồi để giữa ngăn mát tủ lạnh -->
+
+    ## Nấc trên núm xoay không phải nhiệt độ
+
+    Nhiều tủ chỉ có núm xoay hoặc dãy nấc từ 1 tới 7 mà không hiển thị nhiệt độ. Các nấc đó là mức **tương đối**, không phải độ C.
+
+    Ở phần lớn model, nấc cao hơn nghĩa là lạnh hơn — nhưng không phải mọi model đều vậy. Đây là lý do một chiếc nhiệt kế cầm tay rẻ tiền lại hữu ích hơn mọi lời khuyên về "nên để nấc mấy".
+
+    ## Đo thế nào cho đúng
+
+    1. Đặt nhiệt kế vào **giữa ngăn mát**, nên để **trong một cốc nước**.
+    2. Đóng cửa, chờ nhiều giờ.
+    3. **Không mở cửa** trong thời gian đo.
+    4. Đọc kết quả.
+
+    Vì sao đặt trong cốc nước: nhiệt độ không khí trong tủ dao động mạnh mỗi lần mở cửa, còn nhiệt độ nước phản ánh sát hơn nhiệt độ mà thực phẩm thực sự đang ở.
+
+    Với ngăn đá, đặt nhiệt kế giữa các món đông và đo tương tự.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh ngăn mát tủ lạnh nhồi đầy thực phẩm che kín ô lưới cửa gió ở thành sau -->
+
+    ## Lượng thực phẩm ảnh hưởng thế nào?
+
+    | Mức lấp đầy | Vấn đề |
+    |---|---|
+    | Quá trống | Nhiệt độ dao động mạnh mỗi lần mở cửa, không có khối lượng nào giữ lạnh |
+    | Khoảng ba phần tư | Mức thường được khuyến cáo, còn lối cho không khí đi |
+    | Quá đầy | Chặn dòng khí, tạo vùng ấm cục bộ, nhất là khi che cửa gió |
+
+    Dòng cuối là chỗ hay xảy ra vấn đề nhất: một hộp cao đặt sát thành sau có thể che ô lưới cửa gió, và phần khí lạnh xuống ngăn mát bị chặn.
+
+    Nếu tủ thường xuyên trống, đặt vài chai nước vào để tăng khối lượng giữ lạnh cũng là một cách.
+
+    ## Bốn thời điểm nên điều chỉnh
+
+    - **Đổi mùa.** Nhiệt độ phòng cao hơn thì tủ phải làm việc nhiều hơn.
+    - **Vừa nạp nhiều thực phẩm cùng lúc.** Có thể tăng lạnh tạm thời trong một hai ngày.
+    - **Tủ trống hơn bình thường.** Ví dụ khi cả nhà đi vắng.
+    - **Tần suất mở cửa thay đổi.** Nhà đông người vào dịp lễ khác ngày thường.
+
+    Sau mỗi lần điều chỉnh, **chờ ít nhất một ngày rồi mới đo lại**. Tủ cần thời gian để ổn định, và đo ngay sau khi vặn núm sẽ cho con số không phản ánh gì.
+
+    ## Đặt lạnh nhất có tốt hơn không?
+
+    Không. Đặt lạnh hơn mức cần **không** bảo quản tốt hơn. Nó chỉ khiến block chạy nhiều hơn, tốn điện hơn, và với ngăn mát thì có thể làm đông cục bộ những món đặt gần cửa gió.
+
+    Mục tiêu là **đạt mốc an toàn** rồi dừng, không phải càng lạnh càng tốt.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, chỉ cho khách xem ô lưới cửa gió ở thành sau ngăn mát đang bị hộp thực phẩm che -->
+
+    ## Sắp xếp cũng quan trọng ngang cài đặt
+
+    - Chừa khoảng trống quanh **cửa gió** ở thành sau hoặc thành trên.
+    - Không xếp thực phẩm chạm sát thành sau.
+    - Đậy kín mọi món, vừa tránh lan mùi vừa giảm hơi ẩm.
+    - Để đồ nguội hẳn trước khi cho vào tủ.
+
+    Một chiếc tủ cài đúng nhiệt độ nhưng xếp chặn cửa gió vẫn sẽ có vùng ấm.
+
+    ## Nếu đo mà không đạt mốc
+
+    Nếu đã cài đúng, chờ đủ, sắp xếp thoáng mà nhiệt độ thực vẫn không đạt, vấn đề không nằm ở cài đặt. Hãy kiểm theo thứ tự: gioăng cửa còn kín không, dàn nóng có bám bụi không, tủ có đủ khoảng thoáng không, và ngăn đá có bám tuyết dày không.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh dùng nhiệt kế điện tử đo nhiệt độ thực trong ngăn mát tủ lạnh tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Ba thông tin: model tủ, nhiệt độ **thực đo được** ở ngăn mát và ngăn đá, và mức lấp đầy hiện tại. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn cần điều chỉnh cài đặt, điều chỉnh cách sắp xếp, hay cần kiểm tra thiết bị. Con số đo được thường quyết định luôn hướng xử lý.
+
+    Nếu nhiệt độ không đạt dù đã cài đúng, đọc <!-- INTERNAL: tủ lạnh không lạnh | /tu-lanh-khong-lanh/ -->. Nếu chỉ ngăn mát ấm, xem <!-- INTERNAL: ngăn mát tủ lạnh không lạnh | /ngan-mat-tu-lanh-khong-lanh/ -->. Nếu nghi gioăng cửa hở, đọc <!-- INTERNAL: gioăng tủ lạnh bị hở | /gioang-tu-lanh-bi-ho/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Nhiệt độ tủ lạnh nên để bao nhiêu?
+
+    Mốc an toàn thực phẩm được khuyến cáo là ngăn mát từ 4 độ C trở xuống và ngăn đá ở âm 18 độ C. Đây là nhiệt độ thực bên trong khoang, không phải nấc trên núm xoay. Cách chắc chắn để biết là đo bằng nhiệt kế cầm tay.
+
+    ### Nấc 1 tới 7 trên tủ lạnh nghĩa là gì?
+
+    Đó là mức tương đối chứ không phải độ C. Ở phần lớn model, nấc cao hơn nghĩa là lạnh hơn, nhưng không phải mọi model đều vậy. Hãy tra tài liệu của máy, và tốt hơn là đo nhiệt độ thực để biết nấc nào ứng với mức nào.
+
+    ### Đo nhiệt độ tủ lạnh thế nào cho chính xác?
+
+    Đặt nhiệt kế vào giữa ngăn mát, nên để trong một cốc nước, rồi đóng cửa và chờ nhiều giờ mà không mở. Nhiệt độ nước phản ánh sát hơn nhiệt độ thực phẩm đang ở, trong khi nhiệt độ không khí dao động mạnh mỗi lần mở cửa.
+
+    ### Tủ lạnh để đầy hay để vơi thì tốt hơn?
+
+    Khoảng ba phần tư là mức thường được khuyến cáo. Quá trống thì nhiệt độ dao động mạnh mỗi lần mở cửa; quá đầy thì chặn dòng khí và tạo vùng ấm cục bộ, nhất là khi thực phẩm che cửa gió ở thành sau.
+
+    ### Ficool có kiểm tra nhiệt độ tủ lạnh tại TP.HCM không?
+
+    Có. Bạn gửi model, nhiệt độ thực đo được ở hai ngăn và mức lấp đầy hiện tại. Kỹ thuật viên Ficool sẽ nói trường hợp của bạn cần điều chỉnh cài đặt, đổi cách sắp xếp, hay cần kiểm tra thiết bị. Chi phí nếu cần tới nơi được thống nhất trước.
+  seo:
+    tieu_de: Cách chỉnh nhiệt độ tủ lạnh theo lượng thực phẩm
+    mo_ta: >-
+      Nấc trên núm xoay không phải độ C. Cách đo nhiệt độ thực, mức lấp đầy hợp
+      lý và bốn thời điểm nên điều chỉnh lại.
+    slug: cach-chinh-nhiet-do-tu-lanh
+    tu_khoa_phu:
+    - nhiệt độ tủ lạnh bao nhiêu
+    - chỉnh nấc tủ lạnh
+    - nhiệt độ ngăn mát ngăn đá

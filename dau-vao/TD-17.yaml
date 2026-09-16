@@ -1,0 +1,157 @@
+chu_de:
+  id: TD-17
+  tieu_de: Nên mua tủ đông đứng hay tủ đông nằm cho gia đình?
+  tu_khoa_chinh: tủ đông đứng hay tủ đông nằm
+  chuyen_muc: Tủ mát, tủ đông
+  the:
+  - Kinh nghiệm hay
+  giai_doan_phieu: F4
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Khác biệt cơ bản giữa tủ đông nằm và tủ đông đứng bắt nguồn từ một đặc tính
+    vật lý: khí lạnh nặng hơn khí ấm. Với tủ nằm, khi mở nắp thì khí lạnh đọng
+    lại trong lòng tủ nên lượng lạnh mất đi ít hơn, còn với tủ đứng thì khí lạnh
+    tràn ra ngoài mỗi lần mở cửa. Hệ quả là ở cùng điều kiện sử dụng, tủ nằm
+    thường giữ nhiệt ổn định hơn khi mở nhiều lần, và cũng giữ lạnh được lâu hơn
+    trong một đợt mất điện nếu không mở nắp. Đổi lại, tủ đứng có ưu thế về thao
+    tác: hàng xếp theo ngăn và giỏ ở tầm mắt nên dễ tìm, dễ phân loại và ít khi
+    có món nằm quên dưới đáy; tủ đứng cũng chiếm ít diện tích sàn hơn so với
+    dung tích tương đương, điều này quan trọng với căn hộ và nhà phố nhỏ. Về
+    dung tích sử dụng, thông số ghi trên tem là dung tích hình học, còn phần
+    dùng được nhỏ hơn vì giỏ, ngăn kéo và khoảng lưu thông khí chiếm chỗ; tủ nằm
+    thường tận dụng được không gian tốt hơn cho các món cồng kềnh vì lòng tủ
+    liền khối. Về vệ sinh, tủ nằm cần xả tuyết thủ công ở phần lớn model và nước
+    tan đọng ở đáy nên thao tác nặng hơn, trong khi nhiều model tủ đứng có cơ
+    chế xả tuyết tự động nhưng bù lại tiêu thụ điện có thể cao hơn. Về lắp đặt,
+    cả hai loại đều cần mặt sàn phẳng chịu tải, kê cân và chừa khoảng hở thải
+    nhiệt; riêng tủ nằm cần thêm khoảng trống phía trên vì nắp mở lên cao hơn
+    thân tủ.
+  nguon:
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  - url: https://www.energy.gov/energysaver/energy-efficient-refrigerators
+    title: U.S. Department of Energy — Energy Efficient Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Nên mua tủ đông đứng hay tủ đông nằm cho gia đình?
+
+    Khác biệt giữa hai loại bắt nguồn từ một điều rất đơn giản: **khí lạnh nặng hơn khí ấm**. Mở nắp tủ nằm thì khí lạnh đọng lại trong lòng tủ; mở cửa tủ đứng thì khí lạnh tràn ra ngoài. Gần như mọi ưu và nhược của hai loại đều đi ra từ đó.
+
+    <!-- IMAGE: IMG-001 | Người dùng đứng giữa gian bếp nhìn khoảng trống dự kiến kê tủ đông, tay cầm thước dây -->
+
+    ## Bảng so sánh
+
+    | Tiêu chí | Tủ đông nằm | Tủ đông đứng |
+    |---|---|---|
+    | Giữ lạnh khi mở | Tốt hơn, khí lạnh đọng trong lòng tủ | Mất nhanh hơn mỗi lần mở cửa |
+    | Giữ lạnh khi mất điện | Lâu hơn, nếu không mở nắp | Ngắn hơn |
+    | Tìm đồ | Phải bới, món ở đáy dễ nằm quên | Ngăn và giỏ ở tầm mắt, dễ tìm |
+    | Diện tích sàn chiếm | Nhiều hơn ở cùng dung tích | Ít hơn |
+    | Món cồng kềnh | Lòng liền khối, chứa tốt hơn | Bị chia theo ngăn |
+    | Xả tuyết | Phần lớn model xả thủ công, nước đọng ở đáy | Nhiều model có xả tự động |
+    | Khoảng trống cần chừa | Thêm phía trên vì nắp mở cao | Thêm phía trước để mở cửa |
+
+    Không dòng nào trong bảng này thắng tuyệt đại đa số trường hợp. Cái quyết định là bạn nằm ở cột nào của phần dưới.
+
+    ## Chọn theo cách dùng, không chọn theo lời khuyên chung
+
+    **Nghiêng về tủ nằm nếu:**
+
+    - Bạn trữ hàng theo lô lớn và ít lấy ra.
+    - Có món cồng kềnh cần chứa nguyên khối.
+    - Khu vực hay mất điện.
+    - Có chỗ đặt rộng, không vướng kệ phía trên.
+
+    **Nghiêng về tủ đứng nếu:**
+
+    - Bạn lấy đồ nhiều lần mỗi ngày.
+    - Cần phân loại rõ ràng, nhiều nhóm thực phẩm khác nhau.
+    - Diện tích sàn hẹp, nhà phố hoặc căn hộ.
+    - Bạn ngại việc bới tìm và ngại xả tuyết thủ công.
+
+    Nếu cả hai cột đều đúng một nửa, hãy cân theo mục đầu tiên: **tần suất mở**. Đây là yếu tố ảnh hưởng tới điện năng và tới nhiệt độ ổn định nhiều nhất trong suốt thời gian dùng.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh bên trong tủ đông nằm chất đầy túi thực phẩm xếp chồng, phần dưới đáy khuất hẳn tầm nhìn -->
+
+    ## Dung tích ghi trên tem không phải dung tích dùng được
+
+    Con số trên thông số là **dung tích hình học**. Phần dùng được nhỏ hơn vì:
+
+    - Giỏ, ngăn kéo và vách ngăn chiếm chỗ.
+    - Cần chừa khoảng lưu thông khí.
+    - Không nên nhồi chặt tới mức chặn dòng khí.
+
+    Tủ nằm thường tận dụng được không gian tốt hơn cho món cồng kềnh nhờ lòng liền khối. Tủ đứng đổi phần đó lấy khả năng phân loại.
+
+    ## Ba thứ phải đo trước khi chốt
+
+    1. **Chỗ đặt** — rộng, sâu, cao, cộng khoảng hở thải nhiệt theo hướng dẫn của model.
+    2. **Lối đi và cửa ra vào** — cả chiều rộng lẫn khúc cua.
+    3. **Khoảng trống thao tác** — phía trên với tủ nằm, phía trước với tủ đứng.
+
+    Mục 3 hay bị quên. Một chiếc tủ nằm kê dưới kệ treo là chiếc tủ không mở hết nắp được, và điều đó ảnh hưởng tới cả việc lấy đồ lẫn việc vệ sinh về sau.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên mở hết nắp một chiếc tủ đông nằm để cho khách thấy chiều cao nắp khi mở so với kệ treo phía trên -->
+
+    ## Chuyện điện năng
+
+    Đừng so hai loại bằng cảm tính. Ba yếu tố quyết định thực tế:
+
+    - **Nhãn hiệu suất năng lượng** của chính model đó.
+    - **Tần suất mở** trong nhà bạn.
+    - **Vị trí đặt** và khoảng thoáng thải nhiệt.
+
+    Một chiếc tủ đứng hiệu suất cao đặt thoáng có thể tốn ít điện hơn một chiếc tủ nằm đặt sát tường trong góc nóng. Kiểu tủ chỉ là một trong ba yếu tố.
+
+    ## Nghĩ tới việc vệ sinh ngay từ lúc mua
+
+    Xả tuyết là việc sẽ lặp lại nhiều lần trong đời chiếc tủ:
+
+    - Với tủ nằm xả thủ công, bạn sẽ phải chuyển hết hàng ra ngoài, chờ tuyết tan và vét nước ở đáy.
+    - Với tủ đứng có xả tự động, công việc nhẹ hơn nhưng vẫn cần vệ sinh định kỳ.
+
+    Nếu bạn biết mình sẽ ngại việc này, hãy tính nó vào quyết định thay vì tính sau.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh tư vấn cho khách bên cạnh một tủ đông đứng và một tủ đông nằm đặt cạnh nhau -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: bạn trữ hàng theo lô hay lấy đồ mỗi ngày, loại thực phẩm chủ yếu, kích thước chỗ đặt cùng lối đi, và khu vực có hay mất điện không. Ficool tại TP.HCM sẽ tư vấn kiểu tủ và khoảng dung tích phù hợp, và khảo sát vị trí trước nếu cần lắp đặt hoặc di dời tủ cũ.
+
+    Về chuẩn bị vị trí và nguồn điện, đọc <!-- INTERNAL: lắp đặt tủ đông | /lap-dat-tu-dong/ -->. Về việc vệ sinh sẽ phải làm định kỳ, xem <!-- INTERNAL: cách xả tuyết tủ đông | /cach-xa-tuyet-tu-dong/ -->. Nếu tủ mới mua đông chậm, đọc <!-- INTERNAL: tủ đông không đông đá | /tu-dong-khong-dong-da/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Tủ đông đứng hay tủ đông nằm giữ lạnh tốt hơn?
+
+    Tủ nằm giữ lạnh ổn định hơn khi mở, vì khí lạnh nặng hơn khí ấm nên đọng lại trong lòng tủ thay vì tràn ra ngoài. Điều này cũng khiến tủ nằm giữ lạnh lâu hơn trong một đợt mất điện, với điều kiện không mở nắp.
+
+    ### Tủ đông nào tiết kiệm điện hơn?
+
+    Không quyết định được bằng kiểu tủ. Ba yếu tố thực sự chi phối là nhãn hiệu suất năng lượng của chính model đó, tần suất mở trong nhà bạn, và vị trí đặt cùng khoảng thoáng thải nhiệt. Một tủ đứng hiệu suất cao đặt thoáng có thể tốn ít điện hơn một tủ nằm đặt sát tường trong góc nóng.
+
+    ### Gia đình ở căn hộ nên chọn tủ đông loại nào?
+
+    Tủ đứng thường phù hợp hơn vì chiếm ít diện tích sàn hơn ở cùng dung tích, và hàng xếp theo ngăn ở tầm mắt nên dễ tìm khi lấy đồ nhiều lần mỗi ngày. Hãy đo cả lối đi, cửa ra vào và khoảng trống mở cửa trước khi chốt.
+
+    ### Tủ đông nằm có phải xả tuyết thủ công không?
+
+    Phần lớn model tủ nằm xả tuyết thủ công, và nước tan đọng ở đáy nên thao tác nặng hơn: phải chuyển hết hàng ra, chờ tuyết tan rồi vét nước. Nhiều model tủ đứng có cơ chế xả tự động, nhưng vẫn cần vệ sinh định kỳ.
+
+    ### Ficool có tư vấn chọn và lắp đặt tủ đông tại TP.HCM không?
+
+    Có. Bạn gửi cách dùng, loại thực phẩm chủ yếu, kích thước chỗ đặt cùng lối đi và tình hình điện khu vực. Ficool sẽ tư vấn kiểu tủ và khoảng dung tích phù hợp, khảo sát vị trí trước nếu cần lắp đặt hoặc di dời, và thống nhất chi phí trước khi thực hiện.
+  seo:
+    tieu_de: Tủ đông đứng hay tủ đông nằm hợp với nhà bạn?
+    mo_ta: >-
+      Bảy tiêu chí so sánh, cách chọn theo tần suất mở, và ba thứ phải đo trước
+      khi chốt mua.
+    slug: tu-dong-dung-hay-tu-dong-nam
+    tu_khoa_phu:
+    - so sánh tủ đông đứng nằm
+    - nên mua tủ đông nào
+    - chọn tủ đông cho gia đình

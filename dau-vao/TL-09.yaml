@@ -1,0 +1,148 @@
+chu_de:
+  id: TL-09
+  tieu_de: 'Tủ lạnh có mùi hôi: Cách tìm nguồn mùi và khử mùi hiệu quả'
+  tu_khoa_chinh: tủ lạnh có mùi hôi
+  chuyen_muc: Tủ lạnh
+  the:
+  - Vệ sinh
+  - Lỗi thường gặp
+  giai_doan_phieu: F1
+  loai_noi_dung: troubleshooting
+
+nghien_cuu:
+  van_ban: >-
+    Mùi trong tủ lạnh có bốn nguồn chính, và việc tìm đúng nguồn quan trọng hơn
+    việc khử mùi, vì khử mà không xử lý nguồn thì mùi quay lại sau vài ngày.
+    Nguồn thứ nhất là thực phẩm: món hỏng ẩn ở góc khuất hoặc phía sau, thực
+    phẩm để không đậy kín làm mùi lan chéo giữa các món, nước từ thịt cá rỉ
+    xuống khay dưới. Nguồn thứ hai là các bộ phận tích ẩm mà người dùng không
+    nghĩ tới: rãnh thoát nước ngưng ở thành sau ngăn mát, lỗ thoát và ống dẫn
+    xuống khay bay hơi, các khe dưới khay rau, và ron cao su viền cửa với các
+    nếp gấp giữ ẩm. Nguồn thứ ba là khay bay hơi phía sau gần block: nước ngưng
+    chảy xuống đó rồi bay hơi, và nếu có mảnh thực phẩm theo đường ống rơi vào,
+    khay này thành nơi phân huỷ; mùi từ đây thoát ra phía sau tủ chứ không ở
+    trong khoang, nên rất khó tìm. Nguồn thứ tư là vật liệu mới với tủ vừa mua,
+    mùi nhựa sẽ nhạt dần sau vài tuần. Về cách khử mùi, các phương pháp hấp thụ
+    phổ biến gồm baking soda để hở trong hộp, than hoạt tính, bã cà phê khô;
+    chúng hấp thụ mùi còn sót nhưng không thay thế được việc làm sạch. Nguyên
+    tắc thứ tự đúng là: bỏ nguồn mùi, làm sạch bề mặt và các khe, thông rãnh
+    thoát nước ngưng, lau khô hoàn toàn, rồi mới đặt chất hấp thụ. Nếu mùi vẫn
+    còn sau khi làm đủ các bước, khả năng cao nguồn nằm ở khay bay hơi phía sau
+    hoặc trong đường ống, và đó là phần cần tháo, thuộc việc của thợ.
+  nguon:
+  - url: https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety
+    title: US FDA — Refrigerator Thermometers and Food Safety
+  - url: https://www.energystar.gov/products/refrigerators
+    title: ENERGY STAR — Refrigerators
+  serp: []
+
+bai_viet:
+  than: |
+    # Tủ lạnh có mùi hôi: Cách tìm nguồn mùi và khử mùi hiệu quả
+
+    Tìm đúng nguồn mùi quan trọng hơn khử mùi. Baking soda hay than hoạt tính hấp thụ phần mùi còn sót, nhưng nếu nguồn vẫn còn thì mùi quay lại sau vài ngày. Bốn nguồn chính, và nguồn khó tìm nhất lại nằm **phía sau tủ** chứ không phải trong khoang.
+
+    <!-- IMAGE: IMG-001 | Người dùng mở cửa tủ lạnh và nhăn mặt, tay cầm hộp thực phẩm lấy từ ngăn dưới ra kiểm tra -->
+
+    ## Bốn nguồn mùi
+
+    | Nguồn | Ở đâu | Tự xử lý? |
+    |---|---|---|
+    | Thực phẩm | Món hỏng ở góc khuất, đồ không đậy kín, nước rỉ xuống khay | Được |
+    | Bộ phận tích ẩm | Rãnh thoát nước ngưng, khe dưới khay rau, nếp gấp ron cửa | Được |
+    | Khay bay hơi | Phía sau tủ, gần block | Không |
+    | Vật liệu mới | Tủ vừa mua, mùi nhựa | Chờ vài tuần |
+
+    Dòng thứ ba là dòng gây nhầm lẫn nhiều nhất: mùi thoát ra **phía sau tủ**, không phải trong khoang, nên bạn dọn sạch bên trong bao nhiêu lần cũng không hết.
+
+    ## Bắt đầu từ nguồn thứ nhất
+
+    Dọn toàn bộ tủ, không chừa ngăn nào:
+
+    1. Lấy hết thực phẩm ra, đặt lên bàn theo nhóm.
+    2. Kiểm từng món, bỏ món hỏng. Chú ý các góc khuất và hàng phía sau.
+    3. Kiểm khay dưới cùng — nước từ thịt cá thường rỉ xuống đó.
+    4. Đậy kín mọi món trước khi cho lại vào tủ.
+
+    Bước 4 phòng ngừa cho lần sau: mùi lan chéo giữa các món là nguyên nhân rất phổ biến.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh rãnh thoát nước ngưng ở thành sau ngăn mát, đọng nước bẩn và mảnh thực phẩm nhỏ -->
+
+    ## Bốn chỗ ẩm hay bị bỏ qua
+
+    - **Rãnh thoát nước ngưng** ở thành sau ngăn mát, và **lỗ thoát** ở đáy rãnh.
+    - **Khe dưới khay rau.** Nước và vụn thực phẩm đọng ở đó.
+    - **Nếp gấp ron cao su viền cửa.** Lật mép ra mới thấy.
+    - **Các rãnh đỡ kệ kính.** Nước rỉ xuống rồi đọng lại.
+
+    Cả bốn chỗ đều lau được bằng khăn ẩm với nước ấm. Riêng lỗ thoát nước ngưng, nếu nghẹt thì đổ từ từ một ít nước ấm để thông — không dùng vật cứng nhọn.
+
+    ## Thứ tự đúng khi khử mùi
+
+    Đây là chỗ nhiều người làm ngược, và vì làm ngược nên mùi quay lại.
+
+    1. **Bỏ nguồn mùi.** Thực phẩm hỏng, nước đọng.
+    2. **Làm sạch bề mặt và các khe.**
+    3. **Thông rãnh và lỗ thoát nước ngưng.**
+    4. **Lau khô hoàn toàn.** Ẩm còn lại là mùi quay lại.
+    5. **Rồi mới đặt chất hấp thụ.**
+
+    Chất hấp thụ phổ biến: baking soda để hở trong hộp, than hoạt tính, bã cà phê khô. Chúng xử lý phần mùi **còn sót**, không thay thế được bốn bước trên.
+
+    ## Nếu mùi vẫn còn sau khi làm đủ
+
+    Khả năng cao nguồn nằm ở **khay bay hơi** phía sau, gần block. Nước ngưng chảy xuống đó rồi bay hơi bằng nhiệt của block. Nếu mảnh thực phẩm theo đường ống rơi vào khay, nơi đó thành chỗ phân huỷ.
+
+    Dấu hiệu nhận biết: mùi rõ hơn khi đứng **phía sau tủ**, và mùi không giảm dù bên trong đã sạch.
+
+    Khay này nằm sau tấm che ở lưng tủ. Tiếp cận cần kéo tủ ra và tháo tấm che, nên đây là việc của kỹ thuật viên.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, tháo khay rau và lau khe rãnh bên dưới trong ngăn mát tủ lạnh -->
+
+    ## Khi nào cần kỹ thuật viên?
+
+    - Đã dọn sạch, thông rãnh, lau khô mà mùi vẫn còn sau một tuần.
+    - Mùi rõ hơn khi đứng phía sau tủ.
+    - Mùi kèm nước đọng dưới gầm.
+    - Mùi khét hoặc mùi nhựa cháy — đây là trường hợp rút điện ngay.
+    - Ron cửa hở khiến hơi ẩm vào liên tục và cần thay.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh tháo tấm che phía sau tủ lạnh để lấy khay bay hơi ra vệ sinh tại nhà khách -->
+
+    ## Gửi gì cho Ficool?
+
+    Bốn thông tin: mùi giống mùi gì, mùi rõ hơn khi mở cửa hay khi đứng phía sau tủ, bạn đã làm những bước nào, và tủ dùng bao lâu rồi. Kỹ thuật viên Ficool tại TP.HCM sẽ nói trường hợp của bạn cần tháo khay bay hơi hay chỉ cần dọn tiếp phần trong khoang.
+
+    Nếu có nước đọng kèm theo, đọc <!-- INTERNAL: tủ lạnh chảy nước | /tu-lanh-chay-nuoc/ -->. Nếu ron cửa hở, xem <!-- INTERNAL: gioăng tủ lạnh bị hở | /gioang-tu-lanh-bi-ho/ -->. Vệ sinh định kỳ giúp không rơi vào tình trạng này, xem <!-- INTERNAL: cách vệ sinh tủ lạnh | /cach-ve-sinh-tu-lanh/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Vì sao tủ lạnh đã dọn sạch mà vẫn hôi?
+
+    Vì nguồn mùi có thể không nằm trong khoang. Khay bay hơi phía sau tủ, gần block, là nơi nước ngưng chảy xuống rồi bay hơi; nếu có mảnh thực phẩm rơi vào theo đường ống thì đó thành chỗ phân huỷ. Mùi từ đây thoát ra phía sau chứ không vào trong tủ.
+
+    ### Baking soda khử mùi tủ lạnh có hiệu quả không?
+
+    Có, nhưng chỉ với phần mùi còn sót sau khi đã làm sạch. Baking soda hấp thụ mùi, nó không loại bỏ nguồn. Đặt baking soda vào một chiếc tủ còn thực phẩm hỏng hoặc rãnh nước đọng thì mùi sẽ quay lại trong vài ngày.
+
+    ### Thông lỗ thoát nước ngưng tủ lạnh thế nào?
+
+    Rút phích cắm, lấy khay rau ra, tìm lỗ thoát ở giữa rãnh thành sau ngăn mát, rồi đổ từ từ một ít nước ấm vào. Không dùng nước sôi và không dùng vật cứng nhọn vì dễ làm hỏng đường ống mềm bên dưới.
+
+    ### Tủ lạnh mới mua có mùi nhựa có sao không?
+
+    Thường không sao và mùi sẽ nhạt dần sau vài tuần. Bạn có thể lau toàn bộ bên trong bằng khăn ẩm với nước ấm, để cửa mở cho thoáng vài giờ trước khi cắm điện, và đặt một hộp baking soda để hở trong thời gian đầu.
+
+    ### Ficool có vệ sinh tủ lạnh và xử lý mùi tại TP.HCM không?
+
+    Có. Bạn gửi mô tả mùi, cho biết mùi rõ hơn khi mở cửa hay khi đứng phía sau tủ, và các bước bạn đã làm. Kỹ thuật viên Ficool sẽ nói trường hợp của bạn có cần tháo khay bay hơi hay không. Phạm vi và chi phí phụ thuộc tình trạng thực tế, được thống nhất trước.
+  seo:
+    tieu_de: 'Tủ lạnh có mùi hôi: tìm nguồn mùi trước khi khử'
+    mo_ta: >-
+      Bốn nguồn mùi, trong đó nguồn khó tìm nhất nằm ở khay bay hơi phía sau tủ.
+      Thứ tự đúng khi khử mùi và bốn chỗ ẩm hay bị bỏ qua.
+    slug: tu-lanh-co-mui-hoi
+    tu_khoa_phu:
+    - khử mùi tủ lạnh
+    - tủ lạnh bị hôi
+    - cách làm sạch mùi tủ lạnh

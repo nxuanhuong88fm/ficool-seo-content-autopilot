@@ -1,0 +1,169 @@
+chu_de:
+  id: TK-16
+  tieu_de: 'Giá sửa quạt điều hòa gồm những gì? Cách hỏi báo giá để kiểm soát phát sinh'
+  tu_khoa_chinh: giá sửa quạt điều hòa
+  chuyen_muc: Thiết bị khác
+  the:
+  - Kinh nghiệm hay
+  - Lỗi thường gặp
+  giai_doan_phieu: F3
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Quạt điều hòa là thiết bị có giá mua thấp hơn nhiều so với máy lạnh, và điều
+    đó tạo ra một đặc điểm riêng khi bàn về chi phí sửa: với một số hạng mục
+    nặng, tổng chi phí sửa có thể tiệm cận giá một máy mới, nên câu hỏi "sửa hay
+    thay" xuất hiện sớm hơn hẳn so với các nhóm thiết bị khác. Vì vậy một báo
+    giá hợp lý cho nhóm này nên nói rõ tỉ lệ giữa chi phí sửa và giá máy mới
+    tương đương, thay vì chỉ đưa con số. Về cấu trúc, báo giá thường gồm: phí
+    kiểm tra để xác định nguyên nhân, công thực hiện theo hạng mục, và chi phí
+    vật tư. Vật tư của thiết bị này chia hai nhóm khác nhau về bản chất: nhóm
+    tiêu hao gồm tấm làm mát và lưới lọc, vốn có tuổi thọ hữu hạn và sẽ phải
+    thay nhiều lần trong đời máy; và nhóm linh kiện gồm bơm nước, mô tơ quạt,
+    bo mạch hoặc bảng điều khiển. Phân biệt hai nhóm này quan trọng vì thay vật
+    tư tiêu hao là việc bảo trì bình thường, còn thay linh kiện mới là sửa chữa.
+    Một điểm cần lưu ý về chẩn đoán là phần lớn các than phiền "không mát" ở
+    thiết bị này không phải hỏng hóc mà là hệ quả của nguyên lý bay hơi: phòng
+    đóng kín làm độ ẩm tăng tới mức nước không bay hơi được nữa. Do đó một lượt
+    kiểm tra có căn cứ phải loại trừ yếu tố thông gió và tình trạng tấm làm mát
+    trước khi kết luận cần thay linh kiện.
+  nguon:
+  - url: https://www.energy.gov/energysaver/evaporative-coolers
+    title: U.S. Department of Energy — Evaporative Coolers
+  - url: https://www.epa.gov/mold/mold-course-chapter-2
+    title: US EPA — Mold Course, Chapter 2
+  serp: []
+
+bai_viet:
+  than: |
+    # Giá sửa quạt điều hòa gồm những gì? Cách hỏi báo giá để kiểm soát phát sinh
+
+    Bài này không đưa con số. Con số phụ thuộc nguyên nhân, mà nguyên nhân thì phải kiểm mới biết. Nhưng nhóm thiết bị này có một đặc điểm riêng cần nói trước mọi thứ khác.
+
+    <!-- IMAGE: IMG-001 | Khách hàng và kỹ thuật viên đứng cạnh chiếc quạt điều hòa trong phòng khách, cùng xem phiếu khảo sát -->
+
+    ## Đặc điểm riêng: câu hỏi "sửa hay thay" tới rất sớm
+
+    Quạt điều hòa có giá mua **thấp hơn nhiều** so với máy lạnh. Hệ quả: với một số hạng mục nặng, tổng chi phí sửa có thể tiệm cận giá một máy mới.
+
+    Nên với nhóm này, một báo giá hợp lý không chỉ đưa con số mà nên nói rõ **tỉ lệ giữa chi phí sửa và giá một máy mới tương đương**. Đó là thông tin bạn cần để quyết, và nó khác với con số đứng một mình.
+
+    Hãy hỏi thẳng: *"Khoản này bằng khoảng bao nhiêu phần của một máy mới cùng loại?"*
+
+    ## Ba phần cấu thành báo giá
+
+    | Phần | Gồm những gì |
+    |---|---|
+    | Kiểm tra | Công xác định nguyên nhân trước khi đề xuất hạng mục |
+    | Công thực hiện | Tính theo từng hạng mục, không gộp một dòng |
+    | Vật tư | **Hai nhóm khác hẳn nhau** — xem mục dưới |
+
+    ## Vật tư tiêu hao khác linh kiện
+
+    Đây là phân biệt quan trọng nhất khi đọc báo giá của nhóm thiết bị này.
+
+    **Nhóm tiêu hao** — tuổi thọ hữu hạn, sẽ phải thay nhiều lần trong đời máy:
+
+    - Tấm làm mát.
+    - Lưới lọc bụi.
+
+    **Nhóm linh kiện** — chỉ thay khi hỏng:
+
+    - Bơm nước.
+    - Mô tơ quạt.
+    - Bo mạch hoặc bảng điều khiển.
+
+    Thay vật tư tiêu hao là **bảo trì bình thường**; thay linh kiện là **sửa chữa**. Một báo giá gộp cả hai vào một dòng "vật tư" làm bạn không biết mình đang trả cho việc nào.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh phiếu báo giá sửa quạt điều hòa đặt trên bàn, các dòng hạng mục và cột chi phí bị làm mờ -->
+
+    ## Trước khi trả tiền cho bất cứ linh kiện nào
+
+    Phần lớn than phiền "không mát" ở thiết bị này **không phải hỏng hóc**. Nó là hệ quả của nguyên lý: máy làm mát bằng cách cho nước bay hơi, nên phòng đóng kín làm độ ẩm tăng tới mức nước không bay hơi được nữa.
+
+    Một lượt kiểm tra có căn cứ phải loại trừ ba thứ trước khi nói tới linh kiện:
+
+    1. **Thông gió.** Phòng có mở hé cửa cho khí ẩm thoát ra không.
+    2. **Tấm làm mát.** Có ướt đều không, có bám cặn hoặc đã mục không.
+    3. **Lưới lọc bụi.** Có bám kín làm giảm lưu lượng khí không.
+
+    Nếu ai đó đề nghị thay bơm hoặc thay bo mạch mà chưa nhắc tới ba thứ này, đó là câu đáng hỏi lại.
+
+    ## Sáu câu nên hỏi trước khi đồng ý
+
+    1. **Nguyên nhân được xác định là gì**, và xác định bằng cách nào?
+    2. Đã loại trừ **thông gió, tấm làm mát và lưới lọc** chưa?
+    3. Hạng mục gồm những gì, **tách theo từng dòng**?
+    4. Phần nào là **vật tư tiêu hao**, phần nào là **linh kiện**?
+    5. Tổng chi phí bằng khoảng **bao nhiêu phần của một máy mới** cùng loại?
+    6. **Điều kiện bảo hành dịch vụ** cho phần việc này là gì?
+
+    Câu 5 là câu riêng của nhóm thiết bị này, và nó thường quyết định luôn cuộc trò chuyện.
+
+    ## Khi nào nghiêng về thay máy
+
+    Các dấu hiệu dưới đây, khi xuất hiện cùng nhau, nghiêng hẳn về phương án thay:
+
+    - Hỏng nằm ở **mô tơ quạt** hoặc **bo mạch**, tức nhóm nặng.
+    - Máy đã dùng nhiều mùa và **vỏ, bánh xe, khớp đã xuống cấp**.
+    - Chi phí sửa chiếm **phần lớn giá một máy mới** cùng loại.
+    - Đã sửa vài lần trong thời gian ngắn, mỗi lần một bộ phận khác.
+
+    Một dấu hiệu đơn lẻ thì chưa đủ. Ba dấu hiệu trở lên thì tiền sửa nhiều khả năng chỉ mua thêm được một mùa.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, mở nắp lưng quạt điều hòa để kiểm tra bơm nước và mô tơ quạt -->
+
+    ## Ba tình huống phát sinh thường gặp
+
+    - **Mở ra thấy thêm hỏng hóc khác.** Chặn trước bằng câu 1 và 3: yêu cầu báo lại và chờ bạn đồng ý.
+    - **Thay tấm làm mát không đúng kích thước hoặc độ dày.** Tấm mỏng hơn thì diện tích tiếp xúc ít hơn, và hiệu quả không như trước dù vừa thay mới.
+    - **Trả tiền cho linh kiện trong khi vấn đề là thông gió.** Chặn trước bằng câu 2.
+
+    ## Nghiệm thu
+
+    1. Cho máy chạy, **mở hé cửa** phòng như điều kiện dùng thật.
+    2. Kiểm **tấm làm mát ướt đều** không.
+    3. Đứng gần **luồng gió trực tiếp** để đánh giá, không đánh giá bằng nhiệt độ chung của phòng.
+    4. Xem **vật tư và linh kiện cũ** đã tháo ra.
+    5. Nhận phiếu ghi rõ hạng mục và điều kiện bảo hành dịch vụ cho phần việc đó.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh ghi hạng mục đã thực hiện vào phiếu bàn giao cho khách bên cạnh quạt điều hòa -->
+
+    ## Gửi gì cho Ficool?
+
+    Năm thông tin: hiện tượng cụ thể, phòng có mở thoáng khi dùng không, tấm làm mát ướt đều hay khô, bơm có tiếng chạy không, và máy dùng được bao nhiêu mùa. Kỹ thuật viên Ficool tại TP.HCM sẽ loại trừ phần thông gió và vật tư tiêu hao trước, rồi mới nói tới linh kiện — và nếu chi phí tiệm cận một máy mới, bạn sẽ được nói thẳng để tự quyết.
+
+    Nếu máy không mát, đọc <!-- INTERNAL: quạt điều hòa không mát | /quat-dieu-hoa-khong-mat/ -->. Nếu nước không lên tấm, xem <!-- INTERNAL: quạt điều hòa không bơm nước | /quat-dieu-hoa-khong-bom-nuoc/ -->. Nếu đang phân vân rửa hay thay tấm, đọc <!-- INTERNAL: khi nào thay tấm làm mát quạt điều hòa | /khi-nao-thay-tam-lam-mat-quat-dieu-hoa/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Giá sửa quạt điều hòa gồm những khoản nào?
+
+    Ba phần: phí kiểm tra để xác định nguyên nhân, công thực hiện theo từng hạng mục, và vật tư. Riêng phần vật tư nên được tách làm hai nhóm: nhóm tiêu hao gồm tấm làm mát và lưới lọc, và nhóm linh kiện gồm bơm nước, mô tơ quạt, bo mạch.
+
+    ### Vì sao phải phân biệt vật tư tiêu hao với linh kiện?
+
+    Vì thay vật tư tiêu hao là bảo trì bình thường, còn thay linh kiện là sửa chữa. Tấm làm mát và lưới lọc có tuổi thọ hữu hạn và sẽ phải thay nhiều lần trong đời máy. Một báo giá gộp cả hai vào một dòng làm bạn không biết mình đang trả cho việc nào.
+
+    ### Khi nào nên thay máy thay vì sửa quạt điều hòa?
+
+    Khi hỏng nằm ở mô tơ quạt hoặc bo mạch, khi máy đã dùng nhiều mùa và phần vỏ cùng khớp đã xuống cấp, khi chi phí sửa chiếm phần lớn giá một máy mới cùng loại, và khi đã sửa vài lần trong thời gian ngắn. Ba dấu hiệu trở lên thì nghiêng hẳn về thay.
+
+    ### Có nên thay bơm ngay khi máy không mát không?
+
+    Không, phải loại trừ ba thứ trước: phòng có mở hé cho khí ẩm thoát ra không, tấm làm mát có ướt đều và còn tốt không, và lưới lọc bụi có bám kín không. Phần lớn than phiền không mát ở thiết bị này là hệ quả của nguyên lý bay hơi chứ không phải hỏng hóc.
+
+    ### Ficool có sửa quạt điều hòa tại TP.HCM không?
+
+    Có. Bạn gửi hiện tượng, phòng có mở thoáng không, tình trạng tấm làm mát, bơm có tiếng chạy không và máy dùng được bao nhiêu mùa. Kỹ thuật viên Ficool sẽ loại trừ thông gió và vật tư tiêu hao trước, nêu hạng mục theo từng dòng, và thống nhất chi phí trước khi làm.
+  seo:
+    tieu_de: Giá sửa quạt điều hòa gồm những phần nào?
+    mo_ta: >-
+      Ba phần cấu thành báo giá, phân biệt vật tư tiêu hao với linh kiện, và vì
+      sao câu hỏi sửa hay thay tới rất sớm.
+    slug: gia-sua-quat-dieu-hoa
+    tu_khoa_phu:
+    - chi phí sửa quạt điều hòa
+    - báo giá sửa quạt hơi nước
+    - thay bơm quạt điều hòa

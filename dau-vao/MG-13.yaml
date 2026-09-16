@@ -1,0 +1,150 @@
+chu_de:
+  id: MG-13
+  tieu_de: 'Lắp đặt máy giặt: Vị trí, đường cấp xả nước và cân chỉnh chân máy'
+  tu_khoa_chinh: lắp đặt máy giặt
+  chuyen_muc: Máy giặt
+  the:
+  - Lắp đặt
+  giai_doan_phieu: F4
+  loai_noi_dung: how_to
+
+nghien_cuu:
+  van_ban: >-
+    Lắp đặt máy giặt có ba nhóm yêu cầu kỹ thuật và mỗi nhóm đều ảnh hưởng trực
+    tiếp tới tuổi thọ máy. Nhóm vị trí và mặt sàn: sàn phải phẳng và đủ cứng,
+    vì sàn mềm hoặc lún làm máy dịch chuyển khi vắt và làm mòn nhanh bạc đạn;
+    cần chừa khoảng hở quanh máy theo hướng dẫn của hãng để tránh va đập và để
+    thao tác bảo trì sau này; tránh nơi ẩm thấp không thông thoáng vì hơi ẩm
+    đọng lại gây mùi và ăn mòn. Nhóm đường nước: đường cấp cần van khoá riêng
+    cho máy để có thể ngắt khi cần mà không ảnh hưởng cả nhà; ống cấp không được
+    gập gãy khúc; áp lực nước phải đạt mức tối thiểu mà nhà sản xuất yêu cầu.
+    Với đường xả, độ cao đầu ống xả phải nằm trong khoảng nhà sản xuất quy định:
+    quá cao thì bơm không đủ sức đẩy, quá thấp thì nước tự chảy ra trong lúc
+    giặt khiến máy phải cấp bù liên tục. Nếu ống xả cắm thẳng vào đường thoát
+    của nhà mà không có khe hở hoặc bẫy nước, mùi cống có thể đi ngược lên máy.
+    Nhóm cân chỉnh và điện: bốn chân máy phải chỉnh cho máy không bập bênh, rồi
+    khoá đai ốc hãm lại; kiểm tra bằng thước nivo theo hai chiều. Bu lông vận
+    chuyển ở lưng máy bắt buộc phải tháo trước lần giặt đầu tiên. Về điện, máy
+    giặt nên có ổ cắm riêng có tiếp địa, không dùng chung ổ với thiết bị công
+    suất lớn, và không dùng dây nối dài kém chất lượng ở khu vực ẩm.
+  nguon:
+  - url: https://www.energystar.gov/products/clothes_washers
+    title: ENERGY STAR — Clothes Washers
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ kỹ thuật
+  serp: []
+
+bai_viet:
+  than: |
+    # Lắp đặt máy giặt: Vị trí, đường cấp xả nước và cân chỉnh chân máy
+
+    Ba nhóm yêu cầu quyết định máy chạy êm hay rung, và cả tuổi thọ bạc đạn: mặt sàn cùng vị trí đặt, đường cấp và đường xả nước, và cân chỉnh chân máy. Một chi tiết nhỏ hay bị bỏ qua nhưng gây hỏng nặng nhất là bu lông vận chuyển chưa tháo.
+
+    <!-- IMAGE: IMG-001 | Kỹ thuật viên đo khoảng trống khu vực dự kiến đặt máy giặt trong khu giặt phơi có ống thoát sàn -->
+
+    ## Bu lông vận chuyển: tháo trước lần giặt đầu tiên
+
+    Nhà sản xuất lắp các bu lông ở lưng máy để cố định lồng giặt trong lúc vận chuyển. Chúng **bắt buộc phải tháo** trước khi giặt lần đầu.
+
+    Quên tháo khiến máy rung dữ dội ngay từ mẻ vắt đầu tiên và có thể làm hỏng hệ thống treo lồng. Nhìn ra lưng máy: nếu thấy các bu lông lớn cắm xuyên vỏ, thường kèm ống nhựa hoặc vòng đệm, đó chính là chúng.
+
+    Giữ lại bu lông sau khi tháo. Khi chuyển nhà bạn sẽ cần lắp lại.
+
+    ## Nhóm 1: mặt sàn và vị trí
+
+    | Yêu cầu | Vì sao |
+    |---|---|
+    | Sàn phẳng và đủ cứng | Sàn mềm hoặc lún làm máy dịch chuyển khi vắt, mòn nhanh bạc đạn |
+    | Chừa khoảng hở quanh máy | Tránh va đập vào tường, và để còn thao tác bảo trì sau này |
+    | Nơi thông thoáng | Hơi ẩm đọng lại gây mùi và ăn mòn |
+    | Gần đường cấp và thoát nước | Ống càng dài càng nhiều điểm hỏng |
+
+    Dòng thứ hai đáng cân nhắc kỹ ngay từ đầu: một chiếc máy nhét sát vào hốc chật sẽ khiến mọi lần vệ sinh hoặc sửa chữa sau này đều tốn thêm công tháo ra kéo vào.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh bốn bu lông vận chuyển màu đỏ còn cắm ở lưng máy giặt mới, chưa được tháo -->
+
+    ## Nhóm 2: đường cấp và đường xả
+
+    **Đường cấp:**
+
+    - Có **van khoá riêng** cho máy, để ngắt được khi cần mà không ảnh hưởng cả nhà.
+    - Ống cấp không gập gãy khúc, không bị đè.
+    - Áp lực nước đạt mức tối thiểu nhà sản xuất yêu cầu.
+
+    **Đường xả:**
+
+    - Đầu ống xả đặt trong khoảng độ cao mà hãng quy định. **Quá cao** thì bơm không đủ sức đẩy; **quá thấp** thì nước tự chảy ra trong lúc giặt và máy phải cấp bù liên tục.
+    - Không cắm ống xả kín vào đường thoát của nhà. Cần khe hở hoặc bẫy nước, nếu không mùi cống đi ngược lên máy.
+    - Ống xả không võng thành túi nước.
+
+    Hai điểm về độ cao và bẫy nước là hai lỗi lắp đặt gây khiếu nại nhiều nhất về sau, và cả hai đều miễn phí nếu làm đúng ngay từ đầu.
+
+    ## Nhóm 3: cân chỉnh chân máy
+
+    1. Đặt máy đúng vị trí cuối cùng, đã cắm đủ ống.
+    2. Đặt **thước nivo** lên nắp máy, kiểm theo chiều ngang.
+    3. Vặn từng chân cho tới khi bọt khí vào giữa.
+    4. Xoay thước 90 độ, kiểm theo chiều còn lại, chỉnh tiếp.
+    5. **Khoá đai ốc hãm** ở từng chân.
+    6. Đẩy chéo bốn góc để xác nhận máy không bập bênh.
+
+    Bước 5 hay bị quên. Chân đã chỉnh mà không khoá sẽ tự xoay dần theo rung, và sau vài tuần máy lại lệch.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, đặt thước nivo trên nắp máy giặt và vặn chỉnh chân đế bằng cờ lê -->
+
+    ## Về điện
+
+    - Ổ cắm **riêng, có tiếp địa**.
+    - Không dùng chung ổ với thiết bị công suất lớn khác.
+    - Không dùng dây nối dài kém chất lượng, nhất là ở khu vực ẩm.
+
+    Khu giặt phơi thường ẩm, nên phần điện ở đây đáng làm cẩn thận hơn chỗ khác trong nhà.
+
+    ## Chạy thử trước khi bàn giao
+
+    Đừng nhận bàn giao khi máy mới chỉ được cắm điện và bật thử vài giây. Yêu cầu chạy một chu trình ngắn có đủ cấp nước, giặt, xả và vắt, rồi kiểm:
+
+    - Nước vào bình thường, không rỉ ở đầu nối.
+    - Nước thoát ra đúng đường ống.
+    - Vắt không rung mạnh, máy không dịch chuyển.
+    - Không có nước đọng dưới gầm sau khi chạy xong.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh đứng cạnh máy giặt vừa lắp đang chạy thử, quan sát đầu ống xả gắn trên tường -->
+
+    ## Gửi gì cho Ficool?
+
+    Gửi ảnh khu vực dự kiến đặt máy, chụp đủ rộng để thấy vị trí van nước, đường thoát sàn và ổ cắm. Kèm loại máy cửa trên hay cửa trước cùng kích thước nếu đã chọn. Ficool tại TP.HCM sẽ kiểm điều kiện lắp trước, và bạn nên đặt lịch khi vị trí đã sẵn sàng để tránh phát sinh tại chỗ.
+
+    Sau khi lắp xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu máy giặt | /checklist-nghiem-thu-may-giat/ --> trước khi thanh toán. Muốn biết một lần sửa hoặc vệ sinh gồm hạng mục gì, xem <!-- INTERNAL: giá sửa máy giặt | /gia-sua-may-giat/ --> và <!-- INTERNAL: bao lâu nên vệ sinh máy giặt | /bao-lau-ve-sinh-may-giat/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Có bắt buộc tháo bu lông vận chuyển máy giặt không?
+
+    Có, và phải tháo trước lần giặt đầu tiên. Bu lông cố định lồng giặt trong lúc vận chuyển; giặt khi chưa tháo khiến máy rung dữ dội và có thể làm hỏng hệ thống treo lồng. Hãy giữ lại bu lông vì bạn sẽ cần lắp lại khi chuyển nhà.
+
+    ### Đầu ống xả máy giặt nên đặt cao bao nhiêu?
+
+    Mỗi model có khoảng độ cao riêng do nhà sản xuất quy định, nên hãy tra tài liệu của máy. Nguyên tắc chung: quá cao thì bơm không đủ sức đẩy nước ra, quá thấp thì nước tự chảy ra ngay trong lúc giặt và máy phải cấp bù liên tục.
+
+    ### Máy giặt kê trên sàn gạch có cần lót thêm gì không?
+
+    Nếu sàn phẳng, cứng và không lún thì không cần. Vấn đề nằm ở sàn mềm, sàn gỗ có độ võng, hoặc mặt sàn không phẳng. Khi đó nên kê một tấm cứng đủ rộng bên dưới rồi mới chỉnh chân, vì máy dịch chuyển khi vắt sẽ làm mòn bạc đạn nhanh hơn.
+
+    ### Vì sao phải khoá đai ốc hãm ở chân máy giặt?
+
+    Vì chân đã chỉnh mà không khoá sẽ tự xoay dần theo rung động của mỗi lần vắt. Sau vài tuần máy lại lệch và bắt đầu rung, dù ban đầu đã cân. Khoá đai ốc là bước cuối và cũng là bước hay bị bỏ qua nhất.
+
+    ### Ficool có kiểm tra điều kiện lắp máy giặt tại TP.HCM không?
+
+    Có. Bạn gửi ảnh khu vực dự kiến đặt máy, chụp đủ rộng để thấy van nước, đường thoát sàn và ổ cắm. Ficool sẽ nêu các điều kiện cần chuẩn bị trước khi lắp. Phạm vi công việc và chi phí phụ thuộc hiện trạng lắp đặt, được thống nhất trước khi làm.
+  seo:
+    tieu_de: 'Lắp đặt máy giặt: vị trí, đường nước và cân chỉnh chân máy'
+    mo_ta: >-
+      Ba nhóm yêu cầu khi lắp máy giặt, sáu bước cân chỉnh chân máy, và chi tiết
+      hay bị bỏ qua nhất là bu lông vận chuyển chưa tháo.
+    slug: lap-dat-may-giat
+    tu_khoa_phu:
+    - lắp máy giặt đúng cách
+    - cân chỉnh chân máy giặt
+    - vị trí đặt máy giặt

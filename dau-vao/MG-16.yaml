@@ -1,0 +1,145 @@
+chu_de:
+  id: MG-16
+  tieu_de: Giá sửa máy giặt gồm những gì? Cách hỏi báo giá để tránh phát sinh
+  tu_khoa_chinh: giá sửa máy giặt
+  chuyen_muc: Máy giặt
+  the:
+  - Kinh nghiệm hay
+  - Lỗi thường gặp
+  giai_doan_phieu: F3
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Báo giá sửa máy giặt khác báo giá vệ sinh ở một điểm cơ bản: vệ sinh là công
+    việc có phạm vi xác định trước, còn sửa chữa thì phải chẩn đoán xong mới
+    biết phạm vi. Vì vậy một con số báo qua điện thoại trước khi xem máy chỉ có
+    thể là ước lượng, và cách hỏi đúng là hỏi về cấu trúc chi phí chứ không hỏi
+    một con số. Cấu trúc chi phí thường gồm ba phần tách biệt: phí kiểm tra và
+    chẩn đoán, chi phí nhân công cho phần việc cụ thể, và chi phí linh kiện nếu
+    phải thay. Nhiều đơn vị khấu trừ phí kiểm tra vào chi phí sửa nếu khách đồng
+    ý sửa, và đây là điều nên hỏi rõ trước. Các yếu tố làm chi phí khác nhau một
+    cách chính đáng: bộ phận hỏng thuộc nhóm ngoại vi hay nhóm lõi, loại máy cửa
+    trên hay cửa trước, vị trí đặt máy có dễ tháo lắp không, linh kiện là hàng
+    chính hãng hay tương đương, và mức độ hỏng khi để lâu. Về linh kiện, khách
+    nên hỏi rõ ba điều: linh kiện mới hay đã qua sử dụng, chính hãng hay tương
+    đương, và bảo hành cho riêng linh kiện đó bao lâu. Về phát sinh, nguyên tắc
+    an toàn là thống nhất trước rằng mọi khoản ngoài phạm vi phải được báo và
+    khách đồng ý trước khi thực hiện. Với các trường hợp chi phí sửa chiếm tỉ lệ
+    lớn so với giá máy mới, nên cân nhắc phương án thay thay vì sửa, và đó là
+    một cuộc trao đổi nên có trước khi bắt đầu tháo máy.
+  nguon:
+  - url: https://www.energystar.gov/products/clothes_washers
+    title: ENERGY STAR — Clothes Washers
+  - url: https://www.electrolux.vn/support/
+    title: Electrolux Việt Nam — Hỗ trợ kỹ thuật
+  serp: []
+
+bai_viet:
+  than: |
+    # Giá sửa máy giặt gồm những gì? Cách hỏi báo giá để tránh phát sinh
+
+    Sửa chữa khác vệ sinh ở một điểm cơ bản: vệ sinh có phạm vi xác định trước, còn sửa thì phải chẩn đoán xong mới biết phạm vi. Nên một con số báo qua điện thoại trước khi xem máy chỉ là ước lượng. Cách hỏi đúng là hỏi về **cấu trúc chi phí**, không hỏi một con số.
+
+    <!-- IMAGE: IMG-001 | Khách hàng và kỹ thuật viên đứng cạnh máy giặt đã mở nắp lưng, cùng xem phiếu ghi hạng mục sửa chữa -->
+
+    ## Ba phần tách biệt của chi phí
+
+    | Phần | Là gì | Nên hỏi gì |
+    |---|---|---|
+    | Phí kiểm tra và chẩn đoán | Công xác định máy hỏng gì | Có khấu trừ vào chi phí sửa nếu tôi đồng ý sửa không? |
+    | Nhân công | Công thực hiện phần việc cụ thể | Phần việc gồm những gì? |
+    | Linh kiện | Phần thay thế, nếu có | Mới hay cũ, chính hãng hay tương đương, bảo hành bao lâu? |
+
+    Tách ba phần này ra là cách tránh tình huống bạn nhận một con số duy nhất mà không biết nó gồm gì.
+
+    Câu hỏi về khấu trừ phí kiểm tra đáng hỏi ngay từ đầu, vì nhiều đơn vị có chính sách đó nhưng không tự nói ra.
+
+    ## Vì sao giá khác nhau một cách chính đáng?
+
+    - **Bộ phận hỏng thuộc nhóm nào.** Tụ, cảm biến, công tắc cửa là nhóm ngoại vi. Bạc đạn, động cơ, bo mạch chính là nhóm lõi, và chênh lệch chi phí rất lớn.
+    - **Loại máy.** Cửa trước và cửa trên có cấu tạo khác nhau, công tháo lắp khác nhau.
+    - **Vị trí đặt máy.** Máy kê trong hốc chật hoặc trên cao cần thêm công.
+    - **Linh kiện chính hãng hay tương đương.**
+    - **Mức độ hỏng khi để lâu.** Một lỗi nhỏ chạy tiếp vài tháng thường kéo theo hỏng chỗ khác.
+
+    Giá phụ thuộc bộ phận hỏng và tình trạng máy, nên một báo giá đúng phải bắt đầu bằng chẩn đoán chứ không bằng bảng giá chung.
+
+    <!-- IMAGE: IMG-002 | Cận cảnh hai linh kiện máy giặt đặt cạnh nhau trên bàn, một cái cũ mòn và một cái mới trong bao bì -->
+
+    ## Ba câu hỏi về linh kiện
+
+    Khi được báo phải thay linh kiện, hỏi đủ ba điều:
+
+    1. **Mới hay đã qua sử dụng?**
+    2. **Chính hãng hay tương đương?**
+    3. **Bảo hành riêng cho linh kiện đó bao lâu?**
+
+    Và một yêu cầu: **được xem linh kiện cũ** sau khi tháo ra. Đây là thông lệ bình thường, không phải sự nghi ngờ.
+
+    ## Nguyên tắc chống phát sinh
+
+    Phát sinh không xấu. Phát sinh **không được báo trước** thì có.
+
+    Hãy thống nhất một câu, nên bằng tin nhắn:
+
+    > Mọi khoản ngoài phạm vi đã thống nhất phải được báo và tôi đồng ý trước khi thực hiện.
+
+    Câu đó giải quyết được phần lớn tranh cãi, và nó không đòi hỏi bạn phải hiểu kỹ thuật.
+
+    ## Khi chi phí sửa quá lớn
+
+    Nếu chi phí sửa chiếm tỉ lệ lớn so với giá một máy mới tương đương, đó là lúc nên cân nhắc thay thay vì sửa. Cuộc trao đổi này **nên có trước khi bắt đầu tháo máy**, không phải sau khi đã tháo xong.
+
+    Hãy hỏi thẳng: với tình trạng này, anh khuyên sửa hay thay, và vì sao.
+
+    <!-- IMAGE: IMG-003 | Kỹ thuật viên đã rút phích cắm, tháo nắp lưng máy giặt và chỉ cho khách xem bộ phận hỏng bên trong -->
+
+    ## Gửi gì trước để nhận ước lượng sát hơn
+
+    Bốn thứ, và chúng rút ngắn đáng kể khoảng cách giữa ước lượng với con số cuối:
+
+    - Model máy, chụp tem ở lưng máy hoặc trong khung cửa.
+    - Mã lỗi hiện trên màn hình, ghi nguyên văn.
+    - Triệu chứng: máy đang làm gì và không làm được gì.
+    - Ảnh vị trí đặt máy, chụp đủ rộng để thấy lối tiếp cận.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên điện lạnh chạy thử máy giặt sau khi sửa xong, quan sát giai đoạn vắt tại nhà khách -->
+
+    ## Xem bảng giá và gửi thông tin cho Ficool
+
+    Bảng giá dịch vụ của Ficool tại TP.HCM ghi phạm vi từng hạng mục, xem tại <!-- INTERNAL: bảng giá dịch vụ | /bang-gia/ -->. Vì chi phí sửa phụ thuộc bộ phận hỏng và tình trạng thực tế, hãy gửi model cùng triệu chứng để nhận hướng dẫn bước kiểm tra trước, thay vì một con số chung.
+
+    Sau khi sửa xong, đối chiếu theo <!-- INTERNAL: checklist nghiệm thu máy giặt | /checklist-nghiem-thu-may-giat/ --> trước khi thanh toán. Nếu máy đã hỏng nhiều lần, đọc <!-- INTERNAL: máy giặt nên sửa hay thay mới | /may-giat-nen-sua-hay-thay-moi/ --> trước khi quyết định.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Vì sao không báo giá sửa máy giặt qua điện thoại được?
+
+    Vì sửa chữa cần chẩn đoán xong mới biết phạm vi, khác với vệ sinh vốn có phạm vi xác định trước. Cùng một triệu chứng có thể đến từ nhiều bộ phận với chi phí rất khác nhau. Con số báo trước khi xem máy chỉ là ước lượng, và nên được nói rõ là ước lượng.
+
+    ### Phí kiểm tra máy giặt có được trừ vào tiền sửa không?
+
+    Nhiều đơn vị có chính sách khấu trừ nếu khách đồng ý sửa, nhưng không phải nơi nào cũng vậy và không phải nơi nào cũng tự nói ra. Đây là câu nên hỏi ngay từ đầu, trước khi kỹ thuật viên tới.
+
+    ### Nên hỏi gì khi thợ báo phải thay linh kiện?
+
+    Ba điều: linh kiện mới hay đã qua sử dụng, chính hãng hay tương đương, và bảo hành riêng cho linh kiện đó bao lâu. Kèm một yêu cầu là được xem linh kiện cũ sau khi tháo ra. Đây là thông lệ bình thường trong nghề.
+
+    ### Làm sao tránh phát sinh khi sửa máy giặt?
+
+    Thống nhất trước bằng tin nhắn rằng mọi khoản ngoài phạm vi đã thoả thuận phải được báo và bạn đồng ý trước khi thực hiện. Gửi sẵn model, mã lỗi và ảnh vị trí đặt máy cũng giúp bên báo giá lường trước phần khó tiếp cận.
+
+    ### Ficool báo giá sửa máy giặt như thế nào?
+
+    Bạn gửi model, mã lỗi và mô tả triệu chứng. Ficool hướng dẫn bước kiểm tra trước, và nhiều trường hợp bạn tự xử lý được. Nếu cần tới nơi, chi phí gồm ba phần tách biệt là kiểm tra, nhân công và linh kiện, được nói rõ trước khi thực hiện tại TP.HCM.
+  seo:
+    tieu_de: Giá sửa máy giặt gồm những gì, cách hỏi báo giá
+    mo_ta: >-
+      Ba phần tách biệt của chi phí sửa máy giặt, ba câu hỏi về linh kiện và
+      nguyên tắc một câu giúp tránh phát sinh ngoài phạm vi.
+    slug: gia-sua-may-giat
+    tu_khoa_phu:
+    - chi phí sửa máy giặt
+    - báo giá sửa máy giặt
+    - phí kiểm tra máy giặt

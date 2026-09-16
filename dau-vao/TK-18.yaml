@@ -1,0 +1,169 @@
+chu_de:
+  id: TK-18
+  tieu_de: 'Chọn quạt điều hòa cho gia đình: Diện tích, độ ồn và chi phí sử dụng'
+  tu_khoa_chinh: chọn quạt điều hòa cho gia đình
+  chuyen_muc: Thiết bị khác
+  the:
+  - Kinh nghiệm hay
+  giai_doan_phieu: F4
+  loai_noi_dung: guide
+
+nghien_cuu:
+  van_ban: >-
+    Điều cần biết trước khi so thông số của quạt điều hòa là nguyên lý làm mát bay
+    hơi đặt ra một yêu cầu ngược với trực giác về máy lạnh: thiết bị này làm mát
+    bằng cách cho nước bay hơi vào dòng khí, nên nó đồng thời đưa thêm ẩm vào không
+    khí của phòng, và để tiếp tục làm mát nó cần được cấp liên tục không khí khô
+    hơn. Trong một phòng đóng kín, độ ẩm tăng dần cho tới khi khả năng bay hơi giảm
+    mạnh và hiệu quả làm mát gần như dừng lại; vì vậy phòng càng kín thì máy càng
+    kém, và điều kiện sử dụng đúng là phòng có thông thoáng, gần cửa sổ hoặc cửa mở.
+    Yếu tố khí hậu cũng quyết định kỳ vọng: hiệu quả của bay hơi tỉ lệ nghịch với
+    độ ẩm sẵn có của không khí, nên ở khu vực có độ ẩm cao như TP.HCM thì mức giảm
+    nhiệt cảm nhận được là vừa phải chứ không tương đương máy lạnh, và đây là giới
+    hạn của nguyên lý không phải giới hạn của model. Về thông số, con số đáng dùng
+    để so giữa các model là lưu lượng gió tính theo mét khối mỗi giờ, trong khi các
+    khẳng định kiểu phù hợp cho phòng bao nhiêu mét vuông không có cơ sở so sánh vì
+    chúng phụ thuộc mức thông thoáng và độ ẩm của chính phòng đó; dung tích bình
+    nước quyết định thời gian chạy giữa hai lần châm nước chứ không quyết định khả
+    năng làm mát; và độ ồn cần được xem ở mức gió thấp bởi đó là mức dùng thực tế
+    khi ngủ, chứ không phải ở mức gió cao. Về chi phí sử dụng, thiết bị gồm một quạt
+    và một bơm nhỏ nên điện tiêu thụ thấp hơn nhiều so với máy lạnh, nhưng chi phí
+    sở hữu có ba phần chứ không phải một: điện, nước tiêu thụ do bay hơi, và tấm làm
+    mát là vật tư có tuổi thọ phải thay khi cặn khoáng làm nó mất khả năng hút nước.
+    Loại thiết bị này phù hợp với không gian bán mở như bếp, nhà xe, ban công có mái,
+    hoặc làm mát cục bộ cho một vị trí người ngồi, và không phù hợp khi kỳ vọng là
+    thay thế máy lạnh trong một phòng ngủ đóng kín.
+  nguon:
+  - url: https://www.energy.gov/energysaver/evaporative-coolers
+    title: U.S. Department of Energy — Evaporative Coolers
+  - url: https://www.ashrae.org/technical-resources
+    title: ASHRAE — Technical Resources
+  - url: https://www.epa.gov/indoor-air-quality-iaq/humidity-and-indoor-air-quality
+    title: U.S. EPA — Humidity and Indoor Air Quality
+  serp: []
+
+bai_viet:
+  than: |
+    # Chọn quạt điều hòa cho gia đình: Diện tích, độ ồn và chi phí sử dụng
+
+    Trước khi so bất cứ thông số nào, có một điều **ngược với trực giác về máy lạnh** cần biết. Nó quyết định máy này có dùng được ở phòng của bạn hay không, và nó quan trọng hơn mọi con số trên nhãn.
+
+    <!-- IMAGE: IMG-001 | Quạt điều hòa đặt cạnh cửa sổ đang mở trong phòng khách, rèm hé và ánh sáng tự nhiên chiếu vào -->
+
+    ## Điều ngược trực giác: phòng càng kín, máy càng kém
+
+    Máy lạnh làm mát tốt hơn khi bạn đóng kín cửa. **Quạt điều hòa thì ngược lại.**
+
+    Lý do nằm ở nguyên lý: máy làm mát bằng cách cho **nước bay hơi vào dòng khí**, nên nó đồng thời **đưa thêm ẩm vào không khí của phòng**. Để tiếp tục bay hơi, nó cần được cấp liên tục không khí **khô hơn**.
+
+    Trong một phòng đóng kín:
+
+    Độ ẩm tăng dần → khả năng bay hơi giảm → **hiệu quả làm mát gần như dừng lại**, trong khi máy vẫn chạy và phòng thì ẩm hơn.
+
+    Nên điều kiện dùng đúng là **phòng có thông thoáng** — gần cửa sổ mở, cửa hé, hoặc ô thoáng. Nếu bạn định đóng kín phòng rồi bật máy, thiết bị bạn cần là máy lạnh.
+
+    ## Ở TP.HCM thì kỳ vọng nên đặt ở đâu
+
+    Hiệu quả của bay hơi **tỉ lệ nghịch với độ ẩm sẵn có** của không khí. TP.HCM có độ ẩm cao, nên mức giảm nhiệt cảm nhận được là **vừa phải**, không tương đương máy lạnh.
+
+    Cần nói rõ: đây là **giới hạn của nguyên lý, không phải giới hạn của model**. Không có model nào vượt qua được điều này, nên không đáng trả thêm tiền để mong khác đi.
+
+    Điều máy này làm được: **tạo dòng khí mát hơn khí phòng** tại vị trí nó thổi tới, với chi phí điện thấp. Đặt kỳ vọng ở đó thì máy đáng dùng.
+
+    <!-- IMAGE: IMG-002 | Người dùng đứng trong bếp có cửa thông ra ngoài, quạt điều hòa đặt ở góc hướng về khu vực bàn ăn -->
+
+    ## Ba thông số đáng xem, và một thông số đáng bỏ qua
+
+    | Thông số | Nói cho bạn điều gì |
+    |---|---|
+    | **Lưu lượng gió (m³/h)** | Con số duy nhất so được giữa các model |
+    | **Dung tích bình nước** | **Thời gian chạy** giữa hai lần châm — không phải khả năng làm mát |
+    | **Độ ồn ở mức gió thấp** | Mức dùng thực tế khi ngủ |
+    | ~~"Phù hợp cho phòng X m²"~~ | **Bỏ qua.** Không có cơ sở so sánh |
+
+    **Vì sao bỏ qua con số mét vuông:** nó phụ thuộc **mức thông thoáng và độ ẩm của chính phòng đó**, mà nhà sản xuất không biết hai điều ấy. Cùng một model sẽ "đủ" cho một hiên thoáng và "không đủ" cho một phòng kín cùng diện tích.
+
+    **Dung tích bình** hay bị hiểu sai thành công suất. Nó chỉ quyết định bạn phải châm nước bao lâu một lần. Bình lớn tiện hơn, nhưng cũng nặng hơn khi đầy và chiếm chỗ hơn — và nếu bạn dùng vài giờ mỗi tối thì bình vừa phải là đủ.
+
+    ## Độ ồn: đo ở mức thấp, không đo ở mức cao
+
+    Máy gồm một **quạt** và một **bơm nhỏ**, nên nó có tiếng gió cộng tiếng nước. Tiếng tăng theo mức gió.
+
+    Nhưng con số đáng xem là **độ ồn ở mức gió thấp**, vì đó là mức bạn thực sự dùng khi ngủ. Một máy êm ở mức thấp mà ồn ở mức cao vẫn dùng được trong phòng ngủ; ngược lại thì không.
+
+    Nếu mua tại chỗ, hãy **nghe thử ở mức thấp** và nghe khi **bơm đang chạy** — nhiều người thử máy lúc bình chưa có nước, và đó là thử thiếu một nửa tiếng ồn.
+
+    ## Chi phí sử dụng có ba phần, không phải một
+
+    | Phần | Ghi chú |
+    |---|---|
+    | **Điện** | Thấp hơn nhiều so với máy lạnh, vì chỉ có quạt và một bơm nhỏ |
+    | **Nước** | Nước bị tiêu thụ thật, do bay hơi — không phải tuần hoàn mãi |
+    | **Tấm làm mát** | **Vật tư có tuổi thọ**, phải thay khi cặn khoáng làm nó mất khả năng hút nước |
+
+    Phần thứ ba là phần người mua hay bỏ qua. Tấm làm mát không phải chi tiết rửa mãi được: cặn khoáng tích dần và đến lúc tấm cứng lại, nước chảy tràn thay vì ngấm vào. Khi chọn model, đáng hỏi trước **tấm làm mát của model này có dễ mua thay thế không** — một máy giá thấp mà không tìm được tấm thay là máy dùng được một quãng rồi thành đồ bỏ.
+
+    <!-- IMAGE: IMG-003 | Hai tấm làm mát tổ ong đặt cạnh nhau, một tấm mới màu sáng và một tấm cũ đã cứng với vệt cặn trắng -->
+
+    ## Bốn thứ nên đo và hỏi trước khi chốt
+
+    1. **Phòng có thông thoáng hay không** — cửa sổ mở được, cửa hé được, hay ô thoáng. Đây là điều kiện ở mục đầu, và nó quyết định máy có dùng được hay không.
+    2. **Chỗ đặt máy**: máy cần khoảng trước mặt để thổi và khoảng sau lưng để lấy khí. Kê sát tường là chặn đường khí vào.
+    3. **Có ổ cắm có tiếp địa và thiết bị chống dòng rò** ở gần đó — đây là thiết bị điện chứa nước.
+    4. **Tấm làm mát có dễ mua thay thế không.**
+
+    Mục 3 hay bị quên khi chọn theo hình dáng, và nó là điều kiện an toàn chứ không phải tiện nghi.
+
+    ## Nơi loại máy này thật sự hợp, và nơi không
+
+    | Hợp | Không hợp |
+    |---|---|
+    | **Bếp** — nóng, và thường có cửa thông | Phòng ngủ **đóng kín**, kỳ vọng như máy lạnh |
+    | **Nhà xe, kho, xưởng nhỏ** | Phòng không có cửa sổ hoặc ô thoáng |
+    | **Ban công có mái, hiên, sân trong** | Phòng đã có máy lạnh và muốn thay thế hẳn |
+    | **Làm mát cục bộ** cho một vị trí người ngồi | Không gian cần kiểm soát độ ẩm |
+    | Nơi **không lắp được máy lạnh** | Nơi cần chạy liên tục nhiều giờ mà không ai châm nước |
+
+    Cột phải không phải là danh sách khuyết điểm — nó là danh sách các tình huống mà thiết bị khác sẽ phục vụ bạn tốt hơn.
+
+    <!-- IMAGE: IMG-004 | Kỹ thuật viên tư vấn cho khách bên cạnh hai mẫu quạt điều hòa khác kích cỡ trong phòng khách có cửa mở -->
+
+    ## Gửi gì cho Ficool?
+
+    Năm thông tin: **phòng định dùng là phòng nào** và **có cửa sổ hoặc ô thoáng mở được hay không**, **diện tích phòng**, **bạn định dùng mấy giờ mỗi lần**, **có ổ cắm có tiếp địa gần vị trí đặt hay chưa**, và **kỳ vọng của bạn** — làm mát cục bộ chỗ ngồi, hay làm mát cả phòng.
+
+    Dữ kiện thứ nhất quan trọng hơn diện tích: nếu phòng không mở thông được, Ficool sẽ nói thẳng rằng loại máy này không phù hợp thay vì bán cho bạn một cái máy sẽ làm bạn thất vọng. Ficool tại TP.HCM sẽ tư vấn lựa chọn cùng vị trí đặt, và thống nhất chi phí trước nếu cần lắp đặt.
+
+    Cách vệ sinh sau khi mua, xem <!-- INTERNAL: cách vệ sinh quạt điều hòa | /cach-ve-sinh-quat-dieu-hoa/ -->. Hạng mục kiểm tra định kỳ, đọc <!-- INTERNAL: bảo trì quạt điều hòa | /bao-tri-quat-dieu-hoa/ -->. Khi nào phải thay tấm làm mát, xem <!-- INTERNAL: khi nào thay tấm làm mát quạt điều hòa | /khi-nao-thay-tam-lam-mat-quat-dieu-hoa/ -->. Nếu máy đang dùng mà không mát, đọc <!-- INTERNAL: quạt điều hòa không mát | /quat-dieu-hoa-khong-mat/ -->. Nếu đang chọn giữa các loại máy sấy thì nguyên tắc tương tự, xem <!-- INTERNAL: so sánh các loại máy sấy quần áo | /so-sanh-cac-loai-may-say-quan-ao/ -->. Chi phí sửa chữa gồm những phần nào thì đọc <!-- INTERNAL: giá sửa quạt điều hòa | /gia-sua-quat-dieu-hoa/ -->.
+
+    ## Câu hỏi thường gặp (FAQ)
+
+    ### Quạt điều hòa dùng trong phòng kín có mát không?
+
+    Hiệu quả làm mát gần như dừng lại trong phòng đóng kín. Máy làm mát bằng cách cho nước bay hơi vào dòng khí nên nó đồng thời đưa thêm ẩm vào không khí, và để tiếp tục bay hơi thì nó cần được cấp liên tục không khí khô hơn. Phòng càng kín thì độ ẩm càng tăng và máy càng kém, nên điều kiện dùng đúng là phòng có cửa sổ mở, cửa hé hoặc ô thoáng.
+
+    ### Quạt điều hòa có mát bằng máy lạnh không?
+
+    Không, và ở TP.HCM thì khác biệt càng rõ. Hiệu quả của bay hơi tỉ lệ nghịch với độ ẩm sẵn có của không khí, nên ở khu vực độ ẩm cao thì mức giảm nhiệt cảm nhận được chỉ vừa phải. Đây là giới hạn của nguyên lý chứ không phải của model, nên không đáng trả thêm tiền để mong khác đi.
+
+    ### Nên xem thông số nào khi chọn quạt điều hòa?
+
+    Lưu lượng gió tính theo mét khối mỗi giờ là con số duy nhất so được giữa các model. Dung tích bình nước chỉ quyết định thời gian chạy giữa hai lần châm nước, không quyết định khả năng làm mát. Độ ồn thì nên xem ở mức gió thấp vì đó là mức dùng thực tế khi ngủ. Nên bỏ qua các khẳng định kiểu phù hợp cho phòng bao nhiêu mét vuông.
+
+    ### Vì sao không nên tin con số phòng bao nhiêu mét vuông?
+
+    Con số đó phụ thuộc mức thông thoáng và độ ẩm của chính phòng đó, mà nhà sản xuất không biết hai điều ấy khi in nhãn. Cùng một model sẽ đủ cho một hiên thoáng và không đủ cho một phòng kín có cùng diện tích, nên nó không cho bạn cơ sở nào để so giữa hai model.
+
+    ### Chi phí dùng quạt điều hòa gồm những gì?
+
+    Ba phần chứ không phải một: điện, nước tiêu thụ do bay hơi, và tấm làm mát là vật tư có tuổi thọ phải thay khi cặn khoáng làm nó mất khả năng hút nước. Phần thứ ba hay bị bỏ qua khi mua, nên đáng hỏi trước liệu tấm làm mát của model đó có dễ mua thay thế không.
+  seo:
+    tieu_de: 'Chọn quạt điều hòa: phòng kín thì máy càng kém'
+    mo_ta: >-
+      Điều ngược trực giác về máy lạnh, thông số nào đáng bỏ qua, và ba phần của
+      chi phí sử dụng.
+    slug: chon-quat-dieu-hoa-cho-gia-dinh
+    tu_khoa_phu:
+    - quạt điều hòa cho phòng bao nhiêu m2
+    - chọn quạt hơi nước
+    - quạt điều hòa có mát không
